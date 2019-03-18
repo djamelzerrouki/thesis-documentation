@@ -1,0 +1,16 @@
+\contentsline {chapter}{\numberline {1}Workflow et cloud}{8}
+\contentsline {section}{\numberline {1.1}Introduction aux Cloud:}{8}
+\contentsline {subsection}{\numberline {1.1.1}introduction}{8}
+\contentsline {subsection}{\numberline {1.1.2}D\IeC {\'e}finition}{9}
+\contentsline {subsection}{\numberline {1.1.3}\IeC {\'E}l\IeC {\'e}ments constitutifs du Cloud Computing}{9}
+\contentsline {subsubsection}{La virtualisation}{9}
+\contentsline {subsubsection}{Datacenter}{10}
+\contentsline {subsubsection}{Plateforme collaborative}{10}
+\contentsline {subsection}{\numberline {1.1.4}Mod\IeC {\`e}les de services Cloud}{11}
+\contentsline {section}{\numberline {1.2}Introduction aux Workflow:}{12}
+\contentsline {chapter}{\numberline {2}Mod\IeC {\'e}lisations et R\IeC {\'e}seau de Petri}{13}
+\contentsline {section}{\numberline {2.1}Introduction}{13}
+\contentsline {section}{\numberline {2.2}cloud computing}{13}
+\contentsline {subsection}{\numberline {2.2.1}Concept du cloud computing}{13}
+\contentsline {chapter}{\numberline {3}Impl\IeC {\'e}mentation}{14}
+\contentsline {section}{\numberline {3.1}impl\IeC {\'e}mentation:}{14}

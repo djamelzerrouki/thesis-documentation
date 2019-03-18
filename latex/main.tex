@@ -1,0 +1,61 @@
+\documentclass[12pt,twoside]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyhead[RO,LE]{Conception et mise en place d’un système Workflow  pour l’envirenement cloud}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Chapter \thechapter}
+\fancyfoot[CO,RE]{Zerrouki djamel}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%opening
+\title{
+	{\textbf{Conception et mise en place d’un système Workflow  pour l’envirenement cloud}} \\   
+	{$ Instituation $}\\
+	{\includegraphics{logo.PNG}}
+}
+\author{Zerrouki Djamel}
+ 
+\begin{document}
+
+\maketitle
+ 
+\chapter*{Abstract}
+Abstract goes here
+
+\chapter*{Dedication}
+To mum and dad
+
+\chapter*{Declaration}
+I declare that..
+
+\chapter*{Acknowledgements}
+I want to thank...
+
+
+\tableofcontents
+
+\listoffigures{jkjkj} 
+%\appendix
+\chapter{Workflow et cloud}
+\input{ch1.tex}
+
+\chapter{Modélisations et Réseau de Petri}
+\input{ch2.tex}
+
+\chapter{Implémentation}
+\input{ch3.tex}
+ 
+
+
+
+
+\end{document}

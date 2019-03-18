@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.28)  18 MAR 2019 22:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.28)  18 MAR 2019 23:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -653,29 +653,59 @@ Overfull \hbox (13.95964pt too wide) in paragraph at lines 8--9
 g et au work-flow, necessaire
  []
 
-) [13
+[13
 
 ]
+<images/tempsnip4.png, id=56, 934.99312pt x 697.10437pt>
+File: images/tempsnip4.png Graphic file (type png)
+<use images/tempsnip4.png>
+Package pdftex.def Info: images/tempsnip4.png  used on input line 18.
+(pdftex.def)             Requested size: 298.75262pt x 222.73756pt.
+
+Overfull \hbox (17.53693pt too wide) in paragraph at lines 23--24
+\OT1/cmr/m/n/12 nologiques. L'absence d'une definition stan-dard a genere n
+on seule-ment des exagerations
+ []
+
+[14 <./images/tempsnip4.png>]
+Overfull \hbox (8.6722pt too wide) in paragraph at lines 32--33
+\OT1/cmr/m/n/12 ^etre re-groupees pour servir des util-isa-teurs mul-ti-ples, 
+pour lesquels des ressources
+ []
+
+
+Overfull \hbox (1.10005pt too wide) in paragraph at lines 32--33
+\OT1/cmr/m/n/12 general, les util-isa-teurs n'ont au-cun contr^ole ou con-nai
+s-sance sur l'emplacement
+ []
+
+
+Overfull \hbox (10.49995pt too wide) in paragraph at lines 39--41
+\OT1/cmr/m/n/12 son, les niveaux de disponi-bilite, la main-ten-abilite, la p
+er-for-mance, l'exploitation,
+ []
+
+[15]) [16]
 Chapter 3.
-(ch3.tex) [14
+(ch3.tex) [17
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 3608 strings out of 493305
- 55599 string characters out of 3129367
- 122953 words of memory out of 3000000
- 7107 multiletter control sequences out of 15000+200000
+ 3616 strings out of 493305
+ 55756 string characters out of 3129367
+ 123964 words of memory out of 3000000
+ 7113 multiletter control sequences out of 15000+200000
  10336 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,43p,946b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,43p,1437b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/djamel/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/djamel/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (14 pages, 882473 bytes).
+Output written on main.pdf (17 pages, 1094671 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

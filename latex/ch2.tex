@@ -40,3 +40,89 @@ Beaucoup de chercheurs ont tenté de définir le cloud computing (Geelan, 2008 ;
     	Après avoir présenté les caractéristiques essentielles d’un service cloud, nous présentons, brièvement, dans la section suivante, quelques technologies connexes aux clouds.
     	
     \end{itemize} 
+\subsection{Technologies connexes }
+
+\subsection{Modèles du cloud computing  }
+\subsubsection {Modèles de service du cloudcomputing}  
+XaaS (X as a Service) représente la base du paradigme du cloud computing, où X représente un service tel qu’un logiciel, une plateforme, une infrastructure, un Business Process, etc. Nous présentons, dans cette section,  quatre  modèles de services (Rimal, 2009), à savoir: (1) Logiciel en tant que services SaaS (Software as a Service), où le matériel, l’hébergement, le framework d’application et le logiciel sont dématérialisés, (2) Plateforme en tant que service PaaS (Platform as a Service), où le matériel, l’hébergement et le framework d’application sont dématérialisés, (3) Infrastructure en tant que service IaaS (Infrastructure as a Service) et (4) Matériel en tant que service HaaS (Hardware as a Service), où seul le matériel (serveurs) est dématérialisé dans ces deux derniers cas. La figure \ref{fig:capture5} montre le modèle classique et les différents modèles de service de cloud
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Capture5}
+	\caption{Les services XaaS du cloud computing}
+	\label{fig:capture5}
+\end{figure}
+
+\begin{enumerate}
+\item 	\textbf{Software as a Service (SaaS):}
+
+Ce modèle de service est caractérisé par l’utilisation d’une application partagée qui fonctionne sur une infrastructure Cloud. L’utilisateur accède à l’application par le réseau au travers de divers types de terminaux (souvent via un navigateur web). L’administrateur de l’application ne gère pas et ne contrôle pas l’infrastructure sous-jacente (réseaux, serveurs, applications, stockage).  Il ne contrôle pas les fonctions de l’application à l’exception d’un paramétrage de quelques fonctions utilisateurs limitées. On prend comme exemple les logiciels de messagerie au travers d’un navigateur comme Gmail ou Yahoo mail. 
+
+\item  \textbf{ Platform as a Service (PaaS):}
+
+L’utilisateur a la possibilité de créer et de déployer sur une infrastructure Cloud PaaS ses propres applications en utilisant les langages et les outils du fournisseur. L’utilisateur ne gère pas ou ne contrôle pas l’infrastructure Cloud sous-jacente (réseaux, serveurs, stockage) mais l’utilisateur contrôle l’application déployée et sa configuration. Comme exemple de PaaS, on peut citer un des plus anciens -IntuitQuickbase- qui permet de déployer ses applications bases de données en ligne ou -Google Apps Engine (GAE)- pour déployer des services Web. 
+
+Dans ces deux cas l’utilisateur de ces services n’a pas à gérer des serveurs ou des systèmes pour déployer ses applications en ligne et dimensionner des ressources adaptées au trafic.
+\item   \textbf{Infrastructure as a Service (IaaS):}
+
+L’utilisateur loue des moyens de calcul et de stockage, des capacités réseau et d’autres ressources indispensables (partage de charge, pare-feu, cache). L’utilisateur a la possibilité de déployer n’importe quel type de logiciel incluant les systèmes d’exploitation. L’utilisateur ne gère pas ou ne contrôle pas l’infrastructure Cloud sous-jacente mais il a le contrôle sur les systèmes d’exploitation, le stockage et les applications. Il peut aussi choisir les caractéristiques principales des équipements réseau comme le partage de charge, les pare-feu, etc. L’exemple emblématique de ce type de service est Amazon Web Services qui fournit du calcul (EC2), du stockage (S3, EBS), des bases de données en ligne (SimpleDB) et quantité d’autres services de base. Il est maintenant imité par de très nombreux fournisseurs.
+	\item \textbf{Points fortset Points faibles des services cloud:} 
+\end{enumerate}
+\begin{table}[h]
+	\begin{tabular}{l|l|l|ll}
+		
+		\cline{2-3}
+		& Points forts                                                                                              & Points faibles                                                                                                                            &  &  \\ \cline{1-3}
+		\multicolumn{1}{|l|}{SaaS} & \begin{tabular}[c]{@{}l@{}}Pas d’installation\\  Plus de licence\end{tabular}                             & \begin{tabular}[c]{@{}l@{}}Logiciel limité\\ Sécurité\\ Dépendance de prestataire\end{tabular}                                             \\ \cline{1-3}
+		\multicolumn{1}{|l|}{PaaS} & \begin{tabular}[c]{@{}l@{}}Pas d'infrastructure Nécessaire\\ Pas d'infrastructure Nécessaire\end{tabular} & \begin{tabular}[c]{@{}l@{}}Limitation des langages\\ Pas de personnalisation dans la configuration des\\ machines virtuelles\end{tabular}   \\ \cline{1-3}
+		\multicolumn{1}{|l|}{IaaS} & \begin{tabular}[c]{@{}l@{}}Administration\\  Personnalisation\\ Flexibilité d'utilisation\end{tabular}    & \begin{tabular}[c]{@{}l@{}}Sécurité\\ Besoin d'un administrateur système\end{tabular}                                                    \\ \cline{1-3}
+	\end{tabular}
+	
+	
+	
+	\caption{Points forts et Points faibles des services Cloud}
+	\label{tab:tabl1}
+\end{table}
+\subsubsection { Modèles de déploiement}  
+
+Selon la définition du cloud computing  donnée part le NIST (Mell, 2011), il existe quatre modèles de déploiement des services de cloud, à savoir : cloud privé, cloud communautaire, cloud public et cloud hybride, comme illustré dans la figure \ref{fig:cloudmd}.
+\begin{enumerate}
+	\item \textbf{Cloud privé :}\\
+	 L’ensemble des ressources d’un cloud privé est exclusivement mis à disposition d’une entreprise ou organisation unique. Le cloud privé peut être géré par l’entreprise ellemême (cloud privé interne) ou par une tierce partie (cloud privé externe). Les ressources d’un cloud privé se trouvent généralement dans les locaux de l’entreprise ou bien chez un fournisseur de services. Dans ce dernier cas, l’infrastructure est entièrement dédiée à l’entreprise et y est accessible via un réseau sécurisé (de type VPN).  L’utilisation d’un cloud privé permet de 	garantir, par exemple, que les ressources matérielles allouées ne seront jamais partagées par deux clients différents. 
+	
+	\item \textbf{Cloud communautaire:}\\
+	 L’infrastructure d’un cloud communautaire est partagée par plusieurs organisations indépendantes ayant des intérêts communs. L’infrastructure peut être gérée par les organisations membres ou par un tiers. L’infrastructure peut être située, soit au sein des dites organisations, soit chez un fournisseur de services. 
+	\item \textbf{Cloud public:}\\
+	L’infrastructure d’un cloud public est accessible à un large public et appartient à un fournisseur de services. Ce dernier facture les utilisateurs selon la consommation et garantit la disponibilité des services via des contrats SLA. 
+	\item \textbf{Cloud hybride:}\\
+	 L’infrastructure d’un cloud hybride est une composition de plusieurs clouds (privé, communautaire ou public). Les différents clouds composant l’infrastructure restent des entités uniques, mais sont reliés par une technologie standard ou propriétaire permettant ainsi la portabilité des données ou des applications déployées sur les différents clouds.  
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Cloud_MD}
+	\caption{Modèles de déploiement du cloud computing }
+	\label{fig:cloudmd}
+\end{figure}
+\end{enumerate}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%              Workflow et systèmes de gestion de workflows 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \section{Workflow et systèmes de gestion de Workflow}
+ 	 
+ 	 \subsection{ Concepts de base et définitions de Workflow }
+ 	 
+ 
+La notion de workflow (traduit en français par "flux de travail") est apparue dans l’industrie de l’image électronique et de la gestion de production assistée par ordinateur (GW, 1998). Ce concept a donc été créé dans le but d’automatiser les procédures de travail au sein des organisations. L’idée d’enchaîner différentes tâches pour réaliser un traitement complexe est pertinente. De plus, dans les infrastructures actuelles distribuées, gérant des ressources hétérogènes, telles que le cloud computing, bénéficier d’un environnement autorisant la définition et l’exécution des chaînes de traitement constitue une des fonctionnalités essentielles recherchée, à la fois par les scientifiques et au-delà par le grand public.
+
+Deux grandes catégories d’usages utilisent la notion de workflow : les protocoles expérimentaux, dans des domaines tels que la biologie, l’astronomie, la physique, la neuroscience, la chimie, etc. (workflows scientifiques) et les chaînes de traitement pratiquées dans des domaines commerciaux, financiers, pharmaceutiques (processus métiers). Elles donnent lieu à plusieurs pistes de recherche diverses, mais cependant connexes. Dans le cadre de cette thèse, nous traitons plus particulièrement les workflows scientifiques.
+
+\subsubsection{Définitions de workflow}
+La WfMC (Workflow Management Coalition) (WfMC, 1999) a donné une définition qui généralise la notion de workflow indépendamment des domaines spécifiques:
+
+"Workflow is the automation of business process, in whole or part during which documents, information or tasks are passed from one participant to another for action, according to a set of procedural rules."
+
+Nous traduisons cette définition par: " Un workflow est l'automatisation d'un processus métier, en tout ou en partie, au cours de laquelle des documents, des informations ou des tâches sont passées d'un participant à un autre pour l'action, selon un ensemble de règles procédurales". 
+
+ 	 

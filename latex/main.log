@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.28)  18 MAR 2019 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.28)  19 MAR 2019 16:51
 entering extended mode
 **./main.tex
 (main.tex
@@ -22,11 +22,80 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+"
+Package: babel 2018/02/14 3.18 The Babel package
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.de
+f"
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel-french\fr
+ancais.ldf"
+Language: francais 2018/02/04 v3.4b French support from the babel system
+
+
+Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
+(francais.ldf)                it might be removed sooner or later. Please
+(francais.ldf)                use `french' instead; reported on input line 31.
+
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel-french\fr
+ench.ldf"
+Language: french 2018/02/04 v3.4b French support from the babel system
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
+"
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.
+def")
+\bbl@dirlevel=\count89
+)
+\l@acadian = a dialect from \language\l@french 
+\FB@nonchar=\count90
+Package babel Info: Making : an active character on input line 411.
+Package babel Info: Making ; an active character on input line 412.
+Package babel Info: Making ! an active character on input line 413.
+Package babel Info: Making ? an active character on input line 414.
+\FBguill@level=\count91
+\FB@everypar=\toks14
+\FB@Mht=\dimen104
+\mc@charclass=\count92
+\mc@charfam=\count93
+\mc@charslot=\count94
+\std@mcc=\count95
+\dec@mcc=\count96
+\c@FBcaption@count=\count97
+\listindentFB=\skip43
+\descindentFB=\skip44
+\labelwidthFB=\skip45
+\leftmarginFB=\skip46
+\parindentFFN=\dimen105
+\FBfnindent=\skip47
+)))
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\carlisle\scalefnt
+.sty")
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.s
+ty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
 "
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
  ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
@@ -343,11 +412,6 @@ Now handling font encoding U ...
 .sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.s
-ty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-)
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics
 .sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
@@ -366,8 +430,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 ex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
 .sty"
@@ -386,18 +450,18 @@ Package ifvtex Info: VTeX not detected.
 .sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count88
-\Gm@cntv=\count89
-\c@Gm@tempcnt=\count90
-\Gm@bindingoffset=\dimen105
-\Gm@wd@mp=\dimen106
-\Gm@odd@mp=\dimen107
-\Gm@even@mp=\dimen108
-\Gm@layoutwidth=\dimen109
-\Gm@layoutheight=\dimen110
-\Gm@layouthoffset=\dimen111
-\Gm@layoutvoffset=\dimen112
-\Gm@dimlist=\toks17
+\Gm@cnth=\count98
+\Gm@cntv=\count99
+\c@Gm@tempcnt=\count100
+\Gm@bindingoffset=\dimen108
+\Gm@wd@mp=\dimen109
+\Gm@odd@mp=\dimen110
+\Gm@even@mp=\dimen111
+\Gm@layoutwidth=\dimen112
+\Gm@layoutheight=\dimen113
+\Gm@layouthoffset=\dimen114
+\Gm@layoutvoffset=\dimen115
+\Gm@dimlist=\toks18
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
 .cfg"))
@@ -409,66 +473,75 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 sty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen113
-\captionmargin@=\dimen114
-\captionwidth=\dimen115
-\caption@tempdima=\dimen116
-\caption@indent=\dimen117
-\caption@parindent=\dimen118
-\caption@hangindent=\dimen119
+\captionmargin=\dimen116
+\captionmargin@=\dimen117
+\captionwidth=\dimen118
+\caption@tempdima=\dimen119
+\caption@indent=\dimen120
+\caption@parindent=\dimen121
+\caption@hangindent=\dimen122
 )
-\c@caption@flags=\count91
-\c@ContinuedFloat=\count92
+\c@caption@flags=\count101
+\c@ContinuedFloat=\count102
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaptio
 n.sty"
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count93
-\c@subtable=\count94
+\c@subfigure=\count103
+\c@subtable=\count104
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr
 .sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip43
-\f@nch@O@elh=\skip44
-\f@nch@O@erh=\skip45
-\f@nch@O@olh=\skip46
-\f@nch@O@orh=\skip47
-\f@nch@O@elf=\skip48
-\f@nch@O@erf=\skip49
-\f@nch@O@olf=\skip50
-\f@nch@O@orf=\skip51
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Info: Redefining \degres on input line 28.
+LaTeX Info: Redefining \dots on input line 28.
+LaTeX Info: Redefining \up on input line 28.
+
+
+Package french.ldf Warning: OT1 encoding should not be used for French.
+(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(french.ldf)                of your document; reported on input line 28.
+
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
 kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count95
-\scratchdimen=\dimen120
+\scratchcounter=\count105
+\scratchdimen=\dimen123
 \scratchbox=\box26
-\nofMPsegments=\count96
-\nofMParguments=\count97
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count98
-\MPscratchDim=\dimen121
-\MPnumerator=\count99
-\makeMPintoPDFobject=\count100
-\everyMPtoPDFconversion=\toks19
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen124
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks20
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
 -base.sty"
@@ -566,18 +639,18 @@ G,.JBIG2,.JB2,.eps]
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 29.
+(Font)              <20.74> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 29.
+(Font)              <14.4> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 29.
+(Font)              <12> on input line 30.
 <images/logo.PNG, id=1, 134.904pt x 133.6995pt>
 File: images/logo.PNG Graphic file (type png)
 <use images/logo.PNG>
-Package pdftex.def Info: images/logo.PNG  used on input line 29.
+Package pdftex.def Info: images/logo.PNG  used on input line 30.
 (pdftex.def)             Requested size: 134.90367pt x 133.69916pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 30.
 [1
 
 {C:/Users/djamel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/l
@@ -607,31 +680,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [7
 
 ]
-Chapter 1.
-(ch1.tex
-<images/screenshot001.png, id=30, 342.078pt x 288.1164pt>
-File: images/screenshot001.png Graphic file (type png)
-<use images/screenshot001.png>
-Package pdftex.def Info: images/screenshot001.png  used on input line 8.
-(pdftex.def)             Requested size: 342.07715pt x 288.11568pt.
+Chapitre 1.
+(ch2.tex
+Overfull \hbox (13.69853pt too wide) in paragraph at lines 8--9
+[]\OT1/cmr/m/n/12 Ce cha-pitre presente une in-tro-duc-tion au cloud com-pu-ti
+ng et au work-flow, necessaire
+ []
 
-Underfull \vbox (badness 1087) has occurred while \output is active []
+[8
 
- [8
-
- <./images/screenshot001.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
-<screenshot002.png, id=35, 462.0462pt x 267.8808pt>
-File: screenshot002.png Graphic file (type png)
-<use screenshot002.png>
-Package pdftex.def Info: screenshot002.png  used on input line 42.
-(pdftex.def)             Requested size: 426.79134pt x 247.4466pt.
+]
+<images/tempsnip4.png, id=33, 934.99312pt x 697.10437pt>
+File: images/tempsnip4.png Graphic file (type png)
+<use images/tempsnip4.png>
+Package pdftex.def Info: images/tempsnip4.png  used on input line 18.
+(pdftex.def)             Requested size: 298.75262pt x 222.73756pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -639,73 +702,85 @@ Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[9] [10 <./screenshot002.png>]
-<screenshot003.png, id=44, 448.074pt x 218.2554pt>
+[9 <./images/tempsnip4.png>] [10]
+<images/Capture5.png, id=41, 838.332pt x 460.119pt>
+File: images/Capture5.png Graphic file (type png)
+<use images/Capture5.png>
+Package pdftex.def Info: images/Capture5.png  used on input line 50.
+(pdftex.def)             Requested size: 298.75262pt x 163.97174pt.
+ [11 <./images/Capture5.png>]
+Overfull \hbox (70.97922pt too wide) in paragraph at lines 71--79
+[][] 
+ []
+
+[12]
+<images/Cloud_MD.png, id=49, 595.22375pt x 465.74pt>
+File: images/Cloud_MD.png Graphic file (type png)
+<use images/Cloud_MD.png>
+Package pdftex.def Info: images/Cloud_MD.png  used on input line 101.
+(pdftex.def)             Requested size: 213.39566pt x 166.96982pt.
+ [13 <./images/Cloud_MD.png (PNG copy)>]
+Overfull \hbox (9.39452pt too wide) in paragraph at lines 122--123
+[]\OT1/cmr/m/n/12 La WfMC (Work-flow Ma-na-ge-ment Coa-li-tion) (WfMC, 1999) a 
+donne une definition
+ []
+
+) [14]
+Chapitre 2.
+(ch1.tex
+<images/screenshot001.png, id=57, 342.078pt x 288.1164pt>
+File: images/screenshot001.png Graphic file (type png)
+<use images/screenshot001.png>
+Package pdftex.def Info: images/screenshot001.png  used on input line 8.
+(pdftex.def)             Requested size: 342.07715pt x 288.11568pt.
+
+Underfull \vbox (badness 1087) has occurred while \output is active []
+
+ [15
+
+ <./images/screenshot001.png>]
+<screenshot002.png, id=62, 462.0462pt x 267.8808pt>
+File: screenshot002.png Graphic file (type png)
+<use screenshot002.png>
+Package pdftex.def Info: screenshot002.png  used on input line 42.
+(pdftex.def)             Requested size: 426.79134pt x 247.4466pt.
+ [16] [17 <./screenshot002.png>]
+<screenshot003.png, id=70, 448.074pt x 218.2554pt>
 File: screenshot003.png Graphic file (type png)
 <use screenshot003.png>
 Package pdftex.def Info: screenshot003.png  used on input line 88.
 (pdftex.def)             Requested size: 426.79134pt x 207.89093pt.
- [11 <./screenshot003.png>]) [12]
-Chapter 2.
-(ch2.tex
-Overfull \hbox (13.95964pt too wide) in paragraph at lines 8--9
-[]\OT1/cmr/m/n/12 Ce chapitre presente une in-tro-duc-tion au cloud com-put-in
-g et au work-flow, necessaire
- []
-
-[13
-
-]
-<images/tempsnip4.png, id=56, 934.99312pt x 697.10437pt>
-File: images/tempsnip4.png Graphic file (type png)
-<use images/tempsnip4.png>
-Package pdftex.def Info: images/tempsnip4.png  used on input line 18.
-(pdftex.def)             Requested size: 298.75262pt x 222.73756pt.
-
-Overfull \hbox (17.53693pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/n/12 nologiques. L'absence d'une definition stan-dard a genere n
-on seule-ment des exagerations
- []
-
-[14 <./images/tempsnip4.png>]
-Overfull \hbox (8.6722pt too wide) in paragraph at lines 32--33
-\OT1/cmr/m/n/12 ^etre re-groupees pour servir des util-isa-teurs mul-ti-ples, 
-pour lesquels des ressources
- []
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 111.
 
 
-Overfull \hbox (1.10005pt too wide) in paragraph at lines 32--33
-\OT1/cmr/m/n/12 general, les util-isa-teurs n'ont au-cun contr^ole ou con-nai
-s-sance sur l'emplacement
- []
-
-
-Overfull \hbox (10.49995pt too wide) in paragraph at lines 39--41
-\OT1/cmr/m/n/12 son, les niveaux de disponi-bilite, la main-ten-abilite, la p
-er-for-mance, l'exploitation,
- []
-
-[15]) [16]
-Chapter 3.
-(ch3.tex) [17
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
+) [18 <./screenshot003.png>]
+Chapitre 3.
+(ch3.tex) [19
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 3616 strings out of 493305
- 55756 string characters out of 3129367
- 123964 words of memory out of 3000000
- 7113 multiletter control sequences out of 15000+200000
- 10336 words of font info for 36 fonts, out of 3000000 for 9000
+ 4849 strings out of 493305
+ 74234 string characters out of 3129367
+ 152217 words of memory out of 3000000
+ 8315 multiletter control sequences out of 15000+200000
+ 10637 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,43p,1437b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,14n,43p,1437b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/djamel/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/djamel/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (17 pages, 1094671 bytes).
+fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/djamel/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/djamel/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
+/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb>
+Output written on main.pdf (19 pages, 2458115 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -7,6 +7,8 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{fancyhdr}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
 \pagestyle{fancy}
 
 \fancyhead{}
@@ -18,6 +20,15 @@
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 %opening
+\usepackage[natbib = false,
+            backend = bibtex8,
+            style = authoryear, 
+            maxcitenames = 2,
+            mincitenames = 1,
+            maxbibnames = 100
+            ]{biblatex}
+
+\addbibresource{references.bib}
 \title{
 	{\textbf{Conception et mise en place d’un système Workflow  pour l’envirenement cloud}} \\   
 	{$ Instituation $}\\
@@ -44,19 +55,18 @@ I want to thank...
 
 \tableofcontents
 
-\listoffigures{jkjkj} 
 %\appendix
 \chapter{Concepts fondamentaux de cloud et de workflow }
 \input{ch2.tex}
 
 \chapter{Modélisations et Réseau de Petri}
-\input{ch1.tex}
+%\input{ch1.tex}
 
 \chapter{Implémentation}
-\input{ch3.tex}
+%\input{ch3.tex}
  
 
-
+ \printbibliography
 
 
 \end{document}

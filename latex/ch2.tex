@@ -3,7 +3,7 @@
  	 \section{Introduction}
  	  
     
-    Le cloud computing, traduit le plus souvent en français par " informatique dans les nuages", " informatique dématérialisée " ou encore " infonuagique ", est un domaine qui regroupe un ensemble de techniques et de pratiques consistant à accéder, en libre-service, à du matériel ou à des logiciels informatiques, à travers une infrastructure réseau (Internet). Ce concept rend possible la distribution des ressources informatiques sous forme de services pour lesquels l'utilisateur paie uniquement pour ce qu'il utilise. Ces services peuvent être utilisés pour exécuter des applications scientifiques et commerciales, souvent modélisées sous forme de workflows.
+    Le cloud computing, traduit le plus souvent en français par " informatique dans les nuages", " informatique dématérialisée " ou encore " infonuagique ", est un domaine qui regroupe un ensemble de techniques et de pratiques consistant à accéder, en libre-service, à du matériel ou à des logiciels informatiques, à travers une infrastructure réseau (Internet). Ce concept rend possible la distribution des ressources informatiques sous forme de services pour lesquels l'utilisateur paie uniquement pour ce qu'il utilise. Ces services peuvent être utilisés pour exécuter des applications scientifiques et commerciales, souvent modélisées sous forme de workflows.\parencite[see][p10]{latexcompanion}
      
     Ce chapitre présente une introduction au cloud computing et au workflow, nécessaire pour la compréhension générale de ce rapport.
     
@@ -15,7 +15,7 @@
     
     \begin{figure}[h]
     	\centering
-    	\includegraphics[width=0.7\linewidth]{images/tempsnip4}
+    	\includegraphics[width=0.4\linewidth]{images/tempsnip4}
     	\caption{Prévisions de la taille du marché du cloud computing  public (Ried, 2011).}
     	\label{fig:tempsnip4}
     \end{figure}
@@ -121,8 +121,57 @@ Deux grandes catégories d’usages utilisent la notion de workflow : les protoc
 \subsubsection{Définitions de workflow}
 La WfMC (Workflow Management Coalition) (WfMC, 1999) a donné une définition qui généralise la notion de workflow indépendamment des domaines spécifiques:
 
-"Workflow is the automation of business process, in whole or part during which documents, information or tasks are passed from one participant to another for action, according to a set of procedural rules."
+\textit{"Workflow is the automation of business process, in whole or part during which documents, information or tasks are passed from one participant to another for action, according to a set of procedural rules."}
 
 Nous traduisons cette définition par: " Un workflow est l'automatisation d'un processus métier, en tout ou en partie, au cours de laquelle des documents, des informations ou des tâches sont passées d'un participant à un autre pour l'action, selon un ensemble de règles procédurales". 
 
- 	 
+En ce qui concerne le workflow scientifique, nous retiendrons la définition suivante. 
+
+Un workflow est composé d’un ensemble de tâches (traitements) organisées selon un ordre logique, afin de réaliser un traitement global, complexe et pertinent sur un ensemble de données sources. Ces données sont souvent complexes, tant au niveau de leurs structures que de leurs organisations. Elles sont souvent volumineuses.
+
+La taille d’un workflow scientifique peut varier de quelques tâches à des millions de tâches, qui sont souvent de calcul intensif "Computation Intensive" (Ludäscher, 2009).  Pour les grands workflows, il est souhaitable de répartir les tâches entre plusieurs ressources, afin d’optimiser les temps d’exécution. En tant que tel, les workflows impliquent souvent  des calculs répartis sur des clusters, des grilles, et d'autres infrastructures informatiques. Récemment, les clouds computing  sont évalués comme une plateforme d'exécution de workflows (Hoffa, 2008; Juve, 2008). L’exécution d’un workflow est gérée par un SGWf (Système de Gestion de Workflow) dont l’architecture de référence est décrite brièvement dans la section suivante. 
+1
+
+
+\subsubsection{Les types de workflow}
+\textbf{Regroupement des workflows:}
+Une première manière de regrouper les workflows est la suivante :
+\begin{enumerate}
+
+	\item les workflows documentaires (rédaction, validation, traduction de documents),
+	\item les workflows métiers, représentant un processus transverse à l'entreprise (concerne plusieurs entités organisationnelles). Il s'agit le plus souvent de procédures rattachées à une division opérationnelle de l'entreprise. Cette procédure peut être qualifiée de procédure métier, processus métier, procédure opérationnelle ou Business Process. Cela désigne un ensemble d'activités qui s'enchaînent de manière chronologique pour atteindre un objectif, généralement délivrer un produit ou un service, dans le contexte d'une organisation de travail (ex : une entreprise, administration, etc.).
+	
+	Ainsi, on qualifie de Business Process (processus métier) l'ensemble des activités et de procédures qui permettent collectivement la réalisation d'un objectif métier. Le workflow correspond à l'automatisation de ce Business Process.
+	
+	
+\end{enumerate}
+
+On peut aussi regrouper les workflows selon les catégories suivantes :
+
+\begin{enumerate}
+\item \textbf{le WorkFlow de production:}
+qui correspond à la gestion des processus de base de l'entreprise. Les procédures supportent peu de changements dans le temps, et les transactions sont répétitives (ex : contrats d'assurance, gestion de litiges, de réclamations clients, etc.),
+\item \textbf{le WorkFlow Administratif:}
+gestion des procédures administratives par circulation de documents électroniques (ordres de mission, demandes de formations, ...) , automatise des processus variables (plusieurs cas) et mais bien définis (bien structurés). 
+\item \textbf{le WorkFlow Ad-Hoc:}
+généralement traitement de procédures secondaires (procédure d’exception) et dont la structuration est faible (circulation de notes d'information) et pour lesquelles il n’est pas toujours possible de définir des règles à l’avance, orientés vers le travail coopératif en groupe où l'initiative individuelle importante et problèmes à résoudre au cas par cas et en mode interactif.
+
+\item \textbf{le WorkFlow collaboratifs:}
+ Gestion d'un travail de groupe dont le processus est complexe, et souvent créé pour un travail de groupe particulier (travail collaboratif, équipe virtuelle,...) .
+
+\end{enumerate}
+
+\textbf{Comparaison entre types de workflows:}
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[]
+	\begin{tabular}{|l|l|l|l|l|}
+		\hline
+		\textbf{Critères} & \textbf{\begin{tabular}[c]{@{}l@{}}De\\   production\end{tabular}} & \textbf{Administratif} & \textbf{Ad-hoc} & \textbf{Collaboratif} \\ \hline
+	 \textbf{\begin{tabular}[c]{@{}l@{}}Capacité de \\   traitement\end{tabular}} &  \begin{tabular}[c]{@{}l@{}}Haute capacité\\de traitement\\Temps de \\réponse rapide.\\   Le but est la\\  productivité\end{tabular} &  \begin{tabular}[c]{@{}l@{}}Capacité de\\ traitement \\inferieure\\ (10 à 100 fois\\ moins que pour \\un workflow \\de production\end{tabular} &  \begin{tabular}[c]{@{}l@{}}Facilite\\ d'utilisation \\et d'apprentissage \\sont très\\importantes.\end{tabular} &  \begin{tabular}[c]{@{}l@{}}Capacité de\\ changer \\dynamiquement \\la définition d’un\\   processus est\\ essentielle\end{tabular} \\ \hline
+		\textbf{Utilisation} & \begin{tabular}[c]{@{}l@{}}Employés\\   travaillant à \\ plein temps sur\\  des activités\\  courtes.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Un grand \\ nombre\\ d'employés \\peuvent\\ être impliqués\end{tabular} & \begin{tabular}[c]{@{}l@{}}La modification\\ dynamique et rapide\\ des processus est\\ essentielle.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fournir\\une voie\\structurée \\pour travailler\\ensemble\end{tabular} \\ \hline
+		\textbf{\begin{tabular}[c]{@{}l@{}}Nature des \\processus\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Processus\\ formels \\ avec peu de \\ variation \\Les \\ processus \\peuvent \\ être très\\complexes.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Une variété\\ de processus \\ pout exister \\dans le même\\ système. \\   Les processus \\peuvent être \\bien définis, \\mais requièrent \\moins d'exigence.\end{tabular} &\begin{tabular}[c]{@{}l@{}} Facilité de\\ déploiement. 	\end{tabular}&\begin{tabular}[c]{@{}l@{}} Les processus\\sont moins\\rigides
+				\end{tabular}
+	\end{tabular}
+\end{table}

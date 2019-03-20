@@ -1,46 +1,45 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.8.28)  19 MAR 2019 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  20 MAR 2019 16:36
 entering extended mode
 **./main.tex
 (main.tex
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
-Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2018-12-01>
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty
 "
-Package: babel 2018/02/14 3.18 The Babel package
+Package: babel 2018/11/13 3.27 The Babel package
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.de
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.de
 f"
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg
 "
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel-french\fr
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel-french\fr
 ancais.ldf"
-Language: francais 2018/02/04 v3.4b French support from the babel system
+Language: francais 2018/09/14 v3.5c French support from the babel system
 
 
 Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
@@ -48,552 +47,506 @@ Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
 (francais.ldf)                use `french' instead; reported on input line 31.
 
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel-french\fr
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel-french\fr
 ench.ldf"
-Language: french 2018/02/04 v3.4b French support from the babel system
+Language: french 2018/09/14 v3.5c French support from the babel system
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def
 "
-File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count88
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count89
 \U@D=\dimen103
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.
 def")
-\bbl@dirlevel=\count89
+\bbl@dirlevel=\count90
 )
 \l@acadian = a dialect from \language\l@french 
-\FB@nonchar=\count90
-Package babel Info: Making : an active character on input line 411.
-Package babel Info: Making ; an active character on input line 412.
-Package babel Info: Making ! an active character on input line 413.
-Package babel Info: Making ? an active character on input line 414.
-\FBguill@level=\count91
-\FB@everypar=\toks14
+\FB@nonchar=\count91
+Package babel Info: Making : an active character on input line 414.
+Package babel Info: Making ; an active character on input line 415.
+Package babel Info: Making ! an active character on input line 416.
+Package babel Info: Making ? an active character on input line 417.
+\FBguill@level=\count92
+\FBold@everypar=\toks14
 \FB@Mht=\dimen104
-\mc@charclass=\count92
-\mc@charfam=\count93
-\mc@charslot=\count94
-\std@mcc=\count95
-\dec@mcc=\count96
-\c@FBcaption@count=\count97
-\listindentFB=\skip43
-\descindentFB=\skip44
-\labelwidthFB=\skip45
-\leftmarginFB=\skip46
-\parindentFFN=\dimen105
-\FBfnindent=\skip47
+\mc@charclass=\count93
+\mc@charfam=\count94
+\mc@charslot=\count95
+\std@mcc=\count96
+\dec@mcc=\count97
+\c@FBcaption@count=\count98
+\listindentFB=\dimen105
+\descindentFB=\dimen106
+\labelindentFB=\dimen107
+\labelwidthFB=\dimen108
+\leftmarginFB=\dimen109
+\parindentFFN=\dimen110
+\FBfnindent=\dimen111
 )))
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\carlisle\scalefnt
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/carlisle\scalefnt
 .sty")
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.s
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.s
 ty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty
 "
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
- ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
-))
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx
 .sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics
 .sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty
 "
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\grap
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\grap
 hics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdft
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdft
 ex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen106
-\Gin@req@width=\dimen107
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
 .sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.
 sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex
 .sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex
 .sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count98
-\Gm@cntv=\count99
-\c@Gm@tempcnt=\count100
-\Gm@bindingoffset=\dimen108
-\Gm@wd@mp=\dimen109
-\Gm@odd@mp=\dimen110
-\Gm@even@mp=\dimen111
-\Gm@layoutwidth=\dimen112
-\Gm@layoutheight=\dimen113
-\Gm@layouthoffset=\dimen114
-\Gm@layoutvoffset=\dimen115
+\Gm@cnth=\count99
+\Gm@cntv=\count100
+\c@Gm@tempcnt=\count101
+\Gm@bindingoffset=\dimen114
+\Gm@wd@mp=\dimen115
+\Gm@odd@mp=\dimen116
+\Gm@even@mp=\dimen117
+\Gm@layoutwidth=\dimen118
+\Gm@layoutheight=\dimen119
+\Gm@layouthoffset=\dimen120
+\Gm@layoutvoffset=\dimen121
 \Gm@dimlist=\toks18
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
 .cfg"))
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.s
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.s
 ty"
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.
 sty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen116
-\captionmargin@=\dimen117
-\captionwidth=\dimen118
-\caption@tempdima=\dimen119
-\caption@indent=\dimen120
-\caption@parindent=\dimen121
-\caption@hangindent=\dimen122
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
 )
-\c@caption@flags=\count101
-\c@ContinuedFloat=\count102
+\c@caption@flags=\count102
+\c@ContinuedFloat=\count103
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaptio
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaptio
 n.sty"
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count103
-\c@subtable=\count104
+\c@subfigure=\count104
+\c@subtable=\count105
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr
 .sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip48
-\f@nch@O@elh=\skip49
-\f@nch@O@erh=\skip50
-\f@nch@O@olh=\skip51
-\f@nch@O@orh=\skip52
-\f@nch@O@elf=\skip53
-\f@nch@O@erf=\skip54
-\f@nch@O@olf=\skip55
-\f@nch@O@orf=\skip56
-) (main.aux)
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Info: Redefining \degres on input line 28.
-LaTeX Info: Redefining \dots on input line 28.
-LaTeX Info: Redefining \up on input line 28.
-
-
-Package french.ldf Warning: OT1 encoding should not be used for French.
-(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 28.
-
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
-kii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen123
-\scratchbox=\box26
-\nofMPsegments=\count106
-\nofMParguments=\count107
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen124
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
-\everyMPtoPDFconversion=\toks20
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
--base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex
+.sty"
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwar
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftex
+cmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwar
 err.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.s
-ty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefi
-nekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmd
-s.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoption
-s.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetk
-eys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcm
-ds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluat
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluat
 ex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftex
-cmds.sty"
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmd
+s.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox
+.sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count106
+)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoption
+s.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetk
+eys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcm
+ds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+)))
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty
+"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count107
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def
+"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count108
+\c@listtotal=\count109
+\c@listcount=\count110
+\c@liststart=\count111
+\c@liststop=\count112
+\c@citecount=\count113
+\c@citetotal=\count114
+\c@multicitecount=\count115
+\c@multicitetotal=\count116
+\c@instcount=\count117
+\c@maxnames=\count118
+\c@minnames=\count119
+\c@maxitems=\count120
+\c@minitems=\count121
+\c@citecounter=\count122
+\c@maxcitecounter=\count123
+\c@savedcitecounter=\count124
+\c@uniquelist=\count125
+\c@uniquename=\count126
+\c@refsection=\count127
+\c@refsegment=\count128
+\c@maxextratitle=\count129
+\c@maxextratitleyear=\count130
+\c@maxextraname=\count131
+\c@maxextradate=\count132
+\c@maxextraalpha=\count133
+\c@abbrvpenalty=\count134
+\c@highnamepenalty=\count135
+\c@lownamepenalty=\count136
+\c@maxparens=\count137
+\c@parenlevel=\count138
+\blx@tempcnta=\count139
+\blx@tempcntb=\count140
+\blx@tempcntc=\count141
+\blx@maxsection=\count142
+\blx@maxsegment@0=\count143
+\blx@notetype=\count144
+\blx@parenlevel@text=\count145
+\blx@parenlevel@foot=\count146
+\blx@sectionciteorder@0=\count147
+\blx@entrysetcounter=\count148
+\labelnumberwidth=\skip52
+\labelalphawidth=\skip53
+\biblabelsep=\skip54
+\bibitemsep=\skip55
+\bibnamesep=\skip56
+\bibinitsep=\skip57
+\bibparsep=\skip58
+\bibhang=\skip59
+\blx@bcfin=\read1
+\blx@bcfout=\write3
+\c@mincomprange=\count149
+\c@maxcomprange=\count150
+\c@mincompwidth=\count151
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm.d
+ef"
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count152
+\c@savedafterword=\count153
+\c@annotator=\count154
+\c@savedannotator=\count155
+\c@author=\count156
+\c@savedauthor=\count157
+\c@bookauthor=\count158
+\c@savedbookauthor=\count159
+\c@commentator=\count160
+\c@savedcommentator=\count161
+\c@editor=\count162
+\c@savededitor=\count163
+\c@editora=\count164
+\c@savededitora=\count165
+\c@editorb=\count166
+\c@savededitorb=\count167
+\c@editorc=\count168
+\c@savededitorc=\count169
+\c@foreword=\count170
+\c@savedforeword=\count171
+\c@holder=\count172
+\c@savedholder=\count173
+\c@introduction=\count174
+\c@savedintroduction=\count175
+\c@namea=\count176
+\c@savednamea=\count177
+\c@nameb=\count178
+\c@savednameb=\count179
+\c@namec=\count180
+\c@savednamec=\count181
+\c@translator=\count182
+\c@savedtranslator=\count183
+\c@shortauthor=\count184
+\c@savedshortauthor=\count185
+\c@shorteditor=\count186
+\c@savedshorteditor=\count187
+\c@labelname=\count188
+\c@savedlabelname=\count189
+\c@institution=\count190
+\c@savedinstitution=\count191
+\c@lista=\count192
+\c@savedlista=\count193
+\c@listb=\count194
+\c@savedlistb=\count195
+\c@listc=\count196
+\c@savedlistc=\count197
+\c@listd=\count198
+\c@savedlistd=\count199
+\c@liste=\count266
+\c@savedliste=\count267
+\c@listf=\count268
+\c@savedlistf=\count269
+\c@location=\count270
+\c@savedlocation=\count271
+\c@organization=\count272
+\c@savedorganization=\count273
+\c@origlocation=\count274
+\c@savedoriglocation=\count275
+\c@origpublisher=\count276
+\c@savedorigpublisher=\count277
+\c@publisher=\count278
+\c@savedpublisher=\count279
+\c@language=\count280
+\c@savedlanguage=\count281
+\c@origlanguage=\count282
+\c@savedoriglanguage=\count283
+\c@pageref=\count284
+\c@savedpageref=\count285
+\shorthandwidth=\skip60
+\shortjournalwidth=\skip61
+\shortserieswidth=\skip62
+\shorttitlewidth=\skip63
+\shortauthorwidth=\skip64
+\shorteditorwidth=\skip65
+\locallabelnumberwidth=\skip66
+\locallabelalphawidth=\skip67
+\localshorthandwidth=\skip68
+\localshortjournalwidth=\skip69
+\localshortserieswidth=\skip70
+\localshorttitlewidth=\skip71
+\localshortauthorwidth=\skip72
+\localshorteditorwidth=\skip73
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-comp
+at.def"
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-bibt
+ex.def"
+File: blx-bibtex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex
+.def"
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count286
+\c@textcitetotal=\count287
+\c@textcitemaxnames=\count288
+\c@biburlnumpenalty=\count289
+\c@biburlucpenalty=\count290
+\c@biburllcpenalty=\count291
+\c@smartand=\count292
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\auth
+oryear.bbx"
+File: authoryear.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\stan
+dard.bbx"
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count293
+\c@bbx:relatedtotal=\count294
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\auth
+oryear.cbx"
+File: authoryear.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex
+.cfg"
+File: biblatex.cfg 
+))
+Package biblatex Info: Trying to load language 'francais'...
+Package biblatex Info: ... file 'francais.lbx' not found.
+
+
+Package biblatex Warning: Language 'francais' not supported.
+(biblatex)                Using fallback language 'english' on input line 39.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\engl
+ish.lbx"
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\fren
+ch.lbx"
+File: french.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count295
+\@quotereset=\count296
+(main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Info: Redefining \degres on input line 39.
+LaTeX Info: Redefining \dots on input line 39.
+LaTeX Info: Redefining \up on input line 39.
+
+
+Package french.ldf Warning: OT1 encoding should not be used for French.
+(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(french.ldf)                of your document; reported on input line 39.
+
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-
+pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count297
+\scratchdimen=\dimen129
+\scratchbox=\box27
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen130
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks20
+)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf
+-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.s
+ty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefi
+nekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
@@ -638,20 +591,33 @@ G,.JBIG2,.JB2,.eps]
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `main-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+(main.bbl)
+Package biblatex Info: Reference section=0 on input line 39.
+Package biblatex Info: Reference segment=0 on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 30.
+(Font)              <20.74> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 30.
+(Font)              <14.4> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 30.
+(Font)              <12> on input line 41.
 <images/logo.PNG, id=1, 134.904pt x 133.6995pt>
 File: images/logo.PNG Graphic file (type png)
 <use images/logo.PNG>
-Package pdftex.def Info: images/logo.PNG  used on input line 30.
+Package pdftex.def Info: images/logo.PNG  used on input line 41.
 (pdftex.def)             Requested size: 134.90367pt x 133.69916pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 30.
-[1
+(Font)              <7> on input line 41.
+ [1
 
 {C:/Users/djamel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/l
 ogo.PNG>] [2
@@ -664,20 +630,14 @@ ogo.PNG>] [2
 
 ] (main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
+(Font)              <6> on input line 6.
 )
-\tf@toc=\write3
-\openout3 = `main.toc'.
+\tf@toc=\write4
+\openout4 = `main.toc'.
 
  [6
-
-] (main.lof)
-\tf@lof=\write4
-\openout4 = `main.lof'.
-
- [7
 
 ]
 Chapitre 1.
@@ -687,14 +647,14 @@ Overfull \hbox (13.69853pt too wide) in paragraph at lines 8--9
 ng et au work-flow, necessaire
  []
 
-[8
+[7
 
 ]
-<images/tempsnip4.png, id=33, 934.99312pt x 697.10437pt>
+<images/tempsnip4.png, id=31, 934.99312pt x 697.10437pt>
 File: images/tempsnip4.png Graphic file (type png)
 <use images/tempsnip4.png>
 Package pdftex.def Info: images/tempsnip4.png  used on input line 18.
-(pdftex.def)             Requested size: 298.75262pt x 222.73756pt.
+(pdftex.def)             Requested size: 170.71393pt x 127.27101pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -702,85 +662,95 @@ Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[9 <./images/tempsnip4.png>] [10]
-<images/Capture5.png, id=41, 838.332pt x 460.119pt>
+[8 <./images/tempsnip4.png>]
+<images/Capture5.png, id=35, 838.332pt x 460.119pt>
 File: images/Capture5.png Graphic file (type png)
 <use images/Capture5.png>
 Package pdftex.def Info: images/Capture5.png  used on input line 50.
 (pdftex.def)             Requested size: 298.75262pt x 163.97174pt.
- [11 <./images/Capture5.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+[10 <./images/Capture5.png>]
 Overfull \hbox (70.97922pt too wide) in paragraph at lines 71--79
 [][] 
  []
 
-[12]
-<images/Cloud_MD.png, id=49, 595.22375pt x 465.74pt>
+[11]
+<images/Cloud_MD.png, id=46, 595.22375pt x 465.74pt>
 File: images/Cloud_MD.png Graphic file (type png)
 <use images/Cloud_MD.png>
 Package pdftex.def Info: images/Cloud_MD.png  used on input line 101.
 (pdftex.def)             Requested size: 213.39566pt x 166.96982pt.
- [13 <./images/Cloud_MD.png (PNG copy)>]
+ [12 <./images/Cloud_MD.png (PNG copy)>]
 Overfull \hbox (9.39452pt too wide) in paragraph at lines 122--123
 []\OT1/cmr/m/n/12 La WfMC (Work-flow Ma-na-ge-ment Coa-li-tion) (WfMC, 1999) a 
 donne une definition
  []
 
+
+Overfull \hbox (1.03477pt too wide) in paragraph at lines 141--142
+[]\OT1/cmr/m/n/12 les work-flows do-cu-men-taires (redaction, va-li-da-tion, t
+ra-duc-tion de do-cu-ments), 
+ []
+
+
+Overfull \hbox (0.31673pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/12 procedure peut ^etre qua-lifiee de procedure metier, pro-ce
+s-sus metier, procedure
+ []
+
+
+Overfull \hbox (7.36665pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/12 s'en-cha^nent de maniere chro-no-lo-gique pour at-teindre un 
+ob-jec-tif, generalement
+ []
+
+[13]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 168.
+
+
+Overfull \hbox (65.71336pt too wide) in paragraph at lines 169--177
+[][] 
+ []
+
 ) [14]
 Chapitre 2.
-(ch1.tex
-<images/screenshot001.png, id=57, 342.078pt x 288.1164pt>
-File: images/screenshot001.png Graphic file (type png)
-<use images/screenshot001.png>
-Package pdftex.def Info: images/screenshot001.png  used on input line 8.
-(pdftex.def)             Requested size: 342.07715pt x 288.11568pt.
+[15
 
-Underfull \vbox (badness 1087) has occurred while \output is active []
-
- [15
-
- <./images/screenshot001.png>]
-<screenshot002.png, id=62, 462.0462pt x 267.8808pt>
-File: screenshot002.png Graphic file (type png)
-<use screenshot002.png>
-Package pdftex.def Info: screenshot002.png  used on input line 42.
-(pdftex.def)             Requested size: 426.79134pt x 247.4466pt.
- [16] [17 <./screenshot002.png>]
-<screenshot003.png, id=70, 448.074pt x 218.2554pt>
-File: screenshot003.png Graphic file (type png)
-<use screenshot003.png>
-Package pdftex.def Info: screenshot003.png  used on input line 88.
-(pdftex.def)             Requested size: 426.79134pt x 207.89093pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 111.
-
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
-) [18 <./screenshot003.png>]
+]
 Chapitre 3.
-(ch3.tex) [19
+[16
 
-] (main.aux) ) 
+] [17
+
+] (main.aux)
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4849 strings out of 493305
- 74234 string characters out of 3129367
- 152217 words of memory out of 3000000
- 8315 multiletter control sequences out of 15000+200000
- 10637 words of font info for 37 fonts, out of 3000000 for 9000
+ 11262 strings out of 492946
+ 198487 string characters out of 3125822
+ 495888 words of memory out of 3000000
+ 15037 multiletter control sequences out of 15000+200000
+ 11336 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,14n,43p,1437b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/djamel/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/djamel/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
-/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb>
-Output written on main.pdf (19 pages, 2458115 bytes).
+ 42i,15n,46p,1437b,1773s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmcsc10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/djamel/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/djamel/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Use
+rs/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
+8.pfb>
+Output written on main.pdf (17 pages, 1670019 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

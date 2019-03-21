@@ -1,9 +1,7 @@
-
-  
  	 \section{Introduction}
  	  
     
-    Le cloud computing, traduit le plus souvent en français par " informatique dans les nuages", " informatique dématérialisée " ou encore " infonuagique ", est un domaine qui regroupe un ensemble de techniques et de pratiques consistant à accéder, en libre-service, à du matériel ou à des logiciels informatiques, à travers une infrastructure réseau (Internet). Ce concept rend possible la distribution des ressources informatiques sous forme de services pour lesquels l'utilisateur paie uniquement pour ce qu'il utilise. Ces services peuvent être utilisés pour exécuter des applications scientifiques et commerciales, souvent modélisées sous forme de workflows.\parencite[see][p10]{latexcompanion}
+    Le cloud computing, traduit le plus souvent en français par " informatique dans les nuages", " informatique dématérialisée " ou encore " infonuagique ", est un domaine qui regroupe un ensemble de techniques et de pratiques consistant à accéder, en libre-service, à du matériel ou à des logiciels informatiques, à travers une infrastructure réseau (Internet). Ce concept rend possible la distribution des ressources informatiques sous forme de services pour lesquels l'utilisateur paie uniquement pour ce qu'il utilise. Ces services peuvent être utilisés pour exécuter des applications scientifiques et commerciales, souvent modélisées sous forme de workflows.
      
     Ce chapitre présente une introduction au cloud computing et au workflow, nécessaire pour la compréhension générale de ce rapport.
     
@@ -40,7 +38,7 @@ Beaucoup de chercheurs ont tenté de définir le cloud computing (Geelan, 2008 ;
     	Après avoir présenté les caractéristiques essentielles d’un service cloud, nous présentons, brièvement, dans la section suivante, quelques technologies connexes aux clouds.
     	
     \end{itemize} 
-\subsection{Technologies connexes }
+\subsubsection{Technologies connexes }
 
 \subsection{Modèles du cloud computing  }
 \subsubsection {Modèles de service du cloudcomputing}  
@@ -67,21 +65,6 @@ Dans ces deux cas l’utilisateur de ces services n’a pas à gérer des serveu
 L’utilisateur loue des moyens de calcul et de stockage, des capacités réseau et d’autres ressources indispensables (partage de charge, pare-feu, cache). L’utilisateur a la possibilité de déployer n’importe quel type de logiciel incluant les systèmes d’exploitation. L’utilisateur ne gère pas ou ne contrôle pas l’infrastructure Cloud sous-jacente mais il a le contrôle sur les systèmes d’exploitation, le stockage et les applications. Il peut aussi choisir les caractéristiques principales des équipements réseau comme le partage de charge, les pare-feu, etc. L’exemple emblématique de ce type de service est Amazon Web Services qui fournit du calcul (EC2), du stockage (S3, EBS), des bases de données en ligne (SimpleDB) et quantité d’autres services de base. Il est maintenant imité par de très nombreux fournisseurs.
 	\item \textbf{Points fortset Points faibles des services cloud:} 
 \end{enumerate}
-\begin{table}[h]
-	\begin{tabular}{l|l|l|ll}
-		
-		\cline{2-3}
-		& Points forts                                                                                              & Points faibles                                                                                                                            &  &  \\ \cline{1-3}
-		\multicolumn{1}{|l|}{SaaS} & \begin{tabular}[c]{@{}l@{}}Pas d’installation\\  Plus de licence\end{tabular}                             & \begin{tabular}[c]{@{}l@{}}Logiciel limité\\ Sécurité\\ Dépendance de prestataire\end{tabular}                                             \\ \cline{1-3}
-		\multicolumn{1}{|l|}{PaaS} & \begin{tabular}[c]{@{}l@{}}Pas d'infrastructure Nécessaire\\ Pas d'infrastructure Nécessaire\end{tabular} & \begin{tabular}[c]{@{}l@{}}Limitation des langages\\ Pas de personnalisation dans la configuration des\\ machines virtuelles\end{tabular}   \\ \cline{1-3}
-		\multicolumn{1}{|l|}{IaaS} & \begin{tabular}[c]{@{}l@{}}Administration\\  Personnalisation\\ Flexibilité d'utilisation\end{tabular}    & \begin{tabular}[c]{@{}l@{}}Sécurité\\ Besoin d'un administrateur système\end{tabular}                                                    \\ \cline{1-3}
-	\end{tabular}
-	
-	
-	
-	\caption{Points forts et Points faibles des services Cloud}
-	\label{tab:tabl1}
-\end{table}
 \subsubsection { Modèles de déploiement}  
 
 Selon la définition du cloud computing  donnée part le NIST (Mell, 2011), il existe quatre modèles de déploiement des services de cloud, à savoir : cloud privé, cloud communautaire, cloud public et cloud hybride, comme illustré dans la figure \ref{fig:cloudmd}.
@@ -104,7 +87,43 @@ Selon la définition du cloud computing  donnée part le NIST (Mell, 2011), il e
 \end{figure}
 \end{enumerate}
 
+\subsection{Cloud computing et sécurité
+}
+Toutes les enquêtes montrent que la sécurité est la préoccupation majeure des organisations dans le processus d’adoption des technologies Cloud. Les questions sont nombreuses comme par exemple :
 
+\begin{itemize}
+
+\item Quelle confiance peut-on avoir dans le stockage des données à l’extérieur de l’entreprise ?
+\item Quels sont les risques associés à l’utilisation de services partagés ?
+\item Comment démontrer la conformité des systèmes à des normes d’exploitation ?
+\end{itemize}
+
+Les infrastructures Cloud sont de gigantesques systèmes complexes. Ils peuvent cependant être réduits à un petit nombre de primitives simples qui sont instanciées des milliers de fois et à quelques fonctions communes. La sécurité du Cloud est donc un problème gouvernable moins complexe qu’il n’y parait.
+
+\subsubsection{Avantages et défis du Cloud en terme de sécurité}
+
+Le Cloud présente des avantages immédiats. D’une manière générale, le fait d’héberger des données publiques sur le Cloud réduit les risques pour les données internes sensibles. D’autre part, l’homogénéité dans la construction du Cloud en rend les tests et les audits plus simples. De même la conduite du système au travers de web services permet la mise en place  de procédures automatiques accroissant notablement la sécurité.
+
+En revanche les défis restent nombreux pour les fournisseurs.  Il faut donner confiance dans le modèle de sécurité et dans les outils de gestion qui sont proposés. Les tâches de gestion sont réalisées de manière indirecte au travers d’une interface puisque l’utilisateur n’a pas de contrôle direct sur l’infrastructure physique. Ce partage des responsabilités complique un peu les audits de sécurité.
+
+\subsubsection{Les composants sécurité d’un système de Cloud computing}
+Les différents composants qui participent à la sécurité d’un système de Cloud computing présentent les caractéristiques suivantes :
+\begin{itemize}
+	 
+\item \textbf{Service de console de gestion (Provisioning):}\\
+La mise en route et la reconfiguration des composants des systèmes sont très rapides. Il est possible de mettre en service plusieurs instances dans plusieurs centres de traitement répartis dans le monde en quelques minutes. Les reconfigurations réseau sont facilitées. En revanche, la sécurité d’utilisation de la console de gestion devient impérative (authentification multi-facteurs, connexion chiffrée, etc..)
+
+\item \textbf{Service de stockage des données:}\\
+Les avantages du stockage des données dans le Cloud dépendent des fournisseurs mais en général, ceux-ci fragmentent et répartissent les données. Celles ci sont aussi souvent recopiées dans des centres de traitement différents. Ces opérations améliorent considérablement la sécurité des données. Si leur contenu doit rester confidentiel, il convient de les chiffrer avant de les stocker.
+
+\item \textbf{Infrastructures de calcul:}\\
+Un des gros avantages du Cloud pour le développement et l’exploitation des applications réside dans la virtualisation. Elle permet de préparer des configurations maîtres sûres qu’il suffit de dupliquer pour déployer. Les défis restent la sécurisation des données dans les applications partagées et  la sécurité entre les instances garantie par les hyperviseurs.
+\item \textbf{Services de support:}\\
+La principale caractéristique du Cloud est la mise en place a priori d’une sécurité renforcée et auditable (authentification, logs, pare-feux, etc..). Il reste à traiter les risques liés à l’intégration avec les applications des utilisateurs ainsi que les processus toujours délicats de mises à jour
+\item \textbf{Sécurité périmétrique du réseau Cloud:}\\
+Ces grandes infrastructures partagées fournissent des moyens de protection au delà des capacités  d’une entreprise normale comme par exemple la protection contre les attaques DDOS (Distributed Denial Of Service). Les mécanismes de sécurité périmétriques sont généralement bien conçus (fournisseur d’identité, authentification, pare-feux , etc..). En revanche, il reste à traiter les sujets liés à la mobilité.
+
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%              Workflow et systèmes de gestion de workflows 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -161,17 +180,105 @@ généralement traitement de procédures secondaires (procédure d’exception) 
 
 \end{enumerate}
 
-\textbf{Comparaison entre types de workflows:}
+
+\textbf{Comparaison entre types de workflows:} \ref{tab:tabl2}
 % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
 % If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
-\begin{table}[]
+
+ 
+
+\begin{table}[!h]
+	\centering
+ 
 	\begin{tabular}{|l|l|l|l|l|}
 		\hline
-		\textbf{Critères} & \textbf{\begin{tabular}[c]{@{}l@{}}De\\   production\end{tabular}} & \textbf{Administratif} & \textbf{Ad-hoc} & \textbf{Collaboratif} \\ \hline
-	 \textbf{\begin{tabular}[c]{@{}l@{}}Capacité de \\   traitement\end{tabular}} &  \begin{tabular}[c]{@{}l@{}}Haute capacité\\de traitement\\Temps de \\réponse rapide.\\   Le but est la\\  productivité\end{tabular} &  \begin{tabular}[c]{@{}l@{}}Capacité de\\ traitement \\inferieure\\ (10 à 100 fois\\ moins que pour \\un workflow \\de production\end{tabular} &  \begin{tabular}[c]{@{}l@{}}Facilite\\ d'utilisation \\et d'apprentissage \\sont très\\importantes.\end{tabular} &  \begin{tabular}[c]{@{}l@{}}Capacité de\\ changer \\dynamiquement \\la définition d’un\\   processus est\\ essentielle\end{tabular} \\ \hline
-		\textbf{Utilisation} & \begin{tabular}[c]{@{}l@{}}Employés\\   travaillant à \\ plein temps sur\\  des activités\\  courtes.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Un grand \\ nombre\\ d'employés \\peuvent\\ être impliqués\end{tabular} & \begin{tabular}[c]{@{}l@{}}La modification\\ dynamique et rapide\\ des processus est\\ essentielle.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fournir\\une voie\\structurée \\pour travailler\\ensemble\end{tabular} \\ \hline
-		\textbf{\begin{tabular}[c]{@{}l@{}}Nature des \\processus\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Processus\\ formels \\ avec peu de \\ variation \\Les \\ processus \\peuvent \\ être très\\complexes.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Une variété\\ de processus \\ pout exister \\dans le même\\ système. \\   Les processus \\peuvent être \\bien définis, \\mais requièrent \\moins d'exigence.\end{tabular} &\begin{tabular}[c]{@{}l@{}} Facilité de\\ déploiement. 	\end{tabular}&\begin{tabular}[c]{@{}l@{}} Les processus\\sont moins\\rigides
-				\end{tabular}
+		\rowcolor[HTML]{38FFF8} 
+		\textbf{Critères} & \textbf{\begin{tabular}[h]{@{}l@{}}De\\   production\end{tabular}} & \textbf{Administratif} & \textbf{Ad-hoc} & \textbf{Collaboratif} \\ \hline
+		\textbf{\begin{tabular}[c]{@{}l@{}}Capacité \\de \\    traitement\end{tabular}} &   \begin{tabular}[c]{@{}l@{}}Haute capacité de \\   traitement Temps \\   de réponse rapide.\\Le but est la\\   Productivité\end{tabular} &   \begin{tabular}[c]{@{}l@{}}Capacité de \\traitement\\   inferieure(10 à \\100)fois moins \\que pour un  \\workflow de\\ production\end{tabular} &  \begin{tabular}[c]{@{}l@{}}Facilite \\   d'utilisation et \\   d'apprentissage \\   sont très \\   importantes.\end{tabular} &  \begin{tabular}[c]{@{}l@{}}Capacité de \\   changer \\   dynamiquement\\la définition \\   d’un processus \\   est essentielle\end{tabular} \\ \hline
+	\rowcolor[HTML]{96FFFB} 
+	\textbf{Utilisation} & \begin{tabular}[c]{@{}l@{}}Employés\\   travaillant à plein\\ temps sur des\\   activités  courtes.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Un grand \\nombre  \\d'employés\\   peuvent \\être   impliqués\end{tabular} & \begin{tabular}[c]{@{}l@{}}La modification \\   dynamique et \\rapide\\ des  processus\\ est    essentielle.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fournir\\  une voie\\    structurée pour \\   travailler\\ ensemble\end{tabular} \\ \hline
+	\textbf{\begin{tabular}[c]{@{}l@{}}Nature des \\ processus\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Processus formels \\   avec peu de \\   variation Les \\   processus peuvent \\   être très \\   complexes.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Une variété de \\  processus pout \\exister dans\\ même système. \\   Les processus\\ peuvent être \\bien définis, mais \\   requièrent moins \\   d'exigence.\end{tabular} & \begin{tabular}[c]{@{}l@{}} Facilité \\de  déploiement.\end{tabular}& \begin{tabular}[c]{@{}l@{}}Les processus \\   sont moins \\   rigides\end{tabular} \\ \hline
+	\rowcolor[HTML]{96FFFB} 
+	\textbf{Spécificités} & \begin{tabular}[c]{@{}l@{}}Requiert une\\ 
+		intégration serrée \\
+		avec les systèmes \\
+		de bases.
+	\end{tabular} & \begin{tabular}[c]{@{}l@{}} Utilise souvent \\des
+		documents \\attaches.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Le but est de \\zéro
+		coût \\
+		d’administration .
+	\end{tabular}& \begin{tabular}[c]{@{}l@{}}
+		La capacité de \\
+		traitement est \\
+		de moindre \\
+		importance\\
 	\end{tabular}
+	\\ \hline
+\end{tabular}
+
+\caption{Comparaison entre types de Workflows.}
+\label{tab:tabl2}
 \end{table}
+\textbf{Exemples de workflows :}
+\begin{itemize}
+	\item Processus de déclaration de sinistre,
+	\item Processus d'ouverture compte,
+	\item Processus de création d'un dossier de prêt,
+	\item Processus de gestion d'une succession,
+	\item Processus de prise de congés.
+\end{itemize}
+\subsection{Architecture des systèmes de gestion de workflows }
+\subsubsection{Définition }
+La gestion du workflow est une technologie en évolution rapide, qui est de plus en plus exploitée par les entreprises. Un SGWf représente un système qui définit, implémente et gère l'exécution de workflows à l'aide d'un environnement logiciel fonctionnant avec un ou plusieurs moteurs de workflows et capable d'interpréter la définition d'un processus, de gérer la coordination des participants et d'invoquer des applications externes.  
+
+ L'architecture de référence d’un SGWf proposée par la Workflow Management Coalition (WfMC, 95) en1995 est présentée dans la figure \ref{fig:capture6}. Ce modèle inclut un service de déploiement, qui contrôle l'exécution des workflows et qui supporte cinq interfaces standardisées:
+ 
+ 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{Capture6}
+	\caption{ Modèle de référence des systèmes de gestion de workflow (WfMC, 95). }
+	\label{fig:capture6}
+\end{figure}
+
+
+\begin{enumerate}
+\item  Interface 1 : Correspond à l’échange des modèles entre les moteurs de workflows et les différents outils de modélisation de processus. \item Interface 2 : Permet à des applications clientes de communiquer avec le moteur de workflows. \item Interface3 : Permet au système de workflow d’invoquer des applications clientes. \item  Interface 4 : Permet l’interopérabilité entre les différents moteurs de workflows.\item  Interface 5 : Correspond à l’interaction entre les applications d’administration et de pilotage et le moteur de workflows
+
+\end{enumerate}
+\subsubsection{Standards utilisés dans les SGWf :}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{Capture7}
+	\caption{Différents standards adoptés dans les SGWf}
+	\label{fig:capture7}
+\end{figure}
+
+
+\begin{enumerate}
+\item \textbf{ BPNM (Business Process Model and Notation):} est une représentation graphique permettant de spécifier les processus métier maintenus par le groupe de gestion d'objets (OMG). 
+\item \textbf{XPDL (Process Definition Language):} est un format normalisé par la WfMC (Workflow Management Coalition) pour l’échange de définitions de partenaire entre différents produits de flux de travail, c.-à-d. entre différents outils de modélisation et suites de gestion. XPDL définit un schéma XML pour spécifier la partie déclarative du workflow / partenaire.
+\item \textbf{BPAF (Business Process Analytics):} fournit aux participants aux processus et aux décideurs des informations sur l'efficacité des processus organisationnels.
+\item \textbf{BPEL (Business Process Execution Language):} BPEL est un langage d'orchestre.
+\item \textbf{ Wf-XML }est un standard BPM développé par la Workflow Management Coalition. Wf-XML offre à un moteur BPM un moyen standard d'appeler un processus dans un autre moteur BPM et d'attendre qu'il se termine.
+\end{enumerate}
+
+
+
+\subsection{ Intérêts du cloud pour les workﬂows }
+Les clouds offrent plusieurs avantages pour les applications à base de workflows. Ces avantages facilitent: 
+\subsubsection{L’approvisionnement de ressources }
+Dans les grilles, l'ordonnancement est basé sur un modèle en best-effort, dans lequel l’utilisateur spécifie la quantité de temps nécessaire et délègue la responsabilité de l'allocation des ressources et d'ordonnancement de tâches à un ordonnanceur fonctionnant en mode batch utilisant des files d’attentes. Dans le cloud, au lieu de déléguer l’allocation au gestionnaire de ressources, l'utilisateur peut provisionner les ressources nécessaires et ordonnancer les tâches en utilisant un ordonnanceur contrôlé par l'utilisateur. Ce modèle d’approvisionnement est idéal pour les workflows, car il permet au système de gestion de workflow d'allouer une ressource une seule fois et de l'utiliser pour exécuter de nombreuses tâches. 
+\subsubsection{L’allocation dynamique de ressources à la demande }
+Contrairement aux grilles, les clouds donnent l'illusion que les ressources informatiques disponibles sont illimitées. Cela signifie que les utilisateurs peuvent demander, et s’attendre à obtenir des ressources suffisantes pour leurs besoins, à tout moment. L’approvisionnement à la demande est idéal pour les workflows et d'autres applications faiblement couplées, car il réduit le surcoût (overheads) d’ordonnancement total et peut améliorer considérablement les performances du workflow (Singh, 2005 ; Juve, 2008) 
+\subsubsection{L’élasticité}
+Outre l’approvisionnement des ressources à la demande, les clouds permettent aussi aux utilisateurs de libérer des ressources à la demande. La nature élastique de clouds facilite le changement des quantités et des caractéristiques de ressources lors de l'exécution, permettant ainsi d’augmenter le nombre de ressources, quand il y a un grand besoin, et d’en diminuer, lorsque la demande est faible. Cela permet aux systèmes de gestion de workflow de répondre facilement aux exigences de qualité de service (QoS) des applications, contrairement à l'approche traditionnelle, qui nécessite de réserver à l'avance des ressources dans les environnements de grilles. 
+\subsubsection{La garantie des QoS via des SLA }
+Avec l’arrivée des services de cloud computing  provenant de grandes organisations commerciales, les accords de niveau de service (SLA) ont été une préoccupation importante pour les fournisseurs et les utilisateurs. En raison de compétitions entres les fournisseurs de services émergents, un grand soin est pris lors de la conception du SLA qui vise à offrir (i) de meilleures garanties de QoS aux utilisateurs, et (ii) des termes clairs pour l'indemnisation, en cas de violation du contrat. Cela permet aux systèmes de gestion de workflow de fournir de meilleures garanties de bout en bout en "mappant" les utilisateurs aux fournisseurs de services selon les caractéristiques des SLA.
+
+\subsubsection{Le faible Coût d’exploitation }
+ Économiquement motivés, les fournisseurs de cloud commercial s'efforcent d'offrir de meilleures garanties de services par rapport aux fournisseurs de grille. Les fournisseurs de cloud profitent également des économies d'échelle, en fournissant des ressources de calcul, de stockage et de bande passante, à un coût très faible grâce, à la virtualisation. Ainsi l'utilisation des services de cloud public pourrait être économique et une alternative moins coûteuse, par rapport à l’utilisation de ressources dédiées, qui sont plus chères. Un des avantages de l'utilisation des ressources virtuelles pour l'exécution de workflow, plutôt que d'un accès direct à la machine physique, est le besoin réduit pour sécuriser les ressources physiques des codes malveillants. Cependant, l'effet à long terme de l'utilisation de ressources virtuelles dans les clouds qui partagent efficacement une "tranche" de la machine physique, plutôt que d'utiliser des ressources dédiées pour les workflows de calculs intensifs, est une question de recherche intéressante. 
+\section{Conclusion }
+....lk

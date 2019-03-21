@@ -1,34 +1,56 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {french}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Concepts fondamentaux de cloud et de workflow }{7}% 
+\contentsline {chapter}{\numberline {1}Concepts fondamentaux de cloud et de workflow }{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Introduction}{7}% 
+\contentsline {section}{\numberline {1.1}Introduction}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}cloud computing}{7}% 
+\contentsline {section}{\numberline {1.2}cloud computing}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Concept du cloud computing}{7}% 
+\contentsline {subsection}{\numberline {1.2.1}Concept du cloud computing}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.1.1}Vers une d\IeC {\'e}finition du cloud computing }{8}% 
+\contentsline {subsubsection}{\numberline {1.2.1.1}Vers une d\IeC {\'e}finition du cloud computing }{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.1.2}Caract\IeC {\'e}ristiques principales du cloud computing}{8}% 
+\contentsline {subsubsection}{\numberline {1.2.1.2}Caract\IeC {\'e}ristiques principales du cloud computing}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Technologies connexes }{10}% 
+\contentsline {subsubsection}{\numberline {1.2.1.3}Technologies connexes }{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Mod\IeC {\`e}les du cloud computing }{10}% 
+\contentsline {subsection}{\numberline {1.2.2}Mod\IeC {\`e}les du cloud computing }{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.3.1}Mod\IeC {\`e}les de service du cloudcomputing}{10}% 
+\contentsline {subsubsection}{\numberline {1.2.2.1}Mod\IeC {\`e}les de service du cloudcomputing}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.3.2} Mod\IeC {\`e}les de d\IeC {\'e}ploiement}{11}% 
+\contentsline {subsubsection}{\numberline {1.2.2.2} Mod\IeC {\`e}les de d\IeC {\'e}ploiement}{13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Workflow et syst\IeC {\`e}mes de gestion de Workflow}{12}% 
+\contentsline {subsection}{\numberline {1.2.3}Cloud computing et s\IeC {\'e}curit\IeC {\'e} }{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1} Concepts de base et d\IeC {\'e}finitions de Workflow }{12}% 
+\contentsline {subsubsection}{\numberline {1.2.3.1}Avantages et d\IeC {\'e}fis du Cloud en terme de s\IeC {\'e}curit\IeC {\'e}}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.1.1}D\IeC {\'e}finitions de workflow}{13}% 
+\contentsline {subsubsection}{\numberline {1.2.3.2}Les composants s\IeC {\'e}curit\IeC {\'e} d\IeC {\textquoteright }un syst\IeC {\`e}me de Cloud computing}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.1.2}Les types de workflow}{13}% 
+\contentsline {section}{\numberline {1.3}Workflow et syst\IeC {\`e}mes de gestion de Workflow}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Mod\IeC {\'e}lisations et R\IeC {\'e}seau de Petri}{15}% 
+\contentsline {subsection}{\numberline {1.3.1} Concepts de base et d\IeC {\'e}finitions de Workflow }{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Impl\IeC {\'e}mentation}{16}% 
+\contentsline {subsubsection}{\numberline {1.3.1.1}D\IeC {\'e}finitions de workflow}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.1.2}Les types de workflow}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Architecture des syst\IeC {\`e}mes de gestion de workflows }{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.2.1}D\IeC {\'e}finition }{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.2.2}Standards utilis\IeC {\'e}s dans les SGWf :}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3} Int\IeC {\'e}r\IeC {\^e}ts du cloud pour les work\GenericError {(inputenc) }{Package inputenc Error: Unicode character ﬂ (U+FB02)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{You may provide a definition with\MessageBreak \GenericError { }{LaTeX Error: Can be used only in preamble}{See the LaTeX manual or LaTeX Companion for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}}ows }{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.3.1}L\IeC {\textquoteright }approvisionnement de ressources }{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.3.2}L\IeC {\textquoteright }allocation dynamique de ressources \IeC {\`a} la demande }{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.3.3}L\IeC {\textquoteright }\IeC {\'e}lasticit\IeC {\'e}}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.3.4}La garantie des QoS via des SLA }{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.3.5}Le faible Co\IeC {\^u}t d\IeC {\textquoteright }exploitation }{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Conclusion }{21}% 

@@ -1,126 +1,309 @@
- \section{Introduction aux Cloud:}
- 	 \subsection{introduction}
- 	  Le  Cloud Computing  que l'on pourrait traduire en français par  informatique dans les nuages doit son nom à la représentation faite d’internet dans les diagrammes réseaux. L’internet est souvent représenté par un nuage, comme le démontre la Figure \ref{fig:x diagramme}, signifiant généralement   tout le reste   ou tout ce qui est en dehors du périmètre du réseau local. Le cloud computing représente donc des ressources informatiques quelque part en dehors du réseau propre à l'entreprise ou à un particulier.
- 	
+ 	 \section{Introduction}
+ 	  
+    
+    Le cloud computing, traduit le plus souvent en français par " informatique dans les nuages", " informatique dématérialisée " ou encore " infonuagique ", est un domaine qui regroupe un ensemble de techniques et de pratiques consistant à accéder, en libre-service, à du matériel ou à des logiciels informatiques, à travers une infrastructure réseau (Internet). Ce concept rend possible la distribution des ressources informatiques sous forme de services pour lesquels l'utilisateur paie uniquement pour ce qu'il utilise. Ces services peuvent être utilisés pour exécuter des applications scientifiques et commerciales, souvent modélisées sous forme de workflows.
+     
+    Ce chapitre présente une introduction au cloud computing et au workflow, nécessaire pour la compréhension générale de ce rapport.
+    
+    Tout d’abord, nous présentons dans la section 1.2 une introduction au paradigme du cloud computing. Nous donnons un aperçu général du cloud computing, y compris sa définition, ses caractéristiques principales et une comparaison avec les technologies connexes. Nous présentons les différents modèles de service, les différents modèles de déploiement, ainsi que les différents acteurs du cloud computing. Nous résumons quelques challenges de recherche en cloud computing. Par la suite, nous présentons, dans la section 1.3, une introduction au workflow et systèmes de gestion de workflow. Nous donnons le concept du workflow, sa définition, et l’architecture de référence d’un système de gestion de workflows et, finalement, nous résumons l’intérêt  du cloud pour les workflows.
+    
+    \section{cloud computing}
+    \subsection{Concept du cloud computing}
+  L’idée principale du cloud est apparue dans les années 60, où le professeur John McCarthy avait imaginé que les ressources informatiques seront fournies comme des services d’utilité publique (Garfinkel, 1999). C'est ensuite, vers la fin des années 90, que ce concept a pris de l'importance avec l’avènement du grid computing  (Foster, 1999). Le terme cloud est une métaphore exprimant la similarité avec le réseau électrique, dans lequel l'électricité est produite dans de grandes centrales, puis disséminée à travers un réseau jusqu'aux utilisateurs finaux. Ici, les grandes centrales sont les Datacenter, le réseau est le plus souvent celui d'Internet et l'électricité correspond aux ressources informatiques. Le cloud computing  n'est véritablement apparu qu'au cours de l’année 2006 (Vouk, 2008) avec l'apparition d'Amazon EC2 (Elastic Compute cloud). C'est en 2009 que la réelle explosion du cloud survint avec l'arrivée sur le marché de sociétés comme Google (Google App Engine), Microsoft (Microsoft Azure), IBM (IBM Smart Business Service), Sun (Sun cloud) et Canonical Ltd (Ubuntu Enterprise cloud). D'après une étude menée par Forrester (Ried, 2011), le marché du cloud computing  s'élevait à environ 5,5 milliards de dollars en 2008, il devrait atteindre plus de 150 milliards d'ici 2020, comme l’illustre la figure \ref{fig:tempsnip4}. 
+    
+    \begin{figure}[h]
+    	\centering
+    	\includegraphics[width=0.4\linewidth]{images/tempsnip4}
+    	\caption{Prévisions de la taille du marché du cloud computing  public (Ried, 2011).}
+    	\label{fig:tempsnip4}
+    \end{figure}
+\subsubsection{Vers une définition du cloud computing }
+Beaucoup de chercheurs ont tenté de définir le cloud computing (Geelan, 2008 ; McFedries, 2008 ; Buyya, 2009 ; Armbrust, 2010). La plupart des définitions attribuées à ce concept semblent se concentrer seulement sur certains aspects technologiques. L'absence d'une définition standard a généré non seulement des exagérations du marché, mais aussi des confusions. Pour cette raison, il y a eu récemment des travaux sur la normalisation de la définition du cloud computing, à l'exemple de Vaquero et coll (Vaquero, 2009) qui ont comparé plus de 20 définitions différentes et ont proposé une définition globale.  En guise de synthèse des différentes propositions données dans la littérature, nous introduisons une définition mixte, qui correspond aux différents types de cloud considérés dans les travaux réalisés dans cette thèse.
 
-  	\begin{figure}[h]
- 	\centering
- 	\includegraphics[scale=1]{screenshot001}
- 	\caption{Représentation d'internet dans un diagramme}
- 	\label{fig:x diagramme}
- \end{figure}
- 	 \subsection{Définition}
- 	Selon la définition du\textbf{ National Institute of Standards and Technology} (NIST), le cloud computing est l'accès via un réseau de télécommunications, à la demande et en libre-service, à des ressources informatiques partagées configurables (réseaux, serveurs, stockage, applications et services), qui peuvent être provisionnées rapidement et libérées avec un effort de gestion minimale. Ce modèle de nuage est composé de cinq caractéristiques essentielles: 
- 	\begin{itemize}
- 		\item 	service à la demande
- 		\item Large accès au réseau
- 			\item	Mise en commun des ressources
- 		\item	Élasticité rapide
- 			\item	Service mesuré 		
- 	\end{itemize}
-\textbf{ Trois modèles de services:}
-  \begin{itemize}
- \item	Software as a Service (SaaS)
- \item	Platform as a Service (PaaS)
- \item	Infrastructure as a Service (IaaS)
-  \end{itemize}
-\textbf{ Quatre modèles de déploiementm}
- 	 \begin{itemize}
- 	 	\item Le cloud public
- 	 	\item	Le cloud privé
- 	 \item	Le cloud hybride
- 	 	\item	Le cloud communautaire 
- 	 	
- 	 \end{itemize}
+  Nous définissons le cloud comme un modèle informatique qui permet d’accéder, d’une façon transparente et à la demande, à un pool de ressources hétérogènes physiques ou virtualisées (serveurs, stockage, applications et services) à travers le réseau. Ces ressources sont délivrées sous forme de services reconfigurables et élastiques, à base d’un modèle de paiement à l’usage, dont les garanties sont offertes par le fournisseur via des contrats de niveau de service (SLA, Service Level Agreement).     
+    
+    \subsubsection{Caractéristiques principales du cloud computing}
+    Le cloud computing  possède les caractéristiques suivantes :
+    \begin{itemize}
+    	\item 	\textbf{Accès en libre-service à la demande}. Le cloud computing offre des ressources et services aux utilisateurs à la demande. Les services sont fournis de façon automatique, sans nécessiter d’interaction humaine (Mell, 2011). 
+    \item	\textbf{Accès réseau universel.}  Les services de cloud computing  sont facilement accessibles au travers du réseau, par le biais de mécanismes standard, qui permettent une utilisation depuis de multiples types de terminaux (par exemple, les ordinateur portables, tablettes, smartphones) (Mell, 2011). 
+   \item \textbf{Mutualisation de ressources} (Pooling). Les ressources du cloud peuvent être regroupées pour servir des utilisateurs multiples, pour lesquels des ressources physiques et virtuelles sont automatiquement attribuées (Mell, 2011). En général, les utilisateurs n’ont aucun contrôle ou connaissance sur l’emplacement exact des ressources fournies. Toutefois, ils peuvent imposer de spécifier l’emplacement à un niveau d’abstraction plus haut.
+   \item \textbf{Scalabilité et élasticité.} Des ressources supplémentaires peuvent être automatiquement mises à disposition des utilisateurs en cas d’accroissement de la demande (en réponse à l'augmentation des charges des applications) (Geelan, 2008), et peuvent être libérées lorsqu’elles ne sont plus nécessaires. L’utilisateur a l’illusion d’avoir accès à des ressources illimitées à n'importe quel moment, bien que le fournisseur en définisse généralement un seuil (par exemple : 20 instances par zone est le maximum possible pour Amazon EC2).
+   \item \textbf{Autonome.} Le cloud computing  est un système autonome et géré de façon transparente pour les utilisateurs. Le matériel, le logiciel et les données au sein du cloud peuvent être 
+    	automatiquement reconfigurés, orchestrés et consolidés en une seule image qui sera fournie à l’utilisateur (Wang, 2008).
+    	\item \textbf{Paiement à l’usage.} La consommation des ressources dans le cloud s’adapte au plus près aux besoins de l’utilisateur. Le fournisseur est capable de mesurer de façon précise la consommation (en durée et en quantité) des différents services (CPU, stockage, bande passante,…) ; cela lui permettra de facturer l’utilisateur selon sa réelle consommation (Armbrust, 2009). 
+    	\item \textbf{Fiabilité et tolérance aux pannes.} Les environnements cloud tirent parti de la redondance intégrée du grand nombre de serveurs qui les composent en permettant des niveaux élevés de disponibilité et de fiabilité pour les applications qui peuvent en bénéficier (Buyya, 2008). 
+    	\item \textbf{Garantie QoS.} Les environnements de cloud peuvent garantir la qualité de service pour les utilisateurs, par exemple, la performance du matériel, comme la bande passante du processeur et la taille de la mémoire (Wang, 2008). 
+    	\item \textbf{Basé-SLA.} Les clouds sont gérés dynamiquement en fonction des contrats d’accord de niveau de service (SLA) (Buyya, 2008) entre le fournisseur et l’utilisateur. Le SLA définit des politiques, telles que les paramètres de livraison, les niveaux de disponibilité, la maintenabilité, la performance, l'exploitation, ou autres attributs du service, comme la facturation, et même des sanctions en cas de violation du contrat. Le SLA permet de rassurer les utilisateurs dans leur idée de déplacer leurs activités vers le cloud, en fournissant des garanties de QoS. 
+    	Après avoir présenté les caractéristiques essentielles d’un service cloud, nous présentons, brièvement, dans la section suivante, quelques technologies connexes aux clouds.
+    	
+    \end{itemize} 
+\subsubsection{Technologies connexes }
+
+\subsection{Modèles du cloud computing  }
+\subsubsection {Modèles de service du cloudcomputing}  
+XaaS (X as a Service) représente la base du paradigme du cloud computing, où X représente un service tel qu’un logiciel, une plateforme, une infrastructure, un Business Process, etc. Nous présentons, dans cette section,  quatre  modèles de services (Rimal, 2009), à savoir: (1) Logiciel en tant que services SaaS (Software as a Service), où le matériel, l’hébergement, le framework d’application et le logiciel sont dématérialisés, (2) Plateforme en tant que service PaaS (Platform as a Service), où le matériel, l’hébergement et le framework d’application sont dématérialisés, (3) Infrastructure en tant que service IaaS (Infrastructure as a Service) et (4) Matériel en tant que service HaaS (Hardware as a Service), où seul le matériel (serveurs) est dématérialisé dans ces deux derniers cas. La figure \ref{fig:capture5} montre le modèle classique et les différents modèles de service de cloud
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Capture5}
+	\caption{Les services XaaS du cloud computing}
+	\label{fig:capture5}
+\end{figure}
+
+\begin{enumerate}
+\item 	\textbf{Software as a Service (SaaS):}
+
+Ce modèle de service est caractérisé par l’utilisation d’une application partagée qui fonctionne sur une infrastructure Cloud. L’utilisateur accède à l’application par le réseau au travers de divers types de terminaux (souvent via un navigateur web). L’administrateur de l’application ne gère pas et ne contrôle pas l’infrastructure sous-jacente (réseaux, serveurs, applications, stockage).  Il ne contrôle pas les fonctions de l’application à l’exception d’un paramétrage de quelques fonctions utilisateurs limitées. On prend comme exemple les logiciels de messagerie au travers d’un navigateur comme Gmail ou Yahoo mail. 
+
+\item  \textbf{ Platform as a Service (PaaS):}
+
+L’utilisateur a la possibilité de créer et de déployer sur une infrastructure Cloud PaaS ses propres applications en utilisant les langages et les outils du fournisseur. L’utilisateur ne gère pas ou ne contrôle pas l’infrastructure Cloud sous-jacente (réseaux, serveurs, stockage) mais l’utilisateur contrôle l’application déployée et sa configuration. Comme exemple de PaaS, on peut citer un des plus anciens -IntuitQuickbase- qui permet de déployer ses applications bases de données en ligne ou -Google Apps Engine (GAE)- pour déployer des services Web. 
+
+Dans ces deux cas l’utilisateur de ces services n’a pas à gérer des serveurs ou des systèmes pour déployer ses applications en ligne et dimensionner des ressources adaptées au trafic.
+\item   \textbf{Infrastructure as a Service (IaaS):}
+
+L’utilisateur loue des moyens de calcul et de stockage, des capacités réseau et d’autres ressources indispensables (partage de charge, pare-feu, cache). L’utilisateur a la possibilité de déployer n’importe quel type de logiciel incluant les systèmes d’exploitation. L’utilisateur ne gère pas ou ne contrôle pas l’infrastructure Cloud sous-jacente mais il a le contrôle sur les systèmes d’exploitation, le stockage et les applications. Il peut aussi choisir les caractéristiques principales des équipements réseau comme le partage de charge, les pare-feu, etc. L’exemple emblématique de ce type de service est Amazon Web Services qui fournit du calcul (EC2), du stockage (S3, EBS), des bases de données en ligne (SimpleDB) et quantité d’autres services de base. Il est maintenant imité par de très nombreux fournisseurs.
+	\item \textbf{Points fortset Points faibles des services cloud:} 
+\end{enumerate}
+\subsubsection { Modèles de déploiement}  
+
+Selon la définition du cloud computing  donnée part le NIST (Mell, 2011), il existe quatre modèles de déploiement des services de cloud, à savoir : cloud privé, cloud communautaire, cloud public et cloud hybride, comme illustré dans la figure \ref{fig:cloudmd}.
+\begin{enumerate}
+	\item \textbf{Cloud privé :}\\
+	 L’ensemble des ressources d’un cloud privé est exclusivement mis à disposition d’une entreprise ou organisation unique. Le cloud privé peut être géré par l’entreprise ellemême (cloud privé interne) ou par une tierce partie (cloud privé externe). Les ressources d’un cloud privé se trouvent généralement dans les locaux de l’entreprise ou bien chez un fournisseur de services. Dans ce dernier cas, l’infrastructure est entièrement dédiée à l’entreprise et y est accessible via un réseau sécurisé (de type VPN).  L’utilisation d’un cloud privé permet de 	garantir, par exemple, que les ressources matérielles allouées ne seront jamais partagées par deux clients différents. 
+	
+	\item \textbf{Cloud communautaire:}\\
+	 L’infrastructure d’un cloud communautaire est partagée par plusieurs organisations indépendantes ayant des intérêts communs. L’infrastructure peut être gérée par les organisations membres ou par un tiers. L’infrastructure peut être située, soit au sein des dites organisations, soit chez un fournisseur de services. 
+	\item \textbf{Cloud public:}\\
+	L’infrastructure d’un cloud public est accessible à un large public et appartient à un fournisseur de services. Ce dernier facture les utilisateurs selon la consommation et garantit la disponibilité des services via des contrats SLA. 
+	\item \textbf{Cloud hybride:}\\
+	 L’infrastructure d’un cloud hybride est une composition de plusieurs clouds (privé, communautaire ou public). Les différents clouds composant l’infrastructure restent des entités uniques, mais sont reliés par une technologie standard ou propriétaire permettant ainsi la portabilité des données ou des applications déployées sur les différents clouds.  
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Cloud_MD}
+	\caption{Modèles de déploiement du cloud computing }
+	\label{fig:cloudmd}
+\end{figure}
+\end{enumerate}
+
+\subsection{Cloud computing et sécurité
+}
+Toutes les enquêtes montrent que la sécurité est la préoccupation majeure des organisations dans le processus d’adoption des technologies Cloud. Les questions sont nombreuses comme par exemple :
+
+\begin{itemize}
+
+\item Quelle confiance peut-on avoir dans le stockage des données à l’extérieur de l’entreprise ?
+\item Quels sont les risques associés à l’utilisation de services partagés ?
+\item Comment démontrer la conformité des systèmes à des normes d’exploitation ?
+\end{itemize}
+
+Les infrastructures Cloud sont de gigantesques systèmes complexes. Ils peuvent cependant être réduits à un petit nombre de primitives simples qui sont instanciées des milliers de fois et à quelques fonctions communes. La sécurité du Cloud est donc un problème gouvernable moins complexe qu’il n’y parait.
+
+\subsubsection{Avantages et défis du Cloud en terme de sécurité}
+
+Le Cloud présente des avantages immédiats. D’une manière générale, le fait d’héberger des données publiques sur le Cloud réduit les risques pour les données internes sensibles. D’autre part, l’homogénéité dans la construction du Cloud en rend les tests et les audits plus simples. De même la conduite du système au travers de web services permet la mise en place  de procédures automatiques accroissant notablement la sécurité.
+
+En revanche les défis restent nombreux pour les fournisseurs.  Il faut donner confiance dans le modèle de sécurité et dans les outils de gestion qui sont proposés. Les tâches de gestion sont réalisées de manière indirecte au travers d’une interface puisque l’utilisateur n’a pas de contrôle direct sur l’infrastructure physique. Ce partage des responsabilités complique un peu les audits de sécurité.
+
+\subsubsection{Les composants sécurité d’un système de Cloud computing}
+Les différents composants qui participent à la sécurité d’un système de Cloud computing présentent les caractéristiques suivantes :
+\begin{itemize}
+	 
+\item \textbf{Service de console de gestion (Provisioning):}\\
+La mise en route et la reconfiguration des composants des systèmes sont très rapides. Il est possible de mettre en service plusieurs instances dans plusieurs centres de traitement répartis dans le monde en quelques minutes. Les reconfigurations réseau sont facilitées. En revanche, la sécurité d’utilisation de la console de gestion devient impérative (authentification multi-facteurs, connexion chiffrée, etc..)
+
+\item \textbf{Service de stockage des données:}\\
+Les avantages du stockage des données dans le Cloud dépendent des fournisseurs mais en général, ceux-ci fragmentent et répartissent les données. Celles ci sont aussi souvent recopiées dans des centres de traitement différents. Ces opérations améliorent considérablement la sécurité des données. Si leur contenu doit rester confidentiel, il convient de les chiffrer avant de les stocker.
+
+\item \textbf{Infrastructures de calcul:}\\
+Un des gros avantages du Cloud pour le développement et l’exploitation des applications réside dans la virtualisation. Elle permet de préparer des configurations maîtres sûres qu’il suffit de dupliquer pour déployer. Les défis restent la sécurisation des données dans les applications partagées et  la sécurité entre les instances garantie par les hyperviseurs.
+\item \textbf{Services de support:}\\
+La principale caractéristique du Cloud est la mise en place a priori d’une sécurité renforcée et auditable (authentification, logs, pare-feux, etc..). Il reste à traiter les risques liés à l’intégration avec les applications des utilisateurs ainsi que les processus toujours délicats de mises à jour
+\item \textbf{Sécurité périmétrique du réseau Cloud:}\\
+Ces grandes infrastructures partagées fournissent des moyens de protection au delà des capacités  d’une entreprise normale comme par exemple la protection contre les attaques DDOS (Distributed Denial Of Service). Les mécanismes de sécurité périmétriques sont généralement bien conçus (fournisseur d’identité, authentification, pare-feux , etc..). En revanche, il reste à traiter les sujets liés à la mobilité.
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%              Workflow et systèmes de gestion de workflows 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \section{Workflow et systèmes de gestion de Workflow}
+ 	 
+ 	 \subsection{ Concepts de base et définitions de Workflow }
+ 	 
+ 
+La notion de workflow (traduit en français par "flux de travail") est apparue dans l’industrie de l’image électronique et de la gestion de production assistée par ordinateur (GW, 1998). Ce concept a donc été créé dans le but d’automatiser les procédures de travail au sein des organisations. L’idée d’enchaîner différentes tâches pour réaliser un traitement complexe est pertinente. De plus, dans les infrastructures actuelles distribuées, gérant des ressources hétérogènes, telles que le cloud computing, bénéficier d’un environnement autorisant la définition et l’exécution des chaînes de traitement constitue une des fonctionnalités essentielles recherchée, à la fois par les scientifiques et au-delà par le grand public.
+
+Deux grandes catégories d’usages utilisent la notion de workflow : les protocoles expérimentaux, dans des domaines tels que la biologie, l’astronomie, la physique, la neuroscience, la chimie, etc. (workflows scientifiques) et les chaînes de traitement pratiquées dans des domaines commerciaux, financiers, pharmaceutiques (processus métiers). Elles donnent lieu à plusieurs pistes de recherche diverses, mais cependant connexes. Dans le cadre de cette thèse, nous traitons plus particulièrement les workflows scientifiques.
+
+\subsubsection{Définitions  de base du  workflow}
+
+
+Avant de définir le terme workflow, il est à noter qu'un problème de confusion persiste entre les termes : workflow (processus workflow), technologie workflow et système workflow. En ce qui suit, nous allons définir chacun de ces termes.
+
+\begin{enumerate}
+	\item \textbf{Définition 1: }  Un\textbf{ workflow} est la forme exécutable d'un processus d'une organisation, gérable par un système workflow. Il permet d'automatiser l'exécution du processus ou encore sa simulation.
+	
+	\item \textbf{Définition 2: }Un \textbf{système workflow} (ou \textbf{WfMS} pour Système de Gestion de Workflow) est un système informatique permettant la gestion des processus métiers. Les services proposés par un WfMS sont au minimum l'exécution d'un processus et sa gestion (contrôle et suivi) en plus de la mise à disposition des outils et des documents nécessaires à la réalisation des différentes étapes du processus. 
+	\item \textbf{Définition 3: }\textbf{La technologie workflow} est la technologie informatique du \textbf{TCAO} (Travail Coopératif Assisté par Ordinateur), qui s'intéresse à la gestion des processus de l'organisation. C'est l'ensemble des moyens utilisés pour automatiser et gérer un processus. Cette gestion est garantie vu qu'il est possible de présenter un modèle de processus sous une forme exécutable.
+\end{enumerate}
+
+La relation entre ces trois termes est la suivante : Une entreprise peut introduire une technologie workflow dans son système d'information en installant un système de gestion de workflow qui gère ses processus, automatisés en workflow.
+
+La WfMC (Workflow Management Coalition) (WfMC, 1999) a donné une définition qui généralise la notion de workflow indépendamment des domaines spécifiques:
+
+\textit{"Workflow is the automation of business process, in whole or part during which documents, information or tasks are passed from one participant to another for action, according to a set of procedural rules."}
+
+Nous traduisons cette définition par: " Un workflow est l'automatisation d'un processus métier, en tout ou en partie, au cours de laquelle des documents, des informations ou des tâches sont passées d'un participant à un autre pour l'action, selon un ensemble de règles procédurales". 
+
+En ce qui concerne le workflow scientifique, nous retiendrons la définition suivante. 
+
+Un workflow est composé d’un ensemble de tâches (traitements) organisées selon un ordre logique, afin de réaliser un traitement global, complexe et pertinent sur un ensemble de données sources. Ces données sont souvent complexes, tant au niveau de leurs structures que de leurs organisations. Elles sont souvent volumineuses.
+
+La taille d’un workflow scientifique peut varier de quelques tâches à des millions de tâches, qui sont souvent de calcul intensif "Computation Intensive" (Ludäscher, 2009).  Pour les grands workflows, il est souhaitable de répartir les tâches entre plusieurs ressources, afin d’optimiser les temps d’exécution. En tant que tel, les workflows impliquent souvent  des calculs répartis sur des clusters, des grilles, et d'autres infrastructures informatiques. Récemment, les clouds computing  sont évalués comme une plateforme d'exécution de workflows (Hoffa, 2008; Juve, 2008). L’exécution d’un workflow est gérée par un SGWf (Système de Gestion de Workflow) dont l’architecture de référence est décrite brièvement dans la section suivante. 
+1
+
+\subsubsection{Concepts et terminologie de workflow}
+  La liste suivante présente les concepts de base de workflow et les structures de base pour la conception de workflow et le contrôle de processus comme le suggère la WfMC \parencite{WFMC}:
   
- 
-  	Pour CISCO le Cloud Computing est une plateforme de mutualisation informatique fournissant aux entreprises des services à la demande avec l’illusion d’une infinité de ressources. 
-  	
-  	Alors, le Cloud Computing est un concept qui consiste à transférer des fichiers ou des bases de données sur des serveurs à distance, qui étaient auparavant stockés dans la machine du client. Il permet d’accéder sur demande aux mêmes informations par plusieurs personnes.
-  	\begin{figure}
-  		\centering
-  		\includegraphics[width=1\linewidth]{screenshot002}
-  		\caption{Le cloud compting}
-  		\label{fig:screenshot002}
-  	\end{figure}
-  	
-  	
-  	\subsection{Éléments constitutifs du Cloud Computing}
-  	\subsubsection{La virtualisation}
-  	La virtualisation consiste à faire fonctionner un ou plusieurs systèmes d'exploitation sur un ou plusieurs ordinateurs. Cela peut sembler étrange d'installer deux systèmes d'exploitation sur une machine conçue pour en accueillir qu'un, mais comme nous le verrons par la suite, cette technique a de nombreux avantages.
-  	
-  	Il est courant pour des entreprises de posséder de nombreux serveurs, tels que les serveurs de mail, de nom de domaine, de stockage ...etc.
-  	
-  	Dans un contexte économique où il est important de rentabiliser tous les investissements, acheter plusieurs machines physiques pour héberger plusieurs serveurs n'est pas judicieux. De plus, une machine fonctionnant à 15 \% ne consomme pas plus d'énergie qu'une machine fonctionnant à 90 \%. Ainsi, regrouper ces serveurs sur une même machine peut donc s'avérer rentable si leurs pointes de charge ne coïncident pas systématiquement.
-  	
-  	Enfin, la virtualisation des serveurs permet une plus grande modularité dans la répartition des charges et la reconfiguration des serveurs en cas d'évolution ou de défaillance momentanée.
-  	
-  	\subsubsection{Datacenter}
-  	Un centre de traitement de données (data centre en anglais) est un site physique sur lequel se trouvent regroupés des équipements constituants du système d'information de l'entreprise(mainframes, serveurs, baies de stockage, équipements réseaux et de télécommunications, etc.). Il peut être interne et/ou externe à l'entreprise, exploité ou non avec le soutien de prestataires. Il comprend en général un contrôle sur l'environnement (climatisation, système de prévention contre l'incendie, etc.), une alimentation d'urgence et redondante, ainsi qu'une sécurité physique élevée.
-  	
-  	Cette infrastructure peut être propre à une entreprise et utilisée par elle seule ou à des fins commerciales. Ainsi, des particuliers ou des entreprises peuvent venir y stocker leurs données suivant des modalités bien définies. 
-  	
-  \subsubsection{Plateforme collaborative}
- 
- 
- Une plate-forme de travail collaboratif est un espace de travail virtuel. C'est un site qui centralise tous les outils liés à la conduite d'un projet et les met à disposition des acteurs.
- 
- L'objectif du travail collaboratif est de faciliter et d'optimiser la communication entre les individus dans le cadre du travail ou d'une tâche. Les plates-formes collaboratives intègrent généralement les éléments suivants :
- 
- 
  \begin{itemize}
-\item Des outils informatiques
-\item Des guides ou méthodes de travail en groupe, pour améliorer la communication, la production, la coordination.
-\item 	Un service de messagerie.
-\item 	Un système de partage de ressources et de fichiers.
-\item 	Des outils de type forum, pages de discussions
-\item 	Un trombinoscope, ou annuaire des profils des utilisateurs.
-\item 	Des groupes, par projet ou par thématique.
-\item 	Un calendrier. 
- 
+ \item Une \textbf{activité} (tâche): est une description d'une partie du travail qui constitue une étape logique dans un workflow. Elle peut être manuelle ou automatique [1]. Une activité manuelle est entièrement réalisée par une ou plusieurs personnes, sans aucune utilisation d'une application. En revanche, une activité automatique est effectuée par une application, sans aucune intervention des personnes, en se basant sur des données déjà enregistrées. Les activités sont classées en fonction des mutuelles dépendances imposées par des aspects structurels et de données (flot de contrôle et flot de données entre les activités). Différentes configurations permettent de couvrir les aspects structurels : séquence, sélection, itération, et concurrence. Pour la représentation des données, deux approches sont les plus utilisées : soit par le biais des flux de données entre les activités, soit par l'intermédiaire des services de fourniture des données des (ou vers les) activités .
+\item Une \textbf{instance }(instance de workflow (un cas) ou instance d'activité): est la représentation d'une exécution unique d'un workflow ou d'une activité dans un workflow.
+
+\item Un \textbf{ participant} (acteur, agent, utilisateur, entité de traitement, ressource): est une entité qui exécute une instance d'activité. Cette entité peut être un être humain ou un système logiciel.
+ \item Un \textbf{élément de travail} (work-item): est la représentation du travail à traiter (par un participant) dans le cadre d'une activité d'une instance de workflow. Une liste des éléments de travail associée avec un participant de workflow donné (ou groupe de participants) est appelé une liste de travail (work-list).
+ \item  Un \textbf{état de workflow} (resp. d'activité): est lié à des conditions internes déffnissant l'état d'une instance du workflow (resp. de l'activité) à un moment donné. Dans le cas d'un workflow, l'état pourrait être "initié", "en exécution", "actif", "suspendu", "achevé", "terminé" et "archivé". Dans le cas d'une activité, il pourrait être "inactive", "active", "en exécution", "suspendue", "sautée" et "terminée". 
  \end{itemize}
- 
- 
- \subsection{Modèles de services Cloud}
- Il ya trois (03) modèles de services Cloud  \ref{fig:screenshot003} 
- \begin{figure}[h]
- 	\centering
- 	\includegraphics[width=1\linewidth]{screenshot003}
- 	\caption{Modèles de services du Cloud Computing}
- 	\label{fig:screenshot003}
- \end{figure}
- 
- \begin{table}[h]
- 
- 		\centering
- 		\begin{tabular}{l | l | l}
- 			 & Points forts & Points faibles \\
- 			\hline
- 			SaaS & 12 & 13\\
- 			PaaS & 22 & 14\\
- 			IaaS & 23 & 12
- 	
- 	\end{tabular} 
+En résumé, nous distinguons dans un workflow des cas, des éléments de travail (workitems) et des ressources. Les work-items lient les cas et les tâches, les activités lient les cas, les tâches et les ressources.
+La figure  [7] montre qu'un workflow comporte trois dimensions : (1) la dimension de cas, (2) la dimension du processus et (3) la dimension des ressources. La dimension de cas signifie le fait que tous les cas sont traités individuellement. Du point de vue workflow, les cas ne s'influencent pas des autres, mais ils s'influencent les uns des autres indirectement via le partage des ressources et des données. Dans la dimension de processus, il est spécifeé le processus de workflow, c'est à dire les tâches et l'acheminement de ces tâches. Dans la dimension des ressources, les ressources sont regroupées dans des classes particulières nommées les rôles et les unités organisationnelles. Une classe de ressource est un ensemble de ressources présentant des caractéristiques similaires. Si une classe de ressource est basée sur les capacités (exigences fonctionnelles) de ses membres, elle est appelée un rôle. Si le classement est basé sur la structure de l'organisation, une classe de ressource est appelée une unité organisationnelle (par exemple une équipe ou un département). 
+\subsubsection{Les types de workflow}
+\textbf{Regroupement des workflows:}
+Une première manière de regrouper les workflows est la suivante :
+\begin{enumerate}
 
- 	\caption{Max and min temps recorded in the first two weeks of July}
- 	\label{tab:temps}
- \end{table}
+	\item les workflows documentaires (rédaction, validation, traduction de documents),
+	\item les workflows métiers, représentant un processus transverse à l'entreprise (concerne plusieurs entités organisationnelles). Il s'agit le plus souvent de procédures rattachées à une division opérationnelle de l'entreprise. Cette procédure peut être qualifiée de procédure métier, processus métier, procédure opérationnelle ou Business Process. Cela désigne un ensemble d'activités qui s'enchaînent de manière chronologique pour atteindre un objectif, généralement délivrer un produit ou un service, dans le contexte d'une organisation de travail (ex : une entreprise, administration, etc.).
+	
+	Ainsi, on qualifie de Business Process (processus métier) l'ensemble des activités et de procédures qui permettent collectivement la réalisation d'un objectif métier. Le workflow correspond à l'automatisation de ce Business Process.
+	
+	
+\end{enumerate}
+
+On peut aussi regrouper les workflows selon les catégories suivantes :
+
+\begin{enumerate}
+\item \textbf{le WorkFlow de production:}
+qui correspond à la gestion des processus de base de l'entreprise. Les procédures supportent peu de changements dans le temps, et les transactions sont répétitives (ex : contrats d'assurance, gestion de litiges, de réclamations clients, etc.),
+\item \textbf{le WorkFlow Administratif:}
+gestion des procédures administratives par circulation de documents électroniques (ordres de mission, demandes de formations, ...) , automatise des processus variables (plusieurs cas) et mais bien définis (bien structurés). 
+\item \textbf{le WorkFlow Ad-Hoc:}
+généralement traitement de procédures secondaires (procédure d’exception) et dont la structuration est faible (circulation de notes d'information) et pour lesquelles il n’est pas toujours possible de définir des règles à l’avance, orientés vers le travail coopératif en groupe où l'initiative individuelle importante et problèmes à résoudre au cas par cas et en mode interactif.
+
+\item \textbf{le WorkFlow collaboratifs:}
+ Gestion d'un travail de groupe dont le processus est complexe, et souvent créé pour un travail de groupe particulier (travail collaboratif, équipe virtuelle,...) .
+
+\end{enumerate}
+
+
+\textbf{Comparaison entre types de workflows:} \ref{tab:tabl2}
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+
  
 
- Points forts	Points faibles
- SaaS	•	Pas d’installation
- •	Plus de licence	•	Logiciel limité
- •	Sécurité
- •	Dépendance de prestataire
- PaaS	•	Pas d'infrastructure Nécessaire
- •	Pas d'installation
- •	Environnement hétérogène	•	Limitation des langages
- •	Pas de personnalisation dans la configuration des machines virtuelles
- IaaS	•	Administration
- •	Personnalisation
- •	Flexibilité d'utilisation	•	Sécurité
- •	Besoin d'un administrateur système
+\begin{table}[!h]
+	\centering
+ 
+	\begin{tabular}{|l|l|l|l|l|}
+		\hline
+		\rowcolor[HTML]{38FFF8} 
+		\textbf{Critères} & \textbf{\begin{tabular}[h]{@{}l@{}}De\\   production\end{tabular}} & \textbf{Administratif} & \textbf{Ad-hoc} & \textbf{Collaboratif} \\ \hline
+		\textbf{\begin{tabular}[c]{@{}l@{}}Capacité \\de \\    traitement\end{tabular}} &   \begin{tabular}[c]{@{}l@{}}Haute capacité de \\   traitement Temps \\   de réponse rapide.\\Le but est la\\   Productivité\end{tabular} &   \begin{tabular}[c]{@{}l@{}}Capacité de \\traitement\\   inferieure(10 à \\100)fois moins \\que pour un  \\workflow de\\ production\end{tabular} &  \begin{tabular}[c]{@{}l@{}}Facilite \\   d'utilisation et \\   d'apprentissage \\   sont très \\   importantes.\end{tabular} &  \begin{tabular}[c]{@{}l@{}}Capacité de \\   changer \\   dynamiquement\\la définition \\   d’un processus \\   est essentielle\end{tabular} \\ \hline
+	\rowcolor[HTML]{96FFFB} 
+	\textbf{Utilisation} & \begin{tabular}[c]{@{}l@{}}Employés\\   travaillant à plein\\ temps sur des\\   activités  courtes.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Un grand \\nombre  \\d'employés\\   peuvent \\être   impliqués\end{tabular} & \begin{tabular}[c]{@{}l@{}}La modification \\   dynamique et \\rapide\\ des  processus\\ est    essentielle.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fournir\\  une voie\\    structurée pour \\   travailler\\ ensemble\end{tabular} \\ \hline
+	\textbf{\begin{tabular}[c]{@{}l@{}}Nature des \\ processus\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Processus formels \\   avec peu de \\   variation Les \\   processus peuvent \\   être très \\   complexes.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Une variété de \\  processus pout \\exister dans\\ même système. \\   Les processus\\ peuvent être \\bien définis, mais \\   requièrent moins \\   d'exigence.\end{tabular} & \begin{tabular}[c]{@{}l@{}} Facilité \\de  déploiement.\end{tabular}& \begin{tabular}[c]{@{}l@{}}Les processus \\   sont moins \\   rigides\end{tabular} \\ \hline
+	\rowcolor[HTML]{96FFFB} 
+	\textbf{Spécificités} & \begin{tabular}[c]{@{}l@{}}Requiert une\\ 
+		intégration serrée \\
+		avec les systèmes \\
+		de bases.
+	\end{tabular} & \begin{tabular}[c]{@{}l@{}} Utilise souvent \\des
+		documents \\attaches.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Le but est de \\zéro
+		coût \\
+		d’administration .
+	\end{tabular}& \begin{tabular}[c]{@{}l@{}}
+		La capacité de \\
+		traitement est \\
+		de moindre \\
+		importance\\
+	\end{tabular}
+	\\ \hline
+\end{tabular}
+
+\caption{Comparaison entre types de Workflows.}
+\label{tab:tabl2}
+\end{table}
+\textbf{Exemples de workflows :}
+\begin{itemize}
+	\item Processus de déclaration de sinistre,
+	\item Processus d'ouverture compte,
+	\item Processus de création d'un dossier de prêt,
+	\item Processus de gestion d'une succession,
+	\item Processus de prise de congés.
+\end{itemize}
+\subsection{Architecture des systèmes de gestion de workflows }
+\subsubsection{Définition }
+La gestion du workflow est une technologie en évolution rapide, qui est de plus en plus exploitée par les entreprises. Un SGWf représente un système qui définit, implémente et gère l'exécution de workflows à l'aide d'un environnement logiciel fonctionnant avec un ou plusieurs moteurs de workflows et capable d'interpréter la définition d'un processus, de gérer la coordination des participants et d'invoquer des applications externes.  
+
+ L'architecture de référence d’un SGWf proposée par la Workflow Management Coalition (WfMC, 95) en1995 est présentée dans la figure \ref{fig:capture6}. Ce modèle inclut un service de déploiement, qui contrôle l'exécution des workflows et qui supporte cinq interfaces standardisées:
  
  
- \section{Introduction aux Workflow:}
- 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{Capture6}
+	\caption{ Modèle de référence des systèmes de gestion de workflow (WfMC, 95). }
+	\label{fig:capture6}
+\end{figure}
+
+
+\begin{enumerate}
+\item  Interface 1 : Correspond à l’échange des modèles entre les moteurs de workflows et les différents outils de modélisation de processus. \item Interface 2 : Permet à des applications clientes de communiquer avec le moteur de workflows. \item Interface3 : Permet au système de workflow d’invoquer des applications clientes. \item  Interface 4 : Permet l’interopérabilité entre les différents moteurs de workflows.\item  Interface 5 : Correspond à l’interaction entre les applications d’administration et de pilotage et le moteur de workflows
+
+\end{enumerate}
+\subsubsection{Standards utilisés dans les SGWf :}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{Capture7}
+	\caption{Différents standards adoptés dans les SGWf}
+	\label{fig:capture7}
+\end{figure}
+
+
+\begin{enumerate}
+\item \textbf{ BPNM (Business Process Model and Notation):} est une représentation graphique permettant de spécifier les processus métier maintenus par le groupe de gestion d'objets (OMG). 
+\item \textbf{XPDL (Process Definition Language):} est un format normalisé par la WfMC (Workflow Management Coalition) pour l’échange de définitions de partenaire entre différents produits de flux de travail, c.-à-d. entre différents outils de modélisation et suites de gestion. XPDL définit un schéma XML pour spécifier la partie déclarative du workflow / partenaire.
+\item \textbf{BPAF (Business Process Analytics):} fournit aux participants aux processus et aux décideurs des informations sur l'efficacité des processus organisationnels.
+\item \textbf{BPEL (Business Process Execution Language):} BPEL est un langage d'orchestre.
+\item \textbf{ Wf-XML }est un standard BPM développé par la Workflow Management Coalition. Wf-XML offre à un moteur BPM un moyen standard d'appeler un processus dans un autre moteur BPM et d'attendre qu'il se termine.
+\end{enumerate}
+
+
+
+\subsection{ Intérêts du cloud pour les workﬂows }
+Les clouds offrent plusieurs avantages pour les applications à base de workflows. Ces avantages facilitent: 
+\subsubsection{L’approvisionnement de ressources }
+Dans les grilles, l'ordonnancement est basé sur un modèle en best-effort, dans lequel l’utilisateur spécifie la quantité de temps nécessaire et délègue la responsabilité de l'allocation des ressources et d'ordonnancement de tâches à un ordonnanceur fonctionnant en mode batch utilisant des files d’attentes. Dans le cloud, au lieu de déléguer l’allocation au gestionnaire de ressources, l'utilisateur peut provisionner les ressources nécessaires et ordonnancer les tâches en utilisant un ordonnanceur contrôlé par l'utilisateur. Ce modèle d’approvisionnement est idéal pour les workflows, car il permet au système de gestion de workflow d'allouer une ressource une seule fois et de l'utiliser pour exécuter de nombreuses tâches. 
+\subsubsection{L’allocation dynamique de ressources à la demande }
+Contrairement aux grilles, les clouds donnent l'illusion que les ressources informatiques disponibles sont illimitées. Cela signifie que les utilisateurs peuvent demander, et s’attendre à obtenir des ressources suffisantes pour leurs besoins, à tout moment. L’approvisionnement à la demande est idéal pour les workflows et d'autres applications faiblement couplées, car il réduit le surcoût (overheads) d’ordonnancement total et peut améliorer considérablement les performances du workflow (Singh, 2005 ; Juve, 2008) 
+\subsubsection{L’élasticité}
+Outre l’approvisionnement des ressources à la demande, les clouds permettent aussi aux utilisateurs de libérer des ressources à la demande. La nature élastique de clouds facilite le changement des quantités et des caractéristiques de ressources lors de l'exécution, permettant ainsi d’augmenter le nombre de ressources, quand il y a un grand besoin, et d’en diminuer, lorsque la demande est faible. Cela permet aux systèmes de gestion de workflow de répondre facilement aux exigences de qualité de service (QoS) des applications, contrairement à l'approche traditionnelle, qui nécessite de réserver à l'avance des ressources dans les environnements de grilles. 
+\subsubsection{La garantie des QoS via des SLA }
+Avec l’arrivée des services de cloud computing  provenant de grandes organisations commerciales, les accords de niveau de service (SLA) ont été une préoccupation importante pour les fournisseurs et les utilisateurs. En raison de compétitions entres les fournisseurs de services émergents, un grand soin est pris lors de la conception du SLA qui vise à offrir (i) de meilleures garanties de QoS aux utilisateurs, et (ii) des termes clairs pour l'indemnisation, en cas de violation du contrat. Cela permet aux systèmes de gestion de workflow de fournir de meilleures garanties de bout en bout en "mappant" les utilisateurs aux fournisseurs de services selon les caractéristiques des SLA.
+
+\subsubsection{Le faible Coût d’exploitation }
+ Économiquement motivés, les fournisseurs de cloud commercial s'efforcent d'offrir de meilleures garanties de services par rapport aux fournisseurs de grille. Les fournisseurs de cloud profitent également des économies d'échelle, en fournissant des ressources de calcul, de stockage et de bande passante, à un coût très faible grâce, à la virtualisation. Ainsi l'utilisation des services de cloud public pourrait être économique et une alternative moins coûteuse, par rapport à l’utilisation de ressources dédiées, qui sont plus chères. Un des avantages de l'utilisation des ressources virtuelles pour l'exécution de workflow, plutôt que d'un accès direct à la machine physique, est le besoin réduit pour sécuriser les ressources physiques des codes malveillants. Cependant, l'effet à long terme de l'utilisation de ressources virtuelles dans les clouds qui partagent efficacement une "tranche" de la machine physique, plutôt que d'utiliser des ressources dédiées pour les workflows de calculs intensifs, est une question de recherche intéressante. 
+\section{Conclusion }
+....lk

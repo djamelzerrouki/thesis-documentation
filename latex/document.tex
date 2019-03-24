@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+ 
+\usepackage[
+backend=biber,
+style=alphabetic,
+citestyle=authoryear
+]{biblatex}
+ 
+\addbibresource{references.bib} %Imports bibliography file
+ 
+\begin{document}
+\section{First section}
+ 
+This document is an example, two items are cited: \textit{The \LaTeX\ Companion} book is \cite{latexcompanion}, and Einstein's journal paper is \cite{einstein}.
+ 
+\medskip
+ 
+\printbibliography
+\end{document}

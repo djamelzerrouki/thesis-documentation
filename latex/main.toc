@@ -31,26 +31,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.1} Concepts de base et d\IeC {\'e}finitions de Workflow }{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.1.1}D\IeC {\'e}finitions de workflow}{16}% 
+\contentsline {subsubsection}{\numberline {1.3.1.1}D\IeC {\'e}finitions de base du workflow}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.1.2}Les types de workflow}{16}% 
+\contentsline {subsubsection}{\numberline {1.3.1.2}Concepts et terminologie de workflow}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Architecture des syst\IeC {\`e}mes de gestion de workflows }{17}% 
+\contentsline {subsubsection}{\numberline {1.3.1.3}Les types de workflow}{18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.2.1}D\IeC {\'e}finition }{17}% 
+\contentsline {subsection}{\numberline {1.3.2}Architecture des syst\IeC {\`e}mes de gestion de workflows }{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.2.2}Standards utilis\IeC {\'e}s dans les SGWf :}{19}% 
+\contentsline {subsubsection}{\numberline {1.3.2.1}D\IeC {\'e}finition }{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3} Int\IeC {\'e}r\IeC {\^e}ts du cloud pour les work\GenericError {(inputenc) }{Package inputenc Error: Unicode character ﬂ (U+FB02)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{You may provide a definition with\MessageBreak \GenericError { }{LaTeX Error: Can be used only in preamble}{See the LaTeX manual or LaTeX Companion for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}}ows }{19}% 
+\contentsline {subsubsection}{\numberline {1.3.2.2}Standards utilis\IeC {\'e}s dans les SGWf :}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.3.1}L\IeC {\textquoteright }approvisionnement de ressources }{19}% 
+\contentsline {subsection}{\numberline {1.3.3} Int\IeC {\'e}r\IeC {\^e}ts du cloud pour les work\GenericError {(inputenc) }{Package inputenc Error: Unicode character ﬂ (U+FB02)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{You may provide a definition with\MessageBreak \GenericError { }{LaTeX Error: Can be used only in preamble}{See the LaTeX manual or LaTeX Companion for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}}ows }{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.3.2}L\IeC {\textquoteright }allocation dynamique de ressources \IeC {\`a} la demande }{20}% 
+\contentsline {subsubsection}{\numberline {1.3.3.1}L\IeC {\textquoteright }approvisionnement de ressources }{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.3.3}L\IeC {\textquoteright }\IeC {\'e}lasticit\IeC {\'e}}{20}% 
+\contentsline {subsubsection}{\numberline {1.3.3.2}L\IeC {\textquoteright }allocation dynamique de ressources \IeC {\`a} la demande }{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.3.4}La garantie des QoS via des SLA }{20}% 
+\contentsline {subsubsection}{\numberline {1.3.3.3}L\IeC {\textquoteright }\IeC {\'e}lasticit\IeC {\'e}}{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.3.5}Le faible Co\IeC {\^u}t d\IeC {\textquoteright }exploitation }{20}% 
+\contentsline {subsubsection}{\numberline {1.3.3.4}La garantie des QoS via des SLA }{22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Conclusion }{21}% 
+\contentsline {subsubsection}{\numberline {1.3.3.5}Le faible Co\IeC {\^u}t d\IeC {\textquoteright }exploitation }{22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Conclusion }{22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Mod\IeC {\'e}lisations et R\IeC {\'e}seau de Petri}{23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Introduction}{23}% 

@@ -17,43 +17,23 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
-  \entry{latexcompanion}{book}{}
-    \name{author}{3}{}{%
-      {{hash=GM}{%
-         family={Goossens},
-         familyi={G\bibinitperiod},
-         given={Michel},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=MF}{%
-         family={Mittelbach},
-         familyi={M\bibinitperiod},
-         given={Frank},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=SA}{%
-         family={Samarin},
-         familyi={S\bibinitperiod},
-         given={Alexander},
-         giveni={A\bibinitperiod},
+  \entry{WFMC}{book}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={Brussels},
+         familyi={B\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {Addison-Wesley}%
-    }
-    \strng{namehash}{GM+1}
-    \strng{fullhash}{GMMFSA1}
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{1993}
+    \field{labelyear}{1999}
     \field{labeldatesource}{year}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \field{title}{The \LaTeX\ Companion}
-    \list{location}{1}{%
-      {Reading, Massachusetts}%
-    }
-    \field{year}{1993}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Workflow management coalition terminology and glossary}
+    \field{year}{1999}
   \endentry
 \enddatalist
 \endinput

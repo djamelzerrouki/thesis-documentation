@@ -17,23 +17,146 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
-  \entry{WFMC}{book}{}
+  \entry{WETICE'02}{book}{}
     \name{author}{1}{}{%
-      {{hash=B}{%
-         family={Brussels},
+      {{hash=BM}{%
+         family={Blake.},
          familyi={B\bibinitperiod},
+         given={M.B.},
+         giveni={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{B1}
-    \strng{fullhash}{B1}
+    \list{publisher}{1}{%
+      {Proceedings of the 11th International Workshops on Enabling
+  Technologies:Infrastructure for Collaborative Enterprises (WETICE'02)}%
+    }
+    \strng{namehash}{BM1}
+    \strng{fullhash}{BM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{1999}
+    \field{labelyear}{2002}
     \field{labeldatesource}{year}
     \field{sortinit}{B}
     \field{sortinithash}{B}
-    \field{title}{Workflow management coalition terminology and glossary}
-    \field{year}{1999}
+    \field{title}{An Agent-Based Cross-Organizational Workflow Architecture in
+  Support of Web Services.}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Harel}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HD}{%
+         family={Harel},
+         familyi={H\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HD1}
+    \strng{fullhash}{HD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1987}
+    \field{labeldatesource}{year}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{8}
+    \field{pages}{231\bibrangedash 274}
+    \field{title}{A Visual Formalism for Complex Systems}
+    \field{journaltitle}{Science of Computer Programming}
+    \field{year}{1987}
+  \endentry
+
+  \entry{EDBT'98}{article}{}
+    \name{author}{1}{}{%
+      {{hash=JWPMeGW}{%
+         family={J.\bibnamedelima Weissenfels},
+         familyi={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+         given={P.\bibnamedelima Muth et G.\bibnamedelima Weikum.},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  e\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JWPMeGW1}
+    \strng{fullhash}{JWPMeGW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{year}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{pages}{29\bibrangedash 38}
+    \field{title}{Flexible Worklist Management in a LightWeight Workflow
+  Management System}
+    \field{journaltitle}{Proceedings of the Workshop on Workflow Management
+  Systems at the Sixth International Conference on Extending Database
+  Technology (EDBT'98)}
+    \field{year}{1998}
+  \endentry
+
+  \entry{UML}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={OMG},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Unified Modeling Language.}
+    \verb{url}
+    \verb www.uml.org
+    \endverb
+  \endentry
+
+  \entry{RdPs}{online}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Petri.Nets.World},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Online Services for the International Petri Nets Community}
+    \verb{url}
+    \verb www.daimi.au.dk/PetriNets
+    \endverb
+    \field{year}{2004}
+  \endentry
+
+  \entry{b3}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SJSB}{%
+         family={S.\bibnamedelima Joosten},
+         familyi={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={S.\bibnamedelima Brinkkemper},
+         giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {International Conference on Information Systems Development}%
+    }
+    \strng{namehash}{SJSB1}
+    \strng{fullhash}{SJSB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Fundamental Concepts for Workflow Automation in Practice}
+    \field{year}{1996}
   \endentry
 \enddatalist
 \endinput

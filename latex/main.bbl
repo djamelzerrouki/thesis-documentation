@@ -158,5 +158,24 @@
     \field{title}{Fundamental Concepts for Workflow Automation in Practice}
     \field{year}{1996}
   \endentry
+
+  \entry{WFMC}{book}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={WFMC},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{year}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Workflow management coalition terminology and glossary}
+    \field{year}{1999}
+  \endentry
 \enddatalist
 \endinput

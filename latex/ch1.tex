@@ -5,7 +5,7 @@
      
     Ce chapitre présente une introduction au cloud computing et au workflow, nécessaire pour la compréhension générale de ce rapport.
     
-    Tout d’abord, nous présentons dans la section 1.2 une introduction au paradigme du cloud computing. Nous donnons un aperçu général du cloud computing, y compris sa définition, ses caractéristiques principales et une comparaison avec les technologies connexes. Nous présentons les différents modèles de service, les différents modèles de déploiement, ainsi que les différents acteurs du cloud computing. Nous résumons quelques challenges de recherche en cloud computing. Par la suite, nous présentons, dans la section 1.3, une introduction au workflow et systèmes de gestion de workflow. Nous donnons le concept du workflow, sa définition, et l’architecture de référence d’un système de gestion de workflows et, finalement, nous résumons l’intérêt  du cloud pour les workflows.
+    Tout d’abord, nous présentons dans la section 1.2 une introduction au paradigme du cloud computing. Nous donnons un aperçu général du cloud computing, y compris sa définition, ses caractéristiques principales et une comparaison avec les technologies connexes. Nous présentons les différents modèles de service, les différents modèles de déploiement, ainsi que les différents acteurs du cloud computing. Nous résumons quelques challenges de recherche en cloud computing. Par la suite, nous présentons, dans la section 1.3, une introduction au workflow et systèmes de gestion de workflow. Nous donnons le concept du workflow, sa définition, et l’architecture de référence d’un système de gestion de workflows et, finalement, nous résumons l'intérêt du cloud pour les workflows.
     
     \section{cloud computing}
     \subsection{Concept du cloud computing}
@@ -207,44 +207,41 @@ généralement traitement de procédures secondaires (procédure d’exception) 
 
 
 \textbf{Comparaison entre types de workflows:} \ref{tab:tabl2}
-% Please add the following required packages to your document preamble:
-% \usepackage[table,xcdraw]{xcolor}
-% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
-
  
 
 \begin{table}[!h]
 	\centering
- 
+	
 	\begin{tabular}{|l|l|l|l|l|}
 		\hline
 		\rowcolor[HTML]{38FFF8} 
 		\textbf{Critères} & \textbf{\begin{tabular}[h]{@{}l@{}}De\\   production\end{tabular}} & \textbf{Administratif} & \textbf{Ad-hoc} & \textbf{Collaboratif} \\ \hline
 		\textbf{\begin{tabular}[c]{@{}l@{}}Capacité \\de \\    traitement\end{tabular}} &   \begin{tabular}[c]{@{}l@{}}Haute capacité de \\   traitement Temps \\   de réponse rapide.\\Le but est la\\   Productivité\end{tabular} &   \begin{tabular}[c]{@{}l@{}}Capacité de \\traitement\\   inferieure(10 à \\100)fois moins \\que pour un  \\workflow de\\ production\end{tabular} &  \begin{tabular}[c]{@{}l@{}}Facilite \\   d'utilisation et \\   d'apprentissage \\   sont très \\   importantes.\end{tabular} &  \begin{tabular}[c]{@{}l@{}}Capacité de \\   changer \\   dynamiquement\\la définition \\   d’un processus \\   est essentielle\end{tabular} \\ \hline
-	\rowcolor[HTML]{96FFFB} 
-	\textbf{Utilisation} & \begin{tabular}[c]{@{}l@{}}Employés\\   travaillant à plein\\ temps sur des\\   activités  courtes.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Un grand \\nombre  \\d'employés\\   peuvent \\être   impliqués\end{tabular} & \begin{tabular}[c]{@{}l@{}}La modification \\   dynamique et \\rapide\\ des  processus\\ est    essentielle.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fournir\\  une voie\\    structurée pour \\   travailler\\ ensemble\end{tabular} \\ \hline
-	\textbf{\begin{tabular}[c]{@{}l@{}}Nature des \\ processus\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Processus formels \\   avec peu de \\   variation Les \\   processus peuvent \\   être très \\   complexes.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Une variété de \\  processus pout \\exister dans\\ même système. \\   Les processus\\ peuvent être \\bien définis, mais \\   requièrent moins \\   d'exigence.\end{tabular} & \begin{tabular}[c]{@{}l@{}} Facilité \\de  déploiement.\end{tabular}& \begin{tabular}[c]{@{}l@{}}Les processus \\   sont moins \\   rigides\end{tabular} \\ \hline
-	\rowcolor[HTML]{96FFFB} 
-	\textbf{Spécificités} & \begin{tabular}[c]{@{}l@{}}Requiert une\\ 
-		intégration serrée \\
-		avec les systèmes \\
-		de bases.
-	\end{tabular} & \begin{tabular}[c]{@{}l@{}} Utilise souvent \\des
-		documents \\attaches.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Le but est de \\zéro
-		coût \\
-		d’administration .
-	\end{tabular}& \begin{tabular}[c]{@{}l@{}}
-		La capacité de \\
-		traitement est \\
-		de moindre \\
-		importance\\
+		\rowcolor[HTML]{96FFFB} 
+		\textbf{Utilisation} & \begin{tabular}[c]{@{}l@{}}Employés\\   travaillant à plein\\ temps sur des\\   activités  courtes.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Un grand \\nombre  \\d'employés\\   peuvent \\être   impliqués\end{tabular} & \begin{tabular}[c]{@{}l@{}}La modification \\   dynamique et \\rapide\\ des  processus\\ est    essentielle.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fournir\\  une voie\\    structurée pour \\   travailler\\ ensemble\end{tabular} \\ \hline
+		\textbf{\begin{tabular}[c]{@{}l@{}}Nature des \\ processus\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Processus formels \\   avec peu de \\   variation Les \\   processus peuvent \\   être très \\   complexes.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Une variété de \\  processus pout \\exister dans\\ même système. \\   Les processus\\ peuvent être \\bien définis, mais \\   requièrent moins \\   d'exigence.\end{tabular} & \begin{tabular}[c]{@{}l@{}} Facilité \\de  déploiement.\end{tabular}& \begin{tabular}[c]{@{}l@{}}Les processus \\   sont moins \\   rigides\end{tabular} \\ \hline
+		\rowcolor[HTML]{96FFFB} 
+		\textbf{Spécificités} & \begin{tabular}[c]{@{}l@{}}Requiert une\\ 
+			intégration serrée \\
+			avec les systèmes \\
+			de bases.
+		\end{tabular} & \begin{tabular}[c]{@{}l@{}} Utilise souvent \\des
+			documents \\attaches.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Le but est de \\zéro
+			coût \\
+			d’administration .
+		\end{tabular}& \begin{tabular}[c]{@{}l@{}}
+			La capacité de \\
+			traitement est \\
+			de moindre \\
+			importance\\
+		\end{tabular}
+		\\ \hline
 	\end{tabular}
-	\\ \hline
-\end{tabular}
-
-\caption{Comparaison entre types de Workflows.}
-\label{tab:tabl2}
+	
+	\caption{Comparaison entre types de Workflows.}
+	\label{tab:tabl2}
 \end{table}
+
 \textbf{Exemples de workflows :}
 \begin{itemize}
 	\item Processus de déclaration de sinistre,
@@ -292,8 +289,9 @@ La gestion du workflow est une technologie en évolution rapide, qui est de plus
 
 
 
-\subsection{ Intérêts du cloud pour les workﬂows }
-Les clouds offrent plusieurs avantages pour les applications à base de workflows. Ces avantages facilitent: 
+\subsection{ Intérêt du cloud pour les workflows }
+Les clouds offrent plusieurs avantages pour les applications à base de workflows. 
+Ces avantages facilitent: 
 \subsubsection{L’approvisionnement de ressources }
 Dans les grilles, l'ordonnancement est basé sur un modèle en best-effort, dans lequel l’utilisateur spécifie la quantité de temps nécessaire et délègue la responsabilité de l'allocation des ressources et d'ordonnancement de tâches à un ordonnanceur fonctionnant en mode batch utilisant des files d’attentes. Dans le cloud, au lieu de déléguer l’allocation au gestionnaire de ressources, l'utilisateur peut provisionner les ressources nécessaires et ordonnancer les tâches en utilisant un ordonnanceur contrôlé par l'utilisateur. Ce modèle d’approvisionnement est idéal pour les workflows, car il permet au système de gestion de workflow d'allouer une ressource une seule fois et de l'utiliser pour exécuter de nombreuses tâches. 
 \subsubsection{L’allocation dynamique de ressources à la demande }

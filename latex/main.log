@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  26 MAR 2019 16:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  26 MAR 2019 16:41
 entering extended mode
 **./main.tex
 (main.tex
@@ -664,7 +664,12 @@ ogof.PNG>] [2
 
 ] [5
 
-] (main.lof)
+] (main.lof
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
@@ -677,46 +682,187 @@ ogof.PNG>] [2
  [7
 
 ] (main.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
-)
+
+! Package inputenc Error: Unicode character \GenericError {(inputenc)          
+      }{Package inputenc Error: Unicode character ﬂ (U+FB02)
+(inputenc) not set up for use with LaTeX}{See the inputenc package documentatio
+n for explanation.}{You may provide a definition with
+(inputenc) \DeclareUnicodeCharacter } (U+FB02)
+(inputenc) not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...return> to continue without it.}}ows }{21}
+                                                  %
+You may provide a definition with
+\GenericError { }{LaTeX Error: Can be used only in preamble}{See the LaTeX manu
+al or LaTeX Companion for explanation.}{Your command was ignored.
+Type I <command> <return> to replace it with another command,
+or <return> to continue without it.}
+
+[8
+
+])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [8
 
-]
-Chapitre 1.
-[9
-
-]
-Chapitre 2.
-(ch2.tex [10
-
-]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[11] [12]) [13] [14
+[9]
+Chapitre 1.
+(ch1.tex
+Overfull \hbox (13.69853pt too wide) in paragraph at lines 6--7
+[]\OT1/cmr/m/n/12 Ce cha-pitre presente une in-tro-duc-tion au cloud com-pu-ti
+ng et au work-flow, necessaire
+ []
+
+[10
+
+]
+<images/tempsnip4.png, id=37, 934.99312pt x 697.10437pt>
+File: images/tempsnip4.png Graphic file (type png)
+<use images/tempsnip4.png>
+Package pdftex.def Info: images/tempsnip4.png  used on input line 16.
+(pdftex.def)             Requested size: 170.71393pt x 127.27101pt.
+ [11 <./images/tempsnip4.png>]
+<images/Capture5.png, id=42, 838.332pt x 460.119pt>
+File: images/Capture5.png Graphic file (type png)
+<use images/Capture5.png>
+Package pdftex.def Info: images/Capture5.png  used on input line 48.
+(pdftex.def)             Requested size: 298.75262pt x 163.97174pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+[13 <./images/Capture5.png>] [14]
+<images/Cloud_MD.png, id=55, 595.22375pt x 465.74pt>
+File: images/Cloud_MD.png Graphic file (type png)
+<use images/Cloud_MD.png>
+Package pdftex.def Info: images/Cloud_MD.png  used on input line 84.
+(pdftex.def)             Requested size: 213.39566pt x 166.96982pt.
+ [15 <./images/Cloud_MD.png (PNG copy)>]
+[16]
+Overfull \hbox (22.89844pt too wide) in paragraph at lines 146--147
+\OT1/cmr/m/n/12 or-ga-ni-sa-tion, gerable par un systeme work-flow. Il per-me
+t d'au-to-ma-ti-ser l'execution
+ []
+
+
+Overfull \hbox (9.39452pt too wide) in paragraph at lines 154--155
+[]\OT1/cmr/m/n/12 La WfMC (Work-flow Ma-na-ge-ment Coa-li-tion) (WfMC, 1999) a 
+donne une definition
+ []
+
+[17]
+
+LaTeX Warning: Citation 'WFMC' on page 18 undefined on input line 168.
+
+[18]
+Overfull \hbox (1.03477pt too wide) in paragraph at lines 185--186
+[]\OT1/cmr/m/n/12 les work-flows do-cu-men-taires (redaction, va-li-da-tion, t
+ra-duc-tion de do-cu-ments), 
+ []
+
+
+Overfull \hbox (0.31673pt too wide) in paragraph at lines 186--187
+\OT1/cmr/m/n/12 procedure peut ^etre qua-lifiee de procedure metier, pro-ce
+s-sus metier, procedure
+ []
+
+
+Overfull \hbox (7.36665pt too wide) in paragraph at lines 186--187
+\OT1/cmr/m/n/12 s'en-cha^nent de maniere chro-no-lo-gique pour at-teindre un 
+ob-jec-tif, generalement
+ []
+
+
+Overfull \hbox (57.30911pt too wide) in paragraph at lines 219--244
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19]
+<images/Capture6.png, id=73, 674.52pt x 514.92375pt>
+File: images/Capture6.png Graphic file (type png)
+<use images/Capture6.png>
+Package pdftex.def Info: images/Capture6.png  used on input line 265.
+(pdftex.def)             Requested size: 256.0774pt x 195.49234pt.
+ [20]
+Overfull \hbox (7.78471pt too wide) in paragraph at lines 272--272
+[]\OT1/cmr/m/n/12 Interface3 : Per-met au systeme de work-flow d'in-vo-quer de
+s ap-pli-ca-tions clientes. 
+ []
+
+<images/Capture7.png, id=77, 794.97pt x 406.51875pt>
+File: images/Capture7.png Graphic file (type png)
+<use images/Capture7.png>
+Package pdftex.def Info: images/Capture7.png  used on input line 279.
+(pdftex.def)             Requested size: 256.0774pt x 130.95087pt.
+
+Overfull \hbox (5.69743pt too wide) in paragraph at lines 286--287
+[] \OT1/cmr/bx/n/12 BPNM (Bu-si-ness Pro-cess Mo-del and No-ta-tion) : \OT1/cmr
+/m/n/12 est une representation
+ []
+
+
+Overfull \hbox (2.14449pt too wide) in paragraph at lines 286--287
+\OT1/cmr/m/n/12 gra-phique per-met-tant de specifier les pro-ces-sus metier m
+ain-te-nus par le groupe
+ []
+
+[21 <./images/Capture6.png> <./images/Capture7.png>]
+
+! Package inputenc Error: Unicode character ﬂ (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.295 ...Intérêts du cloud pour les workﬂows }
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[22]) [23]
+Chapitre 2.
+(ch2.tex [24
+
+] [25] [26]) [27] [28
 
 ] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11834 strings out of 492946
- 205431 string characters out of 3125822
- 506563 words of memory out of 3000000
- 15595 multiletter control sequences out of 15000+200000
+ 11881 strings out of 492946
+ 206282 string characters out of 3125822
+ 515563 words of memory out of 3000000
+ 15632 multiletter control sequences out of 15000+200000
  11153 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,46p,1020b,1773s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,17n,46p,1437b,1855s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmcsc10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2
@@ -725,9 +871,9 @@ grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/djamel/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Use
 rs/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt
 12.pfb>
-Output written on main.pdf (14 pages, 147590 bytes).
+Output written on main.pdf (28 pages, 1963694 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

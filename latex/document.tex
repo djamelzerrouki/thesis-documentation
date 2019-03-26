@@ -1,21 +1,31 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
- 
-\usepackage[
-backend=biber,
-style=alphabetic,
-citestyle=authoryear
-]{biblatex}
- 
-\addbibresource{references.bib} %Imports bibliography file
- 
+\documentclass[11pt]{report}
+
+\usepackage{hyperref}
+\usepackage{lipsum}
+
+\usepackage{xparse}
+\AtBeginDocument{
+	\let\oldchapter\chapter
+	\RenewDocumentCommand{\chapter}{s o m}{%
+		\clearpage
+		\IfBooleanTF{#1}
+		{\oldchapter*{\hyperref[toc]{#3}}}% \chapter*[..]{...}
+		{\IfValueTF{#2}
+			{\oldchapter[#2]{\hyperref[toc]{#3}}}% \chapter[..]{...}
+			{\oldchapter[#3]{\hyperref[toc]{#3}}}% \chapter{...}
+			\label{chapter-\thechapter}% \label this chapter
+		}%
+	}
+}
+
 \begin{document}
-\section{First section}
- 
-This document is an example, two items are cited: \textit{The \LaTeX\ Companion} book is \cite{latexcompanion}, and Einstein's journal paper is \cite{einstein}.
- 
-\medskip
- 
-\printbibliography
+	
+	\chapter*{Preface}
+	\lipsum[1-1]
+	\tableofcontents\label{toc}
+	\chapter{Introduction}
+	\lipsum[2-2]
+	
+	\chapter{Results}
+	\lipsum[2-4]
 \end{document}

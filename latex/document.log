@@ -1,422 +1,411 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  24 MAR 2019 13:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  27 MAR 2019 00:24
 entering extended mode
 **./document.tex
 (document.tex
 LaTeX2e <2018-12-01>
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
-Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
-File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty
-"
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
-)
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty
-"
-Package: babel 2018/11/13 3.27 The Babel package
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.de
-f"
-File: switch.def 2018/11/13 3.27 Babel switching mechanism
-)
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg
-"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\eng
-lish.ldf"
-Language: english 2017/06/06 v3.3r English support from the babel system
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def
-"
-File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count88
-\U@D=\dimen103
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.
-def")
-\bbl@dirlevel=\count89
-)
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-))
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref
 .sty"
-Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftex
-cmds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub
+-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwar
-err.sty"
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub
+-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluat
-ex.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmd
-s.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.
-sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox
-.sty"
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count90
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.s
 ty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks14
+)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex
+.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.
+sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoption
 s.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count89
+\Hy@pagecounter=\count90
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetk
-eys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.d
+ef"
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count91
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcm
-ds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-)))
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty
-"
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count91
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def
-"
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref
+.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count92
+ ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count92
-\c@listtotal=\count93
-\c@listcount=\count94
-\c@liststart=\count95
-\c@liststop=\count96
-\c@citecount=\count97
-\c@citetotal=\count98
-\c@multicitecount=\count99
-\c@multicitetotal=\count100
-\c@instcount=\count101
-\c@maxnames=\count102
-\c@minnames=\count103
-\c@maxitems=\count104
-\c@minitems=\count105
-\c@citecounter=\count106
-\c@maxcitecounter=\count107
-\c@savedcitecounter=\count108
-\c@uniquelist=\count109
-\c@uniquename=\count110
-\c@refsection=\count111
-\c@refsegment=\count112
-\c@maxextratitle=\count113
-\c@maxextratitleyear=\count114
-\c@maxextraname=\count115
-\c@maxextradate=\count116
-\c@maxextraalpha=\count117
-\c@abbrvpenalty=\count118
-\c@highnamepenalty=\count119
-\c@lownamepenalty=\count120
-\c@maxparens=\count121
-\c@parenlevel=\count122
-\blx@tempcnta=\count123
-\blx@tempcntb=\count124
-\blx@tempcntc=\count125
-\blx@maxsection=\count126
-\blx@maxsegment@0=\count127
-\blx@notetype=\count128
-\blx@parenlevel@text=\count129
-\blx@parenlevel@foot=\count130
-\blx@sectionciteorder@0=\count131
-\blx@entrysetcounter=\count132
-\labelnumberwidth=\skip43
-\labelalphawidth=\skip44
-\biblabelsep=\skip45
-\bibitemsep=\skip46
-\bibnamesep=\skip47
-\bibinitsep=\skip48
-\bibparsep=\skip49
-\bibhang=\skip50
-\blx@bcfin=\read1
-\blx@bcfout=\write3
-\c@mincomprange=\count133
-\c@maxcomprange=\count134
-\c@mincompwidth=\count135
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm.d
-ef"
-File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen104
+\Fld@menulength=\count93
+\Field@Width=\dimen105
+\Fld@charsize=\dimen106
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count94
+\c@Item=\count95
+\c@Hfootnote=\count96
 )
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'alphabetic.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count136
-\c@savedafterword=\count137
-\c@annotator=\count138
-\c@savedannotator=\count139
-\c@author=\count140
-\c@savedauthor=\count141
-\c@bookauthor=\count142
-\c@savedbookauthor=\count143
-\c@commentator=\count144
-\c@savedcommentator=\count145
-\c@editor=\count146
-\c@savededitor=\count147
-\c@editora=\count148
-\c@savededitora=\count149
-\c@editorb=\count150
-\c@savededitorb=\count151
-\c@editorc=\count152
-\c@savededitorc=\count153
-\c@foreword=\count154
-\c@savedforeword=\count155
-\c@holder=\count156
-\c@savedholder=\count157
-\c@introduction=\count158
-\c@savedintroduction=\count159
-\c@namea=\count160
-\c@savednamea=\count161
-\c@nameb=\count162
-\c@savednameb=\count163
-\c@namec=\count164
-\c@savednamec=\count165
-\c@translator=\count166
-\c@savedtranslator=\count167
-\c@shortauthor=\count168
-\c@savedshortauthor=\count169
-\c@shorteditor=\count170
-\c@savedshorteditor=\count171
-\c@labelname=\count172
-\c@savedlabelname=\count173
-\c@institution=\count174
-\c@savedinstitution=\count175
-\c@lista=\count176
-\c@savedlista=\count177
-\c@listb=\count178
-\c@savedlistb=\count179
-\c@listc=\count180
-\c@savedlistc=\count181
-\c@listd=\count182
-\c@savedlistd=\count183
-\c@liste=\count184
-\c@savedliste=\count185
-\c@listf=\count186
-\c@savedlistf=\count187
-\c@location=\count188
-\c@savedlocation=\count189
-\c@organization=\count190
-\c@savedorganization=\count191
-\c@origlocation=\count192
-\c@savedoriglocation=\count193
-\c@origpublisher=\count194
-\c@savedorigpublisher=\count195
-\c@publisher=\count196
-\c@savedpublisher=\count197
-\c@language=\count198
-\c@savedlanguage=\count199
-\c@origlanguage=\count266
-\c@savedoriglanguage=\count267
-\c@pageref=\count268
-\c@savedpageref=\count269
-\shorthandwidth=\skip51
-\shortjournalwidth=\skip52
-\shortserieswidth=\skip53
-\shorttitlewidth=\skip54
-\shortauthorwidth=\skip55
-\shorteditorwidth=\skip56
-\locallabelnumberwidth=\skip57
-\locallabelalphawidth=\skip58
-\localshorthandwidth=\skip59
-\localshortjournalwidth=\skip60
-\localshortserieswidth=\skip61
-\localshorttitlewidth=\skip62
-\localshortauthorwidth=\skip63
-\localshorteditorwidth=\skip64
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-comp
-at.def"
-File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.
+def"
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count97
+\c@bookmark@seq@number=\count98
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfil
+echeck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
 )
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex
-.def"
-File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count270
-\c@textcitetotal=\count271
-\c@textcitemaxnames=\count272
-\c@biburlnumpenalty=\count273
-\c@biburlucpenalty=\count274
-\c@biburllcpenalty=\count275
-\c@smartand=\count276
+\Hy@SectionHShift=\skip43
 )
-Package biblatex Info: Trying to load bibliography style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.bbx' found.
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty
+"
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.st
+y"
+Package: expl3 2019-03-05 L3 programming layer (loader) 
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\alph
-abetic.bbx"
-File: alphabetic.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\stan
-dard.bbx"
-File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count277
-\c@bbx:relatedtotal=\count278
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3-co
+de.tex"
+Package: expl3 2019-03-05 L3 programming layer (code)
+\c_max_int=\count99
+\l_tmpa_int=\count100
+\l_tmpb_int=\count101
+\g_tmpa_int=\count102
+\g_tmpb_int=\count103
+\g__kernel_prg_map_int=\count104
+\c_log_iow=\count105
+\l_iow_line_count_int=\count106
+\l__iow_line_target_int=\count107
+\l__iow_one_indent_int=\count108
+\l__iow_indent_int=\count109
+\c_zero_dim=\dimen107
+\c_max_dim=\dimen108
+\l_tmpa_dim=\dimen109
+\l_tmpb_dim=\dimen110
+\g_tmpa_dim=\dimen111
+\g_tmpb_dim=\dimen112
+\c_zero_skip=\skip44
+\c_max_skip=\skip45
+\l_tmpa_skip=\skip46
+\l_tmpb_skip=\skip47
+\g_tmpa_skip=\skip48
+\g_tmpb_skip=\skip49
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count110
+\l__intarray_loop_int=\count111
+\c__intarray_sp_dim=\dimen113
+\g__intarray_font_int=\count112
+\c__fp_leading_shift_int=\count113
+\c__fp_middle_shift_int=\count114
+\c__fp_trailing_shift_int=\count115
+\c__fp_big_leading_shift_int=\count116
+\c__fp_big_middle_shift_int=\count117
+\c__fp_big_trailing_shift_int=\count118
+\c__fp_Bigg_leading_shift_int=\count119
+\c__fp_Bigg_middle_shift_int=\count120
+\c__fp_Bigg_trailing_shift_int=\count121
+\c__kernel_randint_max_int=\count122
+\g__fp_array_int=\count123
+\l__fp_array_loop_int=\count124
+\l__sort_length_int=\count125
+\l__sort_min_int=\count126
+\l__sort_top_int=\count127
+\l__sort_max_int=\count128
+\l__sort_true_max_int=\count129
+\l__sort_block_int=\count130
+\l__sort_begin_int=\count131
+\l__sort_end_int=\count132
+\l__sort_A_int=\count133
+\l__sort_B_int=\count134
+\l__sort_C_int=\count135
+\l__tl_analysis_normal_int=\count136
+\l__tl_analysis_index_int=\count137
+\l__tl_analysis_nesting_int=\count138
+\l__tl_analysis_type_int=\count139
+\l__regex_internal_a_int=\count140
+\l__regex_internal_b_int=\count141
+\l__regex_internal_c_int=\count142
+\l__regex_balance_int=\count143
+\l__regex_group_level_int=\count144
+\l__regex_mode_int=\count145
+\c__regex_cs_in_class_mode_int=\count146
+\c__regex_cs_mode_int=\count147
+\l__regex_catcodes_int=\count148
+\l__regex_default_catcodes_int=\count149
+\c__regex_catcode_D_int=\count150
+\c__regex_catcode_S_int=\count151
+\c__regex_catcode_L_int=\count152
+\c__regex_catcode_O_int=\count153
+\c__regex_catcode_A_int=\count154
+\c__regex_all_catcodes_int=\count155
+\l__regex_show_lines_int=\count156
+\l__regex_min_state_int=\count157
+\l__regex_max_state_int=\count158
+\l__regex_left_state_int=\count159
+\l__regex_right_state_int=\count160
+\l__regex_capturing_group_int=\count161
+\l__regex_min_pos_int=\count162
+\l__regex_max_pos_int=\count163
+\l__regex_curr_pos_int=\count164
+\l__regex_start_pos_int=\count165
+\l__regex_success_pos_int=\count166
+\l__regex_curr_char_int=\count167
+\l__regex_curr_catcode_int=\count168
+\l__regex_last_char_int=\count169
+\l__regex_case_changed_char_int=\count170
+\l__regex_curr_state_int=\count171
+\l__regex_step_int=\count172
+\l__regex_min_active_int=\count173
+\l__regex_max_active_int=\count174
+\l__regex_replacement_csnames_int=\count175
+\l__regex_match_count_int=\count176
+\l__regex_min_submatch_int=\count177
+\l__regex_submatch_int=\count178
+\l__regex_zeroth_submatch_int=\count179
+\g__regex_trace_regex_int=\count180
+\c_empty_box=\box27
+\l_tmpa_box=\box28
+\l_tmpb_box=\box29
+\g_tmpa_box=\box30
+\g_tmpb_box=\box31
+\l__box_top_dim=\dimen114
+\l__box_bottom_dim=\dimen115
+\l__box_left_dim=\dimen116
+\l__box_right_dim=\dimen117
+\l__box_top_new_dim=\dimen118
+\l__box_bottom_new_dim=\dimen119
+\l__box_left_new_dim=\dimen120
+\l__box_right_new_dim=\dimen121
+\l__box_internal_box=\box32
+\l__coffin_internal_box=\box33
+\l__coffin_internal_dim=\dimen122
+\l__coffin_offset_x_dim=\dimen123
+\l__coffin_offset_y_dim=\dimen124
+\l__coffin_x_dim=\dimen125
+\l__coffin_y_dim=\dimen126
+\l__coffin_x_prime_dim=\dimen127
+\l__coffin_y_prime_dim=\dimen128
+\c_empty_coffin=\box34
+\l__coffin_aligned_coffin=\box35
+\l__coffin_aligned_internal_coffin=\box36
+\l_tmpa_coffin=\box37
+\l_tmpb_coffin=\box38
+\g_tmpa_coffin=\box39
+\g_tmpb_coffin=\box40
+\l__coffin_bounding_shift_dim=\dimen129
+\l__coffin_left_corner_dim=\dimen130
+\l__coffin_right_corner_dim=\dimen131
+\l__coffin_bottom_corner_dim=\dimen132
+\l__coffin_top_corner_dim=\dimen133
+\l__coffin_scaled_total_height_dim=\dimen134
+\l__coffin_scaled_width_dim=\dimen135
+\c__coffin_empty_coffin=\box41
+\l__coffin_display_coffin=\box42
+\l__coffin_display_coord_coffin=\box43
+\l__coffin_display_pole_coffin=\box44
+\l__coffin_display_offset_dim=\dimen136
+\l__coffin_display_x_dim=\dimen137
+\l__coffin_display_y_dim=\dimen138
+\g__file_internal_ior=\read1
+\l__seq_internal_a_int=\count181
+\l__seq_internal_b_int=\count182
+\c__deprecation_minus_one=\count183
+)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\l3pdfmod
+e.def"
+File: l3pdfmode.def 2019-03-05 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count184
 ))
-Package biblatex Info: Trying to load citation style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.cbx' found.
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\auth
-oryear.cbx"
-File: authoryear.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse
+\xparse.sty"
+Package: xparse 2019-03-05 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count185
+\g__xparse_grabber_int=\count186
+\l__xparse_m_args_int=\count187
+\l__xparse_v_nesting_int=\count188
 )
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex
-.cfg"
-File: biblatex.cfg 
-))
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\engl
-ish.lbx"
-File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
-)
-
-Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
-(biblatex)                Loading 'csquotes' recommended.
-
-\@quotelevel=\count279
-\@quotereset=\count280
-(document.aux)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd
+.tex"
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+)) (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `document.bcf'.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+\AtBeginShipoutBox=\box45
+Package hyperref Info: Link coloring OFF on input line 21.
 
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'document.bbl' found.
- (document.bbl)
-Package biblatex Info: Reference section=0 on input line 13.
-Package biblatex Info: Reference segment=0 on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 16.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.
+sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gettit
+lestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count189
+)
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
+ (document.out) (document.out)
+\@outlinefile=\write3
+\openout3 = `document.out'.
 
-LaTeX Warning: Citation 'latexcompanion' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'einstein' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Empty bibliography on input line 20.
-
-[1
-
-{C:/Users/djamel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(document.aux)
-
-LaTeX Warning: There were undefined references.
+ [1
 
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                document
-(biblatex)                and rerun LaTeX afterwards.
 
-Package logreq Info: Writing requests to 'document.run.xml'.
-\openout1 = `document.run.xml'.
+{C:/Users/djamel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (document.
+toc)
+\tf@toc=\write4
+\openout4 = `document.toc'.
 
+ [2
+
+
+]
+Chapter 1.
+[3
+
+
+]
+Chapter 2.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
+[4
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 31.
+ (document.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 31.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 31.
+Package rerunfilecheck Info: File `document.out' has not changed.
+(rerunfilecheck)             Checksum: FBC33C0A949904973C181AC5116F12B0;91.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
  ) 
 Here is how much of TeX's memory you used:
- 7783 strings out of 492946
- 142474 string characters out of 3125822
- 564392 words of memory out of 3000000
- 11653 multiletter control sequences out of 15000+200000
- 5248 words of font info for 19 fonts, out of 3000000 for 9000
+ 13891 strings out of 492946
+ 257188 string characters out of 3125822
+ 562810 words of memory out of 3000000
+ 17781 multiletter control sequences out of 15000+200000
+ 534158 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,4n,34p,799b,1590s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,4n,63p,211b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/djamel/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/djamel/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on document.pdf (1 page, 55981 bytes).
+9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on document.pdf (4 pages, 49936 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 54 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 

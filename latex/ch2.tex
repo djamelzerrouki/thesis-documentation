@@ -51,4 +51,23 @@ Chaque EWF-net a une unique condition d'entrée et une unique condition de sorti
 
 Chaque tâche peut avoir des instances multiples. Nous pouvons créer un seuil maximal et un seuil minimal pour le nombre d'instances après l'initiation d'une tâche. En plus, il est possible d'indiquer que la tâche se termine au moment ou certaines instances seuils sont achevées
 
+\section{Les réseaux de Petri}
+
+Les réseaux de Petri(Petri,1962)sont une généralisation des automates a états. Ils offrent un contexte général pour modéliser la concurrence et la synchronisation dans les systèmes distribués. Un réseau de Petri est un graphe biparti alterné qui possède deux types de nœuds: les places(cercles)et les transitions(rectangles). Des arcs(flèches) relient les places aux transitions(figure3.4). L'état du système,nommé marquage,est défini par la répartition des jetons dans les places. Une transition est franchissable sous certaines conditions, notamment lorsqu'il y a suffisamment de jetons dans ses places d’entrée. Le franchissement d’une transition se traduit par une modification du marquage consistant en la consommation des jetons indispensables au franchissement de la transition et la création éventuelle de nouveaux jetons dans les places en sortie de la transition.
+
+\subsection{Définition}
+\subsubsection{Définition (Réseau de Petri simple)}
+Un réseau de Petri simple est un tuple
+ (P,T,Pre,Post,M0):
+ 
+ \begin{itemize}
+\item  	P est un ensemble final de places,
+\item T est un ensemble final de transition $ (P \cap T = \theta ) $ ,
+\item Pre: $P \times T \to N$ est la fonction d'incidence avant,
+\item Post: $P \times T \to N$ est la fonction d'incidence arriére,
+\item $M_{0}$ et le marquage initial $M_{0}:  P \to N$.
+ 
+
+ \end{itemize}
+
     

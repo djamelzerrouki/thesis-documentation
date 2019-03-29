@@ -1,0 +1,21 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.504ex" height="3.009ex" style="vertical-align: -0.338ex;" viewBox="0 -1150.1 1508.5 1295.7" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle {\overline {\rm {AB}}}}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAIN-41" d="M255 0Q240 3 140 3Q48 3 39 0H32V46H47Q119 49 139 88Q140 91 192 245T295 553T348 708Q351 716 366 716H376Q396 715 400 709Q402 707 508 390L617 67Q624 54 636 51T687 46H717V0H708Q699 3 581 3Q458 3 437 0H427V46H440Q510 46 510 64Q510 66 486 138L462 209H229L209 150Q189 91 189 85Q189 72 209 59T259 46H264V0H255ZM447 255L345 557L244 256Q244 255 345 255H447Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-42" d="M131 622Q124 629 120 631T104 634T61 637H28V683H229H267H346Q423 683 459 678T531 651Q574 627 599 590T624 512Q624 461 583 419T476 360L466 357Q539 348 595 302T651 187Q651 119 600 67T469 3Q456 1 242 0H28V46H61Q103 47 112 49T131 61V622ZM511 513Q511 560 485 594T416 636Q415 636 403 636T371 636T333 637Q266 637 251 636T232 628Q229 624 229 499V374H312L396 375L406 377Q410 378 417 380T442 393T474 417T499 456T511 513ZM537 188Q537 239 509 282T430 336L329 337H229V200V116Q229 57 234 52Q240 47 334 47H383Q425 47 443 53Q486 67 511 104T537 188Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-AF" d="M69 544V590H430V544H69Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g transform="translate(24,0)">
+ <use xlink:href="#E1-MJMAIN-41" x="0" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-42" x="750" y="0"></use>
+</g>
+<g transform="translate(0,533)">
+ <use transform="scale(0.707)" xlink:href="#E1-MJMAIN-AF" x="-70" y="0"></use>
+<g transform="translate(72.66557895892475,0) scale(3.7156165858790735,1)">
+ <use transform="scale(0.707)" xlink:href="#E1-MJMAIN-AF"></use>
+</g>
+ <use transform="scale(0.707)" xlink:href="#E1-MJMAIN-AF" x="1632" y="0"></use>
+</g>
+</g>
+</svg>

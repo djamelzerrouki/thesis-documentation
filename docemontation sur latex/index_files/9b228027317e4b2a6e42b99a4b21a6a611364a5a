@@ -1,0 +1,9 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.808ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 778.5 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle \gvertneqq }</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJAMS-E00D" d="M89 745Q95 752 100 752Q106 752 394 615T689 472Q693 468 693 461T689 450Q684 445 396 308T100 170Q95 170 89 176T82 190Q82 195 86 201Q91 208 358 332L624 461L358 590Q90 715 86 721Q82 725 82 731Q82 739 89 745ZM369 101V126Q369 156 382 156H384Q385 157 386 157Q409 157 409 115V98V54H680Q693 39 693 34T680 14H409V-142H680Q693 -155 693 -162Q693 -167 680 -182H409V-273Q396 -284 388 -284Q382 -284 369 -275V-182H95Q82 -167 82 -162Q82 -155 95 -142H369V14H95Q93 17 89 21T84 27T82 34T83 40T89 47T95 54H369V101Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJAMS-E00D" x="0" y="0"></use>
+</g>
+</svg>

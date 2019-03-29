@@ -1,0 +1,9 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.808ex" height="2.509ex" style="vertical-align: -0.838ex;" viewBox="0 -719.6 778.5 1080.4" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle \subsetneq }</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJAMS-228A" d="M693 72Q693 68 692 66T686 59T680 52H524Q398 52 367 53T309 63Q236 82 180 132T98 250Q84 288 84 343Q84 397 98 437Q126 515 193 568T346 632Q347 632 373 633T440 634T520 635H680Q693 620 693 615Q693 608 680 595H526Q364 595 353 592Q279 582 221 539T138 430Q124 392 124 343Q124 296 138 257Q163 192 221 149T353 95Q364 92 526 92H680Q693 79 693 72ZM102 -132T102 -125T115 -103H382L420 -68Q429 -60 438 -52T452 -39T463 -28T472 -20T478 -14T483 -10T487 -7T490 -6T493 -5T496 -5Q502 -5 508 -12T515 -28Q515 -34 513 -37Q512 -38 507 -42T492 -55T475 -70L440 -101L562 -103H682Q693 -114 693 -122T680 -143H395L355 -179Q289 -241 280 -241Q273 -241 267 -235T260 -221T265 -208T300 -174L335 -143H224L113 -141L106 -137Q102 -132 102 -125Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJAMS-228A" x="0" y="0"></use>
+</g>
+</svg>

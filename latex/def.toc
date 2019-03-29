@@ -1,0 +1,22 @@
+\contentsline {part}{I\hspace {1em}Addition and Subtraction}{2}% 
+\contentsline {chapter}{\numberline {1}Addition}{3}% 
+\contentsline {section}{\numberline {1.1}Basics}{3}% 
+\contentsline {subsection}{\numberline {1.1.1}Some tips}{3}% 
+\contentsline {section}{\numberline {1.2}Advanced stuff}{3}% 
+\contentsline {subsection}{\numberline {1.2.1}Warnings}{3}% 
+\contentsline {chapter}{\numberline {2}Subtraction}{4}% 
+\contentsline {section}{\numberline {2.1}Basics}{4}% 
+\contentsline {subsection}{\numberline {2.1.1}Some tips}{4}% 
+\contentsline {section}{\numberline {2.2}Advanced stuff}{4}% 
+\contentsline {subsection}{\numberline {2.2.1}Warnings}{4}% 
+\contentsline {part}{II\hspace {1em}Multiplication and Division}{5}% 
+\contentsline {chapter}{\numberline {3}Multiplication}{6}% 
+\contentsline {section}{\numberline {3.1}Basics}{6}% 
+\contentsline {subsection}{\numberline {3.1.1}Some tips}{6}% 
+\contentsline {section}{\numberline {3.2}Advanced stuff}{6}% 
+\contentsline {subsection}{\numberline {3.2.1}Warnings}{6}% 
+\contentsline {chapter}{\numberline {4}Division}{7}% 
+\contentsline {section}{\numberline {4.1}Basics}{7}% 
+\contentsline {subsection}{\numberline {4.1.1}Some tips}{7}% 
+\contentsline {section}{\numberline {4.2}Advanced stuff}{7}% 
+\contentsline {subsection}{\numberline {4.2.1}Warnings}{7}% 

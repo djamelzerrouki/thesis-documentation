@@ -53,10 +53,32 @@ Chaque tâche peut avoir des instances multiples. Nous pouvons créer un seuil m
 
 \section{Les réseaux de Petri}
 
-Les réseaux de Petri(Petri,1962)sont une généralisation des automates a états. Ils offrent un contexte général pour modéliser la concurrence et la synchronisation dans les systèmes distribués. Un réseau de Petri est un graphe biparti alterné qui possède deux types de nœuds: les places(cercles)et les transitions(rectangles). Des arcs(flèches) relient les places aux transitions(figure3.4). L'état du système,nommé marquage,est défini par la répartition des jetons dans les places. Une transition est franchissable sous certaines conditions, notamment lorsqu'il y a suffisamment de jetons dans ses places d’entrée. Le franchissement d’une transition se traduit par une modification du marquage consistant en la consommation des jetons indispensables au franchissement de la transition et la création éventuelle de nouveaux jetons dans les places en sortie de la transition.
+Les réseaux de Petri(Petri,1962)sont une généralisation des automates a états. Ils offrent un contexte général pour modéliser la concurrence et la synchronisation dans les systèmes distribués. Un réseau de Petri est un graphe biparti alterné qui possède deux types de nœuds: les places(cercles)et les transitions(rectangles). Des arcs(flèches) relient les places aux transitions(figure \ref{fig:2 rdp}). L'état du système,nommé marquage,est défini par la répartition des jetons dans les places. Une transition est franchissable sous certaines conditions, notamment lorsqu'il y a suffisamment de jetons dans ses places d’entrée. Le franchissement d’une transition se traduit par une modification du marquage consistant en la consommation des jetons indispensables au franchissement de la transition et la création éventuelle de nouveaux jetons dans les places en sortie de la transition.
+\begin{figure}[h]
+	\centering
+	
+	\begin{subfigure}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{petrif1}
+		\caption{$M_{t}=(1,2,1,0)$}
+		\label{fig:three sin x}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{pitrif2}
+		\caption{$M_{t+1}=(0,1,2,1)$}
+		\label{fig:five over x}
+	\end{subfigure}
+	
+	\caption{Opération de franchissement}
+	\label{fig:2 rdp}
+\end{figure}
 
 \subsection{Définition}
-\subsubsection{Définition (Réseau de Petri simple)}
+
+\begin{defn}\textbf{\textbf{(Réseau de Petri simple):}}
+	\\
 Un réseau de Petri simple est un tuple
  (P,T,Pre,Post,M0):
  
@@ -66,8 +88,47 @@ Un réseau de Petri simple est un tuple
 \item Pre: $P \times T \to N$ est la fonction d'incidence avant,
 \item Post: $P \times T \to N$ est la fonction d'incidence arriére,
 \item $M_{0}$ et le marquage initial $M_{0}:  P \to N$.
+  \end{itemize}
+
+\end{defn}
+
+
+
+
+Un réseau de Petri peut-être evucommeun système de transitions dont les états sont les marquages du réseau et les transitions entre états correspondent au franchissement des transitions du réseau.
+\subsubsection{Propriétés des réseaux de Petri}
+il existe un certain nombre de propriétés qui ont été définis pour les réseaux de Petri, à savoir, le caractère borné, la réinitilisation la vivacité , la conservation, la terminaison (Diaz, 2001). Certaines de ces propriétés sont dites propriétés dynamiques car elles dépendent du marquage initial et sont liées à l'évolution du réseau,alors que d'autres sont dites propriétés statiques du fait qu'elles soient liées à la typologie du réseau et indépendantes du marquage initial.
+
+
+\begin{defn}\textbf{\textbf{(Réseau de Petri borné):}}\\
+Une place $ P_{i} $ est bornée pour un marquage initial $ M_{0} $ si pour tout marquage accessible à partir de $ M_{0} $, le nombre de jetons dans Pi reste borné. Elle est dite k-bornée si le nombre de jetons dans $ P_{i} $ est toujours inférieur ou égal à k. Un RdP est(k) borné si tout esses places sont(k)bornées.
+
+\end{defn}
+
+\begin{exmp}
+ Un RdP peut ne pas être borné. Sur l'exemple représenté à la (figure \ref{fig:rdpborn}), la transition $ T_{1} $ admet la place $ P_{1} $ comme unique place d'entrée.La place P1 a un jeton:la transition $ T_{1} $
+\end{exmp}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/Rdpborn}
+	\caption{Réseau de Petri non borné}
+	\label{fig:rdpborn}
+\end{figure}
+
+est franchissable. Comme $ P_{1} $ est aussi place de sortie de $ T_{1} $,le franchissement de $ T_{1} $ ne change pas le marquage de $ P_{1} $.La transition $ T_{1} $ est donc franchissable en permanence et peut donc être franchie un nombre de fois infini.Chaque franchissement de $ T_{1} $ ajoute un jeton dans $ P_{2} $ dont le marquage va donc tendre vers l'infini.
+
+\begin{defn}\textbf{Réseau de Petri sauf:}\\
+	Un RdP est sauf ou binaire pour un marquage initial M0 s'il est un borné.
  
+\end{defn}
 
- \end{itemize}
 
-    
+\begin{defn}\textbf{La vivacité:}\\
+	Une transition $ T_{j} $ est vivante pour un marquage initial $ M_{0} $ si pour tout marquage accessible $ M_{k} $ , il existe une séquence de franchissement $ S $ à partir de $ M_{k} $ contenant $T_{j}: M_{k} \in^{*} M_{0},   \exists S,M_{k}| S>$ et $S = ... T_{j} ...$
+	\\
+	
+	Si une transition $ T_{j} $ est vivante alors, à tout instant, on sait que $ T_{j} $ peut être franchie dans le futur. Dans le cas d'un réseau de Petri modélisant un système fonctionnant en permanence, si une transition n'est pas vivante et si une fonction du système est associée au franchissement de cette transition,ce la veut dire qu'à partir d’un certain instant ,cette fonction ne sera plus disponible dans le futur, ce qui peut traduire une erreur ou une panne.
+	
+\end{defn}
+

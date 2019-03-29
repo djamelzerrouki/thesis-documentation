@@ -1,0 +1,9 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.162ex" height="1.509ex" style="vertical-align: 0.026ex; margin-bottom: -0.197ex;" viewBox="0 -576.1 500.5 649.8" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle \diamond }</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAIN-22C4" d="M242 486Q245 488 250 488Q256 488 258 486Q262 484 373 373T486 258T488 250T486 242T373 127T258 14Q256 12 250 12Q245 12 242 14Q237 16 127 126T14 242Q12 245 12 250T14 258Q16 263 126 373T242 486ZM439 250L250 439L61 250L250 61L439 250Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJMAIN-22C4" x="0" y="0"></use>
+</g>
+</svg>

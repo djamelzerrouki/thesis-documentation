@@ -1,6 +1,15 @@
 \documentclass[12pt,twoside]{report}
 \usepackage[francais]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,epsfig,epstopdf,titling,url,array}
+
+
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem*{cor}{Corollary}
+
 \usepackage{graphicx}
 \graphicspath{{images/}}
 \usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
@@ -30,14 +39,23 @@
             maxbibnames = 100
             ]{biblatex}
  
+ 
+ \theoremstyle{definition}
+ \newtheorem{defn}{Définition}[section]
+ \newtheorem{conj}{Conjecture}[section]
+ \newtheorem{exmp}{Example}[section]
+ 
+ \theoremstyle{remark}
+ \newtheorem*{rem}{Remark}
+ \newtheorem*{note}{Note}
 
 \addbibresource{references.bib}
-\title{
-	{\textbf{Conception et mise en place d’un système Workflow  pour l'environnement cloud}} \\   
-	{$ Instituation $}\\
+%\title{
+%	{\textbf{Conception et mise en place d’un %système Workflow  pour l'environnement cloud}} \\   
+%	{$ Instituation $}\\
 %	{\includegraphics{logof.PNG}}
-	{\includegraphics{univtiaret.png}}
-}
+%	{\includegraphics{univtiaret.png}}
+%}
 \author{Zerrouki Djamel}
  
 \begin{document}

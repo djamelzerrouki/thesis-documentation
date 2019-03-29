@@ -1,0 +1,9 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.808ex" height="2.509ex" style="vertical-align: -0.838ex;" viewBox="0 -719.6 778.5 1080.4" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle \varsupsetneq }</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJAMS-E01B" d="M82 610T82 614T83 620T89 627T95 634H251Q378 634 409 633T469 623Q540 604 596 554T678 436Q691 397 691 343T678 249Q653 181 597 131T469 63Q427 52 362 52H315L213 -102L438 -104H662Q673 -115 673 -123Q673 -129 660 -144H186L151 -197Q114 -250 109 -253Q106 -254 104 -254Q100 -254 98 -253Q91 -253 87 -248T82 -235Q82 -230 109 -186L138 -144H115Q82 -144 82 -125Q82 -119 95 -104H166L266 49Q266 52 182 52H95Q82 65 82 72Q82 76 83 78T89 85T95 92H295L329 143Q365 195 369 198Q372 203 380 203Q385 203 391 197T398 185Q398 184 398 184L399 182Q399 175 369 129L344 94Q344 92 376 92Q402 92 422 94Q496 104 554 147T638 256Q651 295 651 343Q651 390 638 429Q613 494 555 537T422 592Q411 594 249 594H95Q82 610 82 614Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJAMS-E01B" x="0" y="0"></use>
+</g>
+</svg>

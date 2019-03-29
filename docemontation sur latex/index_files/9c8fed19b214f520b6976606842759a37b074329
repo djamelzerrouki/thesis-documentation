@@ -1,0 +1,9 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.805ex" height="2.176ex" style="vertical-align: -0.338ex; margin-left: -0.127ex;" viewBox="-54.5 -791.3 777 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle \nVDash }</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJAMS-22AF" d="M56 681Q70 695 77 695T96 683V428L98 175L252 323V681Q264 695 272 695Q278 695 292 681V466H401L503 563L621 679Q637 695 645 695Q652 695 658 688T665 673Q665 670 663 666Q663 665 651 652T611 612T561 563L458 468L556 466H654Q665 455 665 447T652 426H416L294 308L292 288V270H652Q665 255 665 250T652 230H292V12Q289 10 285 6T279 1T272 -1Q265 -1 252 12V139Q252 266 249 266L96 119V12Q80 -1 76 -1T70 0T63 6T56 12V79L29 55Q-26 -1 -35 -1Q-42 -1 -48 5T-55 19Q-55 25 -51 30T-15 66Q5 86 18 99L56 135V681ZM358 426H292V361L325 392L358 426Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJAMS-22AF" x="0" y="0"></use>
+</g>
+</svg>

@@ -132,3 +132,62 @@ est franchissable. Comme $ P_{1} $ est aussi place de sortie de $ T_{1} $,le fra
 	
 \end{defn}
 
+
+
+\begin{defn}\textbf{Blocage:}\\
+	Un blocage (ou état puits)est un marquage pour lequel aucune transition n'est validée.
+\end{defn}
+
+
+Un réseau de Petri est dit sans blocage pour un marquage initial M0 si aucun marquage accessible n'est un blocage.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.2\linewidth]{images/Petrivivant}
+	\caption{Réseau de Petri vivant}
+	\label{fig:petrivivant}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.25\linewidth]{images/Petribloquant}
+	\caption{Exemple de réseau de Petri bloquant}
+	\label{fig:petribloquant}
+\end{figure}
+
+Le réseau de Petri de la (Figure 3.7), par exemple ,a pour blocage le marquage: 
+M = (1,0,0,1).
+
+\begin{defn} \textbf{(états d' accueil et Réseau de Petri réinitialisable ) }\\
+Un RdP a un état d’accueil $ M_{a} $ pour un marquage initial $ M_{0} $ si pour tout marquage accessible $ M_{k} $ à partir de $ M_{0} $, il existe une séquence de franchissement permettant d'atteindre le marquage
+ $M_{a}: \forall M_{k} \in^{*} M_{0},   \exists S_{j},M_{k}|S_{j}>M_{a}$
+\end{defn}
+Un RdP est réinitialisable pour un marquage initial $ M_{0} $ si $ M_{0} $ est un\\
+ état d'accueil.
+\\
+
+Si un réseau de Petri présente un état d’accueil, il est facile de vérifier s’il est sans blocage et d'étudier sa vivacité.
+
+
+\subsubsection{Les réseaux de Petri colorés}
+Les réseaux colorés(Jensen, 1997)ont été introduits afin de modéliser des systèmes complexes tout en gardant les possibilités de vérification. Lorsque le nombre d'entités du systéme à modéliser est important,la taille du réseau de Petri devient rapidement énorme,et silesentit´espr´esententdescomportements similaires, l’usage des r´eseaux color´es permet de condenser le mod`ele. En effet, unecouleurestuneinformationattach´ee `aunjeton. Cetteinformationpermetde distinguer des jetons entre eux et peut ˆetre de type quelconque. Par cons´equent, une placepeutcontenirdesjetonsdediff´erentescouleursetunetransitionpeutˆetrefranchie dediff´erentesmani`eres, selonlacouleur. Ceciestr´ealis´eenattachantundomainede couleur `a chaque place et `a chaque transition. Ainsi, les arcs ne sont pas seulement ´ etiquet´esparlenombredejetonsmaisaussiparleurscouleurs.Lefranchissementd’une transitionestalorsconditionn´eparlapr´esencedanslesplacesenentr´eedunombrede jetonsn´ecessaires, quien plussatisfontlescouleursqui ´etiquettentlesarcs. Apr`esle franchissementd’unetransition,lesjetonsqui ´etiquettentlesarcsd’entr´eesontretir´es desplacesenentr´eetandisqueceuxqui ´etiquettentlesarcsdesortiesontajout´esaux placesensortiedecettetransition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

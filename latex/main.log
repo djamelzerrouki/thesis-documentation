@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  29 MAR 2019 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  30 MAR 2019 01:44
 entering extended mode
 **./main.tex
 (main.tex
@@ -805,7 +805,9 @@ Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[9]
+[9] [10
+
+]
 Chapitre 1.
 (ch1.tex
 Overfull \hbox (13.69984pt too wide) in paragraph at lines 6--7
@@ -813,16 +815,16 @@ Overfull \hbox (13.69984pt too wide) in paragraph at lines 6--7
 ng et au work-flow, necessaire
  []
 
-[10
+[11
 
 ]
-<images/tempsnip4.png, id=39, 934.99312pt x 697.10437pt>
+<images/tempsnip4.png, id=42, 934.99312pt x 697.10437pt>
 File: images/tempsnip4.png Graphic file (type png)
 <use images/tempsnip4.png>
 Package pdftex.def Info: images/tempsnip4.png  used on input line 16.
 (pdftex.def)             Requested size: 170.71393pt x 127.27101pt.
- [11 <./images/tempsnip4.png>]
-<images/Capture5.png, id=44, 838.332pt x 460.119pt>
+ [12 <./images/tempsnip4.png>]
+<images/Capture5.png, id=47, 838.332pt x 460.119pt>
 File: images/Capture5.png Graphic file (type png)
 <use images/Capture5.png>
 Package pdftex.def Info: images/Capture5.png  used on input line 48.
@@ -830,15 +832,15 @@ Package pdftex.def Info: images/Capture5.png  used on input line 48.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-[13 <./images/Capture5.png>] [14]
-<images/Cloud_MD.png, id=56, 595.22375pt x 465.74pt>
+ [13]
+[14 <./images/Capture5.png>] [15]
+<images/Cloud_MD.png, id=59, 595.22375pt x 465.74pt>
 File: images/Cloud_MD.png Graphic file (type png)
 <use images/Cloud_MD.png>
 Package pdftex.def Info: images/Cloud_MD.png  used on input line 84.
 (pdftex.def)             Requested size: 213.39566pt x 166.96982pt.
- [15 <./images/Cloud_MD.png (PNG copy)>]
-[16]
+ [16 <./images/Cloud_MD.png (PNG copy)>]
+[17]
 Overfull \hbox (22.90755pt too wide) in paragraph at lines 146--147
 \OT1/cmr/m/n/12 or-ga-ni-sa-tion, gerable par un systeme work-flow. Il per-me
 t d'au-to-ma-ti-ser l'execution
@@ -850,7 +852,7 @@ Overfull \hbox (9.39452pt too wide) in paragraph at lines 154--155
 donne une definition
  []
 
-[17] [18]
+[18] [19]
 Overfull \hbox (1.0374pt too wide) in paragraph at lines 185--186
 []\OT1/cmr/m/n/12 les work-flows do-cu-men-taires (redaction, va-li-da-tion, t
 ra-duc-tion de do-cu-ments), 
@@ -1096,8 +1098,8 @@ Overfull \hbox (33.26059pt too wide) in paragraph at lines 215--231
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19] [20]
-<images/Capture6.png, id=77, 674.52pt x 514.92375pt>
+[20] [21]
+<images/Capture6.png, id=80, 674.52pt x 514.92375pt>
 File: images/Capture6.png Graphic file (type png)
 <use images/Capture6.png>
 Package pdftex.def Info: images/Capture6.png  used on input line 255.
@@ -1108,7 +1110,7 @@ Overfull \hbox (7.78862pt too wide) in paragraph at lines 262--262
 s ap-pli-ca-tions clientes. 
  []
 
-<images/Capture7.png, id=78, 794.97pt x 406.51875pt>
+<images/Capture7.png, id=81, 794.97pt x 406.51875pt>
 File: images/Capture7.png Graphic file (type png)
 <use images/Capture7.png>
 Package pdftex.def Info: images/Capture7.png  used on input line 269.
@@ -1125,34 +1127,49 @@ Overfull \hbox (2.14449pt too wide) in paragraph at lines 276--277
 ain-te-nus par le groupe
  []
 
-[21 <./images/Capture6.png> <./images/Capture7.png>] [22]) [23]
+[22 <./images/Capture6.png> <./images/Capture7.png>] [23]) [24]
 Chapitre 2.
-(ch2.tex [24
+(ch2.tex [25
 
-] [25] [26]
-<images/petrif1.png, id=100, 145.14224pt x 199.947pt>
+] [26] [27]
+<images/petrif1.png, id=103, 145.14224pt x 199.947pt>
 File: images/petrif1.png Graphic file (type png)
 <use images/petrif1.png>
 Package pdftex.def Info: images/petrif1.png  used on input line 62.
 (pdftex.def)             Requested size: 128.0387pt x 176.38408pt.
-<images/pitrif2.png, id=101, 137.313pt x 204.765pt>
+<images/pitrif2.png, id=104, 137.313pt x 204.765pt>
 File: images/pitrif2.png Graphic file (type png)
 <use images/pitrif2.png>
 Package pdftex.def Info: images/pitrif2.png  used on input line 69.
 (pdftex.def)             Requested size: 128.0387pt x 190.9325pt.
- [27 <./images/petrif1.png> <./images/pitrif2.png>]
-<images/Rdpborn.png, id=111, 315.579pt x 232.4685pt>
+ [28 <./images/petrif1.png> <./images/pitrif2.png>]
+<images/Rdpborn.png, id=114, 315.579pt x 232.4685pt>
 File: images/Rdpborn.png Graphic file (type png)
 <use images/Rdpborn.png>
 Package pdftex.def Info: images/Rdpborn.png  used on input line 114.
 (pdftex.def)             Requested size: 213.39566pt x 157.19324pt.
 
-[28 <./images/Rdpborn.png>]
+[29 <./images/Rdpborn.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 127--130
 
  []
 
-) [29] [30
+<images/Petrivivant.png, id=121, 169.8345pt x 271.61475pt>
+File: images/Petrivivant.png Graphic file (type png)
+<use images/Petrivivant.png>
+Package pdftex.def Info: images/Petrivivant.png  used on input line 145.
+(pdftex.def)             Requested size: 85.35696pt x 136.5116pt.
+<images/Petribloquant.png, id=122, 241.50224pt x 350.5095pt>
+File: images/Petribloquant.png Graphic file (type png)
+<use images/Petribloquant.png>
+Package pdftex.def Info: images/Petribloquant.png  used on input line 151.
+(pdftex.def)             Requested size: 106.69783pt x 154.85576pt.
+[30 <./images/Petrivivant.png> <./images/Petribloquant.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 163--166
+
+ []
+
+) [31] [32
 
 ] (main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1160,13 +1177,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12996 strings out of 492946
- 220062 string characters out of 3125822
+ 13008 strings out of 492946
+ 220352 string characters out of 3125822
  528571 words of memory out of 3000000
- 16695 multiletter control sequences out of 15000+200000
+ 16705 multiletter control sequences out of 15000+200000
  13380 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,46p,1437b,1859s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,13n,46p,1437b,1861s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmcsc10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2
@@ -1183,9 +1200,9 @@ ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/User
 s/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmtt12.pfb>
-Output written on main.pdf (30 pages, 2082641 bytes).
+Output written on main.pdf (32 pages, 2147458 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
+ 178 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

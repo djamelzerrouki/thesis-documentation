@@ -17,6 +17,37 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
+  \entry{ESORICS'96}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AV}{%
+         family={Atluri},
+         familyi={A\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=H}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AVH1}
+    \strng{fullhash}{AVH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{year}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{pages}{44\bibrangedash 64}
+    \field{title}{Anauthorization model for workflows:Proceedings of the 4th
+  European Symposium on Research in Computer Security}
+    \list{location}{1}{%
+      {London,UK}%
+    }
+    \field{journaltitle}{Springer-Verlag.}
+    \field{year}{1996}
+  \endentry
+
   \entry{WETICE'02}{book}{}
     \name{author}{1}{}{%
       {{hash=BM}{%

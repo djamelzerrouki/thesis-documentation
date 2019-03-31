@@ -168,15 +168,40 @@ Si un réseau de Petri présente un état d’accueil, il est facile de vérifie
 
 
 \subsubsection{Les réseaux de Petri colorés}
-Les réseaux colorés(Jensen, 1997)ont été introduits afin de modéliser des systèmes complexes tout en gardant les possibilités de vérification. Lorsque le nombre d'entités du systéme à modéliser est important,la taille du réseau de Petri devient rapidement énorme,et silesentit´espr´esententdescomportements similaires, l’usage des r´eseaux color´es permet de condenser le mod`ele. En effet, unecouleurestuneinformationattach´ee `aunjeton. Cetteinformationpermetde distinguer des jetons entre eux et peut ˆetre de type quelconque. Par cons´equent, une placepeutcontenirdesjetonsdediff´erentescouleursetunetransitionpeutˆetrefranchie dediff´erentesmani`eres, selonlacouleur. Ceciestr´ealis´eenattachantundomainede couleur `a chaque place et `a chaque transition. Ainsi, les arcs ne sont pas seulement ´ etiquet´esparlenombredejetonsmaisaussiparleurscouleurs.Lefranchissementd’une transitionestalorsconditionn´eparlapr´esencedanslesplacesenentr´eedunombrede jetonsn´ecessaires, quien plussatisfontlescouleursqui ´etiquettentlesarcs. Apr`esle franchissementd’unetransition,lesjetonsqui ´etiquettentlesarcsd’entr´eesontretir´es desplacesenentr´eetandisqueceuxqui ´etiquettentlesarcsdesortiesontajout´esaux placesensortiedecettetransition
+Les réseaux colorés(Jensen, 1997)ont été introduits afin de modéliser des systèmes complexes tout en gardant les possibilités de vérification. Lorsque le nombre d'entités du système à modéliser est important,la taille du réseau de Petri devient rapidement énorme,et si les entités présentent des comportements similaires, l'usage des réseaux colorés permet de condenser le modèle. En effet, une couleur est une information attachée à un jeton. Cette information permet de distinguer des jetons entre eux et peut être de type quelconque. Par conséquent, une place peut contenir des jetons de différentes couleurs et une transition peut être franchie de différentes manières, selon la couleur. Ceci est réalisé en attachant un domaine de couleur à chaque place et à chaque transition. Ainsi, les arcs ne sont pas seulement étiquetés par le nombre de jetons mais aussi par leurs couleurs.Le franchissement d'une transition est alors conditionné par la présence dans les places en entrée du nombre de jetons nécessaires, qui en plus satisfont les couleurs qui étiquettent les arcs. Après le franchissement d'une transition,les jetons qui étiquettent les arcs d'entrée sont retirés des places en entrée tandis que ceux qui étiquettent les arcs de sortie sont ajoutés aux places en sortie de cette transition.
+
+Ainsi,pour un même système,le nombre de comportements qui peuvent être exprimés par un réseau coloré est nettement plus élevé qu’avec un réseau simple. Ce sont des réseaux très adaptés aux architectures distribuées.D'autant plus qu`a tout réseau coloré correspond un réseau de Petri simple qui lui est isomorphe.Ce ci permet donc d'exploiter les mêmes techniques d'analyse que celles développées pour les réseaux simples en plus d'autres qui ont été complétées et adaptées aux réseaux colorés telle que le support de la
+ hiérarchisation.
+
+\begin{defn}\textbf{Réseau de Petri Colorés:}\\
+	Un réseau de Petri Coloré (CPN) et un tuple $(\bigtriangleup,P,T,Arc,Noeud,Couleur,Grade,E,M_{0}) $ où :
+ 
+
+\end{defn}
 
 
+\begin{itemize}
+\item\textbf{ $\bigtriangleup$:}  est un ensemble de domaines de couleurs (chaque domaine est un ensemble fini et non vide ).
+\item \textbf{$ Arc $:} est un ensemble fini d'arcs tel que $P \cap Arc = T \cap Arc = \emptyset $
+\item \textbf{$Nœud$}:  est la fonction $Nœud$ ,$Nœud$ : $Arc \longrightarrow	P \times T \cup T \times P $.
+
+\item   \textbf{$ Couleur $} : $P \longrightarrow PowerSet(\bigtriangleup)$. $Couleur(p)$ est la fonction couleur qui associe à chaque place un domaine de couleur.
+
+\item \textbf{$ Garde $}: est une garde, qui fait correspondre à chaque transition une expression booléenne.Les variables de la garde appartiennent à $\bigtriangleup$.
+\item \textbf{$ E $}: est l'application qui associe à chaque arc, un élément de Couleur(p)MS où p est une place appartenant à l'arc. E indique le nombre de jetons colorés à recevoir de la place qui se trouve en entrée de la transition,et le nombre de ceux à produire dans la place qui se trouve en sortie. 
+
+\item \textbf{$ M_{0} $}: est l'application qui associe à chaque place p,un élément de Couleur(p) $ M_{S} $. $ M_{0}$ (p)indique la distribution initia le des jetons colorés dans la place p.
+
+\end{itemize}
+ 
+ 
+ 
+De maniéré générale,un marquage M d’un réseau coloré est une application qui associe à chaque place p, un élément de Couleur(p)MS. M(p) est un multi-ensemble sur Couleur(p)qui indique les marques colorées présentes dans la place p au marquage M. L'état du modèle est défini par un marquage coloré.
 
 
+\section{Modélisation Des Politiques De Sécurité}
 
-
-
-
+Durant les dernières années, l'utilisation des réseaux de Petri s'est répandue grâce au nombre de travaux qui a été développé pour enrichir les réseaux de Petri ainsi que la disponibilité des outils. Selon de nombreux chercheurs (Osborn, 2002), les réseaux de Petri sont le seul formalisme qui permet de modéliser la structure du système et de faire des analyses qualitative et quantitative. Les réseaux de Petri ont été utilisés pour la vérification de la sécurité(Ahmed and Tripathi,2003),pour la spécification des autorisations dans les workflows \parencite{ESORICS'96},l'analyse des politiques de sécurité y compris les politiques de contrôle d'accès discrétionnaires (Kumaretal. ,2002; Knorr, 2000), mandataires(Knorr, 2001; Varadharajan, 1991; Juopperi, 1995; Juszczyszyn, 2003; Jiangetal., 2004; Rakkay and Boucheneb, 2006; Zhangetal., 2006b; Zhangetal., 2006a) et à base de ro les(Koch et al.,2002;Rakkay and Boucheneb, 2007;Shafiq et al.,2005).
 
 
 

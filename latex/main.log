@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  31 MAR 2019 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  2 APR 2019 13:18
 entering extended mode
 **./main.tex
 (main.tex
@@ -758,7 +758,7 @@ Package biblatex Info: Reference segment=0 on input line 61.
 File: images/univtiaret.png Graphic file (type png)
 <use images/univtiaret.png>
 Package pdftex.def Info: images/univtiaret.png  used on input line 27.
-(pdftex.def)             Requested size: 170.71393pt x 166.65779pt.
+(pdftex.def)             Requested size: 128.0387pt x 124.99696pt.
  [1
 
 {C:/Users/djamel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/u
@@ -822,349 +822,392 @@ ng et au work-flow, necessaire
 File: images/tempsnip4.png Graphic file (type png)
 <use images/tempsnip4.png>
 Package pdftex.def Info: images/tempsnip4.png  used on input line 16.
-(pdftex.def)             Requested size: 170.71393pt x 127.27101pt.
- [12 <./images/tempsnip4.png>]
-<images/Capture5.png, id=47, 838.332pt x 460.119pt>
+(pdftex.def)             Requested size: 298.75262pt x 222.73756pt.
+ [12 <./images/tempsnip4.png>] [13]
+<images/Capture5.png, id=51, 838.332pt x 460.119pt>
 File: images/Capture5.png Graphic file (type png)
 <use images/Capture5.png>
 Package pdftex.def Info: images/Capture5.png  used on input line 48.
 (pdftex.def)             Requested size: 298.75262pt x 163.97174pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
-[14 <./images/Capture5.png>] [15]
+ [14 <./images/Capture5.png>] [15]
 <images/Cloud_MD.png, id=59, 595.22375pt x 465.74pt>
 File: images/Cloud_MD.png Graphic file (type png)
 <use images/Cloud_MD.png>
 Package pdftex.def Info: images/Cloud_MD.png  used on input line 84.
 (pdftex.def)             Requested size: 213.39566pt x 166.96982pt.
- [16 <./images/Cloud_MD.png (PNG copy)>]
-[17]
-Overfull \hbox (22.90755pt too wide) in paragraph at lines 146--147
+
+[16 <./images/Cloud_MD.png (PNG copy)>] [17]
+<images/wfmcHistory.png, id=66, 493.845pt x 148.75575pt>
+File: images/wfmcHistory.png Graphic file (type png)
+<use images/wfmcHistory.png>
+Package pdftex.def Info: images/wfmcHistory.png  used on input line 151.
+(pdftex.def)             Requested size: 298.75262pt x 89.98955pt.
+ [18 <./images/wfmcHistory.png>]
+Overfull \hbox (9.59387pt too wide) in paragraph at lines 180--181
+\OT1/cmr/m/n/12 les pro-ces-sus d'une or-ga-ni-sa-tion. Cette ges-tion est ren-
+due pos-sible par la representation
+ []
+
+[19]
+Overfull \hbox (1.6912pt too wide) in paragraph at lines 187--188
+\OT1/cmr/m/n/12 haut ni-veau dans la Definition de Pro-ces-sus. Ce modele per
+-met de mieux apprehender
+ []
+
+<images/MetaMWFMC11-99.png, id=76, 853.1875pt x 487.8225pt>
+File: images/MetaMWFMC11-99.png Graphic file (type png)
+<use images/MetaMWFMC11-99.png>
+Package pdftex.def Info: images/MetaMWFMC11-99.png  used on input line 194.
+(pdftex.def)             Requested size: 298.75262pt x 170.81487pt.
+
+Overfull \hbox (4.62633pt too wide) in paragraph at lines 203--204
+\OT1/cmr/m/n/12 presentes ci-dessous en francais avec la tra-duc-tion an-gla
+ise ori-gi-nale as-sociee, couvrent
+ []
+
+
+Overfull \hbox (12.84576pt too wide) in paragraph at lines 211--212
+[]\OT1/cmr/m/n/12 Une ac-ti-vite est une etape d'un pro-ces-sus au cours de l
+a-quelle une ac-tion elementaire
+ []
+
+[20 <./images/MetaMWFMC11-99.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 223.
+
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 223.
+
+[21]
+Overfull \hbox (22.90755pt too wide) in paragraph at lines 271--272
 \OT1/cmr/m/n/12 or-ga-ni-sa-tion, gerable par un systeme work-flow. Il per-me
 t d'au-to-ma-ti-ser l'execution
  []
 
-
-Overfull \hbox (9.39452pt too wide) in paragraph at lines 154--155
+[22]
+Overfull \hbox (9.39452pt too wide) in paragraph at lines 279--280
 []\OT1/cmr/m/n/12 La WfMC (Work-flow Ma-na-ge-ment Coa-li-tion) (WfMC, 1999) a 
 donne une definition
  []
 
-[18] [19]
-Overfull \hbox (1.0374pt too wide) in paragraph at lines 185--186
-[]\OT1/cmr/m/n/12 les work-flows do-cu-men-taires (redaction, va-li-da-tion, t
-ra-duc-tion de do-cu-ments), 
+[23]
+Overfull \hbox (5.92223pt too wide) in paragraph at lines 308--310
+[]\OT1/cmr/m/n/12 Il n'existe pas de clas-si-fi-ca-tion com-mune des systemes 
+Work-flow dans la litterature,
  []
 
+[24]
+<"images/classification de workflow".png, id=95, 459.51675pt x 257.16075pt>
+File: "images/classification de workflow".png Graphic file (type png)
+<use "images/classification de workflow".png>
+Package pdftex.def Info: "images/classification de workflow".png  used on input
+ line 316.
+(pdftex.def)             Requested size: 298.75262pt x 167.19566pt.
+ [25 <./images/classification de workflow.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Overfull \hbox (0.31935pt too wide) in paragraph at lines 186--187
-\OT1/cmr/m/n/12 procedure peut ^etre qua-lifiee de procedure metier, pro-ce
-s-sus metier, procedure
+ [26]
+Overfull \hbox (20.0646pt too wide) in paragraph at lines 380--383
+\OT1/cmr/m/n/12 complete du modele de Work-flow. En rai-son de l'in-dis-po-ni
+-bi-lite d'une specification
  []
 
-
-Overfull \hbox (7.36797pt too wide) in paragraph at lines 186--187
-\OT1/cmr/m/n/12 s'en-cha^nent de maniere chro-no-lo-gique pour at-teindre un 
-ob-jec-tif, generalement
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+[27] [28]
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
 []|\OT1/cmr/bx/n/12 Capacite
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
 []|\OT1/cmr/m/n/12 Haute ca-pa-cite
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
 \OT1/cmr/m/n/12 de trai-te-ment
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 220--220
+Underfull \hbox (badness 1997) in paragraph at lines 454--454
 \OT1/cmr/m/n/12 a 100)fois moins
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
 \OT1/cmr/m/n/12 li-sa-tion et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
 \OT1/cmr/m/n/12 d'ap-pren-tis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
 []|\OT1/cmr/m/n/12 Capacite de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
 \OT1/cmr/m/n/12 chan-ger dy-na-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
 \OT1/cmr/m/n/12 mi-que-ment la
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 220--220
+Underfull \hbox (badness 4927) in paragraph at lines 454--454
 \OT1/cmr/m/n/12 definition d'un
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
 \OT1/cmr/m/n/12 pro-ces-sus est
  []
 
 
-Overfull \hbox (5.10703pt too wide) in paragraph at lines 223--223
+Overfull \hbox (5.10703pt too wide) in paragraph at lines 457--457
 []|\OT1/cmr/bx/n/12 Utilisation| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\OT1/cmr/m/n/12 Employes tra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \OT1/cmr/m/n/12 vaillant a plein
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \OT1/cmr/m/n/12 temps sur des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \OT1/cmr/m/n/12 d'em-ployes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \OT1/cmr/m/n/12 peuvent ^etre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\OT1/cmr/m/n/12 La mo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \OT1/cmr/m/n/12 di-fi-ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \OT1/cmr/m/n/12 dy-na-mique
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\OT1/cmr/m/n/12 Fournir une
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 223--223
+Underfull \hbox (badness 3590) in paragraph at lines 457--457
 \OT1/cmr/m/n/12 voie struc-turee
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \OT1/cmr/m/n/12 pour tra-vailler
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 []| \OT1/cmr/bx/n/12 Na-
  []
 
 
-Underfull \hbox (badness 6380) in paragraph at lines 225--225
+Underfull \hbox (badness 6380) in paragraph at lines 459--459
 \OT1/cmr/bx/n/12 ture des
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 225--225
+Underfull \hbox (badness 1558) in paragraph at lines 459--459
 \OT1/cmr/m/n/12 avec peu de va-
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 225--225
+Underfull \hbox (badness 1824) in paragraph at lines 459--459
 \OT1/cmr/m/n/12 sus peuvent ^etre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 []|\OT1/cmr/m/n/12 Une variete de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 \OT1/cmr/m/n/12 pro-ces-sus pout
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 \OT1/cmr/m/n/12 ces-sus peuvent
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 225--225
+Underfull \hbox (badness 1242) in paragraph at lines 459--459
 \OT1/cmr/m/n/12 ^etre bien definis,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 \OT1/cmr/m/n/12 mais re-quierent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 []|\OT1/cmr/m/n/12 Facilite de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 []|\OT1/cmr/m/n/12 Les pro-ces-sus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 \OT1/cmr/m/n/12 sont moins
  []
 
 
-Overfull \hbox (7.98894pt too wide) in paragraph at lines 228--228
+Overfull \hbox (7.98894pt too wide) in paragraph at lines 462--462
 []|\OT1/cmr/bx/n/12 Specificites| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 []|\OT1/cmr/m/n/12 Requiert une
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 228--228
+Underfull \hbox (badness 1496) in paragraph at lines 462--462
 \OT1/cmr/m/n/12 integration serree
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 []|\OT1/cmr/m/n/12 Utilise sou-vent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \OT1/cmr/m/n/12 des do-cu-ments
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 []|\OT1/cmr/m/n/12 Le but est
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \OT1/cmr/m/n/12 d'ad-mi-nis-tra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
 []|\OT1/cmr/m/n/12 La ca-pa-cite
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
 \OT1/cmr/m/n/12 de trai-te-ment
  []
 
 
-Overfull \hbox (33.26059pt too wide) in paragraph at lines 215--231
+Overfull \hbox (33.26059pt too wide) in paragraph at lines 449--465
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[20] [21]
-<images/Capture6.png, id=80, 674.52pt x 514.92375pt>
+[29]
+<images/Capture6.png, id=113, 674.52pt x 514.92375pt>
 File: images/Capture6.png Graphic file (type png)
 <use images/Capture6.png>
-Package pdftex.def Info: images/Capture6.png  used on input line 255.
+Package pdftex.def Info: images/Capture6.png  used on input line 493.
 (pdftex.def)             Requested size: 256.0774pt x 195.49234pt.
-
-Overfull \hbox (7.78862pt too wide) in paragraph at lines 262--262
-[]\OT1/cmr/m/n/12 Interface3 : Per-met au systeme de work-flow d'in-vo-quer de
-s ap-pli-ca-tions clientes. 
+ [30 <./images/Capture6.png>]
+Overfull \hbox (8.50145pt too wide) in paragraph at lines 541--542
+[]\OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 L'in-terpretation com-mune de la definit
+ion de procedures (ou d'un sous-ensemble). 
  []
 
-<images/Capture7.png, id=81, 794.97pt x 406.51875pt>
+[31]
+<images/Capture7.png, id=122, 794.97pt x 406.51875pt>
 File: images/Capture7.png Graphic file (type png)
 <use images/Capture7.png>
-Package pdftex.def Info: images/Capture7.png  used on input line 269.
+Package pdftex.def Info: images/Capture7.png  used on input line 567.
 (pdftex.def)             Requested size: 256.0774pt x 130.95087pt.
 
-Overfull \hbox (5.70134pt too wide) in paragraph at lines 276--277
+Overfull \hbox (5.70134pt too wide) in paragraph at lines 574--575
 [] \OT1/cmr/bx/n/12 BPNM (Bu-si-ness Pro-cess Mo-del and No-ta-tion) : \OT1/cmr
 /m/n/12 est une representation
  []
 
 
-Overfull \hbox (2.14449pt too wide) in paragraph at lines 276--277
+Overfull \hbox (2.14449pt too wide) in paragraph at lines 574--575
 \OT1/cmr/m/n/12 gra-phique per-met-tant de specifier les pro-ces-sus metier m
 ain-te-nus par le groupe
  []
 
-[22 <./images/Capture6.png> <./images/Capture7.png>] [23]) [24]
+[32 <./images/Capture7.png>] [33]) [34]
 Chapitre 2.
-(ch2.tex [25
+(ch2.tex [35
 
-] [26] [27]
-<images/petrif1.png, id=103, 145.14224pt x 199.947pt>
+] [36] [37]
+<images/petrif1.png, id=143, 145.14224pt x 199.947pt>
 File: images/petrif1.png Graphic file (type png)
 <use images/petrif1.png>
 Package pdftex.def Info: images/petrif1.png  used on input line 62.
 (pdftex.def)             Requested size: 128.0387pt x 176.38408pt.
-<images/pitrif2.png, id=104, 137.313pt x 204.765pt>
+<images/pitrif2.png, id=144, 137.313pt x 204.765pt>
 File: images/pitrif2.png Graphic file (type png)
 <use images/pitrif2.png>
 Package pdftex.def Info: images/pitrif2.png  used on input line 69.
 (pdftex.def)             Requested size: 128.0387pt x 190.9325pt.
- [28 <./images/petrif1.png> <./images/pitrif2.png>]
-<images/Rdpborn.png, id=114, 315.579pt x 232.4685pt>
+ [38 <./images/petrif1.png> <./images/pitrif2.png>]
+<images/Rdpborn.png, id=154, 315.579pt x 232.4685pt>
 File: images/Rdpborn.png Graphic file (type png)
 <use images/Rdpborn.png>
 Package pdftex.def Info: images/Rdpborn.png  used on input line 114.
 (pdftex.def)             Requested size: 213.39566pt x 157.19324pt.
 
-[29 <./images/Rdpborn.png>]
+[39 <./images/Rdpborn.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 127--130
 
  []
 
-<images/Petrivivant.png, id=121, 169.8345pt x 271.61475pt>
+<images/Petrivivant.png, id=160, 169.8345pt x 271.61475pt>
 File: images/Petrivivant.png Graphic file (type png)
 <use images/Petrivivant.png>
 Package pdftex.def Info: images/Petrivivant.png  used on input line 145.
 (pdftex.def)             Requested size: 85.35696pt x 136.5116pt.
-<images/Petribloquant.png, id=122, 241.50224pt x 350.5095pt>
+<images/Petribloquant.png, id=161, 241.50224pt x 350.5095pt>
 File: images/Petribloquant.png Graphic file (type png)
 <use images/Petribloquant.png>
 Package pdftex.def Info: images/Petribloquant.png  used on input line 151.
 (pdftex.def)             Requested size: 106.69783pt x 154.85576pt.
-[30 <./images/Petrivivant.png> <./images/Petribloquant.png>]
+[40 <./images/Petrivivant.png> <./images/Petribloquant.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 163--166
 
  []
@@ -1185,7 +1228,7 @@ LaTeX Warning: Command \oe invalid in math mode on input line 186.
 
 LaTeX Warning: Command \oe invalid in math mode on input line 186.
 
-[31]) [32] [33
+[41]) [42] [43
 
 ] (main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1193,13 +1236,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13013 strings out of 492946
- 220476 string characters out of 3125822
- 528571 words of memory out of 3000000
- 16710 multiletter control sequences out of 15000+200000
+ 13049 strings out of 492946
+ 221358 string characters out of 3125822
+ 525571 words of memory out of 3000000
+ 16740 multiletter control sequences out of 15000+200000
  13380 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,13n,55p,1437b,1861s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,13n,55p,1536b,1861s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmcsc10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2
@@ -1212,13 +1255,14 @@ fonts/cm/cmr12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr17.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/djamel/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/djamel/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/User
-s/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmtt12.pfb>
-Output written on main.pdf (33 pages, 2158634 bytes).
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/User
+s/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmti12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (43 pages, 2387388 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
+ 225 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

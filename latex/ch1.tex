@@ -198,6 +198,64 @@ Ces grandes infrastructures partagées fournissent des moyens de protection au d
  	 
  	 Le méta modèle, présenté Figure \ref{fig:metamwfmc11-99}, identifie un ensemble d’objets fondamentaux qui entrent dans la définition d’un processus géré par un système Workflow, et que nous allons définir et commenter dans les paragraphes suivants. Remarquons que le méta modèle peut être enrichi par les développeurs de systèmes, il peut également être utilisé à des fins d’échanges entre différents systèmes Workflow.
  	 
+ 	 
+ 	 \subsubsection{Dimensions}
+ 	 Associé aux définitions précédentes, il a été défini une représentation tridimensionnelle des systèmes Workflow [VAN DER AALST 98a] (Figure \ref{fig:dimensionswf}). 
+ 	 
+ 	 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/DimensionsWF}
+	\caption{ Dimensions des systèmes Workflow }
+	\label{fig:dimensionswf}
+\end{figure}
+ 	 La Figure \ref{fig:dimensionswf} donne une représentation tridimensionnelle d’un Workflow : avec une dimension de cas, une dimension de processus et une dimension de ressource. La dimension de cas représente l’instanciation du Workflow, chaque cas est un modèle à simuler et traiter individuellement. Les cas ne s’influencent donc pas directement. Ils peuvent éventuellement s’influencer indirectement via les ressources et les données. Le processus de Workflow est spécifié dans la dimension de processus, c’est-à-dire, la définition des tâches et de leur enchaînement. Enfin, dans la dimension de ressource, les ressources sont regroupées en rôles et en unités organisationnelles. En résumé, nous pouvons donc visualiser un certain nombre de termes Workflow dans la vue tridimensionnelle de la Figure 16. En particulier, une entité de travail est définie par la coordonnée cas + tâche et une activité par le cas + la tâche + la ressource. Cette représentation met en relief la gestion de Workflow comme le lien entre les cas, les tâches et l’organisation. 
+ 	 
+ 	 \subsection{Description des Systèmes Workflow }
+ 	 Après avoir présenté la terminologie Workflow, il est maintenant possible de présenter le principe de fonctionnement des systèmes Workflow. A un haut niveau, ce type de système est composé de trois parties fonctionnelles [WFMC03 95]. La Figure 17 illustre un Système de gestion de Workflow et les relations entre ses différentes fonctions. 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 \subsubsection{ Build time }
+ 	 
+ 	 Cette première phase permet la définition et la modélisation des procédures Workflow, elle est nommée build time. Elle est principalement composée d’un outil permettant la modélisation des Workflow dans un formalisme existant ou propriétaire à partir d’une analyse de procédures d’entreprises, il est à noter que les outils actuels préfèrent une description graphique. Un deuxième composant transcrit les modèles obtenus dans une définition des procédures « exécutable », c’est à dire compréhensibles par la partie chargée de l’exécution (simulateur du run time). Certains systèmes permettent en retour de la partie run time des modifications dynamiques de la structure de définition de procédures comme indiqué sur la Figure 17. 
+ 	  	 \subsubsection{ Run time }
+ 	 L’environnement d’exécution (ou run time) a l’entière gestion des modèles de Workflow établis dans la première partie. Cette gestion comprend l’exécution des Workflow avec un simulateur mais aussi la distribution des tâches aux rôles appropriés en cours d’exécution, la mise à disposition de l’ensemble des données et outils nécessaires, la supervision et le contrôle, etc.
+ 	 
+ 	 Plus en détails, cette partie se décline en sous composants, introduits ci dessous : Le Moteur de Workflow (Workflow Engine) qui est chargé de la Gestion des Procédures à travers la simulation de leurs évolutions. 
+ 	 
+ 	 Le gestionnaire des listes de tâches (Worklist Handler), chargé de distribuer les activités dans les listes des acteurs en fonction de leurs rôles. 
+ 	 
+ 	 Les listes de tâches (Worklists), qui sont les listes associées à chaque rôle dans lesquelles le moteur place les tâches à réaliser. Les tâches sont classées par priorité ou par date avec les données et les outils à utiliser de façon appropriée. 
+ 	 
+ 	 
+ 	 Les outils d’administration et de contrôle (Workflow Process Monitoring) suivent le déroulement des procédures Workflow, elles peuvent fournir l’état actuel des composantes du Workflow et donner l’ordre de modifier le modèle de procédures.
+ 	 
+ 	  	  	 \subsubsection{ Utilisateurs, outils et applications }
+ 	  	  	 La troisième phase concerne l’ensemble des outils et des fonctions d’API (Application Programming Interface) qui permettent au système Workflow de s’interfacer avec des ressources humaines, des applications informatiques extérieures et d’autres systèmes Workflow. 
+ 	  	  	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
  	\subsection{Concepts et Terminologie Workflow fondamentaux } 
  	 
  	 Les principaux termes associés aux Workflow proposés par la WfMC [WFMC11 99] sont présentés dans le diagramme du méta modèle Workflow ci-dessus, ce diagramme permet également de mettre en évidence leurs interrelations. Les termes présentés ci-dessous en français avec la traduction anglaise originale associée, couvrent les notions plus importantes appartenant au Workflow et à son lexique [WFMC11 99]. 

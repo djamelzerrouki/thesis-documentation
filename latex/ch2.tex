@@ -20,9 +20,41 @@ aux activités. Le modèle informationnel, souvent négligé lors de l'implémen
 \subsubsection{L'aspect organisationnel }
 Comme son nom l'indique, la partie organisationnelle concerne la description de l'organisation des acteurs de l'entreprise. Le modèle organisationnel peut soit refléter fidèlement l'organigramme de l'entreprise, c'est à dire la décomposition hiérarchique de celle-ci en départements et services soit décrire des unités organisationnelles dans lesquelles on identifie des acteurs. Selon la méthode choisie, la description est plus ou moins détaillée et permet d'établir des liens hiérarchiques entre les acteurs ainsi que des relations entre unités organisationnelles ou départements. Toutefois, quelle que soit la méthode retenue, la description des rôles associés aux différentes activités reste invariante. Les rôles créent l'interface entre le modèle organisationnel et les modèles représentant les activités.
 
+
+
+\subsection{Modélisation de Workflow adaptable }
+
+Dans le cas particulier de la modélisation des Workflow adaptables, plusieurs approches sont proposées [HAN 98]. 
+
+\subsubsection{ Approche Meta modèle}
+Cette approche emploie un méta modèle pour déterminer la structure et les types de composants constitutifs; elle définit un jeu de primitives pour transformer un modèle Workflow générique ou une instance de modèle. 
+
+\subsubsection{ L’approche de point ouvert Open-point }
+Elle définit des points spéciaux dans un modèle de Workflow, où l’adaptation peut être faite. Cette approche inclut la mise à disposition de choix multiples pour les utilisateurs, l’allocation dynamique de certaines ressources aux tâches en run time, ou une interface ouverte par laquelle une « dernière modélisation » peut être réalisée. La « dernière modélisation » signifie que, pendant l’exécution des modèles complets, certains sous modèles peuvent être définis dynamiquement pour une utilisation immédiate. 
+\subsubsection{ Approche synthétisée}
+Il semble que les deux approches puissent être employées complémentairement pour la définition de Workflow adaptable. Pour cela, les deux hypothèses suivantes doivent être prises en compte :
+
+Tout d’abord, il parait nécessaire de distinguer les évolutions de procédures Workflow et les changements ad hoc dynamique dans une procédure. De plus, une séparation claire est faite entre le build time et le run time en termes de Workflow. Il parait impératif de faciliter le franchissement bilatéral de cette frontière pour rendre modélisables les Workflow adaptables.
+
+En synthèse, il est souhaitable de définir la frontière entre les changements ad hoc et les évolutions du Workflow. Il semblerait que ces changements devraient être testés sur une instance de modèles puis si nécessaires propagés au niveau global pour une modification persistante.
+
 \subsection{Techniques et outils de modélisation de workflow}
 
-Associés aux aspects à modéliser définis précédemment, un certain nombre d'outils de modélisation peuvent être employés pour décrire le comportement des flux de travail.
+Associés aux aspects à modéliser définit précédemment, un certain nombre d’outils de modélisation peuvent être employés pour décrire le comportement des flux de travail comme le précise [VAN DER AALST 97a] [VAN DER AALST 97b].
+
+Il existe un certain nombre de techniques de modélisation des procédures, tels que : Pour la représentation en terme de fonctions, les diagrammes de flots de données DFD31, ISAC32, SADT33 semblent tout a fait indiqués.  
+
+
+Pour l’aspect comportement, les diagrammes état-transition (par extensions : state charts) semblent convenir plus particulièrement. Mais aussi les organigrammes (Flowcharts) qui illustre les pas dans une procédure. En visualisant les procédures, un organigramme peut rapidement aider à identifier des goulots d'étranglement ou des inefficacités dont la procédure peut être rationalisée ou améliorée. 
+
+Concernant l’aspect représentation des données, on pourra utiliser par exemple un Modèle Conceptuel de Données de la méthode MERISE [TARDIEU 85] ou un modèle de classes d’une méthode Objet UML34. Le modèle informationnel peut également représenter le flux des informations, c’est-à-dire leur circulation et les différents états qu’elles peuvent prendre ainsi que les dépendances hiérarchiques.
+
+Il existe également des techniques de diagramme spécifiques aux concepteurs de logiciels utilisées dans les outils de simulation WfMS. Ces outils de modélisation et simulation spécifiques intègrent un outil modélisation, le plus souvent dans un langage graphique et un simulateur également spécifique se basant sur un formalisme particulier après transformation dans ce dit format simulable, par exemple un automate à états finis. 
+
+
+Mais ce sont certainement les réseaux de Petri de haut niveau qui sont les plus utilisés à l’heure actuelle pour représenter et simuler les comportements des procédures d’un Workflow autour des nombreux travaux de Van der Aalst [VAN DER AALST 98b]. 
+
+Cependant, jusqu’alors pas, ou peu, de travaux de spécification et de modélisation de la partie processus d’un Workflow on été réalisés en utilisant la clarté et la précision du formalisme DEVS. Ce formalisme offre néanmoins un aspect modulaire hiérarchique important dans la définition d’un Workflow. De plus leur simulation par événements discrets permet une exécution rapide. Nous reviendrons sur ce point dans le chapitre 4. 
 
 \subsubsection{Réseaux de Petri et workflow
 }

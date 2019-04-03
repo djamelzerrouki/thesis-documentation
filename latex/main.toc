@@ -1,8 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {french}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{I\hspace {1em}ch1}{10}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Concepts fondamentaux de cloud et de workflow }{11}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Introduction}{11}% 
@@ -29,128 +27,148 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.2.3.2}Les composants s\IeC {\'e}curit\IeC {\'e} d\IeC {\textquoteright }un syst\IeC {\`e}me de Cloud computing}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Workflow}{17}% 
+\contentsline {subsection}{\numberline {1.2.4}Les principaux grands fournisseurs cloud pour 2019}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Introduction au Workflow }{17}% 
+\contentsline {subsubsection}{\numberline {1.2.4.1}Amazon Web Services }{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.4.2}Microsoft Azure}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.4.3}Google Cloud Plateform}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.4.4}IBM}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Workflow}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Introduction au Workflow }{18}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.2}Origines}{18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}D\IeC {\'e}finitions et terminologies }{18}% 
+\contentsline {subsection}{\numberline {1.3.3}D\IeC {\'e}finitions et terminologies }{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}D\IeC {\'e}finitions de base du Workflow }{19}% 
+\contentsline {subsection}{\numberline {1.3.4}D\IeC {\'e}finitions de base du Workflow }{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.4.1}D\IeC {\'e}finition d\IeC {\textquoteright }un Workflow }{19}% 
+\contentsline {subsubsection}{\numberline {1.3.4.1}D\IeC {\'e}finition d\IeC {\textquoteright }un Workflow }{20}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.3.4.2} M\IeC {\'e}ta Mod\IeC {\`e}le basique }{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.4.3}Dimensions}{20}% 
+\contentsline {subsubsection}{\numberline {1.3.4.3}Dimensions}{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.5}Description des Syst\IeC {\`e}mes Workflow }{21}% 
+\contentsline {subsection}{\numberline {1.3.5}Description des Syst\IeC {\`e}mes Workflow }{22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.5.1} Build time }{21}% 
+\contentsline {subsubsection}{\numberline {1.3.5.1} Build time }{22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.5.2} Run time }{21}% 
+\contentsline {subsubsection}{\numberline {1.3.5.2} Run time }{22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.5.3} Utilisateurs, outils et applications }{22}% 
+\contentsline {subsubsection}{\numberline {1.3.5.3} Utilisateurs, outils et applications }{23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.6}Concepts et Terminologie Workflow fondamentaux }{22}% 
+\contentsline {subsection}{\numberline {1.3.6}Concepts et Terminologie Workflow fondamentaux }{23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6.1}Proc\IeC {\'e}dure Workflow (Workflow Process) }{22}% 
+\contentsline {subsubsection}{\numberline {1.3.6.1}Proc\IeC {\'e}dure Workflow (Workflow Process) }{23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6.2}Activit\IeC {\'e} (Process Activity) }{22}% 
+\contentsline {subsubsection}{\numberline {1.3.6.2}Activit\IeC {\'e} (Process Activity) }{23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6.3} Acteur, Ressource (Workflow Participant) }{22}% 
+\contentsline {subsubsection}{\numberline {1.3.6.3} Acteur, Ressource (Workflow Participant) }{23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6.4} R\IeC {\^o}le (Role) }{23}% 
+\contentsline {subsubsection}{\numberline {1.3.6.4} R\IeC {\^o}le (Role) }{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6.5}Donn\IeC {\'e}es (Workflow Relevant Data) }{23}% 
+\contentsline {subsubsection}{\numberline {1.3.6.5}Donn\IeC {\'e}es (Workflow Relevant Data) }{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6.6} Application externe (Invoked Application) }{23}% 
+\contentsline {subsubsection}{\numberline {1.3.6.6} Application externe (Invoked Application) }{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.7} Concepts de base et d\IeC {\'e}finitions de Workflow }{24}% 
+\contentsline {section}{\numberline {1.4}Classification des syst\IeC {\`e}mes Workflow}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.7.1}D\IeC {\'e}finitions de base du workflow}{24}% 
+\contentsline {subsection}{\numberline {1.4.1}Processus collaboratifs }{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.7.2}Concepts et terminologie de workflow}{25}% 
+\contentsline {subsection}{\numberline {1.4.2}Workflow administratif }{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Classification des syst\IeC {\`e}mes Workflow}{26}% 
+\contentsline {subsection}{\numberline {1.4.3}Workflow de production}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Processus collaboratifs }{26}% 
+\contentsline {subsection}{\numberline {1.4.4}Workflow adaptable ou Workflow ad hoc }{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Workflow administratif }{27}% 
+\contentsline {subsubsection}{\numberline {1.4.4.1}Le changement individuel (ad hoc) }{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}Workflow de production}{27}% 
+\contentsline {subsubsection}{\numberline {1.4.4.2}Le changement structurel (\IeC {\'e}volution) }{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.4}Workflow adaptable ou Workflow ad hoc }{28}% 
+\contentsline {subsection}{\numberline {1.4.5}Mod\IeC {\`e}le de r\IeC {\'e}f\IeC {\'e}rence des syst\IeC {\`e}mes Workflow }{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.4.1}Le changement individuel (ad hoc) }{29}% 
+\contentsline {subsubsection}{\numberline {1.4.5.1}Interface avec les Outils de d\IeC {\'e}finition de proc\IeC {\'e}dures }{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.4.2}Le changement structurel (\IeC {\'e}volution) }{30}% 
+\contentsline {subsubsection}{\numberline {1.4.5.2}Interface avec les applications clientes Workflow }{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.5}Comparaison entre types de workflows:}{30}% 
+\contentsline {subsubsection}{\numberline {1.4.5.3}Interface avec les applications invoqu\IeC {\'e}es}{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Architecture des syst\IeC {\`e}mes de gestion de workflows }{30}% 
+\contentsline {subsubsection}{\numberline {1.4.5.4}Interface avec les autres Workflow }{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.1}D\IeC {\'e}finition }{30}% 
+\contentsline {subsubsection}{\numberline {1.4.5.5}Interface avec les outils de contr\IeC {\^o}le et d\IeC {\textquoteright }administration }{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.2}Mod\IeC {\`e}le de r\IeC {\'e}f\IeC {\'e}rence des syst\IeC {\`e}mes Workflow }{31}% 
+\contentsline {section}{\numberline {1.5}Architecture des syst\IeC {\`e}mes de gestion de workflows }{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.2.1}Interface avec les Outils de d\IeC {\'e}finition de proc\IeC {\'e}dures }{31}% 
+\contentsline {subsection}{\numberline {1.5.1}D\IeC {\'e}finition }{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.2.2}Interface avec les applications clientes Workflow }{32}% 
+\contentsline {subsection}{\numberline {1.5.2}Standards utilis\IeC {\'e}s dans les SGWf :}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.2.3}Interface avec les applications invoqu\IeC {\'e}es}{32}% 
+\contentsline {subsubsection}{\numberline {1.5.2.1}BPNM (Business Process Model and Notation)}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.2.4}Interface avec les autres Workflow }{33}% 
+\contentsline {subsubsection}{\numberline {1.5.2.2}XPDL (Process Definition Language):}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.2.5}Interface avec les outils de contr\IeC {\^o}le et d\IeC {\textquoteright }administration }{33}% 
+\contentsline {subsubsection}{\numberline {1.5.2.3}BPAF (Business Process Analytics)}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.2.6}Standards utilis\IeC {\'e}s dans les SGWf :}{33}% 
+\contentsline {subsubsection}{\numberline {1.5.2.4}BPEL (Business Process Execution Language)}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.3} Int\IeC {\'e}r\IeC {\^e}t du cloud pour les workflows }{34}% 
+\contentsline {subsubsection}{\numberline {1.5.2.5} Wf-XML }{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.3.1}L\IeC {\textquoteright }approvisionnement de ressources }{34}% 
+\contentsline {section}{\numberline {1.6} Int\IeC {\'e}r\IeC {\^e}t du cloud pour les workflows }{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.3.2}L\IeC {\textquoteright }allocation dynamique de ressources \IeC {\`a} la demande }{34}% 
+\contentsline {subsection}{\numberline {1.6.1}L\IeC {\textquoteright }approvisionnement de ressources }{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.3.3}L\IeC {\textquoteright }\IeC {\'e}lasticit\IeC {\'e}}{34}% 
+\contentsline {subsection}{\numberline {1.6.2}L\IeC {\textquoteright }allocation dynamique de ressources \IeC {\`a} la demande }{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.3.4}La garantie des QoS via des SLA }{35}% 
+\contentsline {subsection}{\numberline {1.6.3}L\IeC {\textquoteright }\IeC {\'e}lasticit\IeC {\'e}}{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.3.5}Le faible Co\IeC {\^u}t d\IeC {\textquoteright }exploitation }{35}% 
+\contentsline {subsection}{\numberline {1.6.4}La garantie des QoS via des SLA }{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Conclusion}{35}% 
+\contentsline {subsection}{\numberline {1.6.5}Le faible Co\IeC {\^u}t d\IeC {\textquoteright }exploitation }{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Mod\IeC {\'e}lisations et R\IeC {\'e}seau de Petri}{36}% 
+\contentsline {section}{\numberline {1.7}Conclusion}{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Introduction}{36}% 
+\contentsline {chapter}{\numberline {2}Mod\IeC {\'e}lisations et R\IeC {\'e}seau de Petri}{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Mod\IeC {\'e}lisation des processus workflow }{36}% 
+\contentsline {section}{\numberline {2.1}Introduction}{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Aspects \IeC {\`a} mod\IeC {\'e}liser}{36}% 
+\contentsline {section}{\numberline {2.2}Mod\IeC {\'e}lisation des processus workflow }{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.1}L'aspect fonctionnel}{36}% 
+\contentsline {subsection}{\numberline {2.2.1}Aspects \IeC {\`a} mod\IeC {\'e}liser}{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.2}L'aspect comportemental}{36}% 
+\contentsline {subsubsection}{\numberline {2.2.1.1}L'aspect fonctionnel}{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.3} L'aspect informationnel (donn\IeC {\'e}es) }{37}% 
+\contentsline {subsubsection}{\numberline {2.2.1.2}L'aspect comportemental}{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.4}L'aspect organisationnel }{37}% 
+\contentsline {subsubsection}{\numberline {2.2.1.3} L'aspect informationnel (donn\IeC {\'e}es) }{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Techniques et outils de mod\IeC {\'e}lisation de workflow}{37}% 
+\contentsline {subsubsection}{\numberline {2.2.1.4}L'aspect organisationnel }{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2.1}R\IeC {\'e}seaux de Petri et workflow }{37}% 
+\contentsline {subsection}{\numberline {2.2.2}Mod\IeC {\'e}lisation de Workflow adaptable }{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2.2}UML et workflow}{38}% 
+\contentsline {subsubsection}{\numberline {2.2.2.1} Approche Meta mod\IeC {\`e}le}{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2.3}YAWL}{38}% 
+\contentsline {subsubsection}{\numberline {2.2.2.2} L\IeC {\textquoteright }approche de point ouvert Open-point }{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Les r\IeC {\'e}seaux de Petri}{39}% 
+\contentsline {subsubsection}{\numberline {2.2.2.3} Approche synth\IeC {\'e}tis\IeC {\'e}e}{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}D\IeC {\'e}finition}{40}% 
+\contentsline {subsection}{\numberline {2.2.3}Techniques et outils de mod\IeC {\'e}lisation de workflow}{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1.1}Propri\IeC {\'e}t\IeC {\'e}s des r\IeC {\'e}seaux de Petri}{40}% 
+\contentsline {subsubsection}{\numberline {2.2.3.1}R\IeC {\'e}seaux de Petri et workflow }{37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1.2}Les r\IeC {\'e}seaux de Petri color\IeC {\'e}s}{42}% 
+\contentsline {subsubsection}{\numberline {2.2.3.2}UML et workflow}{37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Mod\IeC {\'e}lisation Des Politiques De S\IeC {\'e}curit\IeC {\'e}}{43}% 
+\contentsline {subsubsection}{\numberline {2.2.3.3}YAWL}{38}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Les r\IeC {\'e}seaux de Petri}{38}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}D\IeC {\'e}finition}{38}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.1}Propri\IeC {\'e}t\IeC {\'e}s des r\IeC {\'e}seaux de Petri}{39}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.2}Les r\IeC {\'e}seaux de Petri color\IeC {\'e}s}{41}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Mod\IeC {\'e}lisation Des Politiques De S\IeC {\'e}curit\IeC {\'e}}{42}% 

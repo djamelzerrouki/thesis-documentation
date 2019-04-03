@@ -5,7 +5,7 @@
      
     Ce chapitre présente une introduction au cloud computing et au workflow, nécessaire pour la compréhension générale de ce rapport.
     
-    Tout d’abord, nous présentons dans la section 1.2 une introduction au paradigme du cloud computing. Nous donnons un aperçu général du cloud computing, y compris sa définition, ses caractéristiques principales et une comparaison avec les technologies connexes. Nous présentons les différents modèles de service, les différents modèles de déploiement, ainsi que les différents acteurs du cloud computing. Nous résumons quelques challenges de recherche en cloud computing. Par la suite, nous présentons, dans la section 1.3, une introduction au workflow et systèmes de gestion de workflow. Nous donnons le concept du workflow, sa définition, et l’architecture de référence d’un système de gestion de workflows et, finalement, nous résumons l'intérêt du cloud pour les workflows.
+    Tout d’abord, nous présentons dans la section 1.2 une introduction au paradigme du cloud computing. Nous donnons un aperçu général du cloud computing, y compris sa définition, ses caractéristiques principales. Nous présentons les différents modèles de service, les différents modèles de déploiement, ainsi la sécurité dans le  cloud computing. Nous présentons Les principaux grands fournisseurs cloud. Par la suite, nous présentons, dans la section 1.3, une introduction au workflow et systèmes de gestion de workflow. Nous donnons le concept du workflow, sa définition.Puis la classification de système de workflow  dans la section 1.4   et  par la suite, nous présentons, dans la section 1.5 l’architecture de référence d’un système de gestion de workflows et, finalement, nous résumons l'intérêt du cloud pour les workflows.
     
     \section{cloud computing}
     \subsection{Concept du cloud computing}
@@ -125,6 +125,28 @@ Ces grandes infrastructures partagées fournissent des moyens de protection au d
 
 \end{itemize}
 
+
+\subsection{Les principaux grands fournisseurs cloud pour 2019}  
+
+
+Comment choisir la solution de cloud la plus adaptée à votre entreprise, quelles sont les différentes offres et les tarifs pour stocker les données informatiques sur un serveur à distance. Comparatif des principales solutions du marché.
+
+\subsubsection{Amazon Web Services }
+
+Avec un chiffre d’affaires de 25.65 milliards de dollar (\textbf{\underline{Zdnet.fr}}) réalisé en 2018, le géant de l’IaaS considère 2019 comme une année d’investissement afin d’accélérer le développement de sa technologie et renforcer sa force de vente. En ce début de 2019, AWS est le leader incontesté dans le domaine de l’IaaS \parencite{cloud2019}.
+
+\subsubsection{Microsoft Azure}
+Le service cloud, Microsof Azure a réalisé un chiffre d’affaires annuel de 11 milliards de dollar. En 2019, le service cloud Microsoft Azure vient en deuxième position derrière AWS (IaaS et PaaS). A la différence d’AWS, Microsoft opère plutôt dans le commercial cloud et propose un service très diversifié grâce à une plateforme familiarisée auprès des utilisateurs \parencite{cloud2019}.
+
+
+\subsubsection{Google Cloud Plateform}
+L’année 2018 a été particulièrement fructueuse chez le service cloud de Google. Avec un chiffre d’affaires de près 4 milliards de dollar, l’entreprise a décroché en 2018 les contrats les plus importants dans le secteur. Pour 2019, elle va constituer un véritable contrepoint à AWS et à Microsoft même si l’entreprise a toujours du mal à publier convenablement ses rapports financiers jusqu’à présent \parencite{cloud2019}.
+
+\subsubsection{IBM}
+Très présent dans le monde du multicloud et du cloud hybride, il dispose actuellement d’un chiffre d’affaires de 12.2 milliards de dollar. Même s’il reste un peu derrière AWS et Microsoft, il est en train de se focaliser sur le développement d’une plateforme capable de gérer plusieurs outils d’intelligence artificielle pour les principaux fournisseurs cloud. En plus, l’acquisition de Red Hat est un signal fort pour le cloud hybride \parencite{cloud2019}.
+
+ 
+ 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%              Workflow et systèmes de gestion de workflows 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -238,22 +260,7 @@ Ces grandes infrastructures partagées fournissent des moyens de protection au d
  	 
  	 
  	 
- 	 
- 	 
- 	 
- 	 
- 	 
- 	 
- 	 
- 	 
- 	 
- 	 
- 	 
- 	 
- 	 
- 	 
- 	 
- 	 
+ 
  	 
  	 
  	\subsection{Concepts et Terminologie Workflow fondamentaux } 
@@ -310,55 +317,6 @@ Ces grandes infrastructures partagées fournissent des moyens de protection au d
  	 
  	 
  	 
- 	 
- 	 \subsection{ Concepts de base et définitions de Workflow }
- 	 
- 	
- 
-La notion de workflow (traduit en français par "flux de travail") est apparue dans l’industrie de l’image électronique et de la gestion de production assistée par ordinateur (GW, 1998). Ce concept a donc été créé dans le but d’automatiser les procédures de travail au sein des organisations. L’idée d’enchaîner différentes tâches pour réaliser un traitement complexe est pertinente. De plus, dans les infrastructures actuelles distribuées, gérant des ressources hétérogènes, telles que le cloud computing, bénéficier d’un environnement autorisant la définition et l’exécution des chaînes de traitement constitue une des fonctionnalités essentielles recherchée, à la fois par les scientifiques et au-delà par le grand public.
-
-Deux grandes catégories d’usages utilisent la notion de workflow : les protocoles expérimentaux, dans des domaines tels que la biologie, l’astronomie, la physique, la neuroscience, la chimie, etc. (workflows scientifiques) et les chaînes de traitement pratiquées dans des domaines commerciaux, financiers, pharmaceutiques (processus métiers). Elles donnent lieu à plusieurs pistes de recherche diverses, mais cependant connexes. Dans le cadre de cette thèse, nous traitons plus particulièrement les workflows scientifiques.
-
-\subsubsection{Définitions  de base du  workflow}
-
-
-Avant de définir le terme workflow, il est à noter qu'un problème de confusion persiste entre les termes : workflow (processus workflow), technologie workflow et système workflow. En ce qui suit, nous allons définir chacun de ces termes.
-
-\begin{enumerate}
-	\item \textbf{Définition 1: }  Un\textbf{ workflow} est la forme exécutable d'un processus d'une organisation, gérable par un système workflow. Il permet d'automatiser l'exécution du processus ou encore sa simulation.
-	
-	\item \textbf{Définition 2: }Un \textbf{système workflow} (ou \textbf{WfMS} pour Système de Gestion de Workflow) est un système informatique permettant la gestion des processus métiers. Les services proposés par un WfMS sont au minimum l'exécution d'un processus et sa gestion (contrôle et suivi) en plus de la mise à disposition des outils et des documents nécessaires à la réalisation des différentes étapes du processus. 
-	\item \textbf{Définition 3: }\textbf{La technologie workflow} est la technologie informatique du \textbf{TCAO} (Travail Coopératif Assisté par Ordinateur), qui s'intéresse à la gestion des processus de l'organisation. C'est l'ensemble des moyens utilisés pour automatiser et gérer un processus. Cette gestion est garantie vu qu'il est possible de présenter un modèle de processus sous une forme exécutable.
-\end{enumerate}
-
-La relation entre ces trois termes est la suivante : Une entreprise peut introduire une technologie workflow dans son système d'information en installant un système de gestion de workflow qui gère ses processus, automatisés en workflow.
-
-La WfMC (Workflow Management Coalition) (WfMC, 1999) a donné une définition qui généralise la notion de workflow indépendamment des domaines spécifiques:
-
-\textit{"Workflow is the automation of business process, in whole or part during which documents, information or tasks are passed from one participant to another for action, according to a set of procedural rules."}
-
-Nous traduisons cette définition par: " Un workflow est l'automatisation d'un processus métier, en tout ou en partie, au cours de laquelle des documents, des informations ou des tâches sont passées d'un participant à un autre pour l'action, selon un ensemble de règles procédurales". 
-
-En ce qui concerne le workflow scientifique, nous retiendrons la définition suivante. 
-
-Un workflow est composé d’un ensemble de tâches (traitements) organisées selon un ordre logique, afin de réaliser un traitement global, complexe et pertinent sur un ensemble de données sources. Ces données sont souvent complexes, tant au niveau de leurs structures que de leurs organisations. Elles sont souvent volumineuses.
-
-La taille d’un workflow scientifique peut varier de quelques tâches à des millions de tâches, qui sont souvent de calcul intensif "Computation Intensive" (Ludäscher, 2009).  Pour les grands workflows, il est souhaitable de répartir les tâches entre plusieurs ressources, afin d’optimiser les temps d’exécution. En tant que tel, les workflows impliquent souvent  des calculs répartis sur des clusters, des grilles, et d'autres infrastructures informatiques. Récemment, les clouds computing  sont évalués comme une plateforme d'exécution de workflows (Hoffa, 2008; Juve, 2008). L’exécution d’un workflow est gérée par un SGWf (Système de Gestion de Workflow) dont l’architecture de référence est décrite brièvement dans la section suivante. 
-1
-
-\subsubsection{Concepts et terminologie de workflow}
-  La liste suivante présente les concepts de base de workflow et les structures de base pour la conception de workflow et le contrôle de processus comme le suggère la WfMC \parencite{WFMC}:
-  
- \begin{itemize}
- \item Une \textbf{activité} (tâche): est une description d'une partie du travail qui constitue une étape logique dans un workflow. Elle peut être manuelle ou automatique [1]. Une activité manuelle est entièrement réalisée par une ou plusieurs personnes, sans aucune utilisation d'une application. En revanche, une activité automatique est effectuée par une application, sans aucune intervention des personnes, en se basant sur des données déjà enregistrées. Les activités sont classées en fonction des mutuelles dépendances imposées par des aspects structurels et de données (flot de contrôle et flot de données entre les activités). Différentes configurations permettent de couvrir les aspects structurels : séquence, sélection, itération, et concurrence. Pour la représentation des données, deux approches sont les plus utilisées : soit par le biais des flux de données entre les activités, soit par l'intermédiaire des services de fourniture des données des (ou vers les) activités .
-\item Une \textbf{instance }(instance de workflow (un cas) ou instance d'activité): est la représentation d'une exécution unique d'un workflow ou d'une activité dans un workflow.
-
-\item Un \textbf{ participant} (acteur, agent, utilisateur, entité de traitement, ressource): est une entité qui exécute une instance d'activité. Cette entité peut être un être humain ou un système logiciel.
- \item Un \textbf{élément de travail} (work-item): est la représentation du travail à traiter (par un participant) dans le cadre d'une activité d'une instance de workflow. Une liste des éléments de travail associée avec un participant de workflow donné (ou groupe de participants) est appelé une liste de travail (work-list).
- \item  Un \textbf{état de workflow} (resp. d'activité): est lié à des conditions internes déffnissant l'état d'une instance du workflow (resp. de l'activité) à un moment donné. Dans le cas d'un workflow, l'état pourrait être "initié", "en exécution", "actif", "suspendu", "achevé", "terminé" et "archivé". Dans le cas d'une activité, il pourrait être "inactive", "active", "en exécution", "suspendue", "sautée" et "terminée". 
- \end{itemize}
-En résumé, nous distinguons dans un workflow des cas, des éléments de travail (workitems) et des ressources. Les work-items lient les cas et les tâches, les activités lient les cas, les tâches et les ressources.
-La figure  [7] montre qu'un workflow comporte trois dimensions : (1) la dimension de cas, (2) la dimension du processus et (3) la dimension des ressources. La dimension de cas signifie le fait que tous les cas sont traités individuellement. Du point de vue workflow, les cas ne s'influencent pas des autres, mais ils s'influencent les uns des autres indirectement via le partage des ressources et des données. Dans la dimension de processus, il est spécifeé le processus de workflow, c'est à dire les tâches et l'acheminement de ces tâches. Dans la dimension des ressources, les ressources sont regroupées dans des classes particulières nommées les rôles et les unités organisationnelles. Une classe de ressource est un ensemble de ressources présentant des caractéristiques similaires. Si une classe de ressource est basée sur les capacités (exigences fonctionnelles) de ses membres, elle est appelée un rôle. Si le classement est basé sur la structure de l'organisation, une classe de ressource est appelée une unité organisationnelle (par exemple une équipe ou un département). 
 
 \section{Classification des systèmes Workflow}
 
@@ -487,64 +445,11 @@ nouveau processus dans l’état actuel de leur déroulement.
 
 
 
+\subsection{Modèle de référence des systèmes Workflow }
 
+Le modèle de référence, Figure 18, présente l’architecture générale de l’environnement
+proposée par la WfMC, il identifie les interfaces couvrant cinq domaines de fonctionnalités entre le système Workflow et son environnement. 
 
-
-
-
-
- 
-
-
-
-\subsection{Comparaison entre types de workflows:} \ref{tab:tabl2}
- 
-\begin{center}
-\begin{table}[h]
-	\centering
-	
-	\begin{tabular}{| m{2cm} |m{8em}| m{8em} |m{6em}|m{7em}|}
-		\hline
-	\rowcolor[HTML]{38FFF8} 
-		\textbf{Critères} & \textbf{De production} & \textbf{Administratif} & \textbf{Ad-hoc} & \textbf{Collaboratif} \\ \hline
-		
-		\textbf{Capacité de traitement} &   Haute capacité de traitement Temps de réponse rapide.Le but est la Productivité & Capacité de traitement inferieure(10 à 100)fois moins que pour un workflow de production &  Facilite d'utilisation et d'apprentissage sont très importantes. &   Capacité de changer dynamiquement la définition d’un processus est essentielle \\ \hline
-		
-	\rowcolor[HTML]{96FFFB} 
-		\textbf{Utilisation} &  Employés travaillant à plein temps sur des activités  courtes. &  Un grand nombre d'employés peuvent être   impliqués & La modification dynamique et rapide des  processus est essentielle.  &  Fournir une voie structurée pour travailler ensemble  \\ \hline
-		
-		\textbf{ Nature des processus } & Processus formels avec peu de variation Les  processus peuvent  être trèscomplexes.&  Une variété de processus pout exister dans même système. Les processus peuvent être bien définis, mais  requièrent moins d'exigence.  & Facilité de  déploiement.&Les processus sont moins rigides \\ \hline
-		
-	\rowcolor[HTML]{96FFFB} 
-		\textbf{Spécificités} &  Requiert une intégration serrée avec les systèmes de bases. &  Utilise souvent des documents attaches.& Le but est de zéro coût  d’administration .&La capacité de traitement est de moindre importance
-		\\ \hline
-	\end{tabular}
-	
-	\caption{Comparaison entre types de Workflows.}
-	\label{tab:tabl2}
-\end{table}
-\end{center}
- 
-
-\textbf{Exemples de workflows :}
-\begin{itemize}
-	\item Processus de déclaration de sinistre,
-	\item Processus d'ouverture compte,
-	\item Processus de création d'un dossier de prêt,
-	\item Processus de gestion d'une succession,
-	\item Processus de prise de congés.
-\end{itemize}
-\section{Architecture des systèmes de gestion de workflows }
-\subsection{Définition }
-La gestion du workflow est une technologie en évolution rapide, qui est de plus en plus exploitée par les entreprises. Un SGWf représente un système qui définit, implémente et gère l'exécution de workflows à l'aide d'un environnement logiciel fonctionnant avec un ou plusieurs moteurs de workflows et capable d'interpréter la définition d'un processus, de gérer la coordination des participants et d'invoquer des applications externes.  
-
- L'architecture de référence d’un SGWf proposée par la Workflow Management Coalition (WfMC, 95) en1995 est présentée dans la figure \ref{fig:capture6}. Ce modèle inclut un service de déploiement, qui contrôle l'exécution des workflows et qui supporte cinq interfaces standardisées:
- 
- \subsection{Modèle de référence des systèmes Workflow }
- 
- Le modèle de référence, Figure 18, présente l’architecture générale de l’environnement
- proposée par la WfMC, il identifie les interfaces couvrant cinq domaines de fonctionnalités entre le système Workflow et son environnement. 
- 
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\linewidth]{Capture6}
@@ -584,23 +489,23 @@ transmettre des WorkItem entre deux systèmes Workflow conçus par des concepteu
 \textbf{Workflow chaînés :} La dernière activité d’un Workflow A doit pouvoir fournir un item à la première activité d’un Workflow B.
 
 \textbf{ Workflow hiérarchiques :} une activité d’un Workflow A doit pouvoir être vu comme un
- Workflow B. 
- 
- \textbf{Workflow Peer to Peer :} Une procédure globale est composée d’activités gérées en partie par un Workflow et en partie par un autre Workflow, sans système de supervision de
- la procédure complète. 
- 
- \textbf{Workflow Synchronisés :} Deux Workflow s’exécutent en parallèle et doivent pouvoir se
- synchroniser sur certaines activités. 
- 
- Pour résumer, il est possible d’identifier deux aspects principaux nécessaires à
- l’inter fonctionnement de Workflow :
+Workflow B. 
 
- • L’interprétation commune de la définition de procédures (ou d’un sous-ensemble).
- 
- • L’appui pendant l'exécution de l’échange des divers types d'information de contrôle et
- le transfert des données appropriées et/ou d'applications entre les services d’exécution Workflow différents.
- 
- \subsubsection{Interface avec les outils de contrôle et d’administration }
+\textbf{Workflow Peer to Peer :} Une procédure globale est composée d’activités gérées en partie par un Workflow et en partie par un autre Workflow, sans système de supervision de
+la procédure complète. 
+
+\textbf{Workflow Synchronisés :} Deux Workflow s’exécutent en parallèle et doivent pouvoir se
+synchroniser sur certaines activités. 
+
+Pour résumer, il est possible d’identifier deux aspects principaux nécessaires à
+l’inter fonctionnement de Workflow :
+
+• L’interprétation commune de la définition de procédures (ou d’un sous-ensemble).
+
+• L’appui pendant l'exécution de l’échange des divers types d'information de contrôle et
+le transfert des données appropriées et/ou d'applications entre les services d’exécution Workflow différents.
+
+\subsubsection{Interface avec les outils de contrôle et d’administration }
 
 
 L’objectif de cette interface est de permettre à un logiciel de Monitoring de Workflow de
@@ -613,11 +518,64 @@ et distribuant des définitions de processus aux divers Workflow via des opérat
 de leurs interfaces 1.
 Malgré cela, des scénarii d’implémentations moins modulaires sont aussi envisageables;
 par exemple l'application de gestion peut être une partie intégrante du service d’exécution.  
+
+
+
+
+
+
+% 
+%
+%
+%
+%\subsection{Comparaison entre types de workflows:} \ref{tab:tabl2}
+% 
+%\begin{center}
+%\begin{table}[h]
+%	\centering
+%	
+%	\begin{tabular}{| m{2cm} |m{8em}| m{8em} |m{6em}|m{7em}|}
+%		\hline
+%	\rowcolor[HTML]{38FFF8} 
+%		\textbf{Critères} & \textbf{De production} & \textbf{Administratif} & \textbf{Ad-hoc} & \textbf{Collaboratif} \\ \hline
+%		
+%		\textbf{Capacité de traitement} &   Haute capacité de traitement Temps de réponse rapide.Le but est la Productivité & Capacité de traitement inferieure(10 à 100)fois moins que pour un workflow de production &  Facilite d'utilisation et d'apprentissage sont très importantes. &   Capacité de changer dynamiquement la définition d’un processus est essentielle \\ \hline
+%		
+%	\rowcolor[HTML]{96FFFB} 
+%		\textbf{Utilisation} &  Employés travaillant à plein temps sur des activités  courtes. &  Un grand nombre d'employés peuvent être   impliqués & La modification dynamique et rapide des  processus est essentielle.  &  Fournir une voie structurée pour travailler ensemble  \\ \hline
+%		
+%		\textbf{ Nature des processus } & Processus formels avec peu de variation Les  processus peuvent  être trèscomplexes.&  Une variété de processus pout exister dans même système. Les processus peuvent être bien définis, mais  requièrent moins d'exigence.  & Facilité de  déploiement.&Les processus sont moins rigides \\ \hline
+%		
+%	\rowcolor[HTML]{96FFFB} 
+%		\textbf{Spécificités} &  Requiert une intégration serrée avec les systèmes de bases. &  Utilise souvent des documents attaches.& Le but est de zéro coût  d’administration .&La capacité de traitement est de moindre importance
+%		\\ \hline
+%	\end{tabular}
+%	
+%	\caption{Comparaison entre types de Workflows.}
+%	\label{tab:tabl2}
+%\end{table}
+%\end{center}
+% 
+% 
+%\textbf{Exemples de workflows :}
+%\begin{itemize}
+%	\item Processus de déclaration de sinistre,
+%	\item Processus d'ouverture compte,
+%	\item Processus de création d'un dossier de prêt,
+%	\item Processus de gestion d'une succession,
+%	\item Processus de prise de congés.
+%\end{itemize}
+\section{Architecture des systèmes de gestion de workflows }
+\subsection{Définition }
+La gestion du workflow est une technologie en évolution rapide, qui est de plus en plus exploitée par les entreprises. Un SGWf représente un système qui définit, implémente et gère l'exécution de workflows à l'aide d'un environnement logiciel fonctionnant avec un ou plusieurs moteurs de workflows et capable d'interpréter la définition d'un processus, de gérer la coordination des participants et d'invoquer des applications externes.  
+
+ L'architecture de référence d’un SGWf proposée par la Workflow Management Coalition (WfMC, 95) en1995 est présentée dans la figure \ref{fig:capture6}. Ce modèle inclut un service de déploiement, qui contrôle l'exécution des workflows et qui supporte cinq interfaces standardisées:
  
  
  
  
-\subsubsection{Standards utilisés dans les SGWf :}
+ 
+\subsection{Standards utilisés dans les SGWf :}
 
 \begin{figure}[!h]
 	\centering
@@ -627,28 +585,32 @@ par exemple l'application de gestion peut être une partie intégrante du servic
 \end{figure}
 
 
-\begin{enumerate}
-\item \textbf{ BPNM (Business Process Model and Notation):} est une représentation graphique permettant de spécifier les processus métier maintenus par le groupe de gestion d'objets (OMG). 
-\item \textbf{XPDL (Process Definition Language):} est un format normalisé par la WfMC (Workflow Management Coalition) pour l’échange de définitions de partenaire entre différents produits de flux de travail, c.-à-d. entre différents outils de modélisation et suites de gestion. XPDL définit un schéma XML pour spécifier la partie déclarative du workflow / partenaire.
-\item \textbf{BPAF (Business Process Analytics):} fournit aux participants aux processus et aux décideurs des informations sur l'efficacité des processus organisationnels.
-\item \textbf{BPEL (Business Process Execution Language):} BPEL est un langage d'orchestre.
-\item \textbf{ Wf-XML }est un standard BPM développé par la Workflow Management Coalition. Wf-XML offre à un moteur BPM un moyen standard d'appeler un processus dans un autre moteur BPM et d'attendre qu'il se termine.
-\end{enumerate}
+\subsubsection {BPNM (Business Process Model and Notation)}
+ est une représentation graphique permettant de spécifier les processus métier maintenus par le groupe de gestion d'objets (OMG). 
+\subsubsection {XPDL (Process Definition Language):} 
+est un format normalisé par la WfMC (Workflow Management Coalition) pour l’échange de définitions de partenaire entre différents produits de flux de travail, c.-à-d. entre différents outils de modélisation et suites de gestion. XPDL définit un schéma XML pour spécifier la partie déclarative du workflow / partenaire.
+\subsubsection {BPAF (Business Process Analytics)} 
+fournit aux participants aux processus et aux décideurs des informations sur l'efficacité des processus organisationnels.
+\subsubsection {BPEL (Business Process Execution Language)}
+ BPEL est un langage d'orchestre.
+\subsubsection { Wf-XML }
+est un standard BPM développé par la Workflow Management Coalition. Wf-XML offre à un moteur BPM un moyen standard d'appeler un processus dans un autre moteur BPM et d'attendre qu'il se termine.
+ 
  
 
-\subsection{ Intérêt du cloud pour les workflows }
+\section{ Intérêt du cloud pour les workflows }
 Les clouds offrent plusieurs avantages pour les applications à base de workflows. 
 Ces avantages facilitent: 
-\subsubsection{L’approvisionnement de ressources }
+\subsection{L’approvisionnement de ressources }
 Dans les grilles, l'ordonnancement est basé sur un modèle en best-effort, dans lequel l’utilisateur spécifie la quantité de temps nécessaire et délègue la responsabilité de l'allocation des ressources et d'ordonnancement de tâches à un ordonnanceur fonctionnant en mode batch utilisant des files d’attentes. Dans le cloud, au lieu de déléguer l’allocation au gestionnaire de ressources, l'utilisateur peut provisionner les ressources nécessaires et ordonnancer les tâches en utilisant un ordonnanceur contrôlé par l'utilisateur. Ce modèle d’approvisionnement est idéal pour les workflows, car il permet au système de gestion de workflow d'allouer une ressource une seule fois et de l'utiliser pour exécuter de nombreuses tâches. 
-\subsubsection{L’allocation dynamique de ressources à la demande }
+\subsection{L’allocation dynamique de ressources à la demande }
 Contrairement aux grilles, les clouds donnent l'illusion que les ressources informatiques disponibles sont illimitées. Cela signifie que les utilisateurs peuvent demander, et s’attendre à obtenir des ressources suffisantes pour leurs besoins, à tout moment. L’approvisionnement à la demande est idéal pour les workflows et d'autres applications faiblement couplées, car il réduit le surcoût (overheads) d’ordonnancement total et peut améliorer considérablement les performances du workflow (Singh, 2005 ; Juve, 2008) 
-\subsubsection{L’élasticité}
+\subsection{L’élasticité}
 Outre l’approvisionnement des ressources à la demande, les clouds permettent aussi aux utilisateurs de libérer des ressources à la demande. La nature élastique de clouds facilite le changement des quantités et des caractéristiques de ressources lors de l'exécution, permettant ainsi d’augmenter le nombre de ressources, quand il y a un grand besoin, et d’en diminuer, lorsque la demande est faible. Cela permet aux systèmes de gestion de workflow de répondre facilement aux exigences de qualité de service (QoS) des applications, contrairement à l'approche traditionnelle, qui nécessite de réserver à l'avance des ressources dans les environnements de grilles. 
-\subsubsection{La garantie des QoS via des SLA }
+\subsection{La garantie des QoS via des SLA }
 Avec l’arrivée des services de cloud computing  provenant de grandes organisations commerciales, les accords de niveau de service (SLA) ont été une préoccupation importante pour les fournisseurs et les utilisateurs. En raison de compétitions entres les fournisseurs de services émergents, un grand soin est pris lors de la conception du SLA qui vise à offrir (i) de meilleures garanties de QoS aux utilisateurs, et (ii) des termes clairs pour l'indemnisation, en cas de violation du contrat. Cela permet aux systèmes de gestion de workflow de fournir de meilleures garanties de bout en bout en "mappant" les utilisateurs aux fournisseurs de services selon les caractéristiques des SLA.
 
-\subsubsection{Le faible Coût d’exploitation }
+\subsection{Le faible Coût d’exploitation }
  Économiquement motivés, les fournisseurs de cloud commercial s'efforcent d'offrir de meilleures garanties de services par rapport aux fournisseurs de grille. Les fournisseurs de cloud profitent également des économies d'échelle, en fournissant des ressources de calcul, de stockage et de bande passante, à un coût très faible grâce, à la virtualisation. Ainsi l'utilisation des services de cloud public pourrait être économique et une alternative moins coûteuse, par rapport à l’utilisation de ressources dédiées, qui sont plus chères. Un des avantages de l'utilisation des ressources virtuelles pour l'exécution de workflow, plutôt que d'un accès direct à la machine physique, est le besoin réduit pour sécuriser les ressources physiques des codes malveillants. Cependant, l'effet à long terme de l'utilisation de ressources virtuelles dans les clouds qui partagent efficacement une "tranche" de la machine physique, plutôt que d'utiliser des ressources dédiées pour les workflows de calculs intensifs, est une question de recherche intéressante. 
 \section{Conclusion}
 ....lk

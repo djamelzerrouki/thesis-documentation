@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  2 APR 2019 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  3 APR 2019 14:49
 entering extended mode
 **./main.tex
 (main.tex
@@ -770,7 +770,7 @@ nivtiaret.png>]) [2
 
 ] [5
 
-] (main.lof
+] (main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
@@ -780,32 +780,30 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
  ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
 "
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@lof=\write4
-\openout4 = `main.lof'.
+) [6
 
- [6
-
-] (main.lot)
-\tf@lot=\write5
-\openout5 = `main.lot'.
-
- [7
-
-] (main.toc [8
-
-])
-\tf@toc=\write6
-\openout6 = `main.toc'.
-
-
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[9] [10
+[7])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [8] (main.lof)
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+ [9
+
+] (main.lot)
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+ [10
 
 ]
 Chapitre 1.
@@ -836,409 +834,171 @@ File: images/Cloud_MD.png Graphic file (type png)
 Package pdftex.def Info: images/Cloud_MD.png  used on input line 84.
 (pdftex.def)             Requested size: 213.39566pt x 166.96982pt.
 
-[16 <./images/Cloud_MD.png (PNG copy)>] [17]
-<images/wfmcHistory.png, id=66, 493.845pt x 148.75575pt>
+[16 <./images/Cloud_MD.png (PNG copy)>] [17] [18]
+<images/wfmcHistory.png, id=70, 493.845pt x 148.75575pt>
 File: images/wfmcHistory.png Graphic file (type png)
 <use images/wfmcHistory.png>
-Package pdftex.def Info: images/wfmcHistory.png  used on input line 151.
+Package pdftex.def Info: images/wfmcHistory.png  used on input line 173.
 (pdftex.def)             Requested size: 298.75262pt x 89.98955pt.
- [18 <./images/wfmcHistory.png>]
-Overfull \hbox (9.59387pt too wide) in paragraph at lines 180--181
+
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
+ [19 <./images/wfmcHistory.png>]
+Overfull \hbox (9.59387pt too wide) in paragraph at lines 202--203
 \OT1/cmr/m/n/12 les pro-ces-sus d'une or-ga-ni-sa-tion. Cette ges-tion est ren-
 due pos-sible par la representation
  []
 
-[19]
-Overfull \hbox (1.6912pt too wide) in paragraph at lines 187--188
+
+Overfull \hbox (1.6912pt too wide) in paragraph at lines 209--210
 \OT1/cmr/m/n/12 haut ni-veau dans la Definition de Pro-ces-sus. Ce modele per
 -met de mieux apprehender
  []
 
-<images/MetaMWFMC11-99.png, id=76, 853.1875pt x 487.8225pt>
+[20]
+<images/MetaMWFMC11-99.png, id=79, 853.1875pt x 487.8225pt>
 File: images/MetaMWFMC11-99.png Graphic file (type png)
 <use images/MetaMWFMC11-99.png>
-Package pdftex.def Info: images/MetaMWFMC11-99.png  used on input line 194.
+Package pdftex.def Info: images/MetaMWFMC11-99.png  used on input line 216.
 (pdftex.def)             Requested size: 298.75262pt x 170.81487pt.
-<images/DimensionsWF.png, id=77, 447.47176pt x 299.31825pt>
+<images/DimensionsWF.png, id=80, 447.47176pt x 299.31825pt>
 File: images/DimensionsWF.png Graphic file (type png)
 <use images/DimensionsWF.png>
-Package pdftex.def Info: images/DimensionsWF.png  used on input line 208.
+Package pdftex.def Info: images/DimensionsWF.png  used on input line 230.
 (pdftex.def)             Requested size: 213.39566pt x 142.73941pt.
-[20 <./images/MetaMWFMC11-99.png> <./images/DimensionsWF.png>] [21]
-Overfull \hbox (4.62633pt too wide) in paragraph at lines 261--262
+ [21 <./images/MetaMWFMC11-99.png> <./images/DimensionsWF.png>]
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+ [22]
+Overfull \hbox (4.62633pt too wide) in paragraph at lines 268--269
 \OT1/cmr/m/n/12 presentes ci-dessous en francais avec la tra-duc-tion an-gla
 ise ori-gi-nale as-sociee, couvrent
  []
 
 
-Overfull \hbox (12.84576pt too wide) in paragraph at lines 269--270
+Overfull \hbox (12.84576pt too wide) in paragraph at lines 276--277
 []\OT1/cmr/m/n/12 Une ac-ti-vite est une etape d'un pro-ces-sus au cours de l
 a-quelle une ac-tion elementaire
  []
 
-[22]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 281.
+[23]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 288.
 
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 281.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 288.
 
-[23]
-Overfull \hbox (22.90755pt too wide) in paragraph at lines 328--329
-\OT1/cmr/m/n/12 or-ga-ni-sa-tion, gerable par un systeme work-flow. Il per-me
-t d'au-to-ma-ti-ser l'execution
- []
-
-
-Overfull \hbox (9.39452pt too wide) in paragraph at lines 336--337
-[]\OT1/cmr/m/n/12 La WfMC (Work-flow Ma-na-ge-ment Coa-li-tion) (WfMC, 1999) a 
-donne une definition
- []
-
-[24] [25]
-Overfull \hbox (5.92223pt too wide) in paragraph at lines 365--367
+Overfull \hbox (5.92223pt too wide) in paragraph at lines 323--325
 []\OT1/cmr/m/n/12 Il n'existe pas de clas-si-fi-ca-tion com-mune des systemes 
 Work-flow dans la litterature,
  []
 
-<"images/classification de workflow".png, id=101, 459.51675pt x 257.16075pt>
+[24]
+<"images/classification de workflow".png, id=96, 459.51675pt x 257.16075pt>
 File: "images/classification de workflow".png Graphic file (type png)
 <use "images/classification de workflow".png>
 Package pdftex.def Info: "images/classification de workflow".png  used on input
- line 373.
+ line 331.
 (pdftex.def)             Requested size: 298.75262pt x 167.19566pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 1028) has occurred while \output is active []
 
-[26] [27 <./images/classification de workflow.png>] [28]
-Overfull \hbox (20.0646pt too wide) in paragraph at lines 437--440
+ [25 <./images/classification de workflow.png>] [26]
+Overfull \hbox (20.0646pt too wide) in paragraph at lines 395--398
 \OT1/cmr/m/n/12 complete du modele de Work-flow. En rai-son de l'in-dis-po-ni
 -bi-lite d'une specification
  []
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-[]|\OT1/cmr/bx/n/12 Capacite
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-[]|\OT1/cmr/m/n/12 Haute ca-pa-cite
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/12 de trai-te-ment
- []
-
-
-Underfull \hbox (badness 1997) in paragraph at lines 511--511
-\OT1/cmr/m/n/12 a 100)fois moins
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/12 li-sa-tion et
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/12 d'ap-pren-tis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-[]|\OT1/cmr/m/n/12 Capacite de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/12 chan-ger dy-na-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/12 mi-que-ment la
- []
-
-
-Underfull \hbox (badness 4927) in paragraph at lines 511--511
-\OT1/cmr/m/n/12 definition d'un
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/12 pro-ces-sus est
- []
-
-
-Overfull \hbox (5.10703pt too wide) in paragraph at lines 514--514
-[]|\OT1/cmr/bx/n/12 Utilisation| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
-[]|\OT1/cmr/m/n/12 Employes tra-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
-\OT1/cmr/m/n/12 vaillant a plein
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
-\OT1/cmr/m/n/12 temps sur des
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
-\OT1/cmr/m/n/12 d'em-ployes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
-\OT1/cmr/m/n/12 peuvent ^etre
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
-[]|\OT1/cmr/m/n/12 La mo-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
-\OT1/cmr/m/n/12 di-fi-ca-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
-\OT1/cmr/m/n/12 dy-na-mique
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
-[]|\OT1/cmr/m/n/12 Fournir une
- []
-
-
-Underfull \hbox (badness 3590) in paragraph at lines 514--514
-\OT1/cmr/m/n/12 voie struc-turee
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
-\OT1/cmr/m/n/12 pour tra-vailler
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--516
-[]| \OT1/cmr/bx/n/12 Na-
- []
-
-
-Underfull \hbox (badness 6380) in paragraph at lines 516--516
-\OT1/cmr/bx/n/12 ture des
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 516--516
-\OT1/cmr/m/n/12 avec peu de va-
- []
-
-
-Underfull \hbox (badness 1824) in paragraph at lines 516--516
-\OT1/cmr/m/n/12 sus peuvent ^etre
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--516
-[]|\OT1/cmr/m/n/12 Une variete de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--516
-\OT1/cmr/m/n/12 pro-ces-sus pout
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--516
-\OT1/cmr/m/n/12 ces-sus peuvent
- []
-
-
-Underfull \hbox (badness 1242) in paragraph at lines 516--516
-\OT1/cmr/m/n/12 ^etre bien definis,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--516
-\OT1/cmr/m/n/12 mais re-quierent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--516
-[]|\OT1/cmr/m/n/12 Facilite de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--516
-[]|\OT1/cmr/m/n/12 Les pro-ces-sus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--516
-\OT1/cmr/m/n/12 sont moins
- []
-
-
-Overfull \hbox (7.98894pt too wide) in paragraph at lines 519--519
-[]|\OT1/cmr/bx/n/12 Specificites| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
-[]|\OT1/cmr/m/n/12 Requiert une
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 519--519
-\OT1/cmr/m/n/12 integration serree
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
-[]|\OT1/cmr/m/n/12 Utilise sou-vent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
-\OT1/cmr/m/n/12 des do-cu-ments
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
-[]|\OT1/cmr/m/n/12 Le but est
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
-\OT1/cmr/m/n/12 d'ad-mi-nis-tra-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-[]|\OT1/cmr/m/n/12 La ca-pa-cite
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-\OT1/cmr/m/n/12 de trai-te-ment
- []
-
-
-Overfull \hbox (33.26059pt too wide) in paragraph at lines 506--522
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[30]
-<images/Capture6.png, id=118, 674.52pt x 514.92375pt>
+[27] [28]
+<images/Capture6.png, id=111, 674.52pt x 514.92375pt>
 File: images/Capture6.png Graphic file (type png)
 <use images/Capture6.png>
-Package pdftex.def Info: images/Capture6.png  used on input line 550.
+Package pdftex.def Info: images/Capture6.png  used on input line 455.
 (pdftex.def)             Requested size: 256.0774pt x 195.49234pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[31] [32 <./images/Capture6.png>]
-Overfull \hbox (8.50145pt too wide) in paragraph at lines 598--599
+ [29 <./images/Capture6.png>]
+Overfull \hbox (8.50145pt too wide) in paragraph at lines 503--504
 []\OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 L'in-terpretation com-mune de la definit
 ion de procedures (ou d'un sous-ensemble). 
  []
 
-<images/Capture7.png, id=127, 794.97pt x 406.51875pt>
+[30]
+<images/Capture7.png, id=119, 794.97pt x 406.51875pt>
 File: images/Capture7.png Graphic file (type png)
 <use images/Capture7.png>
-Package pdftex.def Info: images/Capture7.png  used on input line 624.
+Package pdftex.def Info: images/Capture7.png  used on input line 582.
 (pdftex.def)             Requested size: 256.0774pt x 130.95087pt.
-[33 <./images/Capture7.png>]
-Overfull \hbox (5.70134pt too wide) in paragraph at lines 631--632
-[] \OT1/cmr/bx/n/12 BPNM (Bu-si-ness Pro-cess Mo-del and No-ta-tion) : \OT1/cmr
-/m/n/12 est une representation
- []
-
-
-Overfull \hbox (2.14449pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/n/12 gra-phique per-met-tant de specifier les pro-ces-sus metier m
-ain-te-nus par le groupe
- []
-
-[34]) [35]
+ [31 <./images/Capture7.png>] [32]) [33]
 Chapitre 2.
-(ch2.tex [36
+(ch2.tex [34
 
-] [37] [38]
-<images/petrif1.png, id=148, 145.14224pt x 199.947pt>
+] [35] [36] [37]
+<images/petrif1.png, id=145, 145.14224pt x 199.947pt>
 File: images/petrif1.png Graphic file (type png)
 <use images/petrif1.png>
-Package pdftex.def Info: images/petrif1.png  used on input line 62.
+Package pdftex.def Info: images/petrif1.png  used on input line 94.
 (pdftex.def)             Requested size: 128.0387pt x 176.38408pt.
-<images/pitrif2.png, id=149, 137.313pt x 204.765pt>
+<images/pitrif2.png, id=146, 137.313pt x 204.765pt>
 File: images/pitrif2.png Graphic file (type png)
 <use images/pitrif2.png>
-Package pdftex.def Info: images/pitrif2.png  used on input line 69.
+Package pdftex.def Info: images/pitrif2.png  used on input line 101.
 (pdftex.def)             Requested size: 128.0387pt x 190.9325pt.
- [39 <./images/petrif1.png> <./images/pitrif2.png>]
-<images/Rdpborn.png, id=159, 315.579pt x 232.4685pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[38]
+<images/Rdpborn.png, id=150, 315.579pt x 232.4685pt>
 File: images/Rdpborn.png Graphic file (type png)
 <use images/Rdpborn.png>
-Package pdftex.def Info: images/Rdpborn.png  used on input line 114.
+Package pdftex.def Info: images/Rdpborn.png  used on input line 146.
 (pdftex.def)             Requested size: 213.39566pt x 157.19324pt.
 
-[40 <./images/Rdpborn.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[39 <./images/petrif1.png> <./images/pitrif2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 159--162
 
  []
 
-<images/Petrivivant.png, id=165, 169.8345pt x 271.61475pt>
+<images/Petrivivant.png, id=161, 169.8345pt x 271.61475pt>
 File: images/Petrivivant.png Graphic file (type png)
 <use images/Petrivivant.png>
-Package pdftex.def Info: images/Petrivivant.png  used on input line 145.
+Package pdftex.def Info: images/Petrivivant.png  used on input line 177.
 (pdftex.def)             Requested size: 85.35696pt x 136.5116pt.
-<images/Petribloquant.png, id=166, 241.50224pt x 350.5095pt>
+<images/Petribloquant.png, id=162, 241.50224pt x 350.5095pt>
 File: images/Petribloquant.png Graphic file (type png)
 <use images/Petribloquant.png>
-Package pdftex.def Info: images/Petribloquant.png  used on input line 151.
+Package pdftex.def Info: images/Petribloquant.png  used on input line 183.
 (pdftex.def)             Requested size: 106.69783pt x 154.85576pt.
-[41 <./images/Petrivivant.png> <./images/Petribloquant.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 163--166
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40 <./images/Rdpborn.png> <./images/Petrivivant.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 195--198
 
  []
 
-
-Overfull \hbox (30.12918pt too wide) in paragraph at lines 176--178
+[41 <./images/Petribloquant.png>]
+Overfull \hbox (30.12918pt too wide) in paragraph at lines 208--210
 \OT1/cmr/m/n/12 Un reseau de Pe-tri Co-lore (CPN) et un tuple $(\OMS/cmsy/m/n
 /12 4\OML/cmm/m/it/12 ; P; T; Arc; Noeud; Couleur; Grade; E; M[]\OT1/cmr/m/n/12
  )$
  []
 
 
-LaTeX Warning: Command \oe invalid in math mode on input line 186.
+LaTeX Warning: Command \oe invalid in math mode on input line 218.
 
 
-LaTeX Warning: Command \oe invalid in math mode on input line 186.
+LaTeX Warning: Command \oe invalid in math mode on input line 218.
 
 
-LaTeX Warning: Command \oe invalid in math mode on input line 186.
+LaTeX Warning: Command \oe invalid in math mode on input line 218.
 
-[42]) [43] [44
+) [42] [43
 
 ] (main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1246,13 +1006,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13055 strings out of 492946
- 221503 string characters out of 3125822
- 528571 words of memory out of 3000000
- 16745 multiletter control sequences out of 15000+200000
+ 13057 strings out of 492946
+ 221526 string characters out of 3125822
+ 526571 words of memory out of 3000000
+ 16747 multiletter control sequences out of 15000+200000
  13380 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,13n,55p,1536b,1861s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,13n,55p,1536b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmcsc10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2
@@ -1270,9 +1030,9 @@ s/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8
 .pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (44 pages, 2433378 bytes).
+Output written on main.pdf (43 pages, 2431770 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
+ 227 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

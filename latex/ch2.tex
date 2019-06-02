@@ -503,11 +503,28 @@ Utilisé pour traiter les cas où le routage de flux peut dépendre des données
 
 \item \textbf{Choix déterministe : } Le choix entre plusieurs alternatives peut être guidé par les données (ou les attributs) du workflow, dans ce cas c’est un choix déterministe.
 
-Nous pouvons prendre le schéma de la ﬁgure précédente et ajouter une pré-condition pour chacune des tâches B et C (en se basant sur un ou plusieurs attributs du workflow).
+Nous pouvons prendre le schéma de la figure précédente et ajouter une pré-condition pour chacune des tâches B et C (en se basant sur un ou plusieurs attributs du workflow).
 
-Il y a une autre façon de modéliser le choix déterministe comme dans la ﬁgure suivante. La transition A comporte deux places de sortie c2 et c3 et produit un seul jeton (soit dans c2 ou dans c3). Le choix entre les deux places est basé sur la valeur de l’attribut x.Un symbole spécial est utilisé pour représenté que la tâche A est un OR-split (exclusive OR).
+Il y a une autre façon de modéliser le choix déterministe comme dans la figure suivante. La transition A comporte deux places de sortie c2 et c3 et produit un seul jeton (soit dans c2 ou dans c3). Le choix entre les deux places est basé sur la valeur de l’attribut x.Un symbole spécial est utilisé pour représenté que la tâche A est un OR-split (exclusive OR).
 
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/wf006}
+	\caption{Choix explicite entre B et C à base de l’attribut x .
+	}
+	\label{fig:wf006}
+\end{figure}
+
+\item \textbf{Itération : } L’itération peut être modélisée en utilisant l’implicite (OR-split, OR-join), l’explicite (OR-split, OR-join). Il est utilisé dans le cas où une ou plusieurs tâches peuvent être exécutées plusieurs fois. La figure suivante montre un exemple d’un modèle de workflow en utilisant un routage itératif.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/wf008}
+	\caption{Itération : B peut être exécutée plusieurs fois}
+	\label{fig:wf008}
+\end{figure}
 
 
 
@@ -529,121 +546,6 @@ Il y a une autre façon de modéliser le choix déterministe comme dans la ﬁgu
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\subsection{Techniques et outils de modélisation de workflow}
-
-Associés aux aspects à modéliser définit précédemment, un certain nombre d’outils de modélisation peuvent être employés pour décrire le comportement des flux de travail comme le précise [VAN DER AALST 97a] [VAN DER AALST 97b].
-
-Il existe un certain nombre de techniques de modélisation des procédures, tels que : Pour la représentation en terme de fonctions, les diagrammes de flots de données DFD31, ISAC32, SADT33 semblent tout a fait indiqués.  
-
-
-Pour l’aspect comportement, les diagrammes état-transition (par extensions : state charts) semblent convenir plus particulièrement. Mais aussi les organigrammes (Flowcharts) qui illustre les pas dans une procédure. En visualisant les procédures, un organigramme peut rapidement aider à identifier des goulots d'étranglement ou des inefficacités dont la procédure peut être rationalisée ou améliorée. 
-
-Concernant l’aspect représentation des données, on pourra utiliser par exemple un Modèle Conceptuel de Données de la méthode MERISE [TARDIEU 85] ou un modèle de classes d’une méthode Objet UML34. Le modèle informationnel peut également représenter le flux des informations, c’est-à-dire leur circulation et les différents états qu’elles peuvent prendre ainsi que les dépendances hiérarchiques.
-
-Il existe également des techniques de diagramme spécifiques aux concepteurs de logiciels utilisées dans les outils de simulation WfMS. Ces outils de modélisation et simulation spécifiques intègrent un outil modélisation, le plus souvent dans un langage graphique et un simulateur également spécifique se basant sur un formalisme particulier après transformation dans ce dit format simulable, par exemple un automate à états finis. 
-
-
-Mais ce sont certainement les réseaux de Petri de haut niveau qui sont les plus utilisés à l’heure actuelle pour représenter et simuler les comportements des procédures d’un Workflow autour des nombreux travaux de Van der Aalst [VAN DER AALST 98b]. 
-
-Cependant, jusqu’alors pas, ou peu, de travaux de spécification et de modélisation de la partie processus d’un Workflow on été réalisés en utilisant la clarté et la précision du formalisme DEVS. Ce formalisme offre néanmoins un aspect modulaire hiérarchique important dans la définition d’un Workflow. De plus leur simulation par événements discrets permet une exécution rapide. Nous reviendrons sur ce point dans le chapitre 4. 
-
-\subsubsection{Réseaux de Petri et workflow
-}
-Les Réseaux de Petri (RdPs) \parencite{RdPs} constituent un formalisme majeur pour modéliser les processus workflows. Une des forces des RdPs est la base mathématique forte qu'ils offrent avec une représentation graphique. Dans cette section, nous résumons la projection topographique entre concepts de workflow et de RdP .%[1, 11, 65]. 
-
-Un processus définit les tâches aussi bien que les conditions pour leur exécution. En utilisant les RdPs, un processus est représenté en conversant sa seule entrée (i.e., un nœud du début) dans une place sans arcs entrants, et sa seule sortie (i.e., nœud de la fin) dans une place sans arcs sortants. Les conditions sont représentées par des places, et les tâches par des transitions. Habituellement, un processus spécifié par RdP devrait accomplir deux exigences : (1) il doit être possible d'accéder à tout moment un état pour lequel il y a un jeton dans la place finale, et (2) quand il y a un jeton dans la place finale, tous les autres jetons auraient dû disparaître.
-
-Dans un processus modélisé par un RdP, une transition active correspond à un workitem, et le tir d'une transition à une instance de l'activité. Certains work-items peuvent seulement être transformés dans une instance d'activité une fois ils sont déclenchés. Un déclencheur pourrait correspondre à une initiative du participant, à un événement externe ou à un signal du temps initié par l'environnement. A chaque transition correspondante à une tâche qui exige un déclencheur, une autre place d'entrée est ajoutée. Une occurrence du déclencheur apporte un jeton dans cette place supplémentaire. Le jeton est consommé une fois la transition appropriée est franchie. Un échec pendant l'exécution d'une tâche exige un 'rollback' (i.e., revenir à l'état antérieur au début de l'activité). Quand une activité sera complétée avec succès, des changements deviennent définitifs.
-
-\subsubsection{UML et workflow}
-
-
-Les diagrammes d'états/transitions sont un autre formalisme majeur pour la modélisation des processus workflows. Ils ont été inventés par Harel \parencite{Harel}, et ont été incorporés dans UML (Unified Modelling Language)  \parencite{UML}, dans une forme légèrement différente. Weissenfels et al. \parencite{EDBT'98} ont investi sur l'usage des diagrammes d'états/transitions pour modéliser les processus workflows (le projet Mentor WfMS). Nous pouvons aussi citer Blake \parencite{WETICE'02} qui a présenté une approche systématique pour la modélisation des workflows en utilisant UML (le projet WARP). 
-
-Dans le projet Mentor WfMS \parencite{EDBT'98}, les activités reflètent la décomposition fonctionnelle d'un système et dénotent les composants actifs d'une spécification; elles correspondent directement aux activités d'un workflow. Un diagramme d'activités spécifie le flot de données entre les activités, dans la forme d'un graphe orienté avec les éléments de données comme annotations des arcs. Les diagrammes d'états capturent le comportement d'un système en spécifiant le flot de contrôle entre les activités.
-
-Pour le projet WARP (Workflow Automation through Agent-based Reflective Processes) \parencite{WETICE'02}, l'approche utilisée distingue entre les vues structurelles, fonctionnelles, non fonctionnelles, et opérationnelles. Les vues structurelles informe sur les activités, la définition des rôles, et la composition du workflow. Elles sont représentées dans UML par les diagrammes des classes. Les vues fonctionnelles montrent le flot de données et de contrôle du workflow en utilisant les diagrammes d'activités UML. Les vues non-fonctionnelles (traitement des erreurs, concurrence, atomicité, etc.) utilisent le flot de données et de contrôle et peuvent être modélisées aussi par les diagrammes d'activités. Finalement, les vues opérationnelles sont reliées à l'initiation des instances du workflow, et la coordination pour l'achèvement du workflow. Ces vues peuvent être modélisées par les diagrammes de séquence UML.
-
-\subsubsection{YAWL}
-YAWL (Yet Another Workflow Language) [2] est basé sur les RdPs avec des caractéristiques additionnelles pour faciliter la modélisation des workflows complexes. YAWL hérite de la classe des RdPs et s'étend par la modélisation de l'instance multiple, les tâches composites, le retrait des jetons et les transitions connectées directement.
-
-La spécification du workflow dans YAWL est une sorte de réseaux de workflow étendu (EWF-nets) qui forme une hiérarchie. Une tâche est soit atomique soit composite. Chaque tâche composite fait référence à un unique EWF-net dans le niveau le plus bas de la hiérarchie. Les tâches atomiques forment les feuilles de l'arbre. Il y a un seul EWF-net non référencé par une tâche composite. Cet EWF-net est nommée le niveau le plus haut du workflow et forme la racine. 
-
-Chaque EWF-net consiste en des tâches (composites ou atomiques) et des conditions qui peuvent être interprétées comme des places. 
-Chaque EWF-net a une unique condition d'entrée et une unique condition de sortie. Contrairement aux RdPs, il est possible de connecter les transitions. Sémantiquement, cette construction peut être interprétée comme une condition ignorée.
-
-Chaque tâche peut avoir des instances multiples. Nous pouvons créer un seuil maximal et un seuil minimal pour le nombre d'instances après l'initiation d'une tâche. En plus, il est possible d'indiquer que la tâche se termine au moment ou certaines instances seuils sont achevées
-
-\section{Les réseaux de Petri}
-
-Les réseaux de Petri(Petri,1962)sont une généralisation des automates a états. Ils offrent un contexte général pour modéliser la concurrence et la synchronisation dans les systèmes distribués. Un réseau de Petri est un graphe biparti alterné qui possède deux types de nœuds: les places(cercles)et les transitions(rectangles). Des arcs(flèches) relient les places aux transitions(figure \ref{fig:2 rdp}). L'état du système,nommé marquage,est défini par la répartition des jetons dans les places. Une transition est franchissable sous certaines conditions, notamment lorsqu'il y a suffisamment de jetons dans ses places d’entrée. Le franchissement d’une transition se traduit par une modification du marquage consistant en la consommation des jetons indispensables au franchissement de la transition et la création éventuelle de nouveaux jetons dans les places en sortie de la transition.
-\begin{figure}[h]
-	\centering
-	
-	\begin{subfigure}[b]{0.3\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{petrif1}
-		\caption{$M_{t}=(1,2,1,0)$}
-		\label{fig:three sin x}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}[b]{0.3\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{pitrif2}
-		\caption{$M_{t+1}=(0,1,2,1)$}
-		\label{fig:five over x}
-	\end{subfigure}
-	
-	\caption{Opération de franchissement}
-	\label{fig:2 rdp}
-\end{figure}
-
-\subsection{Définition}
-
-\begin{defn}\textbf{\textbf{(Réseau de Petri simple):}}
-	\\
-Un réseau de Petri simple est un tuple
- (P,T,Pre,Post,M0):
- 
- \begin{itemize}
-\item  	P est un ensemble final de places,
-\item T est un ensemble final de transition $ (P \cap T = \theta ) $ ,
-\item Pre: $P \times T \to N$ est la fonction d'incidence avant,
-\item Post: $P \times T \to N$ est la fonction d'incidence arriére,
-\item $M_{0}$ et le marquage initial $M_{0}:  P \to N$.
-  \end{itemize}
-
-\end{defn}
-
-
-
-
-Un réseau de Petri peut-être evucommeun système de transitions dont les états sont les marquages du réseau et les transitions entre états correspondent au franchissement des transitions du réseau.
-
-
-
-
-\section{Modélisation Des Politiques De Sécurité}
-
-Durant les dernières années, l'utilisation des réseaux de Petri s'est répandue grâce au nombre de travaux qui a été développé pour enrichir les réseaux de Petri ainsi que la disponibilité des outils. Selon de nombreux chercheurs (Osborn, 2002), les réseaux de Petri sont le seul formalisme qui permet de modéliser la structure du système et de faire des analyses qualitative et quantitative. Les réseaux de Petri ont été utilisés pour la vérification de la sécurité(Ahmed and Tripathi,2003),pour la spécification des autorisations dans les workflows \parencite{ESORICS'96},l'analyse des politiques de sécurité y compris les politiques de contrôle d'accès discrétionnaires (Kumaretal. ,2002; Knorr, 2000), mandataires(Knorr, 2001; Varadharajan, 1991; Juopperi, 1995; Juszczyszyn, 2003; Jiangetal., 2004; Rakkay and Boucheneb, 2006; Zhangetal., 2006b; Zhangetal., 2006a) et à base de ro les(Koch et al.,2002;Rakkay and Boucheneb, 2007;Shafiq et al.,2005).
-
- 
 
 
 

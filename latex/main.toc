@@ -202,17 +202,3 @@
 \contentsline {subsubsection}{\numberline {2.5.3.2}Parall\IeC {\`e}le : }{48}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.5.3.3}Conditionnel :}{48}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.4}Techniques et outils de mod\IeC {\'e}lisation de workflow}{49}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.4.1}R\IeC {\'e}seaux de Petri et workflow }{50}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.4.2}UML et workflow}{50}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.4.3}YAWL}{51}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Les r\IeC {\'e}seaux de Petri}{51}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.1}D\IeC {\'e}finition}{51}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Mod\IeC {\'e}lisation Des Politiques De S\IeC {\'e}curit\IeC {\'e}}{52}% 

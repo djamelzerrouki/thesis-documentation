@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  2 JUN 2019 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  2 JUN 2019 12:12
 entering extended mode
 **./main.tex
 (main.tex
@@ -1091,93 +1091,61 @@ File: images/wf005.png Graphic file (type png)
 Package pdftex.def Info: images/wf005.png  used on input line 497.
 (pdftex.def)             Requested size: 298.75262pt x 100.19574pt.
  [48 <./images/wf003.png> <./images/Capture.png> <./images/wf005.png>]
-
-! Package inputenc Error: Unicode character ﬁ (U+FB01)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.506 Nous pouvons prendre le schéma de la ﬁ
-                                               gure précédente et ajouter ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character ﬁ (U+FB01)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.508 ... le choix déterministe comme dans la ﬁ
-                                                  gure suivante. La transiti...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Underfull \vbox (badness 1005) has occurred while \output is active []
-
- [49]
-[50]
-<images/petrif1.png, id=213, 145.14224pt x 199.947pt>
-File: images/petrif1.png Graphic file (type png)
-<use images/petrif1.png>
-Package pdftex.def Info: images/petrif1.png  used on input line 601.
-(pdftex.def)             Requested size: 128.0387pt x 176.38408pt.
-<images/pitrif2.png, id=214, 137.313pt x 204.765pt>
-File: images/pitrif2.png Graphic file (type png)
-<use images/pitrif2.png>
-Package pdftex.def Info: images/pitrif2.png  used on input line 608.
-(pdftex.def)             Requested size: 128.0387pt x 190.9325pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[51]) [52 <./images/petrif1.png> <./images/pitrif2.png>] [53
+<images/wf006.png, id=206, 966.009pt x 349.90726pt>
+File: images/wf006.png Graphic file (type png)
+<use images/wf006.png>
+Package pdftex.def Info: images/wf006.png  used on input line 513.
+(pdftex.def)             Requested size: 298.75262pt x 108.21384pt.
+<images/wf008.png, id=207, 597.432pt x 206.57175pt>
+File: images/wf008.png Graphic file (type png)
+<use images/wf008.png>
+Package pdftex.def Info: images/wf008.png  used on input line 524.
+(pdftex.def)             Requested size: 298.75262pt x 103.30136pt.
+) [49 <./images/wf006.png> <./images/wf008.png>]
+[50
 
 ] (main.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13156 strings out of 492946
- 223136 string characters out of 3125822
+ 13152 strings out of 492946
+ 223048 string characters out of 3125822
  527840 words of memory out of 3000000
- 16834 multiletter control sequences out of 15000+200000
- 13739 words of font info for 51 fonts, out of 3000000 for 9000
+ 16830 multiletter control sequences out of 15000+200000
+ 12491 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,13n,55p,1700b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,13n,46p,1700b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmbxti10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/djamel/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/djamel/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
 Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/djamel/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/djamel/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/djamel/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
+mmi8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/djamel/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/djamel/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
 sers/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy6.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/djamel/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (53 pages, 2824677 bytes).
+sy6.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (50 pages, 2874231 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
+ 267 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

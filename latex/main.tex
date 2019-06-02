@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amsfonts,amssymb,amsthm,epsfig,epstopdf,titling,url,array}
 
+\usepackage{float}
 
 \theoremstyle{plain}
 \newtheorem{thm}{Theorem}[section]
@@ -45,10 +46,11 @@
  \newtheorem{conj}{Conjecture}[section]
  \newtheorem{exmp}{Example}[section]
  
- \theoremstyle{remark}
- \newtheorem*{rem}{Remark}
+ \theoremstyle{Remarque}
+ \newtheorem{rem}{Remarque}[section]
  \newtheorem*{note}{Note}
-
+%\renewcommand{\thesection}{\Alph{section}}
+%\renewcommand{\thesubsection}{\Roman{section} - \arabic{subsection}}
 \addbibresource{references.bib}
 %\title{
 %	{\textbf{Conception et mise en place d’un %système Workflow  pour l'environnement cloud}} \\   

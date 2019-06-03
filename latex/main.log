@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  2 JUN 2019 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  3 JUN 2019 18:46
 entering extended mode
 **./main.tex
 (main.tex
@@ -310,6 +310,15 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \c@thm=\count112
 
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wrapfig\wrapfig.s
+ty"
+\wrapoverhang=\dimen127
+\WF@size=\dimen128
+\c@WF@wrappedlines=\count113
+\WF@box=\box33
+\WF@everypar=\toks32
+Package: wrapfig 2003/01/31  v 3.6
+)
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
 .sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
@@ -323,18 +332,18 @@ Package ifvtex Info: VTeX not detected.
 .sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count113
-\Gm@cntv=\count114
-\c@Gm@tempcnt=\count115
-\Gm@bindingoffset=\dimen127
-\Gm@wd@mp=\dimen128
-\Gm@odd@mp=\dimen129
-\Gm@even@mp=\dimen130
-\Gm@layoutwidth=\dimen131
-\Gm@layoutheight=\dimen132
-\Gm@layouthoffset=\dimen133
-\Gm@layoutvoffset=\dimen134
-\Gm@dimlist=\toks32
+\Gm@cnth=\count114
+\Gm@cntv=\count115
+\c@Gm@tempcnt=\count116
+\Gm@bindingoffset=\dimen129
+\Gm@wd@mp=\dimen130
+\Gm@odd@mp=\dimen131
+\Gm@even@mp=\dimen132
+\Gm@layoutwidth=\dimen133
+\Gm@layoutheight=\dimen134
+\Gm@layouthoffset=\dimen135
+\Gm@layoutvoffset=\dimen136
+\Gm@dimlist=\toks33
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
 .cfg"))
@@ -346,23 +355,24 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 sty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen135
-\captionmargin@=\dimen136
-\captionwidth=\dimen137
-\caption@tempdima=\dimen138
-\caption@indent=\dimen139
-\caption@parindent=\dimen140
-\caption@hangindent=\dimen141
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
 )
-\c@caption@flags=\count116
-\c@ContinuedFloat=\count117
+\c@caption@flags=\count117
+\c@ContinuedFloat=\count118
 Package caption Info: float package is loaded.
+Package caption Info: wrapfig package is loaded.
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaptio
 n.sty"
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count118
-\c@subtable=\count119
+\c@subfigure=\count119
+\c@subtable=\count120
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr
 .sty"
@@ -391,10 +401,10 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl
 .sty"
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
-\everycr=\toks33
+\everycr=\toks34
 \minrowclearance=\skip63
 )
-\rownum=\count120
+\rownum=\count121
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -412,12 +422,12 @@ Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox
 .sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count121
+\etb@tempcnta=\count122
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty
 "
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count122
+\lrq@indent=\count123
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def
 "
@@ -426,47 +436,47 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count123
-\c@listtotal=\count124
-\c@listcount=\count125
-\c@liststart=\count126
-\c@liststop=\count127
-\c@citecount=\count128
-\c@citetotal=\count129
-\c@multicitecount=\count130
-\c@multicitetotal=\count131
-\c@instcount=\count132
-\c@maxnames=\count133
-\c@minnames=\count134
-\c@maxitems=\count135
-\c@minitems=\count136
-\c@citecounter=\count137
-\c@maxcitecounter=\count138
-\c@savedcitecounter=\count139
-\c@uniquelist=\count140
-\c@uniquename=\count141
-\c@refsection=\count142
-\c@refsegment=\count143
-\c@maxextratitle=\count144
-\c@maxextratitleyear=\count145
-\c@maxextraname=\count146
-\c@maxextradate=\count147
-\c@maxextraalpha=\count148
-\c@abbrvpenalty=\count149
-\c@highnamepenalty=\count150
-\c@lownamepenalty=\count151
-\c@maxparens=\count152
-\c@parenlevel=\count153
-\blx@tempcnta=\count154
-\blx@tempcntb=\count155
-\blx@tempcntc=\count156
-\blx@maxsection=\count157
-\blx@maxsegment@0=\count158
-\blx@notetype=\count159
-\blx@parenlevel@text=\count160
-\blx@parenlevel@foot=\count161
-\blx@sectionciteorder@0=\count162
-\blx@entrysetcounter=\count163
+\c@tabx@nest=\count124
+\c@listtotal=\count125
+\c@listcount=\count126
+\c@liststart=\count127
+\c@liststop=\count128
+\c@citecount=\count129
+\c@citetotal=\count130
+\c@multicitecount=\count131
+\c@multicitetotal=\count132
+\c@instcount=\count133
+\c@maxnames=\count134
+\c@minnames=\count135
+\c@maxitems=\count136
+\c@minitems=\count137
+\c@citecounter=\count138
+\c@maxcitecounter=\count139
+\c@savedcitecounter=\count140
+\c@uniquelist=\count141
+\c@uniquename=\count142
+\c@refsection=\count143
+\c@refsegment=\count144
+\c@maxextratitle=\count145
+\c@maxextratitleyear=\count146
+\c@maxextraname=\count147
+\c@maxextradate=\count148
+\c@maxextraalpha=\count149
+\c@abbrvpenalty=\count150
+\c@highnamepenalty=\count151
+\c@lownamepenalty=\count152
+\c@maxparens=\count153
+\c@parenlevel=\count154
+\blx@tempcnta=\count155
+\blx@tempcntb=\count156
+\blx@tempcntc=\count157
+\blx@maxsection=\count158
+\blx@maxsegment@0=\count159
+\blx@notetype=\count160
+\blx@parenlevel@text=\count161
+\blx@parenlevel@foot=\count162
+\blx@sectionciteorder@0=\count163
+\blx@entrysetcounter=\count164
 \labelnumberwidth=\skip64
 \labelalphawidth=\skip65
 \biblabelsep=\skip66
@@ -477,9 +487,9 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \bibhang=\skip71
 \blx@bcfin=\read1
 \blx@bcfout=\write3
-\c@mincomprange=\count164
-\c@maxcomprange=\count165
-\c@mincompwidth=\count166
+\c@mincomprange=\count165
+\c@maxcomprange=\count166
+\c@mincompwidth=\count167
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -491,74 +501,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count167
-\c@savedafterword=\count168
-\c@annotator=\count169
-\c@savedannotator=\count170
-\c@author=\count171
-\c@savedauthor=\count172
-\c@bookauthor=\count173
-\c@savedbookauthor=\count174
-\c@commentator=\count175
-\c@savedcommentator=\count176
-\c@editor=\count177
-\c@savededitor=\count178
-\c@editora=\count179
-\c@savededitora=\count180
-\c@editorb=\count181
-\c@savededitorb=\count182
-\c@editorc=\count183
-\c@savededitorc=\count184
-\c@foreword=\count185
-\c@savedforeword=\count186
-\c@holder=\count187
-\c@savedholder=\count188
-\c@introduction=\count189
-\c@savedintroduction=\count190
-\c@namea=\count191
-\c@savednamea=\count192
-\c@nameb=\count193
-\c@savednameb=\count194
-\c@namec=\count195
-\c@savednamec=\count196
-\c@translator=\count197
-\c@savedtranslator=\count198
-\c@shortauthor=\count199
-\c@savedshortauthor=\count266
-\c@shorteditor=\count267
-\c@savedshorteditor=\count268
-\c@labelname=\count269
-\c@savedlabelname=\count270
-\c@institution=\count271
-\c@savedinstitution=\count272
-\c@lista=\count273
-\c@savedlista=\count274
-\c@listb=\count275
-\c@savedlistb=\count276
-\c@listc=\count277
-\c@savedlistc=\count278
-\c@listd=\count279
-\c@savedlistd=\count280
-\c@liste=\count281
-\c@savedliste=\count282
-\c@listf=\count283
-\c@savedlistf=\count284
-\c@location=\count285
-\c@savedlocation=\count286
-\c@organization=\count287
-\c@savedorganization=\count288
-\c@origlocation=\count289
-\c@savedoriglocation=\count290
-\c@origpublisher=\count291
-\c@savedorigpublisher=\count292
-\c@publisher=\count293
-\c@savedpublisher=\count294
-\c@language=\count295
-\c@savedlanguage=\count296
-\c@origlanguage=\count297
-\c@savedoriglanguage=\count298
-\c@pageref=\count299
-\c@savedpageref=\count300
+\c@afterword=\count168
+\c@savedafterword=\count169
+\c@annotator=\count170
+\c@savedannotator=\count171
+\c@author=\count172
+\c@savedauthor=\count173
+\c@bookauthor=\count174
+\c@savedbookauthor=\count175
+\c@commentator=\count176
+\c@savedcommentator=\count177
+\c@editor=\count178
+\c@savededitor=\count179
+\c@editora=\count180
+\c@savededitora=\count181
+\c@editorb=\count182
+\c@savededitorb=\count183
+\c@editorc=\count184
+\c@savededitorc=\count185
+\c@foreword=\count186
+\c@savedforeword=\count187
+\c@holder=\count188
+\c@savedholder=\count189
+\c@introduction=\count190
+\c@savedintroduction=\count191
+\c@namea=\count192
+\c@savednamea=\count193
+\c@nameb=\count194
+\c@savednameb=\count195
+\c@namec=\count196
+\c@savednamec=\count197
+\c@translator=\count198
+\c@savedtranslator=\count199
+\c@shortauthor=\count266
+\c@savedshortauthor=\count267
+\c@shorteditor=\count268
+\c@savedshorteditor=\count269
+\c@labelname=\count270
+\c@savedlabelname=\count271
+\c@institution=\count272
+\c@savedinstitution=\count273
+\c@lista=\count274
+\c@savedlista=\count275
+\c@listb=\count276
+\c@savedlistb=\count277
+\c@listc=\count278
+\c@savedlistc=\count279
+\c@listd=\count280
+\c@savedlistd=\count281
+\c@liste=\count282
+\c@savedliste=\count283
+\c@listf=\count284
+\c@savedlistf=\count285
+\c@location=\count286
+\c@savedlocation=\count287
+\c@organization=\count288
+\c@savedorganization=\count289
+\c@origlocation=\count290
+\c@savedoriglocation=\count291
+\c@origpublisher=\count292
+\c@savedorigpublisher=\count293
+\c@publisher=\count294
+\c@savedpublisher=\count295
+\c@language=\count296
+\c@savedlanguage=\count297
+\c@origlanguage=\count298
+\c@savedoriglanguage=\count299
+\c@pageref=\count300
+\c@savedpageref=\count301
 \shorthandwidth=\skip72
 \shortjournalwidth=\skip73
 \shortserieswidth=\skip74
@@ -598,13 +608,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex
 .def"
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count301
-\c@textcitetotal=\count302
-\c@textcitemaxnames=\count303
-\c@biburlnumpenalty=\count304
-\c@biburlucpenalty=\count305
-\c@biburllcpenalty=\count306
-\c@smartand=\count307
+\c@textcitecount=\count302
+\c@textcitetotal=\count303
+\c@textcitemaxnames=\count304
+\c@biburlnumpenalty=\count305
+\c@biburlucpenalty=\count306
+\c@biburllcpenalty=\count307
+\c@smartand=\count308
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -618,8 +628,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\stan
 dard.bbx"
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count308
-\c@bbx:relatedtotal=\count309
+\c@bbx:relatedcount=\count309
+\c@bbx:relatedtotal=\count310
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -642,14 +652,14 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 .cfg"
 File: biblatex.cfg 
 ))
-\c@defn=\count310
-\c@conj=\count311
-\c@exmp=\count312
+\c@defn=\count311
+\c@conj=\count312
+\c@exmp=\count313
 
 
 Package amsthm Warning: Unknown theoremstyle `Remarque' on input line 49.
 
-\c@rem=\count313
+\c@rem=\count314
 Package biblatex Info: Trying to load language 'francais'...
 Package biblatex Info: ... file 'francais.lbx' not found.
 
@@ -674,8 +684,8 @@ File: french.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count314
-\@quotereset=\count315
+\@quotelevel=\count315
+\@quotereset=\count316
 (main.aux)
 \openout1 = `main.aux'.
 
@@ -704,17 +714,17 @@ Package french.ldf Warning: OT1 encoding should not be used for French.
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-
 pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count316
-\scratchdimen=\dimen142
-\scratchbox=\box33
-\nofMPsegments=\count317
-\nofMParguments=\count318
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count319
-\MPscratchDim=\dimen143
-\MPnumerator=\count320
-\makeMPintoPDFobject=\count321
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count317
+\scratchdimen=\dimen144
+\scratchbox=\box34
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen145
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks36
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1102,26 +1112,41 @@ File: images/wf008.png Graphic file (type png)
 Package pdftex.def Info: images/wf008.png  used on input line 524.
 (pdftex.def)             Requested size: 298.75262pt x 103.30136pt.
 ) [49 <./images/wf006.png> <./images/wf008.png>]
-[50
+Chapitre 3.
+(ch3.tex [50
+
+] [51]
+<images/ms-img04.png, id=220, 88.07906pt x 92.59593pt>
+File: images/ms-img04.png Graphic file (type png)
+<use images/ms-img04.png>
+Package pdftex.def Info: images/ms-img04.png  used on input line 109.
+(pdftex.def)             Requested size: 42.68173pt x 44.8708pt.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
+3.
+
+[52 <./images/ms-img04.png>]
+Overfull \hbox (2.36673pt too wide) in paragraph at lines 148--150
+[]\OT1/cmr/m/n/12 Les ins-tances Eu-reka peuvent ^etre en-re-gistrees et les c
+lients peuvent Decouvrez
+ []
+
+) [53] [54
 
 ] (main.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13152 strings out of 492946
- 223048 string characters out of 3125822
- 527840 words of memory out of 3000000
- 16830 multiletter control sequences out of 15000+200000
+ 13202 strings out of 492946
+ 223849 string characters out of 3125822
+ 528989 words of memory out of 3000000
+ 16872 multiletter control sequences out of 15000+200000
  12491 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,13n,46p,1700b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1143,9 +1168,9 @@ sy6.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (50 pages, 2874231 bytes).
+Output written on main.pdf (54 pages, 2905189 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
+ 280 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

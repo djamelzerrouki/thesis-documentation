@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  3 JUN 2019 19:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  5 JUN 2019 11:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -1119,80 +1119,72 @@ Chapitre 3.
 <images/ms-img04.png, id=220, 88.07906pt x 92.59593pt>
 File: images/ms-img04.png Graphic file (type png)
 <use images/ms-img04.png>
-Package pdftex.def Info: images/ms-img04.png  used on input line 109.
+Package pdftex.def Info: images/ms-img04.png  used on input line 112.
 (pdftex.def)             Requested size: 42.68173pt x 44.8708pt.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
-3.
-
-[52 <./images/ms-img04.png>]
-Overfull \hbox (2.36673pt too wide) in paragraph at lines 148--150
+<images/ms-img05.png, id=221, 101.62968pt x 70.76437pt>
+File: images/ms-img05.png Graphic file (type png)
+<use images/ms-img05.png>
+Package pdftex.def Info: images/ms-img05.png  used on input line 118.
+(pdftex.def)             Requested size: 42.68173pt x 29.71866pt.
+<images/ms-img06.png, id=222, 130.98938pt x 96.36pt>
+File: images/ms-img06.png Graphic file (type png)
+<use images/ms-img06.png>
+Package pdftex.def Info: images/ms-img06.png  used on input line 126.
+(pdftex.def)             Requested size: 42.68173pt x 31.39748pt.
+ [52 <./images/ms-img04.png> <./images/ms-img05.png> <./images/ms-img06.png>]
+Overfull \hbox (2.36673pt too wide) in paragraph at lines 145--147
 []\OT1/cmr/m/n/12 Les ins-tances Eu-reka peuvent ^etre en-re-gistrees et les c
 lients peuvent Decouvrez
  []
 
+<images/class3.png, id=226, 832.91174pt x 534.19576pt>
+File: images/class3.png Graphic file (type png)
+<use images/class3.png>
+Package pdftex.def Info: images/class3.png  used on input line 169.
+(pdftex.def)             Requested size: 426.79134pt x 273.72412pt.
 
-! LaTeX Error: Can be used only in preamble.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169  \begin{document}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ [53])
+[54 <./images/class3.png>] [55
 
-File: images/ms-img04.png Graphic file (type png)
-<use images/ms-img04.png>
-Package pdftex.def Info: images/ms-img04.png  used on input line 171.
-(pdftex.def)             Requested size: 42.68173pt x 44.8708pt.
-File: images/ms-img04.png Graphic file (type png)
-<use images/ms-img04.png>
-Package pdftex.def Info: images/ms-img04.png  used on input line 183.
-(pdftex.def)             Requested size: 42.68173pt x 44.8708pt.
-[53] (main.aux)
+] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
- ) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 169 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 13183 strings out of 492946
- 223457 string characters out of 3125822
+ 13218 strings out of 492946
+ 224158 string characters out of 3125822
  529017 words of memory out of 3000000
- 16854 multiletter control sequences out of 15000+200000
- 12322 words of font info for 45 fonts, out of 3000000 for 9000
+ 16885 multiletter control sequences out of 15000+200000
+ 12491 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,46p,1700b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/djamel/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/djamel/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+ 43i,13n,46p,1700b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmbxti10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/djamel/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/djamel/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
 Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/djamel/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/djamel/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/djamel/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
+mmi8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/djamel/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/djamel/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
 sers/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy6.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (53 pages, 2886456 bytes).
+sy6.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (55 pages, 3066144 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
+ 288 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

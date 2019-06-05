@@ -1,3 +1,4 @@
+\section{Outils}
  \subsection{Spring}
  
   \subsubsection{Spring Framework }
@@ -104,21 +105,17 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 
 \subsection{Composantes majeures de Netflix}
 
-\begin{wrapfigure}{l}{0.2\textwidth} %this figure will be at the right
-	\centering                            
-	\includegraphics[width=0.1\textwidth]{images/ms-img04}
-\end{wrapfigure}
 
 
 \subsubsection{Service Discovery Server} 
 
-Netflix Eureka permet aux micro-services de s’enregistrer eux-mêmes au moment de leur exécution, tels qu’ils apparaissent dans la structure du système.
+\authorimg{images/ms-img04} Netflix Eureka permet aux micro-services de s’enregistrer eux-mêmes au moment de leur exécution, tels qu’ils apparaissent dans la structure du système.
 
 
 
 \subsubsection{Routage dynamique et équilibreur de charge} 
 
-Netflix Ribbon peut être utilisé par les consommateurs de services pour rechercher des services au moment de l’exécution. Le ruban utilise les informations disponibles dans Eureka pour localiser les instances de service appropriées. Si plusieurs instances sont trouvées, le Ruban appliquera un équilibrage de charge pour répartir les demandes sur les instances disponibles. Le ruban ne s'exécute pas en tant que service distinct, mais en tant que composant intégré dans chaque consommateur de service.
+\authorimg{images/ms-img05}  Netflix Ribbon peut être utilisé par les consommateurs de services pour rechercher des services au moment de l’exécution. Le ruban utilise les informations disponibles dans Eureka pour localiser les instances de service appropriées. Si plusieurs instances sont trouvées, le Ruban appliquera un équilibrage de charge pour répartir les demandes sur les instances disponibles. Le ruban ne s'exécute pas en tant que service distinct, mais en tant que composant intégré dans chaque consommateur de service.
 
 
 
@@ -126,7 +123,7 @@ Netflix Ribbon peut être utilisé par les consommateurs de services pour recher
 
 \subsubsection{Serveur Edge} 
 
-Zuul est (bien sûr) notre gardien du monde extérieur, ne permettant pas le passage de demandes externes non autorisées. Zulu fournit également un point d'entrée bien connu aux micro-services dans le paysage système. L'utilisation de ports alloués de manière dynamique est pratique pour éviter les conflits de ports et minimiser l'administration, mais elle rend évidemment la tâche plus difficile pour tout consommateur de services donné. Zuul utilise Ribbon pour rechercher les services disponibles et achemine la demande externe vers une instance de service appropriée.
+\authorimg{images/ms-img06}  Zuul est (bien sûr) notre gardien du monde extérieur, ne permettant pas le passage de demandes externes non autorisées. Zulu fournit également un point d'entrée bien connu aux micro-services dans le paysage système. L'utilisation de ports alloués de manière dynamique est pratique pour éviter les conflits de ports et minimiser l'administration, mais elle rend évidemment la tâche plus difficile pour tout consommateur de services donné. Zuul utilise Ribbon pour rechercher les services disponibles et achemine la demande externe vers une instance de service appropriée.
 
 
 \subsection{Spring Boot et Spring Cloud Netflix OSS – Micro Service Architecture}
@@ -165,21 +162,12 @@ Spring cloud Netflix fournit des intégrations Netflix OSS pour les applications
 	convention sur l'approche de configuration pour la création de proxy inverse.
 \end{itemize}
  
- 
- \begin{document}
- 	\begin{itemize}
- 		\item[\authorimg{images/ms-img04}] Author of Firefoxjjjjjjjjjjjjj
- 		jjjjjjjjjjjjjjjjjjjjjjjj
- 		jjjjjjjjjjjjjjjjjjjj
- 		jjjjjjjjjjjjjjjjjjjjj
- 		jjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
- 		ffffffffffff
- 		f
- 		fdffsd
- 		
- 		
- 		
- 		
- 		\item[\authorimg{images/ms-img04}] Author of Apache Ant
- 	\end{itemize}
- \end{document}
+ \section{Conception:}
+ \subsection{Diagramme de Classe}
+ \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[width=1\linewidth]{images/class3}
+ 	\caption{Diagramme de Classe}
+ 	\label{fig:class}
+ \end{figure}
+   

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  5 JUN 2019 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  7 JUN 2019 07:19
 entering extended mode
 **./main.tex
 (main.tex
@@ -812,21 +812,21 @@ Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[7])
+[7] [8])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [8] (main.lof)
+ [9] (main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [9
+ [10
 
 ] (main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [10
+ [11
 
 ]
 Chapitre 1.
@@ -836,26 +836,26 @@ Overfull \hbox (13.69984pt too wide) in paragraph at lines 6--7
 ng et au work-flow, necessaire
  []
 
-[11
+[12
 
 ]
-<images/tempsnip4.png, id=42, 934.99312pt x 697.10437pt>
+<images/tempsnip4.png, id=45, 934.99312pt x 697.10437pt>
 File: images/tempsnip4.png Graphic file (type png)
 <use images/tempsnip4.png>
 Package pdftex.def Info: images/tempsnip4.png  used on input line 16.
 (pdftex.def)             Requested size: 341.43436pt x 254.5633pt.
- [12 <./images/tempsnip4.png>] [13]
+ [13 <./images/tempsnip4.png>] [14]
 
-LaTeX Warning: Reference `label' on page 14 undefined on input line 62.
+LaTeX Warning: Reference `label' on page 15 undefined on input line 62.
 
-[14]
-<images/Capture5.png, id=55, 838.332pt x 460.119pt>
+[15]
+<images/Capture5.png, id=58, 838.332pt x 460.119pt>
 File: images/Capture5.png Graphic file (type png)
 <use images/Capture5.png>
 Package pdftex.def Info: images/Capture5.png  used on input line 92.
 (pdftex.def)             Requested size: 426.79134pt x 234.24335pt.
- [15] [16 <./images/Capture5.png>]
-<images/Cloud_MD.png, id=63, 595.22375pt x 465.74pt>
+ [16] [17 <./images/Capture5.png>]
+<images/Cloud_MD.png, id=66, 595.22375pt x 465.74pt>
 File: images/Cloud_MD.png Graphic file (type png)
 <use images/Cloud_MD.png>
 Package pdftex.def Info: images/Cloud_MD.png  used on input line 128.
@@ -864,11 +864,11 @@ Package pdftex.def Info: images/Cloud_MD.png  used on input line 128.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17]
+[18]
 Underfull \vbox (badness 1137) has occurred while \output is active []
 
- [18 <./images/Cloud_MD.png (PNG copy)>]
-<images/wfmcHistory.png, id=70, 493.845pt x 148.75575pt>
+ [19 <./images/Cloud_MD.png (PNG copy)>]
+<images/wfmcHistory.png, id=74, 493.845pt x 148.75575pt>
 File: images/wfmcHistory.png Graphic file (type png)
 <use images/wfmcHistory.png>
 Package pdftex.def Info: images/wfmcHistory.png  used on input line 216.
@@ -877,36 +877,36 @@ Package pdftex.def Info: images/wfmcHistory.png  used on input line 216.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19]
+[20]
 Overfull \hbox (9.59387pt too wide) in paragraph at lines 245--246
 \OT1/cmr/m/n/12 les pro-ces-sus d'une or-ga-ni-sa-tion. Cette ges-tion est ren-
 due pos-sible par la representation
  []
 
-[20 <./images/wfmcHistory.png>]
+[21 <./images/wfmcHistory.png>]
 Overfull \hbox (1.6912pt too wide) in paragraph at lines 252--253
 \OT1/cmr/m/n/12 haut ni-veau dans la Definition de Pro-ces-sus. Ce modele per
 -met de mieux apprehender
  []
 
-<images/MetaMWFMC11-99.png, id=81, 853.1875pt x 487.8225pt>
+<images/MetaMWFMC11-99.png, id=84, 853.1875pt x 487.8225pt>
 File: images/MetaMWFMC11-99.png Graphic file (type png)
 <use images/MetaMWFMC11-99.png>
 Package pdftex.def Info: images/MetaMWFMC11-99.png  used on input line 259.
 (pdftex.def)             Requested size: 426.79134pt x 244.02974pt.
-[21 <./images/MetaMWFMC11-99.png>]
-<images/DimensionsWF.png, id=86, 447.47176pt x 299.31825pt>
+[22 <./images/MetaMWFMC11-99.png>]
+<images/DimensionsWF.png, id=89, 447.47176pt x 299.31825pt>
 File: images/DimensionsWF.png Graphic file (type png)
 <use images/DimensionsWF.png>
 Package pdftex.def Info: images/DimensionsWF.png  used on input line 273.
 (pdftex.def)             Requested size: 213.39566pt x 142.73941pt.
- [22 <./images/DimensionsWF.png>]
+ [23 <./images/DimensionsWF.png>]
 Overfull \hbox (4.62633pt too wide) in paragraph at lines 311--312
 \OT1/cmr/m/n/12 presentes ci-dessous en francais avec la tra-duc-tion an-gla
 ise ori-gi-nale as-sociee, couvrent
  []
 
-[23]
+[24]
 Overfull \hbox (12.84576pt too wide) in paragraph at lines 319--320
 []\OT1/cmr/m/n/12 Une ac-ti-vite est une etape d'un pro-ces-sus au cours de l
 a-quelle une ac-tion elementaire
@@ -920,13 +920,13 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 331.
 
-[24]
+[25]
 Overfull \hbox (5.92223pt too wide) in paragraph at lines 366--368
 []\OT1/cmr/m/n/12 Il n'existe pas de clas-si-fi-ca-tion com-mune des systemes 
 Work-flow dans la litterature,
  []
 
-<"images/classification de workflow".png, id=98, 459.51675pt x 257.16075pt>
+<"images/classification de workflow".png, id=102, 459.51675pt x 257.16075pt>
 File: "images/classification de workflow".png Graphic file (type png)
 <use "images/classification de workflow".png>
 Package pdftex.def Info: "images/classification de workflow".png  used on input
@@ -935,14 +935,14 @@ Package pdftex.def Info: "images/classification de workflow".png  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25] [26 <./images/classification de workflow.png>] [27]
+[26] [27 <./images/classification de workflow.png>] [28]
 Overfull \hbox (20.0646pt too wide) in paragraph at lines 438--441
 \OT1/cmr/m/n/12 complete du modele de Work-flow. En rai-son de l'in-dis-po-ni
 -bi-lite d'une specification
  []
 
-[28]
-<images/Capture6.png, id=113, 674.52pt x 514.92375pt>
+[29]
+<images/Capture6.png, id=116, 674.52pt x 514.92375pt>
 File: images/Capture6.png Graphic file (type png)
 <use images/Capture6.png>
 Package pdftex.def Info: images/Capture6.png  used on input line 498.
@@ -951,18 +951,18 @@ Package pdftex.def Info: images/Capture6.png  used on input line 498.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29] [30 <./images/Capture6.png>]
+[30] [31 <./images/Capture6.png>]
 Overfull \hbox (8.50145pt too wide) in paragraph at lines 546--547
 []\OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 L'in-terpretation com-mune de la definit
 ion de procedures (ou d'un sous-ensemble). 
  []
 
-[31] [32] [33]) [34] [35]
+[32] [33] [34]) [35] [36]
 Chapitre 2.
-(ch2.tex [36
+(ch2.tex [37
 
 ]
-<images/petrif01.png, id=140, 315.579pt x 296.307pt>
+<images/petrif01.png, id=144, 315.579pt x 296.307pt>
 File: images/petrif01.png Graphic file (type png)
 <use images/petrif01.png>
 Package pdftex.def Info: images/petrif01.png  used on input line 90.
@@ -973,7 +973,7 @@ Overfull \hbox (19.50275pt too wide) in paragraph at lines 95--96
 rant avec une representation
  []
 
-[37 <./images/petrif01.png>]
+[38 <./images/petrif01.png>]
 
 LaTeX Warning: Command \textellipsis invalid in math mode on input line 98.
 
@@ -983,7 +983,7 @@ LaTeX Warning: Command \textellipsis invalid in math mode on input line 98.
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 103.
 
-<images/pitref02PNG.png, id=147, 314.3745pt x 388.45125pt>
+<images/pitref02PNG.png, id=150, 314.3745pt x 388.45125pt>
 File: images/pitref02PNG.png Graphic file (type png)
 <use images/pitref02PNG.png>
 Package pdftex.def Info: images/pitref02PNG.png  used on input line 127.
@@ -991,9 +991,9 @@ Package pdftex.def Info: images/pitref02PNG.png  used on input line 127.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-[39 <./images/pitref02PNG.png>] [40]
-<images/pitrif03.png, id=161, 1137.65025pt x 377.61075pt>
+ [39]
+[40 <./images/pitref02PNG.png>] [41]
+<images/pitrif03.png, id=164, 1137.65025pt x 377.61075pt>
 File: images/pitrif03.png Graphic file (type png)
 <use images/pitrif03.png>
 Package pdftex.def Info: images/pitrif03.png  used on input line 244.
@@ -1023,8 +1023,8 @@ Overfull \hbox (11.41747pt too wide) in paragraph at lines 252--253
 nces est une sequence
  []
 
-[41 <./images/pitrif03.png>]
-<images/Rdpborn.png, id=166, 315.579pt x 232.4685pt>
+[42 <./images/pitrif03.png>]
+<images/Rdpborn.png, id=169, 315.579pt x 232.4685pt>
 File: images/Rdpborn.png Graphic file (type png)
 <use images/Rdpborn.png>
 Package pdftex.def Info: images/Rdpborn.png  used on input line 288.
@@ -1034,18 +1034,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--304
 
  []
 
-[42 <./images/Rdpborn.png>]
-<images/Petrivivant.png, id=171, 169.8345pt x 271.61475pt>
+[43 <./images/Rdpborn.png>]
+<images/Petrivivant.png, id=175, 169.8345pt x 271.61475pt>
 File: images/Petrivivant.png Graphic file (type png)
 <use images/Petrivivant.png>
 Package pdftex.def Info: images/Petrivivant.png  used on input line 311.
 (pdftex.def)             Requested size: 85.35696pt x 136.5116pt.
-<images/Petribloquant.png, id=172, 241.50224pt x 350.5095pt>
+<images/Petribloquant.png, id=176, 241.50224pt x 350.5095pt>
 File: images/Petribloquant.png Graphic file (type png)
 <use images/Petribloquant.png>
 Package pdftex.def Info: images/Petribloquant.png  used on input line 325.
 (pdftex.def)             Requested size: 106.69783pt x 154.85576pt.
- [43 <./images/Petrivivant.png> <./images/Petribloquant.png>]
+ [44 <./images/Petrivivant.png> <./images/Petribloquant.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 338--341
 
  []
@@ -1057,7 +1057,7 @@ Overfull \hbox (30.12918pt too wide) in paragraph at lines 352--354
  )$
  []
 
-[44]
+[45]
 
 LaTeX Warning: Command \oe invalid in math mode on input line 362.
 
@@ -1067,86 +1067,140 @@ LaTeX Warning: Command \oe invalid in math mode on input line 362.
 
 LaTeX Warning: Command \oe invalid in math mode on input line 362.
 
-<images/pitrif005.png, id=182, 1124.40076pt x 436.029pt>
+<images/pitrif005.png, id=185, 1124.40076pt x 436.029pt>
 File: images/pitrif005.png Graphic file (type png)
 <use images/pitrif005.png>
 Package pdftex.def Info: images/pitrif005.png  used on input line 392.
 (pdftex.def)             Requested size: 298.75262pt x 115.85318pt.
-[45 <./images/pitrif005.png>]
+[46 <./images/pitrif005.png>]
 Overfull \hbox (13.44107pt too wide) in paragraph at lines 417--418
 []\OT1/cmr/m/n/12 Rend la specification de work-flow non am-bigue. L'in-terpr
 etation de ces specifications
  []
 
-[46]
-<images/wf-nete006.png, id=190, 542.025pt x 249.93375pt>
+[47]
+<images/wf-nete006.png, id=193, 542.025pt x 249.93375pt>
 File: images/wf-nete006.png Graphic file (type png)
 <use images/wf-nete006.png>
 Package pdftex.def Info: images/wf-nete006.png  used on input line 446.
 (pdftex.def)             Requested size: 213.39566pt x 98.40048pt.
-<images/wf003.png, id=191, 528.17325pt x 162.6075pt>
+<images/wf003.png, id=194, 528.17325pt x 162.6075pt>
 File: images/wf003.png Graphic file (type png)
 <use images/wf003.png>
 Package pdftex.def Info: images/wf003.png  used on input line 468.
 (pdftex.def)             Requested size: 298.75262pt x 91.97762pt.
- [47 <./images/wf-nete006.png>]
-<images/Capture.png, id=197, 809.424pt x 310.15875pt>
+ [48 <./images/wf-nete006.png>]
+<images/Capture.png, id=200, 809.424pt x 310.15875pt>
 File: images/Capture.png Graphic file (type png)
 <use images/Capture.png>
 Package pdftex.def Info: images/Capture.png  used on input line 479.
 (pdftex.def)             Requested size: 298.75262pt x 114.4777pt.
-<images/wf005.png, id=198, 885.3075pt x 296.90926pt>
+<images/wf005.png, id=201, 885.3075pt x 296.90926pt>
 File: images/wf005.png Graphic file (type png)
 <use images/wf005.png>
 Package pdftex.def Info: images/wf005.png  used on input line 497.
 (pdftex.def)             Requested size: 298.75262pt x 100.19574pt.
- [48 <./images/wf003.png> <./images/Capture.png> <./images/wf005.png>]
-<images/wf006.png, id=206, 966.009pt x 349.90726pt>
+ [49 <./images/wf003.png> <./images/Capture.png> <./images/wf005.png>]
+<images/wf006.png, id=210, 966.009pt x 349.90726pt>
 File: images/wf006.png Graphic file (type png)
 <use images/wf006.png>
 Package pdftex.def Info: images/wf006.png  used on input line 513.
 (pdftex.def)             Requested size: 298.75262pt x 108.21384pt.
-<images/wf008.png, id=207, 597.432pt x 206.57175pt>
+<images/wf008.png, id=211, 597.432pt x 206.57175pt>
 File: images/wf008.png Graphic file (type png)
 <use images/wf008.png>
 Package pdftex.def Info: images/wf008.png  used on input line 524.
 (pdftex.def)             Requested size: 298.75262pt x 103.30136pt.
-) [49 <./images/wf006.png> <./images/wf008.png>]
+) [50 <./images/wf006.png> <./images/wf008.png>]
 Chapitre 3.
-(ch3.tex [50
+(ch3.tex
+Overfull \hbox (5.9266pt too wide) in paragraph at lines 10--11
+[]\OT1/cmr/m/n/12 L'OMG definit l'UML comme un lan-gage vi-suel dedie a la 
+specification,la construc-
+ []
 
-] [51]
-<images/ms-img04.png, id=220, 88.07906pt x 92.59593pt>
+
+Overfull \hbox (0.3755pt too wide) in paragraph at lines 19--20
+[]\OT1/cmr/bx/n/12 Diagramme de pa-que-tages (Pa-ckage Dia-gram) : \OT1/cmr/m/n
+/12 definit les dependances
+ []
+
+[51
+
+]
+<images/usercase.png, id=220, 530.58224pt x 544.434pt>
+File: images/usercase.png Graphic file (type png)
+<use images/usercase.png>
+Package pdftex.def Info: images/usercase.png  used on input line 36.
+(pdftex.def)             Requested size: 426.79134pt x 437.94862pt.
+
+Overfull \hbox (35.79843pt too wide) in paragraph at lines 45--68
+ [][] 
+ []
+
+[52 <./images/usercase.png>]
+Overfull \hbox (13.9374pt too wide) in paragraph at lines 72--84
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+Overfull \hbox (9.43327pt too wide) in paragraph at lines 93--109
+[][] 
+ []
+
+
+Overfull \hbox (13.4431pt too wide) in paragraph at lines 119--135
+[][] 
+ []
+
+
+Underfull \vbox (badness 2351) has occurred while \output is active []
+
+ [54]
+Overfull \hbox (3.74738pt too wide) in paragraph at lines 141--157
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+<images/class3.png, id=235, 832.91174pt x 534.19576pt>
+File: images/class3.png Graphic file (type png)
+<use images/class3.png>
+Package pdftex.def Info: images/class3.png  used on input line 212.
+(pdftex.def)             Requested size: 426.79134pt x 273.72412pt.
+)
+[56 <./images/class3.png>]
+Chapitre 4.
+(ch4.tex [57
+
+] [58]
+<images/ms-img04.png, id=246, 88.07906pt x 92.59593pt>
 File: images/ms-img04.png Graphic file (type png)
 <use images/ms-img04.png>
 Package pdftex.def Info: images/ms-img04.png  used on input line 112.
 (pdftex.def)             Requested size: 42.68173pt x 44.8708pt.
-<images/ms-img05.png, id=221, 101.62968pt x 70.76437pt>
+<images/ms-img05.png, id=247, 101.62968pt x 70.76437pt>
 File: images/ms-img05.png Graphic file (type png)
 <use images/ms-img05.png>
 Package pdftex.def Info: images/ms-img05.png  used on input line 118.
 (pdftex.def)             Requested size: 42.68173pt x 29.71866pt.
-<images/ms-img06.png, id=222, 130.98938pt x 96.36pt>
+<images/ms-img06.png, id=248, 130.98938pt x 96.36pt>
 File: images/ms-img06.png Graphic file (type png)
 <use images/ms-img06.png>
 Package pdftex.def Info: images/ms-img06.png  used on input line 126.
 (pdftex.def)             Requested size: 42.68173pt x 31.39748pt.
- [52 <./images/ms-img04.png> <./images/ms-img05.png> <./images/ms-img06.png>]
+ [59 <./images/ms-img04.png> <./images/ms-img05.png> <./images/ms-img06.png>]
 Overfull \hbox (2.36673pt too wide) in paragraph at lines 145--147
 []\OT1/cmr/m/n/12 Les ins-tances Eu-reka peuvent ^etre en-re-gistrees et les c
 lients peuvent Decouvrez
  []
 
-<images/class3.png, id=226, 832.91174pt x 534.19576pt>
-File: images/class3.png Graphic file (type png)
-<use images/class3.png>
-Package pdftex.def Info: images/class3.png  used on input line 169.
-(pdftex.def)             Requested size: 426.79134pt x 273.72412pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53])
-[54 <./images/class3.png>] [55
+) [60] [61
 
 ] (main.aux)
 
@@ -1157,13 +1211,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13218 strings out of 492946
- 224158 string characters out of 3125822
+ 13229 strings out of 492946
+ 224385 string characters out of 3125822
  529017 words of memory out of 3000000
- 16885 multiletter control sequences out of 15000+200000
+ 16892 multiletter control sequences out of 15000+200000
  12491 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,13n,46p,1700b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,24n,46p,1700b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmbxti10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 
@@ -1182,9 +1236,9 @@ sy6.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (55 pages, 3066144 bytes).
+Output written on main.pdf (61 pages, 3220488 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
+ 309 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

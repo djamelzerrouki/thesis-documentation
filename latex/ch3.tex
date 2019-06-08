@@ -272,7 +272,192 @@ Planification du développement du programme À ce stade de la planification des
 	\label{fig:class01}
 \end{figure}
 
+\subsubsection{La classe  Sous-Direction}
+\begin{table}[H]
+  \centering\setlength\tabcolsep{0.8cm}
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+	
+		id & long & getId() et setId()\\ \cline{1-2}
+		nom & String  & getNom() et setNom() \\ \cline{1-2}
+	services	& $ List<Service> $ & getServices() et setServices()   \\ \hline
+	\end{tabular}
+\end{table}
+\subsubsection{La classe Service}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+		
+		id & long & getId() et setId()\\ \cline{1-2}
+		nom & String  & getNom() et setNom() \\ \cline{1-2}
+				sous-Direction & Sous-Direction  & getSous-Direction() et setSous-Direction() \\ \cline{1-2}
+		myTasks	& $ List<MyTask> $ & getMyTasks() et setMyTasks()   \\ \hline
+	\end{tabular}
+\end{table}
 
 
+\subsubsection{La classe MyTask}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+		
+		id & long & getId() et setId()\\ \cline{1-2}
+		nom & String  & getNom() et setNom() \\ \cline{1-2}
+			idTask & String & getIdTask() et setIdTask()\\ \cline{1-2}
+		services & Service  & getService() et setService() \\ \cline{1-2}
+				users	& $ List<User> $ & getUsers() et setUsers()   \\ \cline{1-2}	
+				
+		nextMyTasks	& $ List<NextMyTask> $ & getNextMyTasks() et setNextMyTasks()   \\ \hline
+	\end{tabular}
+\end{table}
+
+\subsubsection{La classe MyTask}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+		
+		id & long & getId() et setId()\\ \cline{1-2}
+		nom & String  & getNom() et setNom() \\ \cline{1-2}
+		idTask & String & getIdTask() et setIdTask()\\ \cline{1-2}
+		services & Service  & getService() et setService() \\ \cline{1-2}
+		nextMyTasks	& $ List<NextMyTask> $ & getNextMyTask() et setNextMyTask()   \\ \hline
+	\end{tabular}
+\end{table}
+
+\subsubsection{La classe NextTask}
+\begin{table}[H]
+  \centering\setlength\tabcolsep{1cm}
+
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+		
+		id & long & getId() et setId()\\ \cline{1-2}
+		idTask & String & getIdTask() et setIdTask()\\ \cline{1-2}
+		myTask & MyTask  & getMyTask() et setMyTask()   \\ \hline
+	\end{tabular}
+\end{table}
+
+\subsubsection{La classe Utilisateur "User"}
+\begin{table}[H]
+	\centering\setlength\tabcolsep{1cm}
+	
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+		
+		id & long & getId() et setId()\\ \cline{1-2}
+		nom & String & getNom() et setNom()\\ \cline{1-2}
+			prenom & String & getPrenom() et setPrenom()\\ \cline{1-2}
+						tlphon & String & getTlphon() et setTlphon()\\ \cline{1-2}
+		myTask & MyTask  & getMyTask() et setMyTask()   \\ \hline
+	\end{tabular}
+\end{table}
+
+
+
+
+\subsubsection{La classe Role}
+\begin{table}[H]
+	\centering\setlength\tabcolsep{1.2cm}
+	
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+		
+		id & long & getId() et setId()\\ \cline{1-2}
+		nom & Date() & getNom() et setNom()\\ \hline
+	\end{tabular}
+\end{table}
+
+
+
+
+
+
+\subsubsection{La classe Dossier}
+\begin{table}[H]
+	\centering\setlength\tabcolsep{1cm}
+	
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+		
+		id & long & getId() et setId()\\ \cline{1-2}
+		nom & String & getNom() et setNom()\\ \cline{1-2}
+		prenom & String & getPrenom() et setPrenom()\\ \cline{1-2}
+		tlphon & String & getTlphon() et setTlphon()\\ \cline{1-2}
+		ch1 & boolean  & getCh1() et setCh1()\\ \cline{1-2}   
+				ch2 & boolean  & getCh2() et setCh2() \\ \cline{1-2}
+						ch3 & boolean  & getCh3() et setCh3() 
+		\\ \hline
+	\end{tabular}
+\end{table}
+
+
+
+\subsubsection{La classe ListDossier}
+\begin{table}[H]
+	\centering\setlength\tabcolsep{0.8cm}
+	
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+		
+		id & long & getId() et setId()\\ \cline{1-2}
+		bordereau & Bordereau & getBordereau() et setBordereau()\\ \cline{1-2}
+		historique & Historique & getHistorique() et setHistorique()\\   \hline
+	\end{tabular}
+\end{table}
+
+
+\subsubsection{La classe Historique}
+\begin{table}[H]
+	\centering\setlength\tabcolsep{1cm}
+	
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+		
+		id & long & getId() et setId()\\ \cline{1-2}
+		dateD & Date() & getDateD() et setDateD()\\ \cline{1-2}
+		
+				dateF & Date() & getDateF() et setDateF()\\ \cline{1-2}
+				
+				dossier & Dossier & getDossier() et setDossier()\\ \cline{1-2}
+				
+					user & User & getUser() et setUser()\\ \cline{1-2}
+					
+					etat & boolean & isEtat() et setEtat()\\ \cline{1-2}
+				transfert & boolean & isTransfert() et setTransfert()\\ \hline
+	\end{tabular}
+\end{table}
  
+   
+   \subsubsection{La classe Bordereau}
+   \begin{table}[H]
+   	\centering\setlength\tabcolsep{1cm}
+   	
+   	\begin{tabular}{|l|l|l|}
+   		\hline
+   		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+   		
+   		id & long & getId() et setId()\\ \cline{1-2}
+   		dateD & Date() & getDateD() et setDateD()\\ \cline{1-2}
+   	    
+   	    user & User & getUser() et setUser()\\ \cline{1-2}
+   				myTask1 & MyTask  & getMyTask1() et setMyTask1()   \\ \cline{1-2}
+   						myTask2 & MyTask  & getMyTask2() et setMyTask2() \\ \cline{1-2}  
+   		etat & String[] & getEtat() et setEtat()\\ \cline{1-2}
+		historique & Historique & getHistorique() et setHistorique()\\ \hline
+   	\end{tabular}
+   \end{table}
+   
    

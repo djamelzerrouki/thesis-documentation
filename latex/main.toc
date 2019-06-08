@@ -239,40 +239,62 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.5}Diagramme de Classe}{58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}R\IeC {\'e}alisation}{59}% 
+\contentsline {subsubsection}{\numberline {3.2.5.1}La classe Sous-Direction}{59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Outils}{59}% 
+\contentsline {subsubsection}{\numberline {3.2.5.2}La classe Service}{59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Spring}{59}% 
+\contentsline {subsubsection}{\numberline {3.2.5.3}La classe MyTask}{59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.1}Spring Framework }{59}% 
+\contentsline {subsubsection}{\numberline {3.2.5.4}La classe MyTask}{59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.2}Spring boot}{59}% 
+\contentsline {subsubsection}{\numberline {3.2.5.5}La classe NextTask}{59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.3}Spring Data}{59}% 
+\contentsline {subsubsection}{\numberline {3.2.5.6}La classe Utilisateur "User"}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.4}Spring Cloud}{59}% 
+\contentsline {subsubsection}{\numberline {3.2.5.7}La classe Role}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.5}Spring Cloud Netflix}{60}% 
+\contentsline {subsubsection}{\numberline {3.2.5.8}La classe Dossier}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2} Qu'est-ce que Micro Service?}{60}% 
+\contentsline {subsubsection}{\numberline {3.2.5.9}La classe ListDossier}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.1}Pourquoi l\IeC {\textquoteright }architecture de Microservices?}{60}% 
+\contentsline {subsubsection}{\numberline {3.2.5.10}La classe Historique}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.2}Patterns dans l'architecture des microservices}{60}% 
+\contentsline {subsubsection}{\numberline {3.2.5.11}La classe Bordereau}{61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.3}Architecture des microservices via les composants Netflix}{61}% 
+\contentsline {chapter}{\numberline {4}R\IeC {\'e}alisation}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Composantes majeures de Netflix}{61}% 
+\contentsline {section}{\numberline {4.1}Outils}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3.1}Service Discovery Server}{61}% 
+\contentsline {subsection}{\numberline {4.1.1}Spring}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3.2}Routage dynamique et \IeC {\'e}quilibreur de charge}{61}% 
+\contentsline {subsubsection}{\numberline {4.1.1.1}Spring Framework }{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3.3}Serveur Edge}{61}% 
+\contentsline {subsubsection}{\numberline {4.1.1.2}Spring boot}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Spring Boot et Spring Cloud Netflix OSS \IeC {\textendash } Micro Service Architecture}{62}% 
+\contentsline {subsubsection}{\numberline {4.1.1.3}Spring Data}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4.1}Micro Services avec Spring Boot}{62}% 
+\contentsline {subsubsection}{\numberline {4.1.1.4}Spring Cloud}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4.2}Spring Cloud Netflix}{62}% 
+\contentsline {subsubsection}{\numberline {4.1.1.5}Spring Cloud Netflix}{63}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2} Qu'est-ce que Micro Service?}{63}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2.1}Pourquoi l\IeC {\textquoteright }architecture de Microservices?}{63}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2.2}Patterns dans l'architecture des microservices}{63}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2.3}Architecture des microservices via les composants Netflix}{64}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Composantes majeures de Netflix}{64}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.3.1}Service Discovery Server}{64}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.3.2}Routage dynamique et \IeC {\'e}quilibreur de charge}{64}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.3.3}Serveur Edge}{64}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.4}Spring Boot et Spring Cloud Netflix OSS \IeC {\textendash } Micro Service Architecture}{65}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.4.1}Micro Services avec Spring Boot}{65}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.4.2}Spring Cloud Netflix}{65}% 

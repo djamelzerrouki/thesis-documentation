@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  7 JUN 2019 23:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  8 JUN 2019 04:57
 entering extended mode
 **./main.tex
 (main.tex
@@ -1185,34 +1185,46 @@ File: images/class01.png Graphic file (type png)
 <use images/class01.png>
 Package pdftex.def Info: images/class01.png  used on input line 270.
 (pdftex.def)             Requested size: 426.79134pt x 269.8965pt.
-)
-[58 <./images/class01.png>]
-Chapitre 4.
-(ch4.tex [59
 
-] [60]
-<images/ms-img04.png, id=252, 88.07906pt x 92.59593pt>
+Underfull \vbox (badness 1430) has occurred while \output is active []
+
+ [58 <./images/class01.png>]
+Overfull \hbox (8.98949pt too wide) in paragraph at lines 305--317
+ [][] 
+ []
+
+[59]
+Overfull \hbox (20.98196pt too wide) in paragraph at lines 448--461
+ [][] 
+ []
+
+[60]) [61]
+Chapitre 4.
+(ch4.tex [62
+
+] [63]
+<images/ms-img04.png, id=262, 88.07906pt x 92.59593pt>
 File: images/ms-img04.png Graphic file (type png)
 <use images/ms-img04.png>
 Package pdftex.def Info: images/ms-img04.png  used on input line 112.
 (pdftex.def)             Requested size: 42.68173pt x 44.8708pt.
-<images/ms-img05.png, id=253, 101.62968pt x 70.76437pt>
+<images/ms-img05.png, id=263, 101.62968pt x 70.76437pt>
 File: images/ms-img05.png Graphic file (type png)
 <use images/ms-img05.png>
 Package pdftex.def Info: images/ms-img05.png  used on input line 118.
 (pdftex.def)             Requested size: 42.68173pt x 29.71866pt.
-<images/ms-img06.png, id=254, 130.98938pt x 96.36pt>
+<images/ms-img06.png, id=264, 130.98938pt x 96.36pt>
 File: images/ms-img06.png Graphic file (type png)
 <use images/ms-img06.png>
 Package pdftex.def Info: images/ms-img06.png  used on input line 126.
 (pdftex.def)             Requested size: 42.68173pt x 31.39748pt.
- [61 <./images/ms-img04.png> <./images/ms-img05.png> <./images/ms-img06.png>]
+ [64 <./images/ms-img04.png> <./images/ms-img05.png> <./images/ms-img06.png>]
 Overfull \hbox (2.36673pt too wide) in paragraph at lines 145--147
 []\OT1/cmr/m/n/12 Les ins-tances Eu-reka peuvent ^etre en-re-gistrees et les c
 lients peuvent Decouvrez
  []
 
-) [62] [63
+) [65] [66
 
 ] (main.aux)
 
@@ -1248,9 +1260,9 @@ sy6.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (63 pages, 3284352 bytes).
+Output written on main.pdf (66 pages, 3292152 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
+ 324 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

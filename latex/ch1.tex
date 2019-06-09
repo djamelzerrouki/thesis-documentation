@@ -61,9 +61,7 @@ Beaucoup de chercheurs ont tenté de définir le cloud computing (Geelan, 2008 ;
 \subsection{Technologies connexes }
 Le cloud computing  utilise des technologies telles que la virtualisation, l'architecture orientée services et les services web. Le cloud est souvent confondu avec plusieurs paradigmes informatiques, tels que le Grid computing, l’Utility computing  et l’Autonomic computing, dont chacun partage certains aspects avec le cloud computing. La figure \ref{label} montre la convergence des technologies qui ont contribué à l'avènement du cloud computing. 
 \begin{enumerate}
-\item \textbf{Grid computing: }   Le grid computing  est un paradigme de calcul réparti qui coordonne des ressources autonomes et géographiquement distribuées pour atteindre un objectif de calcul commun. Le grid est basé sur le partage dynamique des ressources entre des participants, des organisations et des entreprises dans le but de pouvoir les mutualiser, et faire ainsi exécuter des applications scientifiques, qui sont généralement des calculs intensifs ou des traitements de très gros volumes de données. Le cloud computing  est similaire au grid computing : les deux 
-
-adoptent le concept d’offrir les  ressources sous forme de services. Toutefois, ils sont différents dans leur finalité : tandis que la technologie des grilles vise essentiellement à permettre à des groupes différents de partager l’accès en libre service à leurs ressources, le cloud a pour objectif de fournir aux utilisateurs des services « à la demande », sur le principe du « paiement à l’usage ». De plus le cloud  exploite les technologies de virtualisation à plusieurs niveaux (matériel et plateforme d'application) pour réaliser le partage et l'approvisionnement dynamique des ressources.  
+\item \textbf{Grid computing: }   Le grid computing  est un paradigme de calcul réparti qui coordonne des ressources autonomes et géographiquement distribuées pour atteindre un objectif de calcul commun. Le grid est basé sur le partage dynamique des ressources entre des participants, des organisations et des entreprises dans le but de pouvoir les mutualiser, et faire ainsi exécuter des applications scientifiques, qui sont généralement des calculs intensifs ou des traitements de très gros volumes de données. Le cloud computing  est similaire au grid computing :les deux adoptent le concept d’offrir les  ressources sous forme de services. Toutefois, ils sont différents dans leur finalité : tandis que la technologie des grilles vise essentiellement à permettre à des groupes différents de partager l’accès en libre service à leurs ressources, le cloud a pour objectif de fournir aux utilisateurs des services « à la demande », sur le principe du « paiement à l’usage ». De plus le cloud  exploite les technologies de virtualisation à plusieurs niveaux (matériel et plateforme d'application) pour réaliser le partage et l'approvisionnement dynamique des ressources.  
 \item \textbf{Utility computing  (informatique utilitaire): } L’utility computing  est simplement une délocalisation d'un système de calcul ou de stockage. Il présente un modèle d’affectation des ressources à la demande et facturation des utilisateurs en fonction de leur usage. Le cloud computing  peut être perçu comme une réalisation de l'informatique utilitaire. Il adopte un système de tarification basé sur l'utilité, entièrement pour des raisons économiques. Avec l'approvisionnement des ressources à la demande et le paiement à l’usage, les fournisseurs de services peuvent maximiser l'utilisation des ressources et minimiser leurs coûts d'exploitation.
 
 \item \textbf{L'autonomic computing: }  L’autonomic computing  vise à construire des systèmes  informatiques capables de s’auto-administrer en s’adaptant à des changements  internes et externes sans intervention humaine. Le but de l'informatique autonome est de surmonter la complexité de la gestion des systèmes informatiques d'aujourd'hui. Bien que le cloud computing  présente certaines caractéristiques autonomes, telles que l’approvisionnement automatique des ressources, son objectif est de diminuer le coût des ressources, plutôt que de réduire la complexité du système.
@@ -248,6 +246,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
  	 En synthèse, La WfMC présente le Workflow comme l’automatisation d’un processus d’entreprise, en intégralité ou en partie, pendant laquelle on définit les transmissions des documents, de l’information ou des tâches d’un participant à un autre pour agir, selon un jeu de règles procédurales [WFMC11 99]. Un Système Workflow définit, gère et exécute des procédures en exécutant des programmes dont l’ordre d’exécution est prédéfini dans une représentation informatique de la logique de ces procédures - les Workflow [WFMC11 99]. 
  	 
+ 	 \comment{
  	 \subsubsection{ Méta Modèle basique }
  	 Le Workflow est basé sur un ensemble de concepts. La WfMC [WFMC11 99] a proposé un méta modèle de Définition de Procédures, qui identifie les concepts de haut niveau dans la Définition de Processus. Ce modèle permet de mieux appréhender les concepts et leurs interrelations. 
  	 
@@ -263,7 +262,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
  	 Le méta modèle, présenté Figure \ref{fig:metamwfmc11-99}, identifie un ensemble d’objets fondamentaux qui entrent dans la définition d’un processus géré par un système Workflow, et que nous allons définir et commenter dans les paragraphes suivants. Remarquons que le méta modèle peut être enrichi par les développeurs de systèmes, il peut également être utilisé à des fins d’échanges entre différents systèmes Workflow.
  	 
- 	 
+ 	}
  	 \subsubsection{Dimensions}
  	 Associé aux définitions précédentes, il a été défini une représentation tridimensionnelle des systèmes Workflow [VAN DER AALST 98a] (Figure \ref{fig:dimensionswf}). 
  	 
@@ -277,14 +276,21 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 La Figure \ref{fig:dimensionswf} donne une représentation tridimensionnelle d’un Workflow : avec une dimension de cas, une dimension de processus et une dimension de ressource. La dimension de cas représente l’instanciation du Workflow, chaque cas est un modèle à simuler et traiter individuellement. Les cas ne s’influencent donc pas directement. Ils peuvent éventuellement s’influencer indirectement via les ressources et les données. Le processus de Workflow est spécifié dans la dimension de processus, c’est-à-dire, la définition des tâches et de leur enchaînement. Enfin, dans la dimension de ressource, les ressources sont regroupées en rôles et en unités organisationnelles. En résumé, nous pouvons donc visualiser un certain nombre de termes Workflow dans la vue tridimensionnelle de la Figure 16. En particulier, une entité de travail est définie par la coordonnée cas + tâche et une activité par le cas + la tâche + la ressource. Cette représentation met en relief la gestion de Workflow comme le lien entre les cas, les tâches et l’organisation. 
  	 
  	 \subsection{Description des Systèmes Workflow }
- 	 Après avoir présenté la terminologie Workflow, il est maintenant possible de présenter le principe de fonctionnement des systèmes Workflow. A un haut niveau, ce type de système est composé de trois parties fonctionnelles [WFMC03 95]. La Figure 17 illustre un Système de gestion de Workflow et les relations entre ses différentes fonctions. 
+ 	 Après avoir présenté la terminologie Workflow, il est maintenant possible de présenter le principe de fonctionnement des systèmes Workflow. A un haut niveau, ce type de système est composé de trois parties fonctionnelles [WFMC03 95]. La Figure \ref{fig:dswf} illustre un Système de gestion de Workflow et les relations entre ses différentes fonctions. 
  	 
  	 
  	 
- 	 
+ 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"dswf"}
+ 
+	\caption{Caractéristiques du système Workflow}
+	\label{fig:dswf}
+\end{figure}
  	 \subsubsection{ Build time }
  	 
- 	 Cette première phase permet la définition et la modélisation des procédures Workflow, elle est nommée build time. Elle est principalement composée d’un outil permettant la modélisation des Workflow dans un formalisme existant ou propriétaire à partir d’une analyse de procédures d’entreprises, il est à noter que les outils actuels préfèrent une description graphique. Un deuxième composant transcrit les modèles obtenus dans une définition des procédures « exécutable », c’est à dire compréhensibles par la partie chargée de l’exécution (simulateur du run time). Certains systèmes permettent en retour de la partie run time des modifications dynamiques de la structure de définition de procédures comme indiqué sur la Figure 17. 
+ 	 Cette première phase permet la définition et la modélisation des procédures Workflow, elle est nommée build time. Elle est principalement composée d’un outil permettant la modélisation des Workflow dans un formalisme existant ou propriétaire à partir d’une analyse de procédures d’entreprises, il est à noter que les outils actuels préfèrent une description graphique. Un deuxième composant transcrit les modèles obtenus dans une définition des procédures « exécutable », c’est à dire compréhensibles par la partie chargée de l’exécution (simulateur du run time). Certains systèmes permettent en retour de la partie run time des modifications dynamiques de la structure de définition de procédures comme indiqué sur la Figure \ref{fig:dswf}. 
  	  	 \subsubsection{ Run time }
  	 L’environnement d’exécution (ou run time) a l’entière gestion des modèles de Workflow établis dans la première partie. Cette gestion comprend l’exécution des Workflow avec un simulateur mais aussi la distribution des tâches aux rôles appropriés en cours d’exécution, la mise à disposition de l’ensemble des données et outils nécessaires, la supervision et le contrôle, etc.
  	 
@@ -662,42 +668,47 @@ Avec l’arrivée des services de cloud computing  provenant de grandes organisa
 
 \subsection{Le faible Coût d’exploitation }
  Économiquement motivés, les fournisseurs de cloud commercial s'efforcent d'offrir de meilleures garanties de services par rapport aux fournisseurs de grille. Les fournisseurs de cloud profitent également des économies d'échelle, en fournissant des ressources de calcul, de stockage et de bande passante, à un coût très faible grâce, à la virtualisation. Ainsi l'utilisation des services de cloud public pourrait être économique et une alternative moins coûteuse, par rapport à l’utilisation de ressources dédiées, qui sont plus chères. Un des avantages de l'utilisation des ressources virtuelles pour l'exécution de workflow, plutôt que d'un accès direct à la machine physique, est le besoin réduit pour sécuriser les ressources physiques des codes malveillants. Cependant, l'effet à long terme de l'utilisation de ressources virtuelles dans les clouds qui partagent efficacement une "tranche" de la machine physique, plutôt que d'utiliser des ressources dédiées pour les workflows de calculs intensifs, est une question de recherche intéressante.
- 
- 
- \section{Modélisation des processus workflow
- }
- La modélisation est une activité qui précède toute décision ou formulation, elle permet de représenter la description du système réel. Tout comme un système informatique, le système workflow comporte un certain nombre d'aspects à modéliser. Nous présentons en premier lieu ces aspects, nous décrivons en second lieu les principales techniques de modélisation utilisées dans le domaine de workflow et nous terminons cette section par évoquer certains aspects temporels et organisationnels des workflows.
- 
- \subsection{Aspects à modéliser}
- \subsubsection{L'aspect fonctionnel}
- L'aspect fonctionnel concerne l'identification des activités des processus que l'on souhaite modéliser. Il est important de comprendre qu'il ne s'agit pas uniquement d'identifier les fonctions des différents départements d'une organisation mais aussi de distinguer les activités composant un processus. La modélisation fonctionnelle doit également permettre d'établir la hiérarchie des activités, i.e. d'exprimer de possibles décompositions en termes de sous-processus. 
- 
- Enfin, le modèle fonctionnel doit aussi représenter le flux de données associées aux activités et les interdépendances de données entre les activités (data flow). 
- \subsubsection{L'aspect comportemental}
- L'aspect comportemental est un aspect primordial du workflow puisqu'il correspond à la dynamique du processus. Le comportement s'exprime par la modélisation d'un contrôle de flux entre les activités. Ce dernier permet d'indiquer la chronologie de l'exécution des activités, leur flux (séquentiel ou parallèle), les points de synchronisation entre activités ou au contraire, les points de disjonction. De plus, le modèle comportemental doit représenter les événements qui permettent de déclencher les activités. Nous soulignons l'importance de ce modèle, qui permet l'exécution du workflow. L'aspect comportemental est également appelé aspect de coordination.
- \subsubsection{ L'aspect informationnel (données) }
- Cet aspect concerne l'ensemble des informations et des données qui sont associées
- aux activités. Le modèle informationnel, souvent négligé lors de l'implémentation d'un workflow \parencite{b3}, décrit en détail les relations qui existent entre les données, leur type et leur structure.
- \subsubsection{L'aspect organisationnel }
- Comme son nom l'indique, la partie organisationnelle concerne la description de l'organisation des acteurs de l'entreprise. Le modèle organisationnel peut soit refléter fidèlement l'organigramme de l'entreprise, c'est à dire la décomposition hiérarchique de celle-ci en départements et services soit décrire des unités organisationnelles dans lesquelles on identifie des acteurs. Selon la méthode choisie, la description est plus ou moins détaillée et permet d'établir des liens hiérarchiques entre les acteurs ainsi que des relations entre unités organisationnelles ou départements. Toutefois, quelle que soit la méthode retenue, la description des rôles associés aux différentes activités reste invariante. Les rôles créent l'interface entre le modèle organisationnel et les modèles représentant les activités.
- 
- 
- 
- \subsection{Modélisation de Workflow adaptable }
- 
- Dans le cas particulier de la modélisation des Workflow adaptables, plusieurs approches sont proposées [HAN 98]. 
- 
- \subsubsection{ Approche Meta modèle}
- Cette approche emploie un méta modèle pour déterminer la structure et les types de composants constitutifs; elle définit un jeu de primitives pour transformer un modèle Workflow générique ou une instance de modèle. 
- 
- \subsubsection{ L’approche de point ouvert Open-point }
- Elle définit des points spéciaux dans un modèle de Workflow, où l’adaptation peut être faite. Cette approche inclut la mise à disposition de choix multiples pour les utilisateurs, l’allocation dynamique de certaines ressources aux tâches en run time, ou une interface ouverte par laquelle une « dernière modélisation » peut être réalisée. La « dernière modélisation » signifie que, pendant l’exécution des modèles complets, certains sous modèles peuvent être définis dynamiquement pour une utilisation immédiate. 
- \subsubsection{ Approche synthétisée}
- Il semble que les deux approches puissent être employées complémentairement pour la définition de Workflow adaptable. Pour cela, les deux hypothèses suivantes doivent être prises en compte :
- 
- Tout d’abord, il parait nécessaire de distinguer les évolutions de procédures Workflow et les changements ad hoc dynamique dans une procédure. De plus, une séparation claire est faite entre le build time et le run time en termes de Workflow. Il parait impératif de faciliter le franchissement bilatéral de cette frontière pour rendre modélisables les Workflow adaptables.
- 
- En synthèse, il est souhaitable de définir la frontière entre les changements ad hoc et les évolutions du Workflow. Il semblerait que ces changements devraient être testés sur une instance de modèles puis si nécessaires propagés au niveau global pour une modification persistante.
-  
+ %
+ %
+ %
+ %
+ %
+ %
+ \comment{
+ 	\section{Modélisation des processus workflow
+ 	}
+ 	La modélisation est une activité qui précède toute décision ou formulation, elle permet de représenter la description du système réel. Tout comme un système informatique, le système workflow comporte un certain nombre d'aspects à modéliser. Nous présentons en premier lieu ces aspects, nous décrivons en second lieu les principales techniques de modélisation utilisées dans le domaine de workflow et nous terminons cette section par évoquer certains aspects temporels et organisationnels des workflows.
+ 	
+ 	\subsection{Aspects à modéliser}
+ 	\subsubsection{L'aspect fonctionnel}
+ 	L'aspect fonctionnel concerne l'identification des activités des processus que l'on souhaite modéliser. Il est important de comprendre qu'il ne s'agit pas uniquement d'identifier les fonctions des différents départements d'une organisation mais aussi de distinguer les activités composant un processus. La modélisation fonctionnelle doit également permettre d'établir la hiérarchie des activités, i.e. d'exprimer de possibles décompositions en termes de sous-processus. 
+ 	
+ 	Enfin, le modèle fonctionnel doit aussi représenter le flux de données associées aux activités et les interdépendances de données entre les activités (data flow). 
+ 	\subsubsection{L'aspect comportemental}
+ 	L'aspect comportemental est un aspect primordial du workflow puisqu'il correspond à la dynamique du processus. Le comportement s'exprime par la modélisation d'un contrôle de flux entre les activités. Ce dernier permet d'indiquer la chronologie de l'exécution des activités, leur flux (séquentiel ou parallèle), les points de synchronisation entre activités ou au contraire, les points de disjonction. De plus, le modèle comportemental doit représenter les événements qui permettent de déclencher les activités. Nous soulignons l'importance de ce modèle, qui permet l'exécution du workflow. L'aspect comportemental est également appelé aspect de coordination.
+ 	\subsubsection{ L'aspect informationnel (données) }
+ 	Cet aspect concerne l'ensemble des informations et des données qui sont associées
+ 	aux activités. Le modèle informationnel, souvent négligé lors de l'implémentation d'un workflow \parencite{b3}, décrit en détail les relations qui existent entre les données, leur type et leur structure.
+ 	\subsubsection{L'aspect organisationnel }
+ 	Comme son nom l'indique, la partie organisationnelle concerne la description de l'organisation des acteurs de l'entreprise. Le modèle organisationnel peut soit refléter fidèlement l'organigramme de l'entreprise, c'est à dire la décomposition hiérarchique de celle-ci en départements et services soit décrire des unités organisationnelles dans lesquelles on identifie des acteurs. Selon la méthode choisie, la description est plus ou moins détaillée et permet d'établir des liens hiérarchiques entre les acteurs ainsi que des relations entre unités organisationnelles ou départements. Toutefois, quelle que soit la méthode retenue, la description des rôles associés aux différentes activités reste invariante. Les rôles créent l'interface entre le modèle organisationnel et les modèles représentant les activités.
+ 	
+ 	
+ 	
+ 	\subsection{Modélisation de Workflow adaptable }
+ 	
+ 	Dans le cas particulier de la modélisation des Workflow adaptables, plusieurs approches sont proposées [HAN 98]. 
+ 	
+ 	\subsubsection{ Approche Meta modèle}
+ 	Cette approche emploie un méta modèle pour déterminer la structure et les types de composants constitutifs; elle définit un jeu de primitives pour transformer un modèle Workflow générique ou une instance de modèle. 
+ 	
+ 	\subsubsection{ L’approche de point ouvert Open-point }
+ 	Elle définit des points spéciaux dans un modèle de Workflow, où l’adaptation peut être faite. Cette approche inclut la mise à disposition de choix multiples pour les utilisateurs, l’allocation dynamique de certaines ressources aux tâches en run time, ou une interface ouverte par laquelle une « dernière modélisation » peut être réalisée. La « dernière modélisation » signifie que, pendant l’exécution des modèles complets, certains sous modèles peuvent être définis dynamiquement pour une utilisation immédiate. 
+ 	\subsubsection{ Approche synthétisée}
+ 	Il semble que les deux approches puissent être employées complémentairement pour la définition de Workflow adaptable. Pour cela, les deux hypothèses suivantes doivent être prises en compte :
+ 	
+ 	Tout d’abord, il parait nécessaire de distinguer les évolutions de procédures Workflow et les changements ad hoc dynamique dans une procédure. De plus, une séparation claire est faite entre le build time et le run time en termes de Workflow. Il parait impératif de faciliter le franchissement bilatéral de cette frontière pour rendre modélisables les Workflow adaptables.
+ 	
+ 	En synthèse, il est souhaitable de définir la frontière entre les changements ad hoc et les évolutions du Workflow. Il semblerait que ces changements devraient être testés sur une instance de modèles puis si nécessaires propagés au niveau global pour une modification persistante.
+ } 
 \section{Conclusion}
 ....lk

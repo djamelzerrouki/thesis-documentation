@@ -104,14 +104,36 @@ Planification du développement du programme À ce stade de la planification des
  
  
  
- \subsection{ Cas d’utilisation }
+\subsection{ Diagramme de cas d’utilisation }
+ 
+  \subsubsection{ les acteurs de système  }
+ 
+ Un acteur représente l'abstraction d'un rôle joué par des entités externes (utilisateur, dispositif matériel ou autre système) qui interagissent directement avec le système (réception d’information, etc.). Pour notre application,on a trois acteurs : le premier acteur c'est l'administrateur et le deuxième  c'est utilisateur simple  et le troisième c'est l'utilisateur simple .
+ 
+\begin{table}[H]
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\multicolumn{1}{|l|}{Acteur} & Type Acteur & Descriptions \\ \hline
+		Utilisateur &  & 2121 \\ \cline{3-3} 
+		&  & 1 \\ \cline{3-3} 
+		&  &  \\ \cline{3-3} 
+		& Acteur Principale &  \\ \cline{3-3} 
+		Administrateur &  &  \\ \cline{3-3} 
+		&  &  \\ \cline{3-3} 
+		&  &  \\ \cline{3-3} 
+		&  &  \\ \cline{3-3} 
+	\end{tabular}
+\end{table}
+ 
+ \subsubsection{ Cas d’utilisation }
  Le diagramme des cas d’utilisation suivant illustre les fonctionnalités qu’un simple utilisateur du système, également l’administrateur, peut faire. Ce diagramme a été inspiré des spécifications citées ci-dessus :
  
  \begin{figure}[H]
  	\centering
- 	\includegraphics[width=1\linewidth]{images/usercase}
+ 	\includegraphics[width=1\linewidth,height=0.6\paperheight
+ 	]{images/usercase2}
  	\caption{Diagramme de Cas d’utilisation}
- 	\label{fig:usercase}
+ 	\label{fig:usercase2}
  \end{figure}
  
  \subsection{ Documentation des cas d’utilisation fonctionnels }
@@ -464,5 +486,17 @@ Nous allons définir pour chaque classe ses attributs et leur types , ainsi que 
 		historique & Historique & getHistorique() et setHistorique()\\ \hline
    	\end{tabular}
    \end{table}
+\subsection{Diagramme d' activité  }
+
+à partir de cas d'utilisation et de diagramme de classe  va exprimer  le Diagramme d'activité qui  montre interaction des  utilisateurs   en fonction de leurs rôles dans le système en général.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{images/Dactiviti}
+	\caption{Diagramme d'activité qui  montre interaction des  utilisateurs   en fonction de leurs rôles dans le système en général.}
+	\label{fig:dactiviti}
+\end{figure}
+
+
+
  
    

@@ -1,4 +1,8 @@
-\section{Outils}
+\section{Introduction}
+Une fois la conception validée, il est temps de passer à la réalisation. Nous présentons dans ce chapitre le module réalisé en utilisant des captures d’écran pour montrer ses principales fonctionnalités. Nous commençons par présenter les outils et technologies utilisées pour le développement, ensuite nous passons à l’architecture technique de la solution puis l’architecture du code.
+
+\section{Outils et Technologies utilisées pour le développement}
+
  \subsection{Spring}
  
   \subsubsection{Spring Framework }
@@ -78,11 +82,8 @@ des instances d'un service et de leurs emplacements change de façon dynamique.
 
 
 
-
-
-
 \subsubsection{Architecture des microservices via les composants Netflix}
-Nous avons utilisé les composants Netflix pour réaliser les modèles d’architecture de microservices ci-dessus.
+Nous avons utilisé les composants Netflix pour réaliser les modèles d’architecture de microservices ci-dessus.\parencite{MicroServices}.
 
 % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
@@ -110,12 +111,12 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 \subsubsection{Service Discovery Server} 
 
 \authorimg{images/ms-img04} Netflix Eureka permet aux micro-services de s’enregistrer eux-mêmes au moment de leur exécution, tels qu’ils apparaissent dans la structure du système.
-
+\parencite{MicroServices}
 
 
 \subsubsection{Routage dynamique et équilibreur de charge} 
 
-\authorimg{images/ms-img05}  Netflix Ribbon peut être utilisé par les consommateurs de services pour rechercher des services au moment de l’exécution. Le ruban utilise les informations disponibles dans Eureka pour localiser les instances de service appropriées. Si plusieurs instances sont trouvées, le Ruban appliquera un équilibrage de charge pour répartir les demandes sur les instances disponibles. Le ruban ne s'exécute pas en tant que service distinct, mais en tant que composant intégré dans chaque consommateur de service.
+\authorimg{images/ms-img05}  Netflix Ribbon peut être utilisé par les consommateurs de services pour rechercher des services au moment de l’exécution. Le ruban utilise les informations disponibles dans Eureka pour localiser les instances de service appropriées. Si plusieurs instances sont trouvées, le Ruban appliquera un équilibrage de charge pour répartir les demandes sur les instances disponibles. Le ruban ne s'exécute pas en tant que service distinct, mais en tant que composant intégré dans chaque consommateur de service.\parencite{MicroServices}
 
 
 
@@ -123,7 +124,7 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 
 \subsubsection{Serveur Edge} 
 
-\authorimg{images/ms-img06}  Zuul est (bien sûr) notre gardien du monde extérieur, ne permettant pas le passage de demandes externes non autorisées. Zulu fournit également un point d'entrée bien connu aux micro-services dans le paysage système. L'utilisation de ports alloués de manière dynamique est pratique pour éviter les conflits de ports et minimiser l'administration, mais elle rend évidemment la tâche plus difficile pour tout consommateur de services donné. Zuul utilise Ribbon pour rechercher les services disponibles et achemine la demande externe vers une instance de service appropriée.
+\authorimg{images/ms-img06}  Zuul est (bien sûr) notre gardien du monde extérieur, ne permettant pas le passage de demandes externes non autorisées. Zulu fournit également un point d'entrée bien connu aux micro-services dans le paysage système. L'utilisation de ports alloués de manière dynamique est pratique pour éviter les conflits de ports et minimiser l'administration, mais elle rend évidemment la tâche plus difficile pour tout consommateur de services donné. Zuul utilise Ribbon pour rechercher les services disponibles et achemine la demande externe vers une instance de service appropriée.\parencite{MicroServices}
 
 
 \subsection{Spring Boot et Spring Cloud Netflix OSS – Micro Service Architecture}
@@ -132,12 +133,12 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 
  
 
-Spring Boot est un tout nouveau framework de l'équipe de Pivotal, conçu pour simplifier le démarrage et le développement d'une nouvelle application Spring. Le cadre adopte une approche de configuration avisée, libérant les développeurs de la nécessité de définir la configuration standard.
+Spring Boot est un tout nouveau framework de l'équipe de Pivotal, conçu pour simplifier le démarrage et le développement d'une nouvelle application Spring. Le cadre adopte une approche de configuration avisée, libérant les développeurs de la nécessité de définir la configuration standard.\parencite{MicroServices}
 
 \subsubsection{Spring Cloud Netflix}
  
 
-Spring cloud Netflix fournit des intégrations Netflix OSS pour les applications de démarrage printanier via la configuration automatique et la liaison à l'environnement Spring et à d'autres modèles de programmation Spring. Avec quelques annotations simples, nous pouvons rapidement activer et configurer des modèles courants dans une application et construire des systèmes distribués volumineux avec des composants Netflix. De nombreuses fonctionnalités sont disponibles avec le nuage de printemps Netflix. Ici, nous avons répertorié certaines des fonctionnalités communes que nous avons implémentées avec les micro-services avec Spring Boot et Netflix,
+Spring cloud Netflix fournit des intégrations Netflix OSS pour les applications de démarrage printanier via la configuration automatique et la liaison à l'environnement Spring et à d'autres modèles de programmation Spring. Avec quelques annotations simples, nous pouvons rapidement activer et configurer des modèles courants dans une application et construire des systèmes distribués volumineux avec des composants Netflix. De nombreuses fonctionnalités sont disponibles avec le nuage de printemps Netflix. Ici, nous avons répertorié certaines des fonctionnalités communes que nous avons implémentées avec les micro-services avec Spring Boot et Netflix,\parencite{MicroServices}
 
 \begin{itemize}
 \item \textbf{Découverte du service:}
@@ -161,4 +162,115 @@ Spring cloud Netflix fournit des intégrations Netflix OSS pour les applications
 	Enregistrement automatique des filtres Zuul, et un simple
 	convention sur l'approche de configuration pour la création de proxy inverse.
 \end{itemize}
+
+
+\subsection{Maven} 
+\subsubsection{Qu'est-ce que Maven ?}
+
+
+Maven est essentiellement un outil de gestion et de compréhension de projet. 
+
+Maven offre des fonctionnalités de :
+\begin{itemize}
+\item construction , compilation ;
+\item documentation ;
+\item  rapport ;
+\item  gestion des dépendances ;
+\item  gestion des sources ;
+\item mise à jour de projet ;
+\item  déploiement.
+\end{itemize}
+
+\subsubsection{Qu'est-ce que le POM ?}
+Le \textbf{POM} (\textbf{P}roject \textbf{O}bject \textbf{M}odel) est une façon de décrire, de manière déclarative, un projet au sens de Maven. Cette description est contenue dans le fichier \textbf{pom.xml} présent dans le repertoire de base du projet. Le fichier pom.xml contient donc tous les éléments permettant de gérer le cycle de vie du projet. \parencite{maven}.
+
+Code xml :	
+ \lstset{language=XML}
+\begin{lstlisting}
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://
+www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.
+apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"> 
+
+<modelVersion>4.0.0</modelVersion> 
+<groupId>com.mycompany.app</groupId> 
+<artifactId>my-app</artifactId> 
+<packaging>jar</packaging> 
+<version>1.0-SNAPSHOT</version> 
+<name>Maven Quick Start Archetype</name> 
+<url>http://maven.apache.org</url> 
+
+<dependencies> 
+<dependency> 
+<groupId>junit</groupId> 
+<artifactId>junit</artifactId> 
+<version>3.8.1</version> 
+<scope>test</scope> 
+</dependency> 
+</dependencies> 
+
+</project>
+
+\end{lstlisting}
+
+\begin{itemize}
+
+\item \textbf{project} : c'est la balise racine de tous les fichiers pom.xml.
+\item \textbf{modelVersion} : cette balise indique la version de POM utilisée. Bien que cette version ne change pas fréquemment, elle est obligatoire afin de garantir la stabilité d'utilisation.
+\item \textbf{groupId} : cette balise permet d'identifier un groupe qui a créé le projet. Cette clé permet d'organiser et de retrouver plus facilement et rapidement le projet.
+\item \textbf{artifactId} : cette balise indique un nom unique utilisé pour nommer les artifacts à construire.
+\item \textbf{packaging} : type de packaging du projet ( ex. : JAR, WAR, EAR, etc.).
+version : version de l'artifact généré par le projet.
+\item \textbf{name} : nom du projet.
+\item \textbf{url} : adresse du site du projet.
+description : description du projet.
+\item \textbf{dependencies} : balise permettant de gérer les dépendances.
+\end{itemize}
+
+\subsubsection{Qu'est-ce qu'un archetype ?}
+Un archetype est un template de projet. Le fait d'utiliser des archetypes pour initialiser un projet permet de gagner du temps et de respecter une certaine convention. \parencite{maven}.
+
+\subsubsection{Qu'est-ce qu'une dépendance ?}
+ Une dépendance est une référence vers un artefact spécifique contenu dans un repository. Cet artefact est nécessaire pour une ou plusieurs phases du cycle de vie du projet. \parencite{maven}.
  
+ L'exemple le plus simple est une dépendance sur une bibliothèque jar qui permet d'en utiliser le contenu dans le projet.\parencite{maven}.
+ 
+ \subsubsection{Qu'est-ce qu'un artefact ?}
+ 
+ Dans Maven, un artefact est un élément spécifique issu de la construction du logiciel. 
+ 
+ Dans Java, les artefacts les plus communs sont des JARs, mais ce peut être aussi un fichier WAR, un EAR, un ZIP, etc.\parencite{maven}.
+
+  
+ 
+     \subsubsection{Qu'est-ce que le groupId/artifactId ?}
+   Le groupId est l'identifiant du groupe, à l'origine du projet. GroupId suit les mêmes règles de nommage que les packages  Java (exemple : fr.masociete.monprojet), et on choisit généralement comme groupId le nom du top package du projet. \parencite{maven}.
+   
+   L'artifactId est l'identifiant du projet au sein de ce groupe. 
+   
+   L'artifactId est utilisé par défaut pour construire le nom de l'artefact final (exemple : pour un artifactId=monprojet, le nom du fichier jar généré sera monprojet-version.jar).  \subsubsection{Qu'est-ce qu'un SNAPSHOT ?}
+ 
+    Par convention, une version en cours de développement d'un projet voit son numéro de version suivi d'un -SNAPSHOT. 
+    
+    Ainsi un projet en version 2.0-SNAPSHOT signifie que cette version est une pré-version de la version 2.0, en cours de développement. 
+    
+    Ce concept de SNAPSHOT est particulièrement important pour Maven. En effet, dans la gestion des dépendances, Maven va chercher à mettre à jour les versions SNAPSHOT régulièrement pour prendre en compte les derniers développements. 
+    
+    Utiliser une version SNAPSHOT permet de bénéficier des dernières fonctionnalités d'un projet, mais en contrepartie, cette version peut être (et est) appelée à être modifiée de façon importante, sans aucun préavis. \parencite{maven}.
+       \subsubsection{Qu'est-ce que le repository local, distant ?}
+    Un repository local est un répertoire sur le poste du développeur permettant de stocker, suivant la même arborescence, tous les artefacts téléchargés depuis le(s) repository distant(s). \parencite{maven}.
+    
+    Un projet ayant pour POM :
+    
+    Code xml : 
+ 
+     
+    \lstset{language=XML}
+    \begin{lstlisting}
+    <project> 
+    <modelVersion>4.0.0</modelVersion> 
+    <groupId>fr.masociete</groupId> 
+    <artifactId>monprojet</artifactId> 
+    <version>1.0</version> 
+    </project>
+    \end{lstlisting}

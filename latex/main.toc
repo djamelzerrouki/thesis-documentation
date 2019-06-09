@@ -215,66 +215,90 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.4.1} S\IeC {\textquoteright }authentifier }{55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.2}Cr\IeC {\'e}er Dossiers}{56}% 
+\contentsline {subsubsection}{\numberline {3.2.4.2}cas d'utilisation par l'utilisateur r\IeC {\'e}ception ou initial }{55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.3}Activer Dossiers}{56}% 
+\contentsline {subsubsection}{\numberline {3.2.4.3}Cr\IeC {\'e}er Dossiers}{56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.4}Consulter \IeC {\'e}tat des Dossiers}{57}% 
+\contentsline {subsubsection}{\numberline {3.2.4.4}Activer Dossiers}{56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.5}Finir le traitement des Dossiers}{57}% 
+\contentsline {subsubsection}{\numberline {3.2.4.5}cas d'utilisation par l'utilisateur simple }{57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.6}G\IeC {\'e}rer Bordereau}{58}% 
+\contentsline {subsubsection}{\numberline {3.2.4.6}Consulter \IeC {\'e}tat des Dossiers}{57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3} Repr\IeC {\'e}sentation des informations }{58}% 
+\contentsline {subsubsection}{\numberline {3.2.4.7}Finir le traitement des Dossiers}{57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Diagramme de Classe}{58}% 
+\contentsline {subsubsection}{\numberline {3.2.4.8}G\IeC {\'e}rer Bordereau}{58}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3} Repr\IeC {\'e}sentation des informations }{59}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Diagramme de Classe}{59}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.3.1.1}Conception d\IeC {\'e}taill\IeC {\'e}e}{59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Diagramme d' activit\IeC {\'e} }{61}% 
+\contentsline {subsection}{\numberline {3.3.2}Diagramme d' activit\IeC {\'e} }{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2.1}les r\IeC {\^o}les de l'acteur administrateur: }{63}% 
+\contentsline {subsubsection}{\numberline {3.3.2.1}les r\IeC {\^o}les de l'acteur administrateur: }{64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2.2}les r\IeC {\^o}les de l'acteur utilisateur rescription : }{63}% 
+\contentsline {subsubsection}{\numberline {3.3.2.2}les r\IeC {\^o}les de l'acteur utilisateur rescription : }{64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2.3}les r\IeC {\^o}les de l'acteur utilisateur simple : }{63}% 
+\contentsline {subsubsection}{\numberline {3.3.2.3}les r\IeC {\^o}les de l'acteur utilisateur simple : }{64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Conclusion}{63}% 
+\contentsline {section}{\numberline {3.4}Conclusion}{64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}R\IeC {\'e}alisation}{64}% 
+\contentsline {chapter}{\numberline {4}R\IeC {\'e}alisation}{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Outils}{64}% 
+\contentsline {section}{\numberline {4.1}Introduction}{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Spring}{64}% 
+\contentsline {section}{\numberline {4.2}Outils et Technologies utilis\IeC {\'e}es pour le d\IeC {\'e}veloppement}{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.1}Spring Framework }{64}% 
+\contentsline {subsection}{\numberline {4.2.1}Spring}{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.2}Spring boot}{64}% 
+\contentsline {subsubsection}{\numberline {4.2.1.1}Spring Framework }{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.3}Spring Data}{64}% 
+\contentsline {subsubsection}{\numberline {4.2.1.2}Spring boot}{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.4}Spring Cloud}{64}% 
+\contentsline {subsubsection}{\numberline {4.2.1.3}Spring Data}{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.5}Spring Cloud Netflix}{65}% 
+\contentsline {subsubsection}{\numberline {4.2.1.4}Spring Cloud}{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2} Qu'est-ce que Micro Service?}{65}% 
+\contentsline {subsubsection}{\numberline {4.2.1.5}Spring Cloud Netflix}{66}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.1}Pourquoi l\IeC {\textquoteright }architecture de Microservices?}{65}% 
+\contentsline {subsection}{\numberline {4.2.2} Qu'est-ce que Micro Service?}{66}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.2}Patterns dans l'architecture des microservices}{65}% 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Pourquoi l\IeC {\textquoteright }architecture de Microservices?}{66}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.3}Architecture des microservices via les composants Netflix}{66}% 
+\contentsline {subsubsection}{\numberline {4.2.2.2}Patterns dans l'architecture des microservices}{66}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Composantes majeures de Netflix}{66}% 
+\contentsline {subsubsection}{\numberline {4.2.2.3}Architecture des microservices via les composants Netflix}{67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3.1}Service Discovery Server}{66}% 
+\contentsline {subsection}{\numberline {4.2.3}Composantes majeures de Netflix}{67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3.2}Routage dynamique et \IeC {\'e}quilibreur de charge}{66}% 
+\contentsline {subsubsection}{\numberline {4.2.3.1}Service Discovery Server}{67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3.3}Serveur Edge}{66}% 
+\contentsline {subsubsection}{\numberline {4.2.3.2}Routage dynamique et \IeC {\'e}quilibreur de charge}{67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Spring Boot et Spring Cloud Netflix OSS \IeC {\textendash } Micro Service Architecture}{67}% 
+\contentsline {subsubsection}{\numberline {4.2.3.3}Serveur Edge}{68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4.1}Micro Services avec Spring Boot}{67}% 
+\contentsline {subsection}{\numberline {4.2.4}Spring Boot et Spring Cloud Netflix OSS \IeC {\textendash } Micro Service Architecture}{68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4.2}Spring Cloud Netflix}{67}% 
+\contentsline {subsubsection}{\numberline {4.2.4.1}Micro Services avec Spring Boot}{68}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.4.2}Spring Cloud Netflix}{68}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.5}Maven}{68}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5.1}Qu'est-ce que Maven ?}{68}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5.2}Qu'est-ce que le POM ?}{69}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5.3}Qu'est-ce qu'un archetype ?}{70}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5.4}Qu'est-ce qu'une d\IeC {\'e}pendance ?}{70}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5.5}Qu'est-ce qu'un artefact ?}{70}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5.6}Qu'est-ce que le groupId/artifactId ?}{70}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5.7}Qu'est-ce qu'un SNAPSHOT ?}{70}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5.8}Qu'est-ce que le repository local, distant ?}{71}% 

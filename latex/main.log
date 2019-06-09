@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  9 JUN 2019 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  10 JUN 2019 00:29
 entering extended mode
 **./main.tex
 (main.tex
@@ -308,15 +308,54 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks31
 \@floatcapt=\box32
 )
-\c@thm=\count112
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings
+.sty"
+\lst@mode=\count112
+\lst@gtempboxa=\box33
+\lst@token=\toks32
+\lst@length=\count113
+\lst@currlwidth=\dimen127
+\lst@column=\count114
+\lst@pos=\count115
+\lst@lostspace=\dimen128
+\lst@width=\dimen129
+\lst@newlines=\count116
+\lst@lineno=\count117
+\lst@maxwidth=\dimen130
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.
+sty"
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
+\lst@framebox=\box34
+)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings
+.cfg"
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.st
+y"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+Package color Info: Redefining color cyan on input line 12.
+\c@thm=\count120
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wrapfig\wrapfig.s
 ty"
-\wrapoverhang=\dimen127
-\WF@size=\dimen128
-\c@WF@wrappedlines=\count113
-\WF@box=\box33
-\WF@everypar=\toks32
+\wrapoverhang=\dimen131
+\WF@size=\dimen132
+\c@WF@wrappedlines=\count121
+\WF@box=\box35
+\WF@everypar=\toks33
 Package: wrapfig 2003/01/31  v 3.6
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
@@ -332,18 +371,18 @@ Package ifvtex Info: VTeX not detected.
 .sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count114
-\Gm@cntv=\count115
-\c@Gm@tempcnt=\count116
-\Gm@bindingoffset=\dimen129
-\Gm@wd@mp=\dimen130
-\Gm@odd@mp=\dimen131
-\Gm@even@mp=\dimen132
-\Gm@layoutwidth=\dimen133
-\Gm@layoutheight=\dimen134
-\Gm@layouthoffset=\dimen135
-\Gm@layoutvoffset=\dimen136
-\Gm@dimlist=\toks33
+\Gm@cnth=\count122
+\Gm@cntv=\count123
+\c@Gm@tempcnt=\count124
+\Gm@bindingoffset=\dimen133
+\Gm@wd@mp=\dimen134
+\Gm@odd@mp=\dimen135
+\Gm@even@mp=\dimen136
+\Gm@layoutwidth=\dimen137
+\Gm@layoutheight=\dimen138
+\Gm@layouthoffset=\dimen139
+\Gm@layoutvoffset=\dimen140
+\Gm@dimlist=\toks34
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
 .cfg"))
@@ -355,24 +394,25 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 sty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen137
-\captionmargin@=\dimen138
-\captionwidth=\dimen139
-\caption@tempdima=\dimen140
-\caption@indent=\dimen141
-\caption@parindent=\dimen142
-\caption@hangindent=\dimen143
+\captionmargin=\dimen141
+\captionmargin@=\dimen142
+\captionwidth=\dimen143
+\caption@tempdima=\dimen144
+\caption@indent=\dimen145
+\caption@parindent=\dimen146
+\caption@hangindent=\dimen147
 )
-\c@caption@flags=\count117
-\c@ContinuedFloat=\count118
+\c@caption@flags=\count125
+\c@ContinuedFloat=\count126
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaptio
 n.sty"
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count119
-\c@subtable=\count120
+\c@subfigure=\count127
+\c@subtable=\count128
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr
 .sty"
@@ -401,10 +441,11 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl
 .sty"
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
-\everycr=\toks34
+\everycr=\toks35
 \minrowclearance=\skip63
 )
-\rownum=\count121
+LaTeX Info: Redefining \color on input line 709.
+\rownum=\count129
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -422,12 +463,12 @@ Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox
 .sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count122
+\etb@tempcnta=\count130
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty
 "
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count123
+\lrq@indent=\count131
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def
 "
@@ -436,47 +477,47 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count124
-\c@listtotal=\count125
-\c@listcount=\count126
-\c@liststart=\count127
-\c@liststop=\count128
-\c@citecount=\count129
-\c@citetotal=\count130
-\c@multicitecount=\count131
-\c@multicitetotal=\count132
-\c@instcount=\count133
-\c@maxnames=\count134
-\c@minnames=\count135
-\c@maxitems=\count136
-\c@minitems=\count137
-\c@citecounter=\count138
-\c@maxcitecounter=\count139
-\c@savedcitecounter=\count140
-\c@uniquelist=\count141
-\c@uniquename=\count142
-\c@refsection=\count143
-\c@refsegment=\count144
-\c@maxextratitle=\count145
-\c@maxextratitleyear=\count146
-\c@maxextraname=\count147
-\c@maxextradate=\count148
-\c@maxextraalpha=\count149
-\c@abbrvpenalty=\count150
-\c@highnamepenalty=\count151
-\c@lownamepenalty=\count152
-\c@maxparens=\count153
-\c@parenlevel=\count154
-\blx@tempcnta=\count155
-\blx@tempcntb=\count156
-\blx@tempcntc=\count157
-\blx@maxsection=\count158
-\blx@maxsegment@0=\count159
-\blx@notetype=\count160
-\blx@parenlevel@text=\count161
-\blx@parenlevel@foot=\count162
-\blx@sectionciteorder@0=\count163
-\blx@entrysetcounter=\count164
+\c@tabx@nest=\count132
+\c@listtotal=\count133
+\c@listcount=\count134
+\c@liststart=\count135
+\c@liststop=\count136
+\c@citecount=\count137
+\c@citetotal=\count138
+\c@multicitecount=\count139
+\c@multicitetotal=\count140
+\c@instcount=\count141
+\c@maxnames=\count142
+\c@minnames=\count143
+\c@maxitems=\count144
+\c@minitems=\count145
+\c@citecounter=\count146
+\c@maxcitecounter=\count147
+\c@savedcitecounter=\count148
+\c@uniquelist=\count149
+\c@uniquename=\count150
+\c@refsection=\count151
+\c@refsegment=\count152
+\c@maxextratitle=\count153
+\c@maxextratitleyear=\count154
+\c@maxextraname=\count155
+\c@maxextradate=\count156
+\c@maxextraalpha=\count157
+\c@abbrvpenalty=\count158
+\c@highnamepenalty=\count159
+\c@lownamepenalty=\count160
+\c@maxparens=\count161
+\c@parenlevel=\count162
+\blx@tempcnta=\count163
+\blx@tempcntb=\count164
+\blx@tempcntc=\count165
+\blx@maxsection=\count166
+\blx@maxsegment@0=\count167
+\blx@notetype=\count168
+\blx@parenlevel@text=\count169
+\blx@parenlevel@foot=\count170
+\blx@sectionciteorder@0=\count171
+\blx@entrysetcounter=\count172
 \labelnumberwidth=\skip64
 \labelalphawidth=\skip65
 \biblabelsep=\skip66
@@ -487,9 +528,9 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \bibhang=\skip71
 \blx@bcfin=\read1
 \blx@bcfout=\write3
-\c@mincomprange=\count165
-\c@maxcomprange=\count166
-\c@mincompwidth=\count167
+\c@mincomprange=\count173
+\c@maxcomprange=\count174
+\c@mincompwidth=\count175
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -501,74 +542,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count168
-\c@savedafterword=\count169
-\c@annotator=\count170
-\c@savedannotator=\count171
-\c@author=\count172
-\c@savedauthor=\count173
-\c@bookauthor=\count174
-\c@savedbookauthor=\count175
-\c@commentator=\count176
-\c@savedcommentator=\count177
-\c@editor=\count178
-\c@savededitor=\count179
-\c@editora=\count180
-\c@savededitora=\count181
-\c@editorb=\count182
-\c@savededitorb=\count183
-\c@editorc=\count184
-\c@savededitorc=\count185
-\c@foreword=\count186
-\c@savedforeword=\count187
-\c@holder=\count188
-\c@savedholder=\count189
-\c@introduction=\count190
-\c@savedintroduction=\count191
-\c@namea=\count192
-\c@savednamea=\count193
-\c@nameb=\count194
-\c@savednameb=\count195
-\c@namec=\count196
-\c@savednamec=\count197
-\c@translator=\count198
-\c@savedtranslator=\count199
-\c@shortauthor=\count266
-\c@savedshortauthor=\count267
-\c@shorteditor=\count268
-\c@savedshorteditor=\count269
-\c@labelname=\count270
-\c@savedlabelname=\count271
-\c@institution=\count272
-\c@savedinstitution=\count273
-\c@lista=\count274
-\c@savedlista=\count275
-\c@listb=\count276
-\c@savedlistb=\count277
-\c@listc=\count278
-\c@savedlistc=\count279
-\c@listd=\count280
-\c@savedlistd=\count281
-\c@liste=\count282
-\c@savedliste=\count283
-\c@listf=\count284
-\c@savedlistf=\count285
-\c@location=\count286
-\c@savedlocation=\count287
-\c@organization=\count288
-\c@savedorganization=\count289
-\c@origlocation=\count290
-\c@savedoriglocation=\count291
-\c@origpublisher=\count292
-\c@savedorigpublisher=\count293
-\c@publisher=\count294
-\c@savedpublisher=\count295
-\c@language=\count296
-\c@savedlanguage=\count297
-\c@origlanguage=\count298
-\c@savedoriglanguage=\count299
-\c@pageref=\count300
-\c@savedpageref=\count301
+\c@afterword=\count176
+\c@savedafterword=\count177
+\c@annotator=\count178
+\c@savedannotator=\count179
+\c@author=\count180
+\c@savedauthor=\count181
+\c@bookauthor=\count182
+\c@savedbookauthor=\count183
+\c@commentator=\count184
+\c@savedcommentator=\count185
+\c@editor=\count186
+\c@savededitor=\count187
+\c@editora=\count188
+\c@savededitora=\count189
+\c@editorb=\count190
+\c@savededitorb=\count191
+\c@editorc=\count192
+\c@savededitorc=\count193
+\c@foreword=\count194
+\c@savedforeword=\count195
+\c@holder=\count196
+\c@savedholder=\count197
+\c@introduction=\count198
+\c@savedintroduction=\count199
+\c@namea=\count266
+\c@savednamea=\count267
+\c@nameb=\count268
+\c@savednameb=\count269
+\c@namec=\count270
+\c@savednamec=\count271
+\c@translator=\count272
+\c@savedtranslator=\count273
+\c@shortauthor=\count274
+\c@savedshortauthor=\count275
+\c@shorteditor=\count276
+\c@savedshorteditor=\count277
+\c@labelname=\count278
+\c@savedlabelname=\count279
+\c@institution=\count280
+\c@savedinstitution=\count281
+\c@lista=\count282
+\c@savedlista=\count283
+\c@listb=\count284
+\c@savedlistb=\count285
+\c@listc=\count286
+\c@savedlistc=\count287
+\c@listd=\count288
+\c@savedlistd=\count289
+\c@liste=\count290
+\c@savedliste=\count291
+\c@listf=\count292
+\c@savedlistf=\count293
+\c@location=\count294
+\c@savedlocation=\count295
+\c@organization=\count296
+\c@savedorganization=\count297
+\c@origlocation=\count298
+\c@savedoriglocation=\count299
+\c@origpublisher=\count300
+\c@savedorigpublisher=\count301
+\c@publisher=\count302
+\c@savedpublisher=\count303
+\c@language=\count304
+\c@savedlanguage=\count305
+\c@origlanguage=\count306
+\c@savedoriglanguage=\count307
+\c@pageref=\count308
+\c@savedpageref=\count309
 \shorthandwidth=\skip72
 \shortjournalwidth=\skip73
 \shortserieswidth=\skip74
@@ -608,13 +649,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex
 .def"
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count302
-\c@textcitetotal=\count303
-\c@textcitemaxnames=\count304
-\c@biburlnumpenalty=\count305
-\c@biburlucpenalty=\count306
-\c@biburllcpenalty=\count307
-\c@smartand=\count308
+\c@textcitecount=\count310
+\c@textcitetotal=\count311
+\c@textcitemaxnames=\count312
+\c@biburlnumpenalty=\count313
+\c@biburlucpenalty=\count314
+\c@biburllcpenalty=\count315
+\c@smartand=\count316
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -628,8 +669,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\stan
 dard.bbx"
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count309
-\c@bbx:relatedtotal=\count310
+\c@bbx:relatedcount=\count317
+\c@bbx:relatedtotal=\count318
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -652,19 +693,19 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 .cfg"
 File: biblatex.cfg 
 ))
-\c@defn=\count311
-\c@conj=\count312
-\c@exmp=\count313
+\c@defn=\count319
+\c@conj=\count320
+\c@exmp=\count321
 
 
-Package amsthm Warning: Unknown theoremstyle `Remarque' on input line 57.
+Package amsthm Warning: Unknown theoremstyle `Remarque' on input line 80.
 
-\c@rem=\count314
+\c@rem=\count322
 Package biblatex Info: Trying to load language 'francais'...
 Package biblatex Info: ... file 'francais.lbx' not found.
 
 Package biblatex Warning: Language 'francais' not supported.
-(biblatex)                Using fallback language 'english' on input line 71.
+(biblatex)                Using fallback language 'english' on input line 94.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -684,48 +725,50 @@ File: french.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count315
-\@quotereset=\count316
+\@quotelevel=\count323
+\@quotereset=\count324
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Info: Redefining \degres on input line 71.
-LaTeX Info: Redefining \dots on input line 71.
-LaTeX Info: Redefining \up on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Info: Redefining \degres on input line 94.
+LaTeX Info: Redefining \dots on input line 94.
+LaTeX Info: Redefining \up on input line 94.
 
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 71.
+(french.ldf)                of your document; reported on input line 94.
 
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-
 pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen144
-\scratchbox=\box34
-\nofMPsegments=\count318
-\nofMParguments=\count319
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen145
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count325
+\scratchdimen=\dimen148
+\scratchbox=\box36
+\nofMPsegments=\count326
+\nofMParguments=\count327
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen149
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
+\everyMPtoPDFconversion=\toks37
 )
+\c@lstlisting=\count331
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -774,8 +817,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 (main.bbl)
-Package biblatex Info: Reference section=0 on input line 71.
-Package biblatex Info: Reference segment=0 on input line 71.
+Package biblatex Info: Reference section=0 on input line 94.
+Package biblatex Info: Reference segment=0 on input line 94.
  (titlepage.tex
 <images/univtiaret.png, id=1, 80.9424pt x 79.0152pt>
 File: images/univtiaret.png Graphic file (type png)
@@ -1148,30 +1191,19 @@ e Preparez les ques-tions de developpement
 File: images/usercase2.png Graphic file (type png)
 <use images/usercase2.png>
 Package pdftex.def Info: images/usercase2.png  used on input line 153.
-(pdftex.def)             Requested size: 426.81236pt x 507.03893pt.
-
-Overfull \hbox (35.79843pt too wide) in paragraph at lines 162--185
+(pdftex.def)             Requested size: 426.81236pt x 591.53708pt.
+ [54 <./images/usercase2.png>]
+Overfull \hbox (35.79843pt too wide) in paragraph at lines 164--187
  [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54 <./images/usercase2.png>]
-Overfull \hbox (13.9374pt too wide) in paragraph at lines 189--201
+Overfull \hbox (13.9374pt too wide) in paragraph at lines 192--204
 [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55]
-Overfull \hbox (9.43327pt too wide) in paragraph at lines 210--226
-[][] 
- []
-
-
-Overfull \hbox (13.4431pt too wide) in paragraph at lines 236--252
+[55]
+Overfull \hbox (9.43327pt too wide) in paragraph at lines 213--229
 [][] 
  []
 
@@ -1179,46 +1211,54 @@ Overfull \hbox (13.4431pt too wide) in paragraph at lines 236--252
 Underfull \vbox (badness 2351) has occurred while \output is active []
 
  [56]
-Overfull \hbox (3.74738pt too wide) in paragraph at lines 258--274
+Overfull \hbox (13.4431pt too wide) in paragraph at lines 240--256
 [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (3.74738pt too wide) in paragraph at lines 262--278
+[][] 
+ []
+
+
+Underfull \vbox (badness 1888) has occurred while \output is active []
 
  [57]
 <images/class01.png, id=243, 784.73175pt x 496.254pt>
 File: images/class01.png Graphic file (type png)
 <use images/class01.png>
-Package pdftex.def Info: images/class01.png  used on input line 311.
-(pdftex.def)             Requested size: 426.79134pt x 269.8965pt.
+Package pdftex.def Info: images/class01.png  used on input line 315.
+(pdftex.def)             Requested size: 426.79024pt x 507.0356pt.
 
-[58 <./images/class01.png>]
-Overfull \hbox (8.98949pt too wide) in paragraph at lines 351--363
- [][] 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[59]
-Overfull \hbox (20.98196pt too wide) in paragraph at lines 494--507
+ [58]
+[59 <./images/class01.png>]
+Overfull \hbox (8.98949pt too wide) in paragraph at lines 355--367
  [][] 
  []
 
 [60]
-<images/Dactiviti.png, id=254, 347.49825pt x 453.49425pt>
+Overfull \hbox (20.98196pt too wide) in paragraph at lines 498--511
+ [][] 
+ []
+
+[61]
+<images/Dactiviti.png, id=258, 347.49825pt x 453.49425pt>
 File: images/Dactiviti.png Graphic file (type png)
 <use images/Dactiviti.png>
-Package pdftex.def Info: images/Dactiviti.png  used on input line 513.
+Package pdftex.def Info: images/Dactiviti.png  used on input line 517.
 (pdftex.def)             Requested size: 469.47307pt x 612.72363pt.
 
-Overfull \hbox (42.68173pt too wide) in paragraph at lines 513--514
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 517--518
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
-Overfull \hbox (0.64311pt too wide) in paragraph at lines 518--519
+ [62]
+Overfull \hbox (0.64311pt too wide) in paragraph at lines 522--523
 []\OT1/cmr/m/n/12 l'interaction de l'ac-teur ad-mi-nis-tra-teur avec le system
 e il faut d'abord de connecte
  []
@@ -1226,33 +1266,170 @@ e il faut d'abord de connecte
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62 <./images/Dactiviti.png>]) [63]
+ [63 <./images/Dactiviti.png>]) [64]
 Chapitre 4.
-(ch4.tex [64
+(ch4.tex
+Overfull \hbox (67.2203pt too wide) in paragraph at lines 4--4
+[]\OT1/cmr/bx/n/17.28 Outils et Tech-no-lo-gies uti-lisees pour le developpem
+ent 
+ []
 
-] [65]
-<images/ms-img04.png, id=272, 88.07906pt x 92.59593pt>
+[65
+
+] [66]
+<images/ms-img04.png, id=275, 88.07906pt x 92.59593pt>
 File: images/ms-img04.png Graphic file (type png)
 <use images/ms-img04.png>
-Package pdftex.def Info: images/ms-img04.png  used on input line 112.
+Package pdftex.def Info: images/ms-img04.png  used on input line 113.
 (pdftex.def)             Requested size: 42.68173pt x 44.8708pt.
-<images/ms-img05.png, id=273, 101.62968pt x 70.76437pt>
+<images/ms-img05.png, id=276, 101.62968pt x 70.76437pt>
 File: images/ms-img05.png Graphic file (type png)
 <use images/ms-img05.png>
-Package pdftex.def Info: images/ms-img05.png  used on input line 118.
+Package pdftex.def Info: images/ms-img05.png  used on input line 119.
 (pdftex.def)             Requested size: 42.68173pt x 29.71866pt.
-<images/ms-img06.png, id=274, 130.98938pt x 96.36pt>
+<images/ms-img06.png, id=277, 130.98938pt x 96.36pt>
 File: images/ms-img06.png Graphic file (type png)
 <use images/ms-img06.png>
-Package pdftex.def Info: images/ms-img06.png  used on input line 126.
+Package pdftex.def Info: images/ms-img06.png  used on input line 127.
 (pdftex.def)             Requested size: 42.68173pt x 31.39748pt.
- [66 <./images/ms-img04.png> <./images/ms-img05.png> <./images/ms-img06.png>]
-Overfull \hbox (2.36673pt too wide) in paragraph at lines 145--147
+ [67 <./images/ms-img04.png> <./images/ms-img05.png>]
+Overfull \hbox (2.36673pt too wide) in paragraph at lines 146--148
 []\OT1/cmr/m/n/12 Les ins-tances Eu-reka peuvent ^etre en-re-gistrees et les c
 lients peuvent Decouvrez
  []
 
-) [67] [68
+[68 <./images/ms-img06.png>]
+Overfull \hbox (5.27849pt too wide) in paragraph at lines 185--186
+[]\OT1/cmr/m/n/12 Le \OT1/cmr/bx/n/12 POM \OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 P\O
+T1/cmr/m/n/12 roject \OT1/cmr/bx/n/12 O\OT1/cmr/m/n/12 bject \OT1/cmr/bx/n/12 M
+\OT1/cmr/m/n/12 odel) est une facon de decrire, de maniere declarative,
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 191.
+
+
+Package xcolor Warning: Incompatible color definition on input line 191.
+
+
+Package xcolor Warning: Incompatible color definition on input line 192.
+
+
+Package xcolor Warning: Incompatible color definition on input line 192.
+
+
+Package xcolor Warning: Incompatible color definition on input line 195.
+
+
+Package xcolor Warning: Incompatible color definition on input line 195.
+
+
+Package xcolor Warning: Incompatible color definition on input line 196.
+
+
+Package xcolor Warning: Incompatible color definition on input line 196.
+
+
+Package xcolor Warning: Incompatible color definition on input line 197.
+
+
+Package xcolor Warning: Incompatible color definition on input line 197.
+
+
+Package xcolor Warning: Incompatible color definition on input line 198.
+
+
+Package xcolor Warning: Incompatible color definition on input line 198.
+
+
+Package xcolor Warning: Incompatible color definition on input line 200.
+
+
+Package xcolor Warning: Incompatible color definition on input line 200.
+
+
+Package xcolor Warning: Incompatible color definition on input line 201.
+
+
+Package xcolor Warning: Incompatible color definition on input line 201.
+
+
+Package xcolor Warning: Incompatible color definition on input line 203.
+
+
+Package xcolor Warning: Incompatible color definition on input line 204.
+
+
+Package xcolor Warning: Incompatible color definition on input line 205.
+
+
+Package xcolor Warning: Incompatible color definition on input line 205.
+
+
+Package xcolor Warning: Incompatible color definition on input line 206.
+
+
+Package xcolor Warning: Incompatible color definition on input line 206.
+
+
+Package xcolor Warning: Incompatible color definition on input line 208.
+
+
+Package xcolor Warning: Incompatible color definition on input line 208.
+
+
+Package xcolor Warning: Incompatible color definition on input line 209.
+
+
+Package xcolor Warning: Incompatible color definition on input line 210.
+
+
+Package xcolor Warning: Incompatible color definition on input line 212.
+
+[69]
+Overfull \hbox (77.83852pt too wide) in paragraph at lines 247--248
+\OT1/cmr/m/n/12 et on choi-sit generalement comme grou-pId le nom du top pa-c
+kage du pro-jet. ([]\OT1/cmr/m/sc/12 ava.developpez.com
+ []
+
+
+Overfull \hbox (12.87633pt too wide) in paragraph at lines 251--251
+[]\OT1/cmr/m/n/12 L'artifactId est uti-lise par defaut pour construire le nom
+ de l'ar-te-fact fi-nal (exemple :
+ []
+
+
+Overfull \hbox (10.04016pt too wide) in paragraph at lines 251--251
+\OT1/cmr/m/n/12 pour un ar-ti-fac-tId=monprojet, le nom du fi-chier jar gener
+e sera monprojet-version.jar). 
+ []
+
+[70]
+
+Package xcolor Warning: Incompatible color definition on input line 270.
+
+
+Package xcolor Warning: Incompatible color definition on input line 271.
+
+
+Package xcolor Warning: Incompatible color definition on input line 271.
+
+
+Package xcolor Warning: Incompatible color definition on input line 272.
+
+
+Package xcolor Warning: Incompatible color definition on input line 272.
+
+
+Package xcolor Warning: Incompatible color definition on input line 273.
+
+
+Package xcolor Warning: Incompatible color definition on input line 273.
+
+
+Package xcolor Warning: Incompatible color definition on input line 275.
+
+) [71] [72
 
 ] (main.aux)
 
@@ -1263,13 +1440,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13241 strings out of 492946
- 224638 string characters out of 3125822
- 529020 words of memory out of 3000000
- 16902 multiletter control sequences out of 15000+200000
+ 14862 strings out of 492946
+ 245974 string characters out of 3125822
+ 551728 words of memory out of 3000000
+ 18507 multiletter control sequences out of 15000+200000
  12491 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,24n,46p,1700b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,24n,46p,1700b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmbxti10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 
@@ -1288,9 +1465,9 @@ sy6.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (68 pages, 3421602 bytes).
+Output written on main.pdf (72 pages, 3429687 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
+ 347 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

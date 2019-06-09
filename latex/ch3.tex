@@ -1,8 +1,18 @@
 
 
 \section*{Introduction}
-Après avoir achevé notre étude de l’existant et étudié de près le système actuel, nous abordons l’étape suivante qui consiste à concevoir le nouveau système en utilisant la modélisation UML. L’objectif de cette étape est de déterminer de façon détaillée et précise ce que le nouveau système devrait faire, afin de répondre aux objectifs attendus. Dans ce chapitre nous allons détailler les objectifs fixés du système,en suite nous détaillons ses fonctionnalités et sa logique de fonctionnement. 
-%Nous présentons aussi 
+
+\comment{
+	Après avoir achevé notre étude de l’existant et étudié de près le système actuel, nous abordons l’étape suivante qui consiste à concevoir le nouveau système en utilisant la modélisation UML. L’objectif de cette étape est de déterminer de façon détaillée et précise ce que le nouveau système devrait faire, afin de répondre aux objectifs attendus. Dans ce chapitre nous allons détailler les objectifs fixés du système,en suite nous détaillons ses fonctionnalités et sa logique de fonctionnement. 
+	%Nous présentons aussi 
+}
+
+
+
+
+Dans cette parti de pratique et dans ce chapitre  nous parlons sur l'analyse à la conception de travail d'abord on va parler sur   UML  (sa définition , contente ... ex ). puis identifier les objectifs de projet  spécifications des besoins fonctionnaire et les besoins technique ,ensuite la description	 du  diagramme de cas d'utilisation  et pour la conception :une représentation des informations par le diagramme de classe et  le diagramme d'activité  
+
+
 
  \section{Unified Modeling Language (UML):}
  Dans ce qui suit, nous allons donner une brève description d’UML.
@@ -114,14 +124,24 @@ Planification du développement du programme À ce stade de la planification des
 	\begin{tabular}{|l|l|l|}
 		\hline
 		\multicolumn{1}{|l|}{Acteur} & Type Acteur & Descriptions \\ \hline
-		Utilisateur &  & 2121 \\ \cline{3-3} 
-		&  & 1 \\ \cline{3-3} 
-		&  &  \\ \cline{3-3} 
-		& Acteur Principale &  \\ \cline{3-3} 
-		Administrateur &  &  \\ \cline{3-3} 
-		&  &  \\ \cline{3-3} 
-		&  &  \\ \cline{3-3} 
-		&  &  \\ \cline{3-3} 
+	Administrateur	 &  & S’authentifier \\ \cline{3-3} 
+		&  & Gérer le Modale \\ \cline{3-3} 
+		&  & Gérer Sous Direction \\ \cline{3-3} 
+	 	&  & Gérer les Services \\ \cline{3-3} 	
+	 	&  & Gérer les Tâches \\ \cline{3-3} 
+		&  & Gérer les Utilisateurs \\ \cline{3-3} 
+		& Acteur Principale & Gérer Workflow par BPMN  \\ \cline{3-3} 
+				&  & Consulter les Bordereaux  \\ \cline{3-3} 
+						&  &Consulter les historique des dossiers\\ \cline{3-3} 
+								&  & Gérer les Utilisateurs \\ \hline 
+		
+  
+			Utilisateur réception	 	&Acteur Principal & Créer et Gérer les dossiers  \\ \cline{3-3}  
+		&  & Activé les dossiers et ajoute sur wf \\ \hline
+ 
+		Utilisateur Simple	&  & finir le traitement de dossier  \\ \cline{3-3} 
+		&  Acteur Principal& Gérer les Bordereaux  \\ \cline{3-3} 
+		&  &Gérer les historique des dossiers\\ \hline 
 	\end{tabular}
 \end{table}
  
@@ -130,8 +150,7 @@ Planification du développement du programme À ce stade de la planification des
  
  \begin{figure}[H]
  	\centering
- 	\includegraphics[width=1\linewidth,height=0.6\paperheight
- 	]{images/usercase2}
+ 	\includegraphics[width=1\linewidth,height=0.6\paperheight]{usercase2}
  	\caption{Diagramme de Cas d’utilisation}
  	\label{fig:usercase2}
  \end{figure}
@@ -491,12 +510,24 @@ Nous allons définir pour chaque classe ses attributs et leur types , ainsi que 
 à partir de cas d'utilisation et de diagramme de classe  va exprimer  le Diagramme d'activité qui  montre interaction des  utilisateurs   en fonction de leurs rôles dans le système en général.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{images/Dactiviti}
+	\includegraphics[width=1.1\linewidth]{Dactiviti}
 	\caption{Diagramme d'activité qui  montre interaction des  utilisateurs   en fonction de leurs rôles dans le système en général.}
 	\label{fig:dactiviti}
 \end{figure}
+\subsubsection{les rôles de l'acteur administrateur: }
+l'interaction de l'acteur administrateur avec le système il faut d'abord de connecté où système , puis créer  et  défini le modèle par la spécification de   nom et  les chants de dossier  pour la génération de code et lancer nouveau micro service déployé sur le Cloud par leur nom de service spécifié,ensuite peut gérer le sous direction et les service et le modale de workflow par "BPMN"  pour gérer le tâche   ,ensuite   gérer les utilisateurs  et enfin  il peux consulter les bordereaux qui gérer par les utilisateurs et de même  consulter les historiques.
 
+\subsubsection{les rôles de l'acteur utilisateur rescription : }
+l'interaction de l'utilisateur réception ou bien initial , il faut déjà créé par l'administrateur  et connecter au système, il peut de  gérer les dossiers par créer des nouveaux dossiers sur la réception et vérifie le   les champs  de chaque dossier ,ensuite il peut activer les dossiers veut dire ajouter les dossiers sur voir flou le début de traitement de dossier sur les processus "tâches" de workflow qui déjà défini par administration. 
 
-
- 
+\subsubsection{les rôles de l'acteur utilisateur simple : } 
+ après l'authentification au système l'utilisateur sa connecter  sur leur tâche et il peut voir tous les dossiers en attente qui sont en cours de traitement et les bordereaux qui  déjà reçu par un autre tâche, l'utilisateur peut finir le traitement de dossier par leur tâche , peux gérer un nouveau bordereau pour transfert liste des dossiers vers d'autres tâches  et de gérer les historiques des dossiers.
+   
+   
+   \section{Conclusion}
+   
+   Dans ce chapitre nous avons fait une étude de notre système logiciel en utilisant la modélisation UML après la spécification des besoins.
+   
+     Dans le chapitre suivant nous allons expliquer la phase de réalisation du système, son intégration et son déploiement sur le  cloud par les micro service, tout en respectant les directives de la conception.
+    
    

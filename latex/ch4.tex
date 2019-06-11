@@ -83,7 +83,7 @@ des instances d'un service et de leurs emplacements change de façon dynamique.
 
 
 \subsubsection{Architecture des microservices via les composants Netflix}
-Nous avons utilisé les composants Netflix pour réaliser les modèles d’architecture de microservices ci-dessus.\parencite{MicroServices}.
+Nous avons utilisé les composants Netflix pour réaliser les modèles d’architecture de microservices ci-dessus.\cite{MicroServices}.
 
 % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
@@ -111,12 +111,12 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 \subsubsection{Service Discovery Server} 
 
 \authorimg{images/ms-img04} Netflix Eureka permet aux micro-services de s’enregistrer eux-mêmes au moment de leur exécution, tels qu’ils apparaissent dans la structure du système.
-\parencite{MicroServices}
+\cite{MicroServices}
 
 
 \subsubsection{Routage dynamique et équilibreur de charge} 
 
-\authorimg{images/ms-img05}  Netflix Ribbon peut être utilisé par les consommateurs de services pour rechercher des services au moment de l’exécution. Le ruban utilise les informations disponibles dans Eureka pour localiser les instances de service appropriées. Si plusieurs instances sont trouvées, le Ruban appliquera un équilibrage de charge pour répartir les demandes sur les instances disponibles. Le ruban ne s'exécute pas en tant que service distinct, mais en tant que composant intégré dans chaque consommateur de service.\parencite{MicroServices}
+\authorimg{images/ms-img05}  Netflix Ribbon peut être utilisé par les consommateurs de services pour rechercher des services au moment de l’exécution. Le ruban utilise les informations disponibles dans Eureka pour localiser les instances de service appropriées. Si plusieurs instances sont trouvées, le Ruban appliquera un équilibrage de charge pour répartir les demandes sur les instances disponibles. Le ruban ne s'exécute pas en tant que service distinct, mais en tant que composant intégré dans chaque consommateur de service.\cite{MicroServices}
 
 
 
@@ -124,7 +124,7 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 
 \subsubsection{Serveur Edge} 
 
-\authorimg{images/ms-img06}  Zuul est (bien sûr) notre gardien du monde extérieur, ne permettant pas le passage de demandes externes non autorisées. Zulu fournit également un point d'entrée bien connu aux micro-services dans le paysage système. L'utilisation de ports alloués de manière dynamique est pratique pour éviter les conflits de ports et minimiser l'administration, mais elle rend évidemment la tâche plus difficile pour tout consommateur de services donné. Zuul utilise Ribbon pour rechercher les services disponibles et achemine la demande externe vers une instance de service appropriée.\parencite{MicroServices}
+\authorimg{images/ms-img06}  Zuul est (bien sûr) notre gardien du monde extérieur, ne permettant pas le passage de demandes externes non autorisées. Zulu fournit également un point d'entrée bien connu aux micro-services dans le paysage système. L'utilisation de ports alloués de manière dynamique est pratique pour éviter les conflits de ports et minimiser l'administration, mais elle rend évidemment la tâche plus difficile pour tout consommateur de services donné. Zuul utilise Ribbon pour rechercher les services disponibles et achemine la demande externe vers une instance de service appropriée.\cite{MicroServices}
 
 
 \subsection{Spring Boot et Spring Cloud Netflix OSS – Micro Service Architecture}
@@ -133,12 +133,12 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 
  
 
-Spring Boot est un tout nouveau framework de l'équipe de Pivotal, conçu pour simplifier le démarrage et le développement d'une nouvelle application Spring. Le cadre adopte une approche de configuration avisée, libérant les développeurs de la nécessité de définir la configuration standard.\parencite{MicroServices}
+Spring Boot est un tout nouveau framework de l'équipe de Pivotal, conçu pour simplifier le démarrage et le développement d'une nouvelle application Spring. Le cadre adopte une approche de configuration avisée, libérant les développeurs de la nécessité de définir la configuration standard.\cite{MicroServices}
 
 \subsubsection{Spring Cloud Netflix}
  
 
-Spring cloud Netflix fournit des intégrations Netflix OSS pour les applications de démarrage printanier via la configuration automatique et la liaison à l'environnement Spring et à d'autres modèles de programmation Spring. Avec quelques annotations simples, nous pouvons rapidement activer et configurer des modèles courants dans une application et construire des systèmes distribués volumineux avec des composants Netflix. De nombreuses fonctionnalités sont disponibles avec le nuage de printemps Netflix. Ici, nous avons répertorié certaines des fonctionnalités communes que nous avons implémentées avec les micro-services avec Spring Boot et Netflix,\parencite{MicroServices}
+Spring cloud Netflix fournit des intégrations Netflix OSS pour les applications de démarrage printanier via la configuration automatique et la liaison à l'environnement Spring et à d'autres modèles de programmation Spring. Avec quelques annotations simples, nous pouvons rapidement activer et configurer des modèles courants dans une application et construire des systèmes distribués volumineux avec des composants Netflix. De nombreuses fonctionnalités sont disponibles avec le nuage de printemps Netflix. Ici, nous avons répertorié certaines des fonctionnalités communes que nous avons implémentées avec les micro-services avec Spring Boot et Netflix,\cite{MicroServices}
 
 \begin{itemize}
 \item \textbf{Découverte du service:}
@@ -182,7 +182,7 @@ Maven offre des fonctionnalités de :
 \end{itemize}
 
 \subsubsection{Qu'est-ce que le POM ?}
-Le \textbf{POM} (\textbf{P}roject \textbf{O}bject \textbf{M}odel) est une façon de décrire, de manière déclarative, un projet au sens de Maven. Cette description est contenue dans le fichier \textbf{pom.xml} présent dans le repertoire de base du projet. Le fichier pom.xml contient donc tous les éléments permettant de gérer le cycle de vie du projet. \parencite{maven}.
+Le \textbf{POM} (\textbf{P}roject \textbf{O}bject \textbf{M}odel) est une façon de décrire, de manière déclarative, un projet au sens de Maven. Cette description est contenue dans le fichier \textbf{pom.xml} présent dans le repertoire de base du projet. Le fichier pom.xml contient donc tous les éléments permettant de gérer le cycle de vie du projet. \cite{maven}.
 
 Code xml :	
  \lstset{language=XML}
@@ -228,10 +228,10 @@ description : description du projet.
 \end{itemize}
 
 \subsubsection{Qu'est-ce qu'un archetype ?}
-Un archetype est un template de projet. Le fait d'utiliser des archetypes pour initialiser un projet permet de gagner du temps et de respecter une certaine convention. \parencite{maven}.
+Un archetype est un template de projet. Le fait d'utiliser des archetypes pour initialiser un projet permet de gagner du temps et de respecter une certaine convention. \cite{maven}.
 
 \subsubsection{Qu'est-ce qu'une dépendance ?}
- Une dépendance est une référence vers un artefact spécifique contenu dans un repository. Cet artefact est nécessaire pour une ou plusieurs phases du cycle de vie du projet. \parencite{maven}.
+ Une dépendance est une référence vers un artefact spécifique contenu dans un repository. Cet artefact est nécessaire pour une ou plusieurs phases du cycle de vie du projet. \cite{maven}.
  
  L'exemple le plus simple est une dépendance sur une bibliothèque jar qui permet d'en utiliser le contenu dans le projet.\parencite{maven}.
  
@@ -258,7 +258,7 @@ Un archetype est un template de projet. Le fait d'utiliser des archetypes pour i
     
     Utiliser une version SNAPSHOT permet de bénéficier des dernières fonctionnalités d'un projet, mais en contrepartie, cette version peut être (et est) appelée à être modifiée de façon importante, sans aucun préavis. \parencite{maven}.
        \subsubsection{Qu'est-ce que le repository local, distant ?}
-    Un repository local est un répertoire sur le poste du développeur permettant de stocker, suivant la même arborescence, tous les artefacts téléchargés depuis le(s) repository distant(s). \parencite{maven}.
+    Un repository local est un répertoire sur le poste du développeur permettant de stocker, suivant la même arborescence, tous les artefacts téléchargés depuis le(s) repository distant(s). \cite{maven}.
     
     Un projet ayant pour POM :
     
@@ -274,3 +274,75 @@ Un archetype est un template de projet. Le fait d'utiliser des archetypes pour i
     <version>1.0</version> 
     </project>
     \end{lstlisting}
+    
+    
+    \subsection{bpmn js}
+    
+ 
+    bpmn-js est une boîte à outils de rendu et un modélisateur Web BPMN 2.0. Il est écrit en JavaScript, intègre les diagrammes BPMN 2.0 dans les navigateurs modernes et ne requiert aucun serveur. Cela facilite son intégration dans n’importe quelle application Web.
+    
+    La bibliothèque est construite de manière à pouvoir être à la fois un visualiseur et un modélisateur Web. Utilisez le visualiseur pour intégrer BPMN 2.0 dans vos applications et l'enrichir avec vos données. Utilisez le modélisateur pour créer des diagrammes BPMN 2.0 dans votre application. 
+    
+    
+    \subsection{ Camunda BPM}
+    Camunda BPM est un système de gestion de flux de travaux gratuit écrit en Java qui définit et exécute les processus métier dans BPMN 2.0. Camunda BPM prend également en charge les normes CMMN 1.1 et DMN 1.1 normalisées par le groupe de gestion des objets (OMG).  
+    
+    
+    \subsection{Thymeleaf}
+    
+    Thymeleaf est un moteur de template Java moderne côté serveur pour les environnements Web et autonomes.
+    
+    L'objectif principal de Thymeleaf est d'intégrer des modèles naturels élégants à votre flux de travail de développement: un code HTML pouvant être correctement affiché dans les navigateurs et fonctionnant également en tant que prototypes statiques, ce qui permet de renforcer la collaboration au sein des équipes de développement.
+    
+    Avec des modules pour Spring Framework, une multitude d’intégrations avec vos outils favoris et la possibilité d’intégrer vos propres fonctionnalités, Thymeleaf est idéal pour le développement Web JVM HTML5 moderne - bien qu’il puisse faire beaucoup plus.
+    
+    
+    
+    \section{Architecture Modèle/Vue/Contrôleur}
+    
+    
+  L'architecture Modèle/Vue/Contrôleur (MVC) est une façon d'organiser une interface graphique d'un programme. Elle consiste à distinguer trois entités distinctes qui sont, le modèle, la vue et le contrôleur ayant chacun un rôle précis dans l'interface.
+  
+  L'organisation globale d'une interface graphique est souvent délicate. Bien que la façon MVC d'organiser une interface ne soit pas la solution miracle, elle fournit souvent une première approche qui peut ensuite être adaptée. Elle offre aussi un cadre pour structurer une application.  
+    
+    Dans l'architecture MVC, les rôles des trois entités sont les suivants. \parencite{mvc}
+    
+    \begin{itemize}
+    \item 	\textbf{modèle :} données (accès et mise à jour)
+    \item 	\textbf{vue :} interface utilisateur (entrées et sorties)
+    \item 	\textbf{contrôleur :} gestion des événements et synchronisation
+    \end{itemize}
+
+\subsection{Rôle du modèle}
+    Le modèle contient les données manipulées par le programme. Il assure la gestion de ces données et garantit leur intégrité. Dans le cas typique d'une base de données, c'est le modèle qui la contient.
+    
+    Le modèle offre des méthodes pour mettre à jour ces données (insertion suppression, changement de valeur). Il offre aussi des méthodes pour récupérer ses données. Dans le cas de données importantes, le modèle peut autoriser plusieurs vues partielles des données. Si par exemple le programme manipule une base de données pour les emplois du temps, le modèle peut avoir des méthodes pour avoir, tous les cours d'une salle, tous les cours d'une personnes ou tous les cours d'une groupe de Td.
+ \subsection{Rôle de la vue}
+ La vue fait l'interface avec l'utilisateur. Sa première tâche est d'afficher les données qu'elle a récupérées auprès du modèle. Sa seconde tâche est de recevoir tous les actions de l'utilisateur (clic de souris, sélection d'une entrées, boutons, …). Ses différents événements sont envoyés au contrôleur.
+ 
+ La vue peut aussi donner plusieurs vues, partielles ou non, des mêmes données. Par exemple, l'application de conversion de bases a un entier comme unique donnée. Ce même entier est affiché de multiples façons (en texte dans différentes bases, bit par bit avec des boutons à cocher, avec des curseurs). La vue peut aussi offrir la possibilité à l'utilisateur de changer de vue.
+ \subsection{Rôle du contrôleur} 
+ Le contrôleur est chargé de la synchronisation du modèle et de la vue. Il reçoit tous les événements de l'utilisateur et enclenche les actions à effectuer. Si une action nécessite un changement des données, le contrôleur demande la modification des données au modèle et ensuite avertit la vue que les données ont changé pour que celle-ci se mette à jour. Certains événements de l'utilisateur ne concerne pas les données mais la vue. Dans ce cas, le contrôleur demande à la vue de se modifier.
+ 
+ Dans le cas d'une base de données des emplois du temps. Une action de l'utilisateur peut être l'entrée (saisie) d'un nouveau cours. Le contrôleur ajoute ce cours au modèle et demande sa prise en compte par la vue. Une action de l'utilisateur peut aussi être de sélectionner une nouvelle personne pour visualiser tous ses cours. Ceci me modifie pas la base des cours mais nécessite simplement que la vue s'adapte et offre à l'utilisateur une vision des cours de cette personne.
+ 
+ Le contrôleur est souvent scindé en plusieurs parties dont chacune reçoit les événements d'une partie des composants. En effet si un même objet reçoit les événements de tous les composants, il lui faut déterminer quelle est l'origine de chaque événement. Ce tri des événements peut s'avérer fastidieuse et peut conduire à un code pas très élégant (un énorme switch). C'est pour éviter ce problème que le contrôleur est réparti en plusieurs objets.  
+ \subsection{Interactions}
+    Les différentes interactions entre le modèle, la vue et le contrôleur sont résumées par le schéma de la figure \ref{fig:mvc} suivante.
+    
+    
+    
+    
+    
+    
+    
+    
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{images/mvc}
+	\caption{Interactions entre le modèle, la vue et le contrôleur}
+	\label{fig:mvc}
+\end{figure}
+    
+    
+    

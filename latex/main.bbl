@@ -39,21 +39,44 @@
     \field{year}{2019}
   \endentry
 
-  \entry{maven}{online}{}
+  \entry{mvc}{online}{}
     \name{author}{1}{}{%
-      {{hash=a}{%
-         family={ava.developpez.com},
-         familyi={a\bibinitperiod},
+      {{hash=i}{%
+         family={irif},
+         familyi={i\bibinitperiod},
       }}%
     }
-    \strng{namehash}{a1}
-    \strng{fullhash}{a1}
+    \strng{namehash}{i1}
+    \strng{fullhash}{i1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2019}
     \field{labeldatesource}{year}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Architecture Modèle/Vue/Contrôleur}
+    \verb{url}
+    \verb https://www.irif.fr/~carton/Enseignement/InterfacesGraphiques/MasterI
+    \verb nfo/Cours/Swing/mvc.html
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{maven}{online}{}
+    \name{author}{1}{}{%
+      {{hash=j}{%
+         family={java.developpez.com},
+         familyi={j\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{j1}
+    \strng{fullhash}{j1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
     \field{title}{FAQ Maven}
     \verb{url}
     \verb https://java.developpez.com/faq/maven/?page=Terminologie-et-documenta

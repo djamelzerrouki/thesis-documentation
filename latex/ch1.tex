@@ -95,7 +95,7 @@ Le cloud computing  utilise des technologies telles que la virtualisation, l'arc
 
 \subsection{Modèles du cloud computing  }
 \subsubsection {Modèles de service du cloudcomputing}  
-XaaS (X as a Service) représente la base du paradigme du cloud computing, où X représente un service tel qu’un logiciel, une plateforme, une infrastructure, un Business Process, etc. Nous présentons, dans cette section,  quatre  modèles de services (Rimal, 2009), à savoir: (1) Logiciel en tant que services SaaS (Software as a Service), où le matériel, l’hébergement, le framework d’application et le logiciel sont dématérialisés, (2) Plateforme en tant que service PaaS (Platform as a Service), où le matériel, l’hébergement et le framework d’application sont dématérialisés, (3) Infrastructure en tant que service IaaS (Infrastructure as a Service) et (4) Matériel en tant que service HaaS (Hardware as a Service), où seul le matériel (serveurs) est dématérialisé dans ces deux derniers cas. La figure \ref{fig:capture5} montre le modèle classique et les différents modèles de service de cloud
+\ac{xaas} représente la base du paradigme du cloud computing, où X représente un service tel qu’un logiciel, une plateforme, une infrastructure, un Business Process \ac{bpaas}, etc. Nous présentons, dans cette section,  quatre  modèles de services (Rimal, 2009), à savoir: (1) Logiciel en tant que services \ac{saas} , où le matériel, l’hébergement, le framework d’application et le logiciel sont dématérialisés, (2) Plateforme en tant que service \ac{paas}, où le matériel, l’hébergement et le framework d’application sont dématérialisés, (3) Infrastructure en tant que service \ac{iaas} et (4) Matériel en tant que service \ac{haas}, où seul le matériel (serveurs) est dématérialisé dans ces deux derniers cas. La figure \ref{fig:capture5} montre le modèle classique et les différents modèles de service de cloud
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{Capture5}
@@ -110,7 +110,7 @@ Ce modèle de service est caractérisé par l’utilisation d’une application 
 
 \item  \textbf{ Platform as a Service (PaaS):}
 
-L’utilisateur a la possibilité de créer et de déployer sur une infrastructure Cloud PaaS ses propres applications en utilisant les langages et les outils du fournisseur. L’utilisateur ne gère pas ou ne contrôle pas l’infrastructure Cloud sous-jacente (réseaux, serveurs, stockage) mais l’utilisateur contrôle l’application déployée et sa configuration. Comme exemple de PaaS, on peut citer un des plus anciens -IntuitQuickbase- qui permet de déployer ses applications bases de données en ligne ou -Google Apps Engine (GAE)- pour déployer des services Web. 
+L’utilisateur a la possibilité de créer et de déployer sur une infrastructure Cloud PaaS ses propres applications en utilisant les langages et les outils du fournisseur. L’utilisateur ne gère pas ou ne contrôle pas l’infrastructure Cloud sous-jacente (réseaux, serveurs, stockage) mais l’utilisateur contrôle l’application déployée et sa configuration. Comme exemple de PaaS, on peut citer un des plus anciens -IntuitQuickbase- qui permet de déployer ses applications bases de données en ligne ou -\ac{gae}- pour déployer des services Web. 
 
 Dans ces deux cas l’utilisateur de ces services n’a pas à gérer des serveurs ou des systèmes pour déployer ses applications en ligne et dimensionner des ressources adaptées au trafic.
 \item   \textbf{Infrastructure as a Service (IaaS):}
@@ -120,10 +120,10 @@ L’utilisateur loue des moyens de calcul et de stockage, des capacités réseau
 \end{enumerate}
 \subsubsection { Modèles de déploiement}  
 
-Selon la définition du cloud computing  donnée part le NIST (Mell, 2011), il existe quatre modèles de déploiement des services de cloud, à savoir : cloud privé, cloud communautaire, cloud public et cloud hybride, comme illustré dans la figure \ref{fig:cloudmd}.
+Selon la définition du cloud computing  donnée part le \ac{nist} (Mell, 2011), il existe quatre modèles de déploiement des services de cloud, à savoir : cloud privé, cloud communautaire, cloud public et cloud hybride, comme illustré dans la figure \ref{fig:cloudmd}.
 \begin{enumerate}
 	\item \textbf{Cloud privé :}\\
-	 L’ensemble des ressources d’un cloud privé est exclusivement mis à disposition d’une entreprise ou organisation unique. Le cloud privé peut être géré par l’entreprise ellemême (cloud privé interne) ou par une tierce partie (cloud privé externe). Les ressources d’un cloud privé se trouvent généralement dans les locaux de l’entreprise ou bien chez un fournisseur de services. Dans ce dernier cas, l’infrastructure est entièrement dédiée à l’entreprise et y est accessible via un réseau sécurisé (de type VPN).  L’utilisation d’un cloud privé permet de 	garantir, par exemple, que les ressources matérielles allouées ne seront jamais partagées par deux clients différents. 
+	 L’ensemble des ressources d’un cloud privé est exclusivement mis à disposition d’une entreprise ou organisation unique. Le cloud privé peut être géré par l’entreprise elle même (cloud privé interne) ou par une tierce partie (cloud privé externe). Les ressources d’un cloud privé se trouvent généralement dans les locaux de l’entreprise ou bien chez un fournisseur de services. Dans ce dernier cas, l’infrastructure est entièrement dédiée à l’entreprise et y est accessible via un réseau sécurisé (de type \ac{vpn}).  L’utilisation d’un cloud privé permet de 	garantir, par exemple, que les ressources matérielles allouées ne seront jamais partagées par deux clients différents. 
 	
 	\item \textbf{Cloud communautaire:}\\
 	 L’infrastructure d’un cloud communautaire est partagée par plusieurs organisations indépendantes ayant des intérêts communs. L’infrastructure peut être gérée par les organisations membres ou par un tiers. L’infrastructure peut être située, soit au sein des dites organisations, soit chez un fournisseur de services. 
@@ -132,7 +132,7 @@ Selon la définition du cloud computing  donnée part le NIST (Mell, 2011), il e
 	\item \textbf{Cloud hybride:}\\
 	 L’infrastructure d’un cloud hybride est une composition de plusieurs clouds (privé, communautaire ou public). Les différents clouds composant l’infrastructure restent des entités uniques, mais sont reliés par une technologie standard ou propriétaire permettant ainsi la portabilité des données ou des applications déployées sur les différents clouds.  
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\linewidth]{Cloud_MD}
 	\caption{Modèles de déploiement du cloud computing }
@@ -185,14 +185,14 @@ Comment choisir la solution de cloud la plus adaptée à votre entreprise, quell
 
 \subsubsection{Amazon Web Services }
 
-Avec un chiffre d’affaires de 25.65 milliards de dollar (\textbf{\underline{Zdnet.fr}}) réalisé en 2018, le géant de l’IaaS considère 2019 comme une année d’investissement afin d’accélérer le développement de sa technologie et renforcer sa force de vente. En ce début de 2019, AWS est le leader incontesté dans le domaine de l’IaaS \parencite{cloud2019}.
+Avec un chiffre d’affaires de 25.65 milliards de dollar (\textbf{\underline{Zdnet.fr}}) réalisé en 2018, le géant de l’IaaS considère 2019 comme une année d’investissement afin d’accélérer le développement de sa technologie et renforcer sa force de vente. En ce début de 2019, \ac{aws} est le leader incontesté dans le domaine de l’IaaS \parencite{cloud2019}.
 
 \subsubsection{Microsoft Azure}
 Le service cloud, Microsof Azure a réalisé un chiffre d’affaires annuel de 11 milliards de dollar. En 2019, le service cloud Microsoft Azure vient en deuxième position derrière AWS (IaaS et PaaS). A la différence d’AWS, Microsoft opère plutôt dans le commercial cloud et propose un service très diversifié grâce à une plateforme familiarisée auprès des utilisateurs \parencite{cloud2019}.
 
 
 \subsubsection{Google Cloud Plateform}
-L’année 2018 a été particulièrement fructueuse chez le service cloud de Google. Avec un chiffre d’affaires de près 4 milliards de dollar, l’entreprise a décroché en 2018 les contrats les plus importants dans le secteur. Pour 2019, elle va constituer un véritable contrepoint à AWS et à Microsoft même si l’entreprise a toujours du mal à publier convenablement ses rapports financiers jusqu’à présent \parencite{cloud2019}.
+L’année 2018 a été particulièrement fructueuse chez le service cloud de Google. Avec un chiffre d’affaires de près 4 milliards de dollar, l’entreprise a décroché en 2018 les contrats les plus importants dans le secteur. Pour 2019, elle va constituer un véritable contrepoint à AWS et à Microsoft même si l’entreprise a toujours du mal à publier convenablement ses rapports financiers jusqu'à présent \parencite{cloud2019}.
 
 \subsubsection{IBM}
 Très présent dans le monde du multicloud et du cloud hybride, il dispose actuellement d’un chiffre d’affaires de 12.2 milliards de dollar. Même s’il reste un peu derrière AWS et Microsoft, il est en train de se focaliser sur le développement d’une plateforme capable de gérer plusieurs outils d’intelligence artificielle pour les principaux fournisseurs cloud. En plus, l’acquisition de Red Hat est un signal fort pour le cloud hybride \parencite{cloud2019}.
@@ -214,7 +214,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  \subsection{Origines} 
  	 Il est intéressant de considérer l’évolution des systèmes informatiques au cours des quatre dernières décennies [VAN DER AALST 02] pour prendre conscience de la pertinence d’une gestion électronique de processus (Workflow) et apprécier l’impact de la gestion de Workflow dans un avenir proche.
  	 
- 	  La Figure \ref{fig:wfmchistory} présente le phénomène de gestion de Workflow dans une perspective historique. Cette figure décrit l’architecture d’un système informatique classique en termes de composants. Dans les années soixante, un système informatique était composé d’un certain nombre d’applications autonomes. Pour chacune de ces applications une interface utilisateur et un système de base de données spécifique étaient développés, chaque application possédait donc ses propres routines pour interagir avec l’utilisateur, stocker et récupérer les données. Dans les années soixante-dix, le développement des systèmes de gestion de base de données (SGBD) a permis d’extraire les données des applications. En utilisant les SGBD, les applications ont ainsi été libérées du fardeau de la gestion de données. Dans les années quatrevingts, l’apparition de systèmes de gestion d’interface utilisateur « User Interface Management Systems » (UIMS) a permis aux développeurs d’application d’extraire l’interaction avec les utilisateurs des applications. Enfin, les années quatre-vingt-dix sont marquées par l’apparition de logiciels de Workflow, permettant aux développeurs d’application d’extraire les procédures de travail des applications. La Figure \ref{fig:wfmchistory} fait apparaître le système de gestion de Workflow comme une composante générique pour représenter et manipuler les processus d’entreprise \footnote{\samepage Les procédures d’entreprise représentent l’organisation et la politique de l’entreprise pour atteindre certains objectifs [WFMC11 99] }. 
+ 	  La Figure \ref{fig:wfmchistory} présente le phénomène de gestion de Workflow dans une perspective historique. Cette figure décrit l’architecture d’un système informatique classique en termes de composants. Dans les années soixante, un système informatique était composé d’un certain nombre d’applications autonomes. Pour chacune de ces applications une interface utilisateur et un système de base de données spécifique étaient développés, chaque application possédait donc ses propres routines pour interagir avec l’utilisateur, stocker et récupérer les données. Dans les années soixante-dix, le développement des \ac{sgbd} a permis d’extraire les données des applications. En utilisant les SGBD, les applications ont ainsi été libérées du fardeau de la gestion de données. Dans les années quatre vingts, l’apparition de systèmes de gestion d’interface utilisateur \ac{uims} a permis aux développeurs d’application d’extraire l’interaction avec les utilisateurs des applications. Enfin, les années quatre-vingt-dix sont marquées par l’apparition de logiciels de Workflow, permettant aux développeurs d’application d’extraire les procédures de travail des applications. La Figure \ref{fig:wfmchistory} fait apparaître le système de gestion de Workflow comme une composante générique pour représenter et manipuler les processus d’entreprise \footnote{\samepage Les procédures d’entreprise représentent l’organisation et la politique de l’entreprise pour atteindre certains objectifs [WFMC11 99] }. 
  	  
  	  Ainsi, à l’heure actuelle, beaucoup d’organisations commencent à considérer l’utilité d’outils avancés pour soutenir la conception et l’exécution de leurs processus d’entreprise.
  	 
@@ -230,11 +230,11 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
  	 \subsection{Définitions et terminologies }
  	 
- 	 Les définitions sont, pour la majorité, issues de la Coalition de Gestion de Workflow « Workflow Management Coalition » (WfMC). La WfMC a été fondée en 1993 par un regroupement d’industriels de l’informatique, de chercheurs et d’utilisateurs, associée à l’essor du développement des Workflows. Cette coalition a pour but de promouvoir les Workflow et d’établir des standards pour les « Workflow Management System » (WfMS). Elle a en particulier publié un glossaire de référence contenant les terminologies employées dans ce domaine [WFMC03 95 ; WFMC11 99]. Ces standards servent notamment à résoudre les problèmes d’interopérabilité entre systèmes Workflow mais également à définir les caractéristiques fondamentales de ces systèmes. Les documents publiés par la WfMC, qui couvrent plusieurs aspects, peuvent être considérés comme des références en la matière. 
+ 	 Les définitions sont, pour la majorité, issues de la Coalition de Gestion de Workflow \ac{wfmc}. La WfMC a été fondée en 1993 par un regroupement d’industriels de l’informatique, de chercheurs et d’utilisateurs, associée à l’essor du développement des Workflows. Cette coalition a pour but de promouvoir les Workflow et d’établir des standards pour les \ac{wfms}. Elle a en particulier publié un glossaire de référence contenant les terminologies employées dans ce domaine [WFMC03 95 ; WFMC11 99]. Ces standards servent notamment à résoudre les problèmes d’interopérabilité entre systèmes Workflow mais également à définir les caractéristiques fondamentales de ces systèmes. Les documents publiés par la WfMC, qui couvrent plusieurs aspects, peuvent être considérés comme des références en la matière. 
  	
  	\subsection{Définitions de base du Workflow } 
  	 
- 	 Le sens du mot Workflow peut varier en fonction du contexte. Pour plus de clarté, les définitions les plus communément admises sur les concepts et les termes du Workflow sont rappelées ci dessous. Ces définitions sont principalement issues du « Workflow Management Coalition Terminology and Glossary » WFMC-TC-1011 [WFMC11 99], dont il existe une traduction à usage francophone [WFMC03f 98]. L’idée première du Workflow est donc de séparer les processus, les ressources et les applications, afin de se recentrer sur la logistique des processus travail et non pas sur le contenu des tâches individuelles. Un Workflow est donc le lien entre ces trois domaines comme précise la Figure \ref{fig:environnementswf}. 
+ 	 Le sens du mot Workflow peut varier en fonction du contexte. Pour plus de clarté, les définitions les plus communément admises sur les concepts et les termes du Workflow sont rappelées ci dessous. Ces définitions sont principalement issues du \ac{wfmc-tc}-1011 [WFMC11 99], dont il existe une traduction à usage francophone [WFMC03f 98]. L’idée première du Workflow est donc de séparer les processus, les ressources et les applications, afin de se recentrer sur la logistique des processus travail et non pas sur le contenu des tâches individuelles. Un Workflow est donc le lien entre ces trois domaines comme précise la Figure \ref{fig:environnementswf}. 
  	 
  	 
  	 
@@ -444,7 +444,7 @@ la « sphère » Workflow adaptable. Ils régissent des procédures dont la stru
 tâche, plus concrètement, la structure se construit par pas en suivant le rythme de l’exécution. En effet, la réalisation d’une procédure non structurée peut impliquer à chaque fois l’exécution d’un nouvel enchaînement des tâches, voire la création de nouvelles tâches. Il n’y a pas a priori de persistance de l’enchaînement de ces tâches.
 
 Les Workflow adaptables sont, quant à eux, des supports comparables aux Workflow de
-production classiques possédant une structure préétablie, mais pouvant traiter certains changements de structure « en ligne ». Ces changements peuvent aller des changements individuels/ad hoc (gestion d’exception), c’est à dire d’un aiguillage pour déterminer l’activité suivante, jusqu'à la reconception par BPR de processus [VAN DER AALST 98d]. En conclusion, ils ont une action globale pouvant inclure la définition du Workflow ad hoc  
+production classiques possédant une structure préétablie, mais pouvant traiter certains changements de structure « en ligne ». Ces changements peuvent aller des changements individuels/ad hoc (gestion d’exception), c’est à dire d’un aiguillage pour déterminer l’activité suivante, jusqu'à la reconception par \ac{bpr} de processus [VAN DER AALST 98d]. En conclusion, ils ont une action globale pouvant inclure la définition du Workflow ad hoc  
 
 Il est intéressant de classifier les différents changements possibles par un Workflow adaptables, dans le but de mieux les anticiper [SADIQ 99]. Les changements sont envisageables
 selon plusieurs perspectives : la ressource, le contrôle, la procédure, la tâche et le système [VAN DER AALST 98d].
@@ -474,7 +474,7 @@ une définition de procédures.
 
 \subsubsection{Interface avec les applications clientes Workflow }
 La liste des tâches (Worklist) à exécuter par une ressource est généralement définie et gérée par le service d’exécution du Workflow. Cette liste doit pouvoir déclencher des appels à
-des applications clientes diverses et des ressources. La solution retenue pour respecter la susdite exigence, consiste à encapsuler la variété d’application qui peut être utilisée derrière un jeu standard d'API (le WAPI Workflow Application Programming interface). Ce jeu permet ainsi d’utiliser une communication standardisée entre les applications clientes, le moteur de Workflow et les Worklist, indifféremment de la nature de l’implémentation réelle des produits
+des applications clientes diverses et des ressources. La solution retenue pour respecter la susdite exigence, consiste à encapsuler la variété d’application qui peut être utilisée derrière un jeu standard d'API le \ac{wapi}. Ce jeu permet ainsi d’utiliser une communication standardisée entre les applications clientes, le moteur de Workflow et les Worklist, indifféremment de la nature de l’implémentation réelle des produits
 clients. 
 \subsubsection{Interface avec les applications invoquées}
 Il est évident que le système Workflow ne peut pas intégrer l’invocation automatique de

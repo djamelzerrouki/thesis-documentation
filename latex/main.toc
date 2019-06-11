@@ -1,318 +1,316 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {french}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.1}Contexte}{8}% 
+\contentsline {part}{I\hspace {1em} \IeC {\'E}tude bibliographique }{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{I\hspace {1em} \IeC {\'E}tude bibliographique }{15}% 
+\contentsline {chapter}{\numberline {1}Concepts fondamentaux de cloud et de workflow }{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Concepts fondamentaux de cloud et de workflow }{16}% 
+\contentsline {section}{\numberline {1.1}Introduction}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Introduction}{16}% 
+\contentsline {section}{\numberline {1.2}Cloud computing}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Cloud computing}{16}% 
+\contentsline {subsection}{\numberline {1.2.1}Concept du cloud computing}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Concept du cloud computing}{16}% 
+\contentsline {subsubsection}{\numberline {1.2.1.1}Vers une d\IeC {\'e}finition du cloud computing }{18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.1.1}Vers une d\IeC {\'e}finition du cloud computing }{17}% 
+\contentsline {subsection}{\numberline {1.2.2}Caract\IeC {\'e}ristiques principales du cloud computing}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Caract\IeC {\'e}ristiques principales du cloud computing}{18}% 
+\contentsline {subsubsection}{\numberline {1.2.2.1}Acc\IeC {\`e}s en libre-service \IeC {\`a} la demande}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2.1}Acc\IeC {\`e}s en libre-service \IeC {\`a} la demande}{18}% 
+\contentsline {subsubsection}{\numberline {1.2.2.2}Acc\IeC {\`e}s r\IeC {\'e}seau universel}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2.2}Acc\IeC {\`e}s r\IeC {\'e}seau universel}{18}% 
+\contentsline {subsubsection}{\numberline {1.2.2.3}Mutualisation de ressources (Pooling)}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2.3}Mutualisation de ressources (Pooling)}{18}% 
+\contentsline {subsubsection}{\numberline {1.2.2.4}Scalabilit\IeC {\'e} et \IeC {\'e}lasticit\IeC {\'e}}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2.4}Scalabilit\IeC {\'e} et \IeC {\'e}lasticit\IeC {\'e}}{18}% 
+\contentsline {subsubsection}{\numberline {1.2.2.5}Autonome}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2.5}Autonome}{18}% 
+\contentsline {subsubsection}{\numberline {1.2.2.6}Paiement \IeC {\`a} l\IeC {\textquoteright }usage}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2.6}Paiement \IeC {\`a} l\IeC {\textquoteright }usage}{18}% 
+\contentsline {subsubsection}{\numberline {1.2.2.7}Fiabilit\IeC {\'e} et tol\IeC {\'e}rance aux pannes}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2.7}Fiabilit\IeC {\'e} et tol\IeC {\'e}rance aux pannes}{19}% 
+\contentsline {subsubsection}{\numberline {1.2.2.8}Garantie \ac {qos} }{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2.8}Garantie \ac {qos} }{19}% 
+\contentsline {subsubsection}{\numberline {1.2.2.9}Bas\IeC {\'e}-SLA}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2.9}Bas\IeC {\'e}-SLA}{19}% 
+\contentsline {subsection}{\numberline {1.2.3}Technologies connexes }{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Technologies connexes }{19}% 
+\contentsline {subsection}{\numberline {1.2.4}Mod\IeC {\`e}les du cloud computing }{22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Mod\IeC {\`e}les du cloud computing }{21}% 
+\contentsline {subsubsection}{\numberline {1.2.4.1}Mod\IeC {\`e}les de service du cloudcomputing}{22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.4.1}Mod\IeC {\`e}les de service du cloudcomputing}{21}% 
+\contentsline {subsubsection}{\numberline {1.2.4.2} Mod\IeC {\`e}les de d\IeC {\'e}ploiement}{23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.4.2} Mod\IeC {\`e}les de d\IeC {\'e}ploiement}{22}% 
+\contentsline {subsection}{\numberline {1.2.5}Les principaux grands fournisseurs cloud pour 2019}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.5}Les principaux grands fournisseurs cloud pour 2019}{23}% 
+\contentsline {subsubsection}{\numberline {1.2.5.1}Amazon Web Services }{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.5.1}Amazon Web Services }{23}% 
+\contentsline {subsubsection}{\numberline {1.2.5.2}Microsoft Azure}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.5.2}Microsoft Azure}{23}% 
+\contentsline {subsubsection}{\numberline {1.2.5.3}Google Cloud Plateform}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.5.3}Google Cloud Plateform}{23}% 
+\contentsline {subsubsection}{\numberline {1.2.5.4}IBM}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.5.4}IBM}{24}% 
+\contentsline {section}{\numberline {1.3}Workflow}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Workflow}{24}% 
+\contentsline {subsection}{\numberline {1.3.1}Introduction au Workflow }{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Introduction au Workflow }{24}% 
+\contentsline {subsection}{\numberline {1.3.2}Origines}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Origines}{24}% 
+\contentsline {subsection}{\numberline {1.3.3}D\IeC {\'e}finitions et terminologies }{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}D\IeC {\'e}finitions et terminologies }{25}% 
+\contentsline {subsection}{\numberline {1.3.4}D\IeC {\'e}finitions de base du Workflow }{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}D\IeC {\'e}finitions de base du Workflow }{25}% 
+\contentsline {subsubsection}{\numberline {1.3.4.1}D\IeC {\'e}finition d\IeC {\textquoteright }un Workflow }{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.4.1}D\IeC {\'e}finition d\IeC {\textquoteright }un Workflow }{26}% 
+\contentsline {subsubsection}{\numberline {1.3.4.2}Dimensions}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.4.2}Dimensions}{27}% 
+\contentsline {subsection}{\numberline {1.3.5}Description des Syst\IeC {\`e}mes Workflow }{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.5}Description des Syst\IeC {\`e}mes Workflow }{27}% 
+\contentsline {subsubsection}{\numberline {1.3.5.1} Build time }{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.5.1} Build time }{28}% 
+\contentsline {subsubsection}{\numberline {1.3.5.2} Run time }{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.5.2} Run time }{28}% 
+\contentsline {subsubsection}{\numberline {1.3.5.3} Utilisateurs, outils et applications }{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.5.3} Utilisateurs, outils et applications }{29}% 
+\contentsline {subsection}{\numberline {1.3.6}Concepts et Terminologie Workflow fondamentaux }{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.6}Concepts et Terminologie Workflow fondamentaux }{29}% 
+\contentsline {subsubsection}{\numberline {1.3.6.1}Proc\IeC {\'e}dure Workflow (Workflow Process) }{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6.1}Proc\IeC {\'e}dure Workflow (Workflow Process) }{29}% 
+\contentsline {subsubsection}{\numberline {1.3.6.2}Activit\IeC {\'e} (Process Activity) }{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6.2}Activit\IeC {\'e} (Process Activity) }{29}% 
+\contentsline {subsubsection}{\numberline {1.3.6.3} Acteur, Ressource (Workflow Participant) }{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6.3} Acteur, Ressource (Workflow Participant) }{29}% 
+\contentsline {subsubsection}{\numberline {1.3.6.4} R\IeC {\^o}le (Role) }{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6.4} R\IeC {\^o}le (Role) }{30}% 
+\contentsline {subsubsection}{\numberline {1.3.6.5}Donn\IeC {\'e}es (Workflow Relevant Data) }{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6.5}Donn\IeC {\'e}es (Workflow Relevant Data) }{30}% 
+\contentsline {subsubsection}{\numberline {1.3.6.6} Application externe (Invoked Application) }{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6.6} Application externe (Invoked Application) }{30}% 
+\contentsline {section}{\numberline {1.4}Classification des syst\IeC {\`e}mes Workflow}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Classification des syst\IeC {\`e}mes Workflow}{31}% 
+\contentsline {subsection}{\numberline {1.4.1}Processus collaboratifs }{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Processus collaboratifs }{31}% 
+\contentsline {subsection}{\numberline {1.4.2}Workflow administratif }{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Workflow administratif }{32}% 
+\contentsline {subsection}{\numberline {1.4.3}Workflow de production}{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}Workflow de production}{32}% 
+\contentsline {subsection}{\numberline {1.4.4}Workflow adaptable ou Workflow ad hoc }{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.4}Workflow adaptable ou Workflow ad hoc }{33}% 
+\contentsline {subsection}{\numberline {1.4.5}Mod\IeC {\`e}le de r\IeC {\'e}f\IeC {\'e}rence des syst\IeC {\`e}mes Workflow }{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.5}Mod\IeC {\`e}le de r\IeC {\'e}f\IeC {\'e}rence des syst\IeC {\`e}mes Workflow }{33}% 
+\contentsline {subsubsection}{\numberline {1.4.5.1}Interface avec les Outils de d\IeC {\'e}finition de proc\IeC {\'e}dures }{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.5.1}Interface avec les Outils de d\IeC {\'e}finition de proc\IeC {\'e}dures }{33}% 
+\contentsline {subsubsection}{\numberline {1.4.5.2}Interface avec les applications clientes Workflow }{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.5.2}Interface avec les applications clientes Workflow }{34}% 
+\contentsline {subsubsection}{\numberline {1.4.5.3}Interface avec les applications invoqu\IeC {\'e}es}{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.5.3}Interface avec les applications invoqu\IeC {\'e}es}{34}% 
+\contentsline {subsubsection}{\numberline {1.4.5.4}Interface avec les autres Workflow }{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.5.4}Interface avec les autres Workflow }{35}% 
+\contentsline {subsubsection}{\numberline {1.4.5.5}Interface avec les outils de contr\IeC {\^o}le et d\IeC {\textquoteright }administration }{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.5.5}Interface avec les outils de contr\IeC {\^o}le et d\IeC {\textquoteright }administration }{35}% 
+\contentsline {section}{\numberline {1.5} Int\IeC {\'e}r\IeC {\^e}t du cloud pour les workflows }{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5} Int\IeC {\'e}r\IeC {\^e}t du cloud pour les workflows }{35}% 
+\contentsline {subsection}{\numberline {1.5.1}L\IeC {\textquoteright }approvisionnement de ressources }{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.1}L\IeC {\textquoteright }approvisionnement de ressources }{35}% 
+\contentsline {subsection}{\numberline {1.5.2}L\IeC {\textquoteright }allocation dynamique de ressources \IeC {\`a} la demande }{37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.2}L\IeC {\textquoteright }allocation dynamique de ressources \IeC {\`a} la demande }{36}% 
+\contentsline {subsection}{\numberline {1.5.3}L\IeC {\textquoteright }\IeC {\'e}lasticit\IeC {\'e}}{37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.3}L\IeC {\textquoteright }\IeC {\'e}lasticit\IeC {\'e}}{36}% 
+\contentsline {subsection}{\numberline {1.5.4}La garantie des QoS via des SLA }{37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.4}La garantie des QoS via des SLA }{36}% 
+\contentsline {subsection}{\numberline {1.5.5}Le faible Co\IeC {\^u}t d\IeC {\textquoteright }exploitation }{37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.5}Le faible Co\IeC {\^u}t d\IeC {\textquoteright }exploitation }{36}% 
+\contentsline {section}{\numberline {1.6}Conclusion}{38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Conclusion}{37}% 
+\contentsline {chapter}{\numberline {2}R\IeC {\'e}seau de Petri}{39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}R\IeC {\'e}seau de Petri}{38}% 
+\contentsline {section}{\numberline {2.1}R\IeC {\'e}seau de P\IeC {\'e}tri}{39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}R\IeC {\'e}seau de P\IeC {\'e}tri}{38}% 
+\contentsline {subsection}{\numberline {2.1.1}Qu'est-ce que les r\IeC {\'e}seaux de P\IeC {\'e}tri }{39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Qu'est-ce que les r\IeC {\'e}seaux de P\IeC {\'e}tri }{38}% 
+\contentsline {subsection}{\numberline {2.1.2}L'aspect structurel}{40}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}L'aspect structurel}{39}% 
+\contentsline {subsubsection}{\numberline {2.1.2.1}Repr\IeC {\'e}sentation d'un r\IeC {\'e}seau de P\IeC {\'e}tri }{40}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.1}Repr\IeC {\'e}sentation d'un r\IeC {\'e}seau de P\IeC {\'e}tri }{39}% 
+\contentsline {subsection}{\numberline {2.1.3} L'aspect comportemental }{42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3} L'aspect comportemental }{41}% 
+\contentsline {subsubsection}{\numberline {2.1.3.1}L\IeC {\textquoteright }\IeC {\'e}tat dans un r\IeC {\'e}seau de P\IeC {\'e}tri }{43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3.1}L\IeC {\textquoteright }\IeC {\'e}tat dans un r\IeC {\'e}seau de P\IeC {\'e}tri }{42}% 
+\contentsline {subsubsection}{\numberline {2.1.3.2} Franchissement d\IeC {\textquoteright }une transition }{43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3.2} Franchissement d\IeC {\textquoteright }une transition }{42}% 
+\contentsline {subsubsection}{\numberline {2.1.3.3}L'ex\IeC {\'e}cution d'un r\IeC {\'e}seau de P\IeC {\'e}tri }{43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3.3}L'ex\IeC {\'e}cution d'un r\IeC {\'e}seau de P\IeC {\'e}tri }{42}% 
+\contentsline {section}{\numberline {2.2}R\IeC {\'e}seaux particuliers }{45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}R\IeC {\'e}seaux particuliers }{44}% 
+\contentsline {section}{\numberline {2.3}Propri\IeC {\'e}t\IeC {\'e}s des r\IeC {\'e}seaux de Petri}{45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Propri\IeC {\'e}t\IeC {\'e}s des r\IeC {\'e}seaux de Petri}{44}% 
+\contentsline {subsection}{\numberline {2.3.1}R\IeC {\'e}seau K-born\IeC {\'e} }{45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}R\IeC {\'e}seau K-born\IeC {\'e} }{44}% 
+\contentsline {subsection}{\numberline {2.3.2}R\IeC {\'e}seau vivant }{45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}R\IeC {\'e}seau vivant }{44}% 
+\contentsline {subsection}{\numberline {2.3.3}R\IeC {\'e}seau r\IeC {\'e}initialisable }{46}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}R\IeC {\'e}seau r\IeC {\'e}initialisable }{45}% 
+\contentsline {section}{\numberline {2.4} R\IeC {\'e}seaux de P\IeC {\'e}tri de haut niveau }{47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4} R\IeC {\'e}seaux de P\IeC {\'e}tri de haut niveau }{46}% 
+\contentsline {subsection}{\numberline {2.4.1}Les r\IeC {\'e}seaux de Petri color\IeC {\'e}s}{47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Les r\IeC {\'e}seaux de Petri color\IeC {\'e}s}{46}% 
+\contentsline {subsection}{\numberline {2.4.2}Les r\IeC {\'e}seaux de P\IeC {\'e}tri \IeC {\`a} Objet }{48}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Les r\IeC {\'e}seaux de P\IeC {\'e}tri \IeC {\`a} Objet }{47}% 
+\contentsline {subsection}{\numberline {2.4.3}Les r\IeC {\'e}seaux de P\IeC {\'e}tri temporels }{48}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Les r\IeC {\'e}seaux de P\IeC {\'e}tri temporels }{47}% 
+\contentsline {section}{\numberline {2.5}R\IeC {\'e}seaux de Petri et workflow }{49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}R\IeC {\'e}seaux de Petri et workflow }{48}% 
+\contentsline {subsection}{\numberline {2.5.1}Mod\IeC {\'e}lisation de workflow avec les r\IeC {\'e}seaux de p\IeC {\'e}tri }{49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Mod\IeC {\'e}lisation de workflow avec les r\IeC {\'e}seaux de p\IeC {\'e}tri }{48}% 
+\contentsline {subsubsection}{\numberline {2.5.1.1}Une s\IeC {\'e}mantique formelle }{49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.1.1}Une s\IeC {\'e}mantique formelle }{48}% 
+\contentsline {subsubsection}{\numberline {2.5.1.2}Techniques d\IeC {\textquoteright }analyse}{49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.1.2}Techniques d\IeC {\textquoteright }analyse}{48}% 
+\contentsline {subsubsection}{\numberline {2.5.1.3}Expressivit\IeC {\'e}}{49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.1.3}Expressivit\IeC {\'e}}{48}% 
+\contentsline {subsection}{\numberline {2.5.2}Workflow \IeC {\`a} base de r\IeC {\'e}seaux de p\IeC {\'e}tri (WF-net) }{50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Workflow \IeC {\`a} base de r\IeC {\'e}seaux de p\IeC {\'e}tri (WF-net) }{49}% 
+\contentsline {subsection}{\numberline {2.5.3}Constructions du routage dans un WF-net}{50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Constructions du routage dans un WF-net}{49}% 
+\contentsline {subsubsection}{\numberline {2.5.3.1}S\IeC {\'e}quentiel :}{50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3.1}S\IeC {\'e}quentiel :}{49}% 
+\contentsline {subsubsection}{\numberline {2.5.3.2}Parall\IeC {\`e}le : }{51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3.2}Parall\IeC {\`e}le : }{50}% 
+\contentsline {subsubsection}{\numberline {2.5.3.3}Conditionnel :}{51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3.3}Conditionnel :}{50}% 
+\contentsline {section}{\numberline {2.6}Conclusion }{52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Conclusion }{51}% 
+\contentsline {part}{II\hspace {1em} Partie pratique }{53}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em} Partie pratique }{52}% 
+\contentsline {chapter}{\numberline {3}Analyse et Conception}{54}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Analyse et Conception}{53}% 
+\contentsline {section}{\numberline {3.1}Unified Modeling Language (UML):}{54}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Unified Modeling Language (UML):}{53}% 
+\contentsline {subsection}{\numberline {3.1.1} D\IeC {\'e}finition UML }{54}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1} D\IeC {\'e}finition UML }{53}% 
+\contentsline {subsection}{\numberline {3.1.2}Contenu UML}{54}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Contenu UML}{53}% 
+\contentsline {subsubsection}{\numberline {3.1.2.1}Diagramme structurel : }{54}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2.1}Diagramme structurel : }{53}% 
+\contentsline {subsubsection}{\numberline {3.1.2.2}Diagramme comportemental : }{55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2.2}Diagramme comportemental : }{54}% 
+\contentsline {section}{\numberline {3.2}Identification des objectifs}{55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Identification des objectifs}{54}% 
+\contentsline {subsection}{\numberline {3.2.1}Sp\IeC {\'e}cifications fonctionnelles }{55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Sp\IeC {\'e}cifications fonctionnelles }{54}% 
+\contentsline {subsection}{\numberline {3.2.2}Sp\IeC {\'e}cifications techniques }{56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Sp\IeC {\'e}cifications techniques }{55}% 
+\contentsline {subsection}{\numberline {3.2.3} Diagramme de cas d\IeC {\textquoteright }utilisation }{56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3} Diagramme de cas d\IeC {\textquoteright }utilisation }{55}% 
+\contentsline {subsubsection}{\numberline {3.2.3.1} les acteurs de syst\IeC {\`e}me }{56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.1} les acteurs de syst\IeC {\`e}me }{55}% 
+\contentsline {subsubsection}{\numberline {3.2.3.2} Cas d\IeC {\textquoteright }utilisation }{57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.2} Cas d\IeC {\textquoteright }utilisation }{56}% 
+\contentsline {subsection}{\numberline {3.2.4} Documentation des cas d\IeC {\textquoteright }utilisation fonctionnels }{58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4} Documentation des cas d\IeC {\textquoteright }utilisation fonctionnels }{57}% 
+\contentsline {subsubsection}{\numberline {3.2.4.1} S\IeC {\textquoteright }authentifier }{58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.1} S\IeC {\textquoteright }authentifier }{57}% 
+\contentsline {subsubsection}{\numberline {3.2.4.2}cas d'utilisation par l'utilisateur r\IeC {\'e}ception ou initial }{58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.2}cas d'utilisation par l'utilisateur r\IeC {\'e}ception ou initial }{57}% 
+\contentsline {subsubsection}{\numberline {3.2.4.3}Cr\IeC {\'e}er Dossiers}{59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.3}Cr\IeC {\'e}er Dossiers}{58}% 
+\contentsline {subsubsection}{\numberline {3.2.4.4}Activer Dossiers}{59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.4}Activer Dossiers}{58}% 
+\contentsline {subsubsection}{\numberline {3.2.4.5}cas d'utilisation par l'utilisateur simple }{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.5}cas d'utilisation par l'utilisateur simple }{59}% 
+\contentsline {subsubsection}{\numberline {3.2.4.6}Consulter \IeC {\'e}tat des Dossiers}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.6}Consulter \IeC {\'e}tat des Dossiers}{59}% 
+\contentsline {subsubsection}{\numberline {3.2.4.7}Finir le traitement des Dossiers}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.7}Finir le traitement des Dossiers}{59}% 
+\contentsline {subsubsection}{\numberline {3.2.4.8}G\IeC {\'e}rer Bordereau}{61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4.8}G\IeC {\'e}rer Bordereau}{60}% 
+\contentsline {section}{\numberline {3.3} Repr\IeC {\'e}sentation des informations }{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3} Repr\IeC {\'e}sentation des informations }{61}% 
+\contentsline {subsection}{\numberline {3.3.1}Diagramme de Classe}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Diagramme de Classe}{61}% 
+\contentsline {subsubsection}{\numberline {3.3.1.1}Conception d\IeC {\'e}taill\IeC {\'e}e}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1.1}Conception d\IeC {\'e}taill\IeC {\'e}e}{61}% 
+\contentsline {subsection}{\numberline {3.3.2}Diagramme d' activit\IeC {\'e} }{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Diagramme d' activit\IeC {\'e} }{64}% 
+\contentsline {subsubsection}{\numberline {3.3.2.1}les r\IeC {\^o}les de l'acteur administrateur: }{67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2.1}les r\IeC {\^o}les de l'acteur administrateur: }{66}% 
+\contentsline {subsubsection}{\numberline {3.3.2.2}les r\IeC {\^o}les de l'acteur utilisateur rescription : }{67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2.2}les r\IeC {\^o}les de l'acteur utilisateur rescription : }{66}% 
+\contentsline {subsubsection}{\numberline {3.3.2.3}les r\IeC {\^o}les de l'acteur utilisateur simple : }{67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2.3}les r\IeC {\^o}les de l'acteur utilisateur simple : }{66}% 
+\contentsline {section}{\numberline {3.4}Conclusion}{67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Conclusion}{66}% 
+\contentsline {chapter}{\numberline {4}R\IeC {\'e}alisation}{68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}R\IeC {\'e}alisation}{67}% 
+\contentsline {section}{\numberline {4.1}Introduction}{68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Introduction}{67}% 
+\contentsline {section}{\numberline {4.2}Outils et Technologies utilis\IeC {\'e}es pour le d\IeC {\'e}veloppement}{68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Outils et Technologies utilis\IeC {\'e}es pour le d\IeC {\'e}veloppement}{67}% 
+\contentsline {subsection}{\numberline {4.2.1}Spring}{68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Spring}{67}% 
+\contentsline {subsubsection}{\numberline {4.2.1.1}Spring Framework }{68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.1}Spring Framework }{67}% 
+\contentsline {subsubsection}{\numberline {4.2.1.2}Spring boot}{68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.2}Spring boot}{67}% 
+\contentsline {subsubsection}{\numberline {4.2.1.3}Spring Data}{68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.3}Spring Data}{67}% 
+\contentsline {subsubsection}{\numberline {4.2.1.4}Spring Cloud}{68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.4}Spring Cloud}{67}% 
+\contentsline {subsubsection}{\numberline {4.2.1.5}Spring Cloud Netflix}{69}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.5}Spring Cloud Netflix}{68}% 
+\contentsline {subsection}{\numberline {4.2.2} Qu'est-ce que Micro Service?}{69}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2} Qu'est-ce que Micro Service?}{68}% 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Pourquoi l\IeC {\textquoteright }architecture de Microservices?}{69}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.1}Pourquoi l\IeC {\textquoteright }architecture de Microservices?}{68}% 
+\contentsline {subsubsection}{\numberline {4.2.2.2}Patterns dans l'architecture des microservices}{69}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.2}Patterns dans l'architecture des microservices}{68}% 
+\contentsline {subsubsection}{\numberline {4.2.2.3}Architecture des microservices via les composants Netflix}{70}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.3}Architecture des microservices via les composants Netflix}{69}% 
+\contentsline {subsection}{\numberline {4.2.3}Composantes majeures de Netflix}{70}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Composantes majeures de Netflix}{69}% 
+\contentsline {subsubsection}{\numberline {4.2.3.1}Service Discovery Server}{70}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3.1}Service Discovery Server}{69}% 
+\contentsline {subsubsection}{\numberline {4.2.3.2}Routage dynamique et \IeC {\'e}quilibreur de charge}{70}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3.2}Routage dynamique et \IeC {\'e}quilibreur de charge}{69}% 
+\contentsline {subsubsection}{\numberline {4.2.3.3}Serveur Edge}{71}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3.3}Serveur Edge}{70}% 
+\contentsline {subsection}{\numberline {4.2.4}Spring Boot et Spring Cloud Netflix OSS \IeC {\textendash } Micro Service Architecture}{71}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Spring Boot et Spring Cloud Netflix OSS \IeC {\textendash } Micro Service Architecture}{70}% 
+\contentsline {subsubsection}{\numberline {4.2.4.1}Micro Services avec Spring Boot}{71}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4.1}Micro Services avec Spring Boot}{70}% 
+\contentsline {subsubsection}{\numberline {4.2.4.2}Spring Cloud Netflix}{71}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4.2}Spring Cloud Netflix}{70}% 
+\contentsline {subsection}{\numberline {4.2.5}Maven}{71}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.5}Maven}{70}% 
+\contentsline {subsubsection}{\numberline {4.2.5.1}Qu'est-ce que Maven ?}{71}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5.1}Qu'est-ce que Maven ?}{70}% 
+\contentsline {subsubsection}{\numberline {4.2.5.2}Qu'est-ce que le POM ?}{72}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5.2}Qu'est-ce que le POM ?}{71}% 
+\contentsline {subsubsection}{\numberline {4.2.5.3}Qu'est-ce qu'un archetype ?}{73}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5.3}Qu'est-ce qu'un archetype ?}{72}% 
+\contentsline {subsubsection}{\numberline {4.2.5.4}Qu'est-ce qu'une d\IeC {\'e}pendance ?}{73}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5.4}Qu'est-ce qu'une d\IeC {\'e}pendance ?}{72}% 
+\contentsline {subsubsection}{\numberline {4.2.5.5}Qu'est-ce qu'un artefact ?}{73}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5.5}Qu'est-ce qu'un artefact ?}{72}% 
+\contentsline {subsubsection}{\numberline {4.2.5.6}Qu'est-ce que le groupId/artifactId ?}{73}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5.6}Qu'est-ce que le groupId/artifactId ?}{72}% 
+\contentsline {subsubsection}{\numberline {4.2.5.7}Qu'est-ce qu'un SNAPSHOT ?}{73}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5.7}Qu'est-ce qu'un SNAPSHOT ?}{72}% 
+\contentsline {subsubsection}{\numberline {4.2.5.8}Qu'est-ce que le repository local, distant ?}{74}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5.8}Qu'est-ce que le repository local, distant ?}{73}% 
+\contentsline {subsection}{\numberline {4.2.6}bpmn js}{74}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.6}bpmn js}{73}% 
+\contentsline {subsection}{\numberline {4.2.7} Camunda BPM}{74}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.7} Camunda BPM}{73}% 
+\contentsline {subsection}{\numberline {4.2.8}Thymeleaf}{74}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.8}Thymeleaf}{73}% 
+\contentsline {section}{\numberline {4.3}Architecture Mod\IeC {\`e}le/Vue/Contr\IeC {\^o}leur}{75}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Architecture Mod\IeC {\`e}le/Vue/Contr\IeC {\^o}leur}{74}% 
+\contentsline {subsection}{\numberline {4.3.1}R\IeC {\^o}le du mod\IeC {\`e}le}{75}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}R\IeC {\^o}le du mod\IeC {\`e}le}{74}% 
+\contentsline {subsection}{\numberline {4.3.2}R\IeC {\^o}le de la vue}{75}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}R\IeC {\^o}le de la vue}{74}% 
+\contentsline {subsection}{\numberline {4.3.3}R\IeC {\^o}le du contr\IeC {\^o}leur}{75}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}R\IeC {\^o}le du contr\IeC {\^o}leur}{74}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Interactions}{75}% 
+\contentsline {subsection}{\numberline {4.3.4}Interactions}{76}% 

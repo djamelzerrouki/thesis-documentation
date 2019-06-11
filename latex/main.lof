@@ -21,44 +21,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.9}{\ignorespaces Diff\IeC {\'e}rentes classes des syst\IeC {\`e}mes Workflow \relax }}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Mod\IeC {\`e}le de r\IeC {\'e}f\IeC {\'e}rence des syst\IeC {\`e}mes de gestion de workflow (WfMC, 95). \relax }}{35}% 
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Mod\IeC {\`e}le de r\IeC {\'e}f\IeC {\'e}rence des syst\IeC {\`e}mes de gestion de workflow (WfMC, 95). \relax }}{34}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces R\IeC {\'e}seau de P\IeC {\'e}tri simple \relax }}{40}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces R\IeC {\'e}seau de P\IeC {\'e}tri simple \relax }}{39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces R\IeC {\'e}seau de P\IeC {\'e}tri marqu\IeC {\'e} \relax }}{42}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces R\IeC {\'e}seau de P\IeC {\'e}tri marqu\IeC {\'e} \relax }}{41}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Graphe de Marquage \relax }}{44}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Graphe de Marquage \relax }}{43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces R\IeC {\'e}seau de Petri non born\IeC {\'e}\relax }}{45}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces R\IeC {\'e}seau de Petri non born\IeC {\'e}\relax }}{44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces R\IeC {\'e}seau de Petri vivant\relax }}{46}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces R\IeC {\'e}seau de Petri vivant\relax }}{45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Exemple de r\IeC {\'e}seau de Petri bloquant\relax }}{46}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Exemple de r\IeC {\'e}seau de Petri bloquant\relax }}{45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Exemple de r\IeC {\'e}seau de P\IeC {\'e}tri temporel \relax }}{48}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Exemple de r\IeC {\'e}seau de P\IeC {\'e}tri temporel \relax }}{47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Proc\IeC {\'e}dure mod\IeC {\'e}lis\IeC {\'e}e avec le WF-net \relax }}{50}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Proc\IeC {\'e}dure mod\IeC {\'e}lis\IeC {\'e}e avec le WF-net \relax }}{49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Routage s\IeC {\'e}quentiel.\relax }}{51}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Routage s\IeC {\'e}quentiel.\relax }}{50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Routage parall\IeC {\`e}le.\relax }}{51}% 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Routage parall\IeC {\`e}le.\relax }}{50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Routage conditionnel non-d\IeC {\'e}terministe\relax }}{51}% 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Routage conditionnel non-d\IeC {\'e}terministe\relax }}{50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Choix explicite entre B et C \IeC {\`a} base de l\IeC {\textquoteright }attribut x . \relax }}{52}% 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Choix explicite entre B et C \IeC {\`a} base de l\IeC {\textquoteright }attribut x . \relax }}{51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces It\IeC {\'e}ration : B peut \IeC {\^e}tre ex\IeC {\'e}cut\IeC {\'e}e plusieurs fois\relax }}{52}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme de Cas d\IeC {\textquoteright }utilisation\relax }}{57}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme de Classe\relax }}{62}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramme d'activit\IeC {\'e} qui montre interaction des utilisateurs en fonction de leurs r\IeC {\^o}les dans le syst\IeC {\`e}me en g\IeC {\'e}n\IeC {\'e}ral.\relax }}{66}% 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces It\IeC {\'e}ration : B peut \IeC {\^e}tre ex\IeC {\'e}cut\IeC {\'e}e plusieurs fois\relax }}{51}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Interactions entre le mod\IeC {\`e}le, la vue et le contr\IeC {\^o}leur\relax }}{76}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme de Cas d\IeC {\textquoteright }utilisation\relax }}{56}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme de Classe\relax }}{61}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramme d'activit\IeC {\'e} qui montre interaction des utilisateurs en fonction de leurs r\IeC {\^o}les dans le syst\IeC {\`e}me en g\IeC {\'e}n\IeC {\'e}ral.\relax }}{65}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Interactions entre le mod\IeC {\`e}le, la vue et le contr\IeC {\^o}leur\relax }}{75}% 

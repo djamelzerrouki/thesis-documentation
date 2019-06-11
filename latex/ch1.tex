@@ -421,7 +421,7 @@ informations provenant de systèmes d’information variés et dans l’enjeu qu
 réussite. En effet, la procédure Workflow correspond directement au travail effectué par
 l’entreprise. En d’autres termes, la performance de l’entreprise est directement liée à
 l’exécution de la procédure managée par le Workflow. On dit dans ce cas qu’il est mission
-critical\footnote{\samepage  Un système est dit critique lorsque : les vies de personnes sont tributaires de son fonctionnement ou le coût économique d'un dysfonctionnement est catastrophique. } [INCONCERT 97]. C’est par exemple le cas des organismes financiers, des compagnies d’assurances, des usines de production manufacturières. La réalisation des procédures
+critical\textbf{\footnote{\samepage}  Un système est dit critique lorsque : les vies de personnes sont tributaires de son fonctionnement ou le coût économique d'un dysfonctionnement est catastrophique. } [INCONCERT 97]. C’est par exemple le cas des organismes financiers, des compagnies d’assurances, des usines de production manufacturières. La réalisation des procédures
 est donc associée à une forte valeur ajoutée et un volume d’informations traitées important.
 La complexité des procédures traitées est également due à la répartition de leurs activités
 sur plusieurs sites. Dans ce cas, les tâches exécutées nécessitent souvent l’interrogation de
@@ -447,68 +447,7 @@ Les Workflow adaptables sont, quant à eux, des supports comparables aux Workflo
 production classiques possédant une structure préétablie, mais pouvant traiter certains changements de structure « en ligne ». Ces changements peuvent aller des changements individuels/ad hoc (gestion d’exception), c’est à dire d’un aiguillage pour déterminer l’activité suivante, jusqu'à la reconception par BPR de processus [VAN DER AALST 98d]. En conclusion, ils ont une action globale pouvant inclure la définition du Workflow ad hoc  
 
 Il est intéressant de classifier les différents changements possibles par un Workflow adaptables, dans le but de mieux les anticiper [SADIQ 99]. Les changements sont envisageables
-selon plusieurs perspectives : la ressource, le contrôle, la procédure, la tâche et le système [VAN DER AALST 98d]. Dans la suite de l’étude seul l’aspect procédure sera développé,
-c’est en effet la perspective dominante du management par Workflow et elle comporte un
-aspect important : les changements dynamiques. Nous présentons ci-dessous les différents
-types de changements envisageables. 
-
-\subsubsection{Le changement individuel (ad hoc) }
-Les systèmes Workflow ad hoc sont utilisés pour l’exécution de processus non structurés
-ou peu structurés (sujets à changement). Un processus peu ou non structuré est un processus
-dont l’ordre et le temps exact de réalisation des tâches ne sont pas établis au préalable et/ou peuvent être modifiés pendant l’exécution. Les choix de routage et la nature des tâches sont décidés au fur et à mesure de l’exécution. Par conséquent, un processus non structuré propose un objectif immuable, mais pouvant être atteint de différentes façons. Certaines situations rencontrées pendant le « run time » nécessitent donc des dérivations ad hoc dans la procédure, éventuellement planifiée, comme le proposent [HAN 98], telles que :
-\begin{enumerate}
-
-\item \textbf{Le raffinement Dynamique : }\\
-Dans certains cas, il est impossible ou peu pratique de définir une spécification complète
-du modèle de Workflow. En raison de l’indisponibilité d’une spécification complète, le raffinement dynamique peut être nécessaire pendant le « run time », c’est-à-dire que certaines tâches ne seront complètement et définitivement spécifiées qu’en « run time ». Le même raisonnement peut être appliqué pour définir les ressources exigées pour l’exécution d’une tâche. 
-
-\item \textbf{La participation d’Utilisateurs : }\\
-Au lieu d’être des contrôleurs passifs, certains utilisateurs d’un système de Workflow
-doivent être traités comme des « propriétaires d’une tâche ou d’une procédure » [HAN 98].
-L’approche de ces systèmes est souvent de type « pull », c’est-à-dire que leurs utilisateurs
-doivent les interroger pour connaître l’état du processus et en déduire leurs tâches ; par opposition, les autres types de systèmes, possède eux une approche plutôt de type « push », où les
-utilisateurs sont informés par le système des travaux qu’ils ont à traiter [GEORGAKOPULOS
-95]. Techniquement, la métaphore utilisée dans ce type de système est celle du « dossier »
-[WAINER 95]. Les utilisateurs font circuler un dossier virtuel dans lequel sont « placés » des
-documents et des données électroniques. Chaque utilisateur en possession du dossier décide
-du prochain destinataire. Le processus décisionnel de l’utilisateur doit être considéré dans
-l’exécution de processus de Workflow. 
-
-\item \textbf{Adaptation aux événements externes : }\\
-Des événements non pris en compte par le modèle de Workflow, y compris certains stimuli externes, l’intervention d’utilisateurs, les temps morts, etc., doivent être traités correctement pour résoudre les problèmes du monde réel et faciliter la communication entre des procédures Workflow différentes. En outre, une fois qu’une communication inter-Workflow a
-lieu, les utilisateurs ou les propriétaires de procédures doivent être capables de répondre à ces événements en raffinant dynamiquement leur procédure ou en modifiant la tâche actuelle
-et/ou les interdépendances de tâches. 
-\item \textbf{Situation d’échec : }\\
-Un défaut système, des conflits de ressource et des fausses opérations peuvent causer des
-erreurs et des difficultés dans l’exécution d’une procédure Workflow. Les mécanismes pour
-traiter les situations d’erreur sont donc très importants pour assurer l’amélioration des processus de Workflow. 
-
-\end{enumerate}
-\subsubsection{Le changement structurel (évolution) }
-Ces changements sont souvent une réaction pour s’adapter à un changement
-d’environnement dû au contexte concurrentiel très dynamique ou au besoin d’adaptation aux
-progrès technologiques, au travers la parution de nouveaux logiciels ou de nouvelles versions
-[HAN 98].
-
-Ces changements sont souvent le fruit d’un travail de BPR.
-
-Après une telle modification, il existe plusieurs possibilités [VAN DER AALST 98d] et [SADIQ 99] d’intégrer les cas existants dans la nouvelle procédure, contrairement aux changements ad hoc qui restent un traitement d’exceptions et sont gérés individuellement.
-
-Première possibilité : Redémarrer « restart » « abort »
-
-Les cas en cours de traitements dans l’ancien processus sont remis à zéro et redémarrés
-dans le nouveau processus au lancement du nouveau système.
-
-Deuxième possibilité : Parallèle « proceed » « flush »
-
-Le système conserve en parallèle l’ancien et le nouveau processus le temps de l’exécution
-des cas en cours sur l’ancien processus.
-
-Troisième possibilité : Transférer « transfer » « migrate »
-
-Ce changement n’affecte pas le traitement des cas qui sont transférés directement dans le
-nouveau processus dans l’état actuel de leur déroulement. 
-
+selon plusieurs perspectives : la ressource, le contrôle, la procédure, la tâche et le système [VAN DER AALST 98d].
 
 
 \subsection{Modèle de référence des systèmes Workflow }

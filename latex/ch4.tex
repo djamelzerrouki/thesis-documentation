@@ -2,6 +2,64 @@
 Une fois la conception validée, il est temps de passer à la réalisation. Nous présentons dans ce chapitre le module réalisé en utilisant des captures d’écran pour montrer ses principales fonctionnalités. Nous commençons par présenter les outils et technologies utilisées pour le développement, ensuite nous passons à l’architecture technique de la solution puis l’architecture du code.
 
 \section{Outils et Technologies utilisées pour le développement}
+Pour le développement , nous avons utilisé : 
+
+    \subsection{Architecture Modèle/Vue/Contrôleur (MVC)}
+
+
+Pour d'organiser  l'interface graphique Nous avent utiliser l'architecture Modèle/Vue/Contrôleur (MVC) . Elle consiste à distinguer trois entités distinctes qui sont, le modèle, la vue et le contrôleur ayant chacun un rôle précis dans l'interface. \parencite{mvc}
+
+\begin{itemize}
+	\item 	\textbf{modèle :} données (accès et mise à jour)
+	\item 	\textbf{vue :} interface utilisateur (entrées et sorties)
+	\item 	\textbf{contrôleur :} gestion des événements et synchronisation
+\end{itemize}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{images/mvc}
+	\caption{Interactions entre le modèle, la vue et le contrôleur \parencite{mvc}}
+	\label{fig:mvc}
+\end{figure}
+
+\subsection{Technologies web } 
+\subsubsection{Technologies web (HTML5, JS et CSS3):} 
+\begin{itemize}
+	
+ \item  \textbf{HTML5 (Hypertext Markup Language 5) :} c’est un language de balisage permettant de décrire la structure et le contenu des pages Web. 
+ 
+ \item \textbf{JS (JavaScript) :} c’est un langage de script orienté objet utilisé pour dynamiser les pages Web et permettre une interaction avec l’utilisateur. Il est exécuté au niveau du navigateur. 
+ 
+ \item \textbf{CSS3 (Cascading Style Sheets) :} c’est un langage permettant de gérer la présentation et la mise en forme des pages web. (Positionnement des éléments, couleurs, tailles et polices, etc…). 
+ 
+ 
+
+ \subitem  \authorimg{Bootstarp}  \textbf{Le Framework Bootstrap } 
+ Nous avons utilisé le Framework CSS \textbf{Bootstrap3} qui dispose d’une grid pour faciliter la gestion de la mise en forme des pages HTML. Il offre aussi des composants de design basés sur HTML et CSS avec un\textbf{ Responsive design} qui permet un affichage qui s’adapte à la taille de l’écran, que ce soit une tablette, un smartphone ou un ordinateur.
+\end{itemize}
+
+ \subsubsection{Thymeleaf}
+
+Nous avons utilisé Thymeleaf comme un moteur de template Java pour le traitement et la création de HTML, XML, JavaScript, CSS et du texte.
+
+La bibliothèque est extrêmement extensible et sa capacité naturelle de gabarit permet aux prototypes de prototyper des gabarits, ce qui rend le développement très rapide par rapport aux autres moteurs de gabarits populaires tels que JSP.
+
+ \subsection{  Workflow :}
+Pour l'implémentation de Workflow nous avons utilisé: 
+\begin{itemize}
+	\item bpmn js
+	\item Camunda BPM
+\end{itemize}
+
+\subsubsection{bpmn js} 
+bpmn-js est une boîte à outils de rendu et un modélisateur Web BPMN 2.0. pour la modélisation de flux de travaux "Workflow" Il est écrit en JavaScript, intègre les diagrammes BPMN 2.0 dans les navigateurs modernes et ne requiert aucun serveur. Cela facilite son intégration dans n’importe quelle application Web.
+
+
+
+\subsubsection{ Camunda BPM}
+Nous avons utilisé Camunda BPM car est un système de gestion de flux de travaux gratuit écrit en Java qui définit et exécute les processus métier dans BPMN 2.0. 
+
 
  \subsection{Spring}
  
@@ -9,17 +67,25 @@ Une fois la conception validée, il est temps de passer à la réalisation. Nous
   
   
   Spring Framework fournit un modèle complet de programmation et de configuration pour les applications d'entreprise modernes basées sur Java - sur tout type de plate-forme de déploiement.
-  
+   
+ 
   Un élément clé de Spring est le support infrastructurel au niveau de l’application: Spring met l’accent sur la «plomberie» des applications d’entreprise afin que les équipes puissent se concentrer sur la logique métier au niveau de l’application, sans liens inutiles avec des environnements de déploiement spécifiques.
   
  \subsubsection{Spring boot}
- Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
+Nous avons utilisé Spring Boot pour  facilite la création d'applications basées sur Spring autonomes et de niveau production que vous pouvez "exécuter".
  
- We take an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss. Most Spring Boot applications need very little Spring configuration.
+  
    \subsubsection{Spring Data}
+   La mission de Spring Data est de fournir un modèle de programmation familier et cohérent, basé sur Spring, pour l’accès aux données tout en conservant les caractéristiques spéciales du magasin de données sous-jacent.
    
+   Il facilite l'utilisation des technologies d'accès aux données, des bases de données relationnelles et non relationnelles, des infrastructures de réduction de carte et des services de données en nuage. Il s'agit d'un projet parapluie contenant de nombreux sous-projets spécifiques à une base de données donnée.
+   
+   \subsubsection{Spring Security}
+  Pour la parti de sécurité  nous avons utilisé  \textbf{Spring Security} car  est un cadre d’authentification et de contrôle d’accès puissant et hautement personnalisable. C'est la norme de facto pour la sécurisation des applications basées sur Spring.
+   
+   Spring Security est une infrastructure qui fournit à la fois l’authentification et l’autorisation aux applications Java. Comme tous les projets Spring, la véritable force de Spring Security réside dans la facilité avec laquelle elle peut être étendue pour répondre aux exigences personnalisées.
  \subsubsection{Spring Cloud}
- Spring Cloud fournit aux développeurs des outils permettant de créer rapidement certains modèles courants dans les systèmes distribués (gestion de la configuration, découverte de services, disjoncteurs, routage intelligent, micro-proxy, bus de contrôle, jetons à usage unique, verrous globaux, élection des dirigeants, distribution sessions, état du cluster). La coordination des systèmes distribués conduit à des modèles de plaque de chaudière et, grâce à Spring Cloud, les développeurs peuvent rapidement mettre en service des services et des applications mettant en œuvre ces modèles. Ils fonctionneront bien dans n’importe quel environnement distribué, y compris l’ordinateur portable du développeur, les centres de données à nu et les plateformes gérées telles que Cloud Foundry.
+ Spring Cloud fournit aux développeurs des outils permettant de créer rapidement certains modèles courants dans les systèmes distribués (gestion de la configuration, découverte de services, disjoncteurs, routage intelligent, micro-proxy, bus de contrôle, jetons à usage unique, verrous globaux, élection des dirigeants, distribution sessions, état du cluster). La coordination des systèmes distribués conduit à des modèles de plaque de chaudière et, grâce à Spring Cloud, les développeurs peuvent rapidement mettre en service des services et des applications mettant en œuvre ces modèles. Ils fonctionneront bien dans n’importe quel environnement distribué, y compris l’ordinateur portable du développeur, les centres de données à nu et les plateformes gérées telles que Cloud Foundry\footnote[1]{\samepage Cloud Foundry facilite, accélère et simplifie la création, le test, le déploiement et la mise à l'échelle des applications, en offrant un choix de clouds, de cadres de développement et de services d'application. Il s'agit d'un projet open source, disponible via une variété de distributions de cloud privé et d'instances de cloud public.}.
  
  
   \subsubsection{Spring Cloud Netflix}
@@ -83,7 +149,7 @@ des instances d'un service et de leurs emplacements change de façon dynamique.
 
 
 \subsubsection{Architecture des microservices via les composants Netflix}
-Nous avons utilisé les composants Netflix pour réaliser les modèles d’architecture de microservices ci-dessus.\cite{MicroServices}.
+Nous avons utilisé les composants Netflix pour réaliser les modèles d’architecture de microservices ci-dessus. \cite{MicroServices}.
 
 % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
@@ -275,74 +341,277 @@ Un archetype est un template de projet. Le fait d'utiliser des archetypes pour i
     </project>
     \end{lstlisting}
     
-    
-    \subsection{bpmn js}
-    
+   
+     
  
-    bpmn-js est une boîte à outils de rendu et un modélisateur Web BPMN 2.0. Il est écrit en JavaScript, intègre les diagrammes BPMN 2.0 dans les navigateurs modernes et ne requiert aucun serveur. Cela facilite son intégration dans n’importe quelle application Web.
-    
-    La bibliothèque est construite de manière à pouvoir être à la fois un visualiseur et un modélisateur Web. Utilisez le visualiseur pour intégrer BPMN 2.0 dans vos applications et l'enrichir avec vos données. Utilisez le modélisateur pour créer des diagrammes BPMN 2.0 dans votre application. 
-    
-    
-    \subsection{ Camunda BPM}
-    Camunda BPM est un système de gestion de flux de travaux gratuit écrit en Java qui définit et exécute les processus métier dans BPMN 2.0. Camunda BPM prend également en charge les normes CMMN 1.1 et DMN 1.1 normalisées par le groupe de gestion des objets (OMG).  
-    
-    
-    \subsection{Thymeleaf}
-    
-    Thymeleaf est un moteur de template Java moderne côté serveur pour les environnements Web et autonomes.
-    
-    L'objectif principal de Thymeleaf est d'intégrer des modèles naturels élégants à votre flux de travail de développement: un code HTML pouvant être correctement affiché dans les navigateurs et fonctionnant également en tant que prototypes statiques, ce qui permet de renforcer la collaboration au sein des équipes de développement.
-    
-    Avec des modules pour Spring Framework, une multitude d’intégrations avec vos outils favoris et la possibilité d’intégrer vos propres fonctionnalités, Thymeleaf est idéal pour le développement Web JVM HTML5 moderne - bien qu’il puisse faire beaucoup plus.
-    
-    
-    
-    \section{Architecture Modèle/Vue/Contrôleur}
-    
-    
-  L'architecture Modèle/Vue/Contrôleur (MVC) est une façon d'organiser une interface graphique d'un programme. Elle consiste à distinguer trois entités distinctes qui sont, le modèle, la vue et le contrôleur ayant chacun un rôle précis dans l'interface.
-  
-  L'organisation globale d'une interface graphique est souvent délicate. Bien que la façon MVC d'organiser une interface ne soit pas la solution miracle, elle fournit souvent une première approche qui peut ensuite être adaptée. Elle offre aussi un cadre pour structurer une application.  
-    
-    Dans l'architecture MVC, les rôles des trois entités sont les suivants. \parencite{mvc}
-    
-    \begin{itemize}
-    \item 	\textbf{modèle :} données (accès et mise à jour)
-    \item 	\textbf{vue :} interface utilisateur (entrées et sorties)
-    \item 	\textbf{contrôleur :} gestion des événements et synchronisation
-    \end{itemize}
+\section{Création d'un service cloud par spring et micro service :}
 
-\subsection{Rôle du modèle}
-    Le modèle contient les données manipulées par le programme. Il assure la gestion de ces données et garantit leur intégrité. Dans le cas typique d'une base de données, c'est le modèle qui la contient.
-    
-    Le modèle offre des méthodes pour mettre à jour ces données (insertion suppression, changement de valeur). Il offre aussi des méthodes pour récupérer ses données. Dans le cas de données importantes, le modèle peut autoriser plusieurs vues partielles des données. Si par exemple le programme manipule une base de données pour les emplois du temps, le modèle peut avoir des méthodes pour avoir, tous les cours d'une salle, tous les cours d'une personnes ou tous les cours d'une groupe de Td.
- \subsection{Rôle de la vue}
- La vue fait l'interface avec l'utilisateur. Sa première tâche est d'afficher les données qu'elle a récupérées auprès du modèle. Sa seconde tâche est de recevoir tous les actions de l'utilisateur (clic de souris, sélection d'une entrées, boutons, …). Ses différents événements sont envoyés au contrôleur.
- 
- La vue peut aussi donner plusieurs vues, partielles ou non, des mêmes données. Par exemple, l'application de conversion de bases a un entier comme unique donnée. Ce même entier est affiché de multiples façons (en texte dans différentes bases, bit par bit avec des boutons à cocher, avec des curseurs). La vue peut aussi offrir la possibilité à l'utilisateur de changer de vue.
- \subsection{Rôle du contrôleur} 
- Le contrôleur est chargé de la synchronisation du modèle et de la vue. Il reçoit tous les événements de l'utilisateur et enclenche les actions à effectuer. Si une action nécessite un changement des données, le contrôleur demande la modification des données au modèle et ensuite avertit la vue que les données ont changé pour que celle-ci se mette à jour. Certains événements de l'utilisateur ne concerne pas les données mais la vue. Dans ce cas, le contrôleur demande à la vue de se modifier.
- 
- Dans le cas d'une base de données des emplois du temps. Une action de l'utilisateur peut être l'entrée (saisie) d'un nouveau cours. Le contrôleur ajoute ce cours au modèle et demande sa prise en compte par la vue. Une action de l'utilisateur peut aussi être de sélectionner une nouvelle personne pour visualiser tous ses cours. Ceci me modifie pas la base des cours mais nécessite simplement que la vue s'adapte et offre à l'utilisateur une vision des cours de cette personne.
- 
- Le contrôleur est souvent scindé en plusieurs parties dont chacune reçoit les événements d'une partie des composants. En effet si un même objet reçoit les événements de tous les composants, il lui faut déterminer quelle est l'origine de chaque événement. Ce tri des événements peut s'avérer fastidieuse et peut conduire à un code pas très élégant (un énorme switch). C'est pour éviter ce problème que le contrôleur est réparti en plusieurs objets.  
- \subsection{Interactions}
-    Les différentes interactions entre le modèle, la vue et le contrôleur sont résumées par le schéma de la figure \ref{fig:mvc} suivante.
-    
-    
-    
-    
-    
-    
-    
-    
+\subsection{Outils et Versions}
+
+\begin{itemize}
+\item Spring Boot Version: 1.5.8
+\item Spring Cloud Version 1.2.4
+\item Java Version 1.8.0 
+\item Maven Version 3.5.2
+\item  tu peux utiliser l'éditeur eclipse STS ou IntelliJ IDEA ( votre choix ).
+\end{itemize}
+
+
+
+Nous allons donc créer les microservices suivants:
+\begin{enumerate}
+	
+\item 	\textbf{Service principal:} Service principal, qui offre par exemple une API REST pour  la liste des utilisateurs du système  . (voir la Figure \ref{fig:class01} dans le chapitre 2 qui représente le diagramme de classe).
+	
+\item 	\textbf{Config Service :} Service de configuration, dont le rôle est de centraliser les fichiers de configuration des différents microservices dans un endroit unique.
+	
+\item 		\textbf{Proxy Service :} Passerelle se chargeant du routage d'une requête vers l'une des instances d'un service, de manière à gérer automatiquement la distribution de charge.
+	
+\item 		\textbf{Discovery Service:} Service permettant l'enregistrement des instances de services en vue d'être découvertes par d'autres services.
+\end{enumerate}
+L'architecture résultante aura l'allure suivante:
+
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\linewidth]{images/mvc}
-	\caption{Interactions entre le modèle, la vue et le contrôleur}
-	\label{fig:mvc}
+	\includegraphics[width=0.5\linewidth]{images/tp01}
+	\caption{}
+	\label{fig:tp01}
+\end{figure}
+
+
+\subsection{Création des Microservices}
+\subsubsection{Microservice  Service 1}
+Nous commençons par créer le service principal: Service 1.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/tp02}
+	\caption{}
+	\label{fig:tp02}
+\end{figure}
+
+
+Chaque microservice sera sous forme d'un projet Spring. Pour créer rapidement et facilement un projet Spring avec toutes les dépendances nécessaires, Spring Boot fournit Spring Initializr.
+
+Pour cela, aller au site \underline{\textbf{start.spring.io}}, et créer un projet avec les caractéristiques suivantes:
+
+\begin{enumerate}
+       	\item  Projet Maven avec Java et Spring Boot version 2.0.1
+		\item  Group: tn.insat.tpmicro
+		\item  Artifact: User-service
+		\item  Dépendances:
+		
+		\begin{itemize}
+		  \item Web
+		  \item Rest Repositories
+		  \item JPA : Java Persistence API
+		 \item Mysql : base de données pour le stockage
+		 \item Actuator : pour le montoring et la gestion de l'application
+		 \item  Eureka Discovery : pour l'intégration avec le Discovery Service
+		 \item  Config Client : pour l'intégration avec le Config Service
+		\end{itemize}
+		
+
+
+
+Suivre ensuite les étapes suivantes pour créer le microservice UserService:
+
+\begin{itemize}
+\item Ouvrir le projet téléchargé avec votre éditeur .
+
+\item Sous le répertoire src/main/java et dans le package com.example.entitis, créer la classe User  \textbf{(voir annexe A.1) }.
+\end{itemize}
+
+
+
+\item Cette classe est annotée avec JPA, pour stocker ensuite les objets user dans la base de données mysql grâce à Spring Data. Pour cela, créer l'interface UserRepository dans le même package  \textbf{(voir annexe A.2) }. 
+
+
+
+
+\item Pour insérer les objets dans la base, nous utiliserons l'objet Stream. Pour cela, nous allons créer la classe DummyDataCLR \textbf{(voir annexe A.3)}.
+
+
+
+\item Nous remarquons ici que le UserRepository sera instancié automatiquement grâce au mécanisme d'injection de dépendances, utilisé par Spring.
+
+Lancer la classe principale. Une base de données MySql sera créée et le CommandLineRunner se chargera de lui injecter les données.
+
+
+\begin{att}
+	Prenez soin d'utiliser JDK 8!
+\end{att}
+
+
+\item Pour exécuter votre application:
+
+  * Créer une configuration mvn package par l'éditeur  
+    
+        
+    
+  * Lancer ensuite la configuration Spring Boot UserServiceApplication  
+  
+    
+\end{enumerate}
+    
+    
+     
+    
+    
+        
+    \subsubsection{Microservice ConfigService}    
+    Dans une architecture microservices, plusieurs services s'exécutent en même temps, sur des processus différents, avec chacun sa propre configuration et ses propres paramètres. Spring Cloud Config fournit un support côté serveur et côté client pour externaliser les configurations dans un système distribué. Grâce au service de configuration, il est possible d'avoir un endroit centralisé pour gérer les propriétés de chacun de ces services
+    
+    \begin{figure}[H]
+    	\centering
+    	\includegraphics[width=0.5\linewidth]{images/tp03}
+    	\caption{}
+    	\label{fig:tp03}
+    \end{figure}
+    
+    Pour cela:      
+    \begin{enumerate}
+    	
+    	\item  Commencer par créer un service ConfigService dans Spring Initializr, avec les dépendances appropriées, comme indiqué sur la figure suivante:
+    	
+    	
+    	
+    	\item  Ouvrir le projet dans une autre instance d'IntelliJ IDEA.
+    	
+    	\item  Pour exposer un service de configuration, utiliser l'annotation\\
+    	\textbf{@EnableConfigServer} pour la classe \textbf{ConfigServiceApplication}, \textbf{(Voir annexe B.1)}  
+    	\item  Pour paramétrer ce service de configuration, ajouter dans son fichier application.properties les valeurs suivantes:
+    	
+    	\begin{lstlisting}
+    	server.port=8888
+    	spring.cloud.config.server.git.uri=file:./src/main/resources/myConfig
+    	\end{lstlisting}
+    	
+    	Ceci indique que le service de configuration sera lancé sur le port 8888 et que le répertoire contenant les fichiers de configuration se trouve dans le répertoire src/main/resources/myConfig. Il suffit maintenant de créer ce répertoire.
+    	
+    	
+    	\item  Créer le répertoire myConfig à l'arborescence src/main/resources
+    	
+    	\item  Créer dans ce répertoire le fichier application.properties dans lequel vous insérez l'instruction suivante:
+    	\begin{lstlisting}
+    	global=xxxxx
+    	\end{lstlisting}
+    	
+    	Ce fichier sera partagé entre tous les microservices utilisant ce service de configuration.
+    	
+    	\item Le répertoire de configuration doit être un répertoire git. Pour cela:
+    	
+    	\begin{itemize}
+    		\item Ouvrir le terminal avec IntelliJ et naviguer vers ce répertoire.
+    		\item  Initialiser votre répertoire:\textbf{ git init}
+    		\item  Créer une entrée racine dans le repository: \textbf{git add .}
+    		\item  Faire un commit: \textbf{git commit -m "add ."}
+    	\end{itemize}
+    	
+    	Revenir vers le projet ProductService et ajouter dans le fichier de configuration application.properties:
+    	\begin{lstlisting}
+    	spring.application.name = product-service
+    	spring.cloud.config.uri = http://localhost:8888
+    	
+    	\end{lstlisting}
+    	
+    	Redémarrer vos services. Pour consulter le service de configuration, aller à {\color{red} http://localhost:8888/product-service/master} .
+    	
+    	Vous verrez le fichier JSON  \textbf{(Voir annexe B.2)}
+    
+    	Comme le fichier application.properties contient toutes les propriétés partagées des différents microservices, nous aurons besoins d'autres fichiers pour les propriétés spécifiques à un microservice. Pour cela:
+    	
+    	\item Créer dans le répertoire myConfig un fichier product-service.properties pour le service ProductService.
+    	
+    	\item  Ajouter les propriétés de votre service, à savoir, par exemple:
+    	
+    	\begin{lstlisting}
+    	me=Djamel.Zerroukki@jimmi.fr
+    	\end{lstlisting} 
+    	
+    	Relancer le microservice de configuration. En consultant l'url {\color{red}http://localhost:8888/product-service/master}, nous remarquons l'ajout de la nouvelle propriété.\textbf{(Voir annexe B.3)}
+    	 
+    	Nous allons maintenant définir un appel REST à cette propriété. Pour cela:
+    	
+    	\item Créer la classe ProductRestService dans le projet product-service.\textbf{(Voir annexe B.4)}
+    	
+  
+    	
+    	
+    	\item Redémarrer l'instance  du service, puis appeler dans votre navigateur le service en tapant: {\color{red} http://localhost:8080/messages}. 
+    	
+    	
+    	
+    \end{enumerate}
+    
+    
+    
+    
+    
+    
+    \subsubsection{Microservice DiscoveryService}
+Pour éviter un couplage fort entre microservices, il est fortement recommandé d'utiliser un service de découverte qui permet d'enregistrer les propriétés des différents services et d'éviter ainsi d'avoir à appeler un service directement. Au lieu de cela, le service de découverte fournira dynamiquement les informations nécessaires, ce qui permet d'assurer l'élasticité et la dynamicité propres à une architecture microservices.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/tp04}
+	\caption{}
+	\label{fig:tp04}
 \end{figure}
     
+    Pour réaliser cela, Netflix offre le service \textbf{Eureka Service Registration and Discovery}, que nous allons utiliser dans notre application.
+    
+    
+    \begin{enumerate}
+\item Revenir à Spring Initializr et créer un nouveau projet Spring Boot intitulé discovery-service avec les dépendances Eureka Server et Config Client.
+\item Lancer le projet avec votre éditeur.
+\item Dans la classe DiscoveryServiceApplication, ajouter l'annotation \textbf{@EnableEurekaServer}. \textbf{(Voir annexe D)} 
+
+\item  Ajouter les propriétés suivantes dans son fichier application.properties.
+
+\begin{lstlisting}
+spring.application.name=discovery-service
+spring.cloud.config.uri=http://localhost:8888
+\end{lstlisting}
+
+\item Dans le projet config-service, créer un fichier discovery-service.properties sous le répertoire myConfig.
+
+\item Ajouter les propriétés suivantes pour (1) définir le port par défaut du service de découverte et (2) empêcher un auto-enregistrement du service Eureka.
+
+\begin{lstlisting}
+server.port = 8761
+eureka.client.fetch-registry = false
+eureka.client.register-with-eureka = false
+\end{lstlisting}
+
+Pour consulter le service Eureka, aller à {\color{red}  http://localhost:8761}, l'interface suivante s'affiche:
+
+
+
+    \end{enumerate}
+    
+    
+    \subsubsection{Microservice ProxyService}
+    L'architecture microservice, en fournissant un ensemble de services indépendants et faiblement couplés, se trouve confrontée au challenge de fournir une interface unifiée pour les consommateurs, de manière à ce qu'ils ne voient pas la décomposition à faible granularité de vos services. C'est pour cela que l'utilisation d'un service proxy, responsable du routage des requêtes et de la répartition de charge, est important.
+    
+    \begin{figure}[H]
+    	\centering
+    	\includegraphics[width=0.5\linewidth]{images/tp05}
+    	\caption{}
+    	\label{fig:tp05}
+    \end{figure}
+    
+    Netflix offre le service \textbf{Zuul} pour réaliser cela. Pour créer votre microservice Proxy:
+    \begin{enumerate}
+\item    Aller à Spring Initializr.
+\item     Créer le projet proxy-service avec les dépendances suivantes: \textbf{(Zuul, Web, HATEOAS, Actuator, Config Client et Eureka Discovery )}.
+\item     Ouvrir le service avec votre  IDEA.
+\item     Ajouter à la classe ProxyServiceApplication l'annotation \textbf{@EnableZuulProxy}, ainsi que \textbf{@EnableDiscoveryClient} pour que le proxy soit également enregistré dans le service ce découverte.
+\item     Ajouter les propriétés spring.application.name et spring.cloud.config.uri dans le fichier application.properties du service proxy.
+\item     Créer le fichier proxy-service.properties dans le répertoire myConfig du service de configuration, dans lequel vous allez fixer le port du service proxy à 9999.
+ \end{enumerate}
+
+
+En lançant le service Proxy, vous remarquerez qu'il est rajouté dans Eureka.
     
     

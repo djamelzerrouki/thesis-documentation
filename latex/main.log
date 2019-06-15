@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  12 JUN 2019 01:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  15 JUN 2019 05:43
 entering extended mode
 **./main.tex
 (main.tex
@@ -319,6 +319,14 @@ Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 \AC@clearlist=\toks30
 )
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\makeidx.sty"
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write3
+\openout3 = `main.idx'.
+
+
+Writing index file main.idx
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count113
@@ -549,16 +557,182 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 Package: glossary-tree 2019/01/06 v4.42 (NLCT)
 \glstreeindent=\skip66
 ))
-\glswrite=\write3
-\glo@main@file=\write4
-\openout4 = `main.glo'.
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/appendix\appendix
+.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count150
+\c@@ppsavesec=\count151
+\c@@ppsaveapp=\count152
+)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/inconsolata\incon
+solata.sty"
+Package: inconsolata 2019/05/17 v1.12
 
-Package glossaries Info: Writing glossary file main.glo on input line 11.
-\glo@acronym@file=\write5
-\openout5 = `main.acn'.
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty
+"
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+ ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+ ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
 
-Package glossaries Info: Writing glossary file main.acn on input line 11.
-
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\zifour@ocount=\count153
+)
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.st
 y"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -570,13 +744,13 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 147.
 )
 Package color Info: Redefining color cyan on input line 22.
-\c@thm=\count150
+\c@thm=\count154
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wrapfig\wrapfig.s
 ty"
 \wrapoverhang=\dimen143
 \WF@size=\dimen144
-\c@WF@wrappedlines=\count151
+\c@WF@wrappedlines=\count155
 \WF@box=\box40
 \WF@everypar=\toks45
 Package: wrapfig 2003/01/31  v 3.6
@@ -594,9 +768,9 @@ Package ifvtex Info: VTeX not detected.
 .sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count152
-\Gm@cntv=\count153
-\c@Gm@tempcnt=\count154
+\Gm@cnth=\count156
+\Gm@cntv=\count157
+\c@Gm@tempcnt=\count158
 \Gm@bindingoffset=\dimen145
 \Gm@wd@mp=\dimen146
 \Gm@odd@mp=\dimen147
@@ -625,8 +799,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen158
 \caption@hangindent=\dimen159
 )
-\c@caption@flags=\count155
-\c@ContinuedFloat=\count156
+\c@caption@flags=\count159
+\c@ContinuedFloat=\count160
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -641,8 +815,8 @@ Package caption Info: wrapfig package is loaded.
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaptio
 n.sty"
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count157
-\c@subtable=\count158
+\c@subfigure=\count161
+\c@subtable=\count162
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr
 .sty"
@@ -675,7 +849,7 @@ Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
 \minrowclearance=\skip76
 )
 LaTeX Info: Redefining \color on input line 709.
-\rownum=\count159
+\rownum=\count163
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -693,53 +867,53 @@ Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty
 "
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count160
+\lrq@indent=\count164
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def
 "
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count161
-\c@listtotal=\count162
-\c@listcount=\count163
-\c@liststart=\count164
-\c@liststop=\count165
-\c@citecount=\count166
-\c@citetotal=\count167
-\c@multicitecount=\count168
-\c@multicitetotal=\count169
-\c@instcount=\count170
-\c@maxnames=\count171
-\c@minnames=\count172
-\c@maxitems=\count173
-\c@minitems=\count174
-\c@citecounter=\count175
-\c@maxcitecounter=\count176
-\c@savedcitecounter=\count177
-\c@uniquelist=\count178
-\c@uniquename=\count179
-\c@refsection=\count180
-\c@refsegment=\count181
-\c@maxextratitle=\count182
-\c@maxextratitleyear=\count183
-\c@maxextraname=\count184
-\c@maxextradate=\count185
-\c@maxextraalpha=\count186
-\c@abbrvpenalty=\count187
-\c@highnamepenalty=\count188
-\c@lownamepenalty=\count189
-\c@maxparens=\count190
-\c@parenlevel=\count191
-\blx@tempcnta=\count192
-\blx@tempcntb=\count193
-\blx@tempcntc=\count194
-\blx@maxsection=\count195
-\blx@maxsegment@0=\count196
-\blx@notetype=\count197
-\blx@parenlevel@text=\count198
-\blx@parenlevel@foot=\count199
-\blx@sectionciteorder@0=\count266
-\blx@entrysetcounter=\count267
+\c@tabx@nest=\count165
+\c@listtotal=\count166
+\c@listcount=\count167
+\c@liststart=\count168
+\c@liststop=\count169
+\c@citecount=\count170
+\c@citetotal=\count171
+\c@multicitecount=\count172
+\c@multicitetotal=\count173
+\c@instcount=\count174
+\c@maxnames=\count175
+\c@minnames=\count176
+\c@maxitems=\count177
+\c@minitems=\count178
+\c@citecounter=\count179
+\c@maxcitecounter=\count180
+\c@savedcitecounter=\count181
+\c@uniquelist=\count182
+\c@uniquename=\count183
+\c@refsection=\count184
+\c@refsegment=\count185
+\c@maxextratitle=\count186
+\c@maxextratitleyear=\count187
+\c@maxextraname=\count188
+\c@maxextradate=\count189
+\c@maxextraalpha=\count190
+\c@abbrvpenalty=\count191
+\c@highnamepenalty=\count192
+\c@lownamepenalty=\count193
+\c@maxparens=\count194
+\c@parenlevel=\count195
+\blx@tempcnta=\count196
+\blx@tempcntb=\count197
+\blx@tempcntc=\count198
+\blx@maxsection=\count199
+\blx@maxsegment@0=\count266
+\blx@notetype=\count267
+\blx@parenlevel@text=\count268
+\blx@parenlevel@foot=\count269
+\blx@sectionciteorder@0=\count270
+\blx@entrysetcounter=\count271
 \labelnumberwidth=\skip77
 \labelalphawidth=\skip78
 \biblabelsep=\skip79
@@ -749,10 +923,10 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibparsep=\skip83
 \bibhang=\skip84
 \blx@bcfin=\read1
-\blx@bcfout=\write6
-\c@mincomprange=\count268
-\c@maxcomprange=\count269
-\c@mincompwidth=\count270
+\blx@bcfout=\write4
+\c@mincomprange=\count272
+\c@maxcomprange=\count273
+\c@mincompwidth=\count274
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -764,74 +938,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count271
-\c@savedafterword=\count272
-\c@annotator=\count273
-\c@savedannotator=\count274
-\c@author=\count275
-\c@savedauthor=\count276
-\c@bookauthor=\count277
-\c@savedbookauthor=\count278
-\c@commentator=\count279
-\c@savedcommentator=\count280
-\c@editor=\count281
-\c@savededitor=\count282
-\c@editora=\count283
-\c@savededitora=\count284
-\c@editorb=\count285
-\c@savededitorb=\count286
-\c@editorc=\count287
-\c@savededitorc=\count288
-\c@foreword=\count289
-\c@savedforeword=\count290
-\c@holder=\count291
-\c@savedholder=\count292
-\c@introduction=\count293
-\c@savedintroduction=\count294
-\c@namea=\count295
-\c@savednamea=\count296
-\c@nameb=\count297
-\c@savednameb=\count298
-\c@namec=\count299
-\c@savednamec=\count300
-\c@translator=\count301
-\c@savedtranslator=\count302
-\c@shortauthor=\count303
-\c@savedshortauthor=\count304
-\c@shorteditor=\count305
-\c@savedshorteditor=\count306
-\c@labelname=\count307
-\c@savedlabelname=\count308
-\c@institution=\count309
-\c@savedinstitution=\count310
-\c@lista=\count311
-\c@savedlista=\count312
-\c@listb=\count313
-\c@savedlistb=\count314
-\c@listc=\count315
-\c@savedlistc=\count316
-\c@listd=\count317
-\c@savedlistd=\count318
-\c@liste=\count319
-\c@savedliste=\count320
-\c@listf=\count321
-\c@savedlistf=\count322
-\c@location=\count323
-\c@savedlocation=\count324
-\c@organization=\count325
-\c@savedorganization=\count326
-\c@origlocation=\count327
-\c@savedoriglocation=\count328
-\c@origpublisher=\count329
-\c@savedorigpublisher=\count330
-\c@publisher=\count331
-\c@savedpublisher=\count332
-\c@language=\count333
-\c@savedlanguage=\count334
-\c@origlanguage=\count335
-\c@savedoriglanguage=\count336
-\c@pageref=\count337
-\c@savedpageref=\count338
+\c@afterword=\count275
+\c@savedafterword=\count276
+\c@annotator=\count277
+\c@savedannotator=\count278
+\c@author=\count279
+\c@savedauthor=\count280
+\c@bookauthor=\count281
+\c@savedbookauthor=\count282
+\c@commentator=\count283
+\c@savedcommentator=\count284
+\c@editor=\count285
+\c@savededitor=\count286
+\c@editora=\count287
+\c@savededitora=\count288
+\c@editorb=\count289
+\c@savededitorb=\count290
+\c@editorc=\count291
+\c@savededitorc=\count292
+\c@foreword=\count293
+\c@savedforeword=\count294
+\c@holder=\count295
+\c@savedholder=\count296
+\c@introduction=\count297
+\c@savedintroduction=\count298
+\c@namea=\count299
+\c@savednamea=\count300
+\c@nameb=\count301
+\c@savednameb=\count302
+\c@namec=\count303
+\c@savednamec=\count304
+\c@translator=\count305
+\c@savedtranslator=\count306
+\c@shortauthor=\count307
+\c@savedshortauthor=\count308
+\c@shorteditor=\count309
+\c@savedshorteditor=\count310
+\c@labelname=\count311
+\c@savedlabelname=\count312
+\c@institution=\count313
+\c@savedinstitution=\count314
+\c@lista=\count315
+\c@savedlista=\count316
+\c@listb=\count317
+\c@savedlistb=\count318
+\c@listc=\count319
+\c@savedlistc=\count320
+\c@listd=\count321
+\c@savedlistd=\count322
+\c@liste=\count323
+\c@savedliste=\count324
+\c@listf=\count325
+\c@savedlistf=\count326
+\c@location=\count327
+\c@savedlocation=\count328
+\c@organization=\count329
+\c@savedorganization=\count330
+\c@origlocation=\count331
+\c@savedoriglocation=\count332
+\c@origpublisher=\count333
+\c@savedorigpublisher=\count334
+\c@publisher=\count335
+\c@savedpublisher=\count336
+\c@language=\count337
+\c@savedlanguage=\count338
+\c@origlanguage=\count339
+\c@savedoriglanguage=\count340
+\c@pageref=\count341
+\c@savedpageref=\count342
 \shorthandwidth=\skip85
 \shortjournalwidth=\skip86
 \shortserieswidth=\skip87
@@ -871,13 +1045,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex
 .def"
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count339
-\c@textcitetotal=\count340
-\c@textcitemaxnames=\count341
-\c@biburlnumpenalty=\count342
-\c@biburlucpenalty=\count343
-\c@biburllcpenalty=\count344
-\c@smartand=\count345
+\c@textcitecount=\count343
+\c@textcitetotal=\count344
+\c@textcitemaxnames=\count345
+\c@biburlnumpenalty=\count346
+\c@biburlucpenalty=\count347
+\c@biburllcpenalty=\count348
+\c@smartand=\count349
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -891,8 +1065,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\stan
 dard.bbx"
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count346
-\c@bbx:relatedtotal=\count347
+\c@bbx:relatedcount=\count350
+\c@bbx:relatedtotal=\count351
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -915,14 +1089,15 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 .cfg"
 File: biblatex.cfg 
 ))
-\c@defn=\count348
-\c@conj=\count349
-\c@exmp=\count350
+\c@defn=\count352
+\c@conj=\count353
+\c@exmp=\count354
+\c@att=\count355
 
 
 Package amsthm Warning: Unknown theoremstyle `Remarque' on input line 92.
 
-\c@rem=\count351
+\c@rem=\count356
 Package biblatex Info: Trying to load language 'francais'...
 Package biblatex Info: ... file 'francais.lbx' not found.
 
@@ -947,9 +1122,9 @@ File: french.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count352
-\@quotereset=\count353
-(main.aux (abbreviations.aux) (Introduction.aux))
+\@quotelevel=\count357
+\@quotereset=\count358
+(main.aux (abbreviations.aux) (Introduction.aux) (Annexes.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
@@ -964,33 +1139,40 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
 LaTeX Font Info:    ... okay on input line 106.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
 LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 106.
+
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 106.
 LaTeX Info: Redefining \degres on input line 106.
 LaTeX Info: Redefining \dots on input line 106.
 LaTeX Info: Redefining \up on input line 106.
 
-
-Package french.ldf Warning: OT1 encoding should not be used for French.
-(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 106.
-
-
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-
 pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count354
+\scratchcounter=\count359
 \scratchdimen=\dimen160
 \scratchbox=\box41
-\nofMPsegments=\count355
-\nofMParguments=\count356
+\nofMPsegments=\count360
+\nofMParguments=\count361
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count357
+\MPscratchCnt=\count362
 \MPscratchDim=\dimen161
-\MPnumerator=\count358
-\makeMPintoPDFobject=\count359
+\MPnumerator=\count363
+\makeMPintoPDFobject=\count364
 \everyMPtoPDFconversion=\toks49
 )
-\c@lstlisting=\count360
+\c@lstlisting=\count365
 
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/upquote\upquote.s
+ty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1034,7 +1216,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Input encoding 'utf8' specified.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
-\openout6 = `main-blx.bib'.
+\openout4 = `main-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
@@ -1049,36 +1231,33 @@ Package pdftex.def Info: images/univtiaret.png  used on input line 27.
 (pdftex.def)             Requested size: 128.0387pt x 124.99696pt.
  [1
 
-\openout3 = `main.ist'.
-
 {C:/Users/djamel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/u
 nivtiaret.png>])
+No file main.gls.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2]
-No file main.gls.
-[3
+[1
+
+] [2
+
+] [3
 
 ] [4
-
-] [5
-
-] [6
 
 ]
 \openout2 = `abbreviations.aux'.
 
- (abbreviations.tex [7
+ (abbreviations.tex [5
 
 
-]) [8]
+]) [6]
 \openout2 = `Introduction.aux'.
 
- (Introduction.tex) [9
+ (Introduction.tex) [1
 
 
 
@@ -1095,60 +1274,56 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package acronym Info: Label `acro:qos' newly defined as it shall be overridden
 although it is yet undefined on input line 32.
- [10
+ [2
 
 
-] [11] [12])
-\tf@toc=\write7
-\openout7 = `main.toc'.
+] [3] [4])
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
- [13] (main.lof)
-\tf@lof=\write8
-\openout8 = `main.lof'.
+ [5] (main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
- [14
+ [6
 
 ] (main.lot)
-\tf@lot=\write9
-\openout9 = `main.lot'.
+\tf@lot=\write7
+\openout7 = `main.lot'.
 
- [15
+ [1
 
-] [16
+] [2
 
 ]
 Chapitre 1.
 (ch1.tex
-Overfull \hbox (13.69984pt too wide) in paragraph at lines 7--8
-[]\OT1/cmr/m/n/12 Ce cha-pitre presente une in-tro-duc-tion au cloud com-pu-ti
-ng et au work-flow, necessaire
- []
-
 Package acronym Info: Label `acro:ec2' newly defined as it shall be overridden
 although it is yet undefined on input line 13.
-<images/tempsnip4.png, id=58, 934.99312pt x 697.10437pt>
+<images/tempsnip4.png, id=61, 934.99312pt x 697.10437pt>
 File: images/tempsnip4.png Graphic file (type png)
 <use images/tempsnip4.png>
 Package pdftex.def Info: images/tempsnip4.png  used on input line 17.
 (pdftex.def)             Requested size: 341.43436pt x 254.5633pt.
-[17
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3
 
 ]
 Package acronym Info: Label `acro:als' newly defined as it shall be overridden
 although it is yet undefined on input line 25.
-
-Underfull \vbox (badness 4846) has occurred while \output is active []
-
- [18 <./images/tempsnip4.png>]
+ [4 <./images/tempsnip4.png>]
 Package acronym Info: Label `acro:cpu' newly defined as it shall be overridden
 although it is yet undefined on input line 51.
- [19]
-<images/34-0.jpg, id=70, 627.01859pt x 553.7307pt>
+ [5]
+<images/34-0.jpg, id=71, 627.01859pt x 553.7307pt>
 File: images/34-0.jpg Graphic file (type jpg)
 <use images/34-0.jpg>
 Package pdftex.def Info: images/34-0.jpg  used on input line 67.
 (pdftex.def)             Requested size: 213.39566pt x 188.45183pt.
- [20 <./images/34-0.jpg>]
+ [6 <./images/34-0.jpg>]
 Package acronym Info: Label `acro:vmm' newly defined as it shall be overridden
 although it is yet undefined on input line 80.
 Package acronym Info: Label `acro:xaas' newly defined as it shall be overridden
@@ -1169,37 +1344,37 @@ although it is yet undefined on input line 98.
 Package acronym Info: Label `acro:haas' newly defined as it shall be overridden
 
 although it is yet undefined on input line 98.
-<images/Capture5.png, id=74, 838.332pt x 460.119pt>
+<images/Capture5.png, id=76, 838.332pt x 460.119pt>
 File: images/Capture5.png Graphic file (type png)
 <use images/Capture5.png>
 Package pdftex.def Info: images/Capture5.png  used on input line 101.
 (pdftex.def)             Requested size: 426.79134pt x 234.24335pt.
- [21]
+ [7]
 Package acronym Info: Label `acro:gae' newly defined as it shall be overridden
 although it is yet undefined on input line 113.
- [22 <./images/Capture5.png>]
+ [8 <./images/Capture5.png>]
 Package acronym Info: Label `acro:nist' newly defined as it shall be overridden
 
 although it is yet undefined on input line 123.
 Package acronym Info: Label `acro:vpn' newly defined as it shall be overridden
 although it is yet undefined on input line 126.
- [23]
-<images/Cloud_MD.png, id=86, 595.22375pt x 465.74pt>
+<images/Cloud_MD.png, id=84, 595.22375pt x 465.74pt>
 File: images/Cloud_MD.png Graphic file (type png)
 <use images/Cloud_MD.png>
 Package pdftex.def Info: images/Cloud_MD.png  used on input line 137.
 (pdftex.def)             Requested size: 213.39566pt x 166.96982pt.
+ [9]
 Package acronym Info: Label `acro:aws' newly defined as it shall be overridden
 although it is yet undefined on input line 188.
- [24 <./images/Cloud_MD.png (PNG copy)>]
+ [10 <./images/Cloud_MD.png (PNG copy)>]
 Package acronym Info: Label `acro:sgbd' newly defined as it shall be overridden
 
 although it is yet undefined on input line 217.
 Package acronym Info: Label `acro:uims' newly defined as it shall be overridden
 
 although it is yet undefined on input line 217.
- [25]
-<images/wfmcHistory.png, id=94, 493.845pt x 148.75575pt>
+ [11]
+<images/wfmcHistory.png, id=96, 493.845pt x 148.75575pt>
 File: images/wfmcHistory.png Graphic file (type png)
 <use images/wfmcHistory.png>
 Package pdftex.def Info: images/wfmcHistory.png  used on input line 225.
@@ -1213,27 +1388,25 @@ although it is yet undefined on input line 233.
 Package acronym Info: Label `acro:wfmc-tc' newly defined as it shall be overrid
 den
 although it is yet undefined on input line 237.
-<images/Environnementswf.png, id=95, 608.2725pt x 408.3255pt>
+<images/Environnementswf.png, id=97, 608.2725pt x 408.3255pt>
 File: images/Environnementswf.png Graphic file (type png)
 <use images/Environnementswf.png>
 Package pdftex.def Info: images/Environnementswf.png  used on input line 247.
 (pdftex.def)             Requested size: 256.0774pt x 171.90675pt.
- [26 <./images/wfmcHistory.png>]
-Overfull \hbox (9.59387pt too wide) in paragraph at lines 260--261
-\OT1/cmr/m/n/12 les pro-ces-sus d'une or-ga-ni-sa-tion. Cette ges-tion est ren-
-due pos-sible par la representation
- []
 
-<images/DimensionsWF.png, id=102, 447.47176pt x 299.31825pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./images/wfmcHistory.png>]
+<images/DimensionsWF.png, id=103, 447.47176pt x 299.31825pt>
 File: images/DimensionsWF.png Graphic file (type png)
 <use images/DimensionsWF.png>
 Package pdftex.def Info: images/DimensionsWF.png  used on input line 289.
 (pdftex.def)             Requested size: 213.39566pt x 142.73941pt.
 
-Underfull \vbox (badness 2401) has occurred while \output is active []
+Underfull \vbox (badness 7308) has occurred while \output is active []
 
- [27 <./images/Environnementswf.png>]
-<images/"dswf".png, id=107, 613.0905pt x 458.31226pt>
+ [13 <./images/Environnementswf.png>]
+<images/"dswf".png, id=108, 613.0905pt x 458.31226pt>
 File: images/"dswf".png Graphic file (type png)
 <use images/"dswf".png>
 Package pdftex.def Info: images/"dswf".png  used on input line 303.
@@ -1241,41 +1414,14 @@ Package pdftex.def Info: images/"dswf".png  used on input line 303.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28 <./images/DimensionsWF.png>] [29 <./images/dswf.png>]
-Overfull \hbox (4.62633pt too wide) in paragraph at lines 334--335
-\OT1/cmr/m/n/12 presentes ci-dessous en francais avec la tra-duc-tion an-gla
-ise ori-gi-nale as-sociee, couvrent
- []
-
-
-Overfull \hbox (12.84576pt too wide) in paragraph at lines 342--343
-[]\OT1/cmr/m/n/12 Une ac-ti-vite est une etape d'un pro-ces-sus au cours de l
-a-quelle une ac-tion elementaire
- []
-
-[30]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 354.
-
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 354.
-
-Overfull \hbox (5.92223pt too wide) in paragraph at lines 389--391
-[]\OT1/cmr/m/n/12 Il n'existe pas de clas-si-fi-ca-tion com-mune des systemes 
-Work-flow dans la litterature,
- []
-
-[31]
-<"images/classification de workflow".png, id=124, 459.51675pt x 257.16075pt>
+ [14 <./images/DimensionsWF.png>] [15 <./images/dswf.png>] [16] [17]
+<"images/classification de workflow".png, id=123, 459.51675pt x 257.16075pt>
 File: "images/classification de workflow".png Graphic file (type png)
 <use "images/classification de workflow".png>
 Package pdftex.def Info: "images/classification de workflow".png  used on input
  line 397.
 (pdftex.def)             Requested size: 298.75262pt x 167.19566pt.
- [32 <./images/classification de workflow.png>] [33]
+ [18 <./images/classification de workflow.png>] [19]
 Package acronym Info: Label `acro:bpr' newly defined as it shall be overridden
 although it is yet undefined on input line 447.
 <images/Capture6.png, id=132, 674.52pt x 514.92375pt>
@@ -1287,234 +1433,76 @@ Package pdftex.def Info: images/Capture6.png  used on input line 460.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34]
+[20]
 Package acronym Info: Label `acro:wapi' newly defined as it shall be overridden
 
 although it is yet undefined on input line 477.
- [35 <./images/Capture6.png>]
-Overfull \hbox (8.50145pt too wide) in paragraph at lines 508--509
-[]\OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 L'in-terpretation com-mune de la definit
-ion de procedures (ou d'un sous-ensemble). 
+ [21 <./images/Capture6.png>]
+Overfull \hbox (8.27754pt too wide) in paragraph at lines 508--509
+[]\TS1/cmr/m/n/12 ˆ \T1/cmr/m/n/12 L'in-ter-pré-ta-tion com-mune de la dé-fi-ni
+-tion de pro-cé-dures (ou d'un sous-ensemble). 
  []
 
-[36] [37]) [38]
-Chapitre 2.
-(ch2.tex [39
+[22] [23]) [24] [25
 
 ]
-<images/petrif01.png, id=153, 315.579pt x 296.307pt>
-File: images/petrif01.png Graphic file (type png)
-<use images/petrif01.png>
-Package pdftex.def Info: images/petrif01.png  used on input line 90.
-(pdftex.def)             Requested size: 213.39566pt x 200.36029pt.
-
-Overfull \hbox (19.50275pt too wide) in paragraph at lines 95--96
-\OT1/cmr/m/n/12 gra-phique d'un modele RdP est une T^ache delicate en com-pa-
-rant avec une representation
+Chapitre 2.
+(ch3.tex
+Overfull \hbox (6.15576pt too wide) in paragraph at lines 20--21
+[]\T1/cmr/m/n/12 L'OMG dé-fi-nit l'UML comme un lan-gage vi-suel dé-dié à la sp
+é-ci-fi-ca-tion,la construc-
  []
 
-[40 <./images/petrif01.png>]
+[26
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 98.
-
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 98.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 103.
-
-<images/pitref02PNG.png, id=159, 314.3745pt x 388.45125pt>
-File: images/pitref02PNG.png Graphic file (type png)
-<use images/pitref02PNG.png>
-Package pdftex.def Info: images/pitref02PNG.png  used on input line 127.
-(pdftex.def)             Requested size: 170.71393pt x 210.946pt.
-
+] [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
-[42 <./images/pitref02PNG.png>] [43]
-<images/pitrif03.png, id=174, 1137.65025pt x 377.61075pt>
-File: images/pitrif03.png Graphic file (type png)
-<use images/pitrif03.png>
-Package pdftex.def Info: images/pitrif03.png  used on input line 244.
-(pdftex.def)             Requested size: 426.79134pt x 141.66129pt.
-
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
-
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
-
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
-
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 252.
-
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
-
-
-Overfull \hbox (11.41747pt too wide) in paragraph at lines 252--253
-\OT1/cmr/m/n/12 semble de sequences d'oc-cur-rences. Une sequence d'oc-cur-re
-nces est une sequence
- []
-
-[44 <./images/pitrif03.png>]
-<images/Rdpborn.png, id=179, 315.579pt x 232.4685pt>
-File: images/Rdpborn.png Graphic file (type png)
-<use images/Rdpborn.png>
-Package pdftex.def Info: images/Rdpborn.png  used on input line 288.
-(pdftex.def)             Requested size: 213.39566pt x 157.19324pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--304
-
- []
-
-[45 <./images/Rdpborn.png>]
-<images/Petrivivant.png, id=184, 169.8345pt x 271.61475pt>
-File: images/Petrivivant.png Graphic file (type png)
-<use images/Petrivivant.png>
-Package pdftex.def Info: images/Petrivivant.png  used on input line 311.
-(pdftex.def)             Requested size: 85.35696pt x 136.5116pt.
-<images/Petribloquant.png, id=185, 241.50224pt x 350.5095pt>
-File: images/Petribloquant.png Graphic file (type png)
-<use images/Petribloquant.png>
-Package pdftex.def Info: images/Petribloquant.png  used on input line 325.
-(pdftex.def)             Requested size: 106.69783pt x 154.85576pt.
- [46 <./images/Petrivivant.png> <./images/Petribloquant.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 338--341
-
- []
-
-
-Overfull \hbox (30.12918pt too wide) in paragraph at lines 352--354
-\OT1/cmr/m/n/12 Un reseau de Pe-tri Co-lore (CPN) et un tuple $(\OMS/cmsy/m/n
-/12 4\OML/cmm/m/it/12 ; P; T; Arc; Noeud; Couleur; Grade; E; M[]\OT1/cmr/m/n/12
- )$
- []
-
-[47]
-
-LaTeX Warning: Command \oe invalid in math mode on input line 362.
-
-
-LaTeX Warning: Command \oe invalid in math mode on input line 362.
-
-
-LaTeX Warning: Command \oe invalid in math mode on input line 362.
-
-<images/pitrif005.png, id=194, 1124.40076pt x 436.029pt>
-File: images/pitrif005.png Graphic file (type png)
-<use images/pitrif005.png>
-Package pdftex.def Info: images/pitrif005.png  used on input line 392.
-(pdftex.def)             Requested size: 298.75262pt x 115.85318pt.
-[48 <./images/pitrif005.png>]
-Overfull \hbox (13.44107pt too wide) in paragraph at lines 417--418
-[]\OT1/cmr/m/n/12 Rend la specification de work-flow non am-bigue. L'in-terpr
-etation de ces specifications
- []
-
-[49]
-<images/wf-nete006.png, id=203, 542.025pt x 249.93375pt>
-File: images/wf-nete006.png Graphic file (type png)
-<use images/wf-nete006.png>
-Package pdftex.def Info: images/wf-nete006.png  used on input line 446.
-(pdftex.def)             Requested size: 213.39566pt x 98.40048pt.
-<images/wf003.png, id=204, 528.17325pt x 162.6075pt>
-File: images/wf003.png Graphic file (type png)
-<use images/wf003.png>
-Package pdftex.def Info: images/wf003.png  used on input line 468.
-(pdftex.def)             Requested size: 298.75262pt x 91.97762pt.
- [50 <./images/wf-nete006.png>]
-<images/Capture.png, id=210, 809.424pt x 310.15875pt>
-File: images/Capture.png Graphic file (type png)
-<use images/Capture.png>
-Package pdftex.def Info: images/Capture.png  used on input line 479.
-(pdftex.def)             Requested size: 298.75262pt x 114.4777pt.
-<images/wf005.png, id=211, 885.3075pt x 296.90926pt>
-File: images/wf005.png Graphic file (type png)
-<use images/wf005.png>
-Package pdftex.def Info: images/wf005.png  used on input line 497.
-(pdftex.def)             Requested size: 298.75262pt x 100.19574pt.
- [51 <./images/wf003.png> <./images/Capture.png> <./images/wf005.png>]
-<images/wf006.png, id=219, 966.009pt x 349.90726pt>
-File: images/wf006.png Graphic file (type png)
-<use images/wf006.png>
-Package pdftex.def Info: images/wf006.png  used on input line 513.
-(pdftex.def)             Requested size: 298.75262pt x 108.21384pt.
-<images/wf008.png, id=220, 597.432pt x 206.57175pt>
-File: images/wf008.png Graphic file (type png)
-<use images/wf008.png>
-Package pdftex.def Info: images/wf008.png  used on input line 524.
-(pdftex.def)             Requested size: 298.75262pt x 103.30136pt.
-) [52 <./images/wf006.png> <./images/wf008.png>]
-[53
-
-]
-Chapitre 3.
-(ch3.tex
-Overfull \hbox (5.9266pt too wide) in paragraph at lines 20--21
-[]\OT1/cmr/m/n/12 L'OMG definit l'UML comme un lan-gage vi-suel dedie a la 
-specification,la construc-
- []
-
-
-Overfull \hbox (0.3755pt too wide) in paragraph at lines 29--30
-[]\OT1/cmr/bx/n/12 Diagramme de pa-que-tages (Pa-ckage Dia-gram) : \OT1/cmr/m/n
-/12 definit les dependances
- []
-
-[54
-
-]
-Overfull \hbox (5.95865pt too wide) in paragraph at lines 59--60
-[] []\OT1/cmr/bx/n/12 Etape 3 : \OT1/cmr/m/n/12 Preparez-vous pour l'en-tre-vu
-e Preparez les ques-tions de developpement
- []
-
-[55] [56]
-<images/usercase2.png, id=239, 531.1845pt x 545.6385pt>
+ [28]
+<images/usercase2.png, id=163, 531.1845pt x 545.6385pt>
 File: images/usercase2.png Graphic file (type png)
 <use images/usercase2.png>
 Package pdftex.def Info: images/usercase2.png  used on input line 153.
 (pdftex.def)             Requested size: 426.81236pt x 591.53708pt.
- [57 <./images/usercase2.png>]
-Overfull \hbox (35.79843pt too wide) in paragraph at lines 164--187
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Overfull \hbox (35.69315pt too wide) in paragraph at lines 164--187
  [][] 
  []
 
-
-Overfull \hbox (13.9374pt too wide) in paragraph at lines 192--204
+[30 <./images/usercase2.png>]
+Overfull \hbox (13.83594pt too wide) in paragraph at lines 192--204
 [][] 
  []
 
-[58]
-Overfull \hbox (9.43327pt too wide) in paragraph at lines 213--229
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Overfull \hbox (9.33284pt too wide) in paragraph at lines 213--229
 [][] 
  []
 
 
 Underfull \vbox (badness 2351) has occurred while \output is active []
 
- [59]
-Overfull \hbox (13.4431pt too wide) in paragraph at lines 240--256
+ [32]
+Overfull \hbox (13.34305pt too wide) in paragraph at lines 240--256
 [][] 
  []
 
 
-Overfull \hbox (3.74738pt too wide) in paragraph at lines 262--278
+Overfull \hbox (3.64954pt too wide) in paragraph at lines 262--278
 [][] 
  []
 
 
-Underfull \vbox (badness 1888) has occurred while \output is active []
+Underfull \vbox (badness 1895) has occurred while \output is active []
 
- [60]
-<images/class01.png, id=253, 784.73175pt x 496.254pt>
+ [33]
+<images/class01.png, id=181, 784.73175pt x 496.254pt>
 File: images/class01.png Graphic file (type png)
 <use images/class01.png>
 Package pdftex.def Info: images/class01.png  used on input line 315.
@@ -1522,19 +1510,19 @@ Package pdftex.def Info: images/class01.png  used on input line 315.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
-[62 <./images/class01.png>]
-Overfull \hbox (8.98949pt too wide) in paragraph at lines 355--367
+ [34]
+[35 <./images/class01.png>]
+Overfull \hbox (8.92491pt too wide) in paragraph at lines 355--367
  [][] 
  []
 
-[63]
-Overfull \hbox (20.98196pt too wide) in paragraph at lines 498--511
+[36]
+Overfull \hbox (20.91742pt too wide) in paragraph at lines 498--511
  [][] 
  []
 
-[64]
-<images/Dactiviti.png, id=268, 347.49825pt x 453.49425pt>
+[37]
+<images/Dactiviti.png, id=197, 347.49825pt x 453.49425pt>
 File: images/Dactiviti.png Graphic file (type png)
 <use images/Dactiviti.png>
 Package pdftex.def Info: images/Dactiviti.png  used on input line 517.
@@ -1547,154 +1535,104 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 517--518
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
-Overfull \hbox (0.64311pt too wide) in paragraph at lines 522--523
-[]\OT1/cmr/m/n/12 l'interaction de l'ac-teur ad-mi-nis-tra-teur avec le system
-e il faut d'abord de connecte
+ [38]
+Overfull \hbox (0.5473pt too wide) in paragraph at lines 522--523
+[]\T1/cmr/m/n/12 l'interaction de l'ac-teur ad-mi-nis-tra-teur avec le sys-tème
+ il faut d'abord de connecté
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66 <./images/Dactiviti.png>]) [67]
-Chapitre 4.
+ [39 <./images/Dactiviti.png>]) [40]
+Chapitre 3.
 (ch4.tex
-Overfull \hbox (67.2203pt too wide) in paragraph at lines 4--4
-[]\OT1/cmr/bx/n/17.28 Outils et Tech-no-lo-gies uti-lisees pour le developpem
-ent 
- []
+<images/mvc.png, id=208, 327.02174pt x 209.583pt>
+File: images/mvc.png Graphic file (type png)
+<use images/mvc.png>
+Package pdftex.def Info: images/mvc.png  used on input line 21.
+(pdftex.def)             Requested size: 256.0774pt x 164.12326pt.
 
-[68
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [69]
-<images/ms-img04.png, id=286, 88.07906pt x 92.59593pt>
+ [41
+
+]
+<images/Bootstarp.png, id=212, 149.358pt x 125.87025pt>
+File: images/Bootstarp.png Graphic file (type png)
+<use images/Bootstarp.png>
+Package pdftex.def Info: images/Bootstarp.png  used on input line 38.
+(pdftex.def)             Requested size: 42.68173pt x 35.96942pt.
+
+[42 <./images/mvc.png (PNG copy)> <./images/Bootstarp.png>] [43] [44]
+<images/ms-img04.png, id=224, 88.07906pt x 92.59593pt>
 File: images/ms-img04.png Graphic file (type png)
 <use images/ms-img04.png>
-Package pdftex.def Info: images/ms-img04.png  used on input line 113.
+Package pdftex.def Info: images/ms-img04.png  used on input line 179.
 (pdftex.def)             Requested size: 42.68173pt x 44.8708pt.
-<images/ms-img05.png, id=287, 101.62968pt x 70.76437pt>
+<images/ms-img05.png, id=225, 101.62968pt x 70.76437pt>
 File: images/ms-img05.png Graphic file (type png)
 <use images/ms-img05.png>
-Package pdftex.def Info: images/ms-img05.png  used on input line 119.
+Package pdftex.def Info: images/ms-img05.png  used on input line 185.
 (pdftex.def)             Requested size: 42.68173pt x 29.71866pt.
-<images/ms-img06.png, id=288, 130.98938pt x 96.36pt>
+ [45 <./images/ms-img04.png>]
+<images/ms-img06.png, id=229, 130.98938pt x 96.36pt>
 File: images/ms-img06.png Graphic file (type png)
 <use images/ms-img06.png>
-Package pdftex.def Info: images/ms-img06.png  used on input line 127.
+Package pdftex.def Info: images/ms-img06.png  used on input line 193.
 (pdftex.def)             Requested size: 42.68173pt x 31.39748pt.
- [70 <./images/ms-img04.png> <./images/ms-img05.png>]
-Overfull \hbox (2.36673pt too wide) in paragraph at lines 146--148
-[]\OT1/cmr/m/n/12 Les ins-tances Eu-reka peuvent ^etre en-re-gistrees et les c
-lients peuvent Decouvrez
- []
+ [46 <./images/ms-img05.png> <./images/ms-img06.png>]
 
-[71 <./images/ms-img06.png>]
-Overfull \hbox (5.27849pt too wide) in paragraph at lines 185--186
-[]\OT1/cmr/m/n/12 Le \OT1/cmr/bx/n/12 POM \OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 P\O
-T1/cmr/m/n/12 roject \OT1/cmr/bx/n/12 O\OT1/cmr/m/n/12 bject \OT1/cmr/bx/n/12 M
-\OT1/cmr/m/n/12 odel) est une facon de decrire, de maniere declarative,
- []
+Package xcolor Warning: Incompatible color definition on input line 257.
 
 
-Package xcolor Warning: Incompatible color definition on input line 191.
+Package xcolor Warning: Incompatible color definition on input line 257.
 
 
-Package xcolor Warning: Incompatible color definition on input line 191.
+Package xcolor Warning: Incompatible color definition on input line 258.
 
 
-Package xcolor Warning: Incompatible color definition on input line 192.
+Package xcolor Warning: Incompatible color definition on input line 258.
 
 
-Package xcolor Warning: Incompatible color definition on input line 192.
+Package xcolor Warning: Incompatible color definition on input line 261.
 
 
-Package xcolor Warning: Incompatible color definition on input line 195.
+Package xcolor Warning: Incompatible color definition on input line 261.
 
 
-Package xcolor Warning: Incompatible color definition on input line 195.
+Package xcolor Warning: Incompatible color definition on input line 262.
 
 
-Package xcolor Warning: Incompatible color definition on input line 196.
+Package xcolor Warning: Incompatible color definition on input line 262.
 
 
-Package xcolor Warning: Incompatible color definition on input line 196.
+Package xcolor Warning: Incompatible color definition on input line 263.
 
 
-Package xcolor Warning: Incompatible color definition on input line 197.
+Package xcolor Warning: Incompatible color definition on input line 263.
 
 
-Package xcolor Warning: Incompatible color definition on input line 197.
+Package xcolor Warning: Incompatible color definition on input line 264.
 
 
-Package xcolor Warning: Incompatible color definition on input line 198.
+Package xcolor Warning: Incompatible color definition on input line 264.
 
 
-Package xcolor Warning: Incompatible color definition on input line 198.
+Package xcolor Warning: Incompatible color definition on input line 266.
 
 
-Package xcolor Warning: Incompatible color definition on input line 200.
+Package xcolor Warning: Incompatible color definition on input line 266.
 
 
-Package xcolor Warning: Incompatible color definition on input line 200.
+Package xcolor Warning: Incompatible color definition on input line 267.
 
 
-Package xcolor Warning: Incompatible color definition on input line 201.
+Package xcolor Warning: Incompatible color definition on input line 267.
 
 
-Package xcolor Warning: Incompatible color definition on input line 201.
+Package xcolor Warning: Incompatible color definition on input line 269.
 
-
-Package xcolor Warning: Incompatible color definition on input line 203.
-
-
-Package xcolor Warning: Incompatible color definition on input line 204.
-
-
-Package xcolor Warning: Incompatible color definition on input line 205.
-
-
-Package xcolor Warning: Incompatible color definition on input line 205.
-
-
-Package xcolor Warning: Incompatible color definition on input line 206.
-
-
-Package xcolor Warning: Incompatible color definition on input line 206.
-
-
-Package xcolor Warning: Incompatible color definition on input line 208.
-
-
-Package xcolor Warning: Incompatible color definition on input line 208.
-
-
-Package xcolor Warning: Incompatible color definition on input line 209.
-
-
-Package xcolor Warning: Incompatible color definition on input line 210.
-
-
-Package xcolor Warning: Incompatible color definition on input line 212.
-
-[72]
-Overfull \hbox (82.93182pt too wide) in paragraph at lines 247--248
-\OT1/cmr/m/n/12 et on choi-sit generalement comme grou-pId le nom du top pa-c
-kage du pro-jet. ([]\OT1/cmr/m/sc/12 java.developpez.com
- []
-
-
-Overfull \hbox (12.87633pt too wide) in paragraph at lines 251--251
-[]\OT1/cmr/m/n/12 L'artifactId est uti-lise par defaut pour construire le nom
- de l'ar-te-fact fi-nal (exemple :
- []
-
-
-Overfull \hbox (10.04016pt too wide) in paragraph at lines 251--251
-\OT1/cmr/m/n/12 pour un ar-ti-fac-tId=monprojet, le nom du fi-chier jar gener
-e sera monprojet-version.jar). 
- []
-
-[73]
 
 Package xcolor Warning: Incompatible color definition on input line 270.
 
@@ -1710,57 +1648,886 @@ Package xcolor Warning: Incompatible color definition on input line 272.
 
 Package xcolor Warning: Incompatible color definition on input line 272.
 
+[47]
 
-Package xcolor Warning: Incompatible color definition on input line 273.
+Package xcolor Warning: Incompatible color definition on input line 274.
 
 
-Package xcolor Warning: Incompatible color definition on input line 273.
+Package xcolor Warning: Incompatible color definition on input line 274.
 
 
 Package xcolor Warning: Incompatible color definition on input line 275.
 
-[74] [75]
-<images/mvc.png, id=309, 327.02174pt x 209.583pt>
-File: images/mvc.png Graphic file (type png)
-<use images/mvc.png>
-Package pdftex.def Info: images/mvc.png  used on input line 342.
-(pdftex.def)             Requested size: 256.0774pt x 164.12326pt.
-) [76 <./images/mvc.png (PNG copy)>] [77
 
-] (main.aux (abbreviations.aux) (Introduction.aux))
+Package xcolor Warning: Incompatible color definition on input line 276.
+
+
+Package xcolor Warning: Incompatible color definition on input line 278.
+
+
+Overfull \hbox (83.2434pt too wide) in paragraph at lines 313--314
+\T1/cmr/m/n/12 et on choi-sit gé-né-ra-le-ment comme grou-pId le nom du top pa-
+ckage du pro-jet. ([]\T1/cmr/m/sc/12 java.developpez.com
+ []
+
+
+Overfull \hbox (12.7777pt too wide) in paragraph at lines 317--317
+[]\T1/cmr/m/n/12 L'artifactId est uti-lisé par dé-faut pour construire le nom d
+e l'ar-te-fact fi-nal (exemple :
+ []
+
+
+Overfull \hbox (9.93811pt too wide) in paragraph at lines 317--317
+\T1/cmr/m/n/12 pour un ar-ti-fac-tId=monprojet, le nom du fi-chier jar gé-néré 
+sera monprojet-version.jar). 
+ []
+
+[48]
+
+Package xcolor Warning: Incompatible color definition on input line 336.
+
+
+Package xcolor Warning: Incompatible color definition on input line 337.
+
+
+Package xcolor Warning: Incompatible color definition on input line 337.
+
+
+Package xcolor Warning: Incompatible color definition on input line 338.
+
+
+Package xcolor Warning: Incompatible color definition on input line 338.
+
+
+Package xcolor Warning: Incompatible color definition on input line 339.
+
+
+Package xcolor Warning: Incompatible color definition on input line 339.
+
+
+Package xcolor Warning: Incompatible color definition on input line 341.
+
+[49]
+<images/tp01.png, id=244, 350.05782pt x 381.67593pt>
+File: images/tp01.png Graphic file (type png)
+<use images/tp01.png>
+Package pdftex.def Info: images/tp01.png  used on input line 377.
+(pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
+<images/tp02.png, id=245, 350.05782pt x 381.67593pt>
+File: images/tp02.png Graphic file (type png)
+<use images/tp02.png>
+Package pdftex.def Info: images/tp02.png  used on input line 389.
+(pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50 <./images/tp01.png>] [51 <./images/tp02.png>]
+<images/tp03.png, id=252, 350.05782pt x 381.67593pt>
+File: images/tp03.png Graphic file (type png)
+<use images/tp03.png>
+Package pdftex.def Info: images/tp03.png  used on input line 468.
+(pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 487.
+
+
+Package xcolor Warning: Incompatible color definition on input line 487.
+
+
+Package xcolor Warning: Incompatible color definition on input line 488.
+
+
+Package xcolor Warning: Incompatible color definition on input line 488.
+
+
+Package xcolor Warning: Incompatible color definition on input line 488.
+
+
+Package xcolor Warning: Incompatible color definition on input line 488.
+
+
+Package xcolor Warning: Incompatible color definition on input line 488.
+
+
+Package xcolor Warning: Incompatible color definition on input line 488.
+
+
+Package xcolor Warning: Incompatible color definition on input line 488.
+
+
+Package xcolor Warning: Incompatible color definition on input line 488.
+
+
+Package xcolor Warning: Incompatible color definition on input line 488.
+
+
+Package xcolor Warning: Incompatible color definition on input line 488.
+
+
+Package xcolor Warning: Incompatible color definition on input line 488.
+
+[52 <./images/tp03.png>]
+
+Package xcolor Warning: Incompatible color definition on input line 498.
+
+
+Package xcolor Warning: Incompatible color definition on input line 498.
+
+
+Package xcolor Warning: Incompatible color definition on input line 514.
+
+
+Package xcolor Warning: Incompatible color definition on input line 514.
+
+
+Package xcolor Warning: Incompatible color definition on input line 514.
+
+
+Package xcolor Warning: Incompatible color definition on input line 514.
+
+
+Package xcolor Warning: Incompatible color definition on input line 514.
+
+
+Package xcolor Warning: Incompatible color definition on input line 515.
+
+
+Package xcolor Warning: Incompatible color definition on input line 515.
+
+
+Package xcolor Warning: Incompatible color definition on input line 515.
+
+
+Package xcolor Warning: Incompatible color definition on input line 515.
+
+
+Package xcolor Warning: Incompatible color definition on input line 515.
+
+
+Package xcolor Warning: Incompatible color definition on input line 515.
+
+
+Package xcolor Warning: Incompatible color definition on input line 530.
+
+
+Package xcolor Warning: Incompatible color definition on input line 530.
+
+
+Package xcolor Warning: Incompatible color definition on input line 530.
+
+
+Package xcolor Warning: Incompatible color definition on input line 530.
+
+<images/tp04.png, id=256, 350.05782pt x 381.67593pt>
+File: images/tp04.png Graphic file (type png)
+<use images/tp04.png>
+Package pdftex.def Info: images/tp04.png  used on input line 557.
+(pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
+[53]
+Overfull \hbox (7.34816pt too wide) in paragraph at lines 568--569
+[]\T1/cmr/m/n/12 Dans la classe Dis-co-ve-ry-Ser-vi-ceAp-pli-ca-tion, ajou-ter 
+l'an-no-ta-tion \T1/cmr/bx/n/12 @En-ableEu-
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 573.
+
+
+Package xcolor Warning: Incompatible color definition on input line 573.
+
+
+Package xcolor Warning: Incompatible color definition on input line 573.
+
+
+Package xcolor Warning: Incompatible color definition on input line 573.
+
+
+Package xcolor Warning: Incompatible color definition on input line 573.
+
+
+Package xcolor Warning: Incompatible color definition on input line 574.
+
+
+Package xcolor Warning: Incompatible color definition on input line 574.
+
+
+Package xcolor Warning: Incompatible color definition on input line 574.
+
+
+Package xcolor Warning: Incompatible color definition on input line 574.
+
+
+Package xcolor Warning: Incompatible color definition on input line 574.
+
+
+Package xcolor Warning: Incompatible color definition on input line 574.
+
+
+Package xcolor Warning: Incompatible color definition on input line 582.
+
+
+Package xcolor Warning: Incompatible color definition on input line 582.
+
+
+Package xcolor Warning: Incompatible color definition on input line 583.
+
+
+Package xcolor Warning: Incompatible color definition on input line 583.
+
+
+Package xcolor Warning: Incompatible color definition on input line 583.
+
+
+Package xcolor Warning: Incompatible color definition on input line 583.
+
+
+Package xcolor Warning: Incompatible color definition on input line 583.
+
+
+Package xcolor Warning: Incompatible color definition on input line 584.
+
+
+Package xcolor Warning: Incompatible color definition on input line 584.
+
+
+Package xcolor Warning: Incompatible color definition on input line 584.
+
+
+Package xcolor Warning: Incompatible color definition on input line 584.
+
+
+Package xcolor Warning: Incompatible color definition on input line 584.
+
+
+Package xcolor Warning: Incompatible color definition on input line 584.
+
+[54 <./images/tp04.png>]
+<images/tp05.png, id=264, 350.05782pt x 381.67593pt>
+File: images/tp05.png Graphic file (type png)
+<use images/tp05.png>
+Package pdftex.def Info: images/tp05.png  used on input line 599.
+(pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
+) [55 <./images/tp05.png>]
+LaTeX Font Info:    Try loading font information for T1+zi4 on input line 176.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/inconsolata\t1zi4
+.fd"
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 176.
+ [56
+
+]
+\openout2 = `Annexes.aux'.
+
+ (Annexes.tex
+Annexe A.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1
+.sty"
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.
+sty"
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+)
+
+Package xcolor Warning: Incompatible color definition on input line 5.
+
+
+Package xcolor Warning: Incompatible color definition on input line 5.
+
+
+Package xcolor Warning: Incompatible color definition on input line 5.
+
+
+Package xcolor Warning: Incompatible color definition on input line 6.
+
+
+Package xcolor Warning: Incompatible color definition on input line 6.
+
+
+Package xcolor Warning: Incompatible color definition on input line 6.
+
+
+Package xcolor Warning: Incompatible color definition on input line 7.
+
+
+Package xcolor Warning: Incompatible color definition on input line 7.
+
+
+Package xcolor Warning: Incompatible color definition on input line 7.
+
+
+Package xcolor Warning: Incompatible color definition on input line 8.
+
+
+Package xcolor Warning: Incompatible color definition on input line 8.
+
+
+Package xcolor Warning: Incompatible color definition on input line 8.
+
+
+Package xcolor Warning: Incompatible color definition on input line 10.
+
+
+Package xcolor Warning: Incompatible color definition on input line 11.
+
+
+Package xcolor Warning: Incompatible color definition on input line 11.
+
+
+Package xcolor Warning: Incompatible color definition on input line 12.
+
+
+Package xcolor Warning: Incompatible color definition on input line 13.
+
+
+Package xcolor Warning: Incompatible color definition on input line 14.
+
+
+Package xcolor Warning: Incompatible color definition on input line 15.
+
+
+Package xcolor Warning: Incompatible color definition on input line 15.
+
+
+Package xcolor Warning: Incompatible color definition on input line 16.
+
+
+Package xcolor Warning: Incompatible color definition on input line 18.
+
+
+Package xcolor Warning: Incompatible color definition on input line 18.
+
+
+Package xcolor Warning: Incompatible color definition on input line 18.
+
+
+Package xcolor Warning: Incompatible color definition on input line 19.
+
+
+Package xcolor Warning: Incompatible color definition on input line 19.
+
+
+Package xcolor Warning: Incompatible color definition on input line 21.
+
+
+Package xcolor Warning: Incompatible color definition on input line 22.
+
+
+Package xcolor Warning: Incompatible color definition on input line 24.
+
+
+Package xcolor Warning: Incompatible color definition on input line 24.
+
+
+Package xcolor Warning: Incompatible color definition on input line 25.
+
+
+Package xcolor Warning: Incompatible color definition on input line 25.
+
+
+Package xcolor Warning: Incompatible color definition on input line 27.
+
+
+Package xcolor Warning: Incompatible color definition on input line 27.
+
+
+Package xcolor Warning: Incompatible color definition on input line 28.
+
+
+Package xcolor Warning: Incompatible color definition on input line 30.
+
+
+Package xcolor Warning: Incompatible color definition on input line 30.
+
+
+Package xcolor Warning: Incompatible color definition on input line 30.
+
+
+Package xcolor Warning: Incompatible color definition on input line 31.
+
+
+Package xcolor Warning: Incompatible color definition on input line 31.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57
+
+
+]
+
+Package xcolor Warning: Incompatible color definition on input line 40.
+
+
+Package xcolor Warning: Incompatible color definition on input line 40.
+
+
+Package xcolor Warning: Incompatible color definition on input line 40.
+
+
+Package xcolor Warning: Incompatible color definition on input line 40.
+
+
+Package xcolor Warning: Incompatible color definition on input line 40.
+
+
+Package xcolor Warning: Incompatible color definition on input line 41.
+
+
+Package xcolor Warning: Incompatible color definition on input line 43.
+
+
+Package xcolor Warning: Incompatible color definition on input line 43.
+
+
+Package xcolor Warning: Incompatible color definition on input line 43.
+
+
+Package xcolor Warning: Incompatible color definition on input line 43.
+
+
+Package xcolor Warning: Incompatible color definition on input line 52.
+
+
+Package xcolor Warning: Incompatible color definition on input line 52.
+
+
+Package xcolor Warning: Incompatible color definition on input line 52.
+
+
+Package xcolor Warning: Incompatible color definition on input line 52.
+
+
+Package xcolor Warning: Incompatible color definition on input line 52.
+
+
+Package xcolor Warning: Incompatible color definition on input line 52.
+
+
+Package xcolor Warning: Incompatible color definition on input line 53.
+
+
+Package xcolor Warning: Incompatible color definition on input line 53.
+
+
+Package xcolor Warning: Incompatible color definition on input line 53.
+
+
+Package xcolor Warning: Incompatible color definition on input line 53.
+
+
+Package xcolor Warning: Incompatible color definition on input line 54.
+
+
+Package xcolor Warning: Incompatible color definition on input line 54.
+
+
+Package xcolor Warning: Incompatible color definition on input line 54.
+
+
+Package xcolor Warning: Incompatible color definition on input line 54.
+
+
+Package xcolor Warning: Incompatible color definition on input line 56.
+
+
+Package xcolor Warning: Incompatible color definition on input line 56.
+
+
+Package xcolor Warning: Incompatible color definition on input line 56.
+
+
+Package xcolor Warning: Incompatible color definition on input line 56.
+
+
+Package xcolor Warning: Incompatible color definition on input line 58.
+
+
+Package xcolor Warning: Incompatible color definition on input line 59.
+
+
+Package xcolor Warning: Incompatible color definition on input line 59.
+
+
+Package xcolor Warning: Incompatible color definition on input line 61.
+
+
+Package xcolor Warning: Incompatible color definition on input line 62.
+
+
+Package xcolor Warning: Incompatible color definition on input line 62.
+
+
+Package xcolor Warning: Incompatible color definition on input line 62.
+
+
+Package xcolor Warning: Incompatible color definition on input line 62.
+
+
+Package xcolor Warning: Incompatible color definition on input line 63.
+
+
+Package xcolor Warning: Incompatible color definition on input line 63.
+
+
+Package xcolor Warning: Incompatible color definition on input line 63.
+
+
+Package xcolor Warning: Incompatible color definition on input line 63.
+
+
+Package xcolor Warning: Incompatible color definition on input line 63.
+
+
+Package xcolor Warning: Incompatible color definition on input line 63.
+
+
+Package xcolor Warning: Incompatible color definition on input line 63.
+
+
+Package xcolor Warning: Incompatible color definition on input line 63.
+
+
+Package xcolor Warning: Incompatible color definition on input line 64.
+
+
+Package xcolor Warning: Incompatible color definition on input line 64.
+
+
+Package xcolor Warning: Incompatible color definition on input line 64.
+
+
+Package xcolor Warning: Incompatible color definition on input line 64.
+
+
+Package xcolor Warning: Incompatible color definition on input line 64.
+
+
+Package xcolor Warning: Incompatible color definition on input line 64.
+
+
+Package xcolor Warning: Incompatible color definition on input line 64.
+
+
+Package xcolor Warning: Incompatible color definition on input line 64.
+
+
+Package xcolor Warning: Incompatible color definition on input line 64.
+
+
+Package xcolor Warning: Incompatible color definition on input line 67.
+
+
+Package xcolor Warning: Incompatible color definition on input line 68.
+
+
+Package xcolor Warning: Incompatible color definition on input line 68.
+
+[58]
+Annexe B.
+
+Package xcolor Warning: Incompatible color definition on input line 77.
+
+
+Package xcolor Warning: Incompatible color definition on input line 77.
+
+
+Package xcolor Warning: Incompatible color definition on input line 77.
+
+
+Package xcolor Warning: Incompatible color definition on input line 77.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 78.
+
+
+Package xcolor Warning: Incompatible color definition on input line 79.
+
+
+Package xcolor Warning: Incompatible color definition on input line 80.
+
+
+Package xcolor Warning: Incompatible color definition on input line 80.
+
+
+Package xcolor Warning: Incompatible color definition on input line 80.
+
+
+Package xcolor Warning: Incompatible color definition on input line 80.
+
+
+Package xcolor Warning: Incompatible color definition on input line 80.
+
+
+Package xcolor Warning: Incompatible color definition on input line 81.
+
+
+Package xcolor Warning: Incompatible color definition on input line 83.
+
+
+Package xcolor Warning: Incompatible color definition on input line 84.
+
+
+Package xcolor Warning: Incompatible color definition on input line 85.
+
+
+Package xcolor Warning: Incompatible color definition on input line 87.
+
+
+Package xcolor Warning: Incompatible color definition on input line 87.
+
+
+Package xcolor Warning: Incompatible color definition on input line 87.
+
+
+Package xcolor Warning: Incompatible color definition on input line 89.
+
+
+Package xcolor Warning: Incompatible color definition on input line 89.
+
+
+Package xcolor Warning: Incompatible color definition on input line 89.
+
+
+Package xcolor Warning: Incompatible color definition on input line 89.
+
+
+Package xcolor Warning: Incompatible color definition on input line 99.
+
+
+Package xcolor Warning: Incompatible color definition on input line 100.
+
+
+Package xcolor Warning: Incompatible color definition on input line 103.
+
+
+Package xcolor Warning: Incompatible color definition on input line 103.
+
+
+Package xcolor Warning: Incompatible color definition on input line 105.
+
+
+Package xcolor Warning: Incompatible color definition on input line 105.
+
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 108.
+
+[59
+
+]
+
+Package xcolor Warning: Incompatible color definition on input line 109.
+
+
+Package xcolor Warning: Incompatible color definition on input line 110.
+
+
+Package xcolor Warning: Incompatible color definition on input line 120.
+
+
+Package xcolor Warning: Incompatible color definition on input line 121.
+
+
+Package xcolor Warning: Incompatible color definition on input line 124.
+
+
+Package xcolor Warning: Incompatible color definition on input line 124.
+
+
+Package xcolor Warning: Incompatible color definition on input line 126.
+
+
+Package xcolor Warning: Incompatible color definition on input line 126.
+
+
+Package xcolor Warning: Incompatible color definition on input line 127.
+
+
+Package xcolor Warning: Incompatible color definition on input line 129.
+
+
+Package xcolor Warning: Incompatible color definition on input line 130.
+
+
+Package xcolor Warning: Incompatible color definition on input line 131.
+
+
+Package xcolor Warning: Incompatible color definition on input line 135.
+
+
+Package xcolor Warning: Incompatible color definition on input line 136.
+
+
+Package xcolor Warning: Incompatible color definition on input line 137.
+
+
+Package xcolor Warning: Incompatible color definition on input line 146.
+
+
+Package xcolor Warning: Incompatible color definition on input line 146.
+
+
+Package xcolor Warning: Incompatible color definition on input line 146.
+
+
+Package xcolor Warning: Incompatible color definition on input line 146.
+
+
+Package xcolor Warning: Incompatible color definition on input line 146.
+
+
+Package xcolor Warning: Incompatible color definition on input line 146.
+
+
+Package xcolor Warning: Incompatible color definition on input line 146.
+
+
+Package xcolor Warning: Incompatible color definition on input line 147.
+
+
+Package xcolor Warning: Incompatible color definition on input line 147.
+
+
+Package xcolor Warning: Incompatible color definition on input line 147.
+
+
+Package xcolor Warning: Incompatible color definition on input line 147.
+
+
+Package xcolor Warning: Incompatible color definition on input line 147.
+
+
+Package xcolor Warning: Incompatible color definition on input line 147.
+
+
+Package xcolor Warning: Incompatible color definition on input line 147.
+
+
+Package xcolor Warning: Incompatible color definition on input line 148.
+
+
+Package xcolor Warning: Incompatible color definition on input line 148.
+
+
+Package xcolor Warning: Incompatible color definition on input line 148.
+
+
+Package xcolor Warning: Incompatible color definition on input line 148.
+
+
+Package xcolor Warning: Incompatible color definition on input line 148.
+
+
+Package xcolor Warning: Incompatible color definition on input line 148.
+
+
+Package xcolor Warning: Incompatible color definition on input line 148.
+
+[60]
+
+Package xcolor Warning: Incompatible color definition on input line 150.
+
+
+Package xcolor Warning: Incompatible color definition on input line 151.
+
+
+Package xcolor Warning: Incompatible color definition on input line 151.
+
+
+Package xcolor Warning: Incompatible color definition on input line 151.
+
+
+Package xcolor Warning: Incompatible color definition on input line 153.
+
+
+Package xcolor Warning: Incompatible color definition on input line 154.
+
+
+Package xcolor Warning: Incompatible color definition on input line 154.
+
+
+Package xcolor Warning: Incompatible color definition on input line 154.
+
+
+Package xcolor Warning: Incompatible color definition on input line 156.
+
+
+Package xcolor Warning: Incompatible color definition on input line 157.
+
+
+Package xcolor Warning: Incompatible color definition on input line 157.
+
+
+Package xcolor Warning: Incompatible color definition on input line 157.
+
+
+Package xcolor Warning: Incompatible color definition on input line 158.
+
+
+Package xcolor Warning: Incompatible color definition on input line 158.
+
+
+Package xcolor Warning: Incompatible color definition on input line 158.
+
+
+Package xcolor Warning: Incompatible color definition on input line 159.
+
+
+Package xcolor Warning: Incompatible color definition on input line 159.
+
+) [61] (main.aux (abbreviations.aux) (Introduction.aux) (Annexes.aux))
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21208 strings out of 492946
- 365368 string characters out of 3125822
- 868323 words of memory out of 3000000
- 24696 multiletter control sequences out of 15000+200000
- 12491 words of font info for 46 fonts, out of 3000000 for 9000
+ 22191 strings out of 492946
+ 378940 string characters out of 3125822
+ 914742 words of memory out of 3000000
+ 25638 multiletter control sequences out of 15000+200000
+ 19540 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,24n,92p,1972b,1952s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmbxti10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/djamel/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/djamel/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
-Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/djamel/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/djamel/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
-sers/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-sy6.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmti12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (77 pages, 3466781 bytes).
+ 53i,23n,92p,2003b,3306s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/inconsolat
+a/i4-t1-0.enc} <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecti1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\djamel\AppData\Local\
+MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\djamel\App
+Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users
+\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk
+> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
+ecbx1728.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecbx1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fo
+nts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\djamel\AppData\Local\Mi
+KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\djamel\AppDa
+ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\d
+jamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><
+C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/inconsolat
+a/Inconsolata-zi4r.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/djamel/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (74 pages, 3410917 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
+ 903 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

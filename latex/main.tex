@@ -3,33 +3,33 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amsfonts,amssymb,amsthm,epsfig,epstopdf,titling,url,array}
 \usepackage{acronym}   	 	% list of abbreviations / acronyms
+\usepackage{makeidx}
+\makeindex
+
 
 \usepackage{float}
 \usepackage{listings}
 \usepackage[acronym]{glossaries}
-
-\makeglossaries
-
-\newacronym{gcd}{GCD}{Greatest Common Divisor}
-
-\newacronym{lcm}{LCM}{Least Common Multiple}
+\usepackage[toc,page]{appendix}
 
 
+\usepackage[T1]{fontenc}
+\usepackage{inconsolata}
 
 \usepackage{color}
 \definecolor{gray}{rgb}{0.4,0.4,0.4}
 \definecolor{darkblue}{rgb}{0.0,0.0,0.6}
 \definecolor{cyan}{rgb}{0.0,0.6,0.6}
+\definecolor{pblue}{rgb}{0.13,0.13,1}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pred}{rgb}{0.9,0,0}
+\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
 
-\lstset{
-	basicstyle=\ttfamily,
-	columns=fullflexible,
-	showstringspaces=false,
-	commentstyle=\color{gray}\upshape
-}
-
+ 
 \lstdefinelanguage{XML}
 {
+	 	 frame=lines, 
+		breaklines=true,
 	morestring=[b]",
 	morestring=[s]{>}{<},
 	morecomment=[s]{<?}{?>},
@@ -88,7 +88,7 @@
  \newtheorem{defn}{Définition}[section]
  \newtheorem{conj}{Conjecture}[section]
  \newtheorem{exmp}{Example}[section]
- 
+  \newtheorem{att}{Attention}[section]
  \theoremstyle{Remarque}
  \newtheorem{rem}{Remarque}[section]
  \newtheorem*{note}{Note}
@@ -105,6 +105,7 @@
  
 \begin{document}
 
+
 %\maketitle
  \input{titlepage.tex}
  
@@ -112,16 +113,14 @@
  
  
  
- Given a set of numbers, there are elementary methods to compute 
- its \acrlong{gcd}, which is abbreviated \acrshort{gcd}. This process 
- is similar to that used for the \acrfull{lcm}.
+
 
 
 \clearpage
 
 \printglossary[title=Special Terms, toctitle=List of terms]
-
-
+ 
+\pagenumbering{roman}
  
 \chapter*{Résumé} 
 ..................
@@ -134,6 +133,8 @@ Les batailles de la vie ne sont pas gagnées par les plus forts, ni par les plus
 
 %------------ List of Abbreviations---------------------
 \include{abbreviations}
+
+	\pagenumbering{roman} % switch to roman numerals
 
 %------------ Introduction Général ---------------------
 \include{Introduction}
@@ -149,16 +150,21 @@ Les batailles de la vie ne sont pas gagnées par les plus forts, ni par les plus
 
 %%%%%%%  list of Tables %%%%%%%
 \listoftables
+	\pagenumbering{arabic} % switch to arabic numerals, start over at "1"
  
  \part{ Étude bibliographique }
 %\appendix
 \chapter{Concepts fondamentaux de cloud et de workflow }
 \input{ch1.tex}
 
+%%%%
+%\chapter{Réseaux de Petri}
+%\input{ch2.tex}
 
-\chapter{Réseau de Petri}
-\input{ch2.tex}
+%%%%%%%%%%%%%%%%%%%%%   Partie pratique  %%%%%%%%%%%%%%%%%%%%%%%%
 \part{  Partie pratique }
+
+
 \chapter{Analyse et Conception}
 \input{ch3.tex}
 
@@ -169,5 +175,8 @@ Les batailles de la vie ne sont pas gagnées par les plus forts, ni par les plus
  
 \printbibliography %[title={Whole bibliography}]
 
- 
+
+\appendix
+
+ \include{Annexes}
 \end{document}

@@ -271,20 +271,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.3.2.4}Microservice ProxyService}{55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Service 1}{57}% 
+\contentsline {section}{\numberline {3.4}Orchestration des Micro-Services}{56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}classe User impl\IeC {\'e}mente en java }{57}% 
+\contentsline {subsection}{\numberline {3.4.1}Consulter les services via le proxy }{57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}cr\IeC {\'e}er l'interface UserRepository}{58}% 
+\contentsline {section}{\numberline {3.5}Repr\IeC {\'e}sentation de syst\IeC {\`e}me r\IeC {\'e}alise :}{57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}classe DummyDataCLR en java }{58}% 
+\contentsline {chapter}{\numberline {A}Service 1}{59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}ConfigService}{59}% 
+\contentsline {section}{\numberline {A.1}classe User impl\IeC {\'e}mente en java }{59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}classe ConfigServiceApplication en java }{59}% 
+\contentsline {section}{\numberline {A.2}cr\IeC {\'e}er l'interface UserRepository}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}json }{59}% 
+\contentsline {section}{\numberline {A.3}classe DummyDataCLR en java }{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}json }{60}% 
+\contentsline {chapter}{\numberline {B}ConfigService}{61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.4}classe userRestService en java }{60}% 
+\contentsline {section}{\numberline {B.1}classe ConfigServiceApplication en java }{61}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}json }{61}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.3}json }{62}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.4}classe userRestService en java }{62}% 

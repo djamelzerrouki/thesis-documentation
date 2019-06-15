@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  15 JUN 2019 05:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  15 JUN 2019 06:50
 entering extended mode
 **./main.tex
 (main.tex
@@ -1456,24 +1456,24 @@ Overfull \hbox (6.15576pt too wide) in paragraph at lines 20--21
 [26
 
 ] [27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7326) has occurred while \output is active []
 
  [28]
 <images/usercase2.png, id=163, 531.1845pt x 545.6385pt>
 File: images/usercase2.png Graphic file (type png)
 <use images/usercase2.png>
-Package pdftex.def Info: images/usercase2.png  used on input line 153.
+Package pdftex.def Info: images/usercase2.png  used on input line 156.
 (pdftex.def)             Requested size: 426.81236pt x 591.53708pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
-Overfull \hbox (35.69315pt too wide) in paragraph at lines 164--187
+Overfull \hbox (35.69315pt too wide) in paragraph at lines 167--190
  [][] 
  []
 
 [30 <./images/usercase2.png>]
-Overfull \hbox (13.83594pt too wide) in paragraph at lines 192--204
+Overfull \hbox (13.83594pt too wide) in paragraph at lines 195--207
 [][] 
  []
 
@@ -1481,7 +1481,7 @@ Overfull \hbox (13.83594pt too wide) in paragraph at lines 192--204
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-Overfull \hbox (9.33284pt too wide) in paragraph at lines 213--229
+Overfull \hbox (9.33284pt too wide) in paragraph at lines 216--232
 [][] 
  []
 
@@ -1489,12 +1489,12 @@ Overfull \hbox (9.33284pt too wide) in paragraph at lines 213--229
 Underfull \vbox (badness 2351) has occurred while \output is active []
 
  [32]
-Overfull \hbox (13.34305pt too wide) in paragraph at lines 240--256
+Overfull \hbox (13.34305pt too wide) in paragraph at lines 243--259
 [][] 
  []
 
 
-Overfull \hbox (3.64954pt too wide) in paragraph at lines 262--278
+Overfull \hbox (3.64954pt too wide) in paragraph at lines 265--281
 [][] 
  []
 
@@ -1505,19 +1505,19 @@ Underfull \vbox (badness 1895) has occurred while \output is active []
 <images/class01.png, id=181, 784.73175pt x 496.254pt>
 File: images/class01.png Graphic file (type png)
 <use images/class01.png>
-Package pdftex.def Info: images/class01.png  used on input line 315.
+Package pdftex.def Info: images/class01.png  used on input line 318.
 (pdftex.def)             Requested size: 426.79024pt x 507.0356pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
 [35 <./images/class01.png>]
-Overfull \hbox (8.92491pt too wide) in paragraph at lines 355--367
+Overfull \hbox (8.92491pt too wide) in paragraph at lines 358--370
  [][] 
  []
 
 [36]
-Overfull \hbox (20.91742pt too wide) in paragraph at lines 498--511
+Overfull \hbox (20.91742pt too wide) in paragraph at lines 501--514
  [][] 
  []
 
@@ -1525,10 +1525,10 @@ Overfull \hbox (20.91742pt too wide) in paragraph at lines 498--511
 <images/Dactiviti.png, id=197, 347.49825pt x 453.49425pt>
 File: images/Dactiviti.png Graphic file (type png)
 <use images/Dactiviti.png>
-Package pdftex.def Info: images/Dactiviti.png  used on input line 517.
+Package pdftex.def Info: images/Dactiviti.png  used on input line 520.
 (pdftex.def)             Requested size: 469.47307pt x 612.72363pt.
 
-Overfull \hbox (42.68173pt too wide) in paragraph at lines 517--518
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 520--521
  [][] 
  []
 
@@ -1536,7 +1536,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 517--518
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
-Overfull \hbox (0.5473pt too wide) in paragraph at lines 522--523
+Overfull \hbox (0.5473pt too wide) in paragraph at lines 525--526
 []\T1/cmr/m/n/12 l'interaction de l'ac-teur ad-mi-nis-tra-teur avec le sys-tème
  il faut d'abord de connecté
  []
@@ -1711,12 +1711,12 @@ Package xcolor Warning: Incompatible color definition on input line 341.
 <images/tp01.png, id=244, 350.05782pt x 381.67593pt>
 File: images/tp01.png Graphic file (type png)
 <use images/tp01.png>
-Package pdftex.def Info: images/tp01.png  used on input line 377.
+Package pdftex.def Info: images/tp01.png  used on input line 385.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
 <images/tp02.png, id=245, 350.05782pt x 381.67593pt>
 File: images/tp02.png Graphic file (type png)
 <use images/tp02.png>
-Package pdftex.def Info: images/tp02.png  used on input line 389.
+Package pdftex.def Info: images/tp02.png  used on input line 397.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1725,143 +1725,125 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <images/tp03.png, id=252, 350.05782pt x 381.67593pt>
 File: images/tp03.png Graphic file (type png)
 <use images/tp03.png>
-Package pdftex.def Info: images/tp03.png  used on input line 468.
+Package pdftex.def Info: images/tp03.png  used on input line 476.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 487.
+Package xcolor Warning: Incompatible color definition on input line 495.
 
 
-Package xcolor Warning: Incompatible color definition on input line 487.
+Package xcolor Warning: Incompatible color definition on input line 495.
 
 
-Package xcolor Warning: Incompatible color definition on input line 488.
+Package xcolor Warning: Incompatible color definition on input line 496.
 
 
-Package xcolor Warning: Incompatible color definition on input line 488.
+Package xcolor Warning: Incompatible color definition on input line 496.
 
 
-Package xcolor Warning: Incompatible color definition on input line 488.
+Package xcolor Warning: Incompatible color definition on input line 496.
 
 
-Package xcolor Warning: Incompatible color definition on input line 488.
+Package xcolor Warning: Incompatible color definition on input line 496.
 
 
-Package xcolor Warning: Incompatible color definition on input line 488.
+Package xcolor Warning: Incompatible color definition on input line 496.
 
 
-Package xcolor Warning: Incompatible color definition on input line 488.
+Package xcolor Warning: Incompatible color definition on input line 496.
 
 
-Package xcolor Warning: Incompatible color definition on input line 488.
+Package xcolor Warning: Incompatible color definition on input line 496.
 
 
-Package xcolor Warning: Incompatible color definition on input line 488.
+Package xcolor Warning: Incompatible color definition on input line 496.
 
 
-Package xcolor Warning: Incompatible color definition on input line 488.
+Package xcolor Warning: Incompatible color definition on input line 496.
 
 
-Package xcolor Warning: Incompatible color definition on input line 488.
+Package xcolor Warning: Incompatible color definition on input line 496.
 
 
-Package xcolor Warning: Incompatible color definition on input line 488.
+Package xcolor Warning: Incompatible color definition on input line 496.
 
 [52 <./images/tp03.png>]
 
-Package xcolor Warning: Incompatible color definition on input line 498.
+Package xcolor Warning: Incompatible color definition on input line 506.
 
 
-Package xcolor Warning: Incompatible color definition on input line 498.
+Package xcolor Warning: Incompatible color definition on input line 506.
 
 
-Package xcolor Warning: Incompatible color definition on input line 514.
+Package xcolor Warning: Incompatible color definition on input line 522.
 
 
-Package xcolor Warning: Incompatible color definition on input line 514.
+Package xcolor Warning: Incompatible color definition on input line 522.
 
 
-Package xcolor Warning: Incompatible color definition on input line 514.
+Package xcolor Warning: Incompatible color definition on input line 522.
 
 
-Package xcolor Warning: Incompatible color definition on input line 514.
+Package xcolor Warning: Incompatible color definition on input line 522.
 
 
-Package xcolor Warning: Incompatible color definition on input line 514.
+Package xcolor Warning: Incompatible color definition on input line 522.
 
 
-Package xcolor Warning: Incompatible color definition on input line 515.
+Package xcolor Warning: Incompatible color definition on input line 523.
 
 
-Package xcolor Warning: Incompatible color definition on input line 515.
+Package xcolor Warning: Incompatible color definition on input line 523.
 
 
-Package xcolor Warning: Incompatible color definition on input line 515.
+Package xcolor Warning: Incompatible color definition on input line 523.
 
 
-Package xcolor Warning: Incompatible color definition on input line 515.
+Package xcolor Warning: Incompatible color definition on input line 523.
 
 
-Package xcolor Warning: Incompatible color definition on input line 515.
+Package xcolor Warning: Incompatible color definition on input line 523.
 
 
-Package xcolor Warning: Incompatible color definition on input line 515.
+Package xcolor Warning: Incompatible color definition on input line 523.
 
 
-Package xcolor Warning: Incompatible color definition on input line 530.
+Package xcolor Warning: Incompatible color definition on input line 538.
 
 
-Package xcolor Warning: Incompatible color definition on input line 530.
+Package xcolor Warning: Incompatible color definition on input line 538.
 
 
-Package xcolor Warning: Incompatible color definition on input line 530.
+Package xcolor Warning: Incompatible color definition on input line 538.
 
 
-Package xcolor Warning: Incompatible color definition on input line 530.
+Package xcolor Warning: Incompatible color definition on input line 538.
 
 <images/tp04.png, id=256, 350.05782pt x 381.67593pt>
 File: images/tp04.png Graphic file (type png)
 <use images/tp04.png>
-Package pdftex.def Info: images/tp04.png  used on input line 557.
+Package pdftex.def Info: images/tp04.png  used on input line 565.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
 [53]
-Overfull \hbox (7.34816pt too wide) in paragraph at lines 568--569
+Overfull \hbox (7.34816pt too wide) in paragraph at lines 576--577
 []\T1/cmr/m/n/12 Dans la classe Dis-co-ve-ry-Ser-vi-ceAp-pli-ca-tion, ajou-ter 
 l'an-no-ta-tion \T1/cmr/bx/n/12 @En-ableEu-
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 573.
+Package xcolor Warning: Incompatible color definition on input line 581.
 
 
-Package xcolor Warning: Incompatible color definition on input line 573.
+Package xcolor Warning: Incompatible color definition on input line 581.
 
 
-Package xcolor Warning: Incompatible color definition on input line 573.
+Package xcolor Warning: Incompatible color definition on input line 581.
 
 
-Package xcolor Warning: Incompatible color definition on input line 573.
+Package xcolor Warning: Incompatible color definition on input line 581.
 
 
-Package xcolor Warning: Incompatible color definition on input line 573.
-
-
-Package xcolor Warning: Incompatible color definition on input line 574.
-
-
-Package xcolor Warning: Incompatible color definition on input line 574.
-
-
-Package xcolor Warning: Incompatible color definition on input line 574.
-
-
-Package xcolor Warning: Incompatible color definition on input line 574.
-
-
-Package xcolor Warning: Incompatible color definition on input line 574.
-
-
-Package xcolor Warning: Incompatible color definition on input line 574.
+Package xcolor Warning: Incompatible color definition on input line 581.
 
 
 Package xcolor Warning: Incompatible color definition on input line 582.
@@ -1870,45 +1852,83 @@ Package xcolor Warning: Incompatible color definition on input line 582.
 Package xcolor Warning: Incompatible color definition on input line 582.
 
 
-Package xcolor Warning: Incompatible color definition on input line 583.
+Package xcolor Warning: Incompatible color definition on input line 582.
 
 
-Package xcolor Warning: Incompatible color definition on input line 583.
+Package xcolor Warning: Incompatible color definition on input line 582.
 
 
-Package xcolor Warning: Incompatible color definition on input line 583.
+Package xcolor Warning: Incompatible color definition on input line 582.
 
 
-Package xcolor Warning: Incompatible color definition on input line 583.
+Package xcolor Warning: Incompatible color definition on input line 582.
 
 
-Package xcolor Warning: Incompatible color definition on input line 583.
+Package xcolor Warning: Incompatible color definition on input line 590.
 
 
-Package xcolor Warning: Incompatible color definition on input line 584.
+Package xcolor Warning: Incompatible color definition on input line 590.
 
 
-Package xcolor Warning: Incompatible color definition on input line 584.
+Package xcolor Warning: Incompatible color definition on input line 591.
 
 
-Package xcolor Warning: Incompatible color definition on input line 584.
+Package xcolor Warning: Incompatible color definition on input line 591.
 
 
-Package xcolor Warning: Incompatible color definition on input line 584.
+Package xcolor Warning: Incompatible color definition on input line 591.
 
 
-Package xcolor Warning: Incompatible color definition on input line 584.
+Package xcolor Warning: Incompatible color definition on input line 591.
 
 
-Package xcolor Warning: Incompatible color definition on input line 584.
+Package xcolor Warning: Incompatible color definition on input line 591.
+
+
+Package xcolor Warning: Incompatible color definition on input line 592.
+
+
+Package xcolor Warning: Incompatible color definition on input line 592.
+
+
+Package xcolor Warning: Incompatible color definition on input line 592.
+
+
+Package xcolor Warning: Incompatible color definition on input line 592.
+
+
+Package xcolor Warning: Incompatible color definition on input line 592.
+
+
+Package xcolor Warning: Incompatible color definition on input line 592.
 
 [54 <./images/tp04.png>]
 <images/tp05.png, id=264, 350.05782pt x 381.67593pt>
 File: images/tp05.png Graphic file (type png)
 <use images/tp05.png>
-Package pdftex.def Info: images/tp05.png  used on input line 599.
+Package pdftex.def Info: images/tp05.png  used on input line 607.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
-) [55 <./images/tp05.png>]
+<images/arch.png, id=265, 512.51476pt x 461.92575pt>
+File: images/arch.png Graphic file (type png)
+<use images/arch.png>
+Package pdftex.def Info: images/arch.png  used on input line 638.
+(pdftex.def)             Requested size: 426.79134pt x 384.66699pt.
+
+Underfull \vbox (badness 3514) has occurred while \output is active []
+
+ [55 <./images/tp05.png>]
+<images/mcservc.png, id=269, 480.5955pt x 328.8285pt>
+File: images/mcservc.png Graphic file (type png)
+<use images/mcservc.png>
+Package pdftex.def Info: images/mcservc.png  used on input line 649.
+(pdftex.def)             Requested size: 426.79134pt x 292.0142pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56 <./images/arch.png>]
+Package acronym Info: Label `acro:cnr' newly defined as it shall be overridden
+although it is yet undefined on input line 657.
+) [57 <./images/mcservc.png>]
 LaTeX Font Info:    Try loading font information for T1+zi4 on input line 176.
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/inconsolata\t1zi4
@@ -1917,7 +1937,7 @@ File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 176.
- [56
+ [58
 
 ]
 \openout2 = `Annexes.aux'.
@@ -2056,7 +2076,7 @@ Package xcolor Warning: Incompatible color definition on input line 31.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57
+ [59
 
 
 ]
@@ -2228,7 +2248,7 @@ Package xcolor Warning: Incompatible color definition on input line 68.
 
 Package xcolor Warning: Incompatible color definition on input line 68.
 
-[58]
+[60]
 Annexe B.
 
 Package xcolor Warning: Incompatible color definition on input line 77.
@@ -2329,7 +2349,7 @@ Package xcolor Warning: Incompatible color definition on input line 106.
 
 Package xcolor Warning: Incompatible color definition on input line 108.
 
-[59
+[61
 
 ]
 
@@ -2440,7 +2460,7 @@ Package xcolor Warning: Incompatible color definition on input line 148.
 
 Package xcolor Warning: Incompatible color definition on input line 148.
 
-[60]
+[62]
 
 Package xcolor Warning: Incompatible color definition on input line 150.
 
@@ -2492,16 +2512,16 @@ Package xcolor Warning: Incompatible color definition on input line 159.
 
 Package xcolor Warning: Incompatible color definition on input line 159.
 
-) [61] (main.aux (abbreviations.aux) (Introduction.aux) (Annexes.aux))
+) [63] (main.aux (abbreviations.aux) (Introduction.aux) (Annexes.aux))
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22191 strings out of 492946
- 378940 string characters out of 3125822
+ 22208 strings out of 492946
+ 379194 string characters out of 3125822
  914742 words of memory out of 3000000
- 25638 multiletter control sequences out of 15000+200000
+ 25653 multiletter control sequences out of 15000+200000
  19540 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,23n,92p,2003b,3306s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2525,9 +2545,9 @@ C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/inconsolat
 a/Inconsolata-zi4r.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/djamel/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (74 pages, 3410917 bytes).
+Output written on main.pdf (76 pages, 3733587 bytes).
 PDF statistics:
- 903 PDF objects out of 1000 (max. 8388607)
+ 913 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

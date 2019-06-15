@@ -67,24 +67,27 @@ Planification du développement du programme À ce stade de la planification des
  Sur la base de ces entretiens et de l'entretien avec l'enseignant, nous avons pu identifier les spécifications suivantes:
  
  \subsection{Spécifications fonctionnelles }
- 
+  Le système doit permettre à l’administrateur  de:
  \begin{enumerate}
-\item  	   Le système doit permettre à l’administrateur  de  Gérer Modale .
-\item  	   Le système doit permettre à l’administrateur  de  Gérer Sous-direction .
-\item  	   Le système doit permettre à l’administrateur  de Gérer les service.
-\item  	   Le système doit permettre à l’administrateur  de Gérer workflow pour les dossier  .
-\item  	   Le système doit permettre de  Gérer les tâches des service . 
-\item  	   Le système doit permettre à l’administrateur  de Gérer les utilisateur .
-\item  	   Le système doit permettre à l’administrateur  de  consulte les historique  et la recherche par tâche .
-\item  	   Le système doit permettre à l’administrateur  de  consulte les historique  et la recherche par dossier et les jours pour chaque tâche .
-\item  	   Le système doit permettre à l’administrateur  de  consulte bordereau .
-\item  	   Le système doit permettre à l’utilisateur   de  Gérer les dossier .
-\item  	   Le système doit permettre à l’utilisateur   de  Activé le dossier    .
-\item  	   Le système doit permettre à l’utilisateur   de  finir le traitement des dossiers par tâche    .
-\item  	   Le système doit permettre à l’utilisateur   de  Gérer les  bordereaux  .
-\item  	   Le système doit permettre à l’utilisateur   de  accepte le  bordereau  .
-\item  	   Le système doit permettre à l’utilisateur   de  refuse  le  bordereau  .
-\item  	   Le système doit permettre à l’utilisateur   de  imprimer le  bordereau  .
+\item  	    Générer le modèle .
+\item  	    Gérer Sous-direction .
+\item  	    Gérer les service.
+\item  	    de Gérer workflow pour les dossier  .
+\item  	    Gérer les tâches des service . 
+\item  	    Gérer les utilisateur .
+\item  	    Consulte les historique  et la recherche par tâche .
+\item  	    Consulte les historique  et la recherche par dossier et les jours pour chaque tâche .
+\item  	    Consulte bordereau .
+ \end{enumerate}
+ Le système doit permettre à l’utilisateur   de :
+ \begin{enumerate}
+\item  	    Gérer les dossier .
+\item  	    Activé le dossier    .
+\item  	    Finir le traitement des dossiers par tâche    .
+\item  	    Gérer les  bordereaux  .
+\item  	    Accepte le  bordereau  .
+\item  	    Refuse  le  bordereau  .
+\item  	    Imprimer le  bordereau  .
 
  \end{enumerate}
  
@@ -97,8 +100,8 @@ Planification du développement du programme À ce stade de la planification des
  
   \begin{enumerate}
  	\item  	   Le système doit être déployé sur le cloud  .
- 	\item  	    la configuration et la germanisation de code dynamique . 
- 	\item  	  la modélisation de workflow par dessiner  BPMN
+ 	\item  	   La configuration et la germanisation de code dynamique . 
+ 	\item  	   Modélisation d'un Workflow Administratif via un interface graphique simple et utile . 
  	
  
  	
@@ -125,7 +128,7 @@ Planification du développement du programme À ce stade de la planification des
 		\hline
 		\multicolumn{1}{|l|}{Acteur} & Type Acteur & Descriptions \\ \hline
 	Administrateur	 &  & S’authentifier \\ \cline{3-3} 
-		&  & Gérer le Modale \\ \cline{3-3} 
+		&  & Gérer le Modèle \\ \cline{3-3} 
 		&  & Gérer Sous Direction \\ \cline{3-3} 
 	 	&  & Gérer les Services \\ \cline{3-3} 	
 	 	&  & Gérer les Tâches \\ \cline{3-3} 
@@ -519,7 +522,7 @@ Nous allons définir pour chaque classe ses attributs et leur types , ainsi que 
 	\label{fig:dactiviti}
 \end{figure}
 \subsubsection{les rôles de l'acteur administrateur: }
-l'interaction de l'acteur administrateur avec le système il faut d'abord de connecté où système , puis créer  et  défini le modèle par la spécification de   nom et  les chants de dossier  pour la génération de code et lancer nouveau micro service déployé sur le Cloud par leur nom de service spécifié,ensuite peut gérer le sous direction et les service et le modale de workflow par "BPMN"  pour gérer le tâche   ,ensuite   gérer les utilisateurs  et enfin  il peux consulter les bordereaux qui gérer par les utilisateurs et de même  consulter les historiques.
+l'interaction de l'acteur administrateur avec le système il faut d'abord de connecté où système , puis créer  et  défini le modèle par la spécification de   nom et  les chants de dossier  pour la génération de code et lancer nouveau micro service déployé sur le Cloud par leur nom de service spécifié,ensuite peut gérer le sous direction et les service et le modèle de workflow par "BPMN"  pour gérer le tâche   ,ensuite   gérer les utilisateurs  et enfin  il peux consulter les bordereaux qui gérer par les utilisateurs et de même  consulter les historiques.
 
 \subsubsection{les rôles de l'acteur utilisateur rescription : }
 l'interaction de l'utilisateur réception ou bien initial , il faut déjà créé par l'administrateur  et connecter au système, il peut de  gérer les dossiers par créer des nouveaux dossiers sur la réception et vérifie le   les champs  de chaque dossier ,ensuite il peut activer les dossiers veut dire ajouter les dossiers sur voir flou le début de traitement de dossier sur les processus "tâches" de workflow qui déjà défini par administration. 

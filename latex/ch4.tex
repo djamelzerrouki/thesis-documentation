@@ -663,7 +663,17 @@ En lançant le service Proxy, vous remarquerez qu'il est rajouté dans Eureka.
 	\label{fig:cloudms}
 \end{figure}
   \subsection{Consulter les services via le proxy }
-    
+    le diagramme de séquence de la figure \ref{fig:secance}  qui exprimer la  Consultation des services via le proxy 
+    \begin{enumerate}
+    	
+    	\item Client HTTP qui envoyer la requête HTTP vers le proxy qui contient le nom de micro service  .
+    	
+    	\item  Service proxy connais le nom de service , il va demander au Registration service donnez-moi la machine où se trouve ce micro service ,il va retourner l'adresse IP et le port si il a un instance si non si il a  plusieurs instance  retourner  la liste.
+    	
+    	\item  le service proxy va choix un instance et la va envoyer la requête  .
+    	
+    	\item  le service il va fer le traitement , en récupérer  le résulta  et il va envoyé ver le client .
+    \end{enumerate}
     
     
 \begin{figure}[H]
@@ -676,3 +686,14 @@ En lançant le service Proxy, vous remarquerez qu'il est rajouté dans Eureka.
 \section{Représentation de système réalise :}
 Nous avent  travaille  que pour chaque Micro-Service représente un dimension de cas du Workflow  (  voir le paragraphe 1.3.4.2  dans le chapitre 2)
  en prondar    \ac{cnr} comme dimension de cas 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 

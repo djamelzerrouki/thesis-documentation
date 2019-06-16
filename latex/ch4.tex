@@ -663,16 +663,18 @@ En lançant le service Proxy, vous remarquerez qu'il est rajouté dans Eureka.
 	\label{fig:cloudms}
 \end{figure}
   \subsection{Consulter les services via le proxy }
-    le diagramme de séquence de la figure \ref{fig:secance}  qui exprimer la  Consultation des services via le proxy 
+    le diagramme de séquence de la figure \ref{fig:secance}   exprime  la  consultation des services via le proxy 
     \begin{enumerate}
     	
-    	\item Client HTTP qui envoyer la requête HTTP vers le proxy qui contient le nom de micro service  .
+    	\item Un client HTTP envoie la requête HTTP vers le proxy qui contient le nom de micro service  .
     	
-    	\item  Service proxy connais le nom de service , il va demander au Registration service donnez-moi la machine où se trouve ce micro service ,il va retourner l'adresse IP et le port si il a un instance si non si il a  plusieurs instance  retourner  la liste.
+    	\item  Le service proxy connait le nom de micro service , il va demander au service  de registration de lui donner la machine où se trouve ce micro service .
     	
-    	\item  le service proxy va choix un instance et la va envoyer la requête  .
+    	\item Le service registration  va retourner l'adresse IP et le port s'il a une instance ou une liste s'il a  plusieurs instances.
     	
-    	\item  le service il va fer le traitement , en récupérer  le résulta  et il va envoyé ver le client .
+    	\item  Le service proxy va choir une instance et il va l'envoyer la requête  .
+    	
+    	\item  Le service demandé va faire le traitement et envoyer le résultat vers le proxy qui va la renvoyer au client .
     \end{enumerate}
     
     

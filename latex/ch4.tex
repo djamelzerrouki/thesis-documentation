@@ -36,7 +36,15 @@ Pour d'organiser  l'interface graphique Nous avent utiliser l'architecture Modè
  
 
  \subitem  \authorimg{Bootstarp}  \textbf{Le Framework Bootstrap } 
- Nous avons utilisé le Framework CSS \textbf{Bootstrap3} qui dispose d’une grid pour faciliter la gestion de la mise en forme des pages HTML. Il offre aussi des composants de design basés sur HTML et CSS avec un\textbf{ Responsive design} qui permet un affichage qui s’adapte à la taille de l’écran, que ce soit une tablette, un smartphone ou un ordinateur.
+ Nous avons utilisé le Framework CSS \textbf{Bootstrap3} qui dispose d’une grid pour faciliter la gestion de la mise en forme des pages HTML. Il offre aussi des composants de design basés sur HTML et CSS avec un\textbf{ Responsive design} (voir la figure \ref{fig:responsive}) qui permet un affichage qui s’adapte à la taille de l’écran, que ce soit une tablette, un smartphone ou un ordinateur. 
+ 
+ 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/responsive}
+	\caption{Responsive design }
+	\label{fig:responsive}
+\end{figure}
 \end{itemize}
 
  \subsubsection{Thymeleaf}
@@ -332,14 +340,14 @@ Un archetype est un template de projet. Le fait d'utiliser des archetypes pour i
  
      
     \lstset{language=XML}
-    \begin{lstlisting}
-    <project> 
-    <modelVersion>4.0.0</modelVersion> 
-    <groupId>fr.masociete</groupId> 
-    <artifactId>monprojet</artifactId> 
-    <version>1.0</version> 
-    </project>
-    \end{lstlisting}
+\begin{lstlisting}
+<project>
+<modelVersion>4.0.0</modelVersion>
+<groupId>fr.masociete</groupId>
+<artifactId>monprojet</artifactId>
+<version>1.0</version>
+</project>
+\end{lstlisting}
     
 
 
@@ -400,7 +408,7 @@ Nous commençons par créer le service principal: Service 1.
 \end{figure}
 
 
-Chaque microservice sera sous forme d'un projet Spring. Pour créer rapidement et facilement un projet Spring avec toutes les dépendances nécessaires, Spring Boot fournit Spring Initializr.
+Chaque microservice sera sous forme d'un projet Spring. Pour créer rapidement et facilement un projet Spring avec toutes les dépendances nécessaires, Spring Boot fournit Spring Initialisé.
 
 Pour cela, aller au site \underline{\textbf{start.spring.io}}, et créer un projet avec les caractéristiques suivantes:
 
@@ -491,10 +499,10 @@ Lancer la classe principale. Une base de données MySql sera créée et le Comma
     	\textbf{@EnableConfigServer} pour la classe \textbf{ConfigServiceApplication}, \textbf{(Voir annexe B.1)}  
     	\item  Pour paramétrer ce service de configuration, ajouter dans son fichier application.properties les valeurs suivantes:
     	
-    	\begin{lstlisting}
-    	server.port=8888
-    	spring.cloud.config.server.git.uri=file:./src/main/resources/myConfig
-    	\end{lstlisting}
+\begin{lstlisting}
+server.port=8888
+spring.cloud.config.server.git.uri=file:./src/main/resources/myConfig
+\end{lstlisting}
     	
     	Ceci indique que le service de configuration sera lancé sur le port 8888 et que le répertoire contenant les fichiers de configuration se trouve dans le répertoire src/main/resources/myConfig. Il suffit maintenant de créer ce répertoire.
     	
@@ -503,7 +511,7 @@ Lancer la classe principale. Une base de données MySql sera créée et le Comma
     	
     	\item  Créer dans ce répertoire le fichier application.properties dans lequel vous insérez l'instruction suivante:
     	\begin{lstlisting}
-    	global=xxxxx
+global=xxxxx
     	\end{lstlisting}
     	
     	Ce fichier sera partagé entre tous les microservices utilisant ce service de configuration.
@@ -518,11 +526,10 @@ Lancer la classe principale. Une base de données MySql sera créée et le Comma
     	\end{itemize}
     	
     	Revenir vers le projet ProductService et ajouter dans le fichier de configuration application.properties:
-    	\begin{lstlisting}
-    	spring.application.name = product-service
-    	spring.cloud.config.uri = http://localhost:8888
-    	
-    	\end{lstlisting}
+\begin{lstlisting}
+spring.application.name = product-service
+spring.cloud.config.uri = http://localhost:8888
+\end{lstlisting}
     	
     	Redémarrer vos services. Pour consulter le service de configuration, aller à {\color{red} http://localhost:8888/product-service/master} .
     	
@@ -534,9 +541,9 @@ Lancer la classe principale. Une base de données MySql sera créée et le Comma
     	
     	\item  Ajouter les propriétés de votre service, à savoir, par exemple:
     	
-    	\begin{lstlisting}
-    	me=Djamel.Zerroukki@jimmi.fr
-    	\end{lstlisting} 
+\begin{lstlisting}
+me=Djamel.Zerroukki@jimmi.fr
+\end{lstlisting} 
     	
     	Relancer le microservice de configuration. En consultant l'url {\color{red}http://localhost:8888/product-service/master}, nous remarquons l'ajout de la nouvelle propriété.\textbf{(Voir annexe B.3)}
     	 
@@ -631,26 +638,40 @@ En lançant le service Proxy, vous remarquerez qu'il est rajouté dans Eureka.
     
     \section{Orchestration des Micro-Services}
     
+   \comment{ 
     
-    
-    \begin{figure}[H]
+   \begin{figure}
     	\centering
     	\includegraphics[width=1\linewidth]{images/arch}
-    	\caption{Notre architecture de système sur l'environnement Spring cloud et micro-service }
+    	\caption{ }
     	\label{fig:arch}
     \end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{images/mcservc}
+	\caption{}
+	\label{fig:mcservc}
+\end{figure}
+
+}
     
-    
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{images/cloudMS}
+	\caption{Notre architecture de système sur l'environnement Spring cloud et micro-service}
+	\label{fig:cloudms}
+\end{figure}
   \subsection{Consulter les services via le proxy }
     
     
-    \begin{figure}[H]
-    	\centering
-    	\includegraphics[width=1\linewidth]{images/mcservc}
-    	\caption{}
-    	\label{fig:mcservc}
-    \end{figure}
-
+    
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/secance}
+	\caption{Diagramme séquence représenté comment  Consulter les services via le proxy}
+	\label{fig:secance}
+\end{figure}
 
 \section{Représentation de système réalise :}
 Nous avent  travaille  que pour chaque Micro-Service représente un dimension de cas du Workflow  (  voir le paragraphe 1.3.4.2  dans le chapitre 2)

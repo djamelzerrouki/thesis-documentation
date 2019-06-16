@@ -23,31 +23,45 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.10}{\ignorespaces Mod\IeC {\`e}le de r\IeC {\'e}f\IeC {\'e}rence des syst\IeC {\`e}mes de gestion de workflow (WfMC, 95). \relax }}{21}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Proc\IeC {\'e}dure mod\IeC {\'e}lis\IeC {\'e}e avec le WF-net \relax }}{24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Routage s\IeC {\'e}quentiel.\relax }}{25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Routage parall\IeC {\`e}le.\relax }}{25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Routage conditionnel non-d\IeC {\'e}terministe\relax }}{26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Choix explicite entre B et C \IeC {\`a} base de l\IeC {\textquoteright }attribut x . \relax }}{26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.16}{\ignorespaces It\IeC {\'e}ration : B peut \IeC {\^e}tre ex\IeC {\'e}cut\IeC {\'e}e plusieurs fois\relax }}{26}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de Cas d\IeC {\textquoteright }utilisation\relax }}{30}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de Cas d\IeC {\textquoteright }utilisation\relax }}{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de Classe\relax }}{35}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de Classe\relax }}{38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme d'activit\IeC {\'e} qui montre interaction des utilisateurs en fonction de leurs r\IeC {\^o}les dans le syst\IeC {\`e}me en g\IeC {\'e}n\IeC {\'e}ral.\relax }}{39}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme d'activit\IeC {\'e} qui montre interaction des utilisateurs en fonction de leurs r\IeC {\^o}les dans le syst\IeC {\`e}me en g\IeC {\'e}n\IeC {\'e}ral.\relax }}{42}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Interactions entre le mod\IeC {\`e}le, la vue et le contr\IeC {\^o}leur \parencite {mvc}\relax }}{42}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Interactions entre le mod\IeC {\`e}le, la vue et le contr\IeC {\^o}leur \parencite {mvc}\relax }}{45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \relax }}{50}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Responsive design \relax }}{45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \relax }}{51}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \relax }}{53}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \relax }}{52}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \relax }}{54}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \relax }}{54}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \relax }}{55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \relax }}{55}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \relax }}{57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Notre architecture de syst\IeC {\`e}me sur l'environnement Spring cloud et micro-service \relax }}{56}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \relax }}{58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces \relax }}{57}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Notre architecture de syst\IeC {\`e}me sur l'environnement Spring cloud et micro-service\relax }}{59}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme s\IeC {\'e}quence repr\IeC {\'e}sent\IeC {\'e} comment Consulter les services via le proxy\relax }}{59}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

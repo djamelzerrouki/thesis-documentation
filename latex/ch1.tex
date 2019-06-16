@@ -666,5 +666,118 @@ Avec l’arrivée des services de cloud computing  provenant de grandes organisa
  	
  	En synthèse, il est souhaitable de définir la frontière entre les changements ad hoc et les évolutions du Workflow. Il semblerait que ces changements devraient être testés sur une instance de modèles puis si nécessaires propagés au niveau global pour une modification persistante.
  } 
+
+  \section{Modélisation de workflow avec les réseaux de pétri}
+
+Les Réseaux de Petri (RdPs)  constituent un formalisme majeur pour modéliser les processus workflows. Une des forces des RdPs est la base mathématique forte qu'ils offrent avec une représentation graphique. 
+
+
+\subsection{RDPs}
+
+
+\begin{defn}
+	\textbf{(Wf-nets):}  Le réseau de pétri qui permet de modéliser le contrôle de flux d’un workflow est appelé un WF-net  (réseaux workflow) Ssi:
+	
+	\begin{enumerate}
+		\item Il existe une seule place source $i \in P$ avec $ ^{*}i = \emptyset $ . (i début du processus).
+		
+		\item  Il existe une seule place puits $o \in P$ avec $ ^{*}o = \emptyset $  (o est la fin du processus).
+		
+		\item  Chaque nœud $x \in (P \cup T) $est sur un chemin de $i$ à $o$. C’est à dire : Chemin $(i, x)$ $\wedge$ Chemin $(x, o)$.
+		
+		
+		
+	\end{enumerate} 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{images/wf-nete006}
+		\caption{ Procédure modélisée avec le WF-net }
+		\label{fig:wf-nete006}
+	\end{figure}
+	
+\end{defn}
+Un réseau de workflow (WF-net) est un réseau de pétri qui possède une seule place d’entrée (i) et une seule place de sortie (o) et puis que n’importe quel cas traité avec la procédure représentée par un WF-net est crée au moment de début de son traitement par le système de gestion de workflow (SGWF) est supprimé une fois que sont traitement est complètement achevé par le SGWF. Cela veut dure que le WFnet spécifie le cycle de vie d’un cas du processus modélisé  .
+\begin{rem}
+	Un chemin C dans un WF-net d’un nœud $n_{1}$ au nœud $n_{k}$ est une séquence $<n_{1},n_{2},...,n_{k}>$ tel-que $<n_{i},n_{i+1}> \in F $, pour $i=1...k-1$.
+	F est la relation de flux. 
+\end{rem}
+
+\subsection{Constructions du routage dans un WF-net}
+Un réseau de workflow (WF-net) est utilisé pour spécifier le routage de flux dans les cas du workflow, quatre types de routage ont été identifiés :
+
+\subsubsection{Séquentiel :}
+
+Utilisé pour traiter la relation de causalité entre les tâches. Soit deux tâches A et B, si la tâche B et exécutée après l’accomplissement de A, ce comportement peut être modélisé avec un RDP en ajoutant les places pour capter les relations de causalité entre les tâches A et B. La figure \ref{fig:wf003} illustre ce comportement.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/wf003}
+	\caption{Routage séquentiel.}
+	\label{fig:wf003}
+\end{figure}
+
+\subsubsection{Parallèle : }
+Utiliser dans le cas où l’ordre d’exécution est moins strict. Par exemple si on a deux tâches B et C qui doivent être exécutées mais dans un ordre arbitraire, la modélisation de ce comportement de routage parallèle comporte deux constructions le AND-split et AND-join.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/Capture}
+	\caption{Routage parallèle.}
+	\label{fig:capture}
+\end{figure}
+
+\subsubsection{Conditionnel :}
+
+Utilisé pour traiter les cas où le routage de flux peut dépendre des données d’un cas. Il existe deux types de routage conditionnel : \textit{\textbf{le choix non-déterministe}} et \textit{\textbf{le choix déterministe}}. 
+
+
+\begin{enumerate}
+	
+	\item \textbf{Choix non-déterministe :} Pour modéliser ce comportement deux constructions sont utilisées OR-Split et OR-join. La figure \ref{fig:wf005} représente un choix entre l’exécution des deux tâches B ou C grâce à un jeton dans la place c2, mais cela permet un choix non-déterministe (l’exécution de B ou de C car les deux tâches sont permises).
+	
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{images/wf005}
+		\caption{Routage conditionnel non-déterministe}
+		\label{fig:wf005}
+	\end{figure}
+	
+	
+	
+	\item \textbf{Choix déterministe : } Le choix entre plusieurs alternatives peut être guidé par les données (ou les attributs) du workflow, dans ce cas c’est un choix déterministe.
+	
+	Nous pouvons prendre le schéma de la figure précédente et ajouter une pré-condition pour chacune des tâches B et C (en se basant sur un ou plusieurs attributs du workflow).
+	
+	Il y a une autre façon de modéliser le choix déterministe comme dans la figure suivante. La transition A comporte deux places de sortie c2 et c3 et produit un seul jeton (soit dans c2 ou dans c3). Le choix entre les deux places est basé sur la valeur de l’attribut x.Un symbole spécial est utilisé pour représenté que la tâche A est un OR-split (exclusive OR).
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{images/wf006}
+		\caption{Choix explicite entre B et C à base de l’attribut x .
+		}
+		\label{fig:wf006}
+	\end{figure}
+	
+	\item \textbf{Itération : } L’itération peut être modélisée en utilisant l’implicite (OR-split, OR-join), l’explicite (OR-split, OR-join). Il est utilisé dans le cas où une ou plusieurs tâches peuvent être exécutées plusieurs fois. La figure suivante montre un exemple d’un modèle de workflow en utilisant un routage itératif.
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{images/wf008}
+		\caption{Itération : B peut être exécutée plusieurs fois}
+		\label{fig:wf008}
+	\end{figure}
+\end{enumerate}
+
+
+
+
+
 \section{Conclusion}
 ....lk

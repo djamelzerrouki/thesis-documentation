@@ -39,6 +39,87 @@
     \field{year}{2019}
   \endentry
 
+  \entry{Geelan}{online}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={Geelan},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Twenty One Experts Define Cloud Computing}
+    \verb{url}
+    \verb http://virtualization.sys-con.com/node/612375
+    \endverb
+    \field{journaltitle}{Electronic Magazine}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Mell}{article}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Mell},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{The NIST Definition of Cloud Computing}
+    \field{journaltitle}{Ried}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Wang}{book}{}
+    \name{author}{2}{}{%
+      {{hash=WTJKMCACKDL}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         suffix={L.},
+         suffixi={L\bibinitperiod},
+         given={Tao J. Kunze M. Castellanos A. C. Kramer\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  K\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  C\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=K}{%
+         family={Karl},
+         familyi={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {the 10th IEEE Int. Conf on High Performance computing}%
+      {Communications}%
+    }
+    \strng{namehash}{WLTJKMCACKDK1}
+    \strng{fullhash}{WLTJKMCACKDK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{year}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{edition}{2nd Edition}
+    \field{title}{Scientific cloud computing}
+    \list{location}{1}{%
+      {Washington, DC, USA}%
+    }
+    \field{year}{2008}
+  \endentry
+
   \entry{mvc}{online}{}
     \name{author}{1}{}{%
       {{hash=i}{%

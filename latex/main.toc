@@ -13,9 +13,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.2.1.1}Vers une d\IeC {\'e}finition du cloud computing }{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Caract\IeC {\'e}ristiques principales du cloud computing}{4}% 
+\contentsline {subsection}{\numberline {1.2.2}Caract\IeC {\'e}ristiques principales du cloud computing}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2.1}Acc\IeC {\`e}s en libre-service \IeC {\`a} la demande}{4}% 
+\contentsline {subsubsection}{\numberline {1.2.2.1}Acc\IeC {\`e}s en libre-service \IeC {\`a} la demande}{5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.2.2.2}Acc\IeC {\`e}s r\IeC {\'e}seau universel}{5}% 
 \defcounter {refsection}{0}\relax 
@@ -27,7 +27,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.2.2.6}Paiement \IeC {\`a} l\IeC {\textquoteright }usage}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2.7}Fiabilit\IeC {\'e} et tol\IeC {\'e}rance aux pannes}{5}% 
+\contentsline {subsubsection}{\numberline {1.2.2.7}Fiabilit\IeC {\'e} et tol\IeC {\'e}rance aux pannes}{6}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.2.2.8}Garantie \ac {qos} }{6}% 
 \defcounter {refsection}{0}\relax 
@@ -283,7 +283,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.3.2.4}Microservice ProxyService}{58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Description de notre architecture de syst\IeC {\`e}me}{58}% 
+\contentsline {section}{\numberline {3.4}Description de l'architecture de notre syst\IeC {\`e}me}{58}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.1}Consulter les services via le proxy }{59}% 
 \defcounter {refsection}{0}\relax 

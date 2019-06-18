@@ -636,7 +636,7 @@ En lançant le service Proxy, vous remarquerez qu'il est rajouté dans Eureka.
     
     
     
-    \section{Description de notre architecture de système}
+    \section{Description de l'architecture de notre système}
     
    \comment{ 
     
@@ -655,15 +655,15 @@ En lançant le service Proxy, vous remarquerez qu'il est rajouté dans Eureka.
 \end{figure}
 
 }
-
-    nous avons prendre comme dimension de cas des entreprises pour un workflow administrative (  voir le paragraphe 1.3.4.2  dans le chapitre 2).  
-
-    nous avons programmé les trois services principale (service proxy , service de configuration et service de registration ) pour l'orchestration des Micro-Services voir la figure \ref{fig:cloudms}  qui représente Notre architecture de système sur l'environnement Spring cloud et micro-service . 
-
-      De plus, nous avons programmé un service spéciale "générateur service"  grâce auxquels nous généré de nouveaux  microservices qui permettent de fournir   à des entreprises  des service a la demande ,Chaque entreprise est associer à leur microservices et le  service fourni en tant que système de workflow administrative .
+Nous avons instanciés le workflow dans plusieurs dimensions des cas (Voir le paragraphe 1.3.4.2).         
  
- parmi les entreprises on a  \ac{cnr} comme dimension de cas .
-     
+ 
+    nous avons codé  les trois services pour l'orchestration des Micro-Service a  savoir service proxy ,service  configuration et service   registration   pour  comme le montre  la figure \ref{fig:cloudms}.
+    
+      De plus, nous avons codé un Master service paremente l'instancié le workflow pour déférent organisation c-à-d le fournisseur de service offre ses service via Master service.
+ 
+ 
+     suite a la demande de la \ac{cnr} nous avons instanciés notre workflow pour cette organisation et nous avons amélioré notre application suite leur chair de charge .     
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{images/cloudMS}

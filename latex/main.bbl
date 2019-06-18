@@ -17,6 +17,39 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
+  \entry{Buyya}{book}{}
+    \name{author}{2}{}{%
+      {{hash=BR}{%
+         family={Buyya},
+         familyi={B\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=V}{%
+         family={Venugopal},
+         familyi={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {1st IEEE International Workshop on Grid Economics}%
+      {Business Models (GECON 2004)}%
+    }
+    \strng{namehash}{BRV1}
+    \strng{fullhash}{BRV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{The Gridbus Toolkit for Service Oriented Grid and Utility
+  computing}
+    \list{location}{1}{%
+      {Seoul, Korea}%
+    }
+    \field{year}{2004}
+  \endentry
+
   \entry{cloud2019}{online}{}
     \name{author}{1}{}{%
       {{hash=E}{%
@@ -37,6 +70,65 @@
     \verb http://www.epsi.fr/fournisseurs-cloud-2019/
     \endverb
     \field{year}{2019}
+  \endentry
+
+  \entry{Foster}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FI}{%
+         family={Foster},
+         familyi={F\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=K}{%
+         family={Kesselman},
+         familyi={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Morgan Kaufmann Publishers Inc}%
+    }
+    \strng{namehash}{FIK1}
+    \strng{fullhash}{FIK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{year}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{blueprint for a new computing infrastructureg}
+    \field{year}{1999}
+  \endentry
+
+  \entry{Garfinkel}{book}{}
+    \name{author}{2}{}{%
+      {{hash=GS}{%
+         family={Garfinkel},
+         familyi={G\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=A}{%
+         family={Abelson},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Mit. MIT Press}%
+    }
+    \strng{namehash}{GSA1}
+    \strng{fullhash}{GSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{35 Years of the Laboratory for Computer Science}
+    \list{location}{1}{%
+      {Cambridge, MA, USA}%
+    }
+    \field{year}{1999}
   \endentry
 
   \entry{Geelan}{online}{}
@@ -82,7 +174,49 @@
     \field{year}{2011}
   \endentry
 
-  \entry{Wang}{book}{}
+  \entry{Rimal}{book}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={Rimal},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{cloud computing systems}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Vouk2008}{book}{}
+    \name{author}{1}{}{%
+      {{hash=V}{%
+         family={Vouk},
+         familyi={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Computing}%
+      {Information Technology}%
+    }
+    \strng{namehash}{V1}
+    \strng{fullhash}{V1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{year}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{title}{cloud computing}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Wang2008}{book}{}
     \name{author}{2}{}{%
       {{hash=WTJKMCACKDL}{%
          family={Wang},
@@ -112,7 +246,6 @@
     \field{labeldatesource}{year}
     \field{sortinit}{W}
     \field{sortinithash}{W}
-    \field{edition}{2nd Edition}
     \field{title}{Scientific cloud computing}
     \list{location}{1}{%
       {Washington, DC, USA}%

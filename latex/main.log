@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  17 JUN 2019 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  18 JUN 2019 12:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -1300,16 +1300,19 @@ Chapitre 1.
 (ch1.tex
 Package acronym Info: Label `acro:ec2' newly defined as it shall be overridden
 although it is yet undefined on input line 13.
-<images/tempsnip4.png, id=64, 934.99312pt x 697.10437pt>
+ [3
+
+]
+<images/tempsnip4.png, id=67, 934.99312pt x 697.10437pt>
 File: images/tempsnip4.png Graphic file (type png)
 <use images/tempsnip4.png>
 Package pdftex.def Info: images/tempsnip4.png  used on input line 17.
 (pdftex.def)             Requested size: 341.43436pt x 254.5633pt.
- [3
-
-]
 Package acronym Info: Label `acro:als' newly defined as it shall be overridden
 although it is yet undefined on input line 25.
+
+Underfull \vbox (badness 4846) has occurred while \output is active []
+
  [4 <./images/tempsnip4.png>]
 Package acronym Info: Label `acro:cpu' newly defined as it shall be overridden
 although it is yet undefined on input line 51.
@@ -1345,20 +1348,17 @@ File: images/Capture5.png Graphic file (type png)
 <use images/Capture5.png>
 Package pdftex.def Info: images/Capture5.png  used on input line 101.
 (pdftex.def)             Requested size: 426.79134pt x 234.24335pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [7]
 Package acronym Info: Label `acro:gae' newly defined as it shall be overridden
 although it is yet undefined on input line 113.
-
-[8 <./images/Capture5.png>]
+ [8 <./images/Capture5.png>]
 Package acronym Info: Label `acro:nist' newly defined as it shall be overridden
 
 although it is yet undefined on input line 123.
 Package acronym Info: Label `acro:vpn' newly defined as it shall be overridden
 although it is yet undefined on input line 126.
- [9]
+
+[9]
 <images/Cloud_MD.png, id=90, 595.22375pt x 465.74pt>
 File: images/Cloud_MD.png Graphic file (type png)
 <use images/Cloud_MD.png>
@@ -1373,8 +1373,7 @@ although it is yet undefined on input line 217.
 Package acronym Info: Label `acro:uims' newly defined as it shall be overridden
 
 although it is yet undefined on input line 217.
-
-[11]
+ [11]
 <images/wfmcHistory.png, id=98, 493.845pt x 148.75575pt>
 File: images/wfmcHistory.png Graphic file (type png)
 <use images/wfmcHistory.png>
@@ -1949,7 +1948,7 @@ Package pdftex.def Info: images/tp05.png  used on input line 614.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
  [58 <./images/tp05.png>]
 Package acronym Info: Label `acro:cnr' newly defined as it shall be overridden
-although it is yet undefined on input line 665.
+although it is yet undefined on input line 666.
 <images/cloudMS.png, id=300, 728.7225pt x 552.8655pt>
 File: images/cloudMS.png Graphic file (type png)
 <use images/cloudMS.png>
@@ -2654,10 +2653,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22348 strings out of 492946
- 383000 string characters out of 3125822
+ 22369 strings out of 492946
+ 383520 string characters out of 3125822
  914742 words of memory out of 3000000
- 25771 multiletter control sequences out of 15000+200000
+ 25792 multiletter control sequences out of 15000+200000
  20239 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,23n,92p,2003b,3308s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2687,9 +2686,9 @@ sers/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (86 pages, 5242855 bytes).
+Output written on main.pdf (86 pages, 5248135 bytes).
 PDF statistics:
- 1039 PDF objects out of 1200 (max. 8388607)
+ 1051 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

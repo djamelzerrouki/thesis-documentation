@@ -207,9 +207,9 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 \subsection{Introduction au Workflow }
  	 
  	 
- 	 Un Workflow est la modélisation et la gestion assistée par ordinateur de l’accomplissement des tâches composant un processus administratif ou industriel, en interaction avec divers acteurs (humains, logiciels, ou matériels) invoqués [COURTOIS 96]. Outil informatique d’origine industrielle, le Workflow est l’adaptation de la GED24 adjoint de la faculté à gérer l’échange de messages. Le Workflow propose des solutions d’optimisation et de rationalisation des flux d’informations ; que ces informations soient associées à des documents, des procédures ou des messages complémentant les systèmes de gestion électronique de documents et d’informations.
+ 	 Un Workflow est la modélisation et la gestion assistée par ordinateur de l’accomplissement des tâches composant un processus administratif ou industriel, en interaction avec divers acteurs (humains, logiciels, ou matériels) invoqués \parencite{Courtois} . Outil informatique d’origine industrielle, le Workflow est l’adaptation de la GED24 adjoint de la faculté à gérer l’échange de messages. Le Workflow propose des solutions d’optimisation et de rationalisation des flux d’informations ; que ces informations soient associées à des documents, des procédures ou des messages complémentant les systèmes de gestion électronique de documents et d’informations.
  	 
- 	 A l’heure actuelle plus de 250 Systèmes de Gestion de Workflow (WFMS) sont utilisés ou en développement. Cela signifie que le terme « gestion de Workflow » n’est pas simplement une nouvelle expression à la mode. Ce phénomène de gestion de processus (Workflow) aura certainement un fort impact sur la génération suivante de systèmes informatiques [COURTOIS 96, HAYES 91, KOULOPOULOS 95, SCHAEL 97].
+ 	 A l’heure actuelle plus de 250 Systèmes de Gestion de Workflow (WFMS) sont utilisés ou en développement. Cela signifie que le terme « gestion de Workflow » n’est pas simplement une nouvelle expression à la mode. Ce phénomène de gestion de processus (Workflow) aura certainement un fort impact sur la génération suivante de systèmes informatiques \parencite{Courtois} .
  	 
  \subsection{Origines} 
  	 Il est intéressant de considérer l’évolution des systèmes informatiques au cours des quatre dernières décennies [VAN DER AALST 02] pour prendre conscience de la pertinence d’une gestion électronique de processus (Workflow) et apprécier l’impact de la gestion de Workflow dans un avenir proche.
@@ -255,7 +255,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 \subsubsection{Définition d’un Workflow }
  	 
  	 
- 	 Le Workflow est une technologie informatique ayant pour objectif la gestion des processus d’organisations ou d’entreprises : les termes suivants sont également employés pour qualifier cette technologie « Système de Gestion Electronique de Processus », « Gestion de Workflow » ou « Gestion de processus » [COURTOIS 96]. 
+ 	 Le Workflow est une technologie informatique ayant pour objectif la gestion des processus d’organisations ou d’entreprises : les termes suivants sont également employés pour qualifier cette technologie « Système de Gestion Electronique de Processus », « Gestion de Workflow » ou « Gestion de processus » \parencite{Courtois}. 
  	 
  	 Le Workflow est l’ensemble des moyens mis en œuvre pour automatiser et gérer les processus d’une organisation. Cette gestion est rendue possible par la représentation sous forme d’un modèle, de tout ou partie des processus considérés. Le Workflow doit ensuite transcrire les modèles obtenus en une forme exécutable. Enfin, ces modèles sont exécutés et gérés. Il est ainsi possible de suivre l’évolution de leur état au fil du temps. La gestion de processus inclut également, au cours de l’exécution, la coordination et la synchronisation des différents acteurs des processus en fonction de l’état actuel des modèles.
  	 
@@ -446,13 +446,13 @@ tâche, plus concrètement, la structure se construit par pas en suivant le ryth
 Les Workflow adaptables sont, quant à eux, des supports comparables aux Workflow de
 production classiques possédant une structure préétablie, mais pouvant traiter certains changements de structure « en ligne ». Ces changements peuvent aller des changements individuels/ad hoc (gestion d’exception), c’est à dire d’un aiguillage pour déterminer l’activité suivante, jusqu'à la reconception par \ac{bpr} de processus [VAN DER AALST 98d]. En conclusion, ils ont une action globale pouvant inclure la définition du Workflow ad hoc  
 
-Il est intéressant de classifier les différents changements possibles par un Workflow adaptables, dans le but de mieux les anticiper [SADIQ 99]. Les changements sont envisageables
+Il est intéressant de classifier les différents changements possibles par un Workflow adaptables, dans le but de mieux les anticiper  \parencite{Sadiq}. Les changements sont envisageables
 selon plusieurs perspectives : la ressource, le contrôle, la procédure, la tâche et le système [VAN DER AALST 98d].
 
 
 \subsection{Modèle de référence des systèmes Workflow }
 
-Le modèle de référence, Figure 18, présente l’architecture générale de l’environnement
+Le modèle de référence, Figure \ref{fig:capture6}, présente l’architecture générale de l’environnement
 proposée par la WfMC, il identifie les interfaces couvrant cinq domaines de fonctionnalités entre le système Workflow et son environnement. 
 
 \begin{figure}[h]
@@ -672,7 +672,164 @@ Avec l’arrivée des services de cloud computing  provenant de grandes organisa
 Les Réseaux de Petri (RdPs)  constituent un formalisme majeur pour modéliser les processus workflows. Une des forces des RdPs est la base mathématique forte qu'ils offrent avec une représentation graphique. 
 
 
-\subsection{RDPs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{les réseaux de Pétri}
+
+
+
+\subsection{Qu'est-ce que les réseaux de Pétri }
+Les réseaux de Pétri sont définis comme étant un formalisme qui permet la description et l'analyse du comportement des systèmes concurrents, introduit par Carl Adam Pétri en 1962. [1]  
+
+\subsection{L'aspect structurel}
+
+\begin{defn}\textbf{\textbf{(Définition d'un réseau de pétri:}}
+	\\
+	Un réseau de pétri (R) est un triple R= (P, T, W) où P est l'ensemble des places (les places représentent les sites) et T l'ensemble des transitions (les transitions représentent les actions) tel que :
+	
+	\begin{itemize}
+		\item  	P est un ensemble final de places,
+		\item T est un ensemble final de transition $ (P \cap T = \theta ) $ ,
+		\item W: $(P \times T) \cup (T \times P)\to N = \{0,1,2,...\} $  .
+	\end{itemize}
+	
+\end{defn}
+
+
+
+
+
+
+
+
+\subsubsection{Représentation d'un réseau de Pétri }
+
+
+
+\subsubsection*{Représentation graphique} 
+L'un des aspects les plus agréables des réseaux de Pétri est qu'il est extrêmement aisé de les visualiser; c.-à-d., donner une interprétation graphique à sa structure qui peut être représentée à travers un graphe bipartie fait de deux types de sommets: les places et les transitions reliées alternativement par des arcs orientés qui portent des poids entiers positifs, si un poids n'est pas porté alors il est égal à 1 (RdP ordinaire). Généralement, les places sont représentées par des cercles et les transitions par des rectangles, le marquage d'un RdP est représenté par la distribution de jetons dans l'ensemble de ses places telle que chaque place peut contenir un ou plusieurs jetons représentés par des points dans le cercle représentant la place. [2]
+
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/petrif01}
+	\caption{ Réseau de Pétri simple }
+	\label{fig:petrif01}
+\end{figure}
+\subsubsection*{ Représentation matricielle} 
+Une représentation matricielle d'un RdP est offerte afin de simplifier les Tâches d'analyse et de vérification effectuée sur un modèle RdP. Agir sur une représentation graphique d'un modèle RdP est une Tâche délicate en comparant avec une représentation matricielle. Il   est possible de représenter la fonction W (fonction de poids) par des matrices.[2] 
+
+\begin{defn}\textbf{\textbf{(Réseau de pétri):}}
+	Soit Un réseau de pétri $ R= (P, T, W) $ avec $ P= \{p1, p2, …, pm\} $ et $ T= \{t1, t2, …,tn \}$, on appelle matrice des pré conditions   pré la matrice  $  m \times n $   à coefficients dans  N  tel que $ pre (i,j)= W(p_{i}, t_{j}) $ , elle indique le nombre de marques que doit contenir la place $p_{i}$ pour que la transition $ tj $  devienne franchissable, de la même manière on définit la matrice des post conditions post  la matrice $ n  \times m $ tel que $ post (i,j)= W(tj,  p_{i}) $ contient le nombre de   marques déposées dans $p_{i}$ lors du franchissement de la transition $t_{j}$. La matrice C= post – pré est appelée matrice d'incidence du réseau (m représente le nombre de places d'un réseau de Pétri et n le nombre de transitions.). 
+\end{defn}
+
+La représentation Graphique d’un marquage dans un RdP marqué est présentée par des marques dans la place appelées jetons. 
+
+Le marquage d'un réseau de Petri est représenté par un vecteur de dimension m à coefficients dans N. La règle de franchissement d'un réseau de Petri est définie par :    $     M’ (p) =M (p) +  C (p, t).  $
+
+
+
+\subsubsection*{Représentation d’un RdP marqué }
+
+Un réseau de Pétri marqué est le couple $ N = < R , M > $ où : 
+\begin{itemize}
+	\item R est un réseau de Pétri .
+	\item M est une application de marquage  .
+	\item $  M : P \to N  $ .
+\end{itemize}
+
+
+$ M(p) $ est le nombre de marques (jetons) contenus dans la place p. Le marquage d’un réseau de Pétri est une opération qui consiste à assigner des jetons dans les places.
+
+On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques dans chaque place : la $ I^{eme} $ composante  correspond au nombre de marques dans la $ I^{eme} $   place. Il indique à un instant donné l'état du RdP.[2]   
+
+
+\begin{exmp}
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth]{images/pitref02PNG}
+		\caption{ Réseau de Pétri marqué }
+		\label{fig:pitref02png}
+	\end{figure}
+	
+	Pour le réseau de la (Figure \ref{fig:pitref02png}) .
+	
+	$ P= \{p1, p2, p3, p4\}$ et $T= \{t1, t2, t3\}  $
+	
+	
+	\begin{figure}[H]
+		\centering
+		
+		\begin{subfigure}[b]{0.4\textwidth}
+			\[
+			pre=
+			\begin{pmatrix}
+			1 & 0 & 0 \\
+			0 & 1 & 1 \\
+			0 & 0 & 0 \\
+			0 & 0 & 0
+			\end{pmatrix}
+			\]
+			\caption{La matrice pré}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.4\textwidth}
+			\[	post=
+			\begin{pmatrix}
+			1 & 0 & 0 \\
+			0 & 1 & 1 \\
+			0 & 1 & 1 \\
+			0 & 0 & 0 
+			\end{pmatrix}
+			\]
+			\caption{La matrice post}
+		\end{subfigure}
+		
+		
+		
+		\begin{subfigure}[b]{0.4\textwidth}
+			\[
+			C=
+			\begin{pmatrix}
+			-1 & 0 & 0 \\
+			0 & -1 & -1 \\
+			0 & 1 & 0 \\
+			0 & 0 & 1
+			\end{pmatrix}
+			\]
+			\caption{La matrice d'incidence}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.4\textwidth}
+			\[	M=
+			\begin{pmatrix}
+			1  \\
+			0  \\
+			0  \\
+			0 
+			\end{pmatrix}
+			\]
+			\caption{Le vecteur de marquage M }
+		\end{subfigure}
+		
+	\end{figure}
+	
+	Le marquage du RdP présenté à la Figure 3 est donné par : 
+	\[	M=
+	\begin{pmatrix}
+	1  \\
+	0  \\
+	0  \\
+	0 
+	\end{pmatrix}
+	\]
+	On appelle marquage initial, noté M0, le marquage à l’ instant initial (t = 0). 
+\end{exmp}
+
+
+ 
 
 
 \begin{defn}
@@ -764,7 +921,7 @@ Utilisé pour traiter les cas où le routage de flux peut dépendre des données
 		\label{fig:wf006}
 	\end{figure}
 	
-	\item \textbf{Itération : } L’itération peut être modélisée en utilisant l’implicite (OR-split, OR-join), l’explicite (OR-split, OR-join). Il est utilisé dans le cas où une ou plusieurs tâches peuvent être exécutées plusieurs fois. La figure suivante montre un exemple d’un modèle de workflow en utilisant un routage itératif.
+	\item \textbf{Itération :} L’itération peut être modélisée en utilisant l’implicite (OR-split, OR-join), l’explicite (OR-split, OR-join). Il est utilisé dans le cas où une ou plusieurs tâches peuvent être exécutées plusieurs fois. La figure suivante montre un exemple d’un modèle de workflow en utilisant un routage itératif.
 	
 	
 	\begin{figure}[H]
@@ -780,4 +937,4 @@ Utilisé pour traiter les cas où le routage de flux peut dépendre des données
 
 
 \section{Conclusion}
-....lk
+hjkhjv

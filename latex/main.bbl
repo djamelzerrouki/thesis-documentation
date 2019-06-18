@@ -50,6 +50,28 @@
     \field{year}{2004}
   \endentry
 
+  \entry{Courtois}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CT}{%
+         family={Courtois},
+         familyi={C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CT1}
+    \strng{fullhash}{CT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Workflow: la gestion globale des processus de l'entreprise.
+  Logiciels & Systèmes}
+    \field{year}{1996}
+  \endentry
+
   \entry{cloud2019}{online}{}
     \name{author}{1}{}{%
       {{hash=E}{%
@@ -85,9 +107,6 @@
          familyi={K\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {Morgan Kaufmann Publishers Inc}%
-    }
     \strng{namehash}{FIK1}
     \strng{fullhash}{FIK1}
     \field{labelnamesource}{author}
@@ -97,6 +116,7 @@
     \field{sortinit}{F}
     \field{sortinithash}{F}
     \field{title}{blueprint for a new computing infrastructureg}
+    \field{journaltitle}{Morgan Kaufmann Publishers Inc}
     \field{year}{1999}
   \endentry
 
@@ -191,6 +211,31 @@
     \field{sortinithash}{R}
     \field{title}{cloud computing systems}
     \field{year}{2009}
+  \endentry
+
+  \entry{Sadiq}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SS}{%
+         family={Sadiq},
+         familyi={S\bibinitperiod},
+         given={S.W.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Computer science}%
+      {Electrical Engineering}%
+    }
+    \strng{namehash}{SS1}
+    \strng{fullhash}{SS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Workflows in Dynamic Environments Can they be manage}
+    \field{year}{1999}
   \endentry
 
   \entry{Vouk2008}{book}{}

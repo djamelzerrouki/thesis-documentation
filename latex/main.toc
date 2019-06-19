@@ -297,15 +297,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.5.1.2}Cr\IeC {\'e}ation d'un circuit workflow}{61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.5.1.3}Gestion des T\IeC {\^a}ches }{61}% 
+\contentsline {subsubsection}{\numberline {3.5.1.3}Gestion des T\IeC {\^a}ches }{62}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.5.1.4}Gestion des Sous-Directions et des Services }{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.5.1.5}Gestion des Utilisateurs}{62}% 
+\contentsline {subsubsection}{\numberline {3.5.1.5}Gestion des Utilisateurs}{63}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.5.1.6}Consultation des Dossiers}{63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.5.1.7} Consultation Historique par dossier }{63}% 
+\contentsline {subsubsection}{\numberline {3.5.1.7} Consultation Historique par dossier }{64}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.5.1.8} Consultation Historique par T\IeC {\^a}che }{64}% 
 \defcounter {refsection}{0}\relax 
@@ -315,7 +315,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.5.2.2} Menu }{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.5.2.3}Ajouter un dossier}{65}% 
+\contentsline {subsubsection}{\numberline {3.5.2.3}Ajouter un dossier}{66}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.5.2.4} Liste des dossier }{66}% 
 \defcounter {refsection}{0}\relax 

@@ -6,7 +6,11 @@
 \usepackage{makeidx}
 \makeindex
 
+\usepackage{arabtex}
+\usepackage[LFE,LAE]{fontenc}
+ 
 
+ 
 \usepackage{float}
 \usepackage{listings}
 \usepackage[acronym]{glossaries}
@@ -122,11 +126,19 @@
  
 \pagenumbering{roman}
  
-\chapter*{Résumé} 
-..................
+\input{Résumé.tex} 
+
+\input{molakhasse.tex}
+
+ 
+ 
+ 
 Les batailles de la vie ne sont pas gagnées par les plus forts, ni par les plus rapides mais par ceux qui n'abandonnent jamais
-\chapter*{Abstrait}
-......................
+
+
+
+
+ \input{Abstrait.tex} 
 
 \chapter*{Déclaration}
 .....................
@@ -150,9 +162,11 @@ Les batailles de la vie ne sont pas gagnées par les plus forts, ni par les plus
 
 %%%%%%%  list of Tables %%%%%%%
 \listoftables
-	\pagenumbering{arabic} % switch to arabic numerals, start over at "1"
+
+
+
  
- \part{ Étude bibliographique }
+% \part{ Étude bibliographique }
 %\appendix
 \chapter{Concepts fondamentaux de cloud et de workflow }
 \input{ch1.tex}
@@ -162,19 +176,55 @@ Les batailles de la vie ne sont pas gagnées par les plus forts, ni par les plus
 %\input{ch2.tex}
 
 %%%%%%%%%%%%%%%%%%%%%   Partie pratique  %%%%%%%%%%%%%%%%%%%%%%%%
-\part{  Partie pratique }
+%\part{  Partie pratique }
 
 
 \chapter{Analyse et Conception}
 \input{ch3.tex}
 
  
- \chapter{Réalisation}
+ \chapter{Réalisation }
  \input{ch4.tex}
  
  
 %\printbibliography %[title={Whole bibliography}]
-
+  
+  
+  
+  
+  \section{First section}
+  
+  This document is an example of \texttt{thebibliography} environment using 
+  in bibliography management. Three items are cited: \textit{The \LaTeX\ Companion} 
+  book \cite{latexcompanion}, the Einstein journal paper \parencite{einstein}, and the 
+  Donald Knuth's website \cite{knuthwebsite}. The \LaTeX\ related items are
+  \cite{latexcompanion,knuthwebsite}. 
+  
+  \medskip
+  \comment{
+  \begin{thebibliography}{9}
+  	\bibitem{latexcompanion} 
+  	Michel Goossens, Frank Mittelbach, and Alexander Samarin. 
+  	\textit{The \LaTeX\ Companion}. 
+  	Addison-Wesley, Reading, Massachusetts, 1993.
+  	
+  	\bibitem{einstein} 
+  	Albert Einstein. 
+  	\textit{Zur Elektrodynamik bewegter K{\"o}rper}. (German) 
+  	[\textit{On the electrodynamics of moving bodies}]. 
+  	Annalen der Physik, 322(10):891–921, 1905.
+  	
+  	\bibitem{knuthwebsite} 
+  	Knuth: Computers and Typesetting,
+  	\\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+  \end{thebibliography}
+  
+  \printbibliography[type=article,title={Articles only}]
+  \printbibliography[type=book,title={Books only}]
+  
+  \printbibliography[keyword={physics},title={Physics-related only}]
+  \printbibliography[keyword={latex},title={\LaTeX-related only}]
+}
 \appendix
 
  \include{Annexes}

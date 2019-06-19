@@ -5,6 +5,8 @@ A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Annexes.aux
 Database file #1: main-blx.bib
 Database file #2: references.bib
+Warning--I didn't find a database entry for "latexcompanion"
+Warning--I didn't find a database entry for "einstein"
 Biblatex version: 3.11
 Name 2 in "Wang, L., Tao, J., Kunze, M., Castellanos, A., C. Kramer, D. and Karl," has a comma at the end for entry Wang2008
 while executing---line 2658 of file biblatex.bst

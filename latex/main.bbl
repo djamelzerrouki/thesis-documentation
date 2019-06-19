@@ -174,6 +174,30 @@
     \field{year}{2019}
   \endentry
 
+  \entry{knuthwebsite}{online}{}
+    \name{author}{1}{}{%
+      {{hash=KD}{%
+         family={Knuth},
+         familyi={K\bibinitperiod},
+         given={Donald},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KD1}
+    \strng{fullhash}{KD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{Knuth: Computers and Typesetting}
+    \verb{url}
+    \verb http://www-cs-faculty.stanford.edu/~uno/abcde.html
+    \endverb
+    \field{year}{2019}
+  \endentry
+
   \entry{Mell}{article}{}
     \name{author}{1}{}{%
       {{hash=M}{%

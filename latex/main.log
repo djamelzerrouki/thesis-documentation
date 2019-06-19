@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  19 JUN 2019 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  19 JUN 2019 15:42
 entering extended mode
 **./main.tex
 (main.tex
@@ -1297,7 +1297,11 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count388
 \@quotereset=\count389
-(main.aux (abbreviations.aux) (Introduction.aux) (Annexes.aux))
+(main.aux (abbreviations.aux) (Introduction.aux)
+
+LaTeX Warning: Label `fig:bpmn' multiply defined.
+
+(Annexes.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
@@ -1469,616 +1473,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package acronym Info: Label `acro:qos' newly defined as it shall be overridden
 although it is yet undefined on input line 30.
+ [3
 
-Overfull \hbox (0.71779pt too wide) detected at line 42
- []\T1/cmr/m/n/12 xvii
- []
 
-
-Overfull \hbox (0.71779pt too wide) detected at line 44
- []\T1/cmr/m/n/12 xvii
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 46
- []\T1/cmr/m/n/12 xvii
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 48
- []\T1/cmr/m/n/12 xvii
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 50
- []\T1/cmr/m/n/12 xviii
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 52
- []\T1/cmr/m/n/12 xviii
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 54
- []\T1/cmr/m/n/12 xviii
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 56
- []\T1/cmr/m/n/12 xviii
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 68
- []\T1/cmr/m/n/12 xxii
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 70
- []\T1/cmr/m/n/12 xxii
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 72
- []\T1/cmr/m/n/12 xxiii
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 74
- []\T1/cmr/m/n/12 xxiii
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 76
- []\T1/cmr/m/n/12 xxiii
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 78
- []\T1/cmr/m/n/12 xxiii
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 80
- []\T1/cmr/m/n/12 xxiii
- []
-
-[3
-
-
-]
-Overfull \hbox (3.65457pt too wide) detected at line 82
- []\T1/cmr/m/n/12 xxiv
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 84
- []\T1/cmr/m/n/12 xxiv
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 86
- []\T1/cmr/m/n/12 xxiv
- []
-
-
-Overfull \hbox (0.3915pt too wide) detected at line 88
- []\T1/cmr/m/n/12 xxv
- []
-
-
-Overfull \hbox (0.3915pt too wide) detected at line 90
- []\T1/cmr/m/n/12 xxv
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 92
- []\T1/cmr/m/n/12 xxvi
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 94
- []\T1/cmr/m/n/12 xxvi
- []
-
-
-Overfull \hbox (6.91765pt too wide) detected at line 96
- []\T1/cmr/m/n/12 xxvii
- []
-
-
-Overfull \hbox (6.91765pt too wide) detected at line 98
- []\T1/cmr/m/n/12 xxvii
- []
-
-
-Overfull \hbox (6.91765pt too wide) detected at line 100
- []\T1/cmr/m/n/12 xxvii
- []
-
-
-Overfull \hbox (10.18073pt too wide) detected at line 102
- []\T1/cmr/m/n/12 xxviii
- []
-
-
-Overfull \hbox (10.18073pt too wide) detected at line 104
- []\T1/cmr/m/n/12 xxviii
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 106
- []\T1/cmr/m/n/12 xxix
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 108
- []\T1/cmr/m/n/12 xxix
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 110
- []\T1/cmr/m/n/12 xxix
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 112
- []\T1/cmr/m/n/12 xxix
- []
-
-
-Overfull \hbox (0.3915pt too wide) detected at line 114
- []\T1/cmr/m/n/12 xxx
- []
-
-
-Overfull \hbox (0.3915pt too wide) detected at line 116
- []\T1/cmr/m/n/12 xxx
- []
-
-
-Overfull \hbox (0.3915pt too wide) detected at line 118
- []\T1/cmr/m/n/12 xxx
- []
-
-
-Overfull \hbox (0.3915pt too wide) detected at line 120
- []\T1/cmr/m/n/12 xxx
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 122
- []\T1/cmr/m/n/12 xxxi
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 124
- []\T1/cmr/m/n/12 xxxi
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 126
- []\T1/cmr/m/n/12 xxxi
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 128
- []\T1/cmr/m/n/12 xxxi
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 130
- []\T1/cmr/m/n/12 xxxi
- []
-
-
-Overfull \hbox (9.85443pt too wide) detected at line 132
- []\T1/cmr/m/n/12 xxxiv
- []
-
-
-Overfull \hbox (9.85443pt too wide) detected at line 134
- []\T1/cmr/m/n/12 xxxiv
- []
-
-
-Overfull \hbox (6.59135pt too wide) detected at line 136
- []\T1/cmr/m/n/12 xxxv
- []
-
-
-Overfull \hbox (6.59135pt too wide) detected at line 138
- []\T1/cmr/m/n/12 xxxv
- []
-
-
-Overfull \hbox (9.85443pt too wide) detected at line 140
- []\T1/cmr/m/n/12 xxxvi
- []
-
-
-Overfull \hbox (13.11751pt too wide) detected at line 144
- []\T1/cmr/m/n/12 xxxvii
- []
-
-
-Overfull \hbox (13.11751pt too wide) detected at line 146
- []\T1/cmr/m/n/12 xxxvii
- []
-
-
-Overfull \hbox (13.11751pt too wide) detected at line 148
- []\T1/cmr/m/n/12 xxxvii
- []
-
-
-Overfull \hbox (13.11751pt too wide) detected at line 150
- []\T1/cmr/m/n/12 xxxvii
- []
-
-
-Overfull \hbox (16.38058pt too wide) detected at line 152
- []\T1/cmr/m/n/12 xxxviii
- []
-
-
-Overfull \hbox (16.38058pt too wide) detected at line 154
- []\T1/cmr/m/n/12 xxxviii
- []
-
-
-Overfull \hbox (16.38058pt too wide) detected at line 156
- []\T1/cmr/m/n/12 xxxviii
- []
-
-
-Overfull \hbox (9.85443pt too wide) detected at line 158
- []\T1/cmr/m/n/12 xxxix
- []
-
-
-Overfull \hbox (9.85443pt too wide) detected at line 160
- []\T1/cmr/m/n/12 xxxix
- []
-
-
-Overfull \hbox (9.85443pt too wide) detected at line 162
- []\T1/cmr/m/n/12 xxxix
- []
-
-
-Overfull \hbox (1.04408pt too wide) detected at line 172
- []\T1/cmr/m/n/12 xliii
- []
-
-[4]
-Overfull \hbox (1.04408pt too wide) detected at line 174
- []\T1/cmr/m/n/12 xliii
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 176
- []\T1/cmr/m/n/12 xliv
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 178
- []\T1/cmr/m/n/12 xliv
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 180
- []\T1/cmr/m/n/12 xliv
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 184
- []\T1/cmr/m/n/12 xlvi
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 186
- []\T1/cmr/m/n/12 xlvi
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 188
- []\T1/cmr/m/n/12 xlvi
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 190
- []\T1/cmr/m/n/12 xlix
- []
-
-
-Overfull \hbox (1.04408pt too wide) detected at line 256
- []\T1/cmr/m/n/12 lviii
- []
-
-
-Overfull \hbox (1.04408pt too wide) detected at line 258
- []\T1/cmr/m/n/12 lviii
- []
-
-
-Overfull \hbox (1.04408pt too wide) detected at line 260
- []\T1/cmr/m/n/12 lviii
- []
-
-[5]
-Overfull \hbox (1.04408pt too wide) detected at line 282
- []\T1/cmr/m/n/12 lxiii
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 284
- []\T1/cmr/m/n/12 lxiv
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 286
- []\T1/cmr/m/n/12 lxvi
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 288
- []\T1/cmr/m/n/12 lxvi
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 290
- []\T1/cmr/m/n/12 lxvii
- []
-
-
-Overfull \hbox (7.24394pt too wide) detected at line 292
- []\T1/cmr/m/n/12 lxviii
- []
-
-
-Overfull \hbox (7.24394pt too wide) detected at line 294
- []\T1/cmr/m/n/12 lxviii
- []
-
-
-Overfull \hbox (7.24394pt too wide) detected at line 296
- []\T1/cmr/m/n/12 lxviii
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 298
- []\T1/cmr/m/n/12 lxix
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 300
- []\T1/cmr/m/n/12 lxix
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 306
- []\T1/cmr/m/n/12 lxxi
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 308
- []\T1/cmr/m/n/12 lxxi
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 310
- []\T1/cmr/m/n/12 lxxii
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 312
- []\T1/cmr/m/n/12 lxxii
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 314
- []\T1/cmr/m/n/12 lxxii
- []
-
-
-Overfull \hbox (7.24394pt too wide) detected at line 316
- []\T1/cmr/m/n/12 lxxiii
- []
-
-
-Overfull \hbox (7.24394pt too wide) detected at line 318
- []\T1/cmr/m/n/12 lxxiii
- []
-
-
-Overfull \hbox (6.91765pt too wide) detected at line 320
- []\T1/cmr/m/n/12 lxxiv
- []
-
-
-Overfull \hbox (6.91765pt too wide) detected at line 322
- []\T1/cmr/m/n/12 lxxiv
- []
-
-
-Overfull \hbox (3.65457pt too wide) detected at line 326
- []\T1/cmr/m/n/12 lxxv
- []
-
-
-Overfull \hbox (6.91765pt too wide) detected at line 328
- []\T1/cmr/m/n/12 lxxvi
- []
-
-
-Overfull \hbox (6.91765pt too wide) detected at line 330
- []\T1/cmr/m/n/12 lxxvi
- []
-
-
-Overfull \hbox (10.18073pt too wide) detected at line 334
- []\T1/cmr/m/n/12 lxxvii
- []
-
-
-Overfull \hbox (10.18073pt too wide) detected at line 336
- []\T1/cmr/m/n/12 lxxvii
- []
-
-
-Overfull \hbox (13.4438pt too wide) detected at line 338
- []\T1/cmr/m/n/12 lxxviii
- []
-
-
-Overfull \hbox (13.4438pt too wide) detected at line 340
- []\T1/cmr/m/n/12 lxxviii
- []
-
-)
+] [4] [5])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
  [6] (main.lof
-Overfull \hbox (0.71779pt too wide) detected at line 12
- []\T1/cmr/m/n/12 xvii
- []
+Package acronym Info: Label `acro:cnr' newly defined as it shall be overridden
+although it is yet undefined on input line 70.
+ [7
 
-
-Overfull \hbox (0.71779pt too wide) detected at line 20
- []\T1/cmr/m/n/12 xxii
- []
-
-
-Overfull \hbox (0.3915pt too wide) detected at line 22
- []\T1/cmr/m/n/12 xxv
- []
-
-
-Overfull \hbox (10.18073pt too wide) detected at line 24
- []\T1/cmr/m/n/12 xxviii
- []
-
-
-Overfull \hbox (6.91765pt too wide) detected at line 26
- []\T1/cmr/m/n/12 xxxii
- []
-
-
-Overfull \hbox (10.18073pt too wide) detected at line 28
- []\T1/cmr/m/n/12 xxxiii
- []
-
-
-Overfull \hbox (9.85443pt too wide) detected at line 30
- []\T1/cmr/m/n/12 xxxiv
- []
-
-
-Overfull \hbox (9.85443pt too wide) detected at line 32
- []\T1/cmr/m/n/12 xxxiv
- []
-
-
-Overfull \hbox (6.59135pt too wide) detected at line 34
- []\T1/cmr/m/n/12 xxxv
- []
-
-
-Overfull \hbox (6.59135pt too wide) detected at line 36
- []\T1/cmr/m/n/12 xxxv
- []
-
-
-Overfull \hbox (9.85443pt too wide) detected at line 38
- []\T1/cmr/m/n/12 xxxvi
- []
-
-
-Overfull \hbox (9.85443pt too wide) detected at line 40
- []\T1/cmr/m/n/12 xxxvi
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 46
- []\T1/cmr/m/n/12 xlvi
- []
-
-
-Overfull \hbox (1.04408pt too wide) detected at line 60
- []\T1/cmr/m/n/12 lxiii
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 64
- []\T1/cmr/m/n/12 lxvi
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 66
- []\T1/cmr/m/n/12 lxvii
- []
-
-
-Overfull \hbox (7.24394pt too wide) detected at line 68
- []\T1/cmr/m/n/12 lxviii
- []
-
-
-Overfull \hbox (7.24394pt too wide) detected at line 70
- []\T1/cmr/m/n/12 lxviii
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 72
- []\T1/cmr/m/n/12 lxix
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 74
- []\T1/cmr/m/n/12 lxix
- []
-
-[7
-
-]
-Overfull \hbox (0.71779pt too wide) detected at line 80
- []\T1/cmr/m/n/12 lxxi
- []
-
-
-Overfull \hbox (0.71779pt too wide) detected at line 82
- []\T1/cmr/m/n/12 lxxi
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 84
- []\T1/cmr/m/n/12 lxxii
- []
-
-
-Overfull \hbox (3.98087pt too wide) detected at line 86
- []\T1/cmr/m/n/12 lxxii
- []
-
-
-Overfull \hbox (7.24394pt too wide) detected at line 88
- []\T1/cmr/m/n/12 lxxiii
- []
-
-
-Overfull \hbox (7.24394pt too wide) detected at line 90
- []\T1/cmr/m/n/12 lxxiii
- []
-
-
-Overfull \hbox (6.91765pt too wide) detected at line 92
- []\T1/cmr/m/n/12 lxxiv
- []
-
-)
+])
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
@@ -2086,14 +1493,14 @@ Overfull \hbox (6.91765pt too wide) detected at line 92
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [9
+ [1
 
 ]
 Chapitre 1.
 (ch1.tex
 Package acronym Info: Label `acro:ec2' newly defined as it shall be overridden
 although it is yet undefined on input line 13.
- [10
+ [2
 
 ]
 <images/tempsnip4.png, id=67, 934.99312pt x 697.10437pt>
@@ -2106,16 +1513,16 @@ although it is yet undefined on input line 25.
 
 Underfull \vbox (badness 4846) has occurred while \output is active []
 
- [11 <./images/tempsnip4.png>]
+ [3 <./images/tempsnip4.png>]
 Package acronym Info: Label `acro:cpu' newly defined as it shall be overridden
 although it is yet undefined on input line 51.
- [12]
+ [4]
 <images/34-0.jpg, id=75, 627.01859pt x 553.7307pt>
 File: images/34-0.jpg Graphic file (type jpg)
 <use images/34-0.jpg>
 Package pdftex.def Info: images/34-0.jpg  used on input line 67.
 (pdftex.def)             Requested size: 213.39566pt x 188.45183pt.
- [13 <./images/34-0.jpg>]
+ [5 <./images/34-0.jpg>]
 Package acronym Info: Label `acro:vmm' newly defined as it shall be overridden
 although it is yet undefined on input line 80.
 Package acronym Info: Label `acro:xaas' newly defined as it shall be overridden
@@ -2141,16 +1548,17 @@ File: images/Capture5.png Graphic file (type png)
 <use images/Capture5.png>
 Package pdftex.def Info: images/Capture5.png  used on input line 101.
 (pdftex.def)             Requested size: 426.79134pt x 234.24335pt.
- [14]
+ [6]
 Package acronym Info: Label `acro:gae' newly defined as it shall be overridden
 although it is yet undefined on input line 113.
- [15 <./images/Capture5.png>]
+ [7 <./images/Capture5.png>]
 Package acronym Info: Label `acro:nist' newly defined as it shall be overridden
 
 although it is yet undefined on input line 123.
 Package acronym Info: Label `acro:vpn' newly defined as it shall be overridden
 although it is yet undefined on input line 126.
- [16]
+
+[8]
 <images/Cloud_MD.png, id=90, 595.22375pt x 465.74pt>
 File: images/Cloud_MD.png Graphic file (type png)
 <use images/Cloud_MD.png>
@@ -2158,14 +1566,14 @@ Package pdftex.def Info: images/Cloud_MD.png  used on input line 137.
 (pdftex.def)             Requested size: 213.39566pt x 166.96982pt.
 Package acronym Info: Label `acro:aws' newly defined as it shall be overridden
 although it is yet undefined on input line 188.
- [17 <./images/Cloud_MD.png (PNG copy)>]
+ [9 <./images/Cloud_MD.png (PNG copy)>]
 Package acronym Info: Label `acro:sgbd' newly defined as it shall be overridden
 
 although it is yet undefined on input line 217.
 Package acronym Info: Label `acro:uims' newly defined as it shall be overridden
 
 although it is yet undefined on input line 217.
- [18]
+ [10]
 <images/wfmcHistory.png, id=98, 493.845pt x 148.75575pt>
 File: images/wfmcHistory.png Graphic file (type png)
 <use images/wfmcHistory.png>
@@ -2185,7 +1593,7 @@ File: images/Environnementswf.png Graphic file (type png)
 <use images/Environnementswf.png>
 Package pdftex.def Info: images/Environnementswf.png  used on input line 247.
 (pdftex.def)             Requested size: 256.0774pt x 171.90675pt.
- [19 <./images/wfmcHistory.png>]
+ [11 <./images/wfmcHistory.png>]
 <images/DimensionsWF.png, id=106, 447.47176pt x 299.31825pt>
 File: images/DimensionsWF.png Graphic file (type png)
 <use images/DimensionsWF.png>
@@ -2194,7 +1602,7 @@ Package pdftex.def Info: images/DimensionsWF.png  used on input line 289.
 
 Underfull \vbox (badness 2401) has occurred while \output is active []
 
- [20 <./images/Environnementswf.png>]
+ [12 <./images/Environnementswf.png>]
 <images/"dswf".png, id=111, 613.0905pt x 458.31226pt>
 File: images/"dswf".png Graphic file (type png)
 <use images/"dswf".png>
@@ -2203,14 +1611,14 @@ Package pdftex.def Info: images/"dswf".png  used on input line 303.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21 <./images/DimensionsWF.png>] [22 <./images/dswf.png>] [23] [24]
+ [13 <./images/DimensionsWF.png>] [14 <./images/dswf.png>] [15] [16]
 <"images/classification de workflow".png, id=127, 459.51675pt x 257.16075pt>
 File: "images/classification de workflow".png Graphic file (type png)
 <use "images/classification de workflow".png>
 Package pdftex.def Info: "images/classification de workflow".png  used on input
  line 397.
 (pdftex.def)             Requested size: 298.75262pt x 167.19566pt.
- [25 <./images/classification de workflow.png>] [26]
+ [17 <./images/classification de workflow.png>] [18]
 Package acronym Info: Label `acro:bpr' newly defined as it shall be overridden
 although it is yet undefined on input line 447.
 <images/Capture6.png, id=135, 674.52pt x 514.92375pt>
@@ -2222,17 +1630,17 @@ Package pdftex.def Info: images/Capture6.png  used on input line 460.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27]
+[19]
 Package acronym Info: Label `acro:wapi' newly defined as it shall be overridden
 
 although it is yet undefined on input line 477.
- [28 <./images/Capture6.png>]
+ [20 <./images/Capture6.png>]
 Overfull \hbox (8.27754pt too wide) in paragraph at lines 508--509
 []\TS1/cmr/m/n/12 ˆ \T1/cmr/m/n/12 L'in-ter-pré-ta-tion com-mune de la dé-fi-ni
 -tion de pro-cé-dures (ou d'un sous-ensemble). 
  []
 
-[29] [30]
+[21] [22]
 <images/petrif01.png, id=151, 315.579pt x 296.307pt>
 File: images/petrif01.png Graphic file (type png)
 <use images/petrif01.png>
@@ -2242,7 +1650,7 @@ Package pdftex.def Info: images/petrif01.png  used on input line 715.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31]
+[23]
 
 LaTeX Warning: Command \textellipsis invalid in math mode on input line 723.
 
@@ -2252,13 +1660,13 @@ LaTeX Warning: Command \textellipsis invalid in math mode on input line 723.
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 728.
 
-[32 <./images/petrif01.png>]
+[24 <./images/petrif01.png>]
 <images/pitref02PNG.png, id=164, 314.3745pt x 388.45125pt>
 File: images/pitref02PNG.png Graphic file (type png)
 <use images/pitref02PNG.png>
 Package pdftex.def Info: images/pitref02PNG.png  used on input line 752.
 (pdftex.def)             Requested size: 170.71393pt x 210.946pt.
- [33 <./images/pitref02PNG.png>]
+ [25 <./images/pitref02PNG.png>]
 <images/wf-nete006.png, id=171, 542.025pt x 249.93375pt>
 File: images/wf-nete006.png Graphic file (type png)
 <use images/wf-nete006.png>
@@ -2269,7 +1677,7 @@ File: images/wf003.png Graphic file (type png)
 <use images/wf003.png>
 Package pdftex.def Info: images/wf003.png  used on input line 873.
 (pdftex.def)             Requested size: 298.75262pt x 91.97762pt.
- [34 <./images/wf-nete006.png> <./images/wf003.png>]
+ [26 <./images/wf-nete006.png> <./images/wf003.png>]
 <images/Capture.png, id=180, 809.424pt x 310.15875pt>
 File: images/Capture.png Graphic file (type png)
 <use images/Capture.png>
@@ -2285,13 +1693,13 @@ File: images/wf006.png Graphic file (type png)
 <use images/wf006.png>
 Package pdftex.def Info: images/wf006.png  used on input line 918.
 (pdftex.def)             Requested size: 298.75262pt x 108.21384pt.
- [35 <./images/Capture.png> <./images/wf005.png>]
+ [27 <./images/Capture.png> <./images/wf005.png>]
 <images/wf008.png, id=189, 597.432pt x 206.57175pt>
 File: images/wf008.png Graphic file (type png)
 <use images/wf008.png>
 Package pdftex.def Info: images/wf008.png  used on input line 929.
 (pdftex.def)             Requested size: 298.75262pt x 103.30136pt.
-) [36 <./images/wf006.png> <./images/wf008.png>]
+) [28 <./images/wf006.png> <./images/wf008.png>]
 Chapitre 2.
 (ch3.tex
 Overfull \hbox (6.15576pt too wide) in paragraph at lines 20--21
@@ -2299,12 +1707,12 @@ Overfull \hbox (6.15576pt too wide) in paragraph at lines 20--21
 é-ci-fi-ca-tion,la construc-
  []
 
-[37
+[29
 
-] [38]
+] [30]
 Underfull \vbox (badness 7326) has occurred while \output is active []
 
- [39]
+ [31]
 <images/usercase2.png, id=205, 531.1845pt x 545.6385pt>
 File: images/usercase2.png Graphic file (type png)
 <use images/usercase2.png>
@@ -2313,12 +1721,12 @@ Package pdftex.def Info: images/usercase2.png  used on input line 156.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+ [32]
 Overfull \hbox (35.69315pt too wide) in paragraph at lines 167--190
  [][] 
  []
 
-[41 <./images/usercase2.png>]
+[33 <./images/usercase2.png>]
 Overfull \hbox (13.83594pt too wide) in paragraph at lines 195--207
 [][] 
  []
@@ -2326,7 +1734,7 @@ Overfull \hbox (13.83594pt too wide) in paragraph at lines 195--207
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
+ [34]
 Overfull \hbox (9.33284pt too wide) in paragraph at lines 216--232
 [][] 
  []
@@ -2334,7 +1742,7 @@ Overfull \hbox (9.33284pt too wide) in paragraph at lines 216--232
 
 Underfull \vbox (badness 2351) has occurred while \output is active []
 
- [43]
+ [35]
 Overfull \hbox (13.34305pt too wide) in paragraph at lines 243--259
 [][] 
  []
@@ -2347,7 +1755,7 @@ Overfull \hbox (3.64954pt too wide) in paragraph at lines 265--281
 
 Underfull \vbox (badness 1895) has occurred while \output is active []
 
- [44]
+ [36]
 <images/class01.png, id=223, 784.73175pt x 496.254pt>
 File: images/class01.png Graphic file (type png)
 <use images/class01.png>
@@ -2356,18 +1764,18 @@ Package pdftex.def Info: images/class01.png  used on input line 318.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
-[46 <./images/class01.png>]
+ [37]
+[38 <./images/class01.png>]
 Overfull \hbox (8.92491pt too wide) in paragraph at lines 358--370
  [][] 
  []
 
-[47]
+[39]
 Overfull \hbox (20.91742pt too wide) in paragraph at lines 501--514
  [][] 
  []
 
-[48]
+[40]
 <images/Dactiviti.png, id=238, 347.49825pt x 453.49425pt>
 File: images/Dactiviti.png Graphic file (type png)
 <use images/Dactiviti.png>
@@ -2381,7 +1789,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 520--521
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+ [41]
 Overfull \hbox (0.5473pt too wide) in paragraph at lines 525--526
 []\T1/cmr/m/n/12 l'interaction de l'ac-teur ad-mi-nis-tra-teur avec le sys-tème
  il faut d'abord de connecté
@@ -2390,7 +1798,7 @@ Overfull \hbox (0.5473pt too wide) in paragraph at lines 525--526
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50 <./images/Dactiviti.png>]) [51]
+ [42 <./images/Dactiviti.png>]) [43]
 Chapitre 3.
 (ch4.tex
 <images/mvc.png, id=249, 327.02174pt x 209.583pt>
@@ -2401,7 +1809,7 @@ Package pdftex.def Info: images/mvc.png  used on input line 21.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52
+ [44
 
 ]
 <images/Bootstarp.png, id=253, 149.358pt x 125.87025pt>
@@ -2415,14 +1823,14 @@ File: images/responsive.png Graphic file (type png)
 Package pdftex.def Info: images/responsive.png  used on input line 44.
 (pdftex.def)             Requested size: 213.39566pt x 79.78584pt.
 
-[53 <./images/mvc.png (PNG copy)> <./images/Bootstarp.png> <./images/responsive
-.png>] [54] [55]
+[45 <./images/mvc.png (PNG copy)> <./images/Bootstarp.png> <./images/responsive
+.png>] [46] [47]
 <images/ms-img04.png, id=267, 88.07906pt x 92.59593pt>
 File: images/ms-img04.png Graphic file (type png)
 <use images/ms-img04.png>
 Package pdftex.def Info: images/ms-img04.png  used on input line 187.
 (pdftex.def)             Requested size: 42.68173pt x 44.8708pt.
- [56]
+ [48]
 <images/ms-img05.png, id=271, 101.62968pt x 70.76437pt>
 File: images/ms-img05.png Graphic file (type png)
 <use images/ms-img05.png>
@@ -2433,7 +1841,7 @@ File: images/ms-img06.png Graphic file (type png)
 <use images/ms-img06.png>
 Package pdftex.def Info: images/ms-img06.png  used on input line 201.
 (pdftex.def)             Requested size: 42.68173pt x 31.39748pt.
- [57 <./images/ms-img04.png> <./images/ms-img05.png> <./images/ms-img06.png>]
+ [49 <./images/ms-img04.png> <./images/ms-img05.png> <./images/ms-img06.png>]
 
 Package xcolor Warning: Incompatible color definition on input line 265.
 
@@ -2476,7 +1884,7 @@ Package xcolor Warning: Incompatible color definition on input line 272.
 
 Package xcolor Warning: Incompatible color definition on input line 272.
 
-[58]
+[50]
 
 Package xcolor Warning: Incompatible color definition on input line 273.
 
@@ -2534,7 +1942,7 @@ Package xcolor Warning: Incompatible color definition on input line 284.
 
 Package xcolor Warning: Incompatible color definition on input line 286.
 
-[59]
+[51]
 Overfull \hbox (83.2434pt too wide) in paragraph at lines 321--322
 \T1/cmr/m/n/12 et on choi-sit gé-né-ra-le-ment comme grou-pId le nom du top pa-
 ckage du pro-jet. ([]\T1/cmr/m/sc/12 java.developpez.com
@@ -2582,7 +1990,7 @@ Package xcolor Warning: Incompatible color definition on input line 348.
 
 Package xcolor Warning: Incompatible color definition on input line 349.
 
-[60]
+[52]
 <images/tp01.png, id=286, 350.05782pt x 381.67593pt>
 File: images/tp01.png Graphic file (type png)
 <use images/tp01.png>
@@ -2596,7 +2004,7 @@ Package pdftex.def Info: images/tp02.png  used on input line 405.
 
 Underfull \vbox (badness 7379) has occurred while \output is active []
 
- [61 <./images/tp01.png>] [62 <./images/tp02.png>]
+ [53 <./images/tp01.png>] [54 <./images/tp02.png>]
 <images/tp03.png, id=294, 350.05782pt x 381.67593pt>
 File: images/tp03.png Graphic file (type png)
 <use images/tp03.png>
@@ -2642,7 +2050,7 @@ Package xcolor Warning: Incompatible color definition on input line 504.
 
 Package xcolor Warning: Incompatible color definition on input line 504.
 
-[63 <./images/tp03.png>]
+[55 <./images/tp03.png>]
 
 Package xcolor Warning: Incompatible color definition on input line 514.
 
@@ -2699,7 +2107,7 @@ File: images/tp04.png Graphic file (type png)
 <use images/tp04.png>
 Package pdftex.def Info: images/tp04.png  used on input line 572.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
-[64]
+[56]
 Overfull \hbox (7.34816pt too wide) in paragraph at lines 583--584
 []\T1/cmr/m/n/12 Dans la classe Dis-co-ve-ry-Ser-vi-ceAp-pli-ca-tion, ajou-ter 
 l'an-no-ta-tion \T1/cmr/bx/n/12 @En-ableEu-
@@ -2777,21 +2185,19 @@ Package xcolor Warning: Incompatible color definition on input line 599.
 
 Package xcolor Warning: Incompatible color definition on input line 599.
 
-[65 <./images/tp04.png>]
+[57 <./images/tp04.png>]
 <images/tp05.png, id=305, 350.05782pt x 381.67593pt>
 File: images/tp05.png Graphic file (type png)
 <use images/tp05.png>
 Package pdftex.def Info: images/tp05.png  used on input line 614.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
- [66 <./images/tp05.png>]
+ [58 <./images/tp05.png>]
 <images/cloudMS.png, id=310, 728.7225pt x 552.8655pt>
 File: images/cloudMS.png Graphic file (type png)
 <use images/cloudMS.png>
 Package pdftex.def Info: images/cloudMS.png  used on input line 666.
 (pdftex.def)             Requested size: 426.79134pt x 323.79198pt.
-Package acronym Info: Label `acro:cnr' newly defined as it shall be overridden
-although it is yet undefined on input line 671.
- [67 <./images/cloudMS.png>]
+ [59 <./images/cloudMS.png>]
 <images/secance.png, id=315, 741.36975pt x 455.90324pt>
 File: images/secance.png Graphic file (type png)
 <use images/secance.png>
@@ -2801,133 +2207,129 @@ Package pdftex.def Info: images/secance.png  used on input line 693.
 File: images/captures/capturesadmin/bpmn.png Graphic file (type png)
 <use images/captures/capturesadmin/bpmn.png>
 Package pdftex.def Info: images/captures/capturesadmin/bpmn.png  used on input 
-line 708.
+line 712.
 (pdftex.def)             Requested size: 426.79134pt x 200.05814pt.
-<images/captures/capturesadmin/bpmnuplod.png, id=317, 1156.32pt x 536.0025pt>
-File: images/captures/capturesadmin/bpmnuplod.png Graphic file (type png)
-<use images/captures/capturesadmin/bpmnuplod.png>
-Package pdftex.def Info: images/captures/capturesadmin/bpmnuplod.png  used on i
-nput line 717.
-(pdftex.def)             Requested size: 426.79134pt x 197.83527pt.
 
-Underfull \vbox (badness 7558) has occurred while \output is active []
-
- [68 <./images/secance.png> <./images/captures/capturesadmin/bpmn.png>]
-<images/captures/capturesadmin/tache.png, id=323, 1155.1155pt x 534.798pt>
+[60 <./images/secance.png> <./images/captures/capturesadmin/bpmn.png>]
+File: images/captures/capturesadmin/bpmn.png Graphic file (type png)
+<use images/captures/capturesadmin/bpmn.png>
+Package pdftex.def Info: images/captures/capturesadmin/bpmn.png  used on input 
+line 726.
+(pdftex.def)             Requested size: 426.79134pt x 200.05814pt.
+<images/captures/capturesadmin/tache.png, id=322, 1155.1155pt x 534.798pt>
 File: images/captures/capturesadmin/tache.png Graphic file (type png)
 <use images/captures/capturesadmin/tache.png>
 Package pdftex.def Info: images/captures/capturesadmin/tache.png  used on input
- line 728.
+ line 739.
 (pdftex.def)             Requested size: 426.79134pt x 197.59471pt.
-<images/captures/capturesadmin/service.png, id=324, 1150.89975pt x 531.78674pt>
+<images/captures/capturesadmin/service.png, id=323, 1150.89975pt x 531.78674pt>
 
 File: images/captures/capturesadmin/service.png Graphic file (type png)
 <use images/captures/capturesadmin/service.png>
 Package pdftex.def Info: images/captures/capturesadmin/service.png  used on inp
-ut line 736.
+ut line 747.
 (pdftex.def)             Requested size: 426.79134pt x 197.2043pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6658) has occurred while \output is active []
 
- [69 <./images/captures/capturesadmin/bpmnuplod.png> <./images/captures/capture
-sadmin/tache.png>]
-<images/captures/capturesadmin/user.png, id=330, 1156.32pt x 532.99126pt>
+ [61 <./images/captures/capturesadmin/tache.png>]
+<images/captures/capturesadmin/user.png, id=328, 1156.32pt x 532.99126pt>
 File: images/captures/capturesadmin/user.png Graphic file (type png)
 <use images/captures/capturesadmin/user.png>
 Package pdftex.def Info: images/captures/capturesadmin/user.png  used on input 
-line 746.
+line 757.
 (pdftex.def)             Requested size: 426.79134pt x 196.72385pt.
-<images/captures/capturesadmin/dossier.png, id=331, 578.16pt x 532.389pt>
+<images/captures/capturesadmin/dossier.png, id=329, 578.16pt x 532.389pt>
 File: images/captures/capturesadmin/dossier.png Graphic file (type png)
 <use images/captures/capturesadmin/dossier.png>
 Package pdftex.def Info: images/captures/capturesadmin/dossier.png  used on inp
-ut line 757.
+ut line 768.
 (pdftex.def)             Requested size: 298.75262pt x 275.09729pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70 <./images/captures/capturesadmin/service.png> <./images/captures/capturesa
+ [62 <./images/captures/capturesadmin/service.png> <./images/captures/capturesa
 dmin/user.png>]
-<images/captures/capturesadmin/historique.png, id=337, 1154.51324pt x 538.4115p
+<images/captures/capturesadmin/historique.png, id=335, 1154.51324pt x 538.4115p
 t>
 File: images/captures/capturesadmin/historique.png Graphic file (type png)
 <use images/captures/capturesadmin/historique.png>
 Package pdftex.def Info: images/captures/capturesadmin/historique.png  used on 
-input line 770.
+input line 781.
 (pdftex.def)             Requested size: 426.79134pt x 199.0366pt.
-<images/captures/capturesadmin/HTache.png, id=338, 1156.32pt x 527.571pt>
+<images/captures/capturesadmin/HTache.png, id=336, 1156.32pt x 527.571pt>
 File: images/captures/capturesadmin/HTache.png Graphic file (type png)
 <use images/captures/capturesadmin/HTache.png>
 Package pdftex.def Info: images/captures/capturesadmin/HTache.png  used on inpu
-t line 779.
+t line 790.
 (pdftex.def)             Requested size: 426.79134pt x 194.72325pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71 <./images/captures/capturesadmin/dossier.png> <./images/captures/capturesa
+ [63 <./images/captures/capturesadmin/dossier.png> <./images/captures/capturesa
 dmin/historique.png>]
-<images/captures/capturesuser/home.png, id=344, 1156.32pt x 531.78674pt>
+<images/captures/capturesuser/home.png, id=342, 1156.32pt x 531.78674pt>
 File: images/captures/capturesuser/home.png Graphic file (type png)
 <use images/captures/capturesuser/home.png>
 Package pdftex.def Info: images/captures/capturesuser/home.png  used on input l
-ine 790.
+ine 801.
 (pdftex.def)             Requested size: 426.79134pt x 196.27927pt.
-<images/captures/capturesuser/menu.png, id=345, 1156.32pt x 529.98pt>
+<images/captures/capturesuser/menu.png, id=343, 1156.32pt x 529.98pt>
 File: images/captures/capturesuser/menu.png Graphic file (type png)
 <use images/captures/capturesuser/menu.png>
 Package pdftex.def Info: images/captures/capturesuser/menu.png  used on input l
-ine 797.
+ine 808.
 (pdftex.def)             Requested size: 426.79134pt x 195.6124pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72 <./images/captures/capturesuser/home.png> <./images/captures/capturesadmin
+ [64 <./images/captures/capturesuser/home.png> <./images/captures/capturesadmin
 /HTache.png>]
-<images/captures/capturesuser/adddossier.png, id=352, 1144.87724pt x 538.4115pt
+<images/captures/capturesuser/adddossier.png, id=350, 1144.87724pt x 538.4115pt
 >
 File: images/captures/capturesuser/adddossier.png Graphic file (type png)
 <use images/captures/capturesuser/adddossier.png>
 Package pdftex.def Info: images/captures/capturesuser/adddossier.png  used on i
-nput line 810.
+nput line 821.
 (pdftex.def)             Requested size: 426.79134pt x 200.71257pt.
-<images/captures/capturesuser/dossier.png, id=353, 1145.4795pt x 542.025pt>
+<images/captures/capturesuser/dossier.png, id=351, 1145.4795pt x 542.025pt>
 File: images/captures/capturesuser/dossier.png Graphic file (type png)
 <use images/captures/capturesuser/dossier.png>
 Package pdftex.def Info: images/captures/capturesuser/dossier.png  used on inpu
-t line 821.
+t line 832.
 (pdftex.def)             Requested size: 426.79134pt x 201.9521pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73 <./images/captures/capturesuser/menu.png> <./images/captures/capturesuser/
+ [65 <./images/captures/capturesuser/menu.png> <./images/captures/capturesuser/
 adddossier.png>])
-LaTeX Font Info:    Try loading font information for T1+zi4 on input line 195.
+LaTeX Font Info:    Try loading font information for T1+zi4 on input line 198.
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/inconsolata\t1zi4
 .fd"
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 195.
+(Font)              scaled to size 12.0pt on input line 198.
 
 
-LaTeX Warning: Citation 'latexcompanion' on page 74 undefined on input line 197
+LaTeX Warning: Citation 'latexcompanion' on page 66 undefined on input line 200
 .
 
 
-LaTeX Warning: Citation 'einstein' on page 74 undefined on input line 197.
+LaTeX Warning: Citation 'einstein' on page 66 undefined on input line 200.
 
 
-LaTeX Warning: Citation 'latexcompanion' on page 74 undefined on input line 199
+LaTeX Warning: Citation 'latexcompanion' on page 66 undefined on input line 202
 .
 
 
-Overfull \hbox (36.21756pt too wide) in paragraph at lines 195--200
+Overfull \hbox (36.21756pt too wide) in paragraph at lines 198--203
 \T1/cmr/m/n/12 gra-phy ma-na-ge-ment. Three items are ci-ted : \T1/cmr/m/it/12 
 The L[]T[]X Com-pa-nion \T1/cmr/m/n/12 book [],
  []
 
-[74 <./images/captures/capturesuser/dossier.png>]
+[66 <./images/captures/capturesuser/dossier.png>]
 \openout2 = `Annexes.aux'.
 
  (Annexes.tex
@@ -3139,7 +2541,7 @@ Package xcolor Warning: Incompatible color definition on input line 31.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75
+ [67
 
 
 ]
@@ -3356,7 +2758,7 @@ Package xcolor Warning: Incompatible color definition on input line 68.
 
 Package xcolor Warning: Incompatible color definition on input line 68.
 
-[76]
+[68]
 Annexe B.
 
 Package xcolor Warning: Incompatible color definition on input line 77.
@@ -3487,7 +2889,7 @@ Package xcolor Warning: Incompatible color definition on input line 106.
 
 Package xcolor Warning: Incompatible color definition on input line 108.
 
-[77
+[69
 
 ]
 
@@ -3601,7 +3003,7 @@ Package xcolor Warning: Incompatible color definition on input line 148.
 
 Package xcolor Warning: Incompatible color definition on input line 148.
 
-[78]
+[70]
 
 Package xcolor Warning: Incompatible color definition on input line 150.
 
@@ -3653,7 +3055,7 @@ Package xcolor Warning: Incompatible color definition on input line 159.
 
 Package xcolor Warning: Incompatible color definition on input line 159.
 
-) [79] (main.aux (abbreviations.aux) (Introduction.aux) (Annexes.aux))
+) [71] (main.aux (abbreviations.aux) (Introduction.aux) (Annexes.aux))
 
  *File List*
   report.cls    2018/09/03 v1.4i Standard LaTeX document class
@@ -3861,7 +3263,7 @@ images/tp05.png
 images/cloudMS.png
 images/secance.png
 images/captures/capturesadmin/bpmn.png
-images/captures/capturesadmin/bpmnuplod.png
+images/captures/capturesadmin/bpmn.png
 images/captures/capturesadmin/tache.png
 images/captures/capturesadmin/service.png
 images/captures/capturesadmin/user.png
@@ -3882,6 +3284,9 @@ lstlang1.sty    2019/02/27 1.8b listings language file
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: There were multiply-defined labels.
+
+
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
@@ -3891,10 +3296,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25016 strings out of 492946
- 410196 string characters out of 3125822
+ 25009 strings out of 492946
+ 409960 string characters out of 3125822
  956202 words of memory out of 3000000
- 28321 multiletter control sequences out of 15000+200000
+ 28315 multiletter control sequences out of 15000+200000
  26385 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,23n,92p,2003b,3304s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3927,9 +3332,9 @@ onts/cm/cmmi8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 .9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/djamel/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/djamel/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (86 pages, 5335511 bytes).
+Output written on main.pdf (86 pages, 5277841 bytes).
 PDF statistics:
- 1062 PDF objects out of 1200 (max. 8388607)
+ 1060 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

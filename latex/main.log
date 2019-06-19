@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  20 JUN 2019 00:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  20 JUN 2019 01:34
 entering extended mode
 **./main.tex
 (main.tex
@@ -2270,33 +2270,26 @@ File: images/captures/capturesuser/home.png Graphic file (type png)
 Package pdftex.def Info: images/captures/capturesuser/home.png  used on input l
 ine 803.
 (pdftex.def)             Requested size: 426.79134pt x 196.27927pt.
-<images/captures/capturesuser/menu.png, id=351, 1156.32pt x 529.98pt>
-File: images/captures/capturesuser/menu.png Graphic file (type png)
-<use images/captures/capturesuser/menu.png>
-Package pdftex.def Info: images/captures/capturesuser/menu.png  used on input l
-ine 810.
-(pdftex.def)             Requested size: 426.79134pt x 195.6124pt.
- [64 <./images/captures/capturesadmin/dossier.png> <./images/captures/capturesa
-dmin/historique.png>]
-<images/captures/capturesuser/adddossier.png, id=357, 1144.87724pt x 538.4115pt
+<images/captures/capturesuser/adddossier.png, id=351, 1144.87724pt x 538.4115pt
 >
 File: images/captures/capturesuser/adddossier.png Graphic file (type png)
 <use images/captures/capturesuser/adddossier.png>
 Package pdftex.def Info: images/captures/capturesuser/adddossier.png  used on i
-nput line 823.
+nput line 815.
 (pdftex.def)             Requested size: 426.79134pt x 200.71257pt.
+ [64 <./images/captures/capturesadmin/dossier.png> <./images/captures/capturesa
+dmin/historique.png>]
+<images/captures/capturesuser/dossier.png, id=357, 1145.4795pt x 542.025pt>
+File: images/captures/capturesuser/dossier.png Graphic file (type png)
+<use images/captures/capturesuser/dossier.png>
+Package pdftex.def Info: images/captures/capturesuser/dossier.png  used on inpu
+t line 826.
+(pdftex.def)             Requested size: 426.79134pt x 201.9521pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65 <./images/captures/capturesuser/home.png> <./images/captures/capturesuser/
-menu.png>]
-<images/captures/capturesuser/dossier.png, id=363, 1145.4795pt x 542.025pt>
-File: images/captures/capturesuser/dossier.png Graphic file (type png)
-<use images/captures/capturesuser/dossier.png>
-Package pdftex.def Info: images/captures/capturesuser/dossier.png  used on inpu
-t line 834.
-(pdftex.def)             Requested size: 426.79134pt x 201.9521pt.
-)
+adddossier.png>])
 LaTeX Font Info:    Try loading font information for T1+zi4 on input line 200.
 
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/inconsolata\t1zi4
@@ -2323,8 +2316,7 @@ Overfull \hbox (36.21756pt too wide) in paragraph at lines 200--205
 The L[]T[]X Com-pa-nion \T1/cmr/m/n/12 book [],
  []
 
-[66 <./images/captures/capturesuser/adddossier.png> <./images/captures/captures
-user/dossier.png>]
+[66 <./images/captures/capturesuser/dossier.png>]
 \openout2 = `Annexes.aux'.
 
  (Annexes.tex
@@ -3267,7 +3259,6 @@ images/captures/capturesadmin/user.png
 images/captures/capturesadmin/dossier.png
 images/captures/capturesadmin/historique.png
 images/captures/capturesuser/home.png
-images/captures/capturesuser/menu.png
 images/captures/capturesuser/adddossier.png
 images/captures/capturesuser/dossier.png
    t1zi4.fd    2018/01/14 T1/zi4 (Inconsolata)
@@ -3289,10 +3280,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25024 strings out of 492946
- 410338 string characters out of 3125822
+ 25017 strings out of 492946
+ 410141 string characters out of 3125822
  956202 words of memory out of 3000000
- 28324 multiletter control sequences out of 15000+200000
+ 28318 multiletter control sequences out of 15000+200000
  27773 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,23n,92p,2003b,3304s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3329,9 +3320,9 @@ l/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
 /Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (87 pages, 5317082 bytes).
+Output written on main.pdf (87 pages, 5275581 bytes).
 PDF statistics:
- 1133 PDF objects out of 1200 (max. 8388607)
+ 1131 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

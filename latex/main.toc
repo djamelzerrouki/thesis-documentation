@@ -289,6 +289,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Description de l'architecture de notre syst\IeC {\`e}me}{58}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Obstacles}{59}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Pr\IeC {\'e}sentation de syst\IeC {\`e}me }{59}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.1}Captures d'\IeC {\'e}crans de l'administrateur }{59}% 

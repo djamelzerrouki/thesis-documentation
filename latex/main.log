@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  20 JUN 2019 02:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  20 JUN 2019 02:52
 entering extended mode
 **./main.tex
 (main.tex
@@ -2205,23 +2205,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: images/captures/capturesadmin/login.png Graphic file (type png)
 <use images/captures/capturesadmin/login.png>
 Package pdftex.def Info: images/captures/capturesadmin/login.png  used on input
- line 711.
+ line 712.
 (pdftex.def)             Requested size: 426.79134pt x 300.246pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [59 <./images/cloudMS.png>]
 <images/captures/capturesadmin/bpmn.png, id=324, 1156.32pt x 542.025pt>
 File: images/captures/capturesadmin/bpmn.png Graphic file (type png)
 <use images/captures/capturesadmin/bpmn.png>
 Package pdftex.def Info: images/captures/capturesadmin/bpmn.png  used on input 
-line 727.
+line 728.
 (pdftex.def)             Requested size: 426.79134pt x 200.05814pt.
 <images/captures/capturesadmin/tache.png, id=325, 1155.1155pt x 534.798pt>
 File: images/captures/capturesadmin/tache.png Graphic file (type png)
 <use images/captures/capturesadmin/tache.png>
 Package pdftex.def Info: images/captures/capturesadmin/tache.png  used on input
- line 739.
+ line 740.
 (pdftex.def)             Requested size: 426.79134pt x 197.59471pt.
  [60 <./images/captures/capturesadmin/login.png> <./images/captures/capturesadm
 in/bpmn.png>]
@@ -2229,14 +2226,14 @@ in/bpmn.png>]
 File: images/captures/capturesadmin/HTache.png Graphic file (type png)
 <use images/captures/capturesadmin/HTache.png>
 Package pdftex.def Info: images/captures/capturesadmin/HTache.png  used on inpu
-t line 748.
+t line 749.
 (pdftex.def)             Requested size: 426.79134pt x 194.72325pt.
 <images/captures/capturesadmin/service.png, id=332, 1150.89975pt x 531.78674pt>
 
 File: images/captures/capturesadmin/service.png Graphic file (type png)
 <use images/captures/capturesadmin/service.png>
 Package pdftex.def Info: images/captures/capturesadmin/service.png  used on inp
-ut line 758.
+ut line 759.
 (pdftex.def)             Requested size: 426.79134pt x 197.2043pt.
  [61 <./images/captures/capturesadmin/tache.png> <./images/captures/capturesadm
 in/HTache.png>]
@@ -2244,13 +2241,13 @@ in/HTache.png>]
 File: images/captures/capturesadmin/user.png Graphic file (type png)
 <use images/captures/capturesadmin/user.png>
 Package pdftex.def Info: images/captures/capturesadmin/user.png  used on input 
-line 770.
+line 771.
 (pdftex.def)             Requested size: 426.79134pt x 196.72385pt.
 <images/captures/capturesadmin/dossier.png, id=339, 578.16pt x 532.389pt>
 File: images/captures/capturesadmin/dossier.png Graphic file (type png)
 <use images/captures/capturesadmin/dossier.png>
 Package pdftex.def Info: images/captures/capturesadmin/dossier.png  used on inp
-ut line 782.
+ut line 783.
 (pdftex.def)             Requested size: 298.75262pt x 275.09729pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2262,20 +2259,20 @@ t>
 File: images/captures/capturesadmin/historique.png Graphic file (type png)
 <use images/captures/capturesadmin/historique.png>
 Package pdftex.def Info: images/captures/capturesadmin/historique.png  used on 
-input line 791.
+input line 792.
 (pdftex.def)             Requested size: 426.79134pt x 199.0366pt.
 <images/captures/capturesuser/home.png, id=346, 1156.32pt x 531.78674pt>
 File: images/captures/capturesuser/home.png Graphic file (type png)
 <use images/captures/capturesuser/home.png>
 Package pdftex.def Info: images/captures/capturesuser/home.png  used on input l
-ine 803.
+ine 804.
 (pdftex.def)             Requested size: 426.79134pt x 196.27927pt.
 <images/captures/capturesuser/adddossier.png, id=347, 1144.87724pt x 538.4115pt
 >
 File: images/captures/capturesuser/adddossier.png Graphic file (type png)
 <use images/captures/capturesuser/adddossier.png>
 Package pdftex.def Info: images/captures/capturesuser/adddossier.png  used on i
-nput line 815.
+nput line 816.
 (pdftex.def)             Requested size: 426.79134pt x 200.71257pt.
  [63 <./images/captures/capturesadmin/dossier.png> <./images/captures/capturesa
 dmin/historique.png>]
@@ -2283,7 +2280,7 @@ dmin/historique.png>]
 File: images/captures/capturesuser/dossier.png Graphic file (type png)
 <use images/captures/capturesuser/dossier.png>
 Package pdftex.def Info: images/captures/capturesuser/dossier.png  used on inpu
-t line 826.
+t line 827.
 (pdftex.def)             Requested size: 426.79134pt x 201.9521pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3280,7 +3277,7 @@ nts/cm/cmr12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmr8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/djamel/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (86 pages, 5259125 bytes).
+Output written on main.pdf (86 pages, 5259347 bytes).
 PDF statistics:
  1109 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

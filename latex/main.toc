@@ -340,3 +340,5 @@
 \contentsline {section}{\numberline {B.3}json }{69}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {B.4}classe userRestService en java }{69}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}L'organigramme de la CNR}{71}% 

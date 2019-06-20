@@ -153,7 +153,7 @@ Planification du développement du programme À ce stade de la planification des
  
  \begin{figure}[H]
  	\centering
- 	\includegraphics[width=1\linewidth,height=0.7\paperheight]{usercase2}
+ 	\includegraphics[width=1\linewidth,height=0.8\paperheight]{usercase2}
  	\caption{Diagramme de Cas d’utilisation}
  	\label{fig:usercase2}
  \end{figure}
@@ -188,6 +188,97 @@ Nous détaillerons chaque cas d'utilisation avec une description  brève et spé
  		\hline
  	\end{tabular}
  \end{table}
+
+
+
+
+
+
+
+\subsubsection{Créer circuit Workflow}
+\begin{table}[H]
+	\begin{tabular}{|l|}
+		\hline
+		\textbf{	CU : }Créer circuit Workflow\\ \hline
+		\textbf{	ID }: 12 \\ \hline
+		\textbf{	Description brève :}L'administrateur Créer circuit Workflow pour les dossiers \\ \hline
+		\textbf{	Acteurs primaires :} L'administrateur  \\ \hline
+		\textbf{Acteurs secondaires :}\\ \hline
+		\textbf{	Pré-conditions :} L'administrateur est connecté ! \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} Créer circuit Workflow pour les dossiers et \\la création des tâches sur la base de données Normal \end{tabular} \\ \hline
+		\textbf{Post-conditions : }Workflow est défier et les tâche a remplier      \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : }   \\ \end{tabular} \\ \hline
+	\end{tabular}
+\end{table}
+
+
+
+
+
+
+
+\subsubsection{Gérer les Services}
+\begin{table}[H]
+	\begin{tabular}{|l|}
+		\hline
+		\textbf{	CU : }Gérer les Services \\ \hline
+		\textbf{	ID }: 22 \\ \hline
+		\textbf{	Description brève :}L'administrateur peut Gérer les Services par création ,\\ modification et la suppression  \\ \hline
+		\textbf{	Acteurs primaires :} L'administrateur  \\ \hline
+		\textbf{Acteurs secondaires :}  \\ \hline
+		\textbf{	Pré-conditions :} L'administrateur est connecté ! \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :}L'administrateur   crée un mouve service au\\ système et peut la   modifier   .\end{tabular} \\ \hline
+		\textbf{Post-conditions : } le service ajouté à la BDD  \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : }    \\\end{tabular} \\ \hline
+	\end{tabular}
+\end{table}
+
+\subsubsection{Gérer utilisateur  }
+\begin{table}[H]
+	\begin{tabular}{|l|}
+		\hline
+		\textbf{	CU : }Gérer utilisateur \\ \hline
+		\textbf{	ID }: 12 \\ \hline
+		\textbf{	Description brève :}L'administrateur Gérer les comptes des utilisateurs \\ \hline
+		\textbf{	Acteurs primaires :} L'administrateur  \\ \hline
+		\textbf{Acteurs secondaires :}   \\ \hline
+		\textbf{	Pré-conditions :} L'administrateur est connecté !  \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} L'administrateur fit la création des comptes pour les \\utilisateurs. \end{tabular} \\ \hline
+		\textbf{Post-conditions : }des comptes utilisateur à crée \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : } \\ \end{tabular} \\ \hline
+	\end{tabular}
+\end{table}
+
+
+
+
+\subsubsection{Consulte  Historique   }
+\begin{table}[H]
+	\begin{tabular}{|l|}
+		\hline
+		\textbf{	CU : }Consulte  Historique \\ \hline
+		\textbf{	ID }: 32 \\ \hline
+		\textbf{	Description brève :}L'administrateur peut Consulte  Historique des\\ dossiers leurs état, la recherche \\par dossier ou la recherche par tâche   \\ \hline
+		\textbf{	Acteurs primaires :} L'administrateur  \\ \hline
+		\textbf{Acteurs secondaires :}   \\ \hline
+		\textbf{	Pré-conditions :} L'administrateur est connecté !  \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} -L'administrateur sélectionner le dossier ou la \\ tâche pour la recherche 
+		\\ -Résulta afficher l'état des dossiers   \end{tabular} \\ \hline
+		\textbf{Post-conditions : }afficher le résulta de la recherche  \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : } \\ \end{tabular} \\ \hline
+	\end{tabular}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
  \subsubsection{cas d'utilisation par l'utilisateur réception ou initial   }
 l'utilisateur de réception il fait de rôle principal le premier c'est gérer les dossiers le deuxième c'est activer le dossier.
   \subsubsection{Créer Dossiers}
@@ -514,13 +605,8 @@ Nous allons définir pour chaque classe ses attributs et leur types , ainsi que 
    \end{table}
 \subsection{Diagramme d' activité  }
 
-à partir de cas d'utilisation et de diagramme de classe  va exprimer  le Diagramme d'activité qui  montre interaction des  utilisateurs   en fonction de leurs rôles dans le système en général.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1.1\linewidth]{Dactiviti}
-	\caption{Diagramme d'activité qui  montre interaction des  utilisateurs   en fonction de leurs rôles dans le système en général.}
-	\label{fig:dactiviti}
-\end{figure}
+à partir de cas d'utilisation et de diagramme de classe  va exprimer  le Diagramme d'activité qui  montre interaction des  utilisateurs   en fonction de leurs rôles dans le système en général.(figure \ref{fig:dactiviti})
+
 \subsubsection{les rôles de l'acteur administrateur: }
 l'interaction de l'acteur administrateur avec le système il faut d'abord de connecté où système , puis créer  et  défini le modèle par la spécification de   nom et  les chants de dossier  pour la génération de code et lancer nouveau micro service déployé sur le Cloud par leur nom de service spécifié,ensuite peut gérer le sous direction et les service et le modèle de workflow par "BPMN"  pour gérer le tâche   ,ensuite   gérer les utilisateurs  et enfin  il peux consulter les bordereaux qui gérer par les utilisateurs et de même  consulter les historiques.
 
@@ -530,7 +616,12 @@ l'interaction de l'utilisateur réception ou bien initial , il faut déjà cré�
 \subsubsection{les rôles de l'acteur utilisateur simple : } 
  après l'authentification au système l'utilisateur sa connecter  sur leur tâche et il peut voir tous les dossiers en attente qui sont en cours de traitement et les bordereaux qui  déjà reçu par un autre tâche, l'utilisateur peut finir le traitement de dossier par leur tâche , peux gérer un nouveau bordereau pour transfert liste des dossiers vers d'autres tâches  et de gérer les historiques des dossiers.
    
-   
+   \begin{figure}[H]
+   	\centering
+   	\includegraphics[width=1.1\linewidth]{Dactiviti}
+   	\caption{Diagramme d'activité qui  montre interaction des  utilisateurs   en fonction de leurs rôles dans le système en général.}
+   	\label{fig:dactiviti}
+   \end{figure}
      
    \section{Conclusion}
    

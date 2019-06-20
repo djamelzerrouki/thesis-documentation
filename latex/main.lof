@@ -41,53 +41,53 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de Cas d\IeC {\textquoteright }utilisation\relax }}{33}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de Cas d\IeC {\textquoteright }utilisation\relax }}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de Classe\relax }}{38}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de Classe\relax }}{37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme d'activit\IeC {\'e} qui montre interaction des utilisateurs en fonction de leurs r\IeC {\^o}les dans le syst\IeC {\`e}me en g\IeC {\'e}n\IeC {\'e}ral.\relax }}{42}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme d'activit\IeC {\'e} qui montre interaction des utilisateurs en fonction de leurs r\IeC {\^o}les dans le syst\IeC {\`e}me en g\IeC {\'e}n\IeC {\'e}ral.\relax }}{41}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Interactions entre le mod\IeC {\`e}le, la vue et le contr\IeC {\^o}leur \parencite {mvc}\relax }}{45}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Interactions entre le mod\IeC {\`e}le, la vue et le contr\IeC {\^o}leur \parencite {mvc}\relax }}{44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Responsive design \relax }}{45}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Responsive design \relax }}{44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \relax }}{53}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \relax }}{52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Microservice Service 1\relax }}{54}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Microservice Service 1\relax }}{53}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Microservice ConfigService\relax }}{55}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Microservice ConfigService\relax }}{54}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Microservice DiscoveryService\relax }}{57}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Microservice DiscoveryService\relax }}{56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Microservice ProxyService\relax }}{58}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Microservice ProxyService\relax }}{57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Notre architecture de syst\IeC {\`e}me sur l'environnement Spring cloud et micro-service\relax }}{59}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagramme s\IeC {\'e}quence repr\IeC {\'e}sent\IeC {\'e} comment Consulter les services via le proxy\relax }}{58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme s\IeC {\'e}quence repr\IeC {\'e}sent\IeC {\'e} comment Consulter les services via le proxy\relax }}{60}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Notre architecture de syst\IeC {\`e}me sur l'environnement Spring cloud et micro-service\relax }}{59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Authentification au syst\IeC {\`e}me \relax }}{61}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Authentification au syst\IeC {\`e}me \relax }}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Un workflow pour un service de la \ac {cnr}\relax }}{61}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Un workflow pour un service de la \ac {cnr}\relax }}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Gestion des T\IeC {\^a}ches\relax }}{62}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Gestion des T\IeC {\^a}ches\relax }}{61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Consultation Historique par T\IeC {\^a}che\relax }}{62}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Consultation Historique par T\IeC {\^a}che\relax }}{61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Gestion des Sous-Directions et des Services\relax }}{63}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Gestion des Sous-Directions et des Services\relax }}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Gestion des Utilisateurs\relax }}{63}% 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Gestion des Utilisateurs\relax }}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Consultation des Dossiers\relax }}{64}% 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Consultation des Dossiers\relax }}{63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Consultation Historique par dossier \relax }}{64}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Consultation Historique par dossier \relax }}{63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Accule\relax }}{65}% 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Accule\relax }}{64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Ajouter un dossier\relax }}{65}% 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Ajouter un dossier\relax }}{64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Liste des dossier\relax }}{66}% 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Liste des dossier\relax }}{65}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

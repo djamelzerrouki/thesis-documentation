@@ -631,6 +631,28 @@ En lançant le service Proxy, vous remarquerez qu'il est rajouté dans Eureka.
     
     
     
+      \subsection{Consulter les services via le proxy }
+    le diagramme de séquence de la figure \ref{fig:secance}   exprime  la  consultation des services via le proxy 
+    \begin{enumerate}
+    	
+    	\item Un client HTTP envoie la requête HTTP vers le proxy qui contient le nom de micro service  .
+    	
+    	\item  Le service proxy connait le nom de micro service , il va demander au service  de registration de lui donner la machine où se trouve ce micro service .
+    	
+    	\item Le service registration  va retourner l'adresse IP et le port s'il a une instance ou une liste s'il a  plusieurs instances.
+    	
+    	\item  Le service proxy va choir une instance et il va l'envoyer la requête  .
+    	
+    	\item  Le service demandé va faire le traitement et envoyer le résultat vers le proxy qui va la renvoyer au client .
+    \end{enumerate}
+    
+    
+    \begin{figure}[H]
+    	\centering
+    	\includegraphics[width=0.7\linewidth]{images/secance}
+    	\caption{Diagramme séquence représenté comment  Consulter les services via le proxy}
+    	\label{fig:secance}
+    \end{figure}
     
     
     
@@ -672,28 +694,6 @@ Nous avons instanciés le workflow dans plusieurs dimensions des cas (Voir le pa
      
           
 
-  \subsection{Consulter les services via le proxy }
-    le diagramme de séquence de la figure \ref{fig:secance}   exprime  la  consultation des services via le proxy 
-    \begin{enumerate}
-    	
-    	\item Un client HTTP envoie la requête HTTP vers le proxy qui contient le nom de micro service  .
-    	
-    	\item  Le service proxy connait le nom de micro service , il va demander au service  de registration de lui donner la machine où se trouve ce micro service .
-    	
-    	\item Le service registration  va retourner l'adresse IP et le port s'il a une instance ou une liste s'il a  plusieurs instances.
-    	
-    	\item  Le service proxy va choir une instance et il va l'envoyer la requête  .
-    	
-    	\item  Le service demandé va faire le traitement et envoyer le résultat vers le proxy qui va la renvoyer au client .
-    \end{enumerate}
-    
-    
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/secance}
-	\caption{Diagramme séquence représenté comment  Consulter les services via le proxy}
-	\label{fig:secance}
-\end{figure}
 
  
   
@@ -829,12 +829,16 @@ Affichez et filtrez les dossiers de la manière suivante: "En attente", "Traitem
 \end{figure}
 
 
-
-
+\subsubsection{ Gérer des  bordereaux }
+L'utilisateur peut sélectionner liste des dossiers et créer un Bordereau pour transformer et la gérer ("Accepter", "Refuse", "Imprimer").
 
  
 
 
 
 
+
+\section{Conclusion}
+
+A travers ce chapitre, nous avons exposé l’architecture de la plateforme, les différents outils et technologies utilisés pour le développement d'un service cloud .Par la suite, nous avons présenté la \ac{cnr} comme dimension de cas .Enfin, nous avons présenté un aperçu de système que nous avons réalisée.
 

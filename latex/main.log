@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  20 JUN 2019 01:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  20 JUN 2019 02:28
 entering extended mode
 **./main.tex
 (main.tex
@@ -1708,10 +1708,7 @@ Overfull \hbox (6.15576pt too wide) in paragraph at lines 20--21
 [29
 
 ] [30]
-Underfull \vbox (badness 7326) has occurred while \output is active []
-
- [31]
-<images/usercase2.png, id=211, 531.1845pt x 545.6385pt>
+<images/usercase2.png, id=208, 531.1845pt x 545.6385pt>
 File: images/usercase2.png Graphic file (type png)
 <use images/usercase2.png>
 Package pdftex.def Info: images/usercase2.png  used on input line 156.
@@ -1719,12 +1716,12 @@ Package pdftex.def Info: images/usercase2.png  used on input line 156.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
+ [31]
 Overfull \hbox (35.69315pt too wide) in paragraph at lines 167--190
  [][] 
  []
 
-[33 <./images/usercase2.png>]
+[32 <./images/usercase2.png>]
 Overfull \hbox (13.83594pt too wide) in paragraph at lines 195--207
 [][] 
  []
@@ -1732,7 +1729,7 @@ Overfull \hbox (13.83594pt too wide) in paragraph at lines 195--207
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [33]
 Overfull \hbox (9.33284pt too wide) in paragraph at lines 216--232
 [][] 
  []
@@ -1740,7 +1737,7 @@ Overfull \hbox (9.33284pt too wide) in paragraph at lines 216--232
 
 Underfull \vbox (badness 2351) has occurred while \output is active []
 
- [35]
+ [34]
 Overfull \hbox (13.34305pt too wide) in paragraph at lines 243--259
 [][] 
  []
@@ -1753,8 +1750,8 @@ Overfull \hbox (3.64954pt too wide) in paragraph at lines 265--281
 
 Underfull \vbox (badness 1895) has occurred while \output is active []
 
- [36]
-<images/class01.png, id=229, 784.73175pt x 496.254pt>
+ [35]
+<images/class01.png, id=226, 784.73175pt x 496.254pt>
 File: images/class01.png Graphic file (type png)
 <use images/class01.png>
 Package pdftex.def Info: images/class01.png  used on input line 318.
@@ -1762,19 +1759,19 @@ Package pdftex.def Info: images/class01.png  used on input line 318.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
-[38 <./images/class01.png>]
+ [36]
+[37 <./images/class01.png>]
 Overfull \hbox (8.92491pt too wide) in paragraph at lines 358--370
  [][] 
  []
 
-[39]
+[38]
 Overfull \hbox (20.91742pt too wide) in paragraph at lines 501--514
  [][] 
  []
 
-[40]
-<images/Dactiviti.png, id=244, 347.49825pt x 453.49425pt>
+[39]
+<images/Dactiviti.png, id=241, 347.49825pt x 453.49425pt>
 File: images/Dactiviti.png Graphic file (type png)
 <use images/Dactiviti.png>
 Package pdftex.def Info: images/Dactiviti.png  used on input line 520.
@@ -1787,7 +1784,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 520--521
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [40]
 Overfull \hbox (0.5473pt too wide) in paragraph at lines 525--526
 []\T1/cmr/m/n/12 l'interaction de l'ac-teur ad-mi-nis-tra-teur avec le sys-tème
  il faut d'abord de connecté
@@ -1796,10 +1793,10 @@ Overfull \hbox (0.5473pt too wide) in paragraph at lines 525--526
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <./images/Dactiviti.png>]) [43]
+ [41 <./images/Dactiviti.png>]) [42]
 Chapitre 3.
 (ch4.tex
-<images/mvc.png, id=255, 327.02174pt x 209.583pt>
+<images/mvc.png, id=252, 327.02174pt x 209.583pt>
 File: images/mvc.png Graphic file (type png)
 <use images/mvc.png>
 Package pdftex.def Info: images/mvc.png  used on input line 21.
@@ -1807,39 +1804,39 @@ Package pdftex.def Info: images/mvc.png  used on input line 21.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44
+ [43
 
 ]
-<images/Bootstarp.png, id=259, 149.358pt x 125.87025pt>
+<images/Bootstarp.png, id=256, 149.358pt x 125.87025pt>
 File: images/Bootstarp.png Graphic file (type png)
 <use images/Bootstarp.png>
 Package pdftex.def Info: images/Bootstarp.png  used on input line 38.
 (pdftex.def)             Requested size: 42.68173pt x 35.96942pt.
-<images/responsive.png, id=260, 544.434pt x 203.5605pt>
+<images/responsive.png, id=257, 544.434pt x 203.5605pt>
 File: images/responsive.png Graphic file (type png)
 <use images/responsive.png>
 Package pdftex.def Info: images/responsive.png  used on input line 44.
 (pdftex.def)             Requested size: 213.39566pt x 79.78584pt.
 
-[45 <./images/mvc.png (PNG copy)> <./images/Bootstarp.png> <./images/responsive
-.png>] [46] [47]
-<images/ms-img04.png, id=273, 88.07906pt x 92.59593pt>
+[44 <./images/mvc.png (PNG copy)> <./images/Bootstarp.png> <./images/responsive
+.png>] [45] [46]
+<images/ms-img04.png, id=270, 88.07906pt x 92.59593pt>
 File: images/ms-img04.png Graphic file (type png)
 <use images/ms-img04.png>
 Package pdftex.def Info: images/ms-img04.png  used on input line 187.
 (pdftex.def)             Requested size: 42.68173pt x 44.8708pt.
- [48]
-<images/ms-img05.png, id=277, 101.62968pt x 70.76437pt>
+ [47]
+<images/ms-img05.png, id=274, 101.62968pt x 70.76437pt>
 File: images/ms-img05.png Graphic file (type png)
 <use images/ms-img05.png>
 Package pdftex.def Info: images/ms-img05.png  used on input line 193.
 (pdftex.def)             Requested size: 42.68173pt x 29.71866pt.
-<images/ms-img06.png, id=278, 130.98938pt x 96.36pt>
+<images/ms-img06.png, id=275, 130.98938pt x 96.36pt>
 File: images/ms-img06.png Graphic file (type png)
 <use images/ms-img06.png>
 Package pdftex.def Info: images/ms-img06.png  used on input line 201.
 (pdftex.def)             Requested size: 42.68173pt x 31.39748pt.
- [49 <./images/ms-img04.png> <./images/ms-img05.png> <./images/ms-img06.png>]
+ [48 <./images/ms-img04.png> <./images/ms-img05.png> <./images/ms-img06.png>]
 
 Package xcolor Warning: Incompatible color definition on input line 265.
 
@@ -1882,7 +1879,7 @@ Package xcolor Warning: Incompatible color definition on input line 272.
 
 Package xcolor Warning: Incompatible color definition on input line 272.
 
-[50]
+[49]
 
 Package xcolor Warning: Incompatible color definition on input line 273.
 
@@ -1940,7 +1937,7 @@ Package xcolor Warning: Incompatible color definition on input line 284.
 
 Package xcolor Warning: Incompatible color definition on input line 286.
 
-[51]
+[50]
 Overfull \hbox (83.2434pt too wide) in paragraph at lines 321--322
 \T1/cmr/m/n/12 et on choi-sit gé-né-ra-le-ment comme grou-pId le nom du top pa-
 ckage du pro-jet. ([]\T1/cmr/m/sc/12 java.developpez.com
@@ -1988,13 +1985,13 @@ Package xcolor Warning: Incompatible color definition on input line 348.
 
 Package xcolor Warning: Incompatible color definition on input line 349.
 
-[52]
-<images/tp01.png, id=292, 350.05782pt x 381.67593pt>
+[51]
+<images/tp01.png, id=289, 350.05782pt x 381.67593pt>
 File: images/tp01.png Graphic file (type png)
 <use images/tp01.png>
 Package pdftex.def Info: images/tp01.png  used on input line 393.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
-<images/tp02.png, id=293, 350.05782pt x 381.67593pt>
+<images/tp02.png, id=290, 350.05782pt x 381.67593pt>
 File: images/tp02.png Graphic file (type png)
 <use images/tp02.png>
 Package pdftex.def Info: images/tp02.png  used on input line 405.
@@ -2002,8 +1999,8 @@ Package pdftex.def Info: images/tp02.png  used on input line 405.
 
 Underfull \vbox (badness 7379) has occurred while \output is active []
 
- [53 <./images/tp01.png>] [54 <./images/tp02.png>]
-<images/tp03.png, id=300, 350.05782pt x 381.67593pt>
+ [52 <./images/tp01.png>] [53 <./images/tp02.png>]
+<images/tp03.png, id=297, 350.05782pt x 381.67593pt>
 File: images/tp03.png Graphic file (type png)
 <use images/tp03.png>
 Package pdftex.def Info: images/tp03.png  used on input line 484.
@@ -2048,7 +2045,7 @@ Package xcolor Warning: Incompatible color definition on input line 504.
 
 Package xcolor Warning: Incompatible color definition on input line 504.
 
-[55 <./images/tp03.png>]
+[54 <./images/tp03.png>]
 
 Package xcolor Warning: Incompatible color definition on input line 514.
 
@@ -2100,12 +2097,12 @@ Package xcolor Warning: Incompatible color definition on input line 545.
 
 Package xcolor Warning: Incompatible color definition on input line 545.
 
-<images/tp04.png, id=304, 350.05782pt x 381.67593pt>
+<images/tp04.png, id=301, 350.05782pt x 381.67593pt>
 File: images/tp04.png Graphic file (type png)
 <use images/tp04.png>
 Package pdftex.def Info: images/tp04.png  used on input line 572.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
-[56]
+[55]
 Overfull \hbox (7.34816pt too wide) in paragraph at lines 583--584
 []\T1/cmr/m/n/12 Dans la classe Dis-co-ve-ry-Ser-vi-ceAp-pli-ca-tion, ajou-ter 
 l'an-no-ta-tion \T1/cmr/bx/n/12 @En-ableEu-
@@ -2183,25 +2180,28 @@ Package xcolor Warning: Incompatible color definition on input line 599.
 
 Package xcolor Warning: Incompatible color definition on input line 599.
 
-[57 <./images/tp04.png>]
-<images/tp05.png, id=312, 350.05782pt x 381.67593pt>
+[56 <./images/tp04.png>]
+<images/tp05.png, id=308, 350.05782pt x 381.67593pt>
 File: images/tp05.png Graphic file (type png)
 <use images/tp05.png>
 Package pdftex.def Info: images/tp05.png  used on input line 614.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
- [58 <./images/tp05.png>]
-<images/cloudMS.png, id=316, 728.7225pt x 552.8655pt>
-File: images/cloudMS.png Graphic file (type png)
-<use images/cloudMS.png>
-Package pdftex.def Info: images/cloudMS.png  used on input line 666.
-(pdftex.def)             Requested size: 426.79134pt x 323.79198pt.
- [59 <./images/cloudMS.png>]
-<images/secance.png, id=321, 741.36975pt x 455.90324pt>
+ [57 <./images/tp05.png>]
+<images/secance.png, id=313, 741.36975pt x 455.90324pt>
 File: images/secance.png Graphic file (type png)
 <use images/secance.png>
-Package pdftex.def Info: images/secance.png  used on input line 693.
+Package pdftex.def Info: images/secance.png  used on input line 652.
 (pdftex.def)             Requested size: 298.75262pt x 183.72153pt.
-<images/captures/capturesadmin/login.png, id=322, 501.67426pt x 352.9185pt>
+<images/cloudMS.png, id=314, 728.7225pt x 552.8655pt>
+File: images/cloudMS.png Graphic file (type png)
+<use images/cloudMS.png>
+Package pdftex.def Info: images/cloudMS.png  used on input line 688.
+(pdftex.def)             Requested size: 426.79134pt x 323.79198pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58 <./images/secance.png>]
+<images/captures/capturesadmin/login.png, id=319, 501.67426pt x 352.9185pt>
 File: images/captures/capturesadmin/login.png Graphic file (type png)
 <use images/captures/capturesadmin/login.png>
 Package pdftex.def Info: images/captures/capturesadmin/login.png  used on input
@@ -2210,43 +2210,43 @@ Package pdftex.def Info: images/captures/capturesadmin/login.png  used on input
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60 <./images/secance.png>]
-<images/captures/capturesadmin/bpmn.png, id=327, 1156.32pt x 542.025pt>
+ [59 <./images/cloudMS.png>]
+<images/captures/capturesadmin/bpmn.png, id=324, 1156.32pt x 542.025pt>
 File: images/captures/capturesadmin/bpmn.png Graphic file (type png)
 <use images/captures/capturesadmin/bpmn.png>
 Package pdftex.def Info: images/captures/capturesadmin/bpmn.png  used on input 
 line 727.
 (pdftex.def)             Requested size: 426.79134pt x 200.05814pt.
-<images/captures/capturesadmin/tache.png, id=328, 1155.1155pt x 534.798pt>
+<images/captures/capturesadmin/tache.png, id=325, 1155.1155pt x 534.798pt>
 File: images/captures/capturesadmin/tache.png Graphic file (type png)
 <use images/captures/capturesadmin/tache.png>
 Package pdftex.def Info: images/captures/capturesadmin/tache.png  used on input
  line 739.
 (pdftex.def)             Requested size: 426.79134pt x 197.59471pt.
- [61 <./images/captures/capturesadmin/login.png> <./images/captures/capturesadm
+ [60 <./images/captures/capturesadmin/login.png> <./images/captures/capturesadm
 in/bpmn.png>]
-<images/captures/capturesadmin/HTache.png, id=334, 1156.32pt x 527.571pt>
+<images/captures/capturesadmin/HTache.png, id=331, 1156.32pt x 527.571pt>
 File: images/captures/capturesadmin/HTache.png Graphic file (type png)
 <use images/captures/capturesadmin/HTache.png>
 Package pdftex.def Info: images/captures/capturesadmin/HTache.png  used on inpu
 t line 748.
 (pdftex.def)             Requested size: 426.79134pt x 194.72325pt.
-<images/captures/capturesadmin/service.png, id=335, 1150.89975pt x 531.78674pt>
+<images/captures/capturesadmin/service.png, id=332, 1150.89975pt x 531.78674pt>
 
 File: images/captures/capturesadmin/service.png Graphic file (type png)
 <use images/captures/capturesadmin/service.png>
 Package pdftex.def Info: images/captures/capturesadmin/service.png  used on inp
 ut line 758.
 (pdftex.def)             Requested size: 426.79134pt x 197.2043pt.
- [62 <./images/captures/capturesadmin/tache.png> <./images/captures/capturesadm
+ [61 <./images/captures/capturesadmin/tache.png> <./images/captures/capturesadm
 in/HTache.png>]
-<images/captures/capturesadmin/user.png, id=341, 1156.32pt x 532.99126pt>
+<images/captures/capturesadmin/user.png, id=338, 1156.32pt x 532.99126pt>
 File: images/captures/capturesadmin/user.png Graphic file (type png)
 <use images/captures/capturesadmin/user.png>
 Package pdftex.def Info: images/captures/capturesadmin/user.png  used on input 
 line 770.
 (pdftex.def)             Requested size: 426.79134pt x 196.72385pt.
-<images/captures/capturesadmin/dossier.png, id=342, 578.16pt x 532.389pt>
+<images/captures/capturesadmin/dossier.png, id=339, 578.16pt x 532.389pt>
 File: images/captures/capturesadmin/dossier.png Graphic file (type png)
 <use images/captures/capturesadmin/dossier.png>
 Package pdftex.def Info: images/captures/capturesadmin/dossier.png  used on inp
@@ -2255,31 +2255,31 @@ ut line 782.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63 <./images/captures/capturesadmin/service.png> <./images/captures/capturesa
+ [62 <./images/captures/capturesadmin/service.png> <./images/captures/capturesa
 dmin/user.png>]
-<images/captures/capturesadmin/historique.png, id=349, 1154.51324pt x 538.4115p
+<images/captures/capturesadmin/historique.png, id=345, 1154.51324pt x 538.4115p
 t>
 File: images/captures/capturesadmin/historique.png Graphic file (type png)
 <use images/captures/capturesadmin/historique.png>
 Package pdftex.def Info: images/captures/capturesadmin/historique.png  used on 
 input line 791.
 (pdftex.def)             Requested size: 426.79134pt x 199.0366pt.
-<images/captures/capturesuser/home.png, id=350, 1156.32pt x 531.78674pt>
+<images/captures/capturesuser/home.png, id=346, 1156.32pt x 531.78674pt>
 File: images/captures/capturesuser/home.png Graphic file (type png)
 <use images/captures/capturesuser/home.png>
 Package pdftex.def Info: images/captures/capturesuser/home.png  used on input l
 ine 803.
 (pdftex.def)             Requested size: 426.79134pt x 196.27927pt.
-<images/captures/capturesuser/adddossier.png, id=351, 1144.87724pt x 538.4115pt
+<images/captures/capturesuser/adddossier.png, id=347, 1144.87724pt x 538.4115pt
 >
 File: images/captures/capturesuser/adddossier.png Graphic file (type png)
 <use images/captures/capturesuser/adddossier.png>
 Package pdftex.def Info: images/captures/capturesuser/adddossier.png  used on i
 nput line 815.
 (pdftex.def)             Requested size: 426.79134pt x 200.71257pt.
- [64 <./images/captures/capturesadmin/dossier.png> <./images/captures/capturesa
+ [63 <./images/captures/capturesadmin/dossier.png> <./images/captures/capturesa
 dmin/historique.png>]
-<images/captures/capturesuser/dossier.png, id=357, 1145.4795pt x 542.025pt>
+<images/captures/capturesuser/dossier.png, id=354, 1145.4795pt x 542.025pt>
 File: images/captures/capturesuser/dossier.png Graphic file (type png)
 <use images/captures/capturesuser/dossier.png>
 Package pdftex.def Info: images/captures/capturesuser/dossier.png  used on inpu
@@ -2288,35 +2288,8 @@ t line 826.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65 <./images/captures/capturesuser/home.png> <./images/captures/capturesuser/
-adddossier.png>])
-LaTeX Font Info:    Try loading font information for T1+zi4 on input line 200.
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/inconsolata\t1zi4
-.fd"
-File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 200.
-
-
-LaTeX Warning: Citation 'latexcompanion' on page 66 undefined on input line 202
-.
-
-
-LaTeX Warning: Citation 'einstein' on page 66 undefined on input line 202.
-
-
-LaTeX Warning: Citation 'latexcompanion' on page 66 undefined on input line 204
-.
-
-
-Overfull \hbox (36.21756pt too wide) in paragraph at lines 200--205
-\T1/cmr/m/n/12 gra-phy ma-na-ge-ment. Three items are ci-ted : \T1/cmr/m/it/12 
-The L[]T[]X Com-pa-nion \T1/cmr/m/n/12 book [],
- []
-
-[66 <./images/captures/capturesuser/dossier.png>]
+ [64 <./images/captures/capturesuser/home.png> <./images/captures/capturesuser/
+adddossier.png>]) [65 <./images/captures/capturesuser/dossier.png>]
 \openout2 = `Annexes.aux'.
 
  (Annexes.tex
@@ -2528,7 +2501,7 @@ Package xcolor Warning: Incompatible color definition on input line 31.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67
+ [66
 
 
 ]
@@ -2745,7 +2718,7 @@ Package xcolor Warning: Incompatible color definition on input line 68.
 
 Package xcolor Warning: Incompatible color definition on input line 68.
 
-[68]
+[67]
 Annexe B.
 
 Package xcolor Warning: Incompatible color definition on input line 77.
@@ -2876,7 +2849,7 @@ Package xcolor Warning: Incompatible color definition on input line 106.
 
 Package xcolor Warning: Incompatible color definition on input line 108.
 
-[69
+[68
 
 ]
 
@@ -2990,7 +2963,7 @@ Package xcolor Warning: Incompatible color definition on input line 148.
 
 Package xcolor Warning: Incompatible color definition on input line 148.
 
-[70]
+[69]
 
 Package xcolor Warning: Incompatible color definition on input line 150.
 
@@ -3042,7 +3015,7 @@ Package xcolor Warning: Incompatible color definition on input line 159.
 
 Package xcolor Warning: Incompatible color definition on input line 159.
 
-) [71] (main.aux (abbreviations.aux) (Introduction.aux) (Annexes.aux))
+) [70] (main.aux (abbreviations.aux) (Introduction.aux) (Annexes.aux))
 
  *File List*
   report.cls    2018/09/03 v1.4i Standard LaTeX document class
@@ -3248,8 +3221,8 @@ images/tp02.png
 images/tp03.png
 images/tp04.png
 images/tp05.png
-images/cloudMS.png
 images/secance.png
+images/cloudMS.png
 images/captures/capturesadmin/login.png
 images/captures/capturesadmin/bpmn.png
 images/captures/capturesadmin/tache.png
@@ -3261,68 +3234,55 @@ images/captures/capturesadmin/historique.png
 images/captures/capturesuser/home.png
 images/captures/capturesuser/adddossier.png
 images/captures/capturesuser/dossier.png
-   t1zi4.fd    2018/01/14 T1/zi4 (Inconsolata)
  Annexes.tex
 lstlang1.sty    2019/02/27 1.8b listings language file
  lstmisc.sty    2019/02/27 1.8b (Carsten Heinz)
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25017 strings out of 492946
- 410141 string characters out of 3125822
+ 24993 strings out of 492946
+ 409710 string characters out of 3125822
  956202 words of memory out of 3000000
- 28318 multiletter control sequences out of 15000+200000
- 27773 words of font info for 55 fonts, out of 3000000 for 9000
+ 28299 multiletter control sequences out of 15000+200000
+ 26779 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,23n,92p,2003b,3304s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecti0800.pk>{C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
-/inconsolata/i4-t1-0.enc} <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/lj
-four/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\djamel\AppData\Local\
-MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\djamel\App
-Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users
-\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk
-> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecrm0800.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
-/ec/dpi600\eccc1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fo
-nts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\djamel\AppData\Local\Mi
-KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\djamel\AppDa
-ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\d
-jamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> 
-<C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ec
-ti1440.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
-c/dpi600\ecrm1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\font
-s/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\djamel\AppData\Local\MiKT
-eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\djamel\AppData
-\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/djam
-el/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/inconsolata/Inconsolata
--zi4r.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmex10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/djamel/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/djamel/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/djame
-l/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (87 pages, 5275581 bytes).
+\ecbi1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
+n/ec/dpi600\ecti1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljf
+our/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\f
+onts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\djamel\AppData\Local\M
+iKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\djamel\AppD
+ata\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\
+djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk>
+ <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
+cbx1440.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1728.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\djamel\AppData\Local\MiK
+TeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\djamel\AppDat
+a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\dj
+amel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <
+C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecr
+m1728.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx2074.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/djamel/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/djamel/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users
+/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/djamel/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (86 pages, 5259125 bytes).
 PDF statistics:
- 1131 PDF objects out of 1200 (max. 8388607)
+ 1109 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

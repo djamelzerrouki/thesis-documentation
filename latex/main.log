@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  20 JUN 2019 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  21 JUN 2019 22:49
 entering extended mode
 **./main.tex
 (main.tex
@@ -38,16 +38,6 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel-french\fr
-ancais.ldf"
-Language: francais 2018/09/14 v3.5c French support from the babel system
-
-
-Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
-(francais.ldf)                it might be removed sooner or later. Please
-(francais.ldf)                use `french' instead; reported on input line 31.
-
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel-french\fr
 ench.ldf"
 Language: french 2018/09/14 v3.5c French support from the babel system
 
@@ -83,7 +73,7 @@ Package babel Info: Making ? an active character on input line 417.
 \leftmarginFB=\dimen109
 \parindentFFN=\dimen110
 \FBfnindent=\dimen111
-)))
+))
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/carlisle\scalefnt
 .sty")
 ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.s
@@ -1271,19 +1261,6 @@ File: biblatex.cfg
 Package amsthm Warning: Unknown theoremstyle `Remarque' on input line 96.
 
 \c@rem=\count387
-Package biblatex Info: Trying to load language 'francais'...
-Package biblatex Info: ... file 'francais.lbx' not found.
-
-Package biblatex Warning: Language 'francais' not supported.
-(biblatex)                Using fallback language 'english' on input line 110.
-
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\engl
-ish.lbx"
-File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
-)
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
 
@@ -1592,15 +1569,14 @@ File: images/Environnementswf.png Graphic file (type png)
 Package pdftex.def Info: images/Environnementswf.png  used on input line 247.
 (pdftex.def)             Requested size: 256.0774pt x 171.90675pt.
  [11 <./images/wfmcHistory.png>]
-<images/DimensionsWF.png, id=112, 447.47176pt x 299.31825pt>
+Underfull \vbox (badness 2401) has occurred while \output is active []
+
+ [12 <./images/Environnementswf.png>]
+<images/DimensionsWF.png, id=116, 447.47176pt x 299.31825pt>
 File: images/DimensionsWF.png Graphic file (type png)
 <use images/DimensionsWF.png>
 Package pdftex.def Info: images/DimensionsWF.png  used on input line 289.
 (pdftex.def)             Requested size: 213.39566pt x 142.73941pt.
-
-Underfull \vbox (badness 2401) has occurred while \output is active []
-
- [12 <./images/Environnementswf.png>]
 <images/"dswf".png, id=117, 613.0905pt x 458.31226pt>
 File: images/"dswf".png Graphic file (type png)
 <use images/"dswf".png>
@@ -1610,16 +1586,21 @@ Package pdftex.def Info: images/"dswf".png  used on input line 303.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 <./images/DimensionsWF.png>] [14 <./images/dswf.png>] [15] [16]
-<"images/classification de workflow".png, id=133, 459.51675pt x 257.16075pt>
+Overfull \hbox (28.21362pt too wide) in paragraph at lines 392--394
+\T1/cmr/m/n/12 pro-pose de dis-tin-guer quatre ca-té-go-ries de Sys-tèmes Work-
+flow. La Fi-gure fig :classification-
+ []
+
+<"images/classification de workflow".png, id=134, 459.51675pt x 257.16075pt>
 File: "images/classification de workflow".png Graphic file (type png)
 <use "images/classification de workflow".png>
 Package pdftex.def Info: "images/classification de workflow".png  used on input
  line 397.
 (pdftex.def)             Requested size: 298.75262pt x 167.19566pt.
- [17 <./images/classification de workflow.png>] [18]
+[17 <./images/classification de workflow.png>] [18]
 Package acronym Info: Label `acro:bpr' newly defined as it shall be overridden
 although it is yet undefined on input line 447.
-<images/Capture6.png, id=141, 674.52pt x 514.92375pt>
+<images/Capture6.png, id=142, 674.52pt x 514.92375pt>
 File: images/Capture6.png Graphic file (type png)
 <use images/Capture6.png>
 Package pdftex.def Info: images/Capture6.png  used on input line 460.
@@ -1639,7 +1620,7 @@ Overfull \hbox (8.27754pt too wide) in paragraph at lines 508--509
  []
 
 [21] [22]
-<images/petrif01.png, id=157, 315.579pt x 296.307pt>
+<images/petrif01.png, id=158, 315.579pt x 296.307pt>
 File: images/petrif01.png Graphic file (type png)
 <use images/petrif01.png>
 Package pdftex.def Info: images/petrif01.png  used on input line 715.
@@ -1659,18 +1640,18 @@ LaTeX Warning: Command \textellipsis invalid in math mode on input line 723.
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 728.
 
 [24 <./images/petrif01.png>]
-<images/pitref02PNG.png, id=170, 314.3745pt x 388.45125pt>
+<images/pitref02PNG.png, id=171, 314.3745pt x 388.45125pt>
 File: images/pitref02PNG.png Graphic file (type png)
 <use images/pitref02PNG.png>
 Package pdftex.def Info: images/pitref02PNG.png  used on input line 752.
 (pdftex.def)             Requested size: 170.71393pt x 210.946pt.
  [25 <./images/pitref02PNG.png>]
-<images/wf-nete006.png, id=177, 542.025pt x 249.93375pt>
+<images/wf-nete006.png, id=178, 542.025pt x 249.93375pt>
 File: images/wf-nete006.png Graphic file (type png)
 <use images/wf-nete006.png>
 Package pdftex.def Info: images/wf-nete006.png  used on input line 851.
 (pdftex.def)             Requested size: 213.39566pt x 98.40048pt.
-<images/wf003.png, id=178, 528.17325pt x 162.6075pt>
+<images/wf003.png, id=179, 528.17325pt x 162.6075pt>
 File: images/wf003.png Graphic file (type png)
 <use images/wf003.png>
 Package pdftex.def Info: images/wf003.png  used on input line 873.
@@ -2290,7 +2271,39 @@ t line 827.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65 <./images/captures/capturesuser/home.png> <./images/captures/capturesuser/
-adddossier.png>]) [66 <./images/captures/capturesuser/dossier.png>]
+adddossier.png>]) (Conclusion.tex [66 <./images/captures/capturesuser/dossier.p
+ng>])
+[67
+
+]
+LaTeX Font Info:    Try loading font information for T1+zi4 on input line 222.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/inconsolata\t1zi4
+.fd"
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 222.
+ [68
+
+] [69
+
+]
+
+Package biblatex Warning: Keyword 'physics' not found on input line 235.
+
+
+LaTeX Warning: Empty bibliography on input line 235.
+
+
+Package biblatex Warning: Keyword 'latex' not found on input line 236.
+
+
+LaTeX Warning: Empty bibliography on input line 236.
+
+[70
+
+]
 \openout2 = `Annexes.aux'.
 
  (Annexes.tex
@@ -2502,7 +2515,7 @@ Package xcolor Warning: Incompatible color definition on input line 31.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67
+ [71
 
 
 ]
@@ -2719,7 +2732,7 @@ Package xcolor Warning: Incompatible color definition on input line 68.
 
 Package xcolor Warning: Incompatible color definition on input line 68.
 
-[68]
+[72]
 Annexe B.
 
 Package xcolor Warning: Incompatible color definition on input line 77.
@@ -2850,7 +2863,7 @@ Package xcolor Warning: Incompatible color definition on input line 106.
 
 Package xcolor Warning: Incompatible color definition on input line 108.
 
-[69
+[73
 
 ]
 
@@ -2964,7 +2977,7 @@ Package xcolor Warning: Incompatible color definition on input line 148.
 
 Package xcolor Warning: Incompatible color definition on input line 148.
 
-[70]
+[74]
 
 Package xcolor Warning: Incompatible color definition on input line 150.
 
@@ -3016,24 +3029,16 @@ Package xcolor Warning: Incompatible color definition on input line 159.
 
 Package xcolor Warning: Incompatible color definition on input line 159.
 
-[71]
-Annexe C.
-<images/orgpdf.png, id=382, 360.1455pt x 543.83176pt>
+[75]
+<images/orgpdf.png, id=397, 360.1455pt x 543.83176pt>
 File: images/orgpdf.png Graphic file (type png)
 <use images/orgpdf.png>
-Package pdftex.def Info: images/orgpdf.png  used on input line 172.
+Package pdftex.def Info: images/orgpdf.png  used on input line 169.
 (pdftex.def)             Requested size: 426.81444pt x 490.14111pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+) [76
 
- [72
-
-]
-Overfull \vbox (9.69461pt too high) has occurred while \output is active []
-
-
-[73 <./images/orgpdf.png>] (main.aux (abbreviations.aux) (Introduction.aux)
-(Annexes.aux))
+ <./images/orgpdf.png>] (main.aux (abbreviations.aux)
+(Introduction.aux) (Annexes.aux))
 
  *File List*
   report.cls    2018/09/03 v1.4i Standard LaTeX document class
@@ -3041,7 +3046,7 @@ Overfull \vbox (9.69461pt too high) has occurred while \output is active []
    babel.sty    2018/11/13 3.27 The Babel package
  bblopts.cfg    2005/09/08 v0.1 add Arabic and Farsi to "declared" options of b
 abel
-francais.ldf    2018/09/14 v3.5c French support from the babel system
+  french.ldf    2018/09/14 v3.5c French support from the babel system
 scalefnt.sty    
   keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
 inputenc.sty    2018/08/11 v1.3c Input encoding file
@@ -3184,7 +3189,6 @@ standard.bbx    2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 authoryear.bbx    2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 authoryear.cbx    2018/11/02 v3.12 biblatex citation style (PK/MW)
 biblatex.cfg    
- english.lbx    2018/11/02 v3.12 biblatex localization (PK/MW)
   french.lbx    2018/11/02 v3.12 biblatex localization (PK/MW)
   lfecmr.fd    2006/12/01 v0.1a LaTeX default Farsi font description (test vers
 ion: may change)
@@ -3252,6 +3256,8 @@ images/captures/capturesadmin/historique.png
 images/captures/capturesuser/home.png
 images/captures/capturesuser/adddossier.png
 images/captures/capturesuser/dossier.png
+Conclusion.tex
+   t1zi4.fd    2018/01/14 T1/zi4 (Inconsolata)
  Annexes.tex
 lstlang1.sty    2019/02/27 1.8b listings language file
  lstmisc.sty    2019/02/27 1.8b (Carsten Heinz)
@@ -3263,45 +3269,49 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25000 strings out of 492946
- 409833 string characters out of 3125822
- 956202 words of memory out of 3000000
- 28305 multiletter control sequences out of 15000+200000
- 26779 words of font info for 53 fonts, out of 3000000 for 9000
+ 25034 strings out of 492946
+ 410283 string characters out of 3125822
+ 939763 words of memory out of 3000000
+ 28340 multiletter control sequences out of 15000+200000
+ 27773 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,23n,92p,2003b,3304s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecbi1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
-n/ec/dpi600\ecti1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljf
-our/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\f
-onts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\djamel\AppData\Local\M
-iKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\djamel\AppD
-ata\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\
-djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk>
- <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
-cbx1440.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecbx1728.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
-r/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\djamel\AppData\Local\MiK
-TeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\djamel\AppDat
-a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\dj
-amel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <
-C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecr
-m1728.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx2074.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/djamel/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/djamel/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users
-/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/djamel/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (89 pages, 5332164 bytes).
+{C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/inconsolat
+a/i4-t1-0.enc} <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecti0800.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\djamel\AppData\Local\
+MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\djamel\App
+Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users
+\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk
+> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
+ecrm0800.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
+/ec/dpi600\eccc1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fo
+nts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\djamel\AppData\Local\Mi
+KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\djamel\AppDa
+ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\d
+jamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> 
+<C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ec
+ti1440.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
+c/dpi600\ecrm1200.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\djamel\AppData\Local\MiKT
+eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\djamel\AppData
+\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/djam
+el/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/inconsolata/Inconsolata
+-zi4r.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmex10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/djamel/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/djamel/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/djame
+l/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
+/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (92 pages, 5372153 bytes).
 PDF statistics:
- 1122 PDF objects out of 1200 (max. 8388607)
+ 1181 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  236 words of extra memory for PDF output out of 10000 (max. 10000000)
 

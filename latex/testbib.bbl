@@ -1,0 +1,126 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{dirac}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DPAM}{%
+         family={Dirac},
+         familyi={D\bibinitperiod},
+         given={Paul Adrien\bibnamedelima Maurice},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Clarendon Press}%
+    }
+    \keyw{physics}
+    \strng{namehash}{DPAM1}
+    \strng{fullhash}{DPAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1981}
+    \field{labeldatesource}{year}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{isbn}{9780198520115}
+    \field{series}{International series of monographs on physics}
+    \field{title}{The Principles of Quantum Mechanics}
+    \field{year}{1981}
+  \endentry
+
+  \entry{einstein}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EA}{%
+         family={Einstein},
+         familyi={E\bibinitperiod},
+         given={Albert},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{physics}
+    \strng{namehash}{EA1}
+    \strng{fullhash}{EA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1905}
+    \field{labeldatesource}{year}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb http://dx.doi.org/10.1002/andp.19053221004
+    \endverb
+    \field{number}{10}
+    \field{pages}{891\bibrangedash 921}
+    \field{title}{{Zur Elektrodynamik bewegter K{\"o}rper}. ({German}) [{On}
+  the electrodynamics of moving bodies]}
+    \field{volume}{322}
+    \field{journaltitle}{Annalen der Physik}
+    \field{year}{1905}
+  \endentry
+
+  \entry{knuth-fa}{inbook}{}
+    \name{author}{1}{}{%
+      {{hash=KDE}{%
+         family={Knuth},
+         familyi={K\bibinitperiod},
+         given={Donald\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Addison-Wesley}%
+    }
+    \keyw{knuth,programming}
+    \strng{namehash}{KDE1}
+    \strng{fullhash}{KDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1973}
+    \field{labeldatesource}{year}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{chapter}{1.2}
+    \field{title}{Fundamental Algorithms}
+    \field{year}{1973}
+  \endentry
+
+  \entry{knuthwebsite}{online}{}
+    \name{author}{1}{}{%
+      {{hash=KD}{%
+         family={Knuth},
+         familyi={K\bibinitperiod},
+         given={Donald},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{latex,knuth}
+    \strng{namehash}{KD1}
+    \strng{fullhash}{KD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{Knuth: Computers and Typesetting}
+    \verb{url}
+    \verb http://www-cs-faculty.stanford.edu/~uno/abcde.html
+    \endverb
+  \endentry
+\enddatalist
+\endinput

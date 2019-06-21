@@ -42,6 +42,7 @@
     \field{labeldatesource}{year}
     \field{sortinit}{B}
     \field{sortinithash}{B}
+    \field{pages}{19\bibrangedash 36}
     \field{title}{The Gridbus Toolkit for Service Oriented Grid and Utility
   computing}
     \list{location}{1}{%
@@ -63,13 +64,10 @@
     \strng{fullhash}{CT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{1996}
-    \field{labeldatesource}{year}
     \field{sortinit}{C}
     \field{sortinithash}{C}
-    \field{title}{Workflow: la gestion globale des processus de l'entreprise.
-  Logiciels & Systèmes}
-    \field{year}{1996}
+    \field{title}{Workflow: la gestion globale des processus de l'entreprise.}
+    \field{journaltitle}{Logiciels and Systèmes}
   \endentry
 
   \entry{cloud2019}{online}{}
@@ -144,6 +142,7 @@
     \field{labeldatesource}{year}
     \field{sortinit}{G}
     \field{sortinithash}{G}
+    \field{pages}{235\bibrangedash 246}
     \field{title}{35 Years of the Laboratory for Computer Science}
     \list{location}{1}{%
       {Cambridge, MA, USA}%
@@ -171,30 +170,6 @@
     \verb http://virtualization.sys-con.com/node/612375
     \endverb
     \field{journaltitle}{Electronic Magazine}
-    \field{year}{2019}
-  \endentry
-
-  \entry{knuthwebsite}{online}{}
-    \name{author}{1}{}{%
-      {{hash=KD}{%
-         family={Knuth},
-         familyi={K\bibinitperiod},
-         given={Donald},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KD1}
-    \strng{fullhash}{KD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2019}
-    \field{labeldatesource}{year}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{title}{Knuth: Computers and Typesetting}
-    \verb{url}
-    \verb http://www-cs-faculty.stanford.edu/~uno/abcde.html
-    \endverb
     \field{year}{2019}
   \endentry
 
@@ -233,6 +208,7 @@
     \field{labeldatesource}{year}
     \field{sortinit}{R}
     \field{sortinithash}{R}
+    \field{pages}{44\bibrangedash 51}
     \field{title}{cloud computing systems}
     \field{year}{2009}
   \endentry
@@ -262,6 +238,55 @@
     \field{year}{1999}
   \endentry
 
+  \entry{Van-der-Aalst}{book}{}
+    \name{author}{1}{}{%
+      {{hash=VW}{%
+         family={VanDerAalst},
+         familyi={V\bibinitperiod},
+         given={W.M.P.},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {P. Azema}%
+      {G. Balbo, editors,}%
+    }
+    \strng{namehash}{VW1}
+    \strng{fullhash}{VW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1997}
+    \field{labeldatesource}{year}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{pages}{407\bibrangedash 426}
+    \field{title}{Verification of Workflow Nets. Application and Theory of
+  Petri Nets, Lecture Notes in Computer Science Springer}
+    \field{year}{1997}
+  \endentry
+
+  \entry{Van-der-Aalst98}{book}{}
+    \name{author}{1}{}{%
+      {{hash=VW}{%
+         family={VanDerAalst98},
+         familyi={V\bibinitperiod},
+         given={W.M.P.},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {P. Azema}%
+      {G. Balbo, editors,}%
+    }
+    \strng{namehash}{VW2}
+    \strng{fullhash}{VW2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{title}{The Application of Petri Nets to Workflow Management}
+  \endentry
+
   \entry{Vouk2008}{book}{}
     \name{author}{1}{}{%
       {{hash=V}{%
@@ -281,6 +306,7 @@
     \field{labeldatesource}{year}
     \field{sortinit}{V}
     \field{sortinithash}{V}
+    \field{pages}{235\bibrangedash 246}
     \field{title}{cloud computing}
     \field{year}{2008}
   \endentry
@@ -315,6 +341,7 @@
     \field{labeldatesource}{year}
     \field{sortinit}{W}
     \field{sortinithash}{W}
+    \field{pages}{825\bibrangedash 830}
     \field{title}{Scientific cloud computing}
     \list{location}{1}{%
       {Washington, DC, USA}%
@@ -362,8 +389,8 @@
     \field{sortinithash}{J}
     \field{title}{FAQ Maven}
     \verb{url}
-    \verb https://java.developpez.com/faq/maven/?page=Terminologie-et-documenta
-    \verb tion#Qu-est-ce-que-Maven
+    \verb https://java.developpez.com/faq/maven/?pages=Terminologie-et-document
+    \verb ation#Qu-est-ce-que-Maven
     \endverb
     \field{year}{2019}
   \endentry

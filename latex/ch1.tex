@@ -6,7 +6,7 @@
      
     Ce chapitre présente une introduction au cloud computing et au workflow, nécessaire pour la compréhension générale de ce mémoire.
    
-   \comment{Tout d’abord, nous présentons dans la section 1.2 une introduction au paradigme du cloud computing et  sa aperçu général , y compris sa définition, ses caractéristiques principales. Nous présentons les différents modèles de service, les différents modèles de déploiement, ainsi la sécurité dans le  cloud computing et les principaux grands fournisseurs de cloud. Par la suite, nous présentons, dans la section 1.3, une introduction au workflow et systèmes de gestion de workflow. Nous donnons le concept du workflow, sa définition.Puis la classification de système de workflow  dans la section 1.4   . Par la suite, nous présentons, l’architecture de référence d’un système de gestion de workflows dans la section 1.5 et finalement, nous résumons l'intérêt du cloud pour les workflows.}
+   \comment{Tout d’abord, nous présentons dans la section 1.2 une introduction au paradigme du cloud computing et  sa aperçu général,  y compris sa définition, ses caractéristiques principales. Nous présentons les différents modèles de service, les différents modèles de déploiement, ainsi la sécurité dans le  cloud computing et les principaux grands fournisseurs de cloud. Par la suite, nous présentons, dans la section 1.3, une introduction au workflow et systèmes de gestion de workflow. Nous donnons le concept du workflow, sa définition.Puis la classification de système de workflow  dans la section 1.4 .   Par la suite, nous présentons, l’architecture de référence d’un système de gestion de workflows dans la section 1.5 et finalement, nous résumons l'intérêt du cloud pour les workflows.}
    
     \section{Cloud computing}
     \subsection{Concept du cloud computing}
@@ -77,7 +77,7 @@ Le cloud computing  utilise des technologies telles que la virtualisation, l'arc
 
 \item \textbf{L'autonomic computing: }  L’autonomic computing  vise à construire des systèmes  informatiques capables de s’auto-administrer en s’adaptant à des changements  internes et externes sans intervention humaine. Le but de l'informatique autonome est de surmonter la complexité de la gestion des systèmes informatiques d'aujourd'hui. Bien que le cloud computing  présente certaines caractéristiques autonomes, telles que l’approvisionnement automatique des ressources, son objectif est de diminuer le coût des ressources, plutôt que de réduire la complexité du système.
 
-\item \textbf{Virtualisation: } La virtualisation est une technologie qui fait abstraction des détails du matériel physique et fournit des ressources virtualisées pour les applications de haut niveau. En effet, la virtualisation regroupe l’ensemble des techniques matérielles ou logicielles permettant de faire fonctionner, sur une seule machine physique, plusieurs configurations informatiques (systèmes d’exploitation,…), de sorte à former plusieurs machines virtuelles, qui reproduisent le comportement des machines physiques. La virtualisation constitue le socle du cloud computing, car elle offre la possibilité de mettre en commun des ressources informatiques à partir de clusters de serveurs, et ainsi d’affecter ou réaffecter dynamiquement des machines virtuelles aux applications à la demande. La figure 1.3. montre l’architecture en couches de la technologie de virtualisation. Le  \ac{vmm} en français moniteur de machine virtuelle  , également appelé hyperviseur, partitionne la ressource physique du serveur physique sous-jacente en plusieurs machines virtuelles  différentes, chacune fonctionnant sous un système d'exploitation distinct et une pile de logiciels utilisateur. 
+\item \textbf{Virtualisation: } La virtualisation est une technologie qui fait abstraction des détails du matériel physique et fournit des ressources virtualisées pour les applications de haut niveau. En effet, la virtualisation regroupe l’ensemble des techniques matérielles ou logicielles permettant de faire fonctionner, sur une seule machine physique, plusieurs configurations informatiques (systèmes d’exploitation,…), de sorte à former plusieurs machines virtuelles, qui reproduisent le comportement des machines physiques. La virtualisation constitue le socle du cloud computing, car elle offre la possibilité de mettre en commun des ressources informatiques à partir de clusters de serveurs, et ainsi d’affecter ou réaffecter dynamiquement des machines virtuelles aux applications à la demande. La figure 1.3. montre l’architecture en couches de la technologie de virtualisation. Le  \ac{vmm} en français moniteur de machine virtuelle ,  également appelé hyperviseur, partitionne la ressource physique du serveur physique sous-jacente en plusieurs machines virtuelles  différentes, chacune fonctionnant sous un système d'exploitation distinct et une pile de logiciels utilisateur. 
 \end{enumerate}
 
 
@@ -95,7 +95,7 @@ Le cloud computing  utilise des technologies telles que la virtualisation, l'arc
 
 \subsection{Modèles du cloud computing  }
 \subsubsection {Modèles de service du cloudcomputing}  
-\ac{xaas} représente la base du paradigme du cloud computing, où X représente un service tel qu’un logiciel, une plateforme, une infrastructure, un Business Process \ac{bpaas}, etc. Nous présentons, dans cette section,  quatre  modèles de services \parencite{Rimal}, à savoir: (1) Logiciel en tant que services \ac{saas} , où le matériel, l’hébergement, le framework d’application et le logiciel sont dématérialisés, (2) Plateforme en tant que service \ac{paas}, où le matériel, l’hébergement et le framework d’application sont dématérialisés, (3) Infrastructure en tant que service \ac{iaas} et (4) Matériel en tant que service \ac{haas}, où seul le matériel (serveurs) est dématérialisé dans ces deux derniers cas. La figure \ref{fig:capture5} montre le modèle classique et les différents modèles de service de cloud
+\ac{xaas} représente la base du paradigme du cloud computing, où X représente un service tel qu’un logiciel, une plateforme, une infrastructure, un Business Process \ac{bpaas}, etc. Nous présentons, dans cette section,  quatre  modèles de services \parencite{Rimal}, à savoir: (1) Logiciel en tant que services \ac{saas},  où le matériel, l’hébergement, le framework d’application et le logiciel sont dématérialisés, (2) Plateforme en tant que service \ac{paas}, où le matériel, l’hébergement et le framework d’application sont dématérialisés, (3) Infrastructure en tant que service \ac{iaas} et (4) Matériel en tant que service \ac{haas}, où seul le matériel (serveurs) est dématérialisé dans ces deux derniers cas. La figure \ref{fig:capture5} montre le modèle classique et les différents modèles de service de cloud
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{Capture5}
@@ -173,7 +173,7 @@ Selon la définition du cloud computing  donnée part le \ac{nist} \parencite{Me
 %\item \textbf{Services de support:}\\
 %La principale caractéristique du Cloud est la mise en place a priori d’une sécurité renforcée et auditable (authentification, logs, pare-feux, etc..). Il reste à traiter les risques liés à l’intégration avec les applications des utilisateurs ainsi que les processus toujours délicats de mises à jour
 %\item \textbf{Sécurité périmétrique du réseau Cloud:}\\
-%Ces grandes infrastructures partagées fournissent des moyens de protection au delà des capacités  d’une entreprise normale comme par exemple la protection contre les attaques DDOS (Distributed Denial Of Service). Les mécanismes de sécurité périmétriques sont généralement bien conçus (fournisseur d’identité, authentification, pare-feux , etc..). En revanche, il reste à traiter les sujets liés à la mobilité.
+%Ces grandes infrastructures partagées fournissent des moyens de protection au delà des capacités  d’une entreprise normale comme par exemple la protection contre les attaques DDOS (Distributed Denial Of Service). Les mécanismes de sécurité périmétriques sont généralement bien conçus (fournisseur d’identité, authentification, pare-feux,  etc..). En revanche, il reste à traiter les sujets liés à la mobilité.
 %
 %\end{itemize}
 
@@ -207,14 +207,14 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 \subsection{Introduction au Workflow }
  	 
  	 
- 	 Un Workflow est la modélisation et la gestion assistée par ordinateur de l’accomplissement des tâches composant un processus administratif ou industriel, en interaction avec divers acteurs (humains, logiciels, ou matériels) invoqués \parencite{Courtois} . Outil informatique d’origine industrielle, le Workflow est l’adaptation de la GED24 adjoint de la faculté à gérer l’échange de messages. Le Workflow propose des solutions d’optimisation et de rationalisation des flux d’informations ; que ces informations soient associées à des documents, des procédures ou des messages complémentant les systèmes de gestion électronique de documents et d’informations.
+ 	 Un Workflow est la modélisation et la gestion assistée par ordinateur de l’accomplissement des tâches composant un processus administratif ou industriel, en interaction avec divers acteurs (humains, logiciels, ou matériels) invoqués \parencite{Courtois}.  Outil informatique d’origine industrielle, le Workflow est l’adaptation de la GED24 adjoint de la faculté à gérer l’échange de messages. Le Workflow propose des solutions d’optimisation et de rationalisation des flux d’informations ; que ces informations soient associées à des documents, des procédures ou des messages complémentant les systèmes de gestion électronique de documents et d’informations.
  	 
- 	 A l’heure actuelle plus de 250 Systèmes de Gestion de Workflow (WFMS) sont utilisés ou en développement. Cela signifie que le terme « gestion de Workflow » n’est pas simplement une nouvelle expression à la mode. Ce phénomène de gestion de processus (Workflow) aura certainement un fort impact sur la génération suivante de systèmes informatiques \parencite{Courtois} .
+ 	 A l’heure actuelle plus de 250 Systèmes de Gestion de Workflow (WFMS) sont utilisés ou en développement. Cela signifie que le terme « gestion de Workflow » n’est pas simplement une nouvelle expression à la mode. Ce phénomène de gestion de processus (Workflow) aura certainement un fort impact sur la génération suivante de systèmes informatiques \parencite{Courtois}. 
  	 
  \subsection{Origines} 
- 	 Il est intéressant de considérer l’évolution des systèmes informatiques au cours des quatre dernières décennies [VAN DER AALST 02] pour prendre conscience de la pertinence d’une gestion électronique de processus (Workflow) et apprécier l’impact de la gestion de Workflow dans un avenir proche.
+ 	 Il est intéressant de considérer l’évolution des systèmes informatiques au cours des quatre dernières décennies \parencite{Van-der-Aalst} pour prendre conscience de la pertinence d’une gestion électronique de processus (Workflow) et apprécier l’impact de la gestion de Workflow dans un avenir proche.
  	 
- 	  La Figure \ref{fig:wfmchistory} présente le phénomène de gestion de Workflow dans une perspective historique. Cette figure décrit l’architecture d’un système informatique classique en termes de composants. Dans les années soixante, un système informatique était composé d’un certain nombre d’applications autonomes. Pour chacune de ces applications une interface utilisateur et un système de base de données spécifique étaient développés, chaque application possédait donc ses propres routines pour interagir avec l’utilisateur, stocker et récupérer les données. Dans les années soixante-dix, le développement des \ac{sgbd} a permis d’extraire les données des applications. En utilisant les SGBD, les applications ont ainsi été libérées du fardeau de la gestion de données. Dans les années quatre vingts, l’apparition de systèmes de gestion d’interface utilisateur \ac{uims} a permis aux développeurs d’application d’extraire l’interaction avec les utilisateurs des applications. Enfin, les années quatre-vingt-dix sont marquées par l’apparition de logiciels de Workflow, permettant aux développeurs d’application d’extraire les procédures de travail des applications. La Figure \ref{fig:wfmchistory} fait apparaître le système de gestion de Workflow comme une composante générique pour représenter et manipuler les processus d’entreprise \footnote{\samepage Les procédures d’entreprise représentent l’organisation et la politique de l’entreprise pour atteindre certains objectifs [WFMC11 99] }. 
+ 	  La Figure \ref{fig:wfmchistory} présente le phénomène de gestion de Workflow dans une perspective historique. Cette figure décrit l’architecture d’un système informatique classique en termes de composants. Dans les années soixante, un système informatique était composé d’un certain nombre d’applications autonomes. Pour chacune de ces applications une interface utilisateur et un système de base de données spécifique étaient développés, chaque application possédait donc ses propres routines pour interagir avec l’utilisateur, stocker et récupérer les données. Dans les années soixante-dix, le développement des \ac{sgbd} a permis d’extraire les données des applications. En utilisant les SGBD, les applications ont ainsi été libérées du fardeau de la gestion de données. Dans les années quatre vingts, l’apparition de systèmes de gestion d’interface utilisateur \ac{uims} a permis aux développeurs d’application d’extraire l’interaction avec les utilisateurs des applications. Enfin, les années quatre-vingt-dix sont marquées par l’apparition de logiciels de Workflow, permettant aux développeurs d’application d’extraire les procédures de travail des applications. La Figure \ref{fig:wfmchistory} fait apparaître le système de gestion de Workflow comme une composante générique pour représenter et manipuler les processus d’entreprise \footnote[1]{\samepage Les procédures d’entreprise représentent l’organisation et la politique de l’entreprise pour atteindre certains objectifs [WFMC11 99] }. 
  	  
  	  Ainsi, à l’heure actuelle, beaucoup d’organisations commencent à considérer l’utilité d’outils avancés pour soutenir la conception et l’exécution de leurs processus d’entreprise.
  	 
@@ -281,7 +281,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
  	}
  	 \subsubsection{Dimensions}
- 	 Associé aux définitions précédentes, il a été défini une représentation tridimensionnelle des systèmes Workflow [VAN DER AALST 98a] (Figure \ref{fig:dimensionswf}). 
+ 	 Associé aux définitions précédentes, il a été défini une représentation tridimensionnelle des systèmes Workflow \parencite{Van-der-Aalst98} (Figure \ref{fig:dimensionswf}). 
  	 
  	 
 \begin{figure}[H]
@@ -341,7 +341,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 \subsubsection{Activité (Process Activity) }
  	 Une activité est une étape d’un processus au cours de laquelle une action élémentaire est exécutée. On désigne par « action élémentaire » (ou tâche) une activité qui n’est plus décomposable en sous-procédures. La WfMC distingue une « activité manuelle », qui n’est pas contrôlée par le système Workflow, et une « activité Workflow » qui est sous le contrôle du Workflow. Un exemple d’une activité manuelle est l’ouverture d’un courrier. Une activité Workflow peut être le remplissage d’un formulaire électronique. Il existe donc des exemples d’activités manuelles intégrables dans un Workflow. 
  	 
- 	 [VAN DER AALST 98a] présente l’activité Workflow comme l’intersection entre une ressource humaine ou matérielle et un bon de travail dans le cadre de l’exécution d’une tâche. Dans cette représentation, une ressource du modèle organisationnel est donc exigée pour qu’une tâche puisse être instanciée en activité et allouée à un participant de Workflow. 
+ 	 \parencite{Van-der-Aalst98} présente l’activité Workflow comme l’intersection entre une ressource humaine ou matérielle et un bon de travail dans le cadre de l’exécution d’une tâche. Dans cette représentation, une ressource du modèle organisationnel est donc exigée pour qu’une tâche puisse être instanciée en activité et allouée à un participant de Workflow. 
  	 
  	 
  	 
@@ -386,10 +386,10 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
 
 \section{Classification des systèmes Workflow}
 
-Il n’existe pas de classification commune des systèmes Workflow dans la littérature, reconnue par l’ensemble de la communauté Workflow [VAN DER AALST 02]. Ceci étant essentiellement dû au nombre important de critères de classification qu’il est possible de retenir.
+Il n’existe pas de classification commune des systèmes Workflow dans la littérature, reconnue par l’ensemble de la communauté Workflow \parencite{Van-der-Aalst}. Ceci étant essentiellement dû au nombre important de critères de classification qu’il est possible de retenir.
 En effet, les spécialistes adoptent différents points de vue par rapport à la notion de Workflow, les critères qui en découlent varient donc en fonction de leurs perceptions des caractéristiques présentées par ces systèmes Workflow. Ainsi, il existe plusieurs classifications, permettant de sélectionner un outil de gestion de Workflow avec différents « éclairages » sur le sujet.
 
-Malgré ce manque d’unité, la classification proposée par [McCREADY 92] est assez répandue dans la littérature, elle est reprise par bon nombre d’auteurs [VAN DER AALST 98a],
+Malgré ce manque d’unité, la classification proposée par [McCREADY 92] est assez répandue dans la littérature, elle est reprise par bon nombre d’auteurs \parencite{Van-der-Aalst98},
 [GEORGAKOPOULOS 95]. Elle propose de distinguer quatre catégories de Systèmes Workflow. La Figure fig:classification-de-workflow présente ces différentes classes selon deux axes : Approche et Structure.
 
 \begin{figure}[h]
@@ -403,7 +403,7 @@ Malgré ce manque d’unité, la classification proposée par [McCREADY 92] est 
 
 \subsection{Processus collaboratifs }
 Cette première classe est axée sur la communication et sur le partage d’information. Les systèmes collaboratifs sont définis pour supporter le travail en groupe, dans le cadre de la conception, de la gestion de projet ou de la résolution de problèmes faisant appel à plusieurs niveaux d’expertise. Ces systèmes permettent de réunir les intervenants d’un projet autour d’un objectif commun, les clients de la procédure y étant souvent eux-mêmes directement associés, les logiciels employés sont le plus souvent des groupwares
-\footnote{\samepage  Collecticiel : classe de logiciels prévus pour être exploités de façon concurrente, sur un même projet.}. Les tâches des procédures gérées sont le plus souvent complexes et leur réalisation implique l’intervention de ressources aux compétences très spécifiques pour une forte valeur ajoutée. D’un autre coté, l’enchaînement des activités des procédures à traiter est faiblement structuré et peu répétitif.
+\footnote[1]{\samepage  Collecticiel : classe de logiciels prévus pour être exploités de façon concurrente, sur un même projet.}. Les tâches des procédures gérées sont le plus souvent complexes et leur réalisation implique l’intervention de ressources aux compétences très spécifiques pour une forte valeur ajoutée. D’un autre coté, l’enchaînement des activités des procédures à traiter est faiblement structuré et peu répétitif.
 De part la faible structure de ces processus, ils ne font pas partie ou se situe à la frontière de ce que l’on considère comme la « sphère » Workflow comme le précise la Figure \ref{fig:classification-de-workflow}. 
 
 \subsection{Workflow administratif }
@@ -421,7 +421,7 @@ informations provenant de systèmes d’information variés et dans l’enjeu qu
 réussite. En effet, la procédure Workflow correspond directement au travail effectué par
 l’entreprise. En d’autres termes, la performance de l’entreprise est directement liée à
 l’exécution de la procédure managée par le Workflow. On dit dans ce cas qu’il est mission
-critical\textbf{\footnote{\samepage}  Un système est dit critique lorsque : les vies de personnes sont tributaires de son fonctionnement ou le coût économique d'un dysfonctionnement est catastrophique. } [INCONCERT 97]. C’est par exemple le cas des organismes financiers, des compagnies d’assurances, des usines de production manufacturières. La réalisation des procédures
+critical \footnote[1]{\samepage  Un système est dit critique lorsque : les vies de personnes sont tributaires de son fonctionnement ou le coût économique d'un dysfonctionnement est catastrophique. } [INCONCERT 97]. C’est par exemple le cas des organismes financiers, des compagnies d’assurances, des usines de production manufacturières. La réalisation des procédures
 est donc associée à une forte valeur ajoutée et un volume d’informations traitées important.
 La complexité des procédures traitées est également due à la répartition de leurs activités
 sur plusieurs sites. Dans ce cas, les tâches exécutées nécessitent souvent l’interrogation de
@@ -433,7 +433,7 @@ l’exécution de certaines procédures ne peut pas toujours se poursuivre de ma
 état particulier. Dans ce cas, il est nécessaire de faire intervenir des acteurs humains pour la
 prise de décision. Pour ce faire, le système Workflow de production peut faire appel à un autre système, de type collecticiel ou un autre système Workflow ad hoc, qui servira d’interface
 pour l’exécution dirigée par un acteur humain de la suite de la procédure. Ce type de Workflow est dit « composite » [EDER 96]. Enfin, dans la littérature, les systèmes Workflow de
-production sont également appelés case-based [VAN DER AALST 98a]. 
+production sont également appelés case-based \parencite{Van-der-Aalst98}. 
 
 \subsection{Workflow adaptable ou Workflow ad hoc }
 L’impossibilité pour les systèmes de gestion de Workflow traditionnels de traiter les différents changements dynamiques dans les flux de travail est une limite à dépasser. A ce titre, il a été introduit les concepts de Workflow adaptable (adaptive Workflow) [VAN DER
@@ -552,7 +552,7 @@ par exemple l'application de gestion peut être une partie intégrante du servic
 %		\textbf{ Nature des processus } & Processus formels avec peu de variation Les  processus peuvent  être trèscomplexes.&  Une variété de processus pout exister dans même système. Les processus peuvent être bien définis, mais  requièrent moins d'exigence.  & Facilité de  déploiement.&Les processus sont moins rigides \\ \hline
 %		
 %	\rowcolor[HTML]{96FFFB} 
-%		\textbf{Spécificités} &  Requiert une intégration serrée avec les systèmes de bases. &  Utilise souvent des documents attaches.& Le but est de zéro coût  d’administration .&La capacité de traitement est de moindre importance
+%		\textbf{Spécificités} &  Requiert une intégration serrée avec les systèmes de bases. &  Utilise souvent des documents attaches.& Le but est de zéro coût  d’administration. &La capacité de traitement est de moindre importance
 %		\\ \hline
 %	\end{tabular}
 %	
@@ -688,8 +688,8 @@ Les réseaux de Pétri sont définis comme étant un formalisme qui permet la de
 	
 	\begin{itemize}
 		\item  	P est un ensemble final de places,
-		\item T est un ensemble final de transition $ (P \cap T = \theta ) $ ,
-		\item W: $(P \times T) \cup (T \times P)\to N = \{0,1,2,...\} $  .
+		\item T est un ensemble final de transition $ (P \cap T = \theta ) $, 
+		\item W: $(P \times T) \cup (T \times P)\to N = \{0,1,2,...\} $.  
 	\end{itemize}
 	
 \end{defn}
@@ -720,7 +720,7 @@ L'un des aspects les plus agréables des réseaux de Pétri est qu'il est extrê
 Une représentation matricielle d'un RdP est offerte afin de simplifier les Tâches d'analyse et de vérification effectuée sur un modèle RdP. Agir sur une représentation graphique d'un modèle RdP est une Tâche délicate en comparant avec une représentation matricielle. Il   est possible de représenter la fonction W (fonction de poids) par des matrices.[2] 
 
 \begin{defn}\textbf{\textbf{(Réseau de pétri):}}
-	Soit Un réseau de pétri $ R= (P, T, W) $ avec $ P= \{p1, p2, …, pm\} $ et $ T= \{t1, t2, …,tn \}$, on appelle matrice des pré conditions   pré la matrice  $  m \times n $   à coefficients dans  N  tel que $ pre (i,j)= W(p_{i}, t_{j}) $ , elle indique le nombre de marques que doit contenir la place $p_{i}$ pour que la transition $ tj $  devienne franchissable, de la même manière on définit la matrice des post conditions post  la matrice $ n  \times m $ tel que $ post (i,j)= W(tj,  p_{i}) $ contient le nombre de   marques déposées dans $p_{i}$ lors du franchissement de la transition $t_{j}$. La matrice C= post – pré est appelée matrice d'incidence du réseau (m représente le nombre de places d'un réseau de Pétri et n le nombre de transitions.). 
+	Soit Un réseau de pétri $ R= (P, T, W) $ avec $ P= \{p1, p2, …, pm\} $ et $ T= \{t1, t2, …,tn \}$, on appelle matrice des pré conditions   pré la matrice  $  m \times n $   à coefficients dans  N  tel que $ pre (i,j)= W(p_{i}, t_{j}) $,  elle indique le nombre de marques que doit contenir la place $p_{i}$ pour que la transition $ tj $  devienne franchissable, de la même manière on définit la matrice des post conditions post  la matrice $ n  \times m $ tel que $ post (i,j)= W(tj,  p_{i}) $ contient le nombre de   marques déposées dans $p_{i}$ lors du franchissement de la transition $t_{j}$. La matrice C= post – pré est appelée matrice d'incidence du réseau (m représente le nombre de places d'un réseau de Pétri et n le nombre de transitions.). 
 \end{defn}
 
 La représentation Graphique d’un marquage dans un RdP marqué est présentée par des marques dans la place appelées jetons. 
@@ -733,9 +733,9 @@ Le marquage d'un réseau de Petri est représenté par un vecteur de dimension m
 
 Un réseau de Pétri marqué est le couple $ N = < R , M > $ où : 
 \begin{itemize}
-	\item R est un réseau de Pétri .
-	\item M est une application de marquage  .
-	\item $  M : P \to N  $ .
+	\item R est un réseau de Pétri. 
+	\item M est une application de marquage.  
+	\item $  M : P \to N  $. 
 \end{itemize}
 
 
@@ -754,7 +754,7 @@ On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques d
 		\label{fig:pitref02png}
 	\end{figure}
 	
-	Pour le réseau de la (Figure \ref{fig:pitref02png}) .
+	Pour le réseau de la (Figure \ref{fig:pitref02png}). 
 	
 	$ P= \{p1, p2, p3, p4\}$ et $T= \{t1, t2, t3\}  $
 	
@@ -836,7 +836,7 @@ On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques d
 	\textbf{(Wf-nets):}  Le réseau de pétri qui permet de modéliser le contrôle de flux d’un workflow est appelé un WF-net  (réseaux workflow) Ssi:
 	
 	\begin{enumerate}
-		\item Il existe une seule place source $i \in P$ avec $ ^{*}i = \emptyset $ . (i début du processus).
+		\item Il existe une seule place source $i \in P$ avec $ ^{*}i = \emptyset $.  (i début du processus).
 		
 		\item  Il existe une seule place puits $o \in P$ avec $ ^{*}o = \emptyset $  (o est la fin du processus).
 		
@@ -854,7 +854,7 @@ On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques d
 	\end{figure}
 	
 \end{defn}
-Un réseau de workflow (WF-net) est un réseau de pétri qui possède une seule place d’entrée (i) et une seule place de sortie (o) et puis que n’importe quel cas traité avec la procédure représentée par un WF-net est crée au moment de début de son traitement par le système de gestion de workflow (SGWF) est supprimé une fois que sont traitement est complètement achevé par le SGWF. Cela veut dure que le WFnet spécifie le cycle de vie d’un cas du processus modélisé  .
+Un réseau de workflow (WF-net) est un réseau de pétri qui possède une seule place d’entrée (i) et une seule place de sortie (o) et puis que n’importe quel cas traité avec la procédure représentée par un WF-net est crée au moment de début de son traitement par le système de gestion de workflow (SGWF) est supprimé une fois que sont traitement est complètement achevé par le SGWF. Cela veut dure que le WFnet spécifie le cycle de vie d’un cas du processus modélisé.  
 \begin{rem}
 	Un chemin C dans un WF-net d’un nœud $n_{1}$ au nœud $n_{k}$ est une séquence $<n_{1},n_{2},...,n_{k}>$ tel-que $<n_{i},n_{i+1}> \in F $, pour $i=1...k-1$.
 	F est la relation de flux. 
@@ -910,13 +910,13 @@ Utilisé pour traiter les cas où le routage de flux peut dépendre des données
 	
 	Nous pouvons prendre le schéma de la figure précédente et ajouter une pré-condition pour chacune des tâches B et C (en se basant sur un ou plusieurs attributs du workflow).
 	
-	Il y a une autre façon de modéliser le choix déterministe comme dans la figure suivante. La transition A comporte deux places de sortie c2 et c3 et produit un seul jeton (soit dans c2 ou dans c3). Le choix entre les deux places est basé sur la valeur de l’attribut x.Un symbole spécial est utilisé pour représenté que la tâche A est un OR-split (exclusive OR).
+	Il y a une autre façon de modéliser le choix déterministe comme dans la figure suivante. La transition A comporte deux places de sortie c2 et c3 et produit un seul jeton (soit dans c2 ou dans c3). Le choix entre les deux places est basé sur la valeur de l’attribut x. Un symbole spécial est utilisé pour représenté que la tâche A est un OR-split (exclusive OR).
 	
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{images/wf006}
-		\caption{Choix explicite entre B et C à base de l’attribut x .
+		\caption{Choix explicite entre B et C à base de l’attribut x. 
 		}
 		\label{fig:wf006}
 	\end{figure}
@@ -937,6 +937,6 @@ Utilisé pour traiter les cas où le routage de flux peut dépendre des données
 
 
 \section{Conclusion}
-Dans ce chapitre, nous avons étudié la théorie sur les concepts fondamentaux de cloud et de workflow .
+Dans ce chapitre, nous avons étudié la théorie sur les concepts fondamentaux de cloud et de workflow. 
 
 Dans le chapitre suivant, nous expliquerons l'étape d'analyse et la conception du système de flux de travail administratif, en prenant en compte l'étude théorique.

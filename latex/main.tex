@@ -1,5 +1,5 @@
 \documentclass[12pt,twoside]{report}
-\usepackage[francais]{babel}
+\usepackage[french]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amsfonts,amssymb,amsthm,epsfig,epstopdf,titling,url,array}
 \usepackage{acronym}   	 	% list of abbreviations / acronyms
@@ -192,7 +192,7 @@ Les batailles de la vie ne sont pas gagnées par les plus forts, ni par les plus
  
 %\printbibliography %[title={Whole bibliography}]
   
-  
+   \input{Conclusion.tex}
   
     \comment{
   \section{First section}
@@ -204,7 +204,7 @@ Les batailles de la vie ne sont pas gagnées par les plus forts, ni par les plus
   \cite{latexcompanion,knuthwebsite}. 
 }
   \medskip
-  \comment{
+ 
   \begin{thebibliography}{9}
   	\bibitem{latexcompanion} 
   	Michel Goossens, Frank Mittelbach, and Alexander Samarin. 
@@ -220,14 +220,21 @@ Les batailles de la vie ne sont pas gagnées par les plus forts, ni par les plus
   	\bibitem{knuthwebsite} 
   	Knuth: Computers and Typesetting,
   	\\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+  	
+  	
+  	\bibitem{VAN DER AALST 97a}
+  	 Van-der-Aalst, W.M.P. Verification of Workflow Nets. Application and Theory of Petri Nets, Lecture Notes in Computer Science Springer - Verlag 1248 (In P. Azema and G. Balbo, editors, ). 407 - 426, 1997
   \end{thebibliography}
   
-  \printbibliography[type=article,title={Articles only}]
-  \printbibliography[type=book,title={Books only}]
   
+  
+%\printbibliography[type=article,title={Articles only}]
+  \printbibliography[type=book,title={Books only}]
+ % online
+     \printbibliography[type=online,title={online only}]
   \printbibliography[keyword={physics},title={Physics-related only}]
   \printbibliography[keyword={latex},title={\LaTeX-related only}]
-}
+
 \appendix
 
  \include{Annexes}

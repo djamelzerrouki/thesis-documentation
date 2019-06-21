@@ -35,7 +35,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.17}{\ignorespaces Routage conditionnel non-d\IeC {\'e}terministe\relax }}{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.18}{\ignorespaces Choix explicite entre B et C \IeC {\`a} base de l\IeC {\textquoteright }attribut x . \relax }}{28}% 
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Choix explicite entre B et C \IeC {\`a} base de l\IeC {\textquoteright }attribut x. \relax }}{28}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.19}{\ignorespaces It\IeC {\'e}ration : B peut \IeC {\^e}tre ex\IeC {\'e}cut\IeC {\'e}e plusieurs fois\relax }}{28}% 
 \defcounter {refsection}{0}\relax 
@@ -93,6 +93,4 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.1}{\ignorespaces L'organigramme de la CNR\relax }}{73}% 
+\contentsline {figure}{\numberline {B.1}{\ignorespaces L'organigramme de la CNR\relax }}{76}% 

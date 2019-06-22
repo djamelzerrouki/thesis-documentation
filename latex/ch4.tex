@@ -99,7 +99,7 @@ Nous avons utilisé Spring Boot pour  facilite la création d'applications basé
   \subsubsection{Spring Cloud Netflix}
  Spring Cloud Netflix fournit des intégrations Netflix OSS pour les applications Spring Boot via la configuration automatique et la liaison à Spring Environment et à d'autres idiomes de modèles de programmation Spring. Quelques annotations simples vous permettent d'activer et de configurer rapidement les modèles courants dans votre application et de créer de grands systèmes distribués avec des composants Netflix testés au combat. Les modèles fournis incluent la découverte de service (Eureka), le disjoncteur (Hystrix), le routage intelligent (Zuul) et l’équilibrage de la charge côté client (ruban).
  
- \subsection{ Qu'est-ce que Micro Service?}
+ \subsection{   Micro Service }
 
  L'objectif principal de la mise en œuvre des micro-services est de scinder l'application en un service distinct pour chaque fonctionnalité de base et chaque service de l'API. Elle devrait être déployée indépendamment sur le cloud. Nous avons choisi le langage de programmation réactif du projet familial spring.io avec un ensemble de composants pouvant être utilisés pour mettre en œuvre notre modèle d'exploitation. Spring Cloud intègre très bien les composants Netflix dans l’environnement Spring. Il utilise une configuration automatique et une convention de configuration similaire à celle du fonctionnement de Spring Boot.
 
@@ -239,7 +239,7 @@ Spring cloud Netflix fournit des intégrations Netflix OSS pour les applications
 
 
 \subsection{Maven} 
-\subsubsection{Qu'est-ce que Maven ?}
+ 
 
 
 Maven est essentiellement un outil de gestion et de compréhension de projet. 
@@ -255,7 +255,7 @@ Maven offre des fonctionnalités de :
 \item  déploiement.
 \end{itemize}
 
-\subsubsection{Qu'est-ce que le POM ?}
+\subsubsection{ POM  }
 Le \textbf{POM} (\textbf{P}roject \textbf{O}bject \textbf{M}odel) est une façon de décrire, de manière déclarative, un projet au sens de Maven. Cette description est contenue dans le fichier \textbf{pom.xml} présent dans le repertoire de base du projet. Le fichier pom.xml contient donc tous les éléments permettant de gérer le cycle de vie du projet. \cite{maven}.
 
 Code xml :	
@@ -301,15 +301,15 @@ description : description du projet.
 \item \textbf{dependencies} : balise permettant de gérer les dépendances.
 \end{itemize}
 
-\subsubsection{Qu'est-ce qu'un archetype ?}
+\subsubsection{Archetype }
 Un archetype est un template de projet. Le fait d'utiliser des archetypes pour initialiser un projet permet de gagner du temps et de respecter une certaine convention. \cite{maven}.
 
-\subsubsection{Qu'est-ce qu'une dépendance ?}
+\subsubsection{Dépendance  }
  Une dépendance est une référence vers un artefact spécifique contenu dans un repository. Cet artefact est nécessaire pour une ou plusieurs phases du cycle de vie du projet. \cite{maven}.
  
  L'exemple le plus simple est une dépendance sur une bibliothèque jar qui permet d'en utiliser le contenu dans le projet.\parencite{maven}.
  
- \subsubsection{Qu'est-ce qu'un artefact ?}
+ \subsubsection{Artefact }
  
  Dans Maven, un artefact est un élément spécifique issu de la construction du logiciel. 
  
@@ -317,12 +317,12 @@ Un archetype est un template de projet. Le fait d'utiliser des archetypes pour i
 
   
  
-     \subsubsection{Qu'est-ce que le groupId/artifactId ?}
+     \subsubsection{Le groupId/artifactId }
    Le groupId est l'identifiant du groupe, à l'origine du projet. GroupId suit les mêmes règles de nommage que les packages  Java (exemple : fr.masociete.monprojet), et on choisit généralement comme groupId le nom du top package du projet. \parencite{maven}.
    
    L'artifactId est l'identifiant du projet au sein de ce groupe. 
    
-   L'artifactId est utilisé par défaut pour construire le nom de l'artefact final (exemple : pour un artifactId=monprojet, le nom du fichier jar généré sera monprojet-version.jar).  \subsubsection{Qu'est-ce qu'un SNAPSHOT ?}
+   L'artifactId est utilisé par défaut pour construire le nom de l'artefact final (exemple : pour un artifactId=monprojet, le nom du fichier jar généré sera monprojet-version.jar).  \subsubsection{  SNAPSHOT  }
  
     Par convention, une version en cours de développement d'un projet voit son numéro de version suivi d'un -SNAPSHOT. 
     
@@ -331,7 +331,7 @@ Un archetype est un template de projet. Le fait d'utiliser des archetypes pour i
     Ce concept de SNAPSHOT est particulièrement important pour Maven. En effet, dans la gestion des dépendances, Maven va chercher à mettre à jour les versions SNAPSHOT régulièrement pour prendre en compte les derniers développements. 
     
     Utiliser une version SNAPSHOT permet de bénéficier des dernières fonctionnalités d'un projet, mais en contrepartie, cette version peut être (et est) appelée à être modifiée de façon importante, sans aucun préavis. \parencite{maven}.
-       \subsubsection{Qu'est-ce que le repository local, distant ?}
+       \subsubsection{Le repository local et distant }
     Un repository local est un répertoire sur le poste du développeur permettant de stocker, suivant la même arborescence, tous les artefacts téléchargés depuis le(s) repository distant(s). \cite{maven}.
     
     Un projet ayant pour POM :
@@ -637,7 +637,7 @@ En lançant le service Proxy, vous remarquerez qu'il est rajouté dans Eureka.
     	
     	\item Un client HTTP envoie la requête HTTP vers le proxy qui contient le nom de micro service.  
     	
-    	\item  Le service proxy connait le nom de micro service,  il va demander au service  de registration de lui donner la machine où se trouve ce micro service. 
+    	\item  Le service proxy connaît le nom de micro service, il va demander au service de registration de lui donner la machine où se trouve ce micro-service. 
     	
     	\item Le service registration  va retourner l'adresse IP et le port s'il a une instance ou une liste s'il a  plusieurs instances.
     	
@@ -677,12 +677,12 @@ En lançant le service Proxy, vous remarquerez qu'il est rajouté dans Eureka.
 \end{figure}
 
 }
-Nous avons instanciés le workflow dans plusieurs dimensions des cas (Voir le paragraphe 1.3.4.2).         
+Nous avons instanciés le workflow dans plusieurs dimensions des cas (voir le paragraphe 1.3.4.2).         
  
  
     Nous avons codé  les trois services pour l'orchestration des Micro-Service a  savoir service proxy, service  configuration et service   registration   pour  comme le montre  la figure \ref{fig:cloudms}.
     
-      De plus, nous avons codé un Master service paremente d'instancié le workflow pour déférent organisation c-à-d le fournisseur de service offre ses service via Master service.
+De plus, nous avons codé un master service paremente d'instancier le workflow pour déférente organisation c-à-d le fournisseur de services offre ses services via master service
  \begin{figure}[H]
  	\centering
  	\includegraphics[width=1\linewidth]{images/cloudMS}
@@ -690,11 +690,11 @@ Nous avons instanciés le workflow dans plusieurs dimensions des cas (Voir le pa
  	\label{fig:cloudms}
  \end{figure}
  
-     Suite a la demande de la \ac{cnr} nous avons instanciés notre workflow pour cette organisation et nous avons amélioré notre application suivent  leur  cahier de charge  (Voir \textbf{Annexe C} qui représente  L'organigramme de la CNR).  
+     Suite à la demande de la \ac{cnr} nous avons instanciés notre workflow pour cette organisation et nous avons amélioré notre application suivent  leur  cahier des charges  (Voir \textbf{Annexe C} qui représente  L'organigramme de la CNR).  
      
           
 \subsection{Obstacles}
-Nous avons essayé d'ouvrir un compte avec tous les fournisseurs de services cloud répertoriés dans la section 1.2.5 pour déployer les services que nous avons développés, mais ils ne sont pas gratuits.
+Nous avons essayé d'ouvrir un compte avec tous les fournisseurs de services cloud répertorier dans la section 1.2.5 pour déployer les services que nous avons développés, mais ils ne sont pas gratuits.
 
  
   
@@ -753,7 +753,7 @@ L'administrateur peut consulter le résultat de la recherche par tâche et l'ét
 
 
 \subsubsection{Gestion des  Sous-Directions et des Services }
- L'administrateur peut gérer des sous-direction et des services en ajoutant et en modifiant leurs informations.
+L'administrateur peut gérer des sous-directions et des services en ajoutant et en modifiant leurs informations.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{images/captures/capturesadmin/service}
@@ -777,7 +777,7 @@ L'administrateur peut consulter le résultat de la recherche par tâche et l'ét
 
 
 \subsubsection{Consultation des  Dossiers}
-Cette page permet à l'administrateur de voir tous les dossiers en cours de traitement et sont statut par la recherche.
+Cette page permet à l'administrateur de voir tous les dossiers en cours de traitement et son statut par la recherche.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{images/captures/capturesadmin/dossier}
@@ -810,7 +810,8 @@ La page d'accueil pour des utilisateurs de système "les employés".
 
 
 \subsubsection{Ajouter un dossier}
-L'utilisateur de réception créer des dossiers sur cette interface en remplir toutes les informations et en vérifiant les champs.
+
+L'utilisateur de réception crée des dossiers sur cette interface en remplir toutes les informations et en vérifiant les champs.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{images/captures/capturesuser/adddossier}
@@ -831,7 +832,7 @@ Affichez et filtrez les dossiers de la manière suivante: "En attente", "Traitem
 
 
 \subsubsection{ Gérer des  bordereaux }
-L'utilisateur peut sélectionner liste des dossiers et créer un Bordereau pour transformer et la gérer ("Accepter", "Refuse", "Imprimer").
+L'utilisateur peut sélectionner liste des dossiers et créer un bordereau pour transformer et la gérer ("Accepter", "Refuses", "Imprimer").
 
  
 
@@ -839,5 +840,5 @@ L'utilisateur peut sélectionner liste des dossiers et créer un Bordereau pour 
 
 \section{Conclusion}
 
-A travers ce chapitre, nous avons exposé l’architecture de la plateforme, les différents outils et technologies utilisés pour le développement d'un service cloud. Par la suite, nous avons présenté la \ac{cnr} comme dimension de cas. Enfin, nous avons présenté un aperçu de système que nous avons réalisée.
+À travers ce chapitre, nous avons exposé l’architecture de la plateforme, les différents outils et technologies utilisés pour le développement d'un service cloud. Par la suite, nous avons présenté la \ac{cnr}comme dimension de cas. Enfin, nous avons présenté un aperçu du système que nous avons réalisé.
 

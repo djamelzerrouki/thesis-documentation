@@ -239,7 +239,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.4.6}Spring Cloud Netflix}{47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5} Qu'est-ce que Micro Service?}{47}% 
+\contentsline {subsection}{\numberline {3.2.5} Micro Service }{47}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.5.1}Pourquoi l\IeC {\textquoteright }architecture de Microservices?}{48}% 
 \defcounter {refsection}{0}\relax 
@@ -263,21 +263,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.8}Maven}{50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.8.1}Qu'est-ce que Maven ?}{50}% 
+\contentsline {subsubsection}{\numberline {3.2.8.1} POM }{50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.8.2}Qu'est-ce que le POM ?}{50}% 
+\contentsline {subsubsection}{\numberline {3.2.8.2}Archetype }{51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.8.3}Qu'est-ce qu'un archetype ?}{51}% 
+\contentsline {subsubsection}{\numberline {3.2.8.3}D\IeC {\'e}pendance }{51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.8.4}Qu'est-ce qu'une d\IeC {\'e}pendance ?}{51}% 
+\contentsline {subsubsection}{\numberline {3.2.8.4}Artefact }{51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.8.5}Qu'est-ce qu'un artefact ?}{51}% 
+\contentsline {subsubsection}{\numberline {3.2.8.5}Le groupId/artifactId }{52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.8.6}Qu'est-ce que le groupId/artifactId ?}{52}% 
+\contentsline {subsubsection}{\numberline {3.2.8.6} SNAPSHOT }{52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.8.7}Qu'est-ce qu'un SNAPSHOT ?}{52}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.8.8}Qu'est-ce que le repository local, distant ?}{52}% 
+\contentsline {subsubsection}{\numberline {3.2.8.7}Le repository local et distant }{52}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Cr\IeC {\'e}ation d'un service cloud par spring et micro service :}{52}% 
 \defcounter {refsection}{0}\relax 

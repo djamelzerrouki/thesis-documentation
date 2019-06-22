@@ -12,7 +12,7 @@ I was expecting a `,' or a `}'---line 130 of file references.bib
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 174 of file references.bib
  :  
- :  YEAR = "1996",
+ :  YEAR = "1996"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Biblatex version: 3.11

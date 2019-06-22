@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  22 JUN 2019 02:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  22 JUN 2019 12:42
 entering extended mode
 **./main.tex
 (main.tex
@@ -1681,18 +1681,17 @@ Package pdftex.def Info: images/wf008.png  used on input line 929.
 ) [28 <./images/wf006.png> <./images/wf008.png>]
 Chapitre 2.
 (ch3.tex
-Overfull \hbox (6.15576pt too wide) in paragraph at lines 20--21
-[]\T1/cmr/m/n/12 L'OMG dé-fi-nit l'UML comme un lan-gage vi-suel dé-dié à la sp
-é-ci-fi-ca-tion,la construc-
- []
-
-[29
+Package acronym Info: Label `acro:up' newly defined as it shall be overridden
+although it is yet undefined on input line 4.
+Package acronym Info: Label `acro:uml' newly defined as it shall be overridden
+although it is yet undefined on input line 4.
+ [29
 
 ] [30]
 <images/usercase2.png, id=208, 531.1845pt x 545.6385pt>
 File: images/usercase2.png Graphic file (type png)
 <use images/usercase2.png>
-Package pdftex.def Info: images/usercase2.png  used on input line 156.
+Package pdftex.def Info: images/usercase2.png  used on input line 148.
 (pdftex.def)             Requested size: 426.81236pt x 676.0519pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1701,7 +1700,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <./images/usercase2.png>]
-Overfull \hbox (35.69315pt too wide) in paragraph at lines 167--190
+Overfull \hbox (33.80054pt too wide) in paragraph at lines 159--182
  [][] 
  []
 
@@ -1709,30 +1708,25 @@ Overfull \hbox (35.69315pt too wide) in paragraph at lines 167--190
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-Overfull \hbox (7.98738pt too wide) in paragraph at lines 238--250
-[][] 
- []
-
-
 Underfull \vbox (badness 7047) has occurred while \output is active []
 
  [34]
-Overfull \hbox (13.83594pt too wide) in paragraph at lines 286--298
+Overfull \hbox (0.64742pt too wide) in paragraph at lines 278--295
 [][] 
  []
 
 
-Overfull \hbox (9.33284pt too wide) in paragraph at lines 307--323
+Overfull \hbox (9.33284pt too wide) in paragraph at lines 304--316
 [][] 
  []
 
 [35]
-Overfull \hbox (13.34305pt too wide) in paragraph at lines 334--350
+Overfull \hbox (13.34305pt too wide) in paragraph at lines 327--343
 [][] 
  []
 
 
-Overfull \hbox (3.64954pt too wide) in paragraph at lines 356--372
+Overfull \hbox (3.64954pt too wide) in paragraph at lines 349--365
 [][] 
  []
 
@@ -1740,35 +1734,30 @@ Overfull \hbox (3.64954pt too wide) in paragraph at lines 356--372
 <images/class01.png, id=229, 784.73175pt x 496.254pt>
 File: images/class01.png Graphic file (type png)
 <use images/class01.png>
-Package pdftex.def Info: images/class01.png  used on input line 409.
+Package pdftex.def Info: images/class01.png  used on input line 402.
 (pdftex.def)             Requested size: 426.79024pt x 507.0356pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
 [38 <./images/class01.png>]
-Overfull \hbox (8.92491pt too wide) in paragraph at lines 449--461
+Overfull \hbox (8.92491pt too wide) in paragraph at lines 442--454
  [][] 
  []
 
 [39]
-Overfull \hbox (20.91742pt too wide) in paragraph at lines 592--605
+Overfull \hbox (20.91742pt too wide) in paragraph at lines 585--598
  [][] 
  []
 
 [40]
-Overfull \hbox (0.5473pt too wide) in paragraph at lines 611--612
-[]\T1/cmr/m/n/12 l'interaction de l'ac-teur ad-mi-nis-tra-teur avec le sys-tème
- il faut d'abord de connecté
- []
-
 <images/Dactiviti.png, id=244, 347.49825pt x 453.49425pt>
 File: images/Dactiviti.png Graphic file (type png)
 <use images/Dactiviti.png>
-Package pdftex.def Info: images/Dactiviti.png  used on input line 621.
+Package pdftex.def Info: images/Dactiviti.png  used on input line 614.
 (pdftex.def)             Requested size: 469.47307pt x 612.72363pt.
 
-Overfull \hbox (42.68173pt too wide) in paragraph at lines 621--622
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 614--615
  [][] 
  []
 
@@ -3269,10 +3258,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25034 strings out of 492946
- 410283 string characters out of 3125822
+ 25049 strings out of 492946
+ 410466 string characters out of 3125822
  939763 words of memory out of 3000000
- 28340 multiletter control sequences out of 15000+200000
+ 28355 multiletter control sequences out of 15000+200000
  27773 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,23n,92p,2003b,3304s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3309,9 +3298,9 @@ l/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
 /Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (92 pages, 5371905 bytes).
+Output written on main.pdf (92 pages, 5373349 bytes).
 PDF statistics:
- 1181 PDF objects out of 1200 (max. 8388607)
+ 1184 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  236 words of extra memory for PDF output out of 10000 (max. 10000000)
 

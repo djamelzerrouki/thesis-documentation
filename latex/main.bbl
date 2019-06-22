@@ -173,6 +173,28 @@
     \field{year}{2019}
   \endentry
 
+  \entry{uml}{online}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={MG},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Unified Modeling Language.}
+    \verb{url}
+    \verb www.uml.org
+    \endverb
+    \field{year}{2019}
+  \endentry
+
   \entry{Mell}{article}{}
     \name{author}{1}{}{%
       {{hash=M}{%
@@ -180,8 +202,8 @@
          familyi={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{M1}
-    \strng{fullhash}{M1}
+    \strng{namehash}{M2}
+    \strng{fullhash}{M2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2011}

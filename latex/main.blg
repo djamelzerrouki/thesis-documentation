@@ -5,12 +5,12 @@ A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Annexes.aux
 Database file #1: main-blx.bib
 Database file #2: references.bib
-I was expecting a `,' or a `}'---line 129 of file references.bib
+I was expecting a `,' or a `}'---line 130 of file references.bib
  :  
  :  journal="Circuits, Systems and Computers",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 173 of file references.bib
+I was expecting a `,' or a `}'---line 174 of file references.bib
  :  
  :  YEAR = "1996",
 (Error may have been on previous line)

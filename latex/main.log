@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  22 JUN 2019 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  22 JUN 2019 13:34
 entering extended mode
 **./main.tex
 (main.tex
@@ -1721,12 +1721,7 @@ Overfull \hbox (9.33284pt too wide) in paragraph at lines 304--316
  []
 
 [35]
-Overfull \hbox (13.34305pt too wide) in paragraph at lines 327--343
-[][] 
- []
-
-
-Overfull \hbox (3.64954pt too wide) in paragraph at lines 349--365
+Overfull \hbox (35.13762pt too wide) in paragraph at lines 326--342
 [][] 
  []
 
@@ -1734,19 +1729,19 @@ Overfull \hbox (3.64954pt too wide) in paragraph at lines 349--365
 <images/class01.png, id=229, 784.73175pt x 496.254pt>
 File: images/class01.png Graphic file (type png)
 <use images/class01.png>
-Package pdftex.def Info: images/class01.png  used on input line 402.
+Package pdftex.def Info: images/class01.png  used on input line 399.
 (pdftex.def)             Requested size: 426.79024pt x 507.0356pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
 [38 <./images/class01.png>]
-Overfull \hbox (8.92491pt too wide) in paragraph at lines 442--454
+Overfull \hbox (8.92491pt too wide) in paragraph at lines 439--451
  [][] 
  []
 
 [39]
-Overfull \hbox (20.91742pt too wide) in paragraph at lines 585--598
+Overfull \hbox (20.91742pt too wide) in paragraph at lines 582--595
  [][] 
  []
 
@@ -1754,10 +1749,10 @@ Overfull \hbox (20.91742pt too wide) in paragraph at lines 585--598
 <images/Dactiviti.png, id=244, 347.49825pt x 453.49425pt>
 File: images/Dactiviti.png Graphic file (type png)
 <use images/Dactiviti.png>
-Package pdftex.def Info: images/Dactiviti.png  used on input line 614.
+Package pdftex.def Info: images/Dactiviti.png  used on input line 610.
 (pdftex.def)             Requested size: 469.47307pt x 612.72363pt.
 
-Overfull \hbox (42.68173pt too wide) in paragraph at lines 614--615
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 610--611
  [][] 
  []
 
@@ -3298,9 +3293,9 @@ l/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
 /Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (92 pages, 5373349 bytes).
+Output written on main.pdf (92 pages, 5387987 bytes).
 PDF statistics:
- 1184 PDF objects out of 1200 (max. 8388607)
+ 1224 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  236 words of extra memory for PDF output out of 10000 (max. 10000000)
 

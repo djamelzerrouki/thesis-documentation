@@ -64,10 +64,13 @@
     \strng{fullhash}{CT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{year}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{title}{Workflow: la gestion globale des processus de l'entreprise.}
     \field{journaltitle}{Logiciels and Systèmes}
+    \field{year}{1996}
   \endentry
 
   \entry{cloud2019}{online}{}
@@ -173,6 +176,33 @@
     \field{year}{2019}
   \endentry
 
+  \entry{Georgakopoulos}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GD}{%
+         family={Georgakopoulos},
+         familyi={G\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Distributed}%
+      {Parallel Databases}%
+    }
+    \strng{namehash}{GD1}
+    \strng{fullhash}{GD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{pages}{119\bibrangedash 153}
+    \field{title}{workflow management from process modeling to workflow
+  automation infrastructure}
+    \field{year}{1995}
+  \endentry
+
   \entry{uml}{online}{}
     \name{author}{1}{}{%
       {{hash=M}{%
@@ -193,6 +223,31 @@
     \verb www.uml.org
     \endverb
     \field{year}{2019}
+  \endentry
+
+  \entry{McReady}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MS}{%
+         family={McReady},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Computerworld}%
+    }
+    \strng{namehash}{MS1}
+    \strng{fullhash}{MS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1992}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{pages}{86\bibrangedash 90}
+    \field{title}{There is more than one kind of Workflow software}
+    \field{year}{1992}
   \endentry
 
   \entry{Mell}{article}{}
@@ -256,11 +311,12 @@
     \field{labeldatesource}{year}
     \field{sortinit}{S}
     \field{sortinithash}{S}
+    \field{pages}{165\bibrangedash 176}
     \field{title}{Workflows in Dynamic Environments Can they be manage}
     \field{year}{1999}
   \endentry
 
-  \entry{Van-der-Aalst}{book}{}
+  \entry{VanderAalst}{book}{}
     \name{author}{1}{}{%
       {{hash=VW}{%
          family={VanDerAalst},
@@ -287,26 +343,34 @@
     \field{year}{1997}
   \endentry
 
-  \entry{Van-der-Aalst98}{book}{}
+  \entry{Voorhoeve}{article}{}
     \name{author}{1}{}{%
-      {{hash=VW}{%
-         family={VanDerAalst98},
+      {{hash=VM}{%
+         family={Voorhoeve},
          familyi={V\bibinitperiod},
-         given={W.M.P.},
-         giveni={W\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
       }}%
     }
     \list{publisher}{2}{%
-      {P. Azema}%
-      {G. Balbo, editors,}%
+      {Database}%
+      {Expert Systems Applications}%
     }
-    \strng{namehash}{VW2}
-    \strng{fullhash}{VW2}
+    \strng{namehash}{VM1}
+    \strng{fullhash}{VM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{19997}
+    \field{labeldatesource}{year}
     \field{sortinit}{V}
     \field{sortinithash}{V}
-    \field{title}{The Application of Petri Nets to Workflow Management}
+    \field{pages}{36\bibrangedash 41}
+    \field{title}{Ad-hoc Workflow: Problems and Solutions}
+    \list{location}{1}{%
+      {Toulouse a France}%
+    }
+    \field{journaltitle}{the 8 th DEXA Workshop Conference}
+    \field{year}{19997}
   \endentry
 
   \entry{Vouk2008}{book}{}
@@ -334,29 +398,18 @@
   \endentry
 
   \entry{Wang2008}{book}{}
-    \name{author}{2}{}{%
-      {{hash=WTJKMCACKDL}{%
-         family={Wang},
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wang08},
          familyi={W\bibinitperiod},
-         suffix={L.},
-         suffixi={L\bibinitperiod},
-         given={Tao J. Kunze M. Castellanos A. C. Kramer\bibnamedelima D.},
-         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
-  K\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  C\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=K}{%
-         family={Karl},
-         familyi={K\bibinitperiod},
       }}%
     }
     \list{publisher}{2}{%
       {the 10th IEEE Int. Conf on High Performance computing}%
       {Communications}%
     }
-    \strng{namehash}{WLTJKMCACKDK1}
-    \strng{fullhash}{WLTJKMCACKDK1}
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2008}
@@ -369,6 +422,30 @@
       {Washington, DC, USA}%
     }
     \field{year}{2008}
+  \endentry
+
+  \entry{WFMC11}{article}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={WfMCTC1011},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W2}
+    \strng{fullhash}{W2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{year}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{pages}{1\bibrangedash 64}
+    \field{title}{Terminology and Glossary}
+    \verb{url}
+    \verb https://www.wfmc.org/docs/TC-1011_term_glossary_v3.pdf
+    \endverb
+    \field{journaltitle}{The Workflow Management Coalition Specification}
+    \field{year}{1999}
   \endentry
 
   \entry{mvc}{online}{}

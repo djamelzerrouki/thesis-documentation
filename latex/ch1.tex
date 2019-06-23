@@ -212,9 +212,9 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 A l’heure actuelle plus de 250 Systèmes de Gestion de Workflow (WFMS) sont utilisés ou en développement. Cela signifie que le terme « gestion de Workflow » n’est pas simplement une nouvelle expression à la mode. Ce phénomène de gestion de processus (Workflow) aura certainement un fort impact sur la génération suivante de systèmes informatiques \parencite{Courtois}. 
  	 
  \subsection{Origines} 
- 	 Il est intéressant de considérer l’évolution des systèmes informatiques au cours des quatre dernières décennies \parencite{Van-der-Aalst} pour prendre conscience de la pertinence d’une gestion électronique de processus (Workflow) et apprécier l’impact de la gestion de Workflow dans un avenir proche.
+ 	 Il est intéressant de considérer l’évolution des systèmes informatiques au cours des quatre dernières décennies \parencite{VanderAalst} pour prendre conscience de la pertinence d’une gestion électronique de processus (Workflow) et apprécier l’impact de la gestion de Workflow dans un avenir proche.
  	 
- 	  La Figure \ref{fig:wfmchistory} présente le phénomène de gestion de Workflow dans une perspective historique. Cette figure décrit l’architecture d’un système informatique classique en termes de composants. Dans les années soixante, un système informatique était composé d’un certain nombre d’applications autonomes. Pour chacune de ces applications une interface utilisateur et un système de base de données spécifique étaient développés, chaque application possédait donc ses propres routines pour interagir avec l’utilisateur, stocker et récupérer les données. Dans les années soixante-dix, le développement des \ac{sgbd} a permis d’extraire les données des applications. En utilisant les SGBD, les applications ont ainsi été libérées du fardeau de la gestion de données. Dans les années quatre vingts, l’apparition de systèmes de gestion d’interface utilisateur \ac{uims} a permis aux développeurs d’application d’extraire l’interaction avec les utilisateurs des applications. Enfin, les années quatre-vingt-dix sont marquées par l’apparition de logiciels de Workflow, permettant aux développeurs d’application d’extraire les procédures de travail des applications. La Figure \ref{fig:wfmchistory} fait apparaître le système de gestion de Workflow comme une composante générique pour représenter et manipuler les processus d’entreprise \footnote[1]{\samepage Les procédures d’entreprise représentent l’organisation et la politique de l’entreprise pour atteindre certains objectifs [WFMC11 99] }. 
+ 	  La Figure \ref{fig:wfmchistory} présente le phénomène de gestion de Workflow dans une perspective historique. Cette figure décrit l’architecture d’un système informatique classique en termes de composants. Dans les années soixante, un système informatique était composé d’un certain nombre d’applications autonomes. Pour chacune de ces applications une interface utilisateur et un système de base de données spécifique étaient développés, chaque application possédait donc ses propres routines pour interagir avec l’utilisateur, stocker et récupérer les données. Dans les années soixante-dix, le développement des \ac{sgbd} a permis d’extraire les données des applications. En utilisant les SGBD, les applications ont ainsi été libérées du fardeau de la gestion de données. Dans les années quatre vingts, l’apparition de systèmes de gestion d’interface utilisateur \ac{uims} a permis aux développeurs d’application d’extraire l’interaction avec les utilisateurs des applications. Enfin, les années quatre-vingt-dix sont marquées par l’apparition de logiciels de Workflow, permettant aux développeurs d’application d’extraire les procédures de travail des applications. La Figure \ref{fig:wfmchistory} fait apparaître le système de gestion de Workflow comme une composante générique pour représenter et manipuler les processus d’entreprise \footnote[1]{\samepage Les procédures d’entreprise représentent l’organisation et la politique de l’entreprise pour atteindre certains objectifs \parencite{WFMC11} }. 
  	  
  	  Ainsi, à l’heure actuelle, beaucoup d’organisations commencent à considérer l’utilité d’outils avancés pour soutenir la conception et l’exécution de leurs processus d’entreprise.
  	 
@@ -230,11 +230,11 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
  	 \subsection{Définitions et terminologies }
  	 
- 	 Les définitions sont, pour la majorité, issues de la Coalition de Gestion de Workflow \ac{wfmc}. La WfMC a été fondée en 1993 par un regroupement d’industriels de l’informatique, de chercheurs et d’utilisateurs, associée à l’essor du développement des Workflows. Cette coalition a pour but de promouvoir les Workflow et d’établir des standards pour les \ac{wfms}. Elle a en particulier publié un glossaire de référence contenant les terminologies employées dans ce domaine [WFMC03 95 ; WFMC11 99]. Ces standards servent notamment à résoudre les problèmes d’interopérabilité entre systèmes Workflow mais également à définir les caractéristiques fondamentales de ces systèmes. Les documents publiés par la WfMC, qui couvrent plusieurs aspects, peuvent être considérés comme des références en la matière. 
+ 	 Les définitions sont, pour la majorité, issues de la Coalition de Gestion de Workflow \ac{wfmc}. La WfMC a été fondée en 1993 par un regroupement d’industriels de l’informatique, de chercheurs et d’utilisateurs, associée à l’essor du développement des Workflows. Cette coalition a pour but de promouvoir les Workflow et d’établir des standards pour les \ac{wfms}. Elle a en particulier publié un glossaire de référence contenant les terminologies employées dans ce domaine \parencite{WFMC11}. Ces standards servent notamment à résoudre les problèmes d’interopérabilité entre systèmes Workflow mais également à définir les caractéristiques fondamentales de ces systèmes. Les documents publiés par la WfMC, qui couvrent plusieurs aspects, peuvent être considérés comme des références en la matière. 
  	
  	\subsection{Définitions de base du Workflow } 
  	 
- 	 Le sens du mot Workflow peut varier en fonction du contexte. Pour plus de clarté, les définitions les plus communément admises sur les concepts et les termes du Workflow sont rappelées ci dessous. Ces définitions sont principalement issues du \ac{wfmc-tc}-1011 [WFMC11 99], dont il existe une traduction à usage francophone [WFMC03f 98]. L’idée première du Workflow est donc de séparer les processus, les ressources et les applications, afin de se recentrer sur la logistique des processus travail et non pas sur le contenu des tâches individuelles. Un Workflow est donc le lien entre ces trois domaines comme précise la Figure \ref{fig:environnementswf}. 
+ 	 Le sens du mot Workflow peut varier en fonction du contexte. Pour plus de clarté, les définitions les plus communément admises sur les concepts et les termes du Workflow sont rappelées ci dessous. Ces définitions sont principalement issues du \ac{wfmc-tc} \parencite{WFMC11}, dont il existe une traduction à usage francophone \parencite{WFMC11}. L’idée première du Workflow est donc de séparer les processus, les ressources et les applications, afin de se recentrer sur la logistique des processus travail et non pas sur le contenu des tâches individuelles. Un Workflow est donc le lien entre ces trois domaines comme précise la Figure \ref{fig:environnementswf}. 
  	 
  	 
  	 
@@ -261,11 +261,11 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
  	 Pour résumer, la Gestion de Processus permet donc d’attribuer à chacun et au bon moment, les tâches dont il a la responsabilité et de mettre à disposition les applications, les outils et les informations nécessaires pour leurs réalisations. Dans un contexte d’acteurs humains, le Workflow permet de décharger les acteurs de certaines tâches de gestion administrative, en leur laissant la possibilité de se concentrer sur les contenus des tâches techniques en rapport avec leurs compétences. De plus, le Workflow donne la possibilité d’effectuer une activité de monitoring sur le déroulement des Workflow de l’entreprise, permettant en particulier de connaître, en fonction de la date, l’état des activités, des acteurs, des applications et quelles sont les prochaines activités planifiées. 
  	 
- 	 En synthèse, La WfMC présente le Workflow comme l’automatisation d’un processus d’entreprise, en intégralité ou en partie, pendant laquelle on définit les transmissions des documents, de l’information ou des tâches d’un participant à un autre pour agir, selon un jeu de règles procédurales [WFMC11 99]. Un Système Workflow définit, gère et exécute des procédures en exécutant des programmes dont l’ordre d’exécution est prédéfini dans une représentation informatique de la logique de ces procédures - les Workflow [WFMC11 99]. 
+ 	 En synthèse, La WfMC présente le Workflow comme l’automatisation d’un processus d’entreprise, en intégralité ou en partie, pendant laquelle on définit les transmissions des documents, de l’information ou des tâches d’un participant à un autre pour agir, selon un jeu de règles procédurales \parencite{WFMC11}. Un Système Workflow définit, gère et exécute des procédures en exécutant des programmes dont l’ordre d’exécution est prédéfini dans une représentation informatique de la logique de ces procédures - les Workflow \parencite{WFMC11}. 
  	 
  	 \comment{
  	 \subsubsection{ Méta Modèle basique }
- 	 Le Workflow est basé sur un ensemble de concepts. La WfMC [WFMC11 99] a proposé un méta modèle de Définition de Procédures, qui identifie les concepts de haut niveau dans la Définition de Processus. Ce modèle permet de mieux appréhender les concepts et leurs interrelations. 
+ 	 Le Workflow est basé sur un ensemble de concepts. La WfMC \parencite{WFMC11} a proposé un méta modèle de Définition de Procédures, qui identifie les concepts de haut niveau dans la Définition de Processus. Ce modèle permet de mieux appréhender les concepts et leurs interrelations. 
  	 
  	 
  	 
@@ -273,7 +273,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{images/MetaMWFMC11-99}
-	\caption{Méta modèle Workflow pour la définition de Processus [WFMC11 99]}
+	\caption{Méta modèle Workflow pour la définition de Processus \parencite{WFMC11}}
 	\label{fig:metamwfmc11-99}
 \end{figure}
  	 
@@ -281,7 +281,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
  	}
  	 \subsubsection{Dimensions}
- 	 Associé aux définitions précédentes, il a été défini une représentation tridimensionnelle des systèmes Workflow \parencite{Van-der-Aalst98} (Figure \ref{fig:dimensionswf}). 
+ 	 Associé aux définitions précédentes, il a été défini une représentation tridimensionnelle des systèmes Workflow \parencite{VanderAalst} (Figure \ref{fig:dimensionswf}). 
  	 
  	 
 \begin{figure}[H]
@@ -293,7 +293,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 La Figure \ref{fig:dimensionswf} donne une représentation tridimensionnelle d’un Workflow : avec une dimension de cas, une dimension de processus et une dimension de ressource. La dimension de cas représente l’instanciation du Workflow, chaque cas est un modèle à simuler et traiter individuellement. Les cas ne s’influencent donc pas directement. Ils peuvent éventuellement s’influencer indirectement via les ressources et les données. Le processus de Workflow est spécifié dans la dimension de processus, c’est-à-dire, la définition des tâches et de leur enchaînement. Enfin, dans la dimension de ressource, les ressources sont regroupées en rôles et en unités organisationnelles. En résumé, nous pouvons donc visualiser un certain nombre de termes Workflow dans la vue tridimensionnelle de la Figure 16. En particulier, une entité de travail est définie par la coordonnée cas + tâche et une activité par le cas + la tâche + la ressource. Cette représentation met en relief la gestion de Workflow comme le lien entre les cas, les tâches et l’organisation. 
  	 
  	 \subsection{Description des Systèmes Workflow }
- 	 Après avoir présenté la terminologie Workflow, il est maintenant possible de présenter le principe de fonctionnement des systèmes Workflow. A un haut niveau, ce type de système est composé de trois parties fonctionnelles [WFMC03 95]. La Figure \ref{fig:dswf} illustre un Système de gestion de Workflow et les relations entre ses différentes fonctions. 
+ 	 Après avoir présenté la terminologie Workflow, il est maintenant possible de présenter le principe de fonctionnement des systèmes Workflow. A un haut niveau, ce type de système est composé de trois parties fonctionnelles \parencite{WFMC11}. La Figure \ref{fig:dswf} illustre un Système de gestion de Workflow et les relations entre ses différentes fonctions. 
  	 
  	 
  	 
@@ -331,7 +331,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
  	\subsection{Concepts et Terminologie Workflow fondamentaux } 
  	 
- 	 Les principaux termes associés aux Workflow proposés par la WfMC [WFMC11 99] sont présentés dans le diagramme du méta modèle Workflow ci-dessus, ce diagramme permet également de mettre en évidence leurs interrelations. Les termes présentés ci-dessous en français avec la traduction anglaise originale associée, couvrent les notions plus importantes appartenant au Workflow et à son lexique [WFMC11 99]. 
+ 	 Les principaux termes associés aux Workflow proposés par la WfMC \parencite{WFMC11} sont présentés dans le diagramme du méta modèle Workflow ci-dessus, ce diagramme permet également de mettre en évidence leurs interrelations. Les termes présentés ci-dessous en français avec la traduction anglaise originale associée, couvrent les notions plus importantes appartenant au Workflow et à son lexique \parencite{WFMC11}. 
  	 
  	 \subsubsection{Procédure Workflow (Workflow Process) }
  	 
@@ -341,7 +341,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 \subsubsection{Activité (Process Activity) }
  	 Une activité est une étape d’un processus au cours de laquelle une action élémentaire est exécutée. On désigne par « action élémentaire » (ou tâche) une activité qui n’est plus décomposable en sous-procédures. La WfMC distingue une « activité manuelle », qui n’est pas contrôlée par le système Workflow, et une « activité Workflow » qui est sous le contrôle du Workflow. Un exemple d’une activité manuelle est l’ouverture d’un courrier. Une activité Workflow peut être le remplissage d’un formulaire électronique. Il existe donc des exemples d’activités manuelles intégrables dans un Workflow. 
  	 
- 	 \parencite{Van-der-Aalst98} présente l’activité Workflow comme l’intersection entre une ressource humaine ou matérielle et un bon de travail dans le cadre de l’exécution d’une tâche. Dans cette représentation, une ressource du modèle organisationnel est donc exigée pour qu’une tâche puisse être instanciée en activité et allouée à un participant de Workflow. 
+ 	 \parencite{VanderAalst} présente l’activité Workflow comme l’intersection entre une ressource humaine ou matérielle et un bon de travail dans le cadre de l’exécution d’une tâche. Dans cette représentation, une ressource du modèle organisationnel est donc exigée pour qu’une tâche puisse être instanciée en activité et allouée à un participant de Workflow. 
  	 
  	 
  	 
@@ -358,7 +358,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 \subsubsection{ Rôle (Role) }
  	 
  	 
- 	 Un rôle décrit en général les compétences d’un acteur dans le processus ou sa position dans l’organisation. Un rôle est associé à la réalisation d’une ou de plusieurs activités. Plusieurs acteurs peuvent tenir un même rôle. La WfMC distingue deux types de rôles [WFMC11 99] :
+ 	 Un rôle décrit en général les compétences d’un acteur dans le processus ou sa position dans l’organisation. Un rôle est associé à la réalisation d’une ou de plusieurs activités. Plusieurs acteurs peuvent tenir un même rôle. La WfMC distingue deux types de rôles \parencite{WFMC11} :
  	 
  	 Les rôles organisationnels définissent un ensemble de compétences qu’un acteur possède. Ce rôle définit la position de l’acteur dans une organisation. Les rôles procéduraux définissent une liste d’activités qu’un acteur est en capacité d’exécuter. 
  	 
@@ -386,11 +386,11 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
 
 \section{Classification des systèmes Workflow}
 
-Il n’existe pas de classification commune des systèmes Workflow dans la littérature, reconnue par l’ensemble de la communauté Workflow \parencite{Van-der-Aalst}. Ceci étant essentiellement dû au nombre important de critères de classification qu’il est possible de retenir.
+Il n’existe pas de classification commune des systèmes Workflow dans la littérature, reconnue par l’ensemble de la communauté Workflow \parencite{VanderAalst}. Ceci étant essentiellement dû au nombre important de critères de classification qu’il est possible de retenir.
 En effet, les spécialistes adoptent différents points de vue par rapport à la notion de Workflow, les critères qui en découlent varient donc en fonction de leurs perceptions des caractéristiques présentées par ces systèmes Workflow. Ainsi, il existe plusieurs classifications, permettant de sélectionner un outil de gestion de Workflow avec différents « éclairages » sur le sujet.
 
-Malgré ce manque d’unité, la classification proposée par [McCREADY 92] est assez répandue dans la littérature, elle est reprise par bon nombre d’auteurs \parencite{Van-der-Aalst98},
-[GEORGAKOPOULOS 95]. Elle propose de distinguer quatre catégories de Systèmes Workflow. La Figure fig:classification-de-workflow présente ces différentes classes selon deux axes : Approche et Structure.
+Malgré ce manque d’unité, la classification proposée par \parencite{McReady} est assez répandue dans la littérature, elle est reprise par bon nombre d’auteurs \parencite{VanderAalst},
+\parencite{Georgakopoulos}. Elle propose de distinguer quatre catégories de Systèmes Workflow. La Figure fig:classification-de-workflow présente ces différentes classes selon deux axes : Approche et Structure.
 
 \begin{figure}[h]
 	\centering
@@ -411,8 +411,7 @@ Les systèmes Workflow administratifs (General Purpose Workflow Management Syste
 d’enchaînement des tâches sont très simples et clairement définis ; ces procédures sont donc
 aisément automatisables, évitant ainsi un travail fastidieux où peuvent naître des erreurs souvent humaines. Les systèmes Workflow administratifs permettent de lier à une tâche administrative, les documents et les informations nécessaires à la réalisation de cette tâche par un acteur humain. Ces systèmes gèrent également le routage des documents et le remplissage de
 formulaires. La gestion par Workflow de procédures administratives permet un gain de
-l’ordre de 5\% à 10\% en termes de productivité et de 30 à 90\% en termes de délais [ADER
-99]. Enfin une dernière raison de l’automatisation de ce type de procédures en Workflow provient du fait que ces procédures possèdent une structure statique et ne sont donc pas souvent
+l’ordre de 5\% à 10\% en termes de productivité et de 30 à 90\% en termes de délais [ADER 99]. Enfin une dernière raison de l’automatisation de ce type de procédures en Workflow provient du fait que ces procédures possèdent une structure statique et ne sont donc pas souvent
 assujetties à modifications car elles possèdent une longue durée d’utilisation [SCHEER 97]. 
 \subsection{Workflow de production} 
 Les systèmes Workflow de production impliquent des procédures prévisibles et assez répétitives. Leurs principales différences avec les Workflow administratifs résident dans la
@@ -433,21 +432,20 @@ l’exécution de certaines procédures ne peut pas toujours se poursuivre de ma
 état particulier. Dans ce cas, il est nécessaire de faire intervenir des acteurs humains pour la
 prise de décision. Pour ce faire, le système Workflow de production peut faire appel à un autre système, de type collecticiel ou un autre système Workflow ad hoc, qui servira d’interface
 pour l’exécution dirigée par un acteur humain de la suite de la procédure. Ce type de Workflow est dit « composite » [EDER 96]. Enfin, dans la littérature, les systèmes Workflow de
-production sont également appelés case-based \parencite{Van-der-Aalst98}. 
+production sont également appelés case-based \parencite{VanderAalst}. 
 
 \subsection{Workflow adaptable ou Workflow ad hoc }
-L’impossibilité pour les systèmes de gestion de Workflow traditionnels de traiter les différents changements dynamiques dans les flux de travail est une limite à dépasser. A ce titre, il a été introduit les concepts de Workflow adaptable (adaptive Workflow) [VAN DER
-AALST 98c] et de Workflow ad hoc [VOORHOEVE 97]. La nuance entre ces deux nouveaux termes provient du fait qu’ad hoc désigne un acte spécialement fait pour un objet déterminé alors qu’adaptable prévoit un changement définitif de la procédure. 
+L’impossibilité pour les systèmes de gestion de Workflow traditionnels de traiter les différents changements dynamiques dans les flux de travail est une limite à dépasser. A ce titre, il a été introduit les concepts de Workflow adaptable (adaptive Workflow) \parencite{VanderAalst} et de Workflow ad hoc \parencite{Voorhoeve}•. La nuance entre ces deux nouveaux termes provient du fait qu’ad hoc désigne un acte spécialement fait pour un objet déterminé alors qu’adaptable prévoit un changement définitif de la procédure. 
 
 Les Workflow ad hoc se situent à la frontière gauche de la représentation Figure \ref{fig:classification-de-workflow} dans
 la « sphère » Workflow adaptable. Ils régissent des procédures dont la structure est déterminée pendant l’exécution en fonction des décisions humaines prises suite à la réalisation d’une
 tâche, plus concrètement, la structure se construit par pas en suivant le rythme de l’exécution. En effet, la réalisation d’une procédure non structurée peut impliquer à chaque fois l’exécution d’un nouvel enchaînement des tâches, voire la création de nouvelles tâches. Il n’y a pas a priori de persistance de l’enchaînement de ces tâches.
 
 Les Workflow adaptables sont, quant à eux, des supports comparables aux Workflow de
-production classiques possédant une structure préétablie, mais pouvant traiter certains changements de structure « en ligne ». Ces changements peuvent aller des changements individuels/ad hoc (gestion d’exception), c’est à dire d’un aiguillage pour déterminer l’activité suivante, jusqu'à la reconception par \ac{bpr} de processus [VAN DER AALST 98d]. En conclusion, ils ont une action globale pouvant inclure la définition du Workflow ad hoc  
+production classiques possédant une structure préétablie, mais pouvant traiter certains changements de structure « en ligne ». Ces changements peuvent aller des changements individuels/ad hoc (gestion d’exception), c’est à dire d’un aiguillage pour déterminer l’activité suivante, jusqu'à la reconception par \ac{bpr} de processus \parencite{VanderAalst}. En conclusion, ils ont une action globale pouvant inclure la définition du Workflow ad hoc  
 
 Il est intéressant de classifier les différents changements possibles par un Workflow adaptables, dans le but de mieux les anticiper  \parencite{Sadiq}. Les changements sont envisageables
-selon plusieurs perspectives : la ressource, le contrôle, la procédure, la tâche et le système [VAN DER AALST 98d].
+selon plusieurs perspectives : la ressource, le contrôle, la procédure, la tâche et le système \parencite{VanderAalst}.
 
 
 \subsection{Modèle de référence des systèmes Workflow }

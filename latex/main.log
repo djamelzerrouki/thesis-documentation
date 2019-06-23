@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  23 JUN 2019 12:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  23 JUN 2019 17:12
 entering extended mode
 **./main.tex
 (main.tex
@@ -1710,48 +1710,63 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <./images/usercase2.png>]
-Overfull \hbox (33.80054pt too wide) in paragraph at lines 159--182
+Overfull \hbox (33.80054pt too wide) in paragraph at lines 159--188
  [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (13.31798pt too wide) in paragraph at lines 220--232
+[][] 
+ []
 
- [33]
-Underfull \vbox (badness 7047) has occurred while \output is active []
-
- [34]
-Overfull \hbox (0.64742pt too wide) in paragraph at lines 278--295
+[33]
+Overfull \hbox (2.77618pt too wide) in paragraph at lines 236--248
 [][] 
  []
 
 
-Overfull \hbox (9.33284pt too wide) in paragraph at lines 304--316
+Overfull \hbox (0.64742pt too wide) in paragraph at lines 285--302
 [][] 
  []
 
-[35]
-Overfull \hbox (35.13762pt too wide) in paragraph at lines 326--342
+[34]
+Overfull \hbox (4.83394pt too wide) in paragraph at lines 311--323
 [][] 
  []
 
-[36]
+
+Underfull \vbox (badness 2351) has occurred while \output is active []
+
+ [35]
+Overfull \hbox (35.13762pt too wide) in paragraph at lines 333--349
+[][] 
+ []
+
+
+Overfull \hbox (6.26552pt too wide) in paragraph at lines 355--371
+[][] 
+ []
+
+
+Underfull \vbox (badness 1881) has occurred while \output is active []
+
+ [36]
 <images/class01.png, id=233, 784.73175pt x 496.254pt>
 File: images/class01.png Graphic file (type png)
 <use images/class01.png>
-Package pdftex.def Info: images/class01.png  used on input line 399.
+Package pdftex.def Info: images/class01.png  used on input line 406.
 (pdftex.def)             Requested size: 426.79024pt x 507.0356pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
 [38 <./images/class01.png>]
-Overfull \hbox (8.92491pt too wide) in paragraph at lines 439--451
+Overfull \hbox (8.92491pt too wide) in paragraph at lines 446--458
  [][] 
  []
 
 [39]
-Overfull \hbox (20.91742pt too wide) in paragraph at lines 582--595
+Overfull \hbox (20.91742pt too wide) in paragraph at lines 589--602
  [][] 
  []
 
@@ -1759,15 +1774,15 @@ Overfull \hbox (20.91742pt too wide) in paragraph at lines 582--595
 <images/Dactiviti.png, id=248, 347.49825pt x 453.49425pt>
 File: images/Dactiviti.png Graphic file (type png)
 <use images/Dactiviti.png>
-Package pdftex.def Info: images/Dactiviti.png  used on input line 610.
+Package pdftex.def Info: images/Dactiviti.png  used on input line 617.
 (pdftex.def)             Requested size: 469.47307pt x 612.72363pt.
 
-Overfull \hbox (42.68173pt too wide) in paragraph at lines 610--611
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 617--618
  [][] 
  []
 
 
-Underfull \vbox (badness 1448) has occurred while \output is active []
+Underfull \vbox (badness 3364) has occurred while \output is active []
 
  [41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3263,10 +3278,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25081 strings out of 492946
- 411089 string characters out of 3125822
+ 25085 strings out of 492946
+ 411133 string characters out of 3125822
  939763 words of memory out of 3000000
- 28387 multiletter control sequences out of 15000+200000
+ 28391 multiletter control sequences out of 15000+200000
  27760 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,23n,92p,2003b,3304s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3303,7 +3318,7 @@ l/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
 /Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (93 pages, 5396088 bytes).
+Output written on main.pdf (93 pages, 5396102 bytes).
 PDF statistics:
  1242 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

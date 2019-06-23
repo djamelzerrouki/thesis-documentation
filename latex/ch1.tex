@@ -677,7 +677,7 @@ Les Réseaux de Petri (RdPs)  constituent un formalisme majeur pour modéliser l
 
 
 \subsection{Qu'est-ce que les réseaux de Pétri }
-Les réseaux de Pétri sont définis comme étant un formalisme qui permet la description et l'analyse du comportement des systèmes concurrents, introduit par Carl Adam Pétri en 1962. [1]  
+Les réseaux de Pétri sont définis comme étant un formalisme qui permet la description et l'analyse du comportement des systèmes concurrents, introduit par Carl Adam Pétri en 1962. \parencite{Rdp}
 
 \subsection{L'aspect structurel}
 
@@ -705,7 +705,7 @@ Les réseaux de Pétri sont définis comme étant un formalisme qui permet la de
 
 
 \subsubsection*{Représentation graphique} 
-L'un des aspects les plus agréables des réseaux de Pétri est qu'il est extrêmement aisé de les visualiser; c.-à-d., donner une interprétation graphique à sa structure qui peut être représentée à travers un graphe bipartie fait de deux types de sommets: les places et les transitions reliées alternativement par des arcs orientés qui portent des poids entiers positifs, si un poids n'est pas porté alors il est égal à 1 (RdP ordinaire). Généralement, les places sont représentées par des cercles et les transitions par des rectangles, le marquage d'un RdP est représenté par la distribution de jetons dans l'ensemble de ses places telle que chaque place peut contenir un ou plusieurs jetons représentés par des points dans le cercle représentant la place. [2]
+L'un des aspects les plus agréables des réseaux de Pétri est qu'il est extrêmement aisé de les visualiser; c.-à-d., donner une interprétation graphique à sa structure qui peut être représentée à travers un graphe bipartie fait de deux types de sommets: les places et les transitions reliées alternativement par des arcs orientés qui portent des poids entiers positifs, si un poids n'est pas porté alors il est égal à 1 (RdP ordinaire). Généralement, les places sont représentées par des cercles et les transitions par des rectangles, le marquage d'un RdP est représenté par la distribution de jetons dans l'ensemble de ses places telle que chaque place peut contenir un ou plusieurs jetons représentés par des points dans le cercle représentant la place. \parencite{Rdp}
 
 
 
@@ -716,7 +716,7 @@ L'un des aspects les plus agréables des réseaux de Pétri est qu'il est extrê
 	\label{fig:petrif01}
 \end{figure}
 \subsubsection*{ Représentation matricielle} 
-Une représentation matricielle d'un RdP est offerte afin de simplifier les Tâches d'analyse et de vérification effectuée sur un modèle RdP. Agir sur une représentation graphique d'un modèle RdP est une Tâche délicate en comparant avec une représentation matricielle. Il   est possible de représenter la fonction W (fonction de poids) par des matrices.[2] 
+Une représentation matricielle d'un RdP est offerte afin de simplifier les Tâches d'analyse et de vérification effectuée sur un modèle RdP. Agir sur une représentation graphique d'un modèle RdP est une Tâche délicate en comparant avec une représentation matricielle. Il   est possible de représenter la fonction W (fonction de poids) par des matrices.\parencite{Rdp}
 
 \begin{defn}\textbf{\textbf{(Réseau de pétri):}}
 	Soit Un réseau de pétri $ R= (P, T, W) $ avec $ P= \{p1, p2, …, pm\} $ et $ T= \{t1, t2, …,tn \}$, on appelle matrice des pré conditions   pré la matrice  $  m \times n $   à coefficients dans  N  tel que $ pre (i,j)= W(p_{i}, t_{j}) $,  elle indique le nombre de marques que doit contenir la place $p_{i}$ pour que la transition $ tj $  devienne franchissable, de la même manière on définit la matrice des post conditions post  la matrice $ n  \times m $ tel que $ post (i,j)= W(tj,  p_{i}) $ contient le nombre de   marques déposées dans $p_{i}$ lors du franchissement de la transition $t_{j}$. La matrice C= post – pré est appelée matrice d'incidence du réseau (m représente le nombre de places d'un réseau de Pétri et n le nombre de transitions.). 
@@ -740,7 +740,7 @@ Un réseau de Pétri marqué est le couple $ N = < R , M > $ où :
 
 $ M(p) $ est le nombre de marques (jetons) contenus dans la place p. Le marquage d’un réseau de Pétri est une opération qui consiste à assigner des jetons dans les places.
 
-On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques dans chaque place : la $ I^{eme} $ composante  correspond au nombre de marques dans la $ I^{eme} $   place. Il indique à un instant donné l'état du RdP.[2]   
+On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques dans chaque place : la $ I^{eme} $ composante  correspond au nombre de marques dans la $ I^{eme} $   place. Il indique à un instant donné l'état du RdP.\parencite{Rdp}   
 
 
 \begin{exmp}

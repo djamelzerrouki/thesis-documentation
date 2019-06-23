@@ -167,25 +167,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.4.1} S\IeC {\textquoteright }authentifier }{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4.2}Cr\IeC {\'e}er circuit Workflow}{34}% 
+\contentsline {subsubsection}{\numberline {2.2.4.2}Cr\IeC {\'e}er circuit Workflow}{33}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.4.3}G\IeC {\'e}rer les Services}{34}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.4.4}G\IeC {\'e}rer utilisateur }{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4.5}Consulter Historique }{35}% 
+\contentsline {subsubsection}{\numberline {2.2.4.5}Consulter Historique }{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4.6}cas d'utilisation par l'utilisateur r\IeC {\'e}ception ou initial }{35}% 
+\contentsline {subsubsection}{\numberline {2.2.4.6}Cas d'utilisation par l'utilisateur r\IeC {\'e}ception }{34}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.4.7}Cr\IeC {\'e}er Dossiers}{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4.8}Activer Dossiers}{36}% 
+\contentsline {subsubsection}{\numberline {2.2.4.8}Activer Dossiers}{35}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.4.9}cas d'utilisation par l'utilisateur simple }{36}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.4.10}Consulter \IeC {\'e}tat des Dossiers}{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4.11}Finir le traitement des Dossiers}{37}% 
+\contentsline {subsubsection}{\numberline {2.2.4.11}Finir le traitement des Dossiers}{36}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.4.12}G\IeC {\'e}rer Bordereau}{37}% 
 \defcounter {refsection}{0}\relax 

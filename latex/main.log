@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  23 JUN 2019 02:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  23 JUN 2019 12:56
 entering extended mode
 **./main.tex
 (main.tex
@@ -1633,7 +1633,7 @@ Overfull \hbox (8.27754pt too wide) in paragraph at lines 506--507
 <images/petrif01.png, id=161, 315.579pt x 296.307pt>
 File: images/petrif01.png Graphic file (type png)
 <use images/petrif01.png>
-Package pdftex.def Info: images/petrif01.png  used on input line 713.
+Package pdftex.def Info: images/petrif01.png  used on input line 714.
 (pdftex.def)             Requested size: 213.39566pt x 200.36029pt.
 
 
@@ -1641,52 +1641,52 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [23]
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 721.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 722.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 721.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 722.
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 726.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 727.
 
 [24 <./images/petrif01.png>]
 <images/pitref02PNG.png, id=174, 314.3745pt x 388.45125pt>
 File: images/pitref02PNG.png Graphic file (type png)
 <use images/pitref02PNG.png>
-Package pdftex.def Info: images/pitref02PNG.png  used on input line 750.
+Package pdftex.def Info: images/pitref02PNG.png  used on input line 751.
 (pdftex.def)             Requested size: 170.71393pt x 210.946pt.
  [25 <./images/pitref02PNG.png>]
 <images/wf-nete006.png, id=181, 542.025pt x 249.93375pt>
 File: images/wf-nete006.png Graphic file (type png)
 <use images/wf-nete006.png>
-Package pdftex.def Info: images/wf-nete006.png  used on input line 849.
+Package pdftex.def Info: images/wf-nete006.png  used on input line 850.
 (pdftex.def)             Requested size: 213.39566pt x 98.40048pt.
 <images/wf003.png, id=182, 528.17325pt x 162.6075pt>
 File: images/wf003.png Graphic file (type png)
 <use images/wf003.png>
-Package pdftex.def Info: images/wf003.png  used on input line 871.
+Package pdftex.def Info: images/wf003.png  used on input line 872.
 (pdftex.def)             Requested size: 298.75262pt x 91.97762pt.
  [26 <./images/wf-nete006.png> <./images/wf003.png>]
 <images/Capture.png, id=191, 809.424pt x 310.15875pt>
 File: images/Capture.png Graphic file (type png)
 <use images/Capture.png>
-Package pdftex.def Info: images/Capture.png  used on input line 882.
+Package pdftex.def Info: images/Capture.png  used on input line 883.
 (pdftex.def)             Requested size: 298.75262pt x 114.4777pt.
 <images/wf005.png, id=192, 885.3075pt x 296.90926pt>
 File: images/wf005.png Graphic file (type png)
 <use images/wf005.png>
-Package pdftex.def Info: images/wf005.png  used on input line 900.
+Package pdftex.def Info: images/wf005.png  used on input line 901.
 (pdftex.def)             Requested size: 298.75262pt x 100.19574pt.
 <images/wf006.png, id=193, 966.009pt x 349.90726pt>
 File: images/wf006.png Graphic file (type png)
 <use images/wf006.png>
-Package pdftex.def Info: images/wf006.png  used on input line 916.
+Package pdftex.def Info: images/wf006.png  used on input line 917.
 (pdftex.def)             Requested size: 298.75262pt x 108.21384pt.
  [27 <./images/Capture.png> <./images/wf005.png>]
 <images/wf008.png, id=200, 597.432pt x 206.57175pt>
 File: images/wf008.png Graphic file (type png)
 <use images/wf008.png>
-Package pdftex.def Info: images/wf008.png  used on input line 927.
+Package pdftex.def Info: images/wf008.png  used on input line 928.
 (pdftex.def)             Requested size: 298.75262pt x 103.30136pt.
 ) [28 <./images/wf006.png> <./images/wf008.png>]
 Chapitre 2.
@@ -3263,10 +3263,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25075 strings out of 492946
- 410974 string characters out of 3125822
+ 25081 strings out of 492946
+ 411089 string characters out of 3125822
  939763 words of memory out of 3000000
- 28381 multiletter control sequences out of 15000+200000
+ 28387 multiletter control sequences out of 15000+200000
  27760 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,23n,92p,2003b,3304s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3303,7 +3303,7 @@ l/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
 /Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (93 pages, 5394123 bytes).
+Output written on main.pdf (93 pages, 5396088 bytes).
 PDF statistics:
  1242 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -517,5 +517,33 @@
     \endverb
     \field{year}{2019}
   \endentry
+
+  \entry{Rdp}{online}{}
+    \name{author}{1}{}{%
+      {{hash=r}{%
+         family={rdp},
+         familyi={r\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{r1}
+    \strng{fullhash}{r1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{year}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Etat de l’art sur les deux méthodes de modélisation de
+  Workflow}
+    \verb{url}
+    \verb http://www.univ-bejaia.dz/dspace/bitstream/handle/123456789/9568/Appr
+    \verb oche%20hybrid%20de%20description%20de%20proc%C3%A9d%C3%A9%20m%C3%A9ti
+    \verb er.pdf?sequence=1&isAllowed=y
+    \endverb
+    \list{location}{1}{%
+      {bidjaya}%
+    }
+    \field{year}{2008}
+  \endentry
 \enddatalist
 \endinput

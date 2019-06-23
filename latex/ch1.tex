@@ -628,6 +628,7 @@ Avec l’arrivée des services de cloud computing  provenant de grandes organisa
  %
  %
  %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \comment{
  	\section{Modélisation des processus workflow
  	}
@@ -650,7 +651,7 @@ Avec l’arrivée des services de cloud computing  provenant de grandes organisa
  	
  	\subsection{Modélisation de Workflow adaptable }
  	
- 	Dans le cas particulier de la modélisation des Workflow adaptables, plusieurs approches sont proposées [HAN 98]. 
+ 	Dans le cas particulier de la modélisation des Workflow adaptables, plusieurs approches sont proposées \parencite{Han}. 
  	
  	\subsubsection{ Approche Meta modèle}
  	Cette approche emploie un méta modèle pour déterminer la structure et les types de composants constitutifs; elle définit un jeu de primitives pour transformer un modèle Workflow générique ou une instance de modèle. 
@@ -664,7 +665,7 @@ Avec l’arrivée des services de cloud computing  provenant de grandes organisa
  	
  	En synthèse, il est souhaitable de définir la frontière entre les changements ad hoc et les évolutions du Workflow. Il semblerait que ces changements devraient être testés sur une instance de modèles puis si nécessaires propagés au niveau global pour une modification persistante.
  } 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \section{Modélisation de workflow avec les réseaux de pétri}
 
 Les Réseaux de Petri (RdPs)  constituent un formalisme majeur pour modéliser les processus workflows. Une des forces des RdPs est la base mathématique forte qu'ils offrent avec une représentation graphique. 
@@ -831,7 +832,7 @@ On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques d
 
 
 \begin{defn}
-	\textbf{(Wf-nets):}  Le réseau de pétri qui permet de modéliser le contrôle de flux d’un workflow est appelé un WF-net  (réseaux workflow) Ssi:
+	\textbf{(Wf-nets):}  Le réseau de pétri qui permet de modéliser le contrôle de flux d’un workflow est appelé un WF-net  (réseaux workflow) Ssi:\parencite{Rdp}
 	
 	\begin{enumerate}
 		\item Il existe une seule place source $i \in P$ avec $ ^{*}i = \emptyset $.  (i début du processus).
@@ -852,14 +853,14 @@ On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques d
 	\end{figure}
 	
 \end{defn}
-Un réseau de workflow (WF-net) est un réseau de pétri qui possède une seule place d’entrée (i) et une seule place de sortie (o) et puis que n’importe quel cas traité avec la procédure représentée par un WF-net est crée au moment de début de son traitement par le système de gestion de workflow (SGWF) est supprimé une fois que sont traitement est complètement achevé par le SGWF. Cela veut dure que le WFnet spécifie le cycle de vie d’un cas du processus modélisé.  
+Un réseau de workflow (WF-net) est un réseau de pétri qui possède une seule place d’entrée (i) et une seule place de sortie (o) et puis que n’importe quel cas traité avec la procédure représentée par un WF-net est crée au moment de début de son traitement par le système de gestion de workflow (SGWF) est supprimé une fois que sont traitement est complètement achevé par le SGWF. Cela veut dure que le WFnet spécifie le cycle de vie d’un cas du processus modélisé.  \parencite{Rdp}
 \begin{rem}
 	Un chemin C dans un WF-net d’un nœud $n_{1}$ au nœud $n_{k}$ est une séquence $<n_{1},n_{2},...,n_{k}>$ tel-que $<n_{i},n_{i+1}> \in F $, pour $i=1...k-1$.
 	F est la relation de flux. 
 \end{rem}
 
 \subsection{Constructions du routage dans un WF-net}
-Un réseau de workflow (WF-net) est utilisé pour spécifier le routage de flux dans les cas du workflow, quatre types de routage ont été identifiés :
+Un réseau de workflow (WF-net) est utilisé pour spécifier le routage de flux dans les cas du workflow, quatre types de routage ont été identifiés :\parencite{Rdp}
 
 \subsubsection{Séquentiel :}
 

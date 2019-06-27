@@ -178,11 +178,11 @@ Nous détaillerons chaque cas d'utilisation avec une description brève et spéc
  		\hline
  		Post-conditions : L’utilisateur est connecté.                                                                                     \\ 
  		\hline
- 		\begin{tabular}[c]{@{}l@{}}Enchainement alternatif :  \\\begin{tabular}{@{\labelitemi\hspace{\dimexpr\labelsep+0.5\tabcolsep}}l} E1 : La page d’authentification n’apparaît pas à l’utilisateur.\end{tabular}\\ * L’enchainement démarre   après le premier point de l’enchainement principal. \\ * Le serveur envoie un message d’erreur à  l’utilisateur. \\\begin{tabular}{@{\labelitemi\hspace{\dimexpr\labelsep+0.5\tabcolsep}}l} E2 : Le nom d’utilisateur ou/et le mot de passe ne sont pas valides.\end{tabular}  
+ 		\begin{tabular}[c]{@{}l@{}}Enchainement alternatif :  \\\begin{tabular}{@{\labelitemi\hspace{\dimexpr\labelsep+0.5\tabcolsep}}l} E1 : La page d’authentification n’apparaît pas à l’utilisateur.\end{tabular}\\ * L’enchainement démarre   après le premier point de l’enchainement principal. \\ * Le serveur envoie un message d’erreur à  l’utilisateur. \\\begin{tabular}{@{\labelitemi\hspace{\dimexpr\labelsep+0.5\tabcolsep}}l} E2 : Le nom d’utilisateur ou/et le mot de passe ne sont pas validés.\end{tabular}  
  			\\
  			* Le serveur envoie un message d’erreur à l’utilisateur.
  			
- 			\\ * Le serveur demandé à l’utilisateur se ressaisit le nom d’utilisateur et le mot de passe. \end{tabular}  \\
+ 			\\ * Le serveur demande à l’utilisateur se ressaisit le nom d’utilisateur et le mot de passe. \end{tabular}  \\
  		\hline
  	\end{tabular}
  \end{table}
@@ -199,11 +199,11 @@ Nous détaillerons chaque cas d'utilisation avec une description brève et spéc
 		\hline
 		\textbf{CU : }Créer circuit Workflow\\ \hline
 		\textbf{ID }: 12 \\ \hline
-		\textbf{Description brève :}L'administrateur Créer un circuit de Workflow pour \\l'enchainement des dossiers \\ \hline
+		\textbf{Description brève :}L'administrateur Crée un circuit de Workflow pour \\l'enchainement des dossiers \\ \hline
 		\textbf{Acteurs primaires :} L'administrateur  \\ \hline
 		\textbf{Acteurs secondaires :}\\ \hline
 		\textbf{Pré-conditions :}  L'administrateur doit être connecté \\ \hline
-		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} Créer circuit Workflow pour les dossiers et \\la création des tâches sur la base de donnée Normale. \end{tabular} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} Un circuit Workflow est créé pour les dossiers  et \\la création des tâches sur la base de donnée normale. \end{tabular} \\ \hline
 		\textbf{Post-conditions : }Workflow est défié et les tâches à remplir      \\ \hline
 		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : }   \\ \end{tabular} \\ \hline
 	\end{tabular}
@@ -221,12 +221,12 @@ Nous détaillerons chaque cas d'utilisation avec une description brève et spéc
 		\hline
 		\textbf{CU : }Gérer les Services \\ \hline
 		\textbf{ID }: 22 \\ \hline
-		\textbf{Description brève :}L'administrateur peut gérer les Services à travers la création, \\ la modification et la suppression d'un ou plusieurs services. \\ \hline
+		\textbf{Description brève :}L'administrateur peut gérer les services à travers la création, \\ la modification et la suppression d'un ou plusieurs services. \\ \hline
 		\textbf{Acteurs primaires :} L'administrateur  \\ \hline
 		\textbf{Acteurs secondaires :}  \\ \hline
 		\textbf{Pré-conditions :} L'administrateur doit être connecté  \\ \hline
-		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :}L'administrateur crée un nouveau service au\\ système et peut la modifier.  \end{tabular} \\ \hline
-		\textbf{Post-conditions : } le service ajouté sur  la BDD \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :}L'administrateur crée un nouveau service au\\ système et peut le modifier.  \end{tabular} \\ \hline
+		\textbf{Post-conditions : } le service ajouté sur  la base de donnée (BDD) \\ \hline
 		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : }    \\\end{tabular} \\ \hline
 	\end{tabular}
 \end{table}
@@ -256,13 +256,13 @@ Nous détaillerons chaque cas d'utilisation avec une description brève et spéc
 		\hline
 		\textbf{CU : }Consulter  Historique \\ \hline
 		\textbf{ID }: 32 \\ \hline
-		\textbf{Description brève :}L'administrateur peut Consulter l'historique des dossiers\\ et leur état, ainsi la recherche par dossier ou la recherche par tâche.   \\ \hline
+		\textbf{Description brève :}L'administrateur peut consulter l'historique des dossiers\\ et leur état, ainsi la recherche par dossier ou la recherche par tâche.   \\ \hline
 		\textbf{Acteurs primaires :} L'administrateur  \\ \hline
 		\textbf{Acteurs secondaires :}   \\ \hline
 		\textbf{Pré-conditions :} L'administrateur doit être connecté   \\ \hline
 		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :}
-			\\ -L'administrateur sélectionner le dossier ou la  tâche et en appuyant\\ sur rechercher .  
-			\\ -Le système  afficher l'état des dossiers   \end{tabular} \\ \hline
+			\\ -L'administrateur sélectionne le dossier ou la  tâche et en appuyant\\ sur rechercher .  
+			\\ -Le système  affiche l'état des dossiers.   \end{tabular} \\ \hline
 		\textbf{Post-conditions : }Afficher le résultat de la recherche \\ \hline
 		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : } \\ \end{tabular} \\ \hline
 	\end{tabular}
@@ -291,13 +291,13 @@ L'utilisateur de réception fait deux rôles principal : la création et l'activ
  		\textbf{Acteurs secondaires :} simple utilisateur \\ \hline
  	\textbf{Pré-conditions :} L’utilisateur doit être  connecté au  système. \\ \hline
  		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} Ce cas d’utilisation commence lorsqu’un utilisateur\\ souhaite accéder à l’application.
- 			\\ 1. L’utilisateur sélectionne d'ajouter Nouveau dossier. 
- 			\\ 2. système répond à l’utilisateur en afficher un formulaire d'enregistrement.
- 			\\ 3. L’utilisateur saisit le code et le non-prénom est numéro téléphone de \\ propriétaire de dossier.
+ 			\\ 1. L’utilisateur sélectionne d'ajouter nouveau dossier. 
+ 			\\ 2. système répond à l’utilisateur en affichant un formulaire d'enregistrement.
+ 			\\ 3. L’utilisateur saisit le code et le nom, le prénom et le numéro de téléphone de \\ propriétaire de dossier.
  			\\ 4. L'utilisateur vérifie le dossier et sélectionne les champs actuels \\en appuyant sur  « Enregistrer ». 
  			\\ 5. Le système envoie une page des dossiers.\end{tabular} \\ \hline
  		\textbf{Post-conditions : }le dossier est enregistré et ajouté dans le système. \\ \hline
- 		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : }    \\  \textbf{ E1:} Le code de dossier n'est pas valide ou/et déjà existé.\\   o     Le serveur envoie un message d’erreur à  l’utilisateur. \\   o   Le serveur demandé à l’utilisateur se ressaisit le code de dossier.\end{tabular} \\ \hline
+ 		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : }    \\  \textbf{ E1:} Le code de dossier n'est pas validé ou/et déjà existé.\\   o     Le serveur envoie un message d’erreur à  l’utilisateur. \\   o   Le serveur demande à l’utilisateur se ressaisit le code de dossier.\end{tabular} \\ \hline
  	\end{tabular}
  \end{table}
  
@@ -312,44 +312,44 @@ L'utilisateur de réception fait deux rôles principal : la création et l'activ
 		\hline
 		\textbf{CU : }Activer Dossiers \\ \hline
 		\textbf{ID }: 3 \\ \hline
-		\textbf{Description brève :}L'utilisateur peut activer le statut du dossier et commencer \\au  début de la tâche "Ajouter au flux de travail", \\ après avoir compléter tous les documents de dossier.    \\ \hline
+		\textbf{Description brève :}\\L'utilisateur peut activer le statut du dossier et commencer au  début de \\la tâche "Ajouter au flux de travail", après avoir compléter tous \\les documents de dossier.    \\ \hline
 		\textbf{Acteurs primaires :} utilisateur réception , \\ \hline
 		\textbf{Acteurs secondaires :} simple utilisateur \\ \hline
 		\textbf{Pré-conditions :} Le dossier  doit être enregistré dans le système.\\ \hline
-		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} \\ 1.   L’utilisateur sélectionne   la liste des dossiers. \\2.      système répond à l’utilisateur en afficher  les listes des dossiers \\ \{"tous la liste","liste activée ","liste non activée"\}. \\3.       L’utilisateur sélectionné  dossier \\ 4. le système  répond à l’utilisateur en afficher le Detaille, est après\\  en appuyant sur "Activer".\\5. le système vérifie id "code" de dossier et activer leur état \end{tabular} \\ \hline
-		\textbf{Post-conditions : }le dossier  est activé dont la premier tache.  \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} \\ 1.   L’utilisateur sélectionne   la liste des dossiers. \\2.      système répond à l’utilisateur en affichant les listes des dossiers \\ \{"toute la liste","liste activée ","liste non activée"\}. \\3.       L’utilisateur sélectionne le dossier \\ 4. le système  répond à l’utilisateur en affichant le détail, et après\\  en appuyant sur "Activer".\\5. le système vérifie ID "code" de dossier et active leur état \end{tabular} \\ \hline
+		\textbf{Post-conditions : }le dossier  est activé dans la premier tâche.  \\ \hline
 		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : } \end{tabular} \\ \hline
 	\end{tabular}
 \end{table}
 
 
 
-\subsubsection{cas d'utilisation par l'utilisateur simple  }
-l'utilisateur il fait de rôle principal : consulter l'état du dossier pour finir le traitement créer des bordereaux purs transferts les dossiers (imprimer et refusé ou accepté les bordereaux).
+\subsubsection{Cas d'utilisation par l'utilisateur simple  }
+l'utilisateur fait un rôle principal : consulter l'état du dossier pour finir le traitement créer des bordereaux pour transférer les dossiers (imprimer et refuser ou accepter les bordereaux).
  
  
-\subsubsection{Consulter état des Dossiers}
+\subsubsection{Consulter l'état des Dossiers}
 \begin{table}[H]
 	\begin{tabular}{|l|}
 		\hline
-		\textbf{CU : }Consulter État  des dossiers \\ \hline
+		\textbf{CU : }Consulter l'état  des dossiers \\ \hline
 		\textbf{ID }: 4 \\ \hline
 		\textbf{Description brève :}L'utilisateur peut visualiser le statut des dossiers en cours \\ de traitement  en fonction de sa tâche et voir tous les dossiers envoyés par une \\autre tâche.     \\ \hline
 		\textbf{Acteurs primaires :} utilisateur  \\ \hline
 		\textbf{Acteurs secondaires :}  \\ \hline
 		\textbf{	Pré-conditions :} 
 \\ - Le dossier doit être Activé dans le système.
-\\ - L’utilisateur doit être connecté ou le système.
+\\ - L’utilisateur doit être connecté au système.
 		\\ \hline
-		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} \\ 1. L’utilisateur sélectionnait le statut des dossiers.
-			\\ 2. système répond à l’utilisateur en afficher les listes des dossiers encore de traitement\\ au les nouveaux dossiers envoyés \end{tabular} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} \\ 1. L’utilisateur sélectionne le statut des dossiers.
+			\\ 2.Le système répond à l’utilisateur en affichant les listes des dossiers au cours de traitement\\ ou les nouveaux dossiers envoyés \end{tabular} \\ \hline
 		\textbf{Post-conditions : }L'utilisateur visualise le statut des dossiers en fonction de sa tâche.\\ \hline
 		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : } \end{tabular} \\ \hline
 	\end{tabular}
 \end{table}
 
 
-
+\comment{
 \subsubsection{Finir le traitement  des Dossiers}
 \begin{table}[H]
 	\begin{tabular}{|l|}
@@ -371,7 +371,7 @@ l'utilisateur il fait de rôle principal : consulter l'état du dossier pour fin
 \end{table}
 
 
-
+}
 
 
 
@@ -381,19 +381,19 @@ l'utilisateur il fait de rôle principal : consulter l'état du dossier pour fin
 		\hline
 		\textbf{	CU : }Gérer Bordereau   \\ \hline
 		\textbf{	ID }: 6 \\ \hline
-		\textbf{	Description brève :}L'utilisateur peut sélectionner liste des dossiers et \\Gérer un bordereau. \\   \hline
+		\textbf{	Description brève :}L'utilisateur peut sélectionner une liste des dossiers et \\gère un bordereau. \\   \hline
 		\textbf{ Acteurs primaires :} utilisateur  \\ \hline
 		\textbf{Acteurs secondaires :}  \\ \hline
 		\textbf{	Pré-conditions :} 
-		\\ - Le dossier doit être terminé le traitement dans la tâche de l'utilisateur.
-		\\ - L’utilisateur doit être connecté ou le système. 
+		\\ - Le dossier doit être traité dans la tâche de l'utilisateur.
+		\\ - L’utilisateur doit être connecté au système. 
 		\\ \hline
-		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} \\ 1. L’utilisateur sélectionné la liste des dossiers et sélectionné \\la suivante tache pour transfert \\ 2. système répond à l’utilisateur et créer nounous bordereau et afficher la liste\\ de bordereau correspondre à leur tâche. 
-			\\ 3. L’utilisateur put imprimer et accepte ou refuse le bordereau.   \end{tabular} \\ \hline
-		\textbf{Post-conditions : } L'utilisateur créé bordereau et transfert les dossiers \\si le bordereau accepté par validation d'un utilisateur de la tâche reçu.  \\ \hline
-		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : }  
-	\textbf{	E1:bordereau refuse. }
-\\ * renvoyer à la tâche président tous les dossiers   
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} \\ 1. L’utilisateur sélectionne la liste des dossiers pour la transférer à \\la tâche  suivante.\\ 2.Le système répond à l’utilisateur et crée nouveau bordereau et affiche la liste\\ de bordereau correspondant à leur tâche. 
+			\\ 3. L’utilisateur peut imprimer et accepter ou refuser le bordereau.   \end{tabular} \\ \hline
+		\textbf{Post-conditions : } L'utilisateur crée un bordereau et transfert les dossiers, \\si le bordereau est accepté par la validation d'un utilisateur de la tâche reçu.  \\ \hline
+		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : }  \\
+	\textbf{E1: }bordereau refusé:
+\\ * renvoyer à la tâche précédent tous les dossiers.   
 	
  \end{tabular} \\ \hline
 	\end{tabular}
@@ -409,7 +409,7 @@ l'utilisateur il fait de rôle principal : consulter l'état du dossier pour fin
 \end{figure}
 
   \subsubsection{Conception détaillée} 
-Nous allons définir pour chaque classe ses attributs et leurs types, ainsi que les méthodes qu’elle offre. Dans le but d’alléger le rapport, nous avons jugé essentiel de ne citer les classes que nous avons conçues.
+Nous allons définir pour chaque classe ses attributs et leurs types, ainsi que les méthodes qu’elle offre. Dans le but d’alléger le rapport, nous allons cité que les classes essentiels que nous avons conçues.
  
  
 
@@ -602,15 +602,15 @@ Nous allons définir pour chaque classe ses attributs et leurs types, ainsi que 
    \end{table}
 \subsection{Diagramme d' activité  }
 
-À partir de cas d'utilisation et de diagramme de classes  va exprimer  le diagramme d'activité qui  montre l'interaction des  utilisateurs   en fonction de leurs rôles dans le système en général.(figure \ref{fig:dactiviti})
+À partir de deux diagrammes, cas d'utilisation et de classes,  on va exprimer  le diagramme d'activité qui  montre l'interaction des  utilisateurs   en fonction de leurs rôles dans le système en général.(figure \ref{fig:dactiviti})
 
-\subsubsection{les rôles de l'acteur administrateur: }
-l'interaction de l'acteur administrateur avec le système, il faut d'abord de connecter au système, puis créer et définit le modèle par la spécification de nom et les champs de dossier pour la génération de codes et lancer nouveau micro-service déployé sur le Cloud par leur nom de service spécifié, ensuite peut gérer les sous-directions et les services et le modèle de workflow par "BPMN" pour gérer les tâches, ensuite gérer les utilisateurs et enfin il peut consulter les bordereaux qui gèrent par les utilisateurs et de même consulter les historiques.
-\subsubsection{les rôles de l'acteur utilisateur rescription : }
-L'interaction de l'utilisateur réception, il faut déjà créé par l'administrateur et connecter au système, il peut gérer les dossiers par la création des nouveaux dossiers sur la réception et vérifie les champs de chaque dossier, ensuite il peut activer les dossiers veut dire lancer le  traitement de dossier.
+\subsubsection{Rôles de l'acteur administrateur: }
+l'interaction de l'acteur administrateur avec le système, il faut d'abord de connecter au système, puis créer et définir le modèle par la spécification de nom et les champs de dossier pour la génération de codes et lancer un nouveau micro-service et le déployer sur le Cloud par leur nom de service spécifié, ensuite il peut gérer les sous-directions et les services, le modèle de workflow par "BPMN" pour gérer les tâches, gérer les comptes d'utilisateurs, et enfin il  consulte les bordereaux qui sont géré par les utilisateurs et de même consulter l'historiques.
+\subsubsection{Rôles de l'acteur utilisateur réception : }
+L'interaction de l'utilisateur réception, il faut déjà créer par l'administrateur et connecter au système, il peut gérer les dossiers par la création des nouveaux dossiers sur la réception et vérifier les champs de chaque dossier, ensuite il peut activer les dossiers c-à-d lancer le  traitement de dossier.
 
-\subsubsection{les rôles de l'acteur utilisateur simple : } 
-Après l'authentification au système l'utilisateur sa connecter sur leur tâche et il peut voir tous les dossiers en attente qui sont en cours de traitement et consulter les bordereaux qui déjà reçu par une autre tâche, l'utilisateur peuvent finir le traitement de dossier par leur tâche, il peut aussi gérer un nouveau bordereau pour transfert liste des dossiers vers d'autres tâches et de gérer les historiques des dossiers.
+\subsubsection{Rôles de l'acteur utilisateur simple : } 
+Après l'authentification au système,  l'utilisateur se connecter sur leur tâche et il peut voir tous les dossiers en attente qui sont en cours de traitement et consulter les bordereaux qui déjà reçu par une autre tâche, l'utilisateur peuvent finir le traitement de dossier par leur tâche, il peut aussi gérer un nouveau bordereau pour transférer une liste des dossiers vers d'autres tâches et de gérer l'historique des dossiers.
    
    \begin{figure}[H]
    	\centering
@@ -621,7 +621,8 @@ Après l'authentification au système l'utilisateur sa connecter sur leur tâche
      
    \section{Conclusion}
    
-   Dans ce chapitre nous avons fait une étude de notre système logiciel en utilisant la modélisation UML après la spécification des besoins.   
+   Dans ce chapitre nous avons fait une étude de notre système logiciel en utilisant la modélisation UML après la spécification des besoins. 
+     
         Dans le chapitre suivant nous allons expliquer la phase de réalisation du système, son intégration et son déploiement sur le  cloud par les micro-services, tout en respectant les directives de la conception.
     
    

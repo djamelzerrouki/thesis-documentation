@@ -1,9 +1,11 @@
 \section{Introduction}
-Une fois la conception validée, il est temps de passer à la réalisation. Nous présentons dans ce chapitre le module réalisé en utilisant des captures d’écran pour montrer ses principales fonctionnalités. Nous commençons par présenter les outils et technologies utilisées pour le développement, ensuite nous passons à l’architecture technique de la solution puis l’architecture du code.
+Une fois la conception validée, il est temps de passer à la réalisation. Nous présentons dans ce chapitre le module réalisé en utilisant des captures d’écran  pour montrer ses principales fonctionnalités. Nous commençons par présenter les outils et les technologies utilisées pour le développement, ensuite nous présenterons l’architecture technique de la solution et l’architecture des codes.
 
 \section{Outils et Technologies utilisées pour le développement}
 Pour le développement,  nous avons utilisé : 
 
+   
+   \comment{
     \subsection{Architecture Modèle/Vue/Contrôleur (MVC)}
 
 
@@ -22,7 +24,7 @@ Pour d'organiser  l'interface graphique Nous avons utiliser l'architecture Modè
 	\caption{Interactions entre le modèle, la vue et le contrôleur \parencite{mvc}}
 	\label{fig:mvc}
 \end{figure}
-
+}
 \subsection{Technologies web } 
 \subsubsection{Technologies web (HTML5, JS et CSS3):} 
 \begin{itemize}
@@ -207,12 +209,12 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 
  
 
-Spring Boot est un tout nouveau framework de l'équipe de Pivotal, conçu pour simplifier le démarrage et le développement d'une nouvelle application Spring. Le cadre adopte une approche de configuration avisée, libérant les développeurs de la nécessité de définir la configuration standard.\cite{MicroServices}
+Spring Boot est un  nouveau framework de l'équipe de Pivotal, conçu pour simplifier le démarrage et le développement d'une nouvelle application Spring. Le cadre adopte une approche de configuration avisée, libérant les développeurs de la nécessité de définir la configuration standard.\cite{MicroServices}
 
 \subsubsection{Spring Cloud Netflix}
  
 
-Spring cloud Netflix fournit des intégrations Netflix OSS pour les applications de démarrage printanier via la configuration automatique et la liaison à l'environnement Spring et à d'autres modèles de programmation Spring. Avec quelques annotations simples, nous pouvons rapidement activer et configurer des modèles courants dans une application et construire des systèmes distribués volumineux avec des composants Netflix. De nombreuses fonctionnalités sont disponibles avec le nuage de printemps Netflix. Ici, nous avons répertorié certaines des fonctionnalités communes que nous avons implémentées avec les micro-services avec Spring Boot et Netflix,\cite{MicroServices}
+Spring cloud Netflix fournit des intégrations Netflix OSS pour les applications de démarrage printanier via la configuration automatique et la liaison à l'environnement Spring et à d'autres modèles de programmation Spring. Avec quelques annotations simples, nous pouvons rapidement activer et configurer des modèles courants dans une application et construire des systèmes distribués volumineux avec des composants Netflix. De nombreuses fonctionnalités sont disponibles avec le nuage de printemps Netflix. Ici, nous avons répertorié certaines des fonctionnalités communes que nous avons implémentées avec les micro-services avec Spring Boot et Netflix, \cite{MicroServices}
 
 \begin{itemize}
 \item \textbf{Découverte du service:}
@@ -330,7 +332,7 @@ Un archetype est un template de projet. Le fait d'utiliser des archetypes pour i
     
     Ce concept de SNAPSHOT est particulièrement important pour Maven. En effet, dans la gestion des dépendances, Maven va chercher à mettre à jour les versions SNAPSHOT régulièrement pour prendre en compte les derniers développements. 
     
-    Utiliser une version SNAPSHOT permet de bénéficier des dernières fonctionnalités d'un projet, mais en contrepartie, cette version peut être (et est) appelée à être modifiée de façon importante, sans aucun préavis. \parencite{maven}.
+    L'utilisation d'une version SNAPSHOT permet de bénéficier des dernières fonctionnalités d'un projet, mais en contrepartie, cette version peut être (et est) appelée à être modifiée de façon importante, sans aucun préavis. \parencite{maven}.
        \subsubsection{Le repository local et distant }
     Un repository local est un répertoire sur le poste du développeur permettant de stocker, suivant la même arborescence, tous les artefacts téléchargés depuis le(s) repository distant(s). \cite{maven}.
     
@@ -398,7 +400,7 @@ L'architecture résultante aura l'allure suivante:
 
 \subsection{Création des Microservices}
 \subsubsection{Microservice  Service 1}
-Nous commençons par créer le service principal: Service 1.
+Nous commençons par la création du service principal: Service 1.
 
 \begin{figure}[H]
 	\centering
@@ -408,9 +410,7 @@ Nous commençons par créer le service principal: Service 1.
 \end{figure}
 
 
-Chaque microservice sera sous forme d'un projet Spring. Pour créer rapidement et facilement un projet Spring avec toutes les dépendances nécessaires, Spring Boot fournit Spring Initialisé.
-
-Pour cela, aller au site \underline{\textbf{start.spring.io}}, et créer un projet avec les caractéristiques suivantes:
+Chaque microservice aura la forme d'un projet Spring. Pour créer rapidement et facilement un projet Spring avec toutes les dépendances nécessaires, Spring Boot fournit Spring Initialisé, il faut accéder  au site \underline{\textbf{start.spring.io}}, et créer un projet avec les caractéristiques suivantes:
 
 \begin{enumerate}
        	\item  Projet Maven avec Java et Spring Boot version 2.0.1
@@ -637,13 +637,15 @@ En lançant le service Proxy, vous remarquerez qu'il est rajouté dans Eureka.
     	
     	\item Un client HTTP envoie la requête HTTP vers le proxy qui contient le nom de micro service.  
     	
-    	\item  Le service proxy connaît le nom de micro service, il va demander au service de registration de lui donner la machine où se trouve ce micro-service. 
+  
     	
-    	\item Le service registration  va retourner l'adresse IP et le port s'il a une instance ou une liste s'il a  plusieurs instances.
+    		\item  Le service proxy connaît le nom de micro service, il va demander au service de registration l'emplacement de la machine où se trouve ce micro-service. 
+    
+    	\item Le service de registration  va retourner l'adresse IP et le port s'il a une instance ou  une liste s'il a  plusieurs instances.
     	
-    	\item  Le service proxy va choir une instance et il va l'envoyer la requête.  
+    	\item  Le service proxy va choir une instance et  va envoyer la requête.  
     	
-    	\item  Le service demandé va faire le traitement et envoyer le résultat vers le proxy qui va la renvoyer au client. 
+    	\item  Le service demandé va faire le traitement ensuite envoie le résultat vers le proxy qui va le transmettre au client. 
     \end{enumerate}
     
     
@@ -682,7 +684,7 @@ Nous avons instanciés le workflow dans plusieurs dimensions des cas (voir le pa
  
     Nous avons développé  trois services pour l'orchestration des Micro-Service a  savoir service proxy, service  configuration et service  registration comme le montre  la figure \ref{fig:cloudms}.
     
-De plus, nous avons développé un master service qui permettre d'instancier le workflow pour diverses organisations autrement dit le fournisseur de services offre ses services via le master service.
+De plus, nous avons développé un master service qui permettre d'instancier le workflow pour diverses organisations.  Autrement dit, le fournisseur de services offre ses services via le master service.
  \begin{figure}[H]
  	\centering
  	\includegraphics[width=1\linewidth]{images/cloudMS}
@@ -694,8 +696,7 @@ De plus, nous avons développé un master service qui permettre d'instancier le 
      
           
 \subsection{Obstacles}
-Nous avons essayé d'ouvrir un compte avec tous les fournisseurs de services cloud répertorier dans la section 1.2.5 pour déployer les services que nous avons développés, mais ils ne sont pas gratuits.
-
+Nous avons essayé d'ouvrir un compte auprès des fournisseurs de services cloud cités dans la section 1.2.5 , pour déployer les services que nous avons développés, malheureusement sont tous payants.
  
   
   
@@ -703,7 +704,7 @@ Nous avons essayé d'ouvrir un compte avec tous les fournisseurs de services clo
 
  
 
- \subsection{Captures d'écrans de l'administrateur }
+ \subsection{Interface de l'administrateur }
   \subsubsection{Authentification}
 Cette interface est la fenêtre de bienvenue.
 Pour améliorer la sécurité du système, il est nécessaire de vérifier la disponibilité du compte d'utilisateur et le mot de passe est correct à ce niveau.
@@ -796,7 +797,7 @@ Le résultat de la recherche est affiché par dossier comme suit:(figure \ref{fi
 
  
 
- \subsection{Captures d'écrans de l'Utilisateur }
+ \subsection{l'interfaces de l'Utilisateur }
 \subsubsection{ Accueil  }.
 La page d'accueil pour des utilisateurs de système "les employés".
 \begin{figure}
@@ -831,7 +832,7 @@ Affichez et filtrez les dossiers de la manière suivante: "En attente", "Traitem
 \end{figure}
 
 
-\subsubsection{ Gérer des  bordereaux }
+\subsubsection{ Gérer les  bordereaux }
 L'utilisateur peut sélectionner liste des dossiers et créer un bordereau pour transformer et la gérer ("Accepter", "Refuses", "Imprimer").
 
  
@@ -840,5 +841,5 @@ L'utilisateur peut sélectionner liste des dossiers et créer un bordereau pour 
 
 \section{Conclusion}
 
-À travers ce chapitre, nous avons exposé l’architecture de la plateforme, les différents outils et technologies utilisés pour le développement d'un service cloud. Par la suite, nous avons présenté la \ac{cnr} comme dimension de cas. Enfin, nous avons présenté un aperçu du système que nous avons réalisé.
+À travers ce chapitre, nous avons exposé l’architecture de la plateforme, les différents outils et technologies utilisées pour le développement d'un service cloud. Par la suite, nous avons présenté la \ac{cnr} comme dimension de cas. Enfin, nous avons présenté un aperçu du système que nous avons réalisé.
 

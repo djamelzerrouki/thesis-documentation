@@ -67,6 +67,7 @@
 \pagestyle{fancy}
 
 \fancyhead{}
+\fancyhead[LO,CE]{Chapter \thechapter}
 \fancyhead[RO,LE]{Conception et mise en place d’un système Workflow  pour l’envirenement cloud}
 \fancyfoot{}
 \fancyfoot[LE,RO]{\thepage}
@@ -168,7 +169,7 @@
 
  \pagenumbering{arabic}
  
-% \part{ Étude bibliographique }
+ \part{ Étude bibliographique }
 %\appendix
 \chapter{Concepts fondamentaux de cloud et de workflow }
 \input{ch1.tex}
@@ -178,7 +179,7 @@
 %\input{ch2.tex}
 
 %%%%%%%%%%%%%%%%%%%%%   Partie pratique  %%%%%%%%%%%%%%%%%%%%%%%%
-%\part{  Partie pratique }
+\part{  Partie pratique }
 
 
 \chapter{Analyse et Conception}
@@ -193,8 +194,7 @@
   
    \input{Conclusion.tex}
   
-    \comment{
-  \section{First section}
+    \comment{  \section{First section}
   
   This document is an example of \texttt{thebibliography} environment using 
   in bibliography management. Three items are cited: \textit{The \LaTeX\ Companion} 
@@ -203,7 +203,7 @@
   \cite{latexcompanion,knuthwebsite}. 
 
   \medskip
- 
+
   \begin{thebibliography}{9}
   	\bibitem{latexcompanion} 
   	Michel Goossens, Frank Mittelbach, and Alexander Samarin. 
@@ -224,15 +224,10 @@
   	\bibitem{VAN DER AALST 97a}
   	 Van-der-Aalst, W.M.P. Verification of Workflow Nets. Application and Theory of Petri Nets, Lecture Notes in Computer Science Springer - Verlag 1248 (In P. Azema and G. Balbo, editors, ). 407 - 426, 1997
   \end{thebibliography}
-  
 }
+ 
   
- \printbibliography[type=article,title={Articles}]
-  \printbibliography[type=book,title={Livres}]
- % online
-     \printbibliography[type=online,title={En ligne}]
-  \printbibliography[keyword={physics},title={Physics-related only}]
-  \printbibliography[keyword={latex},title={\LaTeX-related only}]
+ \printbibliography
 
 \appendix
 

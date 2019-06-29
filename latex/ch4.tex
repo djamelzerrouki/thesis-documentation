@@ -1,3 +1,4 @@
+ \fancyhead[LO,CE]{Chapter: \thechapter| Réalisation}
 \section{Introduction}
 Une fois la conception validée, il est temps de passer à la réalisation. Nous présentons dans ce chapitre le module réalisé en utilisant des captures d’écran  pour montrer ses principales fonctionnalités. Nous commençons par présenter les outils et les technologies utilisées pour le développement, ensuite nous présenterons l’architecture technique de la solution et l’architecture des codes.
 
@@ -159,7 +160,7 @@ des instances d'un service et de leurs emplacements change de façon dynamique.
 
 
 \subsubsection{Architecture des microservices via les composants Netflix}
-Nous avons utilisé les composants Netflix pour réaliser les modèles d’architecture de microservices ci-dessus. \cite{MicroServices}.
+Nous avons utilisé les composants Netflix pour réaliser les modèles d’architecture de microservices ci-dessus. \parencite{MicroServices}.
 
 % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
@@ -169,8 +170,7 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 \begin{table}[H]
 	\begin{tabular}{|l|l|}
 		\hline
-		\rowcolor[HTML]{5174DA} 
-		{\color[HTML]{FFFFFF} \textbf{Operations Component}} & {\color[HTML]{FFFFFF} \textbf{Spring, Netflix OSS}} \\ \hline
+	  \textbf{Operations Component}  & \textbf{Spring, Netflix OSS } \\ \hline
 		Service Discovery server & Netflix Eureka \\ \hline
 		Edge Server & Netflix Zuul \\ \hline
 		Central configuration server & Spring Cloud Config Server \\ \hline
@@ -178,6 +178,8 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 		OAuth 2.0 protected API’s & Spring Cloud + Spring Security OAuth2 \\ \hline
 		Monitoring & Netflix Hystrix dashboard and turbine \\ \hline
 	\end{tabular}
+ \label{fig:Netflix}
+\caption{Architecture des microservices via les composants Netflix \parencite{MicroServices}}
 \end{table}
 
 \subsection{Composantes majeures de Netflix}
@@ -187,12 +189,12 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 \subsubsection{Service Discovery Server} 
 
 \authorimg{images/ms-img04} Netflix Eureka permet aux micro-services de s’enregistrer eux-mêmes au moment de leur exécution, tels qu’ils apparaissent dans la structure du système.
-\cite{MicroServices}
+\parencite{MicroServices}
 
 
 \subsubsection{Routage dynamique et équilibreur de charge} 
 
-\authorimg{images/ms-img05}  Netflix Ribbon peut être utilisé par les consommateurs de services pour rechercher des services au moment de l’exécution. Le ruban utilise les informations disponibles dans Eureka pour localiser les instances de service appropriées. Si plusieurs instances sont trouvées, le Ruban appliquera un équilibrage de charge pour répartir les demandes sur les instances disponibles. Le ruban ne s'exécute pas en tant que service distinct, mais en tant que composant intégré dans chaque consommateur de service.\cite{MicroServices}
+\authorimg{images/ms-img05}  Netflix Ribbon peut être utilisé par les consommateurs de services pour rechercher des services au moment de l’exécution. Le ruban utilise les informations disponibles dans Eureka pour localiser les instances de service appropriées. Si plusieurs instances sont trouvées, le Ruban appliquera un équilibrage de charge pour répartir les demandes sur les instances disponibles. Le ruban ne s'exécute pas en tant que service distinct, mais en tant que composant intégré dans chaque consommateur de service.\parencite{MicroServices}
 
 
 
@@ -200,7 +202,7 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 
 \subsubsection{Serveur Edge} 
 
-\authorimg{images/ms-img06}  Zuul est (bien sûr) notre gardien du monde extérieur, ne permettant pas le passage de demandes externes non autorisées. Zulu fournit également un point d'entrée bien connu aux micro-services dans le paysage système. L'utilisation de ports alloués de manière dynamique est pratique pour éviter les conflits de ports et minimiser l'administration, mais elle rend évidemment la tâche plus difficile pour tout consommateur de services donné. Zuul utilise Ribbon pour rechercher les services disponibles et achemine la demande externe vers une instance de service appropriée.\cite{MicroServices}
+\authorimg{images/ms-img06}  Zuul est (bien sûr) notre gardien du monde extérieur, ne permettant pas le passage de demandes externes non autorisées. Zulu fournit également un point d'entrée bien connu aux micro-services dans le paysage système. L'utilisation de ports alloués de manière dynamique est pratique pour éviter les conflits de ports et minimiser l'administration, mais elle rend évidemment la tâche plus difficile pour tout consommateur de services donné. Zuul utilise Ribbon pour rechercher les services disponibles et achemine la demande externe vers une instance de service appropriée.\parencite{MicroServices}
 
 
 \subsection{Spring Boot et Spring Cloud Netflix OSS – Micro Service Architecture}
@@ -209,12 +211,12 @@ Nous avons utilisé les composants Netflix pour réaliser les modèles d’archi
 
  
 
-Spring Boot est un  nouveau framework de l'équipe de Pivotal, conçu pour simplifier le démarrage et le développement d'une nouvelle application Spring. Le cadre adopte une approche de configuration avisée, libérant les développeurs de la nécessité de définir la configuration standard.\cite{MicroServices}
+Spring Boot est un  nouveau framework de l'équipe de Pivotal, conçu pour simplifier le démarrage et le développement d'une nouvelle application Spring. Le cadre adopte une approche de configuration avisée, libérant les développeurs de la nécessité de définir la configuration standard.\parencite{MicroServices}
 
 \subsubsection{Spring Cloud Netflix}
  
 
-Spring cloud Netflix fournit des intégrations Netflix OSS pour les applications de démarrage printanier via la configuration automatique et la liaison à l'environnement Spring et à d'autres modèles de programmation Spring. Avec quelques annotations simples, nous pouvons rapidement activer et configurer des modèles courants dans une application et construire des systèmes distribués volumineux avec des composants Netflix. De nombreuses fonctionnalités sont disponibles avec le nuage de printemps Netflix. Ici, nous avons répertorié certaines des fonctionnalités communes que nous avons implémentées avec les micro-services avec Spring Boot et Netflix, \cite{MicroServices}
+Spring cloud Netflix fournit des intégrations Netflix OSS pour les applications de démarrage printanier via la configuration automatique et la liaison à l'environnement Spring et à d'autres modèles de programmation Spring. Avec quelques annotations simples, nous pouvons rapidement activer et configurer des modèles courants dans une application et construire des systèmes distribués volumineux avec des composants Netflix. De nombreuses fonctionnalités sont disponibles avec le nuage de printemps Netflix. Ici, nous avons répertorié certaines des fonctionnalités communes que nous avons implémentées avec les micro-services avec Spring Boot et Netflix, \parencite{MicroServices}
 
 \begin{itemize}
 \item \textbf{Découverte du service:}
@@ -248,19 +250,20 @@ Maven est essentiellement un outil de gestion et de compréhension de projet.
 
 Maven offre des fonctionnalités de :
 \begin{itemize}
-\item construction,  compilation ;
-\item documentation ;
-\item  rapport ;
-\item  gestion des dépendances ;
-\item  gestion des sources ;
-\item mise à jour de projet ;
-\item  déploiement.
+\item  Construction,  Compilation ;
+\item  Documentation ;
+\item  Rapport ;
+\item  Gestion des dépendances ;
+\item  Gestion des sources ;
+\item  Mise à jour de projet ;
+\item  Déploiement.
 \end{itemize}
 
 \subsubsection{ POM  }
-Le \textbf{POM} (\textbf{P}roject \textbf{O}bject \textbf{M}odel) est une façon de décrire, de manière déclarative, un projet au sens de Maven. Cette description est contenue dans le fichier \textbf{pom.xml} présent dans le repertoire de base du projet. Le fichier pom.xml contient donc tous les éléments permettant de gérer le cycle de vie du projet. \cite{maven}.
+Le \textbf{POM} (\textbf{P}roject \textbf{O}bject \textbf{M}odel) est une façon de décrire, de manière déclarative, un projet au sens de Maven. Cette description est contenue dans le fichier \textbf{pom.xml} présent dans le repertoire de base du projet. Le fichier pom.xml contient donc tous les éléments permettant de gérer le cycle de vie du projet. \parencite{maven}.
 
-Code xml :	
+\textbf{\underline{Code xml :}}	\\
+
  \lstset{language=XML}
 \begin{lstlisting}
 
@@ -291,23 +294,23 @@ apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 \begin{itemize}
 
-\item \textbf{project} : c'est la balise racine de tous les fichiers pom.xml.
-\item \textbf{modelVersion} : cette balise indique la version de POM utilisée. Bien que cette version ne change pas fréquemment, elle est obligatoire afin de garantir la stabilité d'utilisation.
-\item \textbf{groupId} : cette balise permet d'identifier un groupe qui a créé le projet. Cette clé permet d'organiser et de retrouver plus facilement et rapidement le projet.
-\item \textbf{artifactId} : cette balise indique un nom unique utilisé pour nommer les artifacts à construire.
-\item \textbf{packaging} : type de packaging du projet ( ex. : JAR, WAR, EAR, etc.).
+\item \textbf{Project} : c'est la balise racine de tous les fichiers pom.xml.
+\item \textbf{ModelVersion} : cette balise indique la version de POM utilisée. Bien que cette version ne change pas fréquemment, elle est obligatoire afin de garantir la stabilité d'utilisation.
+\item \textbf{GroupId} : cette balise permet d'identifier un groupe qui a créé le projet. Cette clé permet d'organiser et de retrouver plus facilement et rapidement le projet.
+\item \textbf{ArtifactId} : cette balise indique un nom unique utilisé pour nommer les artifacts à construire.
+\item \textbf{Packaging} : type de packaging du projet ( ex. : JAR, WAR, EAR, etc.).
 version : version de l'artifact généré par le projet.
-\item \textbf{name} : nom du projet.
-\item \textbf{url} : adresse du site du projet.
+\item \textbf{Name} : nom du projet.
+\item \textbf{Url} : adresse du site du projet.
 description : description du projet.
-\item \textbf{dependencies} : balise permettant de gérer les dépendances.
+\item \textbf{Dependencies} : balise permettant de gérer les dépendances.
 \end{itemize}
 
 \subsubsection{Archetype }
-Un archetype est un template de projet. Le fait d'utiliser des archetypes pour initialiser un projet permet de gagner du temps et de respecter une certaine convention. \cite{maven}.
+Un archetype est un template de projet. Le fait d'utiliser des archetypes pour initialiser un projet permet de gagner du temps et de respecter une certaine convention. \parencite{maven}.
 
 \subsubsection{Dépendance  }
- Une dépendance est une référence vers un artefact spécifique contenu dans un repository. Cet artefact est nécessaire pour une ou plusieurs phases du cycle de vie du projet. \cite{maven}.
+ Une dépendance est une référence vers un artefact spécifique contenu dans un repository. Cet artefact est nécessaire pour une ou plusieurs phases du cycle de vie du projet. \parencite{maven}.
  
  L'exemple le plus simple est une dépendance sur une bibliothèque jar qui permet d'en utiliser le contenu dans le projet.\parencite{maven}.
  
@@ -334,13 +337,11 @@ Un archetype est un template de projet. Le fait d'utiliser des archetypes pour i
     
     L'utilisation d'une version SNAPSHOT permet de bénéficier des dernières fonctionnalités d'un projet, mais en contrepartie, cette version peut être (et est) appelée à être modifiée de façon importante, sans aucun préavis. \parencite{maven}.
        \subsubsection{Le repository local et distant }
-    Un repository local est un répertoire sur le poste du développeur permettant de stocker, suivant la même arborescence, tous les artefacts téléchargés depuis le(s) repository distant(s). \cite{maven}.
+    Un repository local est un répertoire sur le poste du développeur permettant de stocker, suivant la même arborescence, tous les artefacts téléchargés depuis le(s) repository distant(s). \parencite{maven}. 
     
-    Un projet ayant pour POM :
-    
-    Code xml : 
- 
+     Un projet ayant pour POM :
      
+     \textbf{\underline{Code xml :}}\\
     \lstset{language=XML}
 \begin{lstlisting}
 <project>
@@ -350,18 +351,7 @@ Un archetype est un template de projet. Le fait d'utiliser des archetypes pour i
 <version>1.0</version>
 </project>
 \end{lstlisting}
-    
-
-
-
-
-
-
-
-
-
-
-
+     
 \section{Création d'un service cloud par spring et micro service :}
 
 \subsection{Outils et Versions}
@@ -371,7 +361,7 @@ Un archetype est un template de projet. Le fait d'utiliser des archetypes pour i
 \item Spring Cloud Version 1.2.4
 \item Java Version 1.8.0 
 \item Maven Version 3.6.1
-\item  tu peux utiliser l'éditeur eclipse STS ou IntelliJ IDEA ( votre choix ).
+\item  Tu peux utiliser l'éditeur eclipse STS ou IntelliJ IDEA ( votre choix ).
 \end{itemize}
 
 
@@ -393,7 +383,7 @@ L'architecture résultante aura l'allure suivante:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\linewidth]{images/tp01}
-	\caption{}
+	\caption{Architecture Spring cloud et Netflix  par des microservices}
 	\label{fig:tp01}
 \end{figure}
 

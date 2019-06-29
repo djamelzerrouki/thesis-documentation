@@ -1,3 +1,4 @@
+\fancyhead[LO,CE]{Chapter: \thechapter| Analyse et Conception }
  \section*{Introduction}
 
   
@@ -115,6 +116,8 @@ Planification du développement du programme À ce stade de la planification des
  
 Un acteur représente l'abstraction d'un rôle joué par des entités externes (utilisateur, dispositifs matériels ou autres système) qui interagit directement avec le système (réception d’informations, etc.). Pour notre application, on a trois acteurs : le premier acteur c'est l'administrateur et le deuxième c'est utilisateur de la réception et le troisième c'est l'utilisateur simple.
 \begin{table}[H]
+
+	   
 	\begin{tabular}{|l|l|l|}
 		\hline
 		\multicolumn{1}{|l|}{Acteur} & Type Acteur & Descriptions \\ \hline
@@ -137,6 +140,8 @@ Un acteur représente l'abstraction d'un rôle joué par des entités externes (
 		&  Acteur Principal& Gérer les bordereaux  \\ \cline{3-3} 
 		&  &Gérer les historiques des dossiers\\ \hline 
 	\end{tabular}
+	   	\label{fig:as}
+        \caption{Les acteurs de système}
 \end{table}
  
  \subsubsection{ Cas d’utilisation }
@@ -185,6 +190,8 @@ Nous détaillerons chaque cas d'utilisation avec une description brève et spéc
  			\\ * Le serveur demande à l’utilisateur se ressaisit le nom d’utilisateur et le mot de passe. \end{tabular}  \\
  		\hline
  	\end{tabular}
+ 
+ 
  \end{table}
 
 

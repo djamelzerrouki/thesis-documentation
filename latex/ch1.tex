@@ -1,3 +1,4 @@
+ \fancyhead[LO,CE]{Chapter: \thechapter | Concepts fondamentaux de Cloud et de Workflow }
  	 \section{Introduction}
  	  
 
@@ -10,12 +11,12 @@
    
     \section{Cloud computing}
     \subsection{Concept du cloud computing}
-  L'idée principale du cloud est apparue dans les années 60, où le professeur John McCarthy avait imaginé que les ressources informatiques seront fournies comme des services d’utilité publique \parencite{Garfinkel}. C'est ensuite, vers la fin des années 90, que ce concept a pris de l'importance avec l’avènement du grid computing  \parencite{Foster}. Le terme cloud est une métaphore exprimant la similarité avec le réseau électrique, dans lequel l'électricité est produite dans de grandes centrales, puis disséminée à travers un réseau jusqu'aux utilisateurs finaux. Ici, les grandes centrales sont les Datacenter, le réseau est le plus souvent celui d'Internet et l'électricité correspond aux ressources informatiques. Le cloud computing  n'est véritablement apparu qu'au cours de l’année 2006 \parencite{Vouk2008} avec l'apparition d'Amazon \ac{ec2}. C'est en 2009 que la réelle explosion du cloud survint avec l'arrivée sur le marché de sociétés comme Google (Google App Engine), Microsoft (Microsoft Azure), IBM (IBM Smart Business Service), Sun (Sun cloud) et Canonical Ltd (Ubuntu Enterprise cloud). D'après une étude menée par Forrester \parencite{Geelan}arencite{Geelan}arencite{Geelan}arencite{Ried}, le marché du cloud computing  s'élevait à environ 5,5 milliards de dollars en 2008, il devrait atteindre plus de 150 milliards d'ici 2020, comme l’illustre la figure \ref{fig:tempsnip4}. 
+  L'idée principale du cloud est apparue dans les années 60, où le professeur John McCarthy avait imaginé que les ressources informatiques seront fournies comme des services d’utilité publique \parencite{Garfinkel}. C'est ensuite, vers la fin des années 90, que ce concept a pris de l'importance avec l’avènement du grid computing  \parencite{Foster}. Le terme cloud est une métaphore exprimant la similarité avec le réseau électrique, dans lequel l'électricité est produite dans de grandes centrales, puis disséminée à travers un réseau jusqu'aux utilisateurs finaux. Ici, les grandes centrales sont les Datacenter, le réseau est le plus souvent celui d'Internet et l'électricité correspond aux ressources informatiques. Le cloud computing  n'est véritablement apparu qu'au cours de l’année 2006 \parencite{Vouk2008} avec l'apparition d'Amazon \ac{ec2}. C'est en 2009 que la réelle explosion du cloud survint avec l'arrivée sur le marché de sociétés comme Google (Google App Engine), Microsoft (Microsoft Azure), IBM (IBM Smart Business Service), Sun (Sun cloud) et Canonical Ltd (Ubuntu Enterprise cloud).Sun (Sun cloud) et Canonical Ltd (Ubuntu Enterprise cloud). D'après une étude menée par Forrester \parencite{Ried}, le marché du cloud computing  s'élevait à environ 5,5 milliards de dollars en 2008, il devrait atteindre plus de 150 milliards d'ici 2020, comme l’illustre la figure \ref{fig:tempsnip4}. 
     
     \begin{figure}[h]
     	\centering
     	\includegraphics[width=0.8\linewidth]{images/tempsnip4}
-    	\caption{Prévisions de la taille du marché du cloud computing  public \parencite{Geelan}arencite{Geelan}arencite{Geelan}arencite{Ried}.}
+    	\caption{Prévisions de la taille du marché du cloud computing  public \parencite{Ried}.}
     	\label{fig:tempsnip4}
     \end{figure}
 \subsubsection{Vers une définition du cloud computing }
@@ -414,8 +415,8 @@ Les systèmes Workflow administratifs (General Purpose Workflow Management Syste
 d’enchaînement des tâches sont très simples et clairement définis ; ces procédures sont donc
 aisément automatisables, évitant ainsi un travail fastidieux où peuvent naître des erreurs souvent humaines. Les systèmes Workflow administratifs permettent de lier à une tâche administrative, les documents et les informations nécessaires à la réalisation de cette tâche par un acteur humain. Ces systèmes gèrent également le routage des documents et le remplissage de
 formulaires. La gestion par Workflow de procédures administratives permet un gain de
-l’ordre de 5\% à 10\% en termes de productivité et de 30 à 90\% en termes de délais [ADER 99]. Enfin une dernière raison de l’automatisation de ce type de procédures en Workflow provient du fait que ces procédures possèdent une structure statique et ne sont donc pas souvent
-assujetties à modifications car elles possèdent une longue durée d’utilisation [SCHEER 97]. 
+l’ordre de 5\% à 10\% en termes de productivité et de 30 à 90\% en termes de délais \parencite{Ader}. Enfin une dernière raison de l’automatisation de ce type de procédures en Workflow provient du fait que ces procédures possèdent une structure statique et ne sont donc pas souvent
+assujetties à modifications car elles possèdent une longue durée d’utilisation \parencite{Scheer}. 
 \subsection{Workflow de production} 
 Les systèmes Workflow de production impliquent des procédures prévisibles et assez répétitives. Leurs principales différences avec les Workflow administratifs résident dans la
 complexité des tâches et de la structure des procédures, dans leur capacité à faire appel à des
@@ -423,7 +424,7 @@ informations provenant de systèmes d’information variés et dans l’enjeu qu
 réussite. En effet, la procédure Workflow correspond directement au travail effectué par
 l’entreprise. En d’autres termes, la performance de l’entreprise est directement liée à
 l’exécution de la procédure managée par le Workflow. On dit dans ce cas qu’il est mission
-critical \footnote[1]{\samepage  Un système est dit critique lorsque : les vies de personnes sont tributaires de son fonctionnement ou le coût économique d'un dysfonctionnement est catastrophique. } [INCONCERT 97]. C’est par exemple le cas des organismes financiers, des compagnies d’assurances, des usines de production manufacturières. La réalisation des procédures
+critical \footnote[1]{\samepage  Un système est dit critique lorsque : les vies de personnes sont tributaires de son fonctionnement ou le coût économique d'un dysfonctionnement est catastrophique. } \parencite{InConcert}. C’est par exemple le cas des organismes financiers, des compagnies d’assurances, des usines de production manufacturières. La réalisation des procédures
 est donc associée à une forte valeur ajoutée et un volume d’informations traitées important.
 La complexité des procédures traitées est également due à la répartition de leurs activités
 sur plusieurs sites. Dans ce cas, les tâches exécutées nécessitent souvent l’interrogation de
@@ -434,11 +435,11 @@ Les systèmes Workflow de production doivent donc pouvoir évoluer. Par ailleurs
 l’exécution de certaines procédures ne peut pas toujours se poursuivre de manière automatisée, suite à l’occurrence d’un ou de plusieurs événements qui font aboutir le système dans un
 état particulier. Dans ce cas, il est nécessaire de faire intervenir des acteurs humains pour la
 prise de décision. Pour ce faire, le système Workflow de production peut faire appel à un autre système, de type collecticiel ou un autre système Workflow ad hoc, qui servira d’interface
-pour l’exécution dirigée par un acteur humain de la suite de la procédure. Ce type de Workflow est dit « composite » [EDER 96]. Enfin, dans la littérature, les systèmes Workflow de
+pour l’exécution dirigée par un acteur humain de la suite de la procédure. Ce type de Workflow est dit « composite » \parencite{Eder} . Enfin, dans la littérature, les systèmes Workflow de
 production sont également appelés case-based \parencite{VanderAalst}. 
 
 \subsection{Workflow adaptable ou Workflow ad hoc }
-L’impossibilité pour les systèmes de gestion de Workflow traditionnels de traiter les différents changements dynamiques dans les flux de travail est une limite à dépasser. A ce titre, il a été introduit les concepts de Workflow adaptable (adaptive Workflow) \parencite{VanderAalst} et de Workflow ad hoc \parencite{Voorhoeve}•. La nuance entre ces deux nouveaux termes provient du fait qu’ad hoc désigne un acte spécialement fait pour un objet déterminé alors qu’adaptable prévoit un changement définitif de la procédure. 
+L’impossibilité pour les systèmes de gestion de Workflow traditionnels de traiter les différents changements dynamiques dans les flux de travail est une limite à dépasser. A ce titre, il a été introduit les concepts de Workflow adaptable (adaptive Workflow) \parencite{VanderAalst} et de Workflow ad hoc \parencite{Voorhoeve}. La nuance entre ces deux nouveaux termes provient du fait qu’ad hoc désigne un acte spécialement fait pour un objet déterminé alors qu’adaptable prévoit un changement définitif de la procédure. 
 
 Les Workflow ad hoc se situent à la frontière gauche de la représentation Figure \ref{fig:classification-de-workflow} dans
 la « sphère » Workflow adaptable. Ils régissent des procédures dont la structure est déterminée pendant l’exécution en fonction des décisions humaines prises suite à la réalisation d’une

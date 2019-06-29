@@ -1,6 +1,7 @@
 \documentclass[12pt,twoside]{report}
 \usepackage[french]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
 \usepackage{amsmath,amsfonts,amssymb,amsthm,epsfig,epstopdf,titling,url,array}
 \usepackage{acronym}   	 	% list of abbreviations / acronyms
 \usepackage{makeidx}
@@ -60,21 +61,27 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{fancyhdr}
-\usepackage{array}
-\usepackage[table,xcdraw]{xcolor}
-\setcounter{tocdepth}{4}
-\setcounter{secnumdepth}{4}
 \pagestyle{fancy}
 
-\fancyhead{}
-\fancyhead[LO,CE]{Chapter \thechapter}
-\fancyhead[RO,LE]{Conception et mise en place d’un système Workflow  pour l’envirenement cloud}
-\fancyfoot{}
-\fancyfoot[LE,RO]{\thepage}
-\fancyfoot[LO,CE]{Chapter \thechapter}
-\fancyfoot[CO,RE]{Zerrouki djamel}
+%\fancyhead{}
+%\fancyhead[LO,CE]{Chapter \thechapter}
+%\fancyhead[RO,LE]{Conception et mise en place d’un système Workflow  pour l’envirenement cloud}
+%\fancyfoot{}
+%\fancyfoot[LE,RO]{\thepage}
+%\fancyfoot[LO,CE]{Chapter \thechapter}
+%\fancyfoot[CO,RE]{Zerrouki djamel}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
+
+\usepackage{array}
+%\usepackage[table,xcdraw]{xcolor}
+%\setcounter{tocdepth}{4}
+%\setcounter{secnumdepth}{4}
+
+
+
+
+
 \newcommand{\comment}[1]{}
 
 %opening
@@ -112,8 +119,10 @@
 
 
 %\maketitle
- \input{titlepage.tex}
- 
+% \input{titlepage.tex}
+              \includepdf{pagedegarde.pdf}
+
+               \includepdf{pagedegarde.pdf}
  
  
  
@@ -127,31 +136,33 @@
  
 \pagenumbering{roman}
  
+
+  \input{Dédicace.tex}
+   
+  
+ 
+ \input{Remerciements.tex}
+ 
+ \chapter*{Déclaration}
+ Les batailles de la vie ne sont pas gagnées par les plus forts, ni par les plus rapides mais par ceux qui n'abandonnent jamais
+ 
 \input{Résumé.tex} 
+
+\input{Abstrait.tex} 
 
 \input{molakhasse.tex}
 
- 
- 
- 
 
-
- \input{Abstrait.tex} 
   
  
- \chapter*{Dédicace}
- \input{Remerciements.tex}
-
-\chapter*{Déclaration}
- Les batailles de la vie ne sont pas gagnées par les plus forts, ni par les plus rapides mais par ceux qui n'abandonnent jamais
 
 %------------ List of Abbreviations---------------------
-\include{abbreviations}
+
 
 	\pagenumbering{roman} % switch to roman numerals
 
 %------------ Introduction Général ---------------------
-\include{Introduction}
+
  
 
 
@@ -164,13 +175,19 @@
 
 %%%%%%%  list of Tables %%%%%%%
 \listoftables
-
-
-
+%%%%%%%  Abbreviations %%%%%%%
+\include{abbreviations}
  \pagenumbering{arabic}
+\include{Introduction}
+
+
  
- \part{ Étude bibliographique }
+ 
+ 
+ 
+% \part{ Étude bibliographique }
 %\appendix
+\fancyhead{}
 \chapter{Concepts fondamentaux de cloud et de workflow }
 \input{ch1.tex}
 
@@ -179,19 +196,19 @@
 %\input{ch2.tex}
 
 %%%%%%%%%%%%%%%%%%%%%   Partie pratique  %%%%%%%%%%%%%%%%%%%%%%%%
-\part{  Partie pratique }
+%\part{  Partie pratique }
 
 
 \chapter{Analyse et Conception}
 \input{ch3.tex}
 
- 
+
  \chapter{Réalisation }
  \input{ch4.tex}
  
  
 %\printbibliography %[title={Whole bibliography}]
-  
+   
    \input{Conclusion.tex}
   
     \comment{  \section{First section}
@@ -226,8 +243,9 @@
   \end{thebibliography}
 }
  
-  
- \printbibliography
+
+ \printbibliography   
+ \fancyhead{}
 
 \appendix
 

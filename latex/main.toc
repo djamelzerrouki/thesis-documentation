@@ -43,9 +43,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Amazon Web Services }{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Microsoft Azure}{10}% 
+\contentsline {subsubsection}{Microsoft Azure}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Google Cloud Plateform}{10}% 
+\contentsline {subsubsection}{Google Cloud Plateform}{11}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{IBM}{11}% 
 \defcounter {refsection}{0}\relax 
@@ -57,7 +57,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.3}D\IeC {\'e}finitions et terminologies }{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}D\IeC {\'e}finitions de base du Workflow }{12}% 
+\contentsline {subsection}{\numberline {1.3.4}D\IeC {\'e}finitions de base du Workflow }{13}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{D\IeC {\'e}finition d\IeC {\textquoteright }un Workflow }{13}% 
 \defcounter {refsection}{0}\relax 
@@ -305,21 +305,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{ Consultation l'historique par T\IeC {\^a}che }{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gestion des Sous-Directions et des Services }{62}% 
+\contentsline {subsubsection}{Gestion des Sous-Directions et des Services }{63}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Gestion des Utilisateurs}{63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Consultation des Dossiers}{63}% 
+\contentsline {subsubsection}{Consultation des Dossiers}{64}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{ Consultation l'historique par dossier }{64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.2}l'interfaces de l'Utilisateur }{64}% 
+\contentsline {subsection}{\numberline {3.5.2}l'interfaces de l'Utilisateur }{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{ Accueil }{64}% 
+\contentsline {subsubsection}{ Accueil }{65}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Ajouter un dossier}{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{ Liste des dossier }{65}% 
+\contentsline {subsubsection}{ Liste des dossier }{66}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{ G\IeC {\'e}rer les bordereaux }{66}% 
 \defcounter {refsection}{0}\relax 

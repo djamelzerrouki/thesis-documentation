@@ -38,6 +38,58 @@
     \field{year}{1996}
   \endentry
 
+  \entry{belounnar2011approche}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=BS}{%
+         family={Belounnar},
+         familyi={B\bibinitperiod},
+         given={Saliha},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BS1}
+    \strng{fullhash}{BS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Une approche formelle pour l’adaptabilit{\'e} d’un agent}
+    \list{institution}{1}{%
+      {Universit{\'e} Mohamed Khider Biskra}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2011}
+  \endentry
+
+  \entry{bouchhima2006modelisation}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=BA}{%
+         family={Bouchhima},
+         familyi={B\bibinitperiod},
+         given={Aimen},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BA1}
+    \strng{fullhash}{BA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Modélisation du logiciel embarqué à différents niveaux
+  d'abstraction en vue de la validation et la synthèse des systèmes
+  monopuces}
+    \list{institution}{1}{%
+      {Institut National Polytechnique de Grenoble-INPG}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2006}
+  \endentry
+
   \entry{Buyya}{book}{}
     \name{author}{2}{}{%
       {{hash=BR}{%
@@ -70,6 +122,32 @@
       {Seoul, Korea}%
     }
     \field{year}{2004}
+  \endentry
+
+  \entry{cloudComputing}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={CloudComputing},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{30-6-2019}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Convergence des différentes avancées menant à l'avènement
+  du cloud computing.}
+    \verb{url}
+    \verb https://www.google.com/search?q=Convergence+des+diff%C3%A9rentes+avan
+    \verb c%C3%A9es+menant+%C3%A0+l%27av%C3%A8nement+du+cloud+computing.&rlz=1C
+    \verb 1CHBD_deDZ776DZ776&tbm=isch&source=lnms&sa=X&ved=0ahUKEwiSg7H6kZHjAhX
+    \verb 5QxUIHWOpDw8Q_AUICygC&biw=767&bih=712&dpr=1.25#imgrc=XezSbm7RA6Tj9M:
+    \endverb
+    \field{year}{30-6-2019}
   \endentry
 
   \entry{Courtois}{article}{}
@@ -351,6 +429,31 @@
     \field{year}{2011}
   \endentry
 
+  \entry{meriem2012placement}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=MM}{%
+         family={Meriem},
+         familyi={M\bibinitperiod},
+         given={Meddeber},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MM1}
+    \strng{fullhash}{MM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Placement Dynamique de T{\^a}ches dans une Grille de Calcul}
+    \list{institution}{1}{%
+      {Universit{\'e} d’Oran}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2012}
+  \endentry
+
   \entry{Ried}{article}{}
     \name{author}{2}{}{%
       {{hash=RKHMPBAS}{%
@@ -428,6 +531,32 @@
     \field{pages}{165\bibrangedash 176}
     \field{title}{Workflows in Dynamic Environments Can they be manage}
     \field{year}{1999}
+  \endentry
+
+  \entry{sbai2010contribution}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=SZ}{%
+         family={Sba{\"\i}},
+         familyi={S\bibinitperiod},
+         given={Zohra},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SZ1}
+    \strng{fullhash}{SZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Contribution {\`a} la mod{\'e}lisation et {\`a} la
+  v{\'e}rification de processus workflow}
+    \list{institution}{1}{%
+      {Conservatoire national des arts et metiers-CNAM}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2010}
   \endentry
 
   \entry{Scheer}{book}{}
@@ -599,6 +728,59 @@
     \endverb
     \field{journaltitle}{The Workflow Management Coalition Specification}
     \field{year}{1999}
+  \endentry
+
+  \entry{yassa2014allocation}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=YS}{%
+         family={Yassa},
+         familyi={Y\bibinitperiod},
+         given={Sonia},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YS1}
+    \strng{fullhash}{YS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{title}{Allocation optimale multicontraintes des workflows aux
+  ressources d’un environnement Cloud Computing}
+    \list{institution}{1}{%
+      {Cergy-Pontoise}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2014}
+  \endentry
+
+  \entry{zacharewicz2006environnement}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=ZG}{%
+         family={Zacharewicz},
+         familyi={Z\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZG1}
+    \strng{fullhash}{ZG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{year}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{title}{Un environnement G-DEVS/HLA: Application {\`a} la
+  mod{\'e}lisation et simulation distribu{\'e}e de workflow}
+    \list{institution}{1}{%
+      {Universit{\'e} de droit, d'{\'e}conomie et des sciences-Aix-Marseille
+  III}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2006}
   \endentry
 
   \entry{maven}{online}{}

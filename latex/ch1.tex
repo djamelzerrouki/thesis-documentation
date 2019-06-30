@@ -66,19 +66,28 @@ Le cloud computing  utilise des technologies telles que la virtualisation, l'arc
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\linewidth]{images/34-0}
-	\caption{ Convergence des différentes avancées menant à l'avènement du cloud computing.}
+	\caption{ Convergence des différentes avancées menant à l'avènement du cloud computing.\parencite{cloudComputing}}
 	\label{fig:34-0}
 \end{figure}
 
 
 
 \begin{enumerate}
-\item \textbf{Grid computing: }   Le grid computing  est un paradigme de calcul réparti qui coordonne des ressources autonomes et géographiquement distribuées pour atteindre un objectif de calcul commun. Le grid est basé sur le partage dynamique des ressources entre des participants, des organisations et des entreprises dans le but de pouvoir les mutualiser, et faire ainsi exécuter des applications scientifiques, qui sont généralement des calculs intensifs ou des traitements de très gros volumes de données. Le cloud computing  est similaire au grid computing :les deux adoptent le concept d’offrir les  ressources sous forme de services. Toutefois, ils sont différents dans leur finalité : tandis que la technologie des grilles vise essentiellement à permettre à des groupes différents de partager l’accès en libre service à leurs ressources, le cloud a pour objectif de fournir aux utilisateurs des services « à la demande », sur le principe du « paiement à l’usage ». De plus le cloud  exploite les technologies de virtualisation à plusieurs niveaux (matériel et plateforme d'application) pour réaliser le partage et l'approvisionnement dynamique des ressources.  
-\item \textbf{Utility computing  (informatique utilitaire): } L’utility computing  est simplement une délocalisation d'un système de calcul ou de stockage. Il présente un modèle d’affectation des ressources à la demande et facturation des utilisateurs en fonction de leur usage. Le cloud computing  peut être perçu comme une réalisation de l'informatique utilitaire. Il adopte un système de tarification basé sur l'utilité, entièrement pour des raisons économiques. Avec l'approvisionnement des ressources à la demande et le paiement à l’usage, les fournisseurs de services peuvent maximiser l'utilisation des ressources et minimiser leurs coûts d'exploitation.
+\item \textbf{Grid computing: }  \\ Le grid computing  est un paradigme de calcul réparti qui coordonne des ressources autonomes et géographiquement distribuées pour atteindre un objectif de calcul commun. Le grid est basé sur le partage dynamique des ressources entre des participants, des organisations et des entreprises dans le but de pouvoir les mutualiser, et faire ainsi exécuter des applications scientifiques, qui sont généralement des calculs intensifs ou des traitements de très gros volumes de données. Le cloud computing  est similaire au grid computing :les deux adoptent le concept d’offrir les  ressources sous forme de services. Toutefois, ils sont différents dans leur finalité : tandis que la technologie des grilles vise essentiellement à permettre à des groupes différents de partager l’accès en libre service à leurs ressources, le cloud a pour objectif de fournir aux utilisateurs des services « à la demande », sur le principe du « paiement à l’usage ». De plus le cloud  exploite les technologies de virtualisation à plusieurs niveaux (matériel et plateforme d'application) pour réaliser le partage et l'approvisionnement dynamique des ressources \parencite{meriem2012placement}.
+\item \textbf{Utility computing  (informatique utilitaire): } \\L’utility computing  est simplement une délocalisation d'un système de calcul ou de stockage. Il présente un modèle d’affectation des ressources à la demande et facturation des utilisateurs en fonction de leur usage. Le cloud computing  peut être perçu comme une réalisation de l'informatique utilitaire. Il adopte un système de tarification basé sur l'utilité, entièrement pour des raisons économiques. Avec l'approvisionnement des ressources à la demande et le paiement à l’usage, les fournisseurs de services peuvent maximiser l'utilisation des ressources et minimiser leurs coûts d'exploitation.
 
-\item \textbf{L'autonomic computing: }  L’autonomic computing  vise à construire des systèmes  informatiques capables de s’auto-administrer en s’adaptant à des changements  internes et externes sans intervention humaine. Le but de l'informatique autonome est de surmonter la complexité de la gestion des systèmes informatiques d'aujourd'hui. Bien que le cloud computing  présente certaines caractéristiques autonomes, telles que l’approvisionnement automatique des ressources, son objectif est de diminuer le coût des ressources, plutôt que de réduire la complexité du système.
+\item \textbf{L'autonomic computing: }  \\L’autonomic computing  vise à construire des systèmes  informatiques capables de s’auto-administrer en s’adaptant à des changements  internes et externes sans intervention humaine. Le but de l'informatique autonome est de surmonter la complexité de la gestion des systèmes informatiques d'aujourd'hui. Bien que le cloud computing  présente certaines caractéristiques autonomes, telles que l’approvisionnement automatique des ressources, son objectif est de diminuer le coût des ressources, plutôt que de réduire la complexité du système \parencite{yassa2014allocation}.
 
-\item \textbf{Virtualisation: } La virtualisation est une technologie qui fait abstraction des détails du matériel physique et fournit des ressources virtualisées pour les applications de haut niveau. En effet, la virtualisation regroupe l’ensemble des techniques matérielles ou logicielles permettant de faire fonctionner, sur une seule machine physique, plusieurs configurations informatiques (systèmes d’exploitation,…), de sorte à former plusieurs machines virtuelles, qui reproduisent le comportement des machines physiques. La virtualisation constitue le socle du cloud computing, car elle offre la possibilité de mettre en commun des ressources informatiques à partir de clusters de serveurs, et ainsi d’affecter ou réaffecter dynamiquement des machines virtuelles aux applications à la demande. La figure 1.3. montre l’architecture en couches de la technologie de virtualisation. Le  \ac{vmm} en français moniteur de machine virtuelle ,  également appelé hyperviseur, partitionne la ressource physique du serveur physique sous-jacente en plusieurs machines virtuelles  différentes, chacune fonctionnant sous un système d'exploitation distinct et une pile de logiciels utilisateur. 
+\item \textbf{Virtualisation: } \\ La virtualisation est une technologie qui fait abstraction des détails du matériel physique et fournit des ressources virtualisées pour les applications de haut niveau. En effet, la virtualisation regroupe l’ensemble des techniques matérielles ou logicielles permettant de faire fonctionner, sur une seule machine physique, plusieurs configurations informatiques (systèmes d’exploitation,…), de sorte à former plusieurs machines virtuelles, qui reproduisent le comportement des machines physiques. La virtualisation constitue le socle du cloud computing, car elle offre la possibilité de mettre en commun des ressources informatiques à partir de clusters de serveurs, et ainsi d’affecter ou réaffecter dynamiquement des machines virtuelles aux applications à la demande. La figure \ref{fig:virtualisation}. montre l’architecture en couches de la technologie de virtualisation. Le  \ac{vmm} en français moniteur de machine virtuelle ,  également appelé hyperviseur, partitionne la ressource physique du serveur physique sous-jacente en plusieurs machines virtuelles  différentes, chacune fonctionnant sous un système d'exploitation distinct et une pile de logiciels utilisateur \parencite{bouchhima2006modelisation}.
+
+ 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/virtualisation}
+	\caption{ Une architecture en couches de la technologie de virtualisation. }
+	\label{fig:virtualisation}
+\end{figure}
+
 \end{enumerate}
 
 
@@ -97,9 +106,9 @@ Le cloud computing  utilise des technologies telles que la virtualisation, l'arc
 \subsection{Modèles du cloud computing  }
 \subsubsection {Modèles de service du cloudcomputing}  
 \ac{xaas} représente la base du paradigme du cloud computing, où X représente un service tel qu’un logiciel, une plateforme, une infrastructure, un Business Process \ac{bpaas}, etc. Nous présentons, dans cette section,  quatre  modèles de services \parencite{Rimal}, à savoir: (1) Logiciel en tant que services \ac{saas},  où le matériel, l’hébergement, le framework d’application et le logiciel sont dématérialisés, (2) Plateforme en tant que service \ac{paas}, où le matériel, l’hébergement et le framework d’application sont dématérialisés, (3) Infrastructure en tant que service \ac{iaas} et (4) Matériel en tant que service \ac{haas}, où seul le matériel (serveurs) est dématérialisé dans ces deux derniers cas. La figure \ref{fig:capture5} montre le modèle classique et les différents modèles de service de cloud
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{Capture5}
+	\includegraphics[width=0.9\linewidth]{Capture5}
 	\caption{Les services XaaS du cloud computing}
 	\label{fig:capture5}
 \end{figure}
@@ -248,7 +257,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\linewidth]{images/Environnementswf}
-	\caption{ Environnement du système Workflow}
+	\caption{ Environnement du système Workflow \parencite{zacharewicz2006environnement}}
 	\label{fig:environnementswf}
 \end{figure}
  	 
@@ -355,9 +364,9 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
  	 Les ressources sont organisées en classes dans le modèle organisationnel. Ces classes sont des groupes de ressources possédant des propriétés communes. Une classe est basée sur :
  	 
- 	  Rôle : défini ci dans le § suivant. 
+ 	 \textbf{ Rôle :} défini ci dans le paragraphe \textbf{Rôle (Role)} suivant. 
  	  
- 	 Groupe : cette classification est basée sur l’organisation (département, équipe, unité). 
+ 	 \textbf{Groupe :} cette classification est basée sur l’organisation (département, équipe, unité). 
  	 
  	 \subsubsection{ Rôle (Role) }
  	 
@@ -709,7 +718,7 @@ Les réseaux de Pétri sont définis comme étant un formalisme qui permet la de
 
 
 \subsubsection*{Représentation graphique} 
-L'un des aspects les plus agréables des réseaux de Pétri est qu'il est extrêmement aisé de les visualiser; c.-à-d., donner une interprétation graphique à sa structure qui peut être représentée à travers un graphe bipartie fait de deux types de sommets: les places et les transitions reliées alternativement par des arcs orientés qui portent des poids entiers positifs, si un poids n'est pas porté alors il est égal à 1 (RdP ordinaire). Généralement, les places sont représentées par des cercles et les transitions par des rectangles, le marquage d'un RdP est représenté par la distribution de jetons dans l'ensemble de ses places telle que chaque place peut contenir un ou plusieurs jetons représentés par des points dans le cercle représentant la place. \parencite{Rdp}
+L'un des aspects les plus agréables des réseaux de Pétri est qu'il est extrêmement aisé de les visualiser; c.-à-d., donner une interprétation graphique à sa structure qui peut être représentée à travers un graphe bipartie fait de deux types de sommets: les places et les transitions reliées alternativement par des arcs orientés qui portent des poids entiers positifs, si un poids n'est pas porté alors il est égal à 1 (RdP ordinaire). Généralement, les places sont représentées par des cercles et les transitions par des rectangles, le marquage d'un RdP est représenté par la distribution de jetons dans l'ensemble de ses places telle que chaque place peut contenir un ou plusieurs jetons représentés par des points dans le cercle représentant la place. \parencite{belounnar2011approche}
 
 
 
@@ -836,7 +845,7 @@ On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques d
 
 
 \begin{defn}
-	\textbf{(Wf-nets):}  Le réseau de pétri qui permet de modéliser le contrôle de flux d’un workflow est appelé un WF-net  (réseaux workflow) Ssi:\parencite{Rdp}
+	\textbf{(Wf-nets):}  Le réseau de pétri qui permet de modéliser le contrôle de flux d’un workflow est appelé un WF-net  (réseaux workflow) Ssi:\parencite{sbai2010contribution}
 	
 	\begin{enumerate}
 		\item Il existe une seule place source $i \in P$ avec $ ^{*}i = \emptyset $.  (i début du processus).
@@ -857,14 +866,14 @@ On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques d
 	\end{figure}
 	
 \end{defn}
-Un réseau de workflow (WF-net) est un réseau de pétri qui possède une seule place d’entrée (i) et une seule place de sortie (o) et puis que n’importe quel cas traité avec la procédure représentée par un WF-net est crée au moment de début de son traitement par le système de gestion de workflow (SGWF) est supprimé une fois que sont traitement est complètement achevé par le SGWF. Cela veut dure que le WFnet spécifie le cycle de vie d’un cas du processus modélisé.  \parencite{Rdp}
+Un réseau de workflow (WF-net) est un réseau de pétri qui possède une seule place d’entrée (i) et une seule place de sortie (o) et puis que n’importe quel cas traité avec la procédure représentée par un WF-net est crée au moment de début de son traitement par le système de gestion de workflow (SGWF) est supprimé une fois que sont traitement est complètement achevé par le SGWF. Cela veut dure que le WFnet spécifie le cycle de vie d’un cas du processus modélisé.  \parencite{sbai2010contribution}
 \begin{rem}
 	Un chemin C dans un WF-net d’un nœud $n_{1}$ au nœud $n_{k}$ est une séquence $<n_{1},n_{2},...,n_{k}>$ tel-que $<n_{i},n_{i+1}> \in F $, pour $i=1...k-1$.
 	F est la relation de flux. 
 \end{rem}
 
 \subsection{Constructions du routage dans un WF-net}
-Un réseau de workflow (WF-net) est utilisé pour spécifier le routage de flux dans les cas du workflow, quatre types de routage ont été identifiés :\parencite{Rdp}
+Un réseau de workflow (WF-net) est utilisé pour spécifier le routage de flux dans les cas du workflow, quatre types de routage ont été identifiés :\parencite{sbai2010contribution}
 
 \subsubsection{Séquentiel :}
 

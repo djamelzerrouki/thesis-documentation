@@ -172,40 +172,6 @@
     \field{year}{1996}
   \endentry
 
-  \entry{Eder}{book}{}
-    \name{author}{2}{}{%
-      {{hash=EJ}{%
-         family={Eder},
-         familyi={E\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=LW}{%
-         family={Liebhart},
-         familyi={L\bibinitperiod},
-         given={W.},
-         giveni={W\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {EDBT Workshop on Workflow Management Systems}%
-    }
-    \strng{namehash}{EJLW1}
-    \strng{fullhash}{EJLW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1997}
-    \field{labeldatesource}{year}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-    \field{pages}{3\bibrangedash 10}
-    \field{title}{Contributions to Exception Handling Workflow Management}
-    \list{location}{1}{%
-      {Valencia}%
-    }
-    \field{year}{1997}
-  \endentry
-
   \entry{cloud2019}{online}{}
     \name{author}{1}{}{%
       {{hash=E}{%
@@ -461,9 +427,9 @@
          familyi={R\bibinitperiod},
          suffix={S.},
          suffixi={S\bibinitperiod},
-         given={Kisker H. Matzke P. Bartels\bibnamedelima A.},
+         given={Kisker H. Matzke-P. Bartels\bibnamedelima A.},
          giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
-  M\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  M\bibinithyphendelim P\bibinitperiod\bibinitdelim
   B\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=L}{%
@@ -596,6 +562,55 @@
       {Torino Italy}%
     }
     \field{year}{1997}
+  \endentry
+
+  \entry{spring}{online}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={Spring},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{spring projects documentation}
+    \verb{url}
+    \verb https://spring.io/projects/
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{steffenel2017contributions}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=SLA}{%
+         family={Steffenel},
+         familyi={S\bibinitperiod},
+         given={Luiz\bibnamedelima Angelo},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SLA1}
+    \strng{fullhash}{SLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Contributions {\`a} la Gestion de
+  l'H{\'e}t{\'e}rog{\'e}n{\'e}it{\'e} dans les Environnements Distribu{\'e}s et
+  Pervasifs}
+    \list{institution}{1}{%
+      {Universit{\'e} de Reims Champagne Ardenne}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2017}
   \endentry
 
   \entry{VanderAalst}{book}{}

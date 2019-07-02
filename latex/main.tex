@@ -75,8 +75,9 @@
 
 \usepackage{array}
 %\usepackage[table,xcdraw]{xcolor}
+
 %\setcounter{tocdepth}{4}
-%\setcounter{secnumdepth}{4}
+\setcounter{secnumdepth}{4}
 
 
 
@@ -158,7 +159,7 @@
 %------------ List of Abbreviations---------------------
 
 
-	\pagenumbering{roman} % switch to roman numerals
+%	\pagenumbering{roman} % switch to roman numerals
 
 %------------ Introduction Général ---------------------
 
@@ -187,6 +188,7 @@
 % \part{ Étude bibliographique }
 %\appendix
 \fancyhead{}
+\includepdf{ch01.pdf}
 \chapter{Concepts fondamentaux de cloud et de workflow }
 \input{ch1.tex}
 
@@ -197,11 +199,11 @@
 %%%%%%%%%%%%%%%%%%%%%   Partie pratique  %%%%%%%%%%%%%%%%%%%%%%%%
 %\part{  Partie pratique }
 
-
+\includepdf{ch02.pdf}
 \chapter{Analyse et Conception}
 \input{ch3.tex}
 
-
+\includepdf{ch03.pdf}
  \chapter{Réalisation }
  \input{ch4.tex}
  

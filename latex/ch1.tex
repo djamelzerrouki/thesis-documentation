@@ -15,7 +15,7 @@
     
     \begin{figure}[h]
     	\centering
-    	\includegraphics[width=0.8\linewidth]{images/tempsnip4}
+    	\includegraphics[width=1\linewidth]{images/tempsnip4}
     	\caption{Prévisions de la taille du marché du cloud computing  public \parencite{Ried}.}
     	\label{fig:tempsnip4}
     \end{figure}
@@ -72,23 +72,22 @@ Le cloud computing  utilise des technologies telles que la virtualisation, l'arc
 
 
 
-\begin{enumerate}
-\item \textbf{Grid computing: }  \\ Le grid computing  est un paradigme de calcul réparti qui coordonne des ressources autonomes et géographiquement distribuées pour atteindre un objectif de calcul commun. Le grid est basé sur le partage dynamique des ressources entre des participants, des organisations et des entreprises dans le but de pouvoir les mutualiser, et faire ainsi exécuter des applications scientifiques, qui sont généralement des calculs intensifs ou des traitements de très gros volumes de données. Le cloud computing  est similaire au grid computing :les deux adoptent le concept d’offrir les  ressources sous forme de services. Toutefois, ils sont différents dans leur finalité : tandis que la technologie des grilles vise essentiellement à permettre à des groupes différents de partager l’accès en libre service à leurs ressources, le cloud a pour objectif de fournir aux utilisateurs des services « à la demande », sur le principe du « paiement à l’usage ». De plus le cloud  exploite les technologies de virtualisation à plusieurs niveaux (matériel et plateforme d'application) pour réaliser le partage et l'approvisionnement dynamique des ressources \parencite{meriem2012placement}.
-\item \textbf{Utility computing  (informatique utilitaire): } \\L’utility computing  est simplement une délocalisation d'un système de calcul ou de stockage. Il présente un modèle d’affectation des ressources à la demande et facturation des utilisateurs en fonction de leur usage. Le cloud computing  peut être perçu comme une réalisation de l'informatique utilitaire. Il adopte un système de tarification basé sur l'utilité, entièrement pour des raisons économiques. Avec l'approvisionnement des ressources à la demande et le paiement à l’usage, les fournisseurs de services peuvent maximiser l'utilisation des ressources et minimiser leurs coûts d'exploitation.
+\subsubsection{Grid computing: }    Le grid computing  est un paradigme de calcul réparti qui coordonne des ressources autonomes et géographiquement distribuées pour atteindre un objectif de calcul commun. Le grid est basé sur le partage dynamique des ressources entre des participants, des organisations et des entreprises dans le but de pouvoir les mutualiser, et faire ainsi exécuter des applications scientifiques, qui sont généralement des calculs intensifs ou des traitements de très gros volumes de données. Le cloud computing  est similaire au grid computing :les deux adoptent le concept d’offrir les  ressources sous forme de services. Toutefois, ils sont différents dans leur finalité : tandis que la technologie des grilles vise essentiellement à permettre à des groupes différents de partager l’accès en libre service à leurs ressources, le cloud a pour objectif de fournir aux utilisateurs des services « à la demande », sur le principe du « paiement à l’usage ». De plus le cloud  exploite les technologies de virtualisation à plusieurs niveaux (matériel et plateforme d'application) pour réaliser le partage et l'approvisionnement dynamique des ressources \parencite{meriem2012placement}.
+\subsubsection{Utility computing  (informatique utilitaire): }  L’utility computing  est simplement une délocalisation d'un système de calcul ou de stockage. Il présente un modèle d’affectation des ressources à la demande et facturation des utilisateurs en fonction de leur usage. Le cloud computing  peut être perçu comme une réalisation de l'informatique utilitaire. Il adopte un système de tarification basé sur l'utilité, entièrement pour des raisons économiques. Avec l'approvisionnement des ressources à la demande et le paiement à l’usage, les fournisseurs de services peuvent maximiser l'utilisation des ressources et minimiser leurs coûts d'exploitation.
 
-\item \textbf{L'autonomic computing: }  \\L’autonomic computing  vise à construire des systèmes  informatiques capables de s’auto-administrer en s’adaptant à des changements  internes et externes sans intervention humaine. Le but de l'informatique autonome est de surmonter la complexité de la gestion des systèmes informatiques d'aujourd'hui. Bien que le cloud computing  présente certaines caractéristiques autonomes, telles que l’approvisionnement automatique des ressources, son objectif est de diminuer le coût des ressources, plutôt que de réduire la complexité du système \parencite{yassa2014allocation}.
+\subsubsection{L'autonomic computing: }   L’autonomic computing  vise à construire des systèmes  informatiques capables de s’auto-administrer en s’adaptant à des changements  internes et externes sans intervention humaine. Le but de l'informatique autonome est de surmonter la complexité de la gestion des systèmes informatiques d'aujourd'hui. Bien que le cloud computing  présente certaines caractéristiques autonomes, telles que l’approvisionnement automatique des ressources, son objectif est de diminuer le coût des ressources, plutôt que de réduire la complexité du système \parencite{yassa2014allocation}.
 
-\item \textbf{Virtualisation: } \\ La virtualisation est une technologie qui fait abstraction des détails du matériel physique et fournit des ressources virtualisées pour les applications de haut niveau. En effet, la virtualisation regroupe l’ensemble des techniques matérielles ou logicielles permettant de faire fonctionner, sur une seule machine physique, plusieurs configurations informatiques (systèmes d’exploitation,…), de sorte à former plusieurs machines virtuelles, qui reproduisent le comportement des machines physiques. La virtualisation constitue le socle du cloud computing, car elle offre la possibilité de mettre en commun des ressources informatiques à partir de clusters de serveurs, et ainsi d’affecter ou réaffecter dynamiquement des machines virtuelles aux applications à la demande. La figure \ref{fig:virtualisation}. montre l’architecture en couches de la technologie de virtualisation. Le  \ac{vmm} en français moniteur de machine virtuelle ,  également appelé hyperviseur, partitionne la ressource physique du serveur physique sous-jacente en plusieurs machines virtuelles  différentes, chacune fonctionnant sous un système d'exploitation distinct et une pile de logiciels utilisateur \parencite{bouchhima2006modelisation}.
+\subsubsection{Virtualisation: }   La virtualisation est une technologie qui fait abstraction des détails du matériel physique et fournit des ressources virtualisées pour les applications de haut niveau. En effet, la virtualisation regroupe l’ensemble des techniques matérielles ou logicielles permettant de faire fonctionner, sur une seule machine physique, plusieurs configurations informatiques (systèmes d’exploitation,…), de sorte à former plusieurs machines virtuelles, qui reproduisent le comportement des machines physiques. La virtualisation constitue le socle du cloud computing, car elle offre la possibilité de mettre en commun des ressources informatiques à partir de clusters de serveurs, et ainsi d’affecter ou réaffecter dynamiquement des machines virtuelles aux applications à la demande. La figure \ref{fig:virtualisation}. montre l’architecture en couches de la technologie de virtualisation. Le  \ac{vmm} en français moniteur de machine virtuelle ,  également appelé hyperviseur, partitionne la ressource physique du serveur physique sous-jacente en plusieurs machines virtuelles  différentes, chacune fonctionnant sous un système d'exploitation distinct et une pile de logiciels utilisateur \parencite{bouchhima2006modelisation}.
 
  
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{images/virtualisation}
+	\includegraphics[width=1\linewidth]{images/virtualisation}
 	\caption{ Une architecture en couches de la technologie de virtualisation. }
 	\label{fig:virtualisation}
 \end{figure}
 
-\end{enumerate}
+ 
 
 
 
@@ -103,43 +102,42 @@ Le cloud computing  utilise des technologies telles que la virtualisation, l'arc
 
 
 
-\subsection{Modèles du cloud computing  }
-\subsubsection {Modèles de service du cloudcomputing}  
+%\subsection{Modèles du cloud computing  }
+\subsection {Modèles de service du cloudcomputing}  
 \ac{xaas} représente la base du paradigme du cloud computing, où X représente un service tel qu’un logiciel, une plateforme, une infrastructure, un Business Process \ac{bpaas}, etc. Nous présentons, dans cette section,  quatre  modèles de services \parencite{Rimal}, à savoir: (1) Logiciel en tant que services \ac{saas},  où le matériel, l’hébergement, le framework d’application et le logiciel sont dématérialisés, (2) Plateforme en tant que service \ac{paas}, où le matériel, l’hébergement et le framework d’application sont dématérialisés, (3) Infrastructure en tant que service \ac{iaas} et (4) Matériel en tant que service \ac{haas}, où seul le matériel (serveurs) est dématérialisé dans ces deux derniers cas. La figure \ref{fig:capture5} montre le modèle classique et les différents modèles de service de cloud
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\linewidth]{Capture5}
+	\includegraphics[width=1\linewidth]{Capture5}
 	\caption{Les services XaaS du cloud computing}
 	\label{fig:capture5}
 \end{figure}
 
-\begin{enumerate}
-\item 	\textbf{Software as a Service (SaaS):}
+\subsubsection{Software as a Service (SaaS)}
 
 Ce modèle de service est caractérisé par l’utilisation d’une application partagée qui fonctionne sur une infrastructure Cloud. L’utilisateur accède à l’application par le réseau au travers de divers types de terminaux (souvent via un navigateur web). L’administrateur de l’application ne gère pas et ne contrôle pas l’infrastructure sous-jacente (réseaux, serveurs, applications, stockage).  Il ne contrôle pas les fonctions de l’application à l’exception d’un paramétrage de quelques fonctions utilisateurs limitées. On prend comme exemple les logiciels de messagerie au travers d’un navigateur comme Gmail ou Yahoo mail. 
 
-\item  \textbf{ Platform as a Service (PaaS):}
+\subsubsection{ Platform as a Service (PaaS)}
 
 L’utilisateur a la possibilité de créer et de déployer sur une infrastructure Cloud PaaS ses propres applications en utilisant les langages et les outils du fournisseur. L’utilisateur ne gère pas ou ne contrôle pas l’infrastructure Cloud sous-jacente (réseaux, serveurs, stockage) mais l’utilisateur contrôle l’application déployée et sa configuration. Comme exemple de PaaS, on peut citer un des plus anciens -IntuitQuickbase- qui permet de déployer ses applications bases de données en ligne ou -\ac{gae}- pour déployer des services Web. 
 
 Dans ces deux cas l’utilisateur de ces services n’a pas à gérer des serveurs ou des systèmes pour déployer ses applications en ligne et dimensionner des ressources adaptées au trafic.
-\item   \textbf{Infrastructure as a Service (IaaS):}
+\subsubsection{Infrastructure as a Service (IaaS)}
 
 L’utilisateur loue des moyens de calcul et de stockage, des capacités réseau et d’autres ressources indispensables (partage de charge, pare-feu, cache). L’utilisateur a la possibilité de déployer n’importe quel type de logiciel incluant les systèmes d’exploitation. L’utilisateur ne gère pas ou ne contrôle pas l’infrastructure Cloud sous-jacente mais il a le contrôle sur les systèmes d’exploitation, le stockage et les applications. Il peut aussi choisir les caractéristiques principales des équipements réseau comme le partage de charge, les pare-feu, etc. L’exemple emblématique de ce type de service est Amazon Web Services qui fournit du calcul (EC2), du stockage (S3, EBS), des bases de données en ligne (SimpleDB) et quantité d’autres services de base. Il est maintenant imité par de très nombreux fournisseurs.
 	  
-\end{enumerate}
-\subsubsection { Modèles de déploiement}  
+ 
+\subsection { Modèles de déploiement}  
 
 Selon la définition du cloud computing  donnée part le \ac{nist} \parencite{Mell}, il existe quatre modèles de déploiement des services de cloud, à savoir : cloud privé, cloud communautaire, cloud public et cloud hybride, comme illustré dans la figure \ref{fig:cloudmd}.
-\begin{enumerate}
-	\item \textbf{Cloud privé :}\\
+ 
+\subsubsection{Cloud privé :}
 	 L’ensemble des ressources d’un cloud privé est exclusivement mis à disposition d’une entreprise ou organisation unique. Le cloud privé peut être géré par l’entreprise elle même (cloud privé interne) ou par une tierce partie (cloud privé externe). Les ressources d’un cloud privé se trouvent généralement dans les locaux de l’entreprise ou bien chez un fournisseur de services. Dans ce dernier cas, l’infrastructure est entièrement dédiée à l’entreprise et y est accessible via un réseau sécurisé (de type \ac{vpn}).  L’utilisation d’un cloud privé permet de 	garantir, par exemple, que les ressources matérielles allouées ne seront jamais partagées par deux clients différents. 
 	
-	\item \textbf{Cloud communautaire:}\\
+\subsubsection{Cloud communautaire}
 	 L’infrastructure d’un cloud communautaire est partagée par plusieurs organisations indépendantes ayant des intérêts communs. L’infrastructure peut être gérée par les organisations membres ou par un tiers. L’infrastructure peut être située, soit au sein des dites organisations, soit chez un fournisseur de services. 
-	\item \textbf{Cloud public:}\\
+\subsubsection{Cloud public}
 	L’infrastructure d’un cloud public est accessible à un large public et appartient à un fournisseur de services. Ce dernier facture les utilisateurs selon la consommation et garantit la disponibilité des services via des contrats SLA. 
-	\item \textbf{Cloud hybride:}\\
+\subsubsection{Cloud hybride}
 	 L’infrastructure d’un cloud hybride est une composition de plusieurs clouds (privé, communautaire ou public). Les différents clouds composant l’infrastructure restent des entités uniques, mais sont reliés par une technologie standard ou propriétaire permettant ainsi la portabilité des données ou des applications déployées sur les différents clouds.  
 
 \begin{figure}[H]
@@ -148,7 +146,7 @@ Selon la définition du cloud computing  donnée part le \ac{nist} \parencite{Me
 	\caption{Modèles de déploiement du cloud computing }
 	\label{fig:cloudmd}
 \end{figure}
-\end{enumerate}
+ 
 %
 %\subsection{Cloud computing et sécurité}
 %Toutes les enquêtes montrent que la sécurité est la préoccupation majeure des organisations dans le processus d’adoption des technologies Cloud. Les questions sont nombreuses comme par exemple :
@@ -256,7 +254,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\linewidth]{images/Environnementswf}
+	\includegraphics[width=0.4\linewidth]{images/Environnementswf}
 	\caption{ Environnement du système Workflow \parencite{zacharewicz2006environnement}}
 	\label{fig:environnementswf}
 \end{figure}
@@ -298,7 +296,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{images/DimensionsWF}
+	\includegraphics[width=0.49\linewidth]{images/DimensionsWF}
 	\caption{ Dimensions des systèmes Workflow }
 	\label{fig:dimensionswf}
 \end{figure}
@@ -340,7 +338,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
  	 
  
- 	 
+ 	 	 \comment{ 
  	 
  	\subsection{Concepts et Terminologie Workflow fondamentaux } 
  	 
@@ -392,7 +390,7 @@ Très présent dans le monde du multicloud et du cloud hybride, il dispose actue
  	 
  	 
  	 
- 	 
+}	 
  	 
  	 
  	 
@@ -403,9 +401,9 @@ Il n’existe pas de classification commune des systèmes Workflow dans la litt�
 En effet, les spécialistes adoptent différents points de vue par rapport à la notion de Workflow, les critères qui en découlent varient donc en fonction de leurs perceptions des caractéristiques présentées par ces systèmes Workflow. Ainsi, il existe plusieurs classifications, permettant de sélectionner un outil de gestion de Workflow avec différents « éclairages » sur le sujet.
 
 Malgré ce manque d’unité, la classification proposée par \parencite{McReady} est assez répandue dans la littérature, elle est reprise par bon nombre d’auteurs \parencite{VanderAalst},
-\parencite{Georgakopoulos}. Elle propose de distinguer quatre catégories de Systèmes Workflow. La Figure fig:classification-de-workflow présente ces différentes classes selon deux axes : Approche et Structure.
+\parencite{Georgakopoulos}. Elle propose de distinguer quatre catégories de Systèmes Workflow. La Figure \ref{fig:classification-de-workflow} présente ces différentes classes selon deux axes : Approche et Structure.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{"images/classification de workflow"}
 	\caption{ Différentes classes des systèmes Workflow 
@@ -433,12 +431,14 @@ informations provenant de systèmes d’information variés et dans l’enjeu qu
 réussite. En effet, la procédure Workflow correspond directement au travail effectué par
 l’entreprise. En d’autres termes, la performance de l’entreprise est directement liée à
 l’exécution de la procédure managée par le Workflow. On dit dans ce cas qu’il est mission
-critical \footnote[1]{\samepage  Un système est dit critique lorsque : les vies de personnes sont tributaires de son fonctionnement ou le coût économique d'un dysfonctionnement est catastrophique. } \parencite{InConcert}. C’est par exemple le cas des organismes financiers, des compagnies d’assurances, des usines de production manufacturières. La réalisation des procédures
+critical \footnote[1]{\samepage  Un système est dit critique lorsque : les vies de personnes sont tributaires de son fonctionnement ou le coût économique d'un dysfonctionnement est catastrophique. } \parencite{InConcert}.
+
+\comment{
+ C’est par exemple le cas des organismes financiers, des compagnies d’assurances, des usines de production manufacturières. La réalisation des procédures
 est donc associée à une forte valeur ajoutée et un volume d’informations traitées important.
 La complexité des procédures traitées est également due à la répartition de leurs activités
 sur plusieurs sites. Dans ce cas, les tâches exécutées nécessitent souvent l’interrogation de
-plusieurs systèmes informatiques, hétérogènes et distribués. Il est donc nécessaire que les systèmes Workflow de production fournissent un ensemble d’outils ou de fonctions d’API per-mettant de se connecter à plusieurs systèmes. Enfin, même si les procédures traitées sont assez répétitives, elles sont susceptibles d’être modifiés plus souvent que les procédures administratives, car associées à la modification des objectifs du métier. Ces modifications peuvent
-par exemple avoir lieu dans le cadre d’une restructuration de BPR29 ou d’un CPI30. 
+plusieurs systèmes informatiques, hétérogènes et distribués. Il est donc nécessaire que les systèmes Workflow de production fournissent un ensemble d’outils ou de fonctions d’API per-mettant de se connecter à plusieurs systèmes. Enfin, même si les procédures traitées sont assez répétitives, elles sont susceptibles d’être modifiés plus souvent que les procédures administratives, car associées à la modification des objectifs du métier. 
 
 Les systèmes Workflow de production doivent donc pouvoir évoluer. Par ailleurs,
 l’exécution de certaines procédures ne peut pas toujours se poursuivre de manière automatisée, suite à l’occurrence d’un ou de plusieurs événements qui font aboutir le système dans un
@@ -446,6 +446,8 @@ l’exécution de certaines procédures ne peut pas toujours se poursuivre de ma
 prise de décision. Pour ce faire, le système Workflow de production peut faire appel à un autre système, de type collecticiel ou un autre système Workflow ad hoc, qui servira d’interface
 pour l’exécution dirigée par un acteur humain de la suite de la procédure. Ce type de Workflow est dit « composite » \parencite{Eder} . Enfin, dans la littérature, les systèmes Workflow de
 production sont également appelés case-based \parencite{VanderAalst}. 
+
+}
 
 \subsection{Workflow adaptable ou Workflow ad hoc }
 L’impossibilité pour les systèmes de gestion de Workflow traditionnels de traiter les différents changements dynamiques dans les flux de travail est une limite à dépasser. A ce titre, il a été introduit les concepts de Workflow adaptable (adaptive Workflow) \parencite{VanderAalst} et de Workflow ad hoc \parencite{Voorhoeve}. La nuance entre ces deux nouveaux termes provient du fait qu’ad hoc désigne un acte spécialement fait pour un objet déterminé alors qu’adaptable prévoit un changement définitif de la procédure. 
@@ -466,13 +468,22 @@ selon plusieurs perspectives : la ressource, le contrôle, la procédure, la tâ
 Le modèle de référence, Figure \ref{fig:capture6}, présente l’architecture générale de l’environnement
 proposée par la WfMC, il identifie les interfaces couvrant cinq domaines de fonctionnalités entre le système Workflow et son environnement. 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{Capture6}
+	\includegraphics[width=1\linewidth]{Capture6}
 	\caption{ Modèle de référence des systèmes de gestion de workflow (WfMC, 95). }
 	\label{fig:capture6}
 \end{figure}
 
+\begin{itemize}
+\item  \textbf{Interface 1} : Correspond à l’échange des modèles entre les moteurs de workflows et les différents outils de modélisation de processus.
+\item  \textbf{Interface 2} : Permet à des applications clientes de communiquer avec le moteur de workflows. 
+\item  \textbf{Interface3} : Permet au système de workflow d’invoquer des applications clientes. 
+\item  \textbf{Interface 4} : Permet l’interopérabilité entre les différents moteurs de workflows. 
+\item  \textbf{Interface 5} : Correspond à l’interaction entre les applications d’administration et de pilotage et le moteur de workflows.
+
+\end{itemize}
+\comment{
 
 \subsubsection{Interface avec les Outils de définition de procédures }
 Cette interface, située entre les outils de modélisation/définition et le logiciel de gestion
@@ -537,7 +548,7 @@ par exemple l'application de gestion peut être une partie intégrante du servic
 
 
 
-
+}
 
 
 % 
@@ -692,9 +703,9 @@ Les Réseaux de Petri (RdPs)  constituent un formalisme majeur pour modéliser l
 \subsection{Qu'est-ce que les réseaux de Pétri }
 Les réseaux de Pétri sont définis comme étant un formalisme qui permet la description et l'analyse du comportement des systèmes concurrents, introduit par Carl Adam Pétri en 1962. \parencite{Rdp}
 
-\subsection{L'aspect structurel}
 
-\begin{defn}\textbf{\textbf{(Définition d'un réseau de pétri:}}
+
+\begin{defn}\textbf{\textbf{(Définition d'un réseau de pétri:)}}
 	\\
 	Un réseau de pétri (R) est un triple R= (P, T, W) où P est l'ensemble des places (les places représentent les sites) et T l'ensemble des transitions (les transitions représentent les actions) tel que :
 	
@@ -713,11 +724,11 @@ Les réseaux de Pétri sont définis comme étant un formalisme qui permet la de
 
 
 
-\subsubsection{Représentation d'un réseau de Pétri }
+\subsection{Représentation d'un réseau de Pétri }
 
 
 
-\subsubsection*{Représentation graphique} 
+\subsubsection{Représentation graphique} 
 L'un des aspects les plus agréables des réseaux de Pétri est qu'il est extrêmement aisé de les visualiser; c.-à-d., donner une interprétation graphique à sa structure qui peut être représentée à travers un graphe bipartie fait de deux types de sommets: les places et les transitions reliées alternativement par des arcs orientés qui portent des poids entiers positifs, si un poids n'est pas porté alors il est égal à 1 (RdP ordinaire). Généralement, les places sont représentées par des cercles et les transitions par des rectangles, le marquage d'un RdP est représenté par la distribution de jetons dans l'ensemble de ses places telle que chaque place peut contenir un ou plusieurs jetons représentés par des points dans le cercle représentant la place. \parencite{belounnar2011approche}
 
 
@@ -728,7 +739,7 @@ L'un des aspects les plus agréables des réseaux de Pétri est qu'il est extrê
 	\caption{ Réseau de Pétri simple }
 	\label{fig:petrif01}
 \end{figure}
-\subsubsection*{ Représentation matricielle} 
+\subsubsection{ Représentation matricielle} 
 Une représentation matricielle d'un RdP est offerte afin de simplifier les Tâches d'analyse et de vérification effectuée sur un modèle RdP. Agir sur une représentation graphique d'un modèle RdP est une Tâche délicate en comparant avec une représentation matricielle. Il   est possible de représenter la fonction W (fonction de poids) par des matrices.\parencite{Rdp}
 
 \begin{defn}\textbf{\textbf{(Réseau de pétri):}}
@@ -741,7 +752,7 @@ Le marquage d'un réseau de Petri est représenté par un vecteur de dimension m
 
 
 
-\subsubsection*{Représentation d’un RdP marqué }
+\subsubsection{Représentation d’un RdP marqué }
 
 Un réseau de Pétri marqué est le couple $ N = < R , M > $ où : 
 \begin{itemize}
@@ -790,10 +801,10 @@ On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques d
 		\begin{subfigure}[b]{0.4\textwidth}
 			\[	post=
 			\begin{pmatrix}
+			0 & 0 & 0 \\
 			1 & 0 & 0 \\
-			0 & 1 & 1 \\
-			0 & 1 & 1 \\
-			0 & 0 & 0 
+			0 & 1 & 0 \\
+			0 & 0 & 1 
 			\end{pmatrix}
 			\]
 			\caption{La matrice post}
@@ -806,7 +817,7 @@ On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques d
 			C=
 			\begin{pmatrix}
 			-1 & 0 & 0 \\
-			0 & -1 & -1 \\
+			1 & -1 & -1 \\
 			0 & 1 & 0 \\
 			0 & 0 & 1
 			\end{pmatrix}
@@ -841,9 +852,8 @@ On appelle marquage M d’un Réseau de Pétri le vecteur du nombre de marques d
 \end{exmp}
 
 
- 
 
-
+\subsection{réseaux workflow (Wf-nets)}
 \begin{defn}
 	\textbf{(Wf-nets):}  Le réseau de pétri qui permet de modéliser le contrôle de flux d’un workflow est appelé un WF-net  (réseaux workflow) Ssi:\parencite{sbai2010contribution}
 	

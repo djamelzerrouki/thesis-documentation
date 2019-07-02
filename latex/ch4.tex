@@ -367,17 +367,16 @@ Un archetype est un template de projet. Le fait d'utiliser des archetypes pour i
 
 
 Nous allons donc créer les microservices suivants:
-\begin{enumerate}
+\subsubsection{Service principal:} Service principal, qui offre par exemple une API REST pour  la liste des utilisateurs du système.   (voir la Figure \ref{fig:class01} dans le chapitre 2 qui représente le diagramme de classe).
 	
-\item 	\textbf{Service principal:} Service principal, qui offre par exemple une API REST pour  la liste des utilisateurs du système.   (voir la Figure \ref{fig:class01} dans le chapitre 2 qui représente le diagramme de classe).
+\subsubsection{Config Service :} Service de configuration, dont le rôle est de centraliser les fichiers de configuration des différents microservices dans un endroit unique.
 	
-\item 	\textbf{Config Service :} Service de configuration, dont le rôle est de centraliser les fichiers de configuration des différents microservices dans un endroit unique.
+\subsubsection{Proxy Service :} Passerelle se chargeant du routage d'une requête vers l'une des instances d'un service, de manière à gérer automatiquement la distribution de charge.
 	
-\item 		\textbf{Proxy Service :} Passerelle se chargeant du routage d'une requête vers l'une des instances d'un service, de manière à gérer automatiquement la distribution de charge.
-	
-\item 		\textbf{Discovery Service:} Service permettant l'enregistrement des instances de services en vue d'être découvertes par d'autres services.
-\end{enumerate}
-L'architecture résultante aura l'allure suivante:
+\subsubsection{Discovery Service:} Service permettant l'enregistrement des instances de services en vue d'être découvertes par d'autres services.
+ 
+
+
 
 
 \begin{figure}[H]
@@ -570,7 +569,7 @@ Pour éviter un couplage fort entre microservices, il est fortement recommandé 
     \begin{enumerate}
 \item Revenir à Spring Initializr et créer un nouveau projet Spring Boot intitulé discovery-service avec les dépendances Eureka Server et Config Client.
 \item Lancer le projet avec votre éditeur.
-\item Dans la classe DiscoveryServiceApplication, ajouter l'annotation \textbf{@EnableEurekaServer}. \textbf{(Voir annexe D)} 
+\item Dans la classe DiscoveryServiceApplication, ajouter l'annotation \textbf{@EnableEurekaServer}. \textbf{(Voir annexe C.1)} 
 
 \item  Ajouter les propriétés suivantes dans son fichier application.properties.
 
@@ -611,7 +610,7 @@ Pour consulter le service Eureka, aller à {\color{red}  http://localhost:8761},
 \item    Aller à Spring Initializr.
 \item     Créer le projet proxy-service avec les dépendances suivantes: \textbf{(Zuul, Web, HATEOAS, Actuator, Config Client et Eureka Discovery )}.
 \item     Ouvrir le service avec votre  IDEA.
-\item     Ajouter à la classe ProxyServiceApplication l'annotation \textbf{@EnableZuulProxy}, ainsi que \textbf{@EnableDiscoveryClient} pour que le proxy soit également enregistré dans le service ce découverte.
+\item     Ajouter à la classe ProxyServiceApplication l'annotation \textbf{@EnableZuulProxy} \textbf{(Voir annexe C.1)} , ainsi que \textbf{@EnableDiscoveryClient} pour que le proxy soit également enregistré dans le service ce découverte.\textbf{(Voir annexe D.1)}
 \item     Ajouter les propriétés spring.application.name et spring.cloud.config.uri dans le fichier application.properties du service proxy.
 \item     Créer le fichier proxy-service.properties dans le répertoire myConfig du service de configuration, dans lequel vous allez fixer le port du service proxy à 9999.
  \end{enumerate}
@@ -641,7 +640,7 @@ En lançant le service Proxy, vous remarquerez qu'il est rajouté dans Eureka.
     
     \begin{figure}[H]
     	\centering
-    	\includegraphics[width=0.7\linewidth]{images/secance}
+    	\includegraphics[width=1\linewidth]{images/secance}
     	\caption{Diagramme séquence représenté comment  Consulter les services via le proxy}
     	\label{fig:secance}
     \end{figure}
@@ -700,7 +699,7 @@ Cette interface est la fenêtre de bienvenue.
 Pour améliorer la sécurité du système, il est nécessaire de vérifier la disponibilité du compte d'utilisateur et le mot de passe est correct à ce niveau.
  \begin{figure}[H]
  	\centering
- 	\includegraphics[width=1\linewidth]{images/captures/capturesadmin/login}
+ 	\includegraphics[width=1\linewidth,height=0.3\paperheight]{images/captures/capturesadmin/login}
  	\caption{Authentification au système }
  	\label{fig:login}
  \end{figure}
@@ -716,7 +715,7 @@ L'administrateur peut créer un circuit de n'importe quel dossier via une interf
  
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{images/captures/capturesadmin/bpmn}
+	\includegraphics[width=1\linewidth,height=0.33\paperheight]{images/captures/capturesadmin/bpmn}
 	\caption{Un workflow pour un service de la \ac{cnr}}
 	\label{fig:bpmn}
 \end{figure}

@@ -94,7 +94,7 @@ Planification du développement du programme À ce stade de la planification des
  
   \begin{enumerate}
  	\item  	   Le système doit être déployé sur le cloud.  
- 	\item  	   La configuration et la germanisation de code dynamique.  
+ 	\item  	   La configuration et la génération  de code dynamique.  
  	\item  	  Modélisation d'un workflow Administratif via une interface graphique simple et utile. 
  
  	
@@ -410,29 +410,39 @@ l'utilisateur fait un rôle principal : consulter l'état du dossier pour finir 
  \subsection{Diagramme de Classe}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth,height=0.6\paperheight]{images/class01}
+	\includegraphics[width=1\linewidth,height=0.7\paperheight]{images/class01}
 	\caption{Diagramme de Classe}
 	\label{fig:class01}
 \end{figure}
 
-  \subsubsection{Conception détaillée} 
+ % \subsubsection{Conception détaillée} 
 Nous allons définir pour chaque classe ses attributs et leurs types, ainsi que les méthodes qu’elle offre. Dans le but d’alléger le rapport, nous allons cité que les classes essentiels que nous avons conçues.
  
  
+ \subsubsection{La classe Dossier}
+ \begin{table}[H]
+ 	\centering\setlength\tabcolsep{1cm}
+ 	
+ 	\begin{tabular}{|l|l|l|}
+ 		\hline
+ 		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+ 		
+ 		id & long & getId() et setId()\\ \cline{1-2}
+ 		nom & String & getNom() et setNom()\\ \cline{1-2}
+ 		prenom & String & getPrenom() et setPrenom()\\ \cline{1-2}
+ 		tlphon & String & getTlphon() et setTlphon()\\ \cline{1-2}
+ 		ch1 & boolean  & getCh1() et setCh1()\\ \cline{1-2}   
+ 		ch2 & boolean  & getCh2() et setCh2() \\ \cline{1-2}
+ 		ch3 & boolean  & getCh3() et setCh3() 
+ 		\\ \hline
+ 	\end{tabular}
+ 	\caption{La classe Bordereau}
+ 	\label{fig:class8}
+ \end{table}
+ 
+ 
 
-\subsubsection*{La classe  Sous-Direction}
-\begin{table}[H]
-  \centering\setlength\tabcolsep{0.8cm}
-	\begin{tabular}{|l|l|l|}
-		\hline
-		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
-	
-		id & long & getId() et setId()\\ \cline{1-2}
-		nom & String  & getNom() et setNom() \\ \cline{1-2}
-	services	& $ List<Service> $ & getServices() et setServices()   \\ \hline
-	\end{tabular}
-\end{table}
-\subsubsection*{La classe Service}
+\subsubsection{La classe Service}
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|l|l|l|}
@@ -444,10 +454,12 @@ Nous allons définir pour chaque classe ses attributs et leurs types, ainsi que 
 				sous-Direction & Sous-Direction  & getSous-Direction() et setSous-Direction() \\ \cline{1-2}
 		myTasks	& $ List<MyTask> $ & getMyTasks() et setMyTasks()   \\ \hline
 	\end{tabular}
+	\caption{La classe Service}
+\label{fig:class2}
 \end{table}
 
 
-\subsubsection*{La classe MyTask}
+\subsubsection{La classe MyTask}
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|l|l|l|}
@@ -462,38 +474,14 @@ Nous allons définir pour chaque classe ses attributs et leurs types, ainsi que 
 				
 		nextMyTasks	& $ List<NextMyTask> $ & getNextMyTasks() et setNextMyTasks()   \\ \hline
 	\end{tabular}
+	\caption{La classe MyTask}
+\label{fig:class3}
 \end{table}
 
-\subsubsection*{La classe MyTask}
-\begin{table}[H]
-	\centering
-	\begin{tabular}{|l|l|l|}
-		\hline
-		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
-		
-		id & long & getId() et setId()\\ \cline{1-2}
-		nom & String  & getNom() et setNom() \\ \cline{1-2}
-		idTask & String & getIdTask() et setIdTask()\\ \cline{1-2}
-		services & Service  & getService() et setService() \\ \cline{1-2}
-		nextMyTasks	& $ List<NextMyTask> $ & getNextMyTask() et setNextMyTask()   \\ \hline
-	\end{tabular}
-\end{table}
 
-\subsubsection*{La classe NextTask}
-\begin{table}[H]
-  \centering\setlength\tabcolsep{1cm}
 
-	\begin{tabular}{|l|l|l|}
-		\hline
-		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
-		
-		id & long & getId() et setId()\\ \cline{1-2}
-		idTask & String & getIdTask() et setIdTask()\\ \cline{1-2}
-		myTask & MyTask  & getMyTask() et setMyTask()   \\ \hline
-	\end{tabular}
-\end{table}
 
-\subsubsection*{La classe Utilisateur "User"}
+\subsubsection{La classe Utilisateur "User"}
 \begin{table}[H]
 	\centering\setlength\tabcolsep{1cm}
 	
@@ -506,31 +494,12 @@ Nous allons définir pour chaque classe ses attributs et leurs types, ainsi que 
 			prenom & String & getPrenom() et setPrenom()\\ \cline{1-2}
 						tlphon & String & getTlphon() et setTlphon()\\ \cline{1-2}
 		myTask & MyTask  & getMyTask() et setMyTask()   \\ \hline
-	\end{tabular}
+	\end{tabular}	\caption{La classe Bordereau}
+\label{fig:class6}
 \end{table}
 
 
-
-
-\subsubsection*{La classe Role}
-\begin{table}[H]
-	\centering\setlength\tabcolsep{1.2cm}
-	
-	\begin{tabular}{|l|l|l|}
-		\hline
-		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
-		
-		id & long & getId() et setId()\\ \cline{1-2}
-		nom & Date() & getNom() et setNom()\\ \hline
-	\end{tabular}
-\end{table}
-
-
-
-
-
-
-\subsubsection*{La classe Dossier}
+\subsubsection{La classe NextTask}
 \begin{table}[H]
 	\centering\setlength\tabcolsep{1cm}
 	
@@ -539,34 +508,34 @@ Nous allons définir pour chaque classe ses attributs et leurs types, ainsi que 
 		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
 		
 		id & long & getId() et setId()\\ \cline{1-2}
-		nom & String & getNom() et setNom()\\ \cline{1-2}
-		prenom & String & getPrenom() et setPrenom()\\ \cline{1-2}
-		tlphon & String & getTlphon() et setTlphon()\\ \cline{1-2}
-		ch1 & boolean  & getCh1() et setCh1()\\ \cline{1-2}   
-				ch2 & boolean  & getCh2() et setCh2() \\ \cline{1-2}
-						ch3 & boolean  & getCh3() et setCh3() 
-		\\ \hline
+		idTask & String & getIdTask() et setIdTask()\\ \cline{1-2}
+		myTask & MyTask  & getMyTask() et setMyTask()   \\ \hline
 	\end{tabular}
+	\caption{La classe Bordereau}
+	\label{fig:class5}
 \end{table}
 
 
 
-\subsubsection*{La classe ListDossier}
+
+
+
+\subsubsection{La classe  Sous-Direction}
 \begin{table}[H]
 	\centering\setlength\tabcolsep{0.8cm}
-	
 	\begin{tabular}{|l|l|l|}
 		\hline
 		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
 		
 		id & long & getId() et setId()\\ \cline{1-2}
-		bordereau & Bordereau & getBordereau() et setBordereau()\\ \cline{1-2}
-		historique & Historique & getHistorique() et setHistorique()\\   \hline
-	\end{tabular}
+		nom & String  & getNom() et setNom() \\ \cline{1-2}
+		services	& $ List<Service> $ & getServices() et setServices()   \\ \hline
+	\end{tabular}	\caption{La classe Sous-Direction}
+	\label{fig:class1}
 \end{table}
 
 
-\subsubsection*{La classe Historique}
+\subsubsection{La classe Historique}
 \begin{table}[H]
 	\centering\setlength\tabcolsep{1cm}
 	
@@ -586,27 +555,65 @@ Nous allons définir pour chaque classe ses attributs et leurs types, ainsi que 
 					etat & boolean & isEtat() et setEtat()\\ \cline{1-2}
 				transfert & boolean & isTransfert() et setTransfert()\\ \hline
 	\end{tabular}
+	\caption{La classe Bordereau}
+\label{fig:class10}
 \end{table}
  
    
-   \subsubsection*{La classe Bordereau}
-   \begin{table}[H]
-   	\centering\setlength\tabcolsep{1cm}
-   	
-   	\begin{tabular}{|l|l|l|}
-   		\hline
-   		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
-   		
-   		id & long & getId() et setId()\\ \cline{1-2}
-   		dateD & Date() & getDateD() et setDateD()\\ \cline{1-2}
-   	    
-   	    user & User & getUser() et setUser()\\ \cline{1-2}
-   				myTask1 & MyTask  & getMyTask1() et setMyTask1()   \\ \cline{1-2}
-   						myTask2 & MyTask  & getMyTask2() et setMyTask2() \\ \cline{1-2}  
-   		etat & String[] & getEtat() et setEtat()\\ \cline{1-2}
+   
+
+
+\subsubsection{La classe Role}
+\begin{table}[H]
+	\centering\setlength\tabcolsep{1.2cm}
+	
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+		
+		id & long & getId() et setId()\\ \cline{1-2}
+		nom & Date() & getNom() et setNom()\\ \hline
+	\end{tabular}	\caption{La classe Bordereau}
+	\label{fig:class7}
+\end{table}
+
+\subsubsection{La classe ListDossier}
+\begin{table}[H]
+	\centering\setlength\tabcolsep{0.8cm}
+	
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+		
+		id & long & getId() et setId()\\ \cline{1-2}
+		bordereau & Bordereau & getBordereau() et setBordereau()\\ \cline{1-2}
+		historique & Historique & getHistorique() et setHistorique()\\   \hline
+	\end{tabular}
+	\caption{La classe Bordereau}
+	\label{fig:class9}
+\end{table}
+
+\subsubsection{La classe Bordereau}
+\begin{table}[H]
+	\centering\setlength\tabcolsep{1cm}
+	
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Attribut}  & \textbf{Type} & \multicolumn{1}{l|}{\textbf{Méthodes}} \\ \hline
+		
+		id & long & getId() et setId()\\ \cline{1-2}
+		dateD & Date() & getDateD() et setDateD()\\ \cline{1-2}
+		
+		user & User & getUser() et setUser()\\ \cline{1-2}
+		myTask1 & MyTask  & getMyTask1() et setMyTask1()   \\ \cline{1-2}
+		myTask2 & MyTask  & getMyTask2() et setMyTask2() \\ \cline{1-2}  
+		etat & String[] & getEtat() et setEtat()\\ \cline{1-2}
 		historique & Historique & getHistorique() et setHistorique()\\ \hline
-   	\end{tabular}
-   \end{table}
+	\end{tabular}
+	\caption{La classe Bordereau}
+	\label{fig:Bordereau}
+\end{table}
+
 \subsection{Diagramme d' activité  }
 
 À partir de deux diagrammes, cas d'utilisation et de classes,  on va exprimer  le diagramme d'activité qui  montre l'interaction des  utilisateurs   en fonction de leurs rôles dans le système en général.(figure \ref{fig:dactiviti})
@@ -621,7 +628,7 @@ Après l'authentification au système,  l'utilisateur se connecter sur leur tâc
    
    \begin{figure}[H]
    	\centering
-   	\includegraphics[width=1.1\linewidth]{Dactiviti}
+   	\includegraphics[width=1\linewidth,height=0.6\paperheight]{Dactiviti}
    	\caption{Diagramme d'activité qui  montre interaction des  utilisateurs   en fonction de leurs rôles dans le système en général.}
    	\label{fig:dactiviti}
    \end{figure}
@@ -632,4 +639,4 @@ Après l'authentification au système,  l'utilisateur se connecter sur leur tâc
      
         Dans le chapitre suivant nous allons expliqué la phase de réalisation du système, son intégration et son déploiement sur le  cloud par les micro-services, tout en respectant les directives de la conception.
     
-   
+    

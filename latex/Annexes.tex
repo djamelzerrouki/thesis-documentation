@@ -1,3 +1,4 @@
+	\pagenumbering{roman} % switch to roman numerals
  \fancyhead[LO,CE]{Annexe: \thechapter}
 \chapter{Service 1}
 \section{classe User implémente en java  }
@@ -162,7 +163,56 @@ return me;
 }
       \end{lstlisting}  
         
+        \chapter{Microservice DiscoveryService}
+         
+           \section{EurekaServer }
+        \begin{lstlisting}
         
+        package tn.insat.tpmicro.discoveryservice;
+        
+        import org.springframework.boot.SpringApplication;
+        import org.springframework.boot.autoconfigure.SpringBootApplication;
+        import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+        
+        @EnableEurekaServer
+        @SpringBootApplication
+        public class DiscoveryServiceApplication {
+        	
+        	public static void main(String[] args) {
+        		SpringApplication.run(DiscoveryServiceApplication.class, args);
+        	}
+        }    \end{lstlisting}  
+    
+    
+            \chapter{Microservice ProxyService}
+             \section{ProxyServiceApplication }
+    \begin{lstlisting}
+    
+    package tn.insat.tpmicro.discoveryservice;
+    
+    import org.springframework.boot.SpringApplication;
+    import org.springframework.boot.autoconfigure.SpringBootApplication;
+    import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+    
+    @EnableZuulProxy
+    @EnableDiscoveryClient
+    @SpringBootApplication
+    public class ProxyServiceApplication {
+    
+    public static void main(String[] args) {
+    SpringApplication.run(ProxyServiceApplication.class, args);
+    }
+    }    \end{lstlisting}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   \chapter*{L'organigramme de la CNR}
         
 \begin{figure}[H]

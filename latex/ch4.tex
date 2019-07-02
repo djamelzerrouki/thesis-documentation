@@ -100,7 +100,7 @@ Nous avons utilisé Spring Boot pour  facilite la création d'applications basé
  
  
   \subsubsection{Spring Cloud Netflix}
- Spring Cloud Netflix fournit des intégrations Netflix OSS pour les applications Spring Boot via la configuration automatique et la liaison à Spring Environment et à d'autres idiomes de modèles de programmation Spring. Quelques annotations simples vous permettent d'activer et de configurer rapidement les modèles courants dans votre application et de créer de grands systèmes distribués avec des composants Netflix testés au combat. Les modèles fournis incluent la découverte de service (Eureka), le disjoncteur (Hystrix), le routage intelligent (Zuul) et l’équilibrage de la charge côté client (ruban).
+ Spring Cloud Netflix fournit des intégrations Netflix pour les applications Spring Boot via la configuration automatique et la liaison à Spring Environment et à d'autres idiomes de modèles de programmation Spring. Quelques annotations simples vous permettent d'activer et de configurer rapidement les modèles courants dans votre application et de créer de grands systèmes distribués avec des composants Netflix testés au combat. Les modèles fournis incluent la découverte de service (Eureka), le disjoncteur (Hystrix), le routage intelligent (Zuul) et l’équilibrage de la charge côté client (ruban).
  
  \subsection{   Micro Service }
 
@@ -569,7 +569,7 @@ Pour éviter un couplage fort entre microservices, il est fortement recommandé 
     \begin{enumerate}
 \item Revenir à Spring Initializr et créer un nouveau projet Spring Boot intitulé discovery-service avec les dépendances Eureka Server et Config Client.
 \item Lancer le projet avec votre éditeur.
-\item Dans la classe DiscoveryServiceApplication, ajouter l'annotation \textbf{@EnableEurekaServer}. \textbf{(Voir annexe C.1)} 
+\item Dans la classe DiscoveryServiceApplication, ajouter l'annotation \textbf{@EnableEurekaServer}. \textbf{(Voir annexe C)} 
 
 \item  Ajouter les propriétés suivantes dans son fichier application.properties.
 
@@ -610,7 +610,7 @@ Pour consulter le service Eureka, aller à {\color{red}  http://localhost:8761},
 \item    Aller à Spring Initializr.
 \item     Créer le projet proxy-service avec les dépendances suivantes: \textbf{(Zuul, Web, HATEOAS, Actuator, Config Client et Eureka Discovery )}.
 \item     Ouvrir le service avec votre  IDEA.
-\item     Ajouter à la classe ProxyServiceApplication l'annotation \textbf{@EnableZuulProxy} \textbf{(Voir annexe C.1)} , ainsi que \textbf{@EnableDiscoveryClient} pour que le proxy soit également enregistré dans le service ce découverte.\textbf{(Voir annexe D.1)}
+\item     Ajouter à la classe ProxyServiceApplication l'annotation \textbf{@EnableZuulProxy} , ainsi que \textbf{@EnableDiscoveryClient} pour que le proxy soit également enregistré dans le service ce découverte.\textbf{(Voir annexe D)}
 \item     Ajouter les propriétés spring.application.name et spring.cloud.config.uri dans le fichier application.properties du service proxy.
 \item     Créer le fichier proxy-service.properties dans le répertoire myConfig du service de configuration, dans lequel vous allez fixer le port du service proxy à 9999.
  \end{enumerate}
@@ -681,11 +681,11 @@ De plus, nous avons développé un master service qui permettre d'instancier le 
  	\label{fig:cloudms}
  \end{figure}
  
-     Suite à la demande de la \ac{cnr} nous avons instanciés notre workflow pour cette organisation et nous avons amélioré notre application suivent  leur  cahier des charges  (Voir \textbf{Annexe C} qui représente  L'organigramme de la CNR).  
+     Suite à la demande de la \ac{cnr} nous avons instanciés notre workflow pour cette organisation et nous avons amélioré notre application suivent  leur  cahier des charges  (Voir \textbf{annexe E} Figure \ref{fig:orgpdf} qui représente  L'organigramme de la CNR).  
      
           
 \subsection{Obstacles}
-Nous avons essayé d'ouvrir un compte auprès des fournisseurs de services cloud cités dans la section 1.2.5 , pour déployer les services que nous avons développés, malheureusement sont tous payants.
+Nous avons essayé d'ouvrir un compte auprès des fournisseurs de services cloud cités dans la section 1.2.6 , pour déployer les services que nous avons développés, malheureusement sont tous payants.
  
   
   

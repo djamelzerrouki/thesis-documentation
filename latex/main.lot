@@ -7,29 +7,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.1}{\ignorespaces Les acteurs de syst\IeC {\`e}me\relax }}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.2}{\ignorespaces La classe Bordereau\relax }}{38}% 
+\contentsline {table}{\numberline {2.2}{\ignorespaces La classe Dossier\relax }}{38}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.3}{\ignorespaces La classe Service\relax }}{38}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.4}{\ignorespaces La classe MyTask\relax }}{38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.5}{\ignorespaces La classe Bordereau\relax }}{38}% 
+\contentsline {table}{\numberline {2.5}{\ignorespaces La classe Utilisateur\relax }}{38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.6}{\ignorespaces La classe Bordereau\relax }}{39}% 
+\contentsline {table}{\numberline {2.6}{\ignorespaces La classe NextTask\relax }}{39}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.7}{\ignorespaces La classe Sous-Direction\relax }}{39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.8}{\ignorespaces La classe Bordereau\relax }}{39}% 
+\contentsline {table}{\numberline {2.8}{\ignorespaces La classe Historique\relax }}{39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.9}{\ignorespaces La classe Bordereau\relax }}{39}% 
+\contentsline {table}{\numberline {2.9}{\ignorespaces La classe Role\relax }}{39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.10}{\ignorespaces La classe Bordereau\relax }}{39}% 
+\contentsline {table}{\numberline {2.10}{\ignorespaces La classe ListDossier\relax }}{39}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.11}{\ignorespaces La classe Bordereau\relax }}{40}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3.1}{\ignorespaces Architecture des microservices via les composants Netflix \parencite {MicroServices}\relax }}{47}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

@@ -213,7 +213,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.1.10}La classe Bordereau}{40}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Diagramme d' activit\IeC {\'e} }{40}% 
+\contentsline {subsection}{\numberline {2.3.2}Diagramme d'activit\IeC {\'e} }{40}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.2.1}R\IeC {\^o}les de l'acteur administrateur: }{40}% 
 \defcounter {refsection}{0}\relax 
@@ -373,8 +373,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {C}Microservice DiscoveryService}{vi}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}EurekaServer }{vi}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {D}Microservice ProxyService}{vii}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}ProxyServiceApplication }{vii}% 
+\contentsline {chapter}{\numberline {E}L'organigramme de la CNR}{viii}% 

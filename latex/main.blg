@@ -5,48 +5,52 @@ A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Annexes.aux
 Database file #1: main-blx.bib
 Database file #2: references.bib
+Warning--string name "management" is undefined
+--line 214 of file references.bib
+I was expecting a `,' or a `}'---line 214 of file references.bib
+ :  title = management 
+ :                     collectif de l’information",
+I'm skipping whatever remains of this entry
 Biblatex version: 3.11
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
-while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2658 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2658 of file biblatex.bst
@@ -70,40 +74,40 @@ Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut
 while executing---line 2658 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
+while executing---line 2658 of file biblatex.bst
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2662 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2662 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2662 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2662 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
-while executing---line 2662 of file biblatex.bst
-Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2662 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2662 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2662 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
+while executing---line 2662 of file biblatex.bst
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2668 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2668 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2668 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2668 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
-while executing---line 2668 of file biblatex.bst
-Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2668 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2668 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2668 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
-while executing---line 2672 of file biblatex.bst
+while executing---line 2668 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2672 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
@@ -114,35 +118,37 @@ Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut
 while executing---line 2672 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2672 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2672 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2672 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2672 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2672 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2672 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2672 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2672 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2672 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2672 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2672 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
+while executing---line 2672 of file biblatex.bst
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2676 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2676 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2676 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2676 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2676 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2676 of file biblatex.bst
@@ -150,24 +156,22 @@ Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut
 while executing---line 2676 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2676 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2682 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2682 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2682 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2682 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
-while executing---line 2682 of file biblatex.bst
-Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
-while executing---line 2682 of file biblatex.bst
-Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2682 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2682 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
-while executing---line 2686 of file biblatex.bst
+while executing---line 2682 of file biblatex.bst
+Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
+while executing---line 2682 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2686 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
@@ -178,35 +182,37 @@ Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut
 while executing---line 2686 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2686 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2686 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2686 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2686 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2686 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2686 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2686 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2686 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2686 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2686 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2686 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
+while executing---line 2686 of file biblatex.bst
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2726 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2726 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2726 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2726 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2726 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2726 of file biblatex.bst
@@ -214,85 +220,85 @@ Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut
 while executing---line 2726 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2726 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
-Too many commas in name 1 of "Ried, S., Kisker, H., Matzke, P., Bartels, A. and Lisserman" for entry Ried
+Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
 while executing---line 2774 of file biblatex.bst
 Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut., A." for entry Scheer
 while executing---line 2774 of file biblatex.bst
@@ -344,4 +350,4 @@ Too many commas in name 1 of "Scheer, A.W., Borowsky, S., Klabunde, S. and Traut
 while executing---line 2774 of file biblatex.bst
 Name 2 in "P. Azema and G. Balbo, editors," has a comma at the end for entry VanderAalst
 while executing---line 2774 of file biblatex.bst
-(There were 169 error messages)
+(There were 170 error messages)

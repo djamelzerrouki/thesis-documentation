@@ -29,13 +29,8 @@
     \strng{namehash}{AM1}
     \strng{fullhash}{AM1}
     \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1996}
-    \field{labeldatesource}{year}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-    \field{title}{anagement collectif de l’information}
-    \field{year}{1996}
   \endentry
 
   \entry{belounnar2011approche}{thesis}{}
@@ -126,16 +121,18 @@
 
   \entry{cloudComputing}{online}{}
     \name{author}{1}{}{%
-      {{hash=C}{%
-         family={CloudComputing},
+      {{hash=CC}{%
+         family={Computing},
          familyi={C\bibinitperiod},
+         given={Cloud},
+         giveni={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{C1}
-    \strng{fullhash}{C1}
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{30-6-2019}
+    \field{labelyear}{2019}
     \field{labeldatesource}{year}
     \field{sortinit}{C}
     \field{sortinithash}{C}
@@ -147,7 +144,7 @@
     \verb 1CHBD_deDZ776DZ776&tbm=isch&source=lnms&sa=X&ved=0ahUKEwiSg7H6kZHjAhX
     \verb 5QxUIHWOpDw8Q_AUICygC&biw=767&bih=712&dpr=1.25#imgrc=XezSbm7RA6Tj9M:
     \endverb
-    \field{year}{30-6-2019}
+    \field{year}{2019}
   \endentry
 
   \entry{Courtois}{article}{}
@@ -170,6 +167,29 @@
     \field{title}{Workflow: la gestion globale des processus de l'entreprise.}
     \field{journaltitle}{Logiciels and Systèmes}
     \field{year}{1996}
+  \endentry
+
+  \entry{maven}{online}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={Developpez},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{FAQ Maven}
+    \verb{url}
+    \verb https://java.developpez.com/faq/maven/?pages=Terminologie-et-document
+    \verb ation#Qu-est-ce-que-Maven
+    \endverb
+    \field{year}{2019}
   \endentry
 
   \entry{cloud2019}{online}{}
@@ -420,25 +440,51 @@
     \field{year}{2012}
   \endentry
 
+  \entry{MicroServices}{online}{}
+    \name{author}{1}{}{%
+      {{hash=OO}{%
+         family={OptisolBusiness},
+         familyi={O\bibinitperiod},
+         given={OB.},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OO1}
+    \strng{fullhash}{OO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{MicroServices Architecture – Spring Boot And Netflix
+  Infrastructure}
+    \verb{url}
+    \verb https://www.optisolbusiness.com/insight/micro-services-architecture-s
+    \verb pring-boot-and-netflix-infrastructure
+    \endverb
+    \field{year}{2019}
+  \endentry
+
   \entry{Ried}{article}{}
     \name{author}{2}{}{%
-      {{hash=RKHMPBAS}{%
+      {{hash=RLHMPBAS}{%
          family={Ried},
          familyi={R\bibinitperiod},
          suffix={S.},
          suffixi={S\bibinitperiod},
-         given={Kisker H. Matzke-P. Bartels\bibnamedelima A.},
-         giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+         given={Lisserman H. Matzke-P. Bartels\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
   M\bibinithyphendelim P\bibinitperiod\bibinitdelim
   B\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
-      {{hash=L}{%
-         family={Lisserman},
-         familyi={L\bibinitperiod},
+      {{hash=K}{%
+         family={Kisker},
+         familyi={K\bibinitperiod},
       }}%
     }
-    \strng{namehash}{RSKHMPBAL1}
-    \strng{fullhash}{RSKHMPBAL1}
+    \strng{namehash}{RSLHMPBAK1}
+    \strng{fullhash}{RSLHMPBAK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2011}
@@ -697,7 +743,7 @@
   \entry{Wang2008}{book}{}
     \name{author}{1}{}{%
       {{hash=W}{%
-         family={Wang08},
+         family={Wang},
          familyi={W\bibinitperiod},
       }}%
     }
@@ -724,7 +770,7 @@
   \entry{WFMC11}{article}{}
     \name{author}{1}{}{%
       {{hash=W}{%
-         family={WfMCTC1011},
+         family={WfMC},
          familyi={W\bibinitperiod},
       }}%
     }
@@ -796,53 +842,6 @@
     }
     \field{type}{phdthesis}
     \field{year}{2006}
-  \endentry
-
-  \entry{maven}{online}{}
-    \name{author}{1}{}{%
-      {{hash=j}{%
-         family={java.developpez.com},
-         familyi={j\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{j1}
-    \strng{fullhash}{j1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2019}
-    \field{labeldatesource}{year}
-    \field{sortinit}{J}
-    \field{sortinithash}{J}
-    \field{title}{FAQ Maven}
-    \verb{url}
-    \verb https://java.developpez.com/faq/maven/?pages=Terminologie-et-document
-    \verb ation#Qu-est-ce-que-Maven
-    \endverb
-    \field{year}{2019}
-  \endentry
-
-  \entry{MicroServices}{online}{}
-    \name{author}{1}{}{%
-      {{hash=o}{%
-         family={optisolbusiness},
-         familyi={o\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{o1}
-    \strng{fullhash}{o1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2019}
-    \field{labeldatesource}{year}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
-    \field{title}{MicroServices Architecture – Spring Boot And Netflix
-  Infrastructure}
-    \verb{url}
-    \verb https://www.optisolbusiness.com/insight/micro-services-architecture-s
-    \verb pring-boot-and-netflix-infrastructure
-    \endverb
-    \field{year}{2019}
   \endentry
 
   \entry{Rdp}{online}{}

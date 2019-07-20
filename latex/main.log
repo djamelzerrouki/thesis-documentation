@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  2 JUL 2019 19:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.19)  20 JUL 2019 19:40
 entering extended mode
 **./main.tex
 (main.tex
@@ -1565,8 +1565,17 @@ Package pdftex.def Info: jimmi.pdf , page1 used on input line 140.
 
 ]) (RÃ©sumÃ©.tex [4
 
-])
-(Abstrait.tex [5
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+
+("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+ ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
+"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)) (Abstrait.tex [5
 
 ])
 
@@ -1617,17 +1626,7 @@ File: molakass.pdf Graphic file (type pdf)
 <use molakass.pdf, page 1>
 Package pdftex.def Info: molakass.pdf , page1 used on input line 153.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
- [7 <./molakass.pdf>] (main.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 6.
-
-("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 6.
- ("C:\Users\djamel\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
-"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [8
+ [7 <./molakass.pdf>] (main.toc [8
 
 ])
 \tf@toc=\write7
@@ -1649,13 +1648,7 @@ although it is yet undefined on input line 72.
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [11] (main.lot
-Overfull \hbox (34.97641pt too wide) in paragraph at lines 32--32
- [][] []\T1/cmr/m/n/12 Architecture des mi-cro-ser-vices via les com-po-sants N
-et-flix (\T1/cmr/m/sc/12 optisolbusiness 
- []
-
-)
+ [11] (main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
@@ -1670,17 +1663,12 @@ et-flix (\T1/cmr/m/sc/12 optisolbusiness
 ]) [14]
 \openout2 = `Introduction.aux'.
 
- (Introduction.tex
-Overfull \hbox (1.94553pt too wide) in paragraph at lines 24--25
-[]\T1/cmr/m/n/12 Développement d'un ser-vice Work-flow ad-mi-nis-tra-tif pour l
-e Cloud qui peuvent
- []
 
-[1
+(Introduction.tex [15
 
 
 
-]) [2]
+]) [16]
 
 pdfTeX warning: pdflatex.exe (file ./ch01.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
@@ -1726,14 +1714,14 @@ File: ch01.pdf Graphic file (type pdf)
 <use ch01.pdf, page 1>
 Package pdftex.def Info: ch01.pdf , page1 used on input line 191.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-[3
+[1
 
  <./ch01.pdf>]
 Chapitre 1.
 (ch1.tex
 Package acronym Info: Label `acro:ec2' newly defined as it shall be overridden
 although it is yet undefined on input line 14.
- [4
+ [2
 
 ]
 <images/tempsnip4.png, id=207, 934.99312pt x 697.10437pt>
@@ -1743,10 +1731,10 @@ Package pdftex.def Info: images/tempsnip4.png  used on input line 18.
 (pdftex.def)             Requested size: 426.79134pt x 318.20413pt.
 Package acronym Info: Label `acro:als' newly defined as it shall be overridden
 although it is yet undefined on input line 26.
- [5 <./images/tempsnip4.png>]
+ [3 <./images/tempsnip4.png>]
 Package acronym Info: Label `acro:cpu' newly defined as it shall be overridden
 although it is yet undefined on input line 52.
- [6]
+ [4]
 Package acronym Info: Label `acro:qos' newly defined as it shall be overridden
 although it is yet undefined on input line 55.
 <images/34-0.jpg, id=214, 627.01859pt x 553.7307pt>
@@ -1754,10 +1742,10 @@ File: images/34-0.jpg Graphic file (type jpg)
 <use images/34-0.jpg>
 Package pdftex.def Info: images/34-0.jpg  used on input line 68.
 (pdftex.def)             Requested size: 213.39566pt x 188.45183pt.
- [7 <./images/34-0.jpg>]
+ [5 <./images/34-0.jpg>]
 Package acronym Info: Label `acro:vmm' newly defined as it shall be overridden
 although it is yet undefined on input line 80.
- [8]
+ [6]
 <images/virtualisation.png, id=221, 731.1315pt x 505.28775pt>
 File: images/virtualisation.png Graphic file (type png)
 <use images/virtualisation.png>
@@ -1789,10 +1777,10 @@ Package pdftex.def Info: images/Capture5.png  used on input line 110.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <./images/virtualisation.png>]
+ [7 <./images/virtualisation.png>]
 Package acronym Info: Label `acro:gae' newly defined as it shall be overridden
 although it is yet undefined on input line 121.
- [10 <./images/Capture5.png>]
+ [8 <./images/Capture5.png>]
 Package acronym Info: Label `acro:nist' newly defined as it shall be overridden
 
 although it is yet undefined on input line 131.
@@ -1803,17 +1791,17 @@ File: images/Cloud_MD.png Graphic file (type png)
 <use images/Cloud_MD.png>
 Package pdftex.def Info: images/Cloud_MD.png  used on input line 145.
 (pdftex.def)             Requested size: 213.39566pt x 166.96982pt.
- [11]
+ [9]
 Package acronym Info: Label `acro:aws' newly defined as it shall be overridden
 although it is yet undefined on input line 196.
- [12 <./images/Cloud_MD.png (PNG copy)>]
+ [10 <./images/Cloud_MD.png (PNG copy)>]
 Package acronym Info: Label `acro:sgbd' newly defined as it shall be overridden
 
 although it is yet undefined on input line 225.
 Package acronym Info: Label `acro:uims' newly defined as it shall be overridden
 
 although it is yet undefined on input line 225.
- [13]
+ [11]
 <images/wfmcHistory.png, id=246, 493.845pt x 148.75575pt>
 File: images/wfmcHistory.png Graphic file (type png)
 <use images/wfmcHistory.png>
@@ -1833,19 +1821,19 @@ File: images/Environnementswf.png Graphic file (type png)
 <use images/Environnementswf.png>
 Package pdftex.def Info: images/Environnementswf.png  used on input line 257.
 (pdftex.def)             Requested size: 170.71393pt x 114.59827pt.
- [14 <./images/wfmcHistory.png> <./images/Environnementswf.png>]
+ [12 <./images/wfmcHistory.png> <./images/Environnementswf.png>]
 <images/DimensionsWF.png, id=253, 447.47176pt x 299.31825pt>
 File: images/DimensionsWF.png Graphic file (type png)
 <use images/DimensionsWF.png>
 Package pdftex.def Info: images/DimensionsWF.png  used on input line 299.
 (pdftex.def)             Requested size: 209.1301pt x 139.88947pt.
- [15 <./images/DimensionsWF.png>]
+ [13 <./images/DimensionsWF.png>]
 <images/"dswf".png, id=259, 613.0905pt x 458.31226pt>
 File: images/"dswf".png Graphic file (type png)
 <use images/"dswf".png>
 Package pdftex.def Info: images/"dswf".png  used on input line 314.
 (pdftex.def)             Requested size: 298.75262pt x 223.33716pt.
- [16 <./images/dswf.png>]
+ [14 <./images/dswf.png>]
 <"images/classification de workflow".png, id=264, 459.51675pt x 257.16075pt>
 File: "images/classification de workflow".png Graphic file (type png)
 <use "images/classification de workflow".png>
@@ -1855,17 +1843,17 @@ Package pdftex.def Info: "images/classification de workflow".png  used on input
 
 Underfull \vbox (badness 1194) has occurred while \output is active []
 
- [17]
-[18 <./images/classification de workflow.png>]
+ [15]
+[16 <./images/classification de workflow.png>]
 Package acronym Info: Label `acro:bpr' newly defined as it shall be overridden
 although it is yet undefined on input line 460.
- [19]
+ [17]
 <images/Capture6.png, id=275, 674.52pt x 514.92375pt>
 File: images/Capture6.png Graphic file (type png)
 <use images/Capture6.png>
 Package pdftex.def Info: images/Capture6.png  used on input line 473.
 (pdftex.def)             Requested size: 426.79134pt x 325.81795pt.
- [20 <./images/Capture6.png>] [21]
+ [18 <./images/Capture6.png>] [19]
 <images/petrif01.png, id=284, 315.579pt x 296.307pt>
 File: images/petrif01.png Graphic file (type png)
 <use images/petrif01.png>
@@ -1875,7 +1863,7 @@ Package pdftex.def Info: images/petrif01.png  used on input line 738.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22]
+[20]
 
 LaTeX Warning: Command \textellipsis invalid in math mode on input line 746.
 
@@ -1885,13 +1873,13 @@ LaTeX Warning: Command \textellipsis invalid in math mode on input line 746.
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 751.
 
-[23 <./images/petrif01.png>]
+[21 <./images/petrif01.png>]
 <images/pitref02PNG.png, id=297, 314.3745pt x 388.45125pt>
 File: images/pitref02PNG.png Graphic file (type png)
 <use images/pitref02PNG.png>
 Package pdftex.def Info: images/pitref02PNG.png  used on input line 775.
 (pdftex.def)             Requested size: 170.71393pt x 210.946pt.
- [24 <./images/pitref02PNG.png>]
+ [22 <./images/pitref02PNG.png>]
 <images/wf-nete006.png, id=304, 542.025pt x 249.93375pt>
 File: images/wf-nete006.png Graphic file (type png)
 <use images/wf-nete006.png>
@@ -1905,7 +1893,7 @@ Package pdftex.def Info: images/wf003.png  used on input line 895.
 
 Underfull \vbox (badness 1082) has occurred while \output is active []
 
- [25 <./images/wf-nete006.png>]
+ [23 <./images/wf-nete006.png>]
 <images/Capture.png, id=311, 809.424pt x 310.15875pt>
 File: images/Capture.png Graphic file (type png)
 <use images/Capture.png>
@@ -1916,7 +1904,7 @@ File: images/wf005.png Graphic file (type png)
 <use images/wf005.png>
 Package pdftex.def Info: images/wf005.png  used on input line 924.
 (pdftex.def)             Requested size: 298.75262pt x 100.19574pt.
- [26 <./images/wf003.png> <./images/Capture.png> <./images/wf005.png>]
+ [24 <./images/wf003.png> <./images/Capture.png> <./images/wf005.png>]
 <images/wf006.png, id=319, 966.009pt x 349.90726pt>
 File: images/wf006.png Graphic file (type png)
 <use images/wf006.png>
@@ -1925,7 +1913,7 @@ Package pdftex.def Info: images/wf006.png  used on input line 940.
 <images/wf008.png, id=320, 597.432pt x 206.57175pt>
 File: images/wf008.png Graphic file (type png)
 <use images/wf008.png>
-Package pdftex.def Info: images/wf008.png  used on input line 951.
+Package pdftex.def Info: images/wf008.png  used on input line 954.
 (pdftex.def)             Requested size: 298.75262pt x 103.30136pt.
 )
 
@@ -1961,7 +1949,7 @@ File: ch02.pdf Graphic file (type pdf)
 <use ch02.pdf, page 1>
 Package pdftex.def Info: ch02.pdf , page1 used on input line 202.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-[27 <./images/wf006.png> <./images/wf008.png>]
+[25 <./images/wf006.png> <./images/wf008.png>]
 File: ch02.pdf Graphic file (type pdf)
 <use ch02.pdf, page 1>
 Package pdftex.def Info: ch02.pdf , page1 used on input line 202.
@@ -1974,16 +1962,16 @@ File: ch02.pdf Graphic file (type pdf)
 <use ch02.pdf, page 1>
 Package pdftex.def Info: ch02.pdf , page1 used on input line 202.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
- [28 <./ch02.pdf>]
+ [26 <./ch02.pdf>]
 Chapitre 2.
 (ch3.tex
 Package acronym Info: Label `acro:up' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
 Package acronym Info: Label `acro:uml' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
- [29
+ [27
 
-] [30]
+] [28]
 <images/usercase2.png, id=349, 531.1845pt x 545.6385pt>
 File: images/usercase2.png Graphic file (type png)
 <use images/usercase2.png>
@@ -1992,10 +1980,10 @@ Package pdftex.def Info: images/usercase2.png  used on input line 153.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
+ [29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32 <./images/usercase2.png>]
+ [30 <./images/usercase2.png>]
 Overfull \hbox (33.80057pt too wide) in paragraph at lines 164--193
  [][] 
  []
@@ -2005,7 +1993,7 @@ Overfull \hbox (11.42538pt too wide) in paragraph at lines 227--239
 [][] 
  []
 
-[33]
+[31]
 Overfull \hbox (2.7762pt too wide) in paragraph at lines 243--255
 [][] 
  []
@@ -2015,7 +2003,7 @@ Overfull \hbox (0.64745pt too wide) in paragraph at lines 292--309
 [][] 
  []
 
-[34] [35]
+[32] [33]
 Overfull \hbox (57.75162pt too wide) in paragraph at lines 340--356
 [][] 
  []
@@ -2030,29 +2018,29 @@ File: images/class01.png Graphic file (type png)
 <use images/class01.png>
 Package pdftex.def Info: images/class01.png  used on input line 413.
 (pdftex.def)             Requested size: 426.79024pt x 591.5264pt.
-[36]
+[34]
 Underfull \vbox (badness 2042) has occurred while \output is active []
 
- [37 <./images/class01.png>]
+ [35 <./images/class01.png>]
 Overfull \hbox (8.92496pt too wide) in paragraph at lines 465--477
  [][] 
  []
 
-[38]
+[36]
 Overfull \hbox (20.91747pt too wide) in paragraph at lines 600--613
  [][] 
  []
 
-[39]
-<images/Dactiviti.png, id=382, 347.49825pt x 453.49425pt>
+[37]
+<images/Dactiviti.png, id=382, 417.35925pt x 547.44525pt>
 File: images/Dactiviti.png Graphic file (type png)
 <use images/Dactiviti.png>
 Package pdftex.def Info: images/Dactiviti.png  used on input line 631.
-(pdftex.def)             Requested size: 426.82642pt x 507.05896pt.
+(pdftex.def)             Requested size: 426.80252pt x 507.03883pt.
 
 Underfull \vbox (badness 1681) has occurred while \output is active []
 
- [40])
+ [38])
 
 pdfTeX warning: pdflatex.exe (file ./ch03.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
@@ -2086,7 +2074,7 @@ File: ch03.pdf Graphic file (type pdf)
 <use ch03.pdf, page 1>
 Package pdftex.def Info: ch03.pdf , page1 used on input line 206.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-[41 <./images/Dactiviti.png>]
+[39 <./images/Dactiviti.png>]
 File: ch03.pdf Graphic file (type pdf)
 <use ch03.pdf, page 1>
 Package pdftex.def Info: ch03.pdf , page1 used on input line 206.
@@ -2099,7 +2087,7 @@ File: ch03.pdf Graphic file (type pdf)
 <use ch03.pdf, page 1>
 Package pdftex.def Info: ch03.pdf , page1 used on input line 206.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
- [42 <./ch03.pdf>]
+ [40 <./ch03.pdf>]
 Chapitre 3.
 (ch4.tex
 <images/Bootstarp.png, id=406, 149.358pt x 125.87025pt>
@@ -2112,26 +2100,20 @@ File: images/responsive.png Graphic file (type png)
 <use images/responsive.png>
 Package pdftex.def Info: images/responsive.png  used on input line 47.
 (pdftex.def)             Requested size: 213.39566pt x 79.78584pt.
- [43
+ [41
 
- <./images/Bootstarp.png>] [44 <./images/responsive.png>]
+ <./images/Bootstarp.png>] [42 <./images/responsive.png>]
 Overfull \hbox (0.48569pt too wide) in paragraph at lines 103--104
 \T1/cmr/m/n/12 d'autres idiomes de mo-dèles de pro-gram-ma-tion Spring. Quelque
 s an-no-ta-tions simples
  []
 
-[45]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 171--182
 [][]
  []
 
-
-Underfull \hbox (badness 4899) in paragraph at lines 182--182
-[]\T1/cmr/m/sc/12 Table \T1/cmr/m/n/12 3.1  |Ar-chi-tec-ture des mi-cro-ser-vi
-ces via les com-po-sants Net-flix
- []
-
-[46]
+[44]
 <images/ms-img04.png, id=423, 88.07906pt x 92.59593pt>
 File: images/ms-img04.png Graphic file (type png)
 <use images/ms-img04.png>
@@ -2147,8 +2129,8 @@ File: images/ms-img06.png Graphic file (type png)
 <use images/ms-img06.png>
 Package pdftex.def Info: images/ms-img06.png  used on input line 205.
 (pdftex.def)             Requested size: 42.68173pt x 31.39748pt.
- [47 <./images/ms-img04.png> <./images/ms-img05.png> <./images/ms-img06.png>] [
-48]
+ [45 <./images/ms-img04.png> <./images/ms-img05.png> <./images/ms-img06.png>] [
+46]
 Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
@@ -2156,13 +2138,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
-Overfull \hbox (83.2434pt too wide) in paragraph at lines 326--327
-\T1/cmr/m/n/12 et on choi-sit gé-né-ra-le-ment comme grou-pId le nom du top pa-
-ckage du pro-jet. ([]\T1/cmr/m/sc/12 java.developpez.com
- []
-
-
+ [47]
 Overfull \hbox (12.7777pt too wide) in paragraph at lines 330--330
 []\T1/cmr/m/n/12 L'artifactId est uti-lisé par dé-faut pour construire le nom d
 e l'ar-te-fact fi-nal (exemple :
@@ -2179,19 +2155,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 344--346
 
  []
 
-[50]
+[48]
 <images/tp01.png, id=438, 350.05782pt x 381.67593pt>
 File: images/tp01.png Graphic file (type png)
 <use images/tp01.png>
 Package pdftex.def Info: images/tp01.png  used on input line 384.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
- [51]
+ [49]
 <images/tp02.png, id=443, 350.05782pt x 381.67593pt>
 File: images/tp02.png Graphic file (type png)
 <use images/tp02.png>
 Package pdftex.def Info: images/tp02.png  used on input line 396.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
- [52 <./images/tp01.png> <./images/tp02.png>]
+ [50 <./images/tp01.png> <./images/tp02.png>]
 <images/tp03.png, id=447, 350.05782pt x 381.67593pt>
 File: images/tp03.png Graphic file (type png)
 <use images/tp03.png>
@@ -2200,8 +2176,8 @@ Package pdftex.def Info: images/tp03.png  used on input line 473.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
-[54 <./images/tp03.png>]
+ [51]
+[52 <./images/tp03.png>]
 <images/tp04.png, id=454, 350.05782pt x 381.67593pt>
 File: images/tp04.png Graphic file (type png)
 <use images/tp04.png>
@@ -2210,7 +2186,7 @@ Package pdftex.def Info: images/tp04.png  used on input line 561.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
+ [53]
 Overfull \hbox (7.34816pt too wide) in paragraph at lines 572--573
 []\T1/cmr/m/n/12 Dans la classe Dis-co-ve-ry-Ser-vi-ceAp-pli-ca-tion, ajou-ter 
 l'an-no-ta-tion \T1/cmr/bx/n/12 @En-ableEu-
@@ -2221,7 +2197,7 @@ File: images/tp05.png Graphic file (type png)
 <use images/tp05.png>
 Package pdftex.def Info: images/tp05.png  used on input line 603.
 (pdftex.def)             Requested size: 213.39566pt x 232.67638pt.
-[56 <./images/tp04.png>] [57 <./images/tp05.png>]
+[54 <./images/tp04.png>] [55 <./images/tp05.png>]
 <images/secance.png, id=466, 741.36975pt x 455.90324pt>
 File: images/secance.png Graphic file (type png)
 <use images/secance.png>
@@ -2235,27 +2211,27 @@ Package pdftex.def Info: images/cloudMS.png  used on input line 679.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58 <./images/secance.png>]
+ [56 <./images/secance.png>]
 <images/captures/capturesadmin/login.png, id=472, 627.5445pt x 346.896pt>
 File: images/captures/capturesadmin/login.png Graphic file (type png)
 <use images/captures/capturesadmin/login.png>
 Package pdftex.def Info: images/captures/capturesadmin/login.png  used on input
  line 702.
 (pdftex.def)             Requested size: 426.79163pt x 253.51779pt.
- [59 <./images/cloudMS.png>]
-<images/captures/capturesadmin/bpmn.png, id=477, 1126.2075pt x 548.64975pt>
+ [57 <./images/cloudMS.png>]
+<images/captures/capturesadmin/bpmn.png, id=477, 1146.684pt x 545.6385pt>
 File: images/captures/capturesadmin/bpmn.png Graphic file (type png)
 <use images/captures/capturesadmin/bpmn.png>
 Package pdftex.def Info: images/captures/capturesadmin/bpmn.png  used on input 
 line 718.
-(pdftex.def)             Requested size: 426.79475pt x 278.8784pt.
+(pdftex.def)             Requested size: 426.78601pt x 278.8714pt.
 <images/captures/capturesadmin/tache.png, id=478, 1142.46825pt x 515.526pt>
 File: images/captures/capturesadmin/tache.png Graphic file (type png)
 <use images/captures/capturesadmin/tache.png>
 Package pdftex.def Info: images/captures/capturesadmin/tache.png  used on input
  line 730.
 (pdftex.def)             Requested size: 426.78587pt x 253.51457pt.
- [60 <./images/captures/capturesadmin/login.png> <./images/captures/capturesadm
+ [58 <./images/captures/capturesadmin/login.png> <./images/captures/capturesadm
 in/bpmn.png>]
 <images/captures/capturesadmin/HTache.png, id=484, 1146.684pt x 528.17325pt>
 File: images/captures/capturesadmin/HTache.png Graphic file (type png)
@@ -2272,7 +2248,7 @@ ut line 749.
 
 Underfull \vbox (badness 1057) has occurred while \output is active []
 
- [61 <./images/captures/capturesadmin/tache.png> <./images/captures/capturesadm
+ [59 <./images/captures/capturesadmin/tache.png> <./images/captures/capturesadm
 in/HTache.png>]
 <images/captures/capturesadmin/user.png, id=491, 1153.911pt x 536.60475pt>
 File: images/captures/capturesadmin/user.png Graphic file (type png)
@@ -2286,7 +2262,7 @@ File: images/captures/capturesadmin/dossier.png Graphic file (type png)
 Package pdftex.def Info: images/captures/capturesadmin/dossier.png  used on inp
 ut line 773.
 (pdftex.def)             Requested size: 426.79134pt x 202.14905pt.
- [62 <./images/captures/capturesadmin/service.png> <./images/captures/capturesa
+ [60 <./images/captures/capturesadmin/service.png> <./images/captures/capturesa
 dmin/user.png>]
 <images/captures/capturesadmin/historique.png, id=498, 1144.275pt x 533.5935pt>
 
@@ -2304,7 +2280,7 @@ ine 794.
 
 Underfull \vbox (badness 3646) has occurred while \output is active []
 
- [63 <./images/captures/capturesadmin/dossier.png> <./images/captures/capturesa
+ [61 <./images/captures/capturesadmin/dossier.png> <./images/captures/capturesa
 dmin/historique.png>]
 <images/captures/capturesuser/adddossier.png, id=506, 1144.275pt x 524.55975pt>
 
@@ -2322,7 +2298,7 @@ t line 818.
 
 Underfull \vbox (badness 1122) has occurred while \output is active []
 
- [64 <./images/captures/capturesuser/home.png> <./images/captures/capturesuser/
+ [62 <./images/captures/capturesuser/home.png> <./images/captures/capturesuser/
 adddossier.png>]
 <images/captures/capturesuser/bord.png, id=513, 1145.4795pt x 542.62724pt>
 File: images/captures/capturesuser/bord.png Graphic file (type png)
@@ -2330,8 +2306,8 @@ File: images/captures/capturesuser/bord.png Graphic file (type png)
 Package pdftex.def Info: images/captures/capturesuser/bord.png  used on input l
 ine 830.
 (pdftex.def)             Requested size: 426.79134pt x 202.1765pt.
-) (Conclusion.tex [65 <./images/captures/capturesuser/dossier.png> <./images/ca
-ptures/capturesuser/bord.png>]) [66
+) (Conclusion.tex [63 <./images/captures/capturesuser/dossier.png> <./images/ca
+ptures/capturesuser/bord.png>]) [64
 
 ]
 LaTeX Font Info:    Try loading font information for T1+zi4 on input line 248.
@@ -2349,7 +2325,7 @@ t Spe-ci-fi-ca-tions Do-cu-ment\T1/cmr/m/n/12 . \T1/cmr/m/sc/12 url \T1/cmr/m/n
 /12 : $\T1/zi4/m/n/12 http : / / www . inconcert .
  []
 
-[67
+[65
 
 ]
 Overfull \hbox (5.82303pt too wide) in paragraph at lines 249--249
@@ -2358,7 +2334,7 @@ cts do-cu-men-ta-tion\T1/cmr/m/n/12 . \T1/cmr/m/sc/12 url \T1/cmr/m/n/12 : $\T1
 /zi4/m/n/12 https : / / spring . io / projects/$\T1/cmr/m/n/12 . 
  []
 
-[68]
+[66]
 \openout2 = `Annexes.aux'.
 
  (Annexes.tex
@@ -2584,13 +2560,13 @@ pagedegarde.pdf    Graphic file (type pdf)
 Dédicace.tex
 Remerciements.tex
   Résumé.tex
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
 Abstrait.tex
 molakass.pdf    Graphic file (type pdf)
 molakass.pdf    Graphic file (type pdf)
 molakass.pdf    Graphic file (type pdf)
 molakass.pdf    Graphic file (type pdf)
-    umsa.fd    2013/01/14 v3.01 AMS symbols A
-    umsb.fd    2013/01/14 v3.01 AMS symbols B
 abbreviations.tex
 Introduction.tex
     ch01.pdf    Graphic file (type pdf)
@@ -2667,13 +2643,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25915 strings out of 492946
- 425909 string characters out of 3125822
- 961018 words of memory out of 3000000
- 29195 multiletter control sequences out of 15000+200000
- 26694 words of font info for 53 fonts, out of 3000000 for 9000
+ 25926 strings out of 492946
+ 426060 string characters out of 3125822
+ 959938 words of memory out of 3000000
+ 29206 multiletter control sequences out of 15000+200000
+ 29293 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,20n,92p,2003b,3304s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,20n,92p,2003b,3303s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/inconsolat
 a/i4-t1-0.enc} <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
 en/ec/dpi600\ecrm1095.pk> <C:\Users\djamel\AppData\Local\MiKTeX\2.9\fonts/pk/lj
@@ -2703,9 +2679,9 @@ onts/cm/cmmi8.pfb><C:/Users/djamel/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 .9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/djamel/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/djamel/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (92 pages, 7562604 bytes).
+Output written on main.pdf (92 pages, 7577394 bytes).
 PDF statistics:
- 1349 PDF objects out of 1440 (max. 8388607)
+ 1346 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  366 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -29,8 +29,13 @@
     \strng{namehash}{AM1}
     \strng{fullhash}{AM1}
     \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{year}
     \field{sortinit}{A}
     \field{sortinithash}{A}
+    \field{title}{management collectif de l’information}
+    \field{year}{1996}
   \endentry
 
   \entry{belounnar2011approche}{thesis}{}

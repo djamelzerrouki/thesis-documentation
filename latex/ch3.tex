@@ -28,7 +28,7 @@ Dans cette démarche, les diagrammes UML utilisés sont les suivants : Diagramme
  
   \begin{itemize}
  	\item \textbf{Diagramme de cas d’utilisation (Use Case Diagram) : } pour décrire les besoins des utilisateurs. 
- 	\item  \textbf{Diagramme de séquence(Sequence Diagram):}  décrit comment chaque objet interagit avec l’autre et dans quel ordre, sur un axe temporel donné. Ce diagramme sont associés aux diagrammes de cas d’utilisation.
+ 	\item  \textbf{Diagramme de séquence(Sequence Diagram):}  décrit comment chaque objet interagit avec l’autre et dans quel ordre, sur un axe temporel donné. Ce diagramme est associé aux diagrammes de cas d’utilisation.
  	. 
  \end{itemize}
 
@@ -127,14 +127,14 @@ Un acteur représente l'abstraction d'un rôle joué par des entités externes (
 	 	&  & Gérer les Services \\ \cline{3-3} 	
 	 	&  & Gérer les Tâches \\ \cline{3-3} 
  
-		& Acteur Principale & Gérer   le Workflow   \\ \cline{3-3} 
+		& Acteur Principal & Gérer   le Workflow   \\ \cline{3-3} 
 				&  &Consulter les bordereaux   \\ \cline{3-3} 
 						&  &Consulter les historiques des dossiers\\ \cline{3-3} 
 								&  & Gérer les Utilisateurs \\ \hline 
 		
   
 			Utilisateur réception	 	&Acteur Principal & Créer et Gérer les dossiers  \\ \cline{3-3}  
-		&  & Activé les dossiers et ajoute sur wf \\ \hline
+		&  & Activer les dossiers et les ajouter sur wf \\ \hline
  
 		Utilisateur Simple	&  & finir le traitement de dossier  \\ \cline{3-3} 
 		&  Acteur Principal& Gérer les bordereaux  \\ \cline{3-3} 
@@ -233,7 +233,7 @@ Nous détaillerons chaque cas d'utilisation avec une description brève et spéc
 		\textbf{Acteurs secondaires :}  \\ \hline
 		\textbf{Pré-conditions :} L'administrateur doit être connecté  \\ \hline
 		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :}L'administrateur crée un nouveau service au\\ système et peut le modifier.  \end{tabular} \\ \hline
-		\textbf{Post-conditions : } le service ajouté sur  la base de donnée (BDD) \\ \hline
+		\textbf{Post-conditions : } le service est ajouté sur  la base de donnée (BDD) \\ \hline
 		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : }    \\\end{tabular} \\ \hline
 	\end{tabular}
 \end{table}
@@ -286,7 +286,7 @@ Nous détaillerons chaque cas d'utilisation avec une description brève et spéc
 
 
  \subsubsection{Cas d'utilisation par l'utilisateur réception   }
-L'utilisateur de réception fait deux rôles principal : la création et l'activation des dossiers.
+L'utilisateur de réception a deux rôles principaux : la création et l'activation des dossiers.
   \subsubsection{Créer Dossiers}
  \begin{table}[H]
  	\begin{tabular}{|l|}
@@ -324,7 +324,7 @@ L'utilisateur de réception fait deux rôles principal : la création et l'activ
 		\textbf{Acteurs secondaires :} simple utilisateur \\ \hline
 		\textbf{Pré-conditions :} Le dossier  doit être enregistré dans le système.\\ \hline
 		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement principal :} \\ 1.   L’utilisateur sélectionne   la liste des dossiers. \\2.      système répond à l’utilisateur en affichant les listes des dossiers \\ \{"toute la liste","liste activée ","liste non activée"\}. \\3.       L’utilisateur sélectionne le dossier \\ 4. le système  répond à l’utilisateur en affichant le détail, et après\\  en appuyant sur "Activer".\\5. le système vérifie ID "code" de dossier et active leur état \end{tabular} \\ \hline
-		\textbf{Post-conditions : }le dossier  est activé dans la premier tâche.  \\ \hline
+		\textbf{Post-conditions : }le dossier  est activé dans la première tâche.  \\ \hline
 		\begin{tabular}[c]{@{}l@{}}\textbf{Enchainement alternatif : } \end{tabular} \\ \hline
 	\end{tabular}
 \end{table}
@@ -332,7 +332,7 @@ L'utilisateur de réception fait deux rôles principal : la création et l'activ
 
 
 \subsubsection{Cas d'utilisation par l'utilisateur simple  }
-l'utilisateur fait un rôle principal : consulter l'état du dossier pour finir le traitement créer des bordereaux pour transférer les dossiers (imprimer et refuser ou accepter les bordereaux).
+l'utilisateur a un rôle principal : consulter l'état du dossier pour finir le traitement créer des bordereaux pour transférer les dossiers (imprimer et refuser ou accepter les bordereaux).
  
  
 \subsubsection{Consulter l'état des Dossiers}

@@ -5,11 +5,10 @@ A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Annexes.aux
 Database file #1: main-blx.bib
 Database file #2: references.bib
-Warning--string name "management" is undefined
---line 214 of file references.bib
-I was expecting a `,' or a `}'---line 214 of file references.bib
- :  title = management 
- :                     collectif de l’information",
+I was expecting a `,' or a `}'---line 209 of file references.bib
+ :  
+ :  0
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Biblatex version: 3.11
 Too many commas in name 1 of "Ried, S., Lisserman, H., Matzke, P., Bartels, A. and Kisker" for entry Ried
